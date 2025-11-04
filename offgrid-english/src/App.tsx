@@ -10,15 +10,15 @@ import { calculateModuleProgress } from './services/progressTracking';
 export const APP_VERSION = '2.0.0';
 
 const MODULES = [
-  { id: 'tense-form', name: 'Tense & Form', items: 50, icon: '⏰', color: 'from-green-400 to-green-500' },
-  { id: 'subject-verb-agreement', name: 'Subject-Verb', items: 40, icon: '🤝', color: 'from-emerald-400 to-emerald-500' },
-  { id: 'prepositions', name: 'Prepositions', items: 30, icon: '📍', color: 'from-lime-400 to-lime-500' },
-  { id: 'word-order', name: 'Word Order', items: 30, icon: '🔤', color: 'from-yellow-400 to-yellow-500' },
-  { id: 'plurality', name: 'Plurality', items: 20, icon: '👥', color: 'from-amber-400 to-amber-500' },
-  { id: 'articles', name: 'Articles', items: 20, icon: '📰', color: 'from-orange-400 to-orange-500' },
-  { id: 'auxiliaries', name: 'Auxiliaries', items: 20, icon: '🔧', color: 'from-green-500 to-emerald-500' },
-  { id: 'cameroonian-scenarios', name: 'Real Scenarios', items: 69, icon: '🏪', color: 'from-yellow-500 to-amber-500' },
-  { id: 'false-cognates', name: 'False Friends', items: 50, icon: '🔄', color: 'from-lime-500 to-green-500' },
+  { id: 'tense-form', name: 'Tense & Form', items: 50, icon: '⏰', color: 'from-orange-400 to-orange-500' },
+  { id: 'subject-verb-agreement', name: 'Subject-Verb', items: 40, icon: '🤝', color: 'from-orange-500 to-orange-600' },
+  { id: 'prepositions', name: 'Prepositions', items: 30, icon: '📍', color: 'from-amber-400 to-amber-500' },
+  { id: 'word-order', name: 'Word Order', items: 30, icon: '🔤', color: 'from-orange-400 to-amber-500' },
+  { id: 'plurality', name: 'Plurality', items: 20, icon: '👥', color: 'from-amber-500 to-orange-500' },
+  { id: 'articles', name: 'Articles', items: 20, icon: '📰', color: 'from-orange-500 to-amber-600' },
+  { id: 'auxiliaries', name: 'Auxiliaries', items: 20, icon: '🔧', color: 'from-amber-400 to-orange-400' },
+  { id: 'cameroonian-scenarios', name: 'Real Scenarios', items: 69, icon: '🏪', color: 'from-orange-600 to-amber-600' },
+  { id: 'false-cognates', name: 'False Friends', items: 50, icon: '🔄', color: 'from-amber-500 to-orange-600' },
 ];
 
 interface ModuleProgress {
@@ -65,8 +65,8 @@ export default function App() {
       <PWAInstallPrompt />
       <OfflineIndicator />
 
-      {/* Duolingo-style Background */}
-      <div className="min-h-screen bg-white dark:bg-gray-900">
+      {/* Warm Background */}
+      <div className="min-h-screen bg-amber-50 dark:bg-gray-900">
 
         {/* Top Header - Duolingo Style */}
         <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b-2 border-gray-200 dark:border-gray-800 shadow-sm">
@@ -156,7 +156,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.02, y: -4 }}
               whileTap={{ scale: 0.98 }}
-              className="mb-8 bg-gradient-to-r from-green-500 via-emerald-500 to-lime-500 rounded-3xl p-8 text-white shadow-xl cursor-pointer relative overflow-hidden"
+              className="mb-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl p-8 text-white shadow-xl cursor-pointer relative overflow-hidden"
             >
               <motion.div
                 animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.1, 1] }}
@@ -175,12 +175,12 @@ export default function App() {
                 </motion.div>
                 <h3 className="text-2xl font-black mb-2">Smart Practice</h3>
                 <p className="text-white/90 mb-4 max-w-xl">
-                  AI-powered lessons focused on your weakest areas. Get personalized practice in just 5 minutes!
+                  Smart practice that adapts to you 🎯
                 </p>
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="inline-flex items-center gap-2 bg-white text-green-600 px-6 py-3 rounded-2xl font-black shadow-lg"
+                  className="inline-flex items-center gap-2 bg-white text-orange-600 px-6 py-3 rounded-2xl font-black shadow-lg"
                 >
                   <span>Start Lesson</span>
                   <motion.span
@@ -197,15 +197,15 @@ export default function App() {
           {/* Learning Path Title */}
           <div className="mb-6">
             <h3 className="text-2xl font-black text-gray-900 dark:text-gray-100">
-              Your Learning Path
+              Grammar Topics
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Complete lessons to unlock new topics
+              Pick one to practice 👇
             </p>
           </div>
 
-          {/* Learning Path - Duolingo Style Vertical Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          {/* Learning Path - Card Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
             {MODULES.map((module, idx) => {
               const progress = moduleProgress[module.id];
               const completion = progress?.completion || 0;
@@ -228,8 +228,8 @@ export default function App() {
                       isLocked
                         ? 'border-gray-300 dark:border-gray-700 opacity-60'
                         : isComplete
-                        ? 'border-yellow-400 dark:border-yellow-600 animate-pulse'
-                        : 'border-gray-200 dark:border-gray-700 hover:shadow-2xl hover:border-green-300'
+                        ? 'border-green-500 dark:border-green-600'
+                        : 'border-gray-200 dark:border-gray-700 hover:shadow-2xl hover:border-orange-300'
                     }`}
                   >
                     {/* Completion Badge */}
@@ -238,7 +238,7 @@ export default function App() {
                         initial={{ scale: 0, rotate: -180 }}
                         animate={{ scale: 1, rotate: 0 }}
                         transition={{ type: 'spring', stiffness: 260, damping: 20, delay: idx * 0.05 + 0.3 }}
-                        className="absolute -top-3 -right-3 bg-gradient-to-br from-yellow-400 to-yellow-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-xl border-4 border-white dark:border-gray-900"
+                        className="absolute -top-3 -right-3 bg-gradient-to-br from-green-500 to-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-xl border-4 border-white dark:border-gray-900"
                       >
                         <motion.span
                           animate={{ scale: [1, 1.2, 1] }}
@@ -284,8 +284,8 @@ export default function App() {
                         <span className="text-gray-500 dark:text-gray-400">Progress</span>
                         <span className={`${
                           isComplete
-                            ? 'text-yellow-600 dark:text-yellow-400'
-                            : 'text-green-600 dark:text-green-400'
+                            ? 'text-green-600 dark:text-green-400'
+                            : 'text-orange-600 dark:text-orange-400'
                         }`}>
                           {completion}%
                         </span>
@@ -297,8 +297,8 @@ export default function App() {
                           transition={{ duration: 1, ease: 'easeOut' }}
                           className={`h-3 rounded-full ${
                             isComplete
-                              ? 'bg-gradient-to-r from-yellow-400 to-yellow-500'
-                              : 'bg-gradient-to-r from-green-400 to-green-500'
+                              ? 'bg-gradient-to-r from-green-500 to-green-600'
+                              : 'bg-gradient-to-r from-orange-500 to-orange-600'
                           }`}
                         />
                       </div>
@@ -308,8 +308,8 @@ export default function App() {
                     {!isLocked && (
                       <div className={`w-full py-3 rounded-2xl font-black text-center transition-colors ${
                         isComplete
-                          ? 'bg-yellow-400 hover:bg-yellow-500 text-white'
-                          : 'bg-green-500 hover:bg-green-600 text-white'
+                          ? 'bg-green-500 hover:bg-green-600 text-white'
+                          : 'bg-orange-500 hover:bg-orange-600 text-white'
                       }`}>
                         {isComplete ? 'REVIEW' : completion > 0 ? 'CONTINUE' : 'START'}
                       </div>
@@ -326,7 +326,7 @@ export default function App() {
             })}
           </div>
 
-          {/* Quick Actions - Duolingo Style */}
+          {/* Quick Actions */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <Link to="/review">
               <motion.div
@@ -335,7 +335,7 @@ export default function App() {
                 transition={{ delay: 0.1 }}
                 whileHover={{ scale: 1.05, y: -4 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-orange-100 dark:bg-orange-900/30 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-orange-200 dark:border-orange-800"
+                className="bg-white dark:bg-gray-800 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-gray-200 dark:border-gray-700"
               >
                 <motion.div
                   whileHover={{ rotate: [0, -10, 10, 0] }}
@@ -343,7 +343,7 @@ export default function App() {
                 >
                   📖
                 </motion.div>
-                <h4 className="font-black text-orange-700 dark:text-orange-300 text-sm">REVIEW</h4>
+                <h4 className="font-black text-gray-700 dark:text-gray-300 text-sm">REVIEW</h4>
               </motion.div>
             </Link>
 
@@ -354,7 +354,7 @@ export default function App() {
                 transition={{ delay: 0.2 }}
                 whileHover={{ scale: 1.05, y: -4 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-yellow-100 dark:bg-yellow-900/30 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-yellow-200 dark:border-yellow-800"
+                className="bg-white dark:bg-gray-800 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-gray-200 dark:border-gray-700"
               >
                 <motion.div
                   whileHover={{ rotate: [0, -10, 10, 0] }}
@@ -362,7 +362,7 @@ export default function App() {
                 >
                   ⚡
                 </motion.div>
-                <h4 className="font-black text-yellow-700 dark:text-yellow-300 text-sm">CHALLENGE</h4>
+                <h4 className="font-black text-gray-700 dark:text-gray-300 text-sm">CHALLENGE</h4>
               </motion.div>
             </Link>
 
@@ -373,7 +373,7 @@ export default function App() {
                 transition={{ delay: 0.3 }}
                 whileHover={{ scale: 1.05, y: -4 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-amber-100 dark:bg-amber-900/30 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-amber-200 dark:border-amber-800"
+                className="bg-white dark:bg-gray-800 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-gray-200 dark:border-gray-700"
               >
                 <motion.div
                   whileHover={{ scale: [1, 1.2, 1] }}
@@ -382,7 +382,7 @@ export default function App() {
                 >
                   🏆
                 </motion.div>
-                <h4 className="font-black text-amber-700 dark:text-amber-300 text-sm">TROPHIES</h4>
+                <h4 className="font-black text-gray-700 dark:text-gray-300 text-sm">TROPHIES</h4>
               </motion.div>
             </Link>
 
@@ -393,7 +393,7 @@ export default function App() {
                 transition={{ delay: 0.4 }}
                 whileHover={{ scale: 1.05, y: -4 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-green-100 dark:bg-green-900/30 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-green-200 dark:border-green-800"
+                className="bg-white dark:bg-gray-800 rounded-3xl p-6 text-center hover:shadow-xl transition-shadow border-2 border-gray-200 dark:border-gray-700"
               >
                 <motion.div
                   whileHover={{ rotate: [0, -10, 10, 0] }}
@@ -401,7 +401,7 @@ export default function App() {
                 >
                   📊
                 </motion.div>
-                <h4 className="font-black text-green-700 dark:text-green-300 text-sm">PROGRESS</h4>
+                <h4 className="font-black text-gray-700 dark:text-gray-300 text-sm">PROGRESS</h4>
               </motion.div>
             </Link>
           </div>
@@ -411,7 +411,7 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="bg-gradient-to-r from-green-50 via-lime-50 to-yellow-50 dark:from-green-900/20 dark:via-lime-900/20 dark:to-yellow-900/20 rounded-3xl p-8 border-2 border-green-200 dark:border-green-800 shadow-lg"
+            className="bg-white dark:bg-gray-800 rounded-3xl p-8 border-2 border-gray-200 dark:border-gray-700 shadow-lg"
           >
             <h3 className="text-2xl font-black text-gray-900 dark:text-gray-100 mb-6">
               Your Stats
@@ -425,7 +425,7 @@ export default function App() {
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.6, type: 'spring' }}
-                  className="text-4xl font-black text-green-600 dark:text-green-400 mb-1"
+                  className="text-4xl font-black text-gray-900 dark:text-gray-100 mb-1"
                 >
                   {MODULES.length}
                 </motion.div>
@@ -439,7 +439,7 @@ export default function App() {
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.7, type: 'spring' }}
-                  className="text-4xl font-black text-lime-600 dark:text-lime-400 mb-1"
+                  className="text-4xl font-black text-gray-900 dark:text-gray-100 mb-1"
                 >
                   329
                 </motion.div>
@@ -467,7 +467,7 @@ export default function App() {
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.9, type: 'spring' }}
-                  className="text-4xl font-black text-yellow-600 dark:text-yellow-400 mb-1"
+                  className="text-4xl font-black text-orange-600 dark:text-orange-400 mb-1"
                 >
                   {totalXP}
                 </motion.div>

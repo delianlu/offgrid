@@ -60,12 +60,12 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ id, name, items }) => {
         relative overflow-hidden group
         ${isLocked ? 'bg-gray-50/80 dark:bg-gray-800/50' : 'backdrop-blur-xl bg-white/90 dark:bg-gray-800/90'}
         rounded-3xl shadow-2xl p-7 border border-gray-200/50 dark:border-gray-700/50
-        ${!isLocked && 'hover:shadow-purple-500/20 hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 cursor-pointer'}
+        ${!isLocked && 'hover:shadow-orange-500/20 hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 cursor-pointer'}
         ${isLocked && 'opacity-60'}
       `}
     >
       {/* Gradient accent bar */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-400 via-orange-500 to-amber-500"></div>
 
       {/* Badge */}
       <div className="absolute top-5 right-5 z-10">
@@ -103,10 +103,10 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ id, name, items }) => {
               animate={{ strokeDashoffset }}
               transition={{ duration: 1, ease: 'easeOut' }}
               className={
-                progress.badge === 'complete' ? 'text-purple-500' :
-                progress.badge === 'mastered' ? 'text-yellow-500' :
-                progress.badge === 'practicing' ? 'text-green-500' :
-                progress.badge === 'learning' ? 'text-blue-500' :
+                progress.badge === 'complete' ? 'text-green-500' :
+                progress.badge === 'mastered' ? 'text-green-600' :
+                progress.badge === 'practicing' ? 'text-orange-500' :
+                progress.badge === 'learning' ? 'text-orange-400' :
                 'text-gray-400'
               }
               strokeLinecap="round"
@@ -136,9 +136,9 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ id, name, items }) => {
                   {progress.formAProgress}%
                 </span>
               </div>
-              <div className="backdrop-blur-sm bg-purple-50/80 dark:bg-purple-900/20 px-3 py-1.5 rounded-lg border border-purple-200 dark:border-purple-800">
-                <span className="text-purple-700 dark:text-purple-400 font-bold">Phase 3: </span>
-                <span className={progress.isFormBComplete ? 'text-purple-700 dark:text-purple-400 font-black' : 'text-gray-600 dark:text-gray-400 font-semibold'}>
+              <div className="backdrop-blur-sm bg-amber-50/80 dark:bg-amber-900/20 px-3 py-1.5 rounded-lg border border-amber-200 dark:border-amber-800">
+                <span className="text-amber-700 dark:text-amber-400 font-bold">Phase 3: </span>
+                <span className={progress.isFormBComplete ? 'text-amber-700 dark:text-amber-400 font-black' : 'text-gray-600 dark:text-gray-400 font-semibold'}>
                   {progress.isFormBUnlocked ? `${progress.formBProgress}%` : '🔒'}
                 </span>
               </div>
@@ -155,10 +155,10 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ id, name, items }) => {
             animate={{ width: `${progress.overallCompletion}%` }}
             transition={{ duration: 1, ease: 'easeOut' }}
             className={`h-3 rounded-full shadow-lg ${
-              progress.badge === 'complete' ? 'bg-gradient-to-r from-purple-500 to-purple-600' :
-              progress.badge === 'mastered' ? 'bg-gradient-to-r from-yellow-500 to-yellow-600' :
-              progress.badge === 'practicing' ? 'bg-gradient-to-r from-green-500 to-green-600' :
-              progress.badge === 'learning' ? 'bg-gradient-to-r from-blue-500 to-blue-600' :
+              progress.badge === 'complete' ? 'bg-gradient-to-r from-green-500 to-green-600' :
+              progress.badge === 'mastered' ? 'bg-gradient-to-r from-green-500 to-green-600' :
+              progress.badge === 'practicing' ? 'bg-gradient-to-r from-orange-500 to-orange-600' :
+              progress.badge === 'learning' ? 'bg-gradient-to-r from-orange-400 to-orange-500' :
               'bg-gradient-to-r from-gray-400 to-gray-500'
             }`}
           />
@@ -168,10 +168,10 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ id, name, items }) => {
       {/* Bottom Status Text */}
       <div className="flex justify-between items-center text-sm">
         <span className={`font-black ${
-          progress.badge === 'complete' ? 'text-purple-600 dark:text-purple-400' :
-          progress.badge === 'mastered' ? 'text-yellow-600 dark:text-yellow-400' :
-          progress.badge === 'practicing' ? 'text-green-600 dark:text-green-400' :
-          progress.badge === 'learning' ? 'text-blue-600 dark:text-blue-400' :
+          progress.badge === 'complete' ? 'text-green-600 dark:text-green-400' :
+          progress.badge === 'mastered' ? 'text-green-600 dark:text-green-400' :
+          progress.badge === 'practicing' ? 'text-orange-600 dark:text-orange-400' :
+          progress.badge === 'learning' ? 'text-orange-600 dark:text-orange-400' :
           'text-gray-500'
         }`}>
           {progress.overallCompletion}% Complete
