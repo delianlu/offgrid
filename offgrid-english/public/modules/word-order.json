@@ -1,0 +1,697 @@
+{
+  "id": "word-order",
+  "name": "Word Order",
+  "category": "wordorder",
+  "moduleIntroduction": "Welcome! This lesson is about Word Order, which is the way we arrange words to make a correct sentence. English and French are \"Subject-Verb-Object\" (SVO) languages (e.g., \"Ngono eats rice\"), so the basic order is similar. But the details are very different, and this is where mistakes happen.\n\nWhy is this difficult? Because French places words like adjectives and adverbs in different positions. In French, you say \"une voiture rouge\" (a car red), but in English, you must say \"a red car\". Also, English needs auxiliary verbs (like 'do' or 'are') to form questions and negatives in a way that French does not. This module will teach you the correct English patterns.",
+  "contrastiveExplanation": "Let's look at the four main areas where French and English word order is different.\n\nAdjective Placement:\n\nThe Rule: In English, adjectives almost always come before the noun they describe.\n\nExample: We say \"a beautiful day\", \"a tall man\", \"the black shoes\".\n\nFrench Connection: In French, most adjectives (especially for color, shape, and nationality) come after the noun.\n\nExample: \"un jour magnifique\", \"un homme grand\", \"les chaussures noires\".\n\nThe Error: Students translate directly: ❌ \"I have a car red.\" ➡️ ✅ \"I have a red car.\"\n\nTip: Just remember: Adjective ➡️ Noun. (The describing word comes first).\n\nAdverb Position:\n\nThe Rule: This is flexible, but adverbs of frequency (like always, often, sometimes, never) usually go before the main verb, but after the verb 'to be' (am, is, are).\n\nExamples: \"He often plays football.\" / \"He is often late.\"\n\nFrench Connection: In French, these adverbs usually come after the verb.\n\nExample: \"Il joue souvent au football.\"\n\nThe Error: Students translate directly: ❌ \"I go always to the market.\" ➡️ ✅ \"I always go to the market.\"\n\nQuestion Formation:\n\nThe Rule: English must use an auxiliary (helper) verb (like Do, Does, Did, Are, Is, Will, Can) and invert it with the subject. The pattern is (Question Word) + Auxiliary + Subject + Verb.\n\nExamples: \"Do you like...?\", \"Are you...?\", \"Where did he go...?\"\n\nFrench Connection: French has options:\n\n• \"Est-ce que...\" (This is a fixed phrase, not an inversion).\n• Inversion: \"Aimes-tu...?\" (This is similar, but English inverts the auxiliary, not the main verb).\n• Rising intonation: \"Tu aimes...?\" (This is very common in spoken French but is not correct grammar in English questions).\n\nThe Error: Students use the French spoken style: ❌ \"You are going to school?\" ➡️ ✅ \"Are you going to school?\"\n\nNegative Sentences:\n\nThe Rule: English must use an auxiliary verb + not.\n\nExamples: \"I do not (don't) like...\", \"He does not (doesn't) know...\", \"They are not (aren't) ready.\"\n\nFrench Connection: French uses the \"ne...pas\" structure around the verb.\n\nExample: \"Je ne sais pas.\"\n\nThe Error: Students forget the auxiliary 'do/does' and just add 'not': ❌ \"I like not fufu.\" ➡️ ✅ \"I do not like fufu.\"",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Adjective Placement",
+      "wrong": "She is wearing a dress green.",
+      "correct": "She is wearing a green dress.",
+      "frenchConnection": "French puts colors after the noun (\"une robe verte\")."
+    },
+    {
+      "number": 2,
+      "subTopic": "Adjective Placement",
+      "wrong": "Mr. Foncha is a teacher very good.",
+      "correct": "Mr. Foncha is a very good teacher.",
+      "frenchConnection": "\"Un professeur très bon.\" English adjectives (good) and their modifiers (very) both come before the noun (teacher)."
+    },
+    {
+      "number": 3,
+      "subTopic": "Adjective Placement",
+      "wrong": "I bought mangoes ripe at the market.",
+      "correct": "I bought ripe mangoes at the market.",
+      "frenchConnection": "\"des mangues mûres.\" The adjective comes after the noun."
+    },
+    {
+      "number": 4,
+      "subTopic": "Adverb Position",
+      "wrong": "My father goes always to church on Sunday.",
+      "correct": "My father always goes to church on Sunday.",
+      "frenchConnection": "French \"Mon père va toujours...\" places the adverb 'toujours' (always) after the verb 'va' (goes)."
+    },
+    {
+      "number": 5,
+      "subTopic": "Adverb Position",
+      "wrong": "I understand sometimes the lesson.",
+      "correct": "I sometimes understand the lesson.",
+      "frenchConnection": "\"Je comprends parfois...\" places the adverb 'parfois' (sometimes) after the verb."
+    },
+    {
+      "number": 6,
+      "subTopic": "Adverb Position",
+      "wrong": "He never is at home.",
+      "correct": "He is never at home.",
+      "frenchConnection": "The rule is: Adverb comes after 'to be'. French \"Il n'est jamais...\" places it around the verb, which can be confusing."
+    },
+    {
+      "number": 7,
+      "subTopic": "Question Formation",
+      "wrong": "You like ndolé? (with rising voice)",
+      "correct": "Do you like ndolé?",
+      "frenchConnection": "This is a direct translation of the informal French question \"Tu aimes le ndolé ?\". English must use the auxiliary 'Do'."
+    },
+    {
+      "number": 8,
+      "subTopic": "Question Formation",
+      "wrong": "Why she is crying?",
+      "correct": "Why is she crying?",
+      "frenchConnection": "\"Pourquoi elle pleure ?\" or \"Pourquoi est-ce qu'elle pleure ?\". The subject-verb order is not inverted. English must invert the subject ('she') and the auxiliary ('is')."
+    },
+    {
+      "number": 9,
+      "subTopic": "Question Formation",
+      "wrong": "Where you went yesterday?",
+      "correct": "Where did you go yesterday?",
+      "frenchConnection": "\"Où tu es allé... ?\". Students forget the past simple auxiliary 'did' and fail to invert."
+    },
+    {
+      "number": 10,
+      "subTopic": "Question Formation",
+      "wrong": "He has a phone?",
+      "correct": "Does he have a phone?",
+      "frenchConnection": "\"Il a un téléphone ?\". English must use 'Does' for a present simple question with 'he'."
+    },
+    {
+      "number": 11,
+      "subTopic": "Negative Sentences",
+      "wrong": "I know not the answer.",
+      "correct": "I do not (don't) know the answer.",
+      "frenchConnection": "Direct translation of \"Je ne sais pas...\", placing 'not' after the verb. English must use the auxiliary 'do'."
+    },
+    {
+      "number": 12,
+      "subTopic": "Negative Sentences",
+      "wrong": "Ngono likes not to wash plates.",
+      "correct": "Ngono does not (doesn't) like to wash plates.",
+      "frenchConnection": "\"Ngono n'aime pas...\". Because Ngono is 'she', the auxiliary must be 'does'."
+    },
+    {
+      "number": 13,
+      "subTopic": "Negative Sentences",
+      "wrong": "We go not to the market today.",
+      "correct": "We do not (don't) go to the market today.",
+      "frenchConnection": "\"Nous n'allons pas...\". Students forget the auxiliary 'do' (for present simple) and place 'not' after the verb."
+    },
+    {
+      "number": 14,
+      "subTopic": "Negative Sentences",
+      "wrong": "It rains not in Garoua in December.",
+      "correct": "It does not (doesn't) rain in Garoua in December.",
+      "frenchConnection": "\"Il ne pleut pas...\". The subject 'It' requires the auxiliary 'does'."
+    },
+    {
+      "number": 15,
+      "subTopic": "Negative Sentences",
+      "wrong": "My brother can not to come.",
+      "correct": "My brother cannot (can't) come.",
+      "frenchConnection": "\"Mon frère ne peut pas venir.\" Two errors: 'not' is placed after the modal 'can' (correct), but the infinitive 'to' is added (wrong)."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "word-order-1-A",
+      "moduleId": "word-order",
+      "questionText": "I am looking for my ___.",
+      "type": "multiple_choice",
+      "options": [
+        "shoes black",
+        "black shoes",
+        "shoes blacks"
+      ],
+      "correctAnswer": "black shoes",
+      "feedback": "Good job! In English, the adjective (describing word) 'black' must come before the noun 'shoes'. This is different from French (\"chaussures noires\").",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective placement",
+      "frenchComparison": {
+        "frenchStructure": "\"Je cherche mes chaussures noires.\"\n(In French, descriptive adjectives, especially for color, almost always come *after* the noun.)",
+        "englishStructure": "\"I am looking for my black shoes.\"\n(In English, descriptive adjectives *almost always* come *before* the noun.)",
+        "whyDifficult": "This is a direct, structural habit. French speakers are used to the \"Noun + Adjective\" pattern (\"chaussures noires\") and translate it directly, resulting in the classic \"shoes black\" error.",
+        "visualHighlighting": {
+          "incorrect": "I am looking for my *shoes black*.",
+          "correct": "I am looking for my *black shoes*."
+        }
+      }
+    },
+    {
+      "id": "word-order-2-A",
+      "moduleId": "word-order",
+      "questionText": "Biya is a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "student very intelligent",
+        "very intelligent student",
+        "student intelligent very"
+      ],
+      "correctAnswer": "very intelligent student",
+      "feedback": "That's right. The adjective 'intelligent' and its modifier 'very' both come before the noun 'student'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective placement"
+    },
+    {
+      "id": "word-order-3-A",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"Our new teacher is a woman tall.\"",
+      "type": "error_correction",
+      "options": [
+        "Our new teacher",
+        "is a",
+        "woman tall",
+        "No error"
+      ],
+      "correctAnswer": "woman tall",
+      "feedback": "You found it! The adjective 'tall' must come before the noun 'woman'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "tall woman",
+      "subTopic": "Adjective placement"
+    },
+    {
+      "id": "word-order-4-A",
+      "moduleId": "word-order",
+      "questionText": "My mother ___ to the market on Saturdays.",
+      "type": "multiple_choice",
+      "options": [
+        "goes always",
+        "always goes",
+        "is always going"
+      ],
+      "correctAnswer": "always goes",
+      "feedback": "Correct! Adverbs of frequency (like 'always', 'often') go before the main verb ('goes'). In French, you say \"va toujours\", but in English, it's \"always goes\".",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adverb position",
+      "frenchComparison": {
+        "frenchStructure": "\"Ma mère va toujours au marché le samedi.\"\n(In French, adverbs of frequency like \"toujours\" (always) or \"souvent\" (often) typically come *after* the verb they modify: \"va toujours\".)",
+        "englishStructure": "\"My mother always goes to the market on Saturdays.\"\n(In English, these adverbs *almost always* come *before* the main verb: \"always goes\".)",
+        "whyDifficult": "This is another direct translation of sentence structure. The French \"verb + adverb\" order is applied to English, creating the \"goes always\" error.",
+        "visualHighlighting": {
+          "incorrect": "My mother *goes always* to the market...",
+          "correct": "My mother *always goes* to the market..."
+        }
+      }
+    },
+    {
+      "id": "word-order-5-A",
+      "moduleId": "word-order",
+      "questionText": "The students ___ late for class.",
+      "type": "multiple_choice",
+      "options": [
+        "are never",
+        "never are",
+        "be never"
+      ],
+      "correctAnswer": "are never",
+      "feedback": "Excellent! This is the exception: adverbs of frequency come after the verb 'to be' (am, is, are).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adverb position",
+      "frenchComparison": {
+        "frenchStructure": "\"Les étudiants ne sont jamais en retard...\"\n(In French, \"ne...jamais\" (never) is placed *around* the verb \"sont\" (are).)",
+        "englishStructure": "\"The students are never late for class.\"\n(This is the main exception to the previous rule: adverbs of frequency come *after* the verb \"to be\" (am, is, are, was, were).)",
+        "whyDifficult": "The English rules for adverbs are confusing. Students learn \"adverb *before* the verb\" (from Q4) and apply it here, saying \"never are\". The \"ne...jamais\" structure in French doesn't help, as it's completely different.",
+        "visualHighlighting": {
+          "incorrect": "The students *never are* late...",
+          "correct": "The students *are never* late..."
+        }
+      }
+    },
+    {
+      "id": "word-order-6-A",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"I understand hardly what he says.\"",
+      "type": "error_correction",
+      "options": [
+        "I understand hardly",
+        "what",
+        "he says",
+        "No error"
+      ],
+      "correctAnswer": "I understand hardly",
+      "feedback": "Good catch! Adverbs like 'hardly' (like 'often' or 'always') usually come before the main verb ('understand').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "I hardly understand",
+      "subTopic": "Adverb position"
+    },
+    {
+      "id": "word-order-7-A",
+      "moduleId": "word-order",
+      "questionText": "___ your homework?",
+      "type": "multiple_choice",
+      "options": [
+        "You finished",
+        "Did you finish",
+        "You did finish"
+      ],
+      "correctAnswer": "Did you finish",
+      "feedback": "Perfect! To ask a question in the Past Simple, you must use the auxiliary 'Did' and invert it: Did + subject (you) + verb (finish).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation",
+      "frenchComparison": {
+        "frenchStructure": "\"Tu as fini tes devoirs ?\" or \"Est-ce que tu as fini... ?\"\n(Spoken French very commonly just raises the intonation of a statement: \"Tu as fini ?\". Or it uses the fixed phrase \"Est-ce que\".)",
+        "englishStructure": "\"Did you finish your homework?\"\n(English *must* use an auxiliary verb (\"Did\" for past simple) and *invert* it with the subject: \"Did you...\".)",
+        "whyDifficult": "The \"statement with rising intonation\" (Tu as fini?) is the most common way to ask a question in spoken French. Students translate this directly, saying \"You finished?\" (like Q10, \"You like?\"). This is a very deep habit that must be broken.",
+        "visualHighlighting": {
+          "incorrect": "You finished your homework?",
+          "correct": "Did you finish your homework?"
+        }
+      }
+    },
+    {
+      "id": "word-order-8-A",
+      "moduleId": "word-order",
+      "questionText": "Where ___ Ngono live?",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "-"
+      ],
+      "correctAnswer": "does",
+      "feedback": "That's it! For a question in the Present Simple about 'Ngono' (she), we must use the auxiliary verb 'Does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation",
+      "frenchComparison": {
+        "frenchStructure": "\"Où est-ce que Ngono habite ?\" or \"Où Ngono habite-t-elle ?\"\n(French either uses \"Est-ce que\" (which requires no inversion) or inverts the main verb and subject: \"habite-t-elle\".)",
+        "englishStructure": "\"Where does Ngono live?\"\n(English *must* use the auxiliary \"do/does\" for a simple present question. The structure is: **Wh-Word + Auxiliary (Does) + Subject (Ngono) + Verb (live)**.)",
+        "whyDifficult": "French *never* uses \"do/does\". Students forget this auxiliary completely and try to invert the main verb (\"Where lives Ngono?\"), which is archaic, or they don't invert at all (\"Where Ngono lives?\"), which is a direct translation of the \"Où est-ce que...\" structure.",
+        "visualHighlighting": {
+          "incorrect": "Where Ngono lives?",
+          "correct": "Where does Ngono live?"
+        }
+      }
+    },
+    {
+      "id": "word-order-9-A",
+      "moduleId": "word-order",
+      "questionText": "___ they coming with us to Bamenda?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Will"
+      ],
+      "correctAnswer": "Are",
+      "feedback": "Correct! The main verb is \"coming\" (-ing). This is Present Continuous, so the auxiliary verb must be 'Are'. We invert it: Are + subject (they) + verb (-ing).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-10-A",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"What you want to eat?\"",
+      "type": "error_correction",
+      "options": [
+        "What",
+        "you want",
+        "to eat",
+        "No error"
+      ],
+      "correctAnswer": "you want",
+      "feedback": "You found it! This is a common error from the French \"Qu'est-ce que tu veux...\". English must use the auxiliary 'do': \"What do you want...\".",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "do you want",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-11-A",
+      "moduleId": "word-order",
+      "questionText": "I ___ like to eat koki.",
+      "type": "multiple_choice",
+      "options": [
+        "not",
+        "no",
+        "do not"
+      ],
+      "correctAnswer": "do not",
+      "feedback": "Yes! To make a negative sentence in the Present Simple, we must use the auxiliary 'do' or 'does' + 'not'. We cannot just say \"I not like...\".",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences",
+      "frenchComparison": {
+        "frenchStructure": "\"Je n'aime pas manger le koki.\"\n(French creates a negative by putting \"ne...pas\" *around* the main verb: \"n'aime pas\".)",
+        "englishStructure": "\"I do not like to eat koki.\"\n(English *must* use the auxiliary verb \"do\" + \"not\" *before* the main verb.)",
+        "whyDifficult": "This is a core structural difference. Because French places \"pas\" (not) *after* the verb, students translate this directly and say, \"I like not...\". They must learn that English *requires* the \"do\" helper verb to form a negative.",
+        "visualHighlighting": {
+          "incorrect": "I *like not*...",
+          "correct": "I *do not like*..."
+        }
+      }
+    },
+    {
+      "id": "word-order-12-A",
+      "moduleId": "word-order",
+      "questionText": "My brother ___ have a bendskin.",
+      "type": "multiple_choice",
+      "options": [
+        "not",
+        "doesn't",
+        "don't"
+      ],
+      "correctAnswer": "doesn't",
+      "feedback": "That's right. The subject is 'My brother' (he). For 'he', 'she', or 'it', the negative auxiliary is 'doesn't' (does not).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-13-A",
+      "moduleId": "word-order",
+      "questionText": "We ___ to school yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "didn't go",
+        "went not",
+        "not went"
+      ],
+      "correctAnswer": "didn't go",
+      "feedback": "Correct! For a negative in the Past Simple ('yesterday'), we must use 'didn't' + base verb ('go').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-14-A",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"My phone works not.\"",
+      "type": "error_correction",
+      "options": [
+        "My phone",
+        "works not",
+        "No error"
+      ],
+      "correctAnswer": "works not",
+      "feedback": "You spotted the mistake! This comes from French \"ne marche pas...\". In English, we must use the auxiliary 'does': \"It does not work\".",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "does not work",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-15-A",
+      "moduleId": "word-order",
+      "questionText": "You ___ be late for assembly.",
+      "type": "multiple_choice",
+      "options": [
+        "must not",
+        "do not must",
+        "must to not"
+      ],
+      "correctAnswer": "must not",
+      "feedback": "Good. With modals (like 'must', 'can', 'should'), we just add 'not' after the modal. We don't use 'do' or 'does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-1-B",
+      "moduleId": "word-order",
+      "questionText": "That is a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "very nice kaba (dress)",
+        "kaba very nice",
+        "nice kaba very"
+      ],
+      "correctAnswer": "very nice kaba (dress)",
+      "feedback": "Good job! In English, the adjective 'nice' and its modifier 'very' both come before the noun 'kaba'. This is different from French.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective placement"
+    },
+    {
+      "id": "word-order-2-B",
+      "moduleId": "word-order",
+      "questionText": "Buea is a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "city beautiful",
+        "beautiful city",
+        "city very beautiful"
+      ],
+      "correctAnswer": "beautiful city",
+      "feedback": "That's right! The adjective 'beautiful' must come before the noun 'city'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective placement"
+    },
+    {
+      "id": "word-order-3-B",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"He told a story funny.\"",
+      "type": "error_correction",
+      "options": [
+        "He told",
+        "a",
+        "story funny",
+        "No error"
+      ],
+      "correctAnswer": "story funny",
+      "feedback": "You found it! The adjective 'funny' must come before the noun 'story'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "funny story",
+      "subTopic": "Adjective placement"
+    },
+    {
+      "id": "word-order-4-B",
+      "moduleId": "word-order",
+      "questionText": "Ekane ___ her homework.",
+      "type": "multiple_choice",
+      "options": [
+        "forgets never",
+        "never forgets",
+        "is never forgetting"
+      ],
+      "correctAnswer": "never forgets",
+      "feedback": "Correct! Adverbs of frequency (like 'never', 'often') go before the main verb ('forgets').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adverb position"
+    },
+    {
+      "id": "word-order-5-B",
+      "moduleId": "word-order",
+      "questionText": "The bus from Yaoundé ___ on time.",
+      "type": "multiple_choice",
+      "options": [
+        "rarely is",
+        "is rarely",
+        "is rare"
+      ],
+      "correctAnswer": "is rarely",
+      "feedback": "Excellent! This is the exception: adverbs of frequency come after the verb 'to be' (am, is, are).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adverb position"
+    },
+    {
+      "id": "word-order-6-B",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"We go often to Limbe.\"",
+      "type": "error_correction",
+      "options": [
+        "We",
+        "go often",
+        "to Limbe",
+        "No error"
+      ],
+      "correctAnswer": "go often",
+      "feedback": "Good catch! Adverbs of frequency like 'often' usually come before the main verb ('go'), not after.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "often go",
+      "subTopic": "Adverb position"
+    },
+    {
+      "id": "word-order-7-B",
+      "moduleId": "word-order",
+      "questionText": "___ to the market yesterday?",
+      "type": "multiple_choice",
+      "options": [
+        "You went",
+        "Did you go",
+        "You did go"
+      ],
+      "correctAnswer": "Did you go",
+      "feedback": "Perfect! To ask a question in the Past Simple, you must use the auxiliary 'Did' and invert it: Did + subject (you) + verb (go).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-8-B",
+      "moduleId": "word-order",
+      "questionText": "When ___ the lesson start?",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "-"
+      ],
+      "correctAnswer": "does",
+      "feedback": "That's it! For a question in the Present Simple about 'the lesson' (it), we must use the auxiliary verb 'Does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-9-B",
+      "moduleId": "word-order",
+      "questionText": "___ you a student at this school?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "correctAnswer": "Are",
+      "feedback": "Correct! This question uses the verb 'to be' (you are a student). We invert it: Are + subject (you) + the rest.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-10-B",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"Why he is running so fast?\"",
+      "type": "error_correction",
+      "options": [
+        "Why",
+        "he is running",
+        "so fast",
+        "No error"
+      ],
+      "correctAnswer": "he is running",
+      "feedback": "You found it! English must invert the subject ('he') and the auxiliary ('is'). The correct order is \"Why is he running...\".",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "is he running",
+      "subTopic": "Question formation"
+    },
+    {
+      "id": "word-order-11-B",
+      "moduleId": "word-order",
+      "questionText": "We ___ have class tomorrow.",
+      "type": "multiple_choice",
+      "options": [
+        "not",
+        "do not",
+        "no"
+      ],
+      "correctAnswer": "do not",
+      "feedback": "Yes! To make a negative sentence in the Present Simple, we must use the auxiliary 'do' + 'not'. We cannot just say \"We not have...\".",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-12-B",
+      "moduleId": "word-order",
+      "questionText": "It ___ often in the dry season.",
+      "type": "multiple_choice",
+      "options": [
+        "rains not",
+        "don't rain",
+        "doesn't rain"
+      ],
+      "correctAnswer": "doesn't rain",
+      "feedback": "That's right! The subject is 'It'. For 'he', 'she', or 'it', the negative auxiliary is 'doesn't' (does not).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-13-B",
+      "moduleId": "word-order",
+      "questionText": "I ___ Mr. Tchamba at the meeting.",
+      "type": "multiple_choice",
+      "options": [
+        "not saw",
+        "didn't see",
+        "saw not"
+      ],
+      "correctAnswer": "didn't see",
+      "feedback": "Correct! For a negative in the Past Simple, we must use 'didn't' + base verb ('see').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-14-B",
+      "moduleId": "word-order",
+      "questionText": "Find the error: \"She speaks not English.\"",
+      "type": "error_correction",
+      "options": [
+        "She",
+        "speaks not",
+        "English",
+        "No error"
+      ],
+      "correctAnswer": "speaks not",
+      "feedback": "You spotted the mistake! This comes from French \"ne parle pas...\". In English, we must use the auxiliary 'does': \"She does not speak\".",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "does not speak",
+      "subTopic": "Negative sentences"
+    },
+    {
+      "id": "word-order-15-B",
+      "moduleId": "word-order",
+      "questionText": "You ___ talk in the library.",
+      "type": "multiple_choice",
+      "options": [
+        "do not should",
+        "should not",
+        "should to not"
+      ],
+      "correctAnswer": "should not",
+      "feedback": "Good! With modals (like 'should', 'can', 'must'), we just add 'not' after the modal. We don't use 'do' or 'does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative sentences"
+    }
+  ]
+}

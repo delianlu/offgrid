@@ -1,0 +1,557 @@
+
+═══════════════════════════════════════════════════════════ SCENARIO #1: AT MOKOLO MARKET ═══════════════════════════════════════════════════════════
+Context: You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.
+Characters:
+	•	You (the customer)
+	•	Mama Ngono (vegetable seller, friendly)
+Icon: 🏪
+
+QUESTION 1
+Dialogue: You: "Good morning, Mama! How much ___ these tomatoes?" Mama Ngono: "They are 500 francs for that pile, my dear."
+Options: A) is B) are C) be
+Correct Answer: B) are
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct! We must use 'are' because the noun 'tomatoes' is plural. In the market, you ask 'How much are these?' for many items, but 'How much is this?' for a single item (like 'How much is this one onion?')."
+
+QUESTION 2
+Dialogue: You: "Okay, I ___ that pile of tomatoes." Mama Ngono: "Good. And the onions?"
+Options: A) will take B) am taking C) take
+Correct Answer: A) will take
+Grammar Category: Tense & Form (Future)
+Feedback: "That's it! We use 'will take' (or 'I'll take') when you make an instant decision at the moment of speaking. This is very common when shopping."
+
+QUESTION 3
+Dialogue: Mama Ngono: "I ___ fresh rice from Garoua yesterday." You: "Oh, good. How much is one gobelet (cup)?"
+Options: A) buy B) has bought C) bought
+Correct Answer: C) bought
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Perfect! The word 'yesterday' is a finished past time, so we must use the Past Simple tense, 'bought'. We can't say 'has bought yesterday'."
+
+QUESTION 4
+Dialogue: You: "I need two gobelets of rice and some ___." Mama Ngono: "Here you are. The rice is 600 francs."
+Options: A) onion B) onions C) of onion
+Correct Answer: B) onions
+Grammar Category: Plurality (Regular)
+Feedback: "Correct! Because you are talking about more than one onion, you must use the plural form 'onions'. In English, we must pronounce the 's' sound, unlike in French where 'oignon' and 'oignons' can sound the same."
+
+QUESTION 5
+Dialogue: Mama Ngono: "So, that is 500 for tomatoes, 600 for rice... 1100 francs." You: "___ you have change for 2000 francs?"
+Options: A) Do B) Are C) Does
+Grammar Category: Auxiliaries (Questions)
+Correct Answer: A) Do
+Feedback: "Excellent! To ask a 'yes/no' question with the main verb 'have', we must use the auxiliary verb 'Do'. Asking 'You have...?' is a common error from French ('Vous avez...?')."
+
+QUESTION 6
+Dialogue: You: "This is ___ very nice market. I am new in this quartier." Mama Ngono: "Welcome! Yes, Mokolo is the best."
+Options: A) a B) an C) the
+Correct Answer: A) a
+Grammar Category: Articles
+Feedback: "That's right. We use 'a' to introduce a singular, non-specific noun. You are saying it is 'one' nice market. We don't use 'the' unless we are comparing it to others ('the nicest market')."
+
+QUESTION 7
+Dialogue: Mama Ngono: "I ___ have many customers on Mondays." You: "Oh, really? I thought Monday was a busy day."
+Options: A) not B) don't C) doesn't
+Correct Answer: B) don't
+Grammar Category: Auxiliaries (Negatives)
+Feedback: "Perfect! To make a negative sentence with 'I', 'you', 'we', or 'they', we must use the auxiliary 'don't' (do not). We cannot say 'I not have...' (which is an error from French 'Je n'ai pas...')."
+
+QUESTION 8
+Dialogue: You: "Thank you for the ___." Mama Ngono: "You are welcome! Have a good day!"
+Options: A) good service B) service good C) serving good
+Correct Answer: A) good service
+Grammar Category: Word Order (Adjectives)
+Feedback: "Correct! In English, the adjective (describing word) 'good' must come before the noun 'service'. This is the opposite of French, where you might say 'un service bon'."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #1 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #2: TAKING A MOTO-TAXI ═══════════════════════════════════════════════════════════
+Context: You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.
+Characters:
+	•	You (passenger)
+	•	Jean-Pierre (moto driver)
+Icon: 🏍️
+
+QUESTION 1
+Dialogue: You: "Good afternoon. How much to go to MINEDUB?" Jean-Pierre: "Because of the traffic, the fare ___ 700 francs."
+Options: A) is B) are C) be
+Correct Answer: A) is
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct! We use 'is' because the subject 'the fare' (or 'the price') is singular. Even if the price is 700 francs (plural), the fare itself is one thing, so 'the fare is'."
+
+QUESTION 2
+Dialogue: You: "That's too expensive. I ___ 500 francs." Jean-Pierre: "Okay, 500 is fine. Let's go."
+Options: A) am having B) have C) has
+Correct Answer: B) have
+Grammar Category: Subject-Verb Agreement
+Feedback: "That's right. The subject 'I' always pairs with the verb 'have'. We also don't usually say 'I am having' for possession; we use the simple form 'I have'."
+
+QUESTION 3
+Dialogue: You: "Can we go ___ the shortcut behind the quartier?" Jean-Pierre: "Yes, that way is faster."
+Options: A) on B) through C) at
+Correct Answer: B) through
+Grammar Category: Prepositions
+Feedback: "Good choice! We use 'through' to describe moving from one side to the other inside an area, like a quartier or a tunnel. We go 'on' a main road, but 'through' a shortcut."
+
+QUESTION 4
+Dialogue: You: "Please, can you drive ___? I am not in a hurry." Jean-Pierre: "No problem, Mama/Papa. Safety first."
+Options: A) slow B) slowly C) more slow
+Correct Answer: B) slowly
+Grammar Category: Word Order (Adverbs)
+Feedback: "Perfect! We need an adverb, 'slowly', to describe the verb 'drive' (HOW should he drive?). 'Slow' is an adjective (a slow driver), but we 'drive slowly'."
+
+QUESTION 5
+Dialogue: Jean-Pierre: "We ___ at the ministry." You: "That was fast. Thank you."
+Options: A) have arrived B) are arrive C) did arrive
+Correct Answer: A) have arrived
+Grammar Category: Tense & Form (Present Perfect)
+Feedback: "Correct! We use 'have arrived' (Present Perfect) to announce a recent action that is finished now. It's like saying, 'We are now at the destination'."
+
+QUESTION 6
+Dialogue: You: "Here is your money. I ___ a helmet." Jean-Pierre: "Ah, sorry, I forgot! I will bring it next time."
+Options: A) not wear B) didn't wear C) don't wear
+Correct Answer: B) didn't wear
+Grammar Category: Auxiliaries (Negatives)
+Feedback: "That's right. The trip is finished, so you must use the past tense. The correct negative in the past is 'didn't wear'. 'Don't wear' is present (I don't wear helmets in general)."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #2 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #3: HEALTH CLINIC VISIT ═══════════════════════════════════════════════════════════
+Context: You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.
+Characters:
+	•	You (the patient)
+	•	Dr. Bertrand (the doctor)
+Icon: 🏥
+
+QUESTION 1
+Dialogue: You: "Good morning, Doctor. I ___ sick for three days now." Dr. Bertrand: "I see. Please sit down."
+Options: A) am B) have been C) was
+Correct Answer: B) have been
+Grammar Category: Tense & Form (Present Perfect)
+Feedback: "Correct! When you describe a situation that started in the past and continues to the present (you are still sick), you must use the Present Perfect ('have been') with 'for' or 'since'. Saying 'I am sick for three days' is a direct translation of the French 'Je suis malade depuis trois jours', which is a very common error."
+
+QUESTION 2
+Dialogue: Dr. Bertrand: "___ you have a cough or a fever?" You: "Yes, I have a fever and my head hurts."
+Options: A) Do B) Are C) Have
+Correct Answer: A) Do
+Grammar Category: Auxiliaries (Questions)
+Feedback: "That's right! To ask a 'yes/no' question using the main verb 'have', we must use the auxiliary 'helper' verb 'Do'. Asking 'Are you...' or 'Have you...' (which is less common) are frequent mistakes."
+
+QUESTION 3
+Dialogue: Dr. Bertrand: "Okay. And your stomach? ___ it also hurt?" You: "No, my stomach is fine."
+Options: A) Do B) Is C) Does
+Correct Answer: C) Does
+Grammar Category: Auxiliaries (Questions)
+Feedback: "Excellent. The subject is 'your stomach' (it). To ask a 'yes/no' question with 'he', 'she', or 'it', we must use the auxiliary verb 'Does'."
+
+QUESTION 4
+Dialogue: You: "What is wrong with me, Doctor?" Dr. Bertrand: "It seems you ___ malaria."
+Options: A) are having B) have C) has
+Correct Answer: B) have
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct. The subject is 'You', which always pairs with the verb 'have'. We use the simple form 'you have' to talk about possessing an illness, not 'you are having'."
+
+QUESTION 5
+Dialogue: Dr. Bertrand: "You ___ take this medicine for five days." You: "Okay, I will."
+Options: A) must B) must to C) are to
+Correct Answer: A) must
+Grammar Category: Tense & Form (Modals)
+Feedback: "Correct! 'Must' is a modal verb used to give a strong order or vital instruction. Remember, after a modal (must, can, should), we use the verb directly ('take'). The error 'must to take' comes from translating the French infinitive 'devoir prendre'."
+
+QUESTION 6
+Dialogue: You: "Can you give me some ___ for the fever?" Dr. Bertrand: "Yes, this medicine will help with that."
+Options: A) advices B) advice C) an advice
+Correct Answer: B) advice
+Grammar Category: Plurality (Uncountable)
+Feedback: "Perfect! 'Advice' is an uncountable noun in English. It never has an '-s' and you cannot say 'an advice'. This is different from the French 'des conseils' (plural)."
+
+QUESTION 7
+Dialogue: Dr. Bertrand: "You should also rest ___ home and not go to work." You: "I understand. Thank you, Doctor."
+Options: A) in B) on C) at
+Correct Answer: C) at
+Grammar Category: Prepositions
+Feedback: "That's right. We use the preposition 'at' for the fixed expression 'stay at home' or 'rest at home'. We live 'in' a house, but we stay 'at' home."
+
+QUESTION 8
+Dialogue: Dr. Bertrand: "The tests ___ that you have malaria." You: "I thought so."
+Options: A) shows B) show C) is showing
+Correct Answer: B) show
+Grammar Category: Subject-Verb Agreement
+Feedback: "Good! The subject is 'The tests' (plural, 'they'). A plural subject takes the base verb 'show'. We only add '-s' ('shows') for a singular subject (e.g., 'The test shows...')."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #3 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #4: SCHOOL ENROLLMENT ═══════════════════════════════════════════════════════════
+Context: Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.
+Characters:
+	•	Ngono (Parent)
+	•	Mr. Foncha (Headmaster)
+Icon: 🏫
+
+QUESTION 1
+Dialogue: Ngono: "Good morning, Headmaster. I want to register my son. ___ you still accepting new students for Form 1?" Mr. Foncha: "Good morning, Mama. Yes, we are."
+Options: A) Do B) Are C) Does
+Correct Answer: B) Are
+Grammar Category: Auxiliaries (Questions)
+Feedback: "Correct! Because the main verb is 'accepting' (Present Continuous), we must use the auxiliary verb 'Are'. We use 'Do' for simple verbs (e.g., 'Do you accept...?')."
+
+QUESTION 2
+Dialogue: Mr. Foncha: "Your son ___ his First School Leaving Certificate last term, correct?" Ngono: "Yes, he passed in List A."
+Options: A) finish B) finished C) has finished
+Correct Answer: B) finished
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "That's right! The time 'last term' is a finished past time. For finished past times, we must use the Past Simple tense, 'finished'."
+
+QUESTION 3
+Dialogue: Ngono: "Yes, he works hard. He wants to be ___ engineer one day." Mr. Foncha: "An excellent goal! We have good science teachers."
+Options: A) a B) an C) Ø (no article)
+Correct Answer: B) an
+Grammar Category: Articles
+Feedback: "Perfect! The word 'engineer' starts with a vowel sound ('e'). We must use 'an' before vowel sounds. (e.g., 'an' apple, 'an' engineer, 'an' hour)."
+
+QUESTION 4
+Dialogue: Mr. Foncha: "Please fill out this registration form. You must return it ___ Friday at the latest." Ngono: "I will bring it tomorrow."
+Options: A) in B) at C) on
+Correct Answer: C) on
+Grammar Category: Prepositions
+Feedback: "Correct! We always use the preposition 'on' for specific days of the week (on Monday, on Tuesday, on Friday)."
+
+QUESTION 5
+Dialogue: Ngono: "What about the school fees? Do I need to pay all the ___ now?" Mr. Foncha: "You can pay in two parts."
+Options: A) money B) monies C) moneys
+Correct Answer: A) money
+Grammar Category: Plurality (Uncountable)
+Feedback: "That's it. 'Money' is an uncountable noun in English. It never has an '-s' and is always singular (like 'water' or 'rice')."
+
+QUESTION 6
+Dialogue: Mr. Foncha: "The school fee for the first term ___ 50,000 francs." Ngono: "That is acceptable."
+Options: A) are B) is C) be
+Correct Answer: B) is
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct! The subject 'The school fee' is singular (one fee), so it must use the singular verb 'is'. Don't be confused by '50,000 francs' (plural); the subject is 'the fee'."
+
+QUESTION 7
+Dialogue: Ngono: "Where ___ the office for the bursar (school accountant)?" Mr. Foncha: "It is the second door on the left."
+Options: A) is B) does C) are
+Correct Answer: A) is
+Grammar Category: Subject-Verb Agreement / Auxiliaries
+Feedback: "That's right. We are asking about the location of the office (a state of being), so we use the verb 'to be'. The subject 'the office' (it) pairs with 'is'."
+
+QUESTION 8
+Dialogue: Mr. Foncha: "Our students ___ a uniform, but they must wear it correctly." Ngono: "I understand, Headmaster. Thank you."
+Options: A) have B) has C) are having
+Correct Answer: A) have
+Grammar Category: Subject-Verb Agreement
+Feedback: "Good! The subject is 'Our students' (plural, 'they'). A plural subject always pairs with the verb 'have'. We only use 'has' for he, she, or it."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #4 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #5: JOB INTERVIEW ═══════════════════════════════════════════════════════════
+Context: Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.
+Characters:
+	•	Mrs. Ekane (The Manager)
+	•	Tchamba (The Applicant)
+Icon: 👔
+
+QUESTION 1
+Dialogue: Mrs. Ekane: "Good morning, Tchamba. Please, have a seat. Your CV says you ___ at the University of Buea." Tchamba: "Yes, that's correct. I graduated in 2023."
+Options: A) studied B) study C) have studied
+Correct Answer: A) studied
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Correct! Because Tchamba graduated in 2023, his studies are a finished past action. We must use the Past Simple tense, 'studied'. We can't use 'have studied' in this context (which implies it's ongoing or recent without a specific date)."
+
+QUESTION 2
+Dialogue: Mrs. Ekane: "And where ___ you currently live?" Tchamba: "I live in the Bonabéri quartier."
+Options: A) are B) does C) do
+Correct Answer: C) do
+Grammar Category: Auxiliaries (Questions)
+Feedback: "That's right! To ask a 'Wh-' question (like 'Where') with the subject 'you' and the verb 'live', we must use the auxiliary 'do'. The structure is: QW + Auxiliary + Subject + Verb."
+
+QUESTION 3
+Dialogue: Mrs. Ekane: "This job requires good computer skills. ___ you use Microsoft Excel well?" Tchamba: "Yes, I am very comfortable with Excel."
+Options: A) Can B) Do C) Are
+Correct Answer: A) Can
+Grammar Category: Tense & Form (Modals)
+Feedback: "Good choice. We use the modal verb 'Can' to ask about ability or skill. 'Do you use...' is also grammatically correct, but 'Can you use...' is a more common way to ask if someone has the skill."
+
+QUESTION 4
+Dialogue: Tchamba: "In my last job, I ___ responsible for managing all the office files." Mrs. Ekane: "That is good experience."
+Options: A) am B) were C) was
+Correct Answer: C) was
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Correct! Tchamba is talking about his 'last job' (a finished past situation). The past tense of 'I am' is 'I was'."
+
+QUESTION 5
+Dialogue: Mrs. Ekane: "This is a busy office. The person for this job ___ be very organized." Tchamba: "I am a very organized person."
+Options: A) must to B) must C) should to
+Correct Answer: B) must
+Grammar Category: Tense & Form (Modals)
+Feedback: "Perfect! We use 'must' to show a strong requirement. After modal verbs (must, can, should), we always use the base verb ('be') without 'to'. The error 'must to be' comes from translating the French infinitive."
+
+QUESTION 6
+Dialogue: Tchamba: "I am a fast learner and I am not afraid ___ hard work." Mrs. Ekane: "Good. We need someone who is motivated."
+Options: A) of B) from C) for
+Correct Answer: A) of
+Grammar Category: Prepositions
+Feedback: "That's right. The correct English expression is 'to be afraid of' something. This is a common error for French speakers, who might say 'afraid from' (from 'peur de...')."
+
+QUESTION 7
+Dialogue: Mrs. Ekane: "Do you have any questions for me?" Tchamba: "Yes. ___ the company offer health insurance?"
+Options: A) Do B) Is C) Does
+Correct Answer: C) Does
+Grammar Category: Auxiliaries (Questions)
+Feedback: "Excellent! The subject of the question is 'the company' (it). To ask a question with 'he', 'she', or 'it', we must use the auxiliary verb 'Does'."
+
+QUESTION 8
+Dialogue: Mrs. Ekane: "That's a good question. Yes, we provide ___ for all employees." Tchamba: "That is wonderful to hear."
+Options: A) an health insurance B) health insurance C) the health insurance
+Correct Answer: B) health insurance
+Grammar Category: Articles
+Feedback: "Correct! 'Health insurance' (like 'information' or 'advice') is an uncountable noun. We cannot use 'a' or 'an' with it. We must use the zero article (Ø) or 'some'."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #5 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #6: MOBILE MONEY TRANSACTION ═══════════════════════════════════════════════════════════
+Context: You are at a small "call box" or "momo" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).
+Characters:
+	•	You (Customer)
+	•	Aminata (The Momo Agent)
+Icon: 💰
+
+QUESTION 1
+Dialogue: You: "Good morning. ___ you do MTN deposits?" Aminata: "Yes, I do. How much are you sending?"
+Options: A) Do B) Are C) Can
+Correct Answer: A) Do
+Grammar Category: Auxiliaries (Questions)
+Feedback: "Correct! We use the auxiliary verb 'Do' to ask a 'yes/no' question with the main verb 'do'. Asking 'Are you...' would be for an action ('Are you sending...?')."
+
+QUESTION 2
+Dialogue: You: "I am sending 10,000 francs. What ___ the charges for that?" Aminata: "For 10,000, the fee is 100 francs."
+Options: A) is B) are C) be
+Correct Answer: B) are
+Grammar Category: Subject-Verb Agreement
+Feedback: "That's right! We use 'are' because the subject 'the charges' (or 'the fees') is plural. If you asked about the singular 'fee', you would say 'What is the fee?'"
+
+QUESTION 3
+Dialogue: You: "Okay, so the total ___ 10,100 francs." Aminata: "Yes, that is correct. Please write the number on this paper."
+Options: A) is B) are C) make
+Correct Answer: A) is
+Grammar Category: Subject-Verb Agreement
+Feedback: "Perfect! The subject 'the total' is a single, singular amount, so it must use the singular verb 'is'."
+
+QUESTION 4
+Dialogue: Aminata: "Please check the number carefully." You: "Yes, I ___ the wrong number last month. It was a big problem."
+Options: A) send B) have sent C) sent
+Correct Answer: C) sent
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Correct! The time 'last month' is a finished past time. For actions in the finished past, we must use the Past Simple tense, 'sent'."
+
+QUESTION 5
+Dialogue: You: "The number is 677-12-34-56. Please send it ___ Njoya." Aminata: "Okay, Njoya. I am processing it now."
+Options: A) to B) at C) for
+Correct Answer: A) to
+Grammar Category: Prepositions
+Feedback: "Good! When we talk about a destination or a receiver, we use the preposition 'to'. We 'send money to someone'."
+
+QUESTION 6
+Dialogue: Aminata: "It is done. You should receive ___ confirmation message soon." You: "Okay, I'm waiting for it... Ah, yes, I have received it. Thank you!"
+Options: A) an B) the C) Ø (no article)
+Correct Answer: B) the
+Grammar Category: Articles
+Feedback: "That's right. We use 'the' because you are not waiting for any message, you are waiting for the one specific confirmation message for this transaction."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #6 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #7: RESTAURANT/CHOP BAR ═══════════════════════════════════════════════════════════
+Context: You are at a small, popular restaurant (a "chop bar") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.
+Characters:
+	•	Muna (You, the customer)
+	•	Waiter
+Icon: 🍲
+
+QUESTION 1
+Dialogue: Waiter: "Good afternoon. Are you ready to order?" Muna: "Yes, I ___ to have the ndolé with plantains, please."
+Options: A) want B) am wanting C) would like
+Correct Answer: C) would like
+Grammar Category: Tense & Form (Modals)
+Feedback: "Correct! While 'I want' is not wrong, 'I would like' (or 'I'd like') is a much more polite and common way to order food in a restaurant."
+
+QUESTION 2
+Dialogue: Waiter: "An excellent choice. It's our specialty." Muna: "Does it come with ___?"
+Options: A) the rice B) a rice C) rice
+Correct Answer: C) rice
+Grammar Category: Articles (Zero Article)
+Feedback: "That's right! When talking about uncountable food items like 'rice', 'fufu', or 'water' in general, we use the zero article (Ø) (no article). We only say 'the rice' if we mean specific rice (e.g., 'the rice on my plate')."
+
+QUESTION 3
+Dialogue: Waiter: "No, it does not come with rice. It's only with plantains." Muna: "I see. And how much ___ the poisson braisé (grilled fish)?"
+Options: A) is B) are C) do
+Correct Answer: A) is
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct! We use 'is' because the subject, 'the poisson braisé', is a single dish (it). We ask 'How much is...?' for singular items."
+
+QUESTION 4
+Dialogue: Waiter: "The fish is 3,500 francs." Muna: "Okay, I will just take the ndolé. But it ___ come with meat?"
+Options: A) don't B) doesn't C) not
+Correct Answer: B) doesn't
+Grammar Category: Auxiliaries (Questions/Negatives)
+Feedback: "Perfect! The subject is 'the ndolé' (it). To make a question or negative sentence with 'it', we must use the auxiliary verb 'does' or 'doesn't'."
+
+QUESTION 5
+Dialogue: Waiter: "Yes, it comes with beef. Would you like a drink?" Muna: "Yes, please bring me ___."
+Options: A) a drink cold B) a cold drink C) the drink cold
+Correct Answer: B) a cold drink
+Grammar Category: Word Order (Adjectives)
+Feedback: "That's it! In English, the adjective (describing word) 'cold' must come before the noun 'drink'. This is the opposite of French structure."
+
+QUESTION 6
+Dialogue: Waiter: "One ndolé and one cold drink. I will be back with your food ___ about 15 minutes." Muna: "Thank you."
+Options: A) in B) on C) at
+Correct Answer: A) in
+Grammar Category: Prepositions
+Feedback: "Good! We use 'in' to talk about a period of time in the future (e.g., 'in 10 minutes', 'in two days'). We use 'at' for a specific time ('at 5 PM')."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #7 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #8: INTERNET CAFÉ ═══════════════════════════════════════════════════════════
+Context: You are at an internet café (or "cybercafé") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.
+Characters:
+	•	You (Customer)
+	•	Attendant (The person working at the café)
+Icon: 🖨️
+
+QUESTION 1
+Dialogue: You: "Good morning. I ___ to print a document from my USB key." Attendant: "No problem. Please insert the key into this computer."
+Options: A) want B) am wanting C) would like
+Correct Answer: C) would like
+Grammar Category: Tense & Form (Modals)
+Feedback: "Correct! 'I would like' is a polite and professional way to make a request. 'I want' is also correct, but 'I would like' is better in a service situation."
+
+QUESTION 2
+Dialogue: Attendant: "Okay, I see the file. How many ___ do you need?" You: "Just two, please."
+Options: A) copy B) copies C) copys
+Correct Answer: B) copies
+Grammar Category: Plurality (Regular)
+Feedback: "That's right! Because 'how many' asks about a number greater than one, we must use the plural form 'copies'. 'Copys' is never the correct spelling."
+
+QUESTION 3
+Dialogue: You: "I also need to photocopy my ID card." Attendant: "Okay. ___ the document in color or black and white?"
+Options: A) Is B) Are C) Does
+Correct Answer: A) Is
+Grammar Category: Subject-Verb Agreement
+Feedback: "Correct! The subject 'the document' is singular (it), so we must use the singular verb 'is' to ask about its state ('is it color...?')."
+
+QUESTION 4
+Dialogue: Attendant: "That will be 300 francs for everything." You: "Oh? I thought the printing ___ 100 francs."
+Options: A) cost B) costs C) is cost
+Correct Answer: B) costs
+Grammar Category: Subject-Verb Agreement
+Feedback: "Excellent! The subject 'the printing' is a singular activity (it). In the present tense, 'he', 'she', or 'it' must take an '-s' on the verb. So, 'it costs'."
+
+QUESTION 5
+Dialogue: Attendant: "No, the price is 150. It's 300 total." You: "Okay, fine. ___ I pay with Orange Money?"
+Options: A) Do B) Can C) Am
+Correct Answer: B) Can
+Grammar Category: Tense & Form (Modals / Questions)
+Feedback: "Good! We use 'Can' to ask for permission ('Can I pay...?') or to ask about ability. This is the most common way to ask about payment methods."
+
+QUESTION 6
+Dialogue: Attendant: "Sorry, our machine for MoMo ___." You: "What? Why?" Attendant: "It has not worked since this morning."
+Options: A) not work B) doesn't work C) not works
+Correct Answer: B) doesn't work
+Grammar Category: Auxiliaries (Negatives)
+Feedback: "That's right! To make a negative sentence in the present simple, we must use an auxiliary verb. The subject 'our machine' (it) needs 'doesn't' (does not). Saying 'it not work' is a common error from French ('il ne marche pas')."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #8 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #9: CHURCH/COMMUNITY MEETING ═══════════════════════════════════════════════════════════
+Context: You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).
+Characters:
+	•	Pastor Tchinda (Leading the meeting)
+	•	Ngono (A community member)
+	•	You (Attending the meeting)
+Icon: ⛪
+
+QUESTION 1
+Dialogue: Pastor Tchinda: "Thank you all for staying. Our meeting will begin ___ a few minutes." You: (to your neighbour) "I hope it is not too long."
+Options: A) in B) at C) on
+Correct Answer: A) in
+Grammar Category: Prepositions
+Feedback: "Correct! We use 'in' to talk about a period of time in the future. 'In a few minutes' means the meeting will start after a few minutes have passed."
+
+QUESTION 2
+Dialogue: Pastor Tchinda: "Before we discuss the tontine, Mama Biya ___ an announcement about the church bazaar." Mama Biya: "Thank you, Pastor..."
+Options: A) have B) has C) are having
+Correct Answer: B) has
+Grammar Category: Subject-Verb Agreement
+Feedback: "That's right! The subject 'Mama Biya' (she) is third-person singular, so she 'has' an announcement. We use 'have' for I, you, we, and they."
+
+QUESTION 3
+Dialogue: You: (whispering to Ngono) "I ___ Pastor Tchinda at the market yesterday." Ngono: "Oh, really? He is a very busy man."
+Options: A) saw B) have seen C) see
+Correct Answer: A) saw
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Perfect! The word 'yesterday' tells us this is a finished past action. We must use the Past Simple tense, 'saw'. We cannot use 'have seen' with a specific past time like 'yesterday'."
+
+QUESTION 4
+Dialogue: Pastor Tchinda: "This tontine is important. We must all show ___ to our neighbours in need." You: "That is true."
+Options: A) a kindness B) the kindness C) kindness
+Correct Answer: C) kindness
+Grammar Category: Articles (Zero Article)
+Feedback: "Correct! 'Kindness' is an abstract noun, like 'love', 'life', or 'honesty'. When we talk about these concepts in general, we use the zero article (Ø) (no article). This is a common error from French, which would say 'la gentillesse' ('the kindness')."
+
+QUESTION 5
+Dialogue: Ngono: (to you) "I ___ about last week's meeting. I was in Limbe." You: "Ah, that's why. They discussed the new date."
+Options: A) not knew B) didn't know C) don't know
+Correct Answer: B) didn't know
+Grammar Category: Auxiliaries (Negatives)
+Feedback: "That's right! The time is 'last week' (past). To make a negative sentence in the past, we must use the auxiliary 'didn't' + base verb ('know'). 'Don't know' is for the present."
+
+QUESTION 6
+Dialogue: Pastor Tchinda: "Thank you, Mr. Foncha, for your donation. That was a ___." Mr. Foncha: "It is my pleasure to help."
+Options: A) gesture very kind B) very kind gesture C) kind gesture very
+Correct Answer: B) very kind gesture
+Grammar Category: Word Order (Adjectives)
+Feedback: "Excellent! In English, the adjective ('kind') and its modifier ('very') both come before the noun ('gesture'). The order 'gesture very kind' is a direct translation from French."
+
+QUESTION 7
+Dialogue: You: (to Ngono) "I need some ___ on how the tontine works." Ngono: "Don't worry, I can explain it to you after the meeting."
+Options: A) informations B) information C) an information
+Correct Answer: B) information
+Grammar Category: Plurality (Uncountable)
+Feedback: "Perfect! 'Information' is an uncountable noun in English. It never takes an '-s' and you cannot use 'an' with it. This is a very common error from French, which uses 'des informations' (plural)."
+═══════════════════════════════════════════════════════════ END OF SCENARIO #9 ═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════ SCENARIO #10: VISITING A NEIGHBOR ═══════════════════════════════════════════════════════════
+Context: It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.
+Characters:
+	•	You (The visitor)
+	•	Mama Atangana (The neighbor)
+Icon: 🏠
+
+QUESTION 1
+Dialogue: You: "Good afternoon, Mama! ___ you busy right now?" Mama Atangana: "Ah, mon ami! No, no. Come in, come in. I am just watching TV."
+Options: A) Do B) Are C) Is
+Correct Answer: B) Are
+Grammar Category: Auxiliaries (Questions)
+Feedback: "Correct! We use 'Are' to ask a question about a state of being ('busy'). The subject 'you' pairs with 'are'. We use 'Do' for actions (e.g., 'Do you want...?')."
+
+QUESTION 2
+Dialogue: Mama Atangana: "Please, sit down. My son ___ some fufu and eru." You: "Oh, it smells wonderful!"
+Options: A) cook B) cooks C) is cooking
+Correct Answer: C) is cooking
+Grammar Category: Tense & Form (Present Continuous)
+Feedback: "That's right! Because the action is happening right now (you can smell it), we use the Present Continuous tense: 'is cooking'."
+
+QUESTION 3
+Dialogue: You: "Thank you for letting me borrow this bowl. I ___ it last night for the ndolé." Mama Atangana: "It's no problem at all."
+Options: A) used B) use C) have used
+Correct Answer: A) used
+Grammar Category: Tense & Form (Past Simple)
+Feedback: "Correct! The time 'last night' is a finished past time. For actions with a finished time, we must use the Past Simple tense, 'used'."
+
+QUESTION 4
+Dialogue: Mama Atangana: "Would you like some water?" You: "Yes, please. It is ___ day today."
+Options: A) a very hot B) a hot very C) very a hot
+Correct Answer: A) a very hot
+Grammar Category: Word Order (Adjectives)
+Feedback: "Perfect! The correct English order is 'a' + (adverb) + (adjective) + (noun). So, we say 'a very hot day'. This order is often different from French."
+
+QUESTION 5
+Dialogue: You: "How is your family? I ___ your husband in a long time." Mama Atangana: "He is fine. He is on a mission in Garoua."
+Options: A) don't see B) didn't see C) haven't seen
+Correct Answer: C) haven't seen
+Grammar Category: Tense & Form (Present Perfect)
+Feedback: "Excellent choice! When you talk about a period of time from the past until now ('in a long time'), we use the Present Perfect tense: 'haven't seen'. 'Didn't see' is for one specific past moment (e.g., 'I didn't see him yesterday')."
+
+QUESTION 6
+Dialogue: Mama Atangana: "You must stay and eat with us!" You: "Thank you, Mama. I ___ say no to eru!"
+Options: A) can't to B) not can C) can't
+Correct Answer: C) can't
+Grammar Category: Tense & Form (Modals)
+Feedback: "That's right! The negative of 'can' is 'can't' (cannot). After a modal verb, we use the base verb 'say' without 'to'. The error 'can't to say' comes from translating the French infinitive."
+═══════════════════════════════════════════════════════════ END of SCENARIO #10 ═══════════════════════════════════════════════════════════
+
+

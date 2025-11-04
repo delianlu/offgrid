@@ -1,0 +1,1359 @@
+{
+  "id": "cameroonian-scenarios",
+  "name": "Real-World Cameroonian Scenarios",
+  "category": "scenarios",
+  "moduleIntroduction": "Welcome! This module helps you practice English through real-life situations you encounter daily in Cameroon.\n\nInstead of abstract grammar drills, you'll practice English through authentic conversations at markets, moto-taxi rides, health clinics, and other familiar contexts. This makes learning immediately useful and culturally relevant.\n\nEach scenario presents realistic dialogues with Cameroonian names, locations, and cultural details. You'll practice all grammar categories while learning English that works in your daily life.",
+  "contrastiveExplanation": "These scenarios combine multiple grammar points in authentic contexts:\n\n• At the market: You'll practice subject-verb agreement, plurality, and articles while shopping\n• Taking a moto-taxi: Practice prepositions, tense, and making polite requests\n• At the health clinic: Describe symptoms and understand medical advice\n• School enrollment: Navigate formal situations with proper grammar\n• Job interviews: Professional English for work situations\n• Mobile money transactions: Essential vocabulary for daily financial needs\n• Restaurants: Ordering food and making requests politely\n• Internet cafés: Technical vocabulary and service requests\n• Community meetings: Social interactions and announcements\n• Visiting neighbors: Casual conversation and cultural norms\n\nEach scenario uses real Cameroonian locations (Mokolo Market, Carrefour Nlongkak, MINEDUB), local names (Mama Grace, Jean-Pierre, Dr. Njoku), and authentic details (gobelet measures, Orange Money, Form 1) to make learning practical and relevant to your life.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Market Transactions",
+      "wrong": "How much is these tomatoes?",
+      "correct": "How much are these tomatoes?",
+      "frenchConnection": "Plural subjects require 'are', not 'is'. 'Ces tomates' (plural) needs the plural verb."
+    },
+    {
+      "number": 2,
+      "subTopic": "Transportation",
+      "wrong": "I need to arrive before 5 PM. Can we make?",
+      "correct": "I need to arrive before 5 PM. Can we make it?",
+      "frenchConnection": "English requires the object pronoun 'it' in this expression."
+    },
+    {
+      "number": 3,
+      "subTopic": "Health Descriptions",
+      "wrong": "I am sick since three days.",
+      "correct": "I have been sick for three days.",
+      "frenchConnection": "Duration from past to present requires Present Perfect with 'for', not Present Simple with 'since'."
+    },
+    {
+      "number": 4,
+      "subTopic": "School Context",
+      "wrong": "He wants to be engineer.",
+      "correct": "He wants to be an engineer.",
+      "frenchConnection": "Professions require an article in English, unlike French 'il est ingénieur'."
+    },
+    {
+      "number": 5,
+      "subTopic": "Polite Requests",
+      "wrong": "I want ndolé.",
+      "correct": "I would like ndolé, please.",
+      "frenchConnection": "'I want' is too direct; 'I would like' is more polite for requests."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "scenario-1-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good morning, Mama! How much ___ these tomatoes?\"\nMama Ngono: \"They are 500 francs for that pile, my dear.\"",
+      "type": "multiple_choice",
+      "options": ["is", "are", "be"],
+      "correctAnswer": "are",
+      "feedback": "Correct! We must use 'are' because the noun 'tomatoes' is plural. In the market, you ask 'How much are these?' for many items, but 'How much is this?' for a single item (like 'How much is this one onion?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Okay, I ___ that pile of tomatoes.\"\nMama Ngono: \"Good. And the onions?\"",
+      "type": "multiple_choice",
+      "options": ["will take", "am taking", "take"],
+      "correctAnswer": "will take",
+      "feedback": "That's it! We use 'will take' (or 'I'll take') when you make an instant decision at the moment of speaking. This is very common when shopping.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Future)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Ngono: \"I ___ fresh rice from Garoua yesterday.\"\nYou: \"Oh, good. How much is one gobelet (cup)?\"",
+      "type": "multiple_choice",
+      "options": ["buy", "has bought", "bought"],
+      "correctAnswer": "bought",
+      "feedback": "Perfect! The word 'yesterday' is a finished past time, so we must use the Past Simple tense, 'bought'. We can't say 'has bought yesterday'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"I need two gobelets of rice and some ___.\"\nMama Ngono: \"Here you are. The rice is 600 francs.\"",
+      "type": "multiple_choice",
+      "options": ["onion", "onions", "of onion"],
+      "correctAnswer": "onions",
+      "feedback": "Correct! Because you are talking about more than one onion, you must use the plural form 'onions'. In English, we must pronounce the 's' sound, unlike in French where 'oignon' and 'oignons' can sound the same.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Plurality (Regular)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Ngono: \"So, that is 500 for tomatoes, 600 for rice... 1100 francs.\"\nYou: \"___ you have change for 2000 francs?\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Are", "Does"],
+      "correctAnswer": "Do",
+      "feedback": "Excellent! To ask a 'yes/no' question with the main verb 'have', we must use the auxiliary verb 'Do'. Asking 'You have...?' is a common error from French ('Vous avez...?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"This is ___ very nice market. I am new in this quartier.\"\nMama Ngono: \"Welcome! Yes, Mokolo is the best.\"",
+      "type": "multiple_choice",
+      "options": ["a", "an", "the"],
+      "correctAnswer": "a",
+      "feedback": "That's right. We use 'a' to introduce a singular, non-specific noun. You are saying it is 'one' nice market. We don't use 'the' unless we are comparing it to others ('the nicest market').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q7-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Ngono: \"I ___ have many customers on Mondays.\"\nYou: \"Oh, really? I thought Monday was a busy day.\"",
+      "type": "multiple_choice",
+      "options": ["not", "don't", "doesn't"],
+      "correctAnswer": "don't",
+      "feedback": "Perfect! To make a negative sentence with 'I', 'you', 'we', or 'they', we must use the auxiliary 'don't' (do not). We cannot say 'I not have...' (which is an error from French 'Je n'ai pas...').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Negatives)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-1-q8-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Thank you for the ___.\"\nMama Ngono: \"You are welcome! Have a good day!\"",
+      "type": "multiple_choice",
+      "options": ["good service", "service good", "serving good"],
+      "correctAnswer": "good service",
+      "feedback": "Correct! In English, the adjective (describing word) 'good' must come before the noun 'service'. This is the opposite of French, where you might say 'un service bon'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Word Order (Adjectives)",
+      "scenario": {
+        "name": "At Mokolo Market",
+        "icon": "🏪",
+        "context": "You are at the busy Mokolo Market in Yaoundé. You need to buy ingredients (tomatoes, onions, and rice) for the evening meal. You find a seller, Mama Ngono, who is arranging her vegetables.",
+        "characters": ["You (the customer)", "Mama Ngono (vegetable seller, friendly)"]
+      }
+    },
+    {
+      "id": "scenario-2-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good afternoon. How much to go to MINEDUB?\"\nJean-Pierre: \"Because of the traffic, the fare ___ 700 francs.\"",
+      "type": "multiple_choice",
+      "options": ["is", "are", "be"],
+      "correctAnswer": "is",
+      "feedback": "Correct! We use 'is' because the subject 'the fare' (or 'the price') is singular. Even if the price is 700 francs (plural), the fare itself is one thing, so 'the fare is'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-2-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"That's too expensive. I ___ 500 francs.\"\nJean-Pierre: \"Okay, 500 is fine. Let's go.\"",
+      "type": "multiple_choice",
+      "options": ["am having", "have", "has"],
+      "correctAnswer": "have",
+      "feedback": "That's right. The subject 'I' always pairs with the verb 'have'. We also don't usually say 'I am having' for possession; we use the simple form 'I have'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-2-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Can we go ___ the shortcut behind the quartier?\"\nJean-Pierre: \"Yes, that way is faster.\"",
+      "type": "multiple_choice",
+      "options": ["on", "through", "at"],
+      "correctAnswer": "through",
+      "feedback": "Good choice! We use 'through' to describe moving from one side to the other inside an area, like a quartier or a tunnel. We go 'on' a main road, but 'through' a shortcut.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-2-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Please, can you drive ___? I am not in a hurry.\"\nJean-Pierre: \"No problem, Mama/Papa. Safety first.\"",
+      "type": "multiple_choice",
+      "options": ["slow", "slowly", "more slow"],
+      "correctAnswer": "slowly",
+      "feedback": "Perfect! We need an adverb, 'slowly', to describe the verb 'drive' (HOW should he drive?). 'Slow' is an adjective (a slow driver), but we 'drive slowly'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Word Order (Adverbs)",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-2-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Jean-Pierre: \"We ___ at the ministry.\"\nYou: \"That was fast. Thank you.\"",
+      "type": "multiple_choice",
+      "options": ["have arrived", "are arrive", "did arrive"],
+      "correctAnswer": "have arrived",
+      "feedback": "Correct! We use 'have arrived' (Present Perfect) to announce a recent action that is finished now. It's like saying, 'We are now at the destination'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Present Perfect)",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-2-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Here is your money. I ___ a helmet.\"\nJean-Pierre: \"Ah, sorry, I forgot! I will bring it next time.\"",
+      "type": "multiple_choice",
+      "options": ["not wear", "didn't wear", "don't wear"],
+      "correctAnswer": "didn't wear",
+      "feedback": "That's right. The trip is finished, so you must use the past tense. The correct negative in the past is 'didn't wear'. 'Don't wear' is present (I don't wear helmets in general).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Negatives)",
+      "scenario": {
+        "name": "Taking a Moto-Taxi",
+        "icon": "🏍️",
+        "context": "You need to get from Carrefour Nlongkak to the Ministry of Education (MINEDUB) building in Yaoundé. It's 4 PM, and traffic is heavy. You see a moto-taxi driver (whom we'll call Jean-Pierre) waiting at the roadside.",
+        "characters": ["You (passenger)", "Jean-Pierre (moto driver)"]
+      }
+    },
+    {
+      "id": "scenario-3-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good morning, Doctor. I ___ sick for three days now.\"\nDr. Bertrand: \"I see. Please sit down.\"",
+      "type": "multiple_choice",
+      "options": ["am", "have been", "was"],
+      "correctAnswer": "have been",
+      "feedback": "Correct! When you describe a situation that started in the past and continues to the present (you are still sick), you must use the Present Perfect ('have been') with 'for' or 'since'. Saying 'I am sick for three days' is a direct translation of the French 'Je suis malade depuis trois jours', which is a very common error.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Present Perfect)",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Dr. Bertrand: \"___ you have a cough or a fever?\"\nYou: \"Yes, I have a fever and my head hurts.\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Are", "Have"],
+      "correctAnswer": "Do",
+      "feedback": "That's right! To ask a 'yes/no' question using the main verb 'have', we must use the auxiliary 'helper' verb 'Do'. Asking 'Are you...' or 'Have you...' (which is less common) are frequent mistakes.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Dr. Bertrand: \"Okay. And your stomach? ___ it also hurt?\"\nYou: \"No, my stomach is fine.\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Is", "Does"],
+      "correctAnswer": "Does",
+      "feedback": "Excellent. The subject is 'your stomach' (it). To ask a 'yes/no' question with 'he', 'she', or 'it', we must use the auxiliary verb 'Does'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"What is wrong with me, Doctor?\"\nDr. Bertrand: \"It seems you ___ malaria.\"",
+      "type": "multiple_choice",
+      "options": ["are having", "have", "has"],
+      "correctAnswer": "have",
+      "feedback": "Correct. The subject is 'You', which always pairs with the verb 'have'. We use the simple form 'you have' to talk about possessing an illness, not 'you are having'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Dr. Bertrand: \"You ___ take this medicine for five days.\"\nYou: \"Okay, I will.\"",
+      "type": "multiple_choice",
+      "options": ["must", "must to", "are to"],
+      "correctAnswer": "must",
+      "feedback": "Correct! 'Must' is a modal verb used to give a strong order or vital instruction. Remember, after a modal (must, can, should), we use the verb directly ('take'). The error 'must to take' comes from translating the French infinitive 'devoir prendre'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Can you give me some ___ for the fever?\"\nDr. Bertrand: \"Yes, this medicine will help with that.\"",
+      "type": "multiple_choice",
+      "options": ["advices", "advice", "an advice"],
+      "correctAnswer": "advice",
+      "feedback": "Perfect! 'Advice' is an uncountable noun in English. It never has an '-s' and you cannot say 'an advice'. This is different from the French 'des conseils' (plural).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Plurality (Uncountable)",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q7-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Dr. Bertrand: \"You should also rest ___ home and not go to work.\"\nYou: \"I understand. Thank you, Doctor.\"",
+      "type": "multiple_choice",
+      "options": ["in", "on", "at"],
+      "correctAnswer": "at",
+      "feedback": "That's right. We use the preposition 'at' for the fixed expression 'stay at home' or 'rest at home'. We live 'in' a house, but we stay 'at' home.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-3-q8-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Dr. Bertrand: \"The tests ___ that you have malaria.\"\nYou: \"I thought so.\"",
+      "type": "multiple_choice",
+      "options": ["shows", "show", "is showing"],
+      "correctAnswer": "show",
+      "feedback": "Good! The subject is 'The tests' (plural, 'they'). A plural subject takes the base verb 'show'. We only add '-s' ('shows') for a singular subject (e.g., 'The test shows...').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Health Clinic Visit",
+        "icon": "🏥",
+        "context": "You are not feeling well and have gone to a local health clinic (Centre de Santé). You are now speaking to the doctor, Dr. Bertrand, to describe your symptoms.",
+        "characters": ["You (the patient)", "Dr. Bertrand (the doctor)"]
+      }
+    },
+    {
+      "id": "scenario-4-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Ngono: \"Good morning, Headmaster. I want to register my son. ___ you still accepting new students for Form 1?\"\nMr. Foncha: \"Good morning, Mama. Yes, we are.\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Are", "Does"],
+      "correctAnswer": "Are",
+      "feedback": "Correct! Because the main verb is 'accepting' (Present Continuous), we must use the auxiliary verb 'Are'. We use 'Do' for simple verbs (e.g., 'Do you accept...?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mr. Foncha: \"Your son ___ his First School Leaving Certificate last term, correct?\"\nNgono: \"Yes, he passed in List A.\"",
+      "type": "multiple_choice",
+      "options": ["finish", "finished", "has finished"],
+      "correctAnswer": "finished",
+      "feedback": "That's right! The time 'last term' is a finished past time. For finished past times, we must use the Past Simple tense, 'finished'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Ngono: \"Yes, he works hard. He wants to be ___ engineer one day.\"\nMr. Foncha: \"An excellent goal! We have good science teachers.\"",
+      "type": "multiple_choice",
+      "options": ["a", "an", "Ø (no article)"],
+      "correctAnswer": "an",
+      "feedback": "Perfect! The word 'engineer' starts with a vowel sound ('e'). We must use 'an' before vowel sounds. (e.g., 'an' apple, 'an' engineer, 'an' hour).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mr. Foncha: \"Please fill out this registration form. You must return it ___ Friday at the latest.\"\nNgono: \"I will bring it tomorrow.\"",
+      "type": "multiple_choice",
+      "options": ["in", "at", "on"],
+      "correctAnswer": "on",
+      "feedback": "Correct! We always use the preposition 'on' for specific days of the week (on Monday, on Tuesday, on Friday).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Ngono: \"What about the school fees? Do I need to pay all the ___ now?\"\nMr. Foncha: \"You can pay in two parts.\"",
+      "type": "multiple_choice",
+      "options": ["money", "monies", "moneys"],
+      "correctAnswer": "money",
+      "feedback": "That's it. 'Money' is an uncountable noun in English. It never has an '-s' and is always singular (like 'water' or 'rice').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Plurality (Uncountable)",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mr. Foncha: \"The school fee for the first term ___ 50,000 francs.\"\nNgono: \"That is acceptable.\"",
+      "type": "multiple_choice",
+      "options": ["are", "is", "be"],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject 'The school fee' is singular (one fee), so it must use the singular verb 'is'. Don't be confused by '50,000 francs' (plural); the subject is 'the fee'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q7-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Ngono: \"Where ___ the office for the bursar (school accountant)?\"\nMr. Foncha: \"It is the second door on the left.\"",
+      "type": "multiple_choice",
+      "options": ["is", "does", "are"],
+      "correctAnswer": "is",
+      "feedback": "That's right. We are asking about the location of the office (a state of being), so we use the verb 'to be'. The subject 'the office' (it) pairs with 'is'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement / Auxiliaries",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-4-q8-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mr. Foncha: \"Our students ___ a uniform, but they must wear it correctly.\"\nNgono: \"I understand, Headmaster. Thank you.\"",
+      "type": "multiple_choice",
+      "options": ["have", "has", "are having"],
+      "correctAnswer": "have",
+      "feedback": "Good! The subject is 'Our students' (plural, 'they'). A plural subject always pairs with the verb 'have'. We only use 'has' for he, she, or it.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "School Enrollment",
+        "icon": "🏫",
+        "context": "Ngono has come to a local government secondary school in Bamenda to register her son, Muna, for Form 1. She is speaking with the Headmaster, Mr. Foncha, in his office.",
+        "characters": ["Ngono (Parent)", "Mr. Foncha (Headmaster)"]
+      }
+    },
+    {
+      "id": "scenario-5-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"Good morning, Tchamba. Please, have a seat. Your CV says you ___ at the University of Buea.\"\nTchamba: \"Yes, that's correct. I graduated in 2023.\"",
+      "type": "multiple_choice",
+      "options": ["studied", "study", "have studied"],
+      "correctAnswer": "studied",
+      "feedback": "Correct! Because Tchamba graduated in 2023, his studies are a finished past action. We must use the Past Simple tense, 'studied'. We can't use 'have studied' in this context (which implies it's ongoing or recent without a specific date).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"And where ___ you currently live?\"\nTchamba: \"I live in the Bonabéri quartier.\"",
+      "type": "multiple_choice",
+      "options": ["are", "does", "do"],
+      "correctAnswer": "do",
+      "feedback": "That's right! To ask a 'Wh-' question (like 'Where') with the subject 'you' and the verb 'live', we must use the auxiliary 'do'. The structure is: QW + Auxiliary + Subject + Verb.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"This job requires good computer skills. ___ you use Microsoft Excel well?\"\nTchamba: \"Yes, I am very comfortable with Excel.\"",
+      "type": "multiple_choice",
+      "options": ["Can", "Do", "Are"],
+      "correctAnswer": "Can",
+      "feedback": "Good choice. We use the modal verb 'Can' to ask about ability or skill. 'Do you use...' is also grammatically correct, but 'Can you use...' is a more common way to ask if someone has the skill.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Tchamba: \"In my last job, I ___ responsible for managing all the office files.\"\nMrs. Ekane: \"That is good experience.\"",
+      "type": "multiple_choice",
+      "options": ["am", "were", "was"],
+      "correctAnswer": "was",
+      "feedback": "Correct! Tchamba is talking about his 'last job' (a finished past situation). The past tense of 'I am' is 'I was'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"This is a busy office. The person for this job ___ be very organized.\"\nTchamba: \"I am a very organized person.\"",
+      "type": "multiple_choice",
+      "options": ["must to", "must", "should to"],
+      "correctAnswer": "must",
+      "feedback": "Perfect! We use 'must' to show a strong requirement. After modal verbs (must, can, should), we always use the base verb ('be') without 'to'. The error 'must to be' comes from translating the French infinitive.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Tchamba: \"I am a fast learner and I am not afraid ___ hard work.\"\nMrs. Ekane: \"Good. We need someone who is motivated.\"",
+      "type": "multiple_choice",
+      "options": ["of", "from", "for"],
+      "correctAnswer": "of",
+      "feedback": "That's right. The correct English expression is 'to be afraid of' something. This is a common error for French speakers, who might say 'afraid from' (from 'peur de...').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q7-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"Do you have any questions for me?\"\nTchamba: \"Yes. ___ the company offer health insurance?\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Is", "Does"],
+      "correctAnswer": "Does",
+      "feedback": "Excellent! The subject of the question is 'the company' (it). To ask a question with 'he', 'she', or 'it', we must use the auxiliary verb 'Does'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-5-q8-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mrs. Ekane: \"That's a good question. Yes, we provide ___ for all employees.\"\nTchamba: \"That is wonderful to hear.\"",
+      "type": "multiple_choice",
+      "options": ["an health insurance", "health insurance", "the health insurance"],
+      "correctAnswer": "health insurance",
+      "feedback": "Correct! 'Health insurance' (like 'information' or 'advice') is an uncountable noun. We cannot use 'a' or 'an' with it. We must use the zero article (Ø) or 'some'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles",
+      "scenario": {
+        "name": "Job Interview",
+        "icon": "👔",
+        "context": "Tchamba has been invited for a job interview for an administrative assistant position at a small business in Douala. He is now speaking with the manager, Mrs. Ekane.",
+        "characters": ["Mrs. Ekane (The Manager)", "Tchamba (The Applicant)"]
+      }
+    },
+    {
+      "id": "scenario-6-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good morning. ___ you do MTN deposits?\"\nAminata: \"Yes, I do. How much are you sending?\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Are", "Can"],
+      "correctAnswer": "Do",
+      "feedback": "Correct! We use the auxiliary verb 'Do' to ask a 'yes/no' question with the main verb 'do'. Asking 'Are you...' would be for an action ('Are you sending...?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-6-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"I am sending 10,000 francs. What ___ the charges for that?\"\nAminata: \"For 10,000, the fee is 100 francs.\"",
+      "type": "multiple_choice",
+      "options": ["is", "are", "be"],
+      "correctAnswer": "are",
+      "feedback": "That's right! We use 'are' because the subject 'the charges' (or 'the fees') is plural. If you asked about the singular 'fee', you would say 'What is the fee?'",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-6-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Okay, so the total ___ 10,100 francs.\"\nAminata: \"Yes, that is correct. Please write the number on this paper.\"",
+      "type": "multiple_choice",
+      "options": ["is", "are", "make"],
+      "correctAnswer": "is",
+      "feedback": "Perfect! The subject 'the total' is a single, singular amount, so it must use the singular verb 'is'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-6-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Aminata: \"Please check the number carefully.\"\nYou: \"Yes, I ___ the wrong number last month. It was a big problem.\"",
+      "type": "multiple_choice",
+      "options": ["send", "have sent", "sent"],
+      "correctAnswer": "sent",
+      "feedback": "Correct! The time 'last month' is a finished past time. For actions in the finished past, we must use the Past Simple tense, 'sent'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-6-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"The number is 677-12-34-56. Please send it ___ Njoya.\"\nAminata: \"Okay, Njoya. I am processing it now.\"",
+      "type": "multiple_choice",
+      "options": ["to", "at", "for"],
+      "correctAnswer": "to",
+      "feedback": "Good! When we talk about a destination or a receiver, we use the preposition 'to'. We 'send money to someone'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-6-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Aminata: \"It is done. You should receive ___ confirmation message soon.\"\nYou: \"Okay, I'm waiting for it... Ah, yes, I have received it. Thank you!\"",
+      "type": "multiple_choice",
+      "options": ["an", "the", "Ø (no article)"],
+      "correctAnswer": "the",
+      "feedback": "That's right. We use 'the' because you are not waiting for any message, you are waiting for the one specific confirmation message for this transaction.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles",
+      "scenario": {
+        "name": "Mobile Money Transaction",
+        "icon": "💰",
+        "context": "You are at a small \"call box\" or \"momo\" kiosk in Douala to send 10,000 francs to your cousin in Bafoussam using MTN Mobile Money (MoMo).",
+        "characters": ["You (Customer)", "Aminata (The Momo Agent)"]
+      }
+    },
+    {
+      "id": "scenario-7-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"Good afternoon. Are you ready to order?\"\nMuna: \"Yes, I ___ to have the ndolé with plantains, please.\"",
+      "type": "multiple_choice",
+      "options": ["want", "am wanting", "would like"],
+      "correctAnswer": "would like",
+      "feedback": "Correct! While 'I want' is not wrong, 'I would like' (or 'I'd like') is a much more polite and common way to order food in a restaurant.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-7-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"An excellent choice. It's our specialty.\"\nMuna: \"Does it come with ___?\"",
+      "type": "multiple_choice",
+      "options": ["the rice", "a rice", "rice"],
+      "correctAnswer": "rice",
+      "feedback": "That's right! When talking about uncountable food items like 'rice', 'fufu', or 'water' in general, we use the zero article (Ø) (no article). We only say 'the rice' if we mean specific rice (e.g., 'the rice on my plate').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles (Zero Article)",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-7-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"No, it does not come with rice. It's only with plantains.\"\nMuna: \"I see. And how much ___ the poisson braisé (grilled fish)?\"",
+      "type": "multiple_choice",
+      "options": ["is", "are", "do"],
+      "correctAnswer": "is",
+      "feedback": "Correct! We use 'is' because the subject, 'the poisson braisé', is a single dish (it). We ask 'How much is...?' for singular items.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-7-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"The fish is 3,500 francs.\"\nMuna: \"Okay, I will just take the ndolé. But it ___ come with meat?\"",
+      "type": "multiple_choice",
+      "options": ["don't", "doesn't", "not"],
+      "correctAnswer": "doesn't",
+      "feedback": "Perfect! The subject is 'the ndolé' (it). To make a question or negative sentence with 'it', we must use the auxiliary verb 'does' or 'doesn't'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions/Negatives)",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-7-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"Yes, it comes with beef. Would you like a drink?\"\nMuna: \"Yes, please bring me ___.\"",
+      "type": "multiple_choice",
+      "options": ["a drink cold", "a cold drink", "the drink cold"],
+      "correctAnswer": "a cold drink",
+      "feedback": "That's it! In English, the adjective (describing word) 'cold' must come before the noun 'drink'. This is the opposite of French structure.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Word Order (Adjectives)",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-7-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Waiter: \"One ndolé and one cold drink. I will be back with your food ___ about 15 minutes.\"\nMuna: \"Thank you.\"",
+      "type": "multiple_choice",
+      "options": ["in", "on", "at"],
+      "correctAnswer": "in",
+      "feedback": "Good! We use 'in' to talk about a period of time in the future (e.g., 'in 10 minutes', 'in two days'). We use 'at' for a specific time ('at 5 PM').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Restaurant/Chop Bar",
+        "icon": "🍲",
+        "context": "You are at a small, popular restaurant (a \"chop bar\") in Limbe for lunch. You are looking at the menu, and the waiter comes to take your order.",
+        "characters": ["Muna (You, the customer)", "Waiter"]
+      }
+    },
+    {
+      "id": "scenario-8-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good morning. I ___ to print a document from my USB key.\"\nAttendant: \"No problem. Please insert the key into this computer.\"",
+      "type": "multiple_choice",
+      "options": ["want", "am wanting", "would like"],
+      "correctAnswer": "would like",
+      "feedback": "Correct! 'I would like' is a polite and professional way to make a request. 'I want' is also correct, but 'I would like' is better in a service situation.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-8-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Attendant: \"Okay, I see the file. How many ___ do you need?\"\nYou: \"Just two, please.\"",
+      "type": "multiple_choice",
+      "options": ["copy", "copies", "copys"],
+      "correctAnswer": "copies",
+      "feedback": "That's right! Because 'how many' asks about a number greater than one, we must use the plural form 'copies'. 'Copys' is never the correct spelling.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Plurality (Regular)",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-8-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"I also need to photocopy my ID card.\"\nAttendant: \"Okay. ___ the document in color or black and white?\"",
+      "type": "multiple_choice",
+      "options": ["Is", "Are", "Does"],
+      "correctAnswer": "Is",
+      "feedback": "Correct! The subject 'the document' is singular (it), so we must use the singular verb 'is' to ask about its state ('is it color...?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-8-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Attendant: \"That will be 300 francs for everything.\"\nYou: \"Oh? I thought the printing ___ 100 francs.\"",
+      "type": "multiple_choice",
+      "options": ["cost", "costs", "is cost"],
+      "correctAnswer": "costs",
+      "feedback": "Excellent! The subject 'the printing' is a singular activity (it). In the present tense, 'he', 'she', or 'it' must take an '-s' on the verb. So, 'it costs'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-8-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Attendant: \"No, the price is 150. It's 300 total.\"\nYou: \"Okay, fine. ___ I pay with Orange Money?\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Can", "Am"],
+      "correctAnswer": "Can",
+      "feedback": "Good! We use 'Can' to ask for permission ('Can I pay...?') or to ask about ability. This is the most common way to ask about payment methods.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals / Questions)",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-8-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Attendant: \"Sorry, our machine for MoMo ___.\"\nYou: \"What? Why?\"\nAttendant: \"It has not worked since this morning.\"",
+      "type": "multiple_choice",
+      "options": ["not work", "doesn't work", "not works"],
+      "correctAnswer": "doesn't work",
+      "feedback": "That's right! To make a negative sentence in the present simple, we must use an auxiliary verb. The subject 'our machine' (it) needs 'doesn't' (does not). Saying 'it not work' is a common error from French ('il ne marche pas').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Negatives)",
+      "scenario": {
+        "name": "Internet Café",
+        "icon": "🖨️",
+        "context": "You are at an internet café (or \"cybercafé\") in Bafoussam. You need to print a document from your USB key and make some photocopies of your ID card.",
+        "characters": ["You (Customer)", "Attendant (The person working at the café)"]
+      }
+    },
+    {
+      "id": "scenario-9-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Pastor Tchinda: \"Thank you all for staying. Our meeting will begin ___ a few minutes.\"\nYou: (to your neighbour) \"I hope it is not too long.\"",
+      "type": "multiple_choice",
+      "options": ["in", "at", "on"],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' to talk about a period of time in the future. 'In a few minutes' means the meeting will start after a few minutes have passed.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Prepositions",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Pastor Tchinda: \"Before we discuss the tontine, Mama Biya ___ an announcement about the church bazaar.\"\nMama Biya: \"Thank you, Pastor...\"",
+      "type": "multiple_choice",
+      "options": ["have", "has", "are having"],
+      "correctAnswer": "has",
+      "feedback": "That's right! The subject 'Mama Biya' (she) is third-person singular, so she 'has' an announcement. We use 'have' for I, you, we, and they.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Subject-Verb Agreement",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: (whispering to Ngono) \"I ___ Pastor Tchinda at the market yesterday.\"\nNgono: \"Oh, really? He is a very busy man.\"",
+      "type": "multiple_choice",
+      "options": ["saw", "have seen", "see"],
+      "correctAnswer": "saw",
+      "feedback": "Perfect! The word 'yesterday' tells us this is a finished past action. We must use the Past Simple tense, 'saw'. We cannot use 'have seen' with a specific past time like 'yesterday'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Pastor Tchinda: \"This tontine is important. We must all show ___ to our neighbours in need.\"\nYou: \"That is true.\"",
+      "type": "multiple_choice",
+      "options": ["a kindness", "the kindness", "kindness"],
+      "correctAnswer": "kindness",
+      "feedback": "Correct! 'Kindness' is an abstract noun, like 'love', 'life', or 'honesty'. When we talk about these concepts in general, we use the zero article (Ø) (no article). This is a common error from French, which would say 'la gentillesse' ('the kindness').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Articles (Zero Article)",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Ngono: (to you) \"I ___ about last week's meeting. I was in Limbe.\"\nYou: \"Ah, that's why. They discussed the new date.\"",
+      "type": "multiple_choice",
+      "options": ["not knew", "didn't know", "don't know"],
+      "correctAnswer": "didn't know",
+      "feedback": "That's right! The time is 'last week' (past). To make a negative sentence in the past, we must use the auxiliary 'didn't' + base verb ('know'). 'Don't know' is for the present.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Negatives)",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Pastor Tchinda: \"Thank you, Mr. Foncha, for your donation. That was a ___.\"\nMr. Foncha: \"It is my pleasure to help.\"",
+      "type": "multiple_choice",
+      "options": ["gesture very kind", "very kind gesture", "kind gesture very"],
+      "correctAnswer": "very kind gesture",
+      "feedback": "Excellent! In English, the adjective ('kind') and its modifier ('very') both come before the noun ('gesture'). The order 'gesture very kind' is a direct translation from French.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Word Order (Adjectives)",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-9-q7-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: (to Ngono) \"I need some ___ on how the tontine works.\"\nNgono: \"Don't worry, I can explain it to you after the meeting.\"",
+      "type": "multiple_choice",
+      "options": ["informations", "information", "an information"],
+      "correctAnswer": "information",
+      "feedback": "Perfect! 'Information' is an uncountable noun in English. It never takes an '-s' and you cannot use 'an' with it. This is a very common error from French, which uses 'des informations' (plural).",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Plurality (Uncountable)",
+      "scenario": {
+        "name": "Church/Community Meeting",
+        "icon": "⛪",
+        "context": "You are attending the weekly Sunday service, which is followed by a short community meeting at the church hall to discuss an upcoming tontine (community savings meeting).",
+        "characters": ["Pastor Tchinda (Leading the meeting)", "Ngono (A community member)", "You (Attending the meeting)"]
+      }
+    },
+    {
+      "id": "scenario-10-q1-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Good afternoon, Mama! ___ you busy right now?\"\nMama Atangana: \"Ah, mon ami! No, no. Come in, come in. I am just watching TV.\"",
+      "type": "multiple_choice",
+      "options": ["Do", "Are", "Is"],
+      "correctAnswer": "Are",
+      "feedback": "Correct! We use 'Are' to ask a question about a state of being ('busy'). The subject 'you' pairs with 'are'. We use 'Do' for actions (e.g., 'Do you want...?').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliaries (Questions)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    },
+    {
+      "id": "scenario-10-q2-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Atangana: \"Please, sit down. My son ___ some fufu and eru.\"\nYou: \"Oh, it smells wonderful!\"",
+      "type": "multiple_choice",
+      "options": ["cook", "cooks", "is cooking"],
+      "correctAnswer": "is cooking",
+      "feedback": "That's right! Because the action is happening right now (you can smell it), we use the Present Continuous tense: 'is cooking'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Present Continuous)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    },
+    {
+      "id": "scenario-10-q3-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"Thank you for letting me borrow this bowl. I ___ it last night for the ndolé.\"\nMama Atangana: \"It's no problem at all.\"",
+      "type": "multiple_choice",
+      "options": ["used", "use", "have used"],
+      "correctAnswer": "used",
+      "feedback": "Correct! The time 'last night' is a finished past time. For actions with a finished time, we must use the Past Simple tense, 'used'.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Past Simple)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    },
+    {
+      "id": "scenario-10-q4-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Atangana: \"Would you like some water?\"\nYou: \"Yes, please. It is ___ day today.\"",
+      "type": "multiple_choice",
+      "options": ["a very hot", "a hot very", "very a hot"],
+      "correctAnswer": "a very hot",
+      "feedback": "Perfect! The correct English order is 'a' + (adverb) + (adjective) + (noun). So, we say 'a very hot day'. This order is often different from French.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Word Order (Adjectives)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    },
+    {
+      "id": "scenario-10-q5-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "You: \"How is your family? I ___ your husband in a long time.\"\nMama Atangana: \"He is fine. He is on a mission in Garoua.\"",
+      "type": "multiple_choice",
+      "options": ["don't see", "didn't see", "haven't seen"],
+      "correctAnswer": "haven't seen",
+      "feedback": "Excellent choice! When you talk about a period of time from the past until now ('in a long time'), we use the Present Perfect tense: 'haven't seen'. 'Didn't see' is for one specific past moment (e.g., 'I didn't see him yesterday').",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Present Perfect)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    },
+    {
+      "id": "scenario-10-q6-A",
+      "moduleId": "cameroonian-scenarios",
+      "questionText": "Mama Atangana: \"You must stay and eat with us!\"\nYou: \"Thank you, Mama. I ___ say no to eru!\"",
+      "type": "multiple_choice",
+      "options": ["can't to", "not can", "can't"],
+      "correctAnswer": "can't",
+      "feedback": "That's right! The negative of 'can' is 'can't' (cannot). After a modal verb, we use the base verb 'say' without 'to'. The error 'can't to say' comes from translating the French infinitive.",
+      "formType": "A",
+      "transferType": "negative",
+      "item_version": "1.0.0",
+      "subTopic": "Tense & Form (Modals)",
+      "scenario": {
+        "name": "Visiting a Neighbor",
+        "icon": "🏠",
+        "context": "It's a Saturday afternoon in the quartier. You decide to visit your neighbor, Mama Atangana, to say hello and return a bowl she lent you. You knock on her door.",
+        "characters": ["You (The visitor)", "Mama Atangana (The neighbor)"]
+      }
+    }
+  ]
+}

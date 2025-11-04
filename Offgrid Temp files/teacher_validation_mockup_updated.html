@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Validation Interface - Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #fafafa; /* gray-50 per UI spec */
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 16px; /* rounded-2xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background-color: #2563eb; /* blue-600 per UI spec */
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 20px; /* text-xl */
+            font-weight: 600; /* font-semibold */
+        }
+
+        .exit-btn {
+            background-color: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px; /* rounded-lg */
+            cursor: pointer;
+            font-size: 14px; /* text-sm */
+            font-weight: 500; /* font-medium */
+        }
+
+        .exit-btn:hover {
+            background-color: rgba(255,255,255,0.3);
+        }
+
+        /* Progress Section */
+        .progress-section {
+            padding: 30px;
+            background-color: #f9fafb; /* gray-50 */
+            border-bottom: 1px solid #e5e7eb; /* gray-200 */
+        }
+
+        .progress-label {
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 per UI spec */
+            margin-bottom: 8px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 24px;
+            background-color: #f3f4f6; /* gray-100 */
+            border-radius: 9999px; /* rounded-full */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background-color: #22c55e; /* green-500 per UI spec */
+            width: 60%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12px; /* text-xs */
+            font-weight: 600; /* font-semibold */
+            color: #111827; /* gray-900 */
+        }
+
+        /* Question Card */
+        .question-card {
+            padding: 30px;
+        }
+
+        .question-header {
+            background-color: #dbeafe; /* blue-100 - changed from eff6ff */
+            padding: 16px 20px;
+            border-radius: 12px; /* rounded-xl */
+            margin-bottom: 20px;
+            border-left: 4px solid #2563eb; /* blue-600 */
+        }
+
+        .sample-info {
+            font-size: 14px; /* text-sm */
+            font-weight: 600; /* font-semibold */
+            color: #1e40af; /* blue-800 */
+        }
+
+        .question-text {
+            font-size: 18px; /* text-lg per UI spec */
+            color: #111827; /* gray-900 */
+            margin: 16px 0;
+            font-weight: 500; /* font-medium */
+        }
+
+        .options {
+            background-color: #f3f4f6; /* gray-100 */
+            padding: 12px 16px;
+            border-radius: 8px; /* rounded-lg */
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 */
+            margin-bottom: 20px;
+        }
+
+        /* Answer Display */
+        .answer-display {
+            background-color: #dcfce7; /* green-100 per UI spec - changed from f0fdf4 */
+            border: 2px solid #22c55e; /* green-500 - changed from 86efac */
+            border-radius: 12px; /* rounded-xl */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .answer-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .answer-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .answer-label {
+            color: #166534; /* green-800 */
+            font-weight: 600; /* font-semibold */
+        }
+
+        .answer-value {
+            color: #15803d; /* green-700 */
+            font-weight: 500; /* font-medium */
+        }
+
+        .system-score {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checkmark {
+            color: #22c55e; /* green-500 - changed from 16a34a */
+            font-size: 18px;
+        }
+
+        /* Feedback Section */
+        .feedback-section {
+            margin-bottom: 30px;
+        }
+
+        .feedback-label {
+            font-size: 14px; /* text-sm */
+            font-weight: 600; /* font-semibold */
+            color: #374151; /* gray-700 */
+            margin-bottom: 8px;
+        }
+
+        .feedback-text {
+            background-color: #ffedd5; /* orange-100 per UI spec - changed from fef3c7 */
+            border-left: 4px solid #f97316; /* orange-500 - changed from f59e0b */
+            padding: 16px;
+            border-radius: 8px; /* rounded-lg */
+            font-size: 14px; /* text-sm */
+            color: #9a3412; /* orange-900 - changed from 92400e */
+            line-height: 1.6;
+        }
+
+        /* Validation Section */
+        .validation-section {
+            margin-bottom: 30px;
+        }
+
+        .validation-question {
+            font-size: 16px; /* text-base */
+            font-weight: 600; /* font-semibold */
+            color: #111827; /* gray-900 */
+            margin-bottom: 16px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        .validation-btn {
+            flex: 1;
+            padding: 16px 24px; /* py-4 px-6 */
+            border: 2px solid transparent;
+            border-radius: 12px; /* rounded-xl */
+            font-size: 16px; /* text-base */
+            font-weight: 700; /* font-bold */
+            cursor: pointer;
+            transition: all 0.2s ease;
+            min-height: 56px; /* ≥44px touch target */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+        }
+
+        .agree-btn {
+            background-color: #22c55e; /* green-500 - changed from 10b981 */
+            color: white;
+        }
+
+        .agree-btn:hover {
+            background-color: #16a34a; /* green-600 - changed from 059669 */
+        }
+
+        .disagree-btn {
+            background-color: #ef4444; /* red-500 - same but confirmed */
+            color: white;
+        }
+
+        .disagree-btn:hover {
+            background-color: #dc2626; /* red-600 - same but confirmed */
+        }
+
+        /* Rating Section */
+        .rating-section {
+            margin-bottom: 30px;
+        }
+
+        .rating-label {
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 - changed from 6b7280 */
+            margin-bottom: 12px;
+        }
+
+        .rating-options {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .rating-option {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .rating-radio {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .rating-text {
+            font-size: 14px; /* text-sm */
+            color: #374151; /* gray-700 - same */
+        }
+
+        .skip-btn {
+            background-color: #f3f4f6; /* gray-100 */
+            border: 1px solid #d1d5db; /* gray-300 */
+            padding: 6px 16px;
+            border-radius: 8px; /* rounded-lg */
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 - changed from 6b7280 */
+            cursor: pointer;
+            margin-left: 12px;
+        }
+
+        .skip-btn:hover {
+            background-color: #e5e7eb; /* gray-200 */
+        }
+
+        /* Notes Section */
+        .notes-section {
+            margin-bottom: 30px;
+        }
+
+        .notes-label {
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 - changed from 6b7280 */
+            margin-bottom: 8px;
+        }
+
+        .notes-textarea {
+            width: 100%;
+            min-height: 80px;
+            padding: 12px;
+            border: 1px solid #d1d5db; /* gray-300 */
+            border-radius: 8px; /* rounded-lg */
+            font-size: 14px; /* text-sm */
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        .notes-textarea:focus {
+            outline: none;
+            border-color: #2563eb; /* blue-600 */
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px 30px 30px;
+        }
+
+        .nav-btn {
+            padding: 16px 24px; /* py-4 px-6 per UI spec */
+            background-color: #2563eb; /* blue-600 */
+            color: white;
+            border: none;
+            border-radius: 12px; /* rounded-xl */
+            font-size: 16px; /* text-base */
+            font-weight: 700; /* font-bold */
+            cursor: pointer;
+            min-width: 120px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+        }
+
+        .nav-btn:hover {
+            background-color: #1d4ed8; /* blue-700 */
+        }
+
+        .nav-btn:disabled {
+            background-color: #d1d5db; /* gray-300 */
+            cursor: not-allowed;
+        }
+
+        /* Summary Footer */
+        .summary-footer {
+            background-color: #f9fafb; /* gray-50 */
+            padding: 25px 30px;
+            border-top: 2px solid #e5e7eb; /* gray-200 */
+        }
+
+        .summary-title {
+            font-size: 16px; /* text-base */
+            font-weight: 600; /* font-semibold */
+            color: #111827; /* gray-900 - changed from 1f2937 */
+            margin-bottom: 12px;
+        }
+
+        .summary-stats {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            font-size: 14px; /* text-sm */
+            color: #4b5563; /* gray-600 - changed from 6b7280 */
+        }
+
+        .stat-value {
+            font-weight: 600; /* font-semibold */
+            color: #111827; /* gray-900 - changed from 1f2937 */
+        }
+
+        .export-btn {
+            background-color: #22c55e; /* green-500 - changed from 059669 */
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 12px; /* rounded-xl */
+            font-size: 14px; /* text-sm */
+            font-weight: 700; /* font-bold */
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+        }
+
+        .export-btn:hover {
+            background-color: #16a34a; /* green-600 - changed from 047857 */
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                border-radius: 0;
+            }
+
+            .header {
+                padding: 16px 20px;
+            }
+
+            .header h1 {
+                font-size: 18px;
+            }
+
+            .progress-section,
+            .question-card,
+            .navigation {
+                padding: 20px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .summary-stats {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>OffGrid English - Teacher Validation</h1>
+            <button class="exit-btn">Exit</button>
+        </div>
+
+        <!-- Progress Section -->
+        <div class="progress-section">
+            <div class="progress-label">Progress:</div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill"></div>
+                <div class="progress-text">12 of 20 reviewed</div>
+            </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-card">
+            <!-- Question Header -->
+            <div class="question-header">
+                <div class="sample-info">Sample #12 - Module: Prepositions - Item #7</div>
+            </div>
+
+            <!-- Question -->
+            <div class="question-text">
+                "Please wait for me ___ the motor park entrance."
+            </div>
+
+            <div class="options">
+                Options: [at, on, in]
+            </div>
+
+            <!-- Answer Display -->
+            <div class="answer-display">
+                <div class="answer-row">
+                    <span class="answer-label">Student Answer:</span>
+                    <span class="answer-value">"at"</span>
+                </div>
+                <div class="answer-row">
+                    <span class="answer-label">Correct Answer:</span>
+                    <span class="answer-value">"at"</span>
+                </div>
+                <div class="answer-row">
+                    <span class="answer-label">System Scored:</span>
+                    <div class="system-score">
+                        <span class="checkmark">✓</span>
+                        <span class="answer-value">CORRECT</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feedback -->
+            <div class="feedback-section">
+                <div class="feedback-label">Feedback shown to student:</div>
+                <div class="feedback-text">
+                    "Correct! We use AT to talk about a specific point or location (at the entrance, at the bus stop, at the market)."
+                </div>
+            </div>
+
+            <!-- Validation Question -->
+            <div class="validation-section">
+                <div class="validation-question">Do you agree with the automated scoring?</div>
+                <div class="button-group">
+                    <button class="validation-btn agree-btn">✓ Agree</button>
+                    <button class="validation-btn disagree-btn">✗ Disagree</button>
+                </div>
+            </div>
+
+            <!-- Rating -->
+            <div class="rating-section">
+                <div class="rating-label">(Optional) Rate feedback quality:</div>
+                <div class="rating-options">
+                    <label class="rating-option">
+                        <input type="radio" name="rating" value="2" class="rating-radio">
+                        <span class="rating-text">Excellent (2)</span>
+                    </label>
+                    <label class="rating-option">
+                        <input type="radio" name="rating" value="1" class="rating-radio">
+                        <span class="rating-text">Adequate (1)</span>
+                    </label>
+                    <label class="rating-option">
+                        <input type="radio" name="rating" value="0" class="rating-radio">
+                        <span class="rating-text">Poor (0)</span>
+                    </label>
+                    <button class="skip-btn">Skip</button>
+                </div>
+            </div>
+
+            <!-- Notes -->
+            <div class="notes-section">
+                <div class="notes-label">(Optional) Notes:</div>
+                <textarea class="notes-textarea" placeholder="Add any specific concerns or suggestions..."></textarea>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="nav-btn">← Previous</button>
+            <button class="nav-btn">Next →</button>
+        </div>
+
+        <!-- Summary Footer -->
+        <div class="summary-footer">
+            <div class="summary-title">Summary:</div>
+            <div class="summary-stats">
+                <div class="stat-item">
+                    Agreement Rate: <span class="stat-value">91.7% (11/12 agreed)</span>
+                </div>
+                <div class="stat-item">
+                    Avg Feedback Quality: <span class="stat-value">1.8/2.0 (Excellent-Adequate)</span>
+                </div>
+            </div>
+            <button class="export-btn">
+                📥 Export Validation CSV
+            </button>
+        </div>
+    </div>
+</body>
+</html>

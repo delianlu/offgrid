@@ -1,0 +1,1085 @@
+{
+  "id": "tense-form",
+  "name": "Tense and Form",
+  "category": "tense",
+  "moduleIntroduction": "Welcome! This module is about Tenses and Forms. Tenses tell us when an action happens—in the present (now), the past (yesterday), or the future (tomorrow). This is often the biggest challenge for French speakers, but you can master it!\n\nWhy is it difficult? Because French and English 'see' time differently. For example, French uses one tense, the passé composé (e.g., 'j'ai mangé'), where English uses two tenses: the Past Simple ('I ate') and the Present Perfect ('I have eaten'). Also, English uses the 'be + -ing' form (like 'I am eating') for actions happening right now, which differs from the French présent simple. We will look at these differences so you can choose the correct tense. With practice, you'll get it!",
+  "contrastiveExplanation": "Let's compare French and English tenses to understand the common mistakes.\n\nPresent Simple vs. Present Continuous:\n\nIn French, you use the présent simple for habits AND actions happening now. (\"Je mange\" can mean \"I eat\" or \"I am eating\").\n\nIn English, you must choose.\n\n• Present Simple ('I eat') is for habits, routines, and facts. (e.g., \"Ngono goes to school every day.\")\n• Present Continuous ('I am eating') is for actions happening right now or temporary situations. (e.g., \"Ngono is going to the market now.\")\n\nTip: If you can say \"en train de\" in French, you must use 'be + -ing' in English.\n\nPast Simple vs. Present Perfect:\n\nThis is the hardest part! French Passé Composé (\"J'ai vu\") is used for almost all completed past actions.\n\nEnglish splits this into two tenses.\n\n• Past Simple ('I saw') is for a finished action at a specific, finished time in the past. (e.g., \"I saw Muna yesterday.\" \"I visited Bamenda last week.\") The time is finished.\n• Present Perfect ('I have seen') is for an action in the past with a connection to the present, or when the time is not specific. (e.g., \"I have seen that film before\" - in my life).\n\nTip: If the French \"depuis\" (\"since\") is used, English must use the Present Perfect. ❌ \"Je suis ici depuis 2 heures.\" -> ✅ \"I have been here for 2 hours.\" (NOT \"I am here since...\")\n\nFuture Forms (Will vs. Be going to):\n\nFrench has futur simple (\"Je ferai\") and futur proche (\"Je vais faire\").\n\nEnglish has 'will' and 'be going to'.\n\n• 'Will' is for instant decisions (made now), promises, or offers. (e.g., \"The phone is ringing. I will get it!\")\n• 'Be going to' is for plans already made or predictions based on evidence. (e.g., \"I am going to visit Douala next week\" - I have a plan. \"Look at the clouds! It is going to rain.\")\n\nModals (Can, Must, Should):\n\nFrench uses verbs like pouvoir (can), devoir (must), falloir (must).\n\nThe big error is the form. In English, modals (can, must, should) are always followed by the base verb (the infinitive without 'to').\n\nFrench: \"Je peux aller.\" ➡️ English Error: \"I can to go.\" ➡️ Correct: \"I can go.\"\n\nAlso, modals never take an '-s' for he/she/it. (e.g., \"She can sing.\" NOT \"She cans sing.\")",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Present Continuous",
+      "wrong": "I go to the market now.",
+      "correct": "I am going to the market now.",
+      "frenchConnection": "French uses présent simple (\"Je vais au marché\") for actions happening now. English must use the Present Continuous for actions in progress."
+    },
+    {
+      "number": 2,
+      "subTopic": "Present Continuous (Question)",
+      "wrong": "What you are doing?",
+      "correct": "What are you doing?",
+      "frenchConnection": "French question structure is different (\"Qu'est-ce que tu fais ?\"). In English questions with 'be', the auxiliary verb 'are' comes before the subject 'you'."
+    },
+    {
+      "number": 3,
+      "subTopic": "Present Simple (State Verb)",
+      "wrong": "My brother is liking plantains.",
+      "correct": "My brother likes plantains.",
+      "frenchConnection": "Verbs for states or feelings (like, love, know, want) are not usually used in the continuous (-ing) form. Both French (\"Il aime\") and English use the simple present for this."
+    },
+    {
+      "number": 4,
+      "subTopic": "Present Simple (Negative)",
+      "wrong": "He not speak English well.",
+      "correct": "He does not (doesn't) speak English well.",
+      "frenchConnection": "French uses \"ne...pas\" (\"Il ne parle pas\"). English must use the auxiliary verb 'do' or 'does' to make a negative in the Present Simple."
+    },
+    {
+      "number": 5,
+      "subTopic": "Past Simple vs Present Perfect",
+      "wrong": "I have seen Foncha yesterday.",
+      "correct": "I saw Foncha yesterday.",
+      "frenchConnection": "\"Yesterday\" is a specific, finished past time. English must use the Past Simple. The French passé composé (\"J'ai vu\") looks like the Present Perfect, which causes this common error."
+    },
+    {
+      "number": 6,
+      "subTopic": "Past Simple (Positive)",
+      "wrong": "They did go to Limbe last month.",
+      "correct": "They went to Limbe last month.",
+      "frenchConnection": "In a positive past sentence, we don't use 'did'. We just change the verb to its past form ('went'). 'Did' is only for questions (\"Did they go?\") or negatives (\"They didn't go\")."
+    },
+    {
+      "number": 7,
+      "subTopic": "Present Perfect (Since/For)",
+      "wrong": "Muna is living in Yaoundé since 2010.",
+      "correct": "Muna has lived in Yaoundé since 2010.",
+      "frenchConnection": "The word \"since\" (\"depuis\") shows an action that started in the past and continues to the present. French uses the présent simple (\"Muna habite... depuis 2010\"), but English must use the Present Perfect."
+    },
+    {
+      "number": 8,
+      "subTopic": "Past Simple vs Present Perfect",
+      "wrong": "I have finished my homework at 9 pm.",
+      "correct": "I finished my homework at 9 pm.",
+      "frenchConnection": "\"At 9 pm\" is a specific past time. English requires the Past Simple."
+    },
+    {
+      "number": 9,
+      "subTopic": "Present Perfect (Question)",
+      "wrong": "You have ever eaten Ndolé?",
+      "correct": "Have you ever eaten Ndolé?",
+      "frenchConnection": "This is a question about life experience. English uses the Present Perfect and must invert the subject ('you') and the auxiliary ('have')."
+    },
+    {
+      "number": 10,
+      "subTopic": "Future Forms (Prediction)",
+      "wrong": "Look at the clouds! It will rain.",
+      "correct": "Look at the clouds! It is going to rain.",
+      "frenchConnection": "This is a prediction based on present evidence (the clouds). English uses 'be going to'. 'Will' is for instant decisions or general predictions without evidence."
+    },
+    {
+      "number": 11,
+      "subTopic": "Future Forms (Plan)",
+      "wrong": "I will to go to the village tomorrow. (A plan)",
+      "correct": "I am going to go to the village tomorrow.",
+      "frenchConnection": "This is a plan made before speaking. English uses 'be going to'. 'Will' is for a decision made now."
+    },
+    {
+      "number": 12,
+      "subTopic": "Future Forms (Question)",
+      "wrong": "When you will come?",
+      "correct": "When will you come?",
+      "frenchConnection": "In questions, the modal 'will' (or auxiliary 'are'/'do') comes before the subject ('you'). \"Quand viendras-tu ?\" has a different structure."
+    },
+    {
+      "number": 13,
+      "subTopic": "Modals (Form)",
+      "wrong": "My sister can to cook fufu very well.",
+      "correct": "My sister can cook fufu very well.",
+      "frenchConnection": "French \"Elle peut cuisiner\" uses an infinitive (\"cuisiner\"). English modals (can, must, should) are always followed by the base verb without 'to'."
+    },
+    {
+      "number": 14,
+      "subTopic": "Modals (Form)",
+      "wrong": "You must to wear your uniform.",
+      "correct": "You must wear your uniform.",
+      "frenchConnection": "French \"Tu dois porter...\" causes 'to' to be added."
+    },
+    {
+      "number": 15,
+      "subTopic": "Modals (Agreement)",
+      "wrong": "He shoulds study for the exam.",
+      "correct": "He should study for the exam.",
+      "frenchConnection": "Modals (can, must, should) never take an '-s' for the third person (he/she/it). French \"Il doit\" changes, but English modals do not."
+    },
+    {
+      "number": 16,
+      "subTopic": "Modals (Form)",
+      "wrong": "Can I to ask a question?",
+      "correct": "Can I ask a question?",
+      "frenchConnection": "\"Puis-je poser...\" leads to the incorrect addition of 'to' after a modal."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "tense-form-1-A",
+      "moduleId": "tense-form",
+      "questionText": "My mother ___ to the market in Douala every morning.",
+      "type": "multiple_choice",
+      "options": [
+        "is going",
+        "goes",
+        "go"
+      ],
+      "correctAnswer": "goes",
+      "feedback": "Good job! We use the Present Simple ('goes') because \"every morning\" shows a habit or routine. We add '-es' because 'mother' is third-person singular (she).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Simple"
+    },
+    {
+      "id": "tense-form-2-A",
+      "moduleId": "tense-form",
+      "questionText": "Please be quiet! The children ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sleep",
+        "sleeps",
+        "are sleeping"
+      ],
+      "correctAnswer": "are sleeping",
+      "feedback": "Excellent! The phrase \"Please be quiet!\" tells us the action is happening right now. For actions happening now, we use the Present Continuous ('are sleeping').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Continuous",
+      "frenchComparison": {
+        "frenchStructure": "\"S'il vous plaît, soyez silencieux ! Les enfants dorment.\"\n(French uses the Présent Simple: \"dorment\" to describe an action happening right now.)",
+        "englishStructure": "\"Please be quiet! The children are sleeping.\"\n(English *must* use the Present Continuous: \"are + -ing\" for an action in progress at this exact moment.)",
+        "whyDifficult": "French uses the same simple present tense for both habits (\"Ils dorment la nuit\") and actions happening now (\"Ils dorment\"). English speakers *must* choose. French speakers often use the Present Simple (\"The children sleep\") because it's a direct translation of \"Les enfants dorment.\"",
+        "visualHighlighting": {
+          "incorrect": "The children sleep.",
+          "correct": "The children are sleeping."
+        }
+      }
+    },
+    {
+      "id": "tense-form-3-A",
+      "moduleId": "tense-form",
+      "questionText": "I ___ this exercise is not very difficult.",
+      "type": "multiple_choice",
+      "options": [
+        "am thinking",
+        "think",
+        "thinks"
+      ],
+      "correctAnswer": "think",
+      "feedback": "That's right. When 'think' means 'believe' or 'have an opinion', we use the Present Simple. We don't say \"I am thinking\" for opinions. (Note: 'Think' CAN use continuous form when it means 'consider', like \"I'm thinking about my future,\" but not when expressing belief.)",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Simple (State Verb)",
+      "frenchComparison": {
+        "frenchStructure": "\"Je pense que cet exercice n'est pas très difficile.\"\n(French uses the simple present \"Je pense\" for an opinion.)",
+        "englishStructure": "\"I think this exercise is not very difficult.\"\n(English also uses the Present Simple for opinions, beliefs, and \"stative\" verbs. We do not use the continuous form.)",
+        "whyDifficult": "After learning the \"be + -ing\" rule (from the item above), students often *over-use* it. They apply it to all verbs, including \"stative\" (state) verbs like 'think', 'know', 'like', and 'want'. In this case, the French \"Je pense\" is a good clue to use the simple \"I think.\"",
+        "visualHighlighting": {
+          "incorrect": "I am thinking this exercise...",
+          "correct": "I think this exercise..."
+        }
+      }
+    },
+    {
+      "id": "tense-form-4-A",
+      "moduleId": "tense-form",
+      "questionText": "\"Where is Muna?\" \"He ___ football in the school compound.\"",
+      "type": "multiple_choice",
+      "options": [
+        "plays",
+        "is playing",
+        "play"
+      ],
+      "correctAnswer": "is playing",
+      "feedback": "Correct! The question \"Where is Muna?\" asks about his location right now. The answer describes what he is doing at this moment.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Continuous",
+      "frenchComparison": {
+        "frenchStructure": "\"Où est Muna ?\" \"Il joue au football...\"\n(Again, French uses the *Présent Simple* (\"joue\") to describe the action happening now.)",
+        "englishStructure": "\"Where is Muna?\" \"He is playing football...\"\n(English *must* use the Present Continuous (\"is playing\") to answer a question about what someone is doing *at this moment*.)",
+        "whyDifficult": "This is a high-frequency example of the \"Présent Simple vs. Present Continuous\" error. The French \"Il joue\" is translated directly to \"He plays\", which in English means he plays habitually (e.g., \"He plays for the school team\"), not right now.",
+        "visualHighlighting": {
+          "incorrect": "He plays football...",
+          "correct": "He is playing football..."
+        }
+      }
+    },
+    {
+      "id": "tense-form-5-A",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"Atangana not live in Yaoundé.\"",
+      "type": "error_correction",
+      "options": [
+        "Atangana",
+        "not live",
+        "in Yaoundé",
+        "No error"
+      ],
+      "correctAnswer": "not live",
+      "feedback": "You found it! In French, you use \"ne...pas\", but in English, we must use the auxiliary 'do' or 'does' to make a negative. For 'Atangana' (he), we use 'does not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "does not live",
+      "subTopic": "Present Simple (Negative)"
+    },
+    {
+      "id": "tense-form-6-A",
+      "moduleId": "tense-form",
+      "questionText": "Yesterday, I ___ my uncle at the motor park.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "saw",
+        "have seen"
+      ],
+      "correctAnswer": "saw",
+      "feedback": "Perfect! The word \"yesterday\" is a finished past time, so we must use the Past Simple. The past of 'see' is the irregular verb 'saw'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Irregular)",
+      "frenchComparison": {
+        "frenchStructure": "\"Hier, j'ai vu mon oncle à la gare routière.\"\n(French uses the *Passé Composé* (\"j'ai vu\") for almost all completed past actions.)",
+        "englishStructure": "\"Yesterday, I saw my uncle at the motor park.\"\n(English *must* use the Past Simple (\"saw\") because the time \"Yesterday\" is specific and finished.)",
+        "whyDifficult": "The French *Passé Composé* (\"j'ai vu\") looks identical to the English *Present Perfect* (\"I have seen\"). Students translate directly and use the Present Perfect, but English *requires* the Past Simple for any action with a finished time (like yesterday, last week, in 2010).",
+        "visualHighlighting": {
+          "incorrect": "Yesterday, I have seen my uncle...",
+          "correct": "Yesterday, I saw my uncle..."
+        }
+      }
+    },
+    {
+      "id": "tense-form-7-A",
+      "moduleId": "tense-form",
+      "questionText": "We ___ for our exam all night last night.",
+      "type": "multiple_choice",
+      "options": [
+        "studied",
+        "have studied",
+        "study"
+      ],
+      "correctAnswer": "studied",
+      "feedback": "That's correct. \"Last night\" is a specific, finished time in the past, so we use the Past Simple ('studied').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Regular)"
+    },
+    {
+      "id": "tense-form-8-A",
+      "moduleId": "tense-form",
+      "questionText": "Ngono ___ to school last week because she was sick.",
+      "type": "multiple_choice",
+      "options": [
+        "hasn't gone",
+        "didn't go",
+        "didn't went"
+      ],
+      "correctAnswer": "didn't go",
+      "feedback": "Great! To make a negative in the past, we use 'didn't' + base verb ('go'). We don't use 'went' (option C) or the Present Perfect (option A) because \"last week\" is a finished time.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Negative)"
+    },
+    {
+      "id": "tense-form-9-A",
+      "moduleId": "tense-form",
+      "questionText": "___ you finish your chores this morning?",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Have",
+        "Do"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Correct! \"This morning\" is now finished (it's afternoon now). To ask a question in the Past Simple, we start with 'Did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Question)"
+    },
+    {
+      "id": "tense-form-10-A",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"My family has moved to Bafoussam in 2018.\"",
+      "type": "error_correction",
+      "options": [
+        "has moved",
+        "to Bafoussam",
+        "in 2018",
+        "No error"
+      ],
+      "correctAnswer": "has moved",
+      "feedback": "You spotted the error! \"In 2018\" is a specific, finished time in the past. We must use the Past Simple ('moved'), not the Present Perfect ('has moved'). This is a common error because of the French passé composé.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "moved",
+      "subTopic": "Past Simple vs. Present Perfect",
+      "frenchComparison": {
+        "frenchStructure": "\"Ma famille a déménagé à Bafoussam en 2018.\"\n(French uses the *Passé Composé* (\"a déménagé\") for this finished action.)",
+        "englishStructure": "\"My family moved to Bafoussam in 2018.\"\n(English *must* use the *Past Simple* (\"moved\") because \"in 2018\" is a specific, finished time in the past.)",
+        "whyDifficult": "This is the same error as `tense-6-A`. The French *Passé Composé* (\"a déménagé\") looks like the English *Present Perfect* (\"has moved\"). Students use this form by default, forgetting that if a specific finished time is mentioned, the Past Simple is required.",
+        "visualHighlighting": {
+          "incorrect": "...has moved to Bafoussam in 2018.",
+          "correct": "...moved to Bafoussam in 2018."
+        }
+      }
+    },
+    {
+      "id": "tense-form-11-A",
+      "moduleId": "tense-form",
+      "questionText": "___ you ever eaten poisson braisé in Limbe?",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Have",
+        "Are"
+      ],
+      "correctAnswer": "Have",
+      "feedback": "Well done! This is a question about life experience (have you done this in your life?). The word \"ever\" is a clue. We use the Present Perfect: 'Have you ever...?'",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Experience)"
+    },
+    {
+      "id": "tense-form-12-A",
+      "moduleId": "tense-form",
+      "questionText": "My brother ___ at the University of Yaoundé for three years.",
+      "type": "multiple_choice",
+      "options": [
+        "studies",
+        "has studied",
+        "is studying"
+      ],
+      "correctAnswer": "has studied",
+      "feedback": "Excellent! The phrase \"for three years\" shows an action that started in the past and continues now. We must use the Present Perfect ('has studied'). In French, you might use the présent simple with \"depuis\", but English uses the Present Perfect with \"for\" or \"since\".",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Since/For)",
+      "frenchComparison": {
+        "frenchStructure": "\"M. Foncha est professeur depuis 1995.\"\n(French uses the *Présent Simple* (\"est\") + \"depuis\" to describe an action that started in the past and continues to the present.)",
+        "englishStructure": "\"Mr. Foncha has been a teacher since 1995.\"\n(English *must* use the *Present Perfect* (\"has been\") + \"since\" for this situation.)",
+        "whyDifficult": "This is one of the most common and direct structural interferences. Translating \"est... depuis\" directly results in the error \"He is... since\". English *requires* the Present Perfect (have/has + participle) to connect the past to the present in this way.",
+        "visualHighlighting": {
+          "incorrect": "Mr. Foncha is a teacher since 1995.",
+          "correct": "Mr. Foncha has been a teacher since 1995."
+        }
+      }
+    },
+    {
+      "id": "tense-form-13-A",
+      "moduleId": "tense-form",
+      "questionText": "Oh no! The bus is gone. We ___ it.",
+      "type": "multiple_choice",
+      "options": [
+        "miss",
+        "have missed",
+        "missed"
+      ],
+      "correctAnswer": "have missed",
+      "feedback": "That's right! The Present Perfect ('have missed') shows a past action with a present result. The bus left (past action), and now we are here without it (present result).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Present Result)"
+    },
+    {
+      "id": "tense-form-14-A",
+      "moduleId": "tense-form",
+      "questionText": "Has Njoya finished his homework ___?",
+      "type": "multiple_choice",
+      "options": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "correctAnswer": "yet",
+      "feedback": "Correct! We use 'yet' in questions and negative sentences with the Present Perfect. \"Have you finished yet?\" means \"up to now\". 'Already' is used in positive sentences.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Yet)"
+    },
+    {
+      "id": "tense-form-15-A",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"My grandparents are married since 1985.\"",
+      "type": "error_correction",
+      "options": [
+        "are married",
+        "since",
+        "1985",
+        "No error"
+      ],
+      "correctAnswer": "are married",
+      "feedback": "Good! When we use \"since\" with a starting point in the past, we must use the Present Perfect. The correct sentence is \"My grandparents have been married since 1985.\" French uses \"depuis\" with the présent, but English uses the Present Perfect.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "have been married",
+      "subTopic": "Present Perfect (Since/For)"
+    },
+    {
+      "id": "tense-form-16-A",
+      "moduleId": "tense-form",
+      "questionText": "My family ___ to the village next month. We already bought the bus tickets.",
+      "type": "multiple_choice",
+      "options": [
+        "will go",
+        "goes",
+        "is going to go"
+      ],
+      "correctAnswer": "is going to go",
+      "feedback": "Perfect! This is a plan that was decided before now (we already have tickets). We use 'be going to' for plans. 'Will' is for instant decisions made at the moment of speaking.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Plan)",
+      "frenchComparison": {
+        "frenchStructure": "\"Nous allons visiter notre grand-mère... (Futur Proche)\n\"Nous visiterons notre grand-mère... (Futur Simple)",
+        "englishStructure": "\"We are going to visit our grandmother...\"\n(English uses \"be going to\" for a *plan* that was made *before* the moment of speaking. \"We bought the tickets\" proves it's a plan.)",
+        "whyDifficult": "French \"futur simple\" (\"visiterons\") is often taught as the translation for \"will visit\". Students use \"will\" for all future actions. However, English distinguishes between a plan ('be going to') and an instant decision/promise ('will').",
+        "visualHighlighting": {
+          "incorrect": "We will visit our grandmother...",
+          "correct": "We are going to visit our grandmother..."
+        }
+      }
+    },
+    {
+      "id": "tense-form-17-A",
+      "moduleId": "tense-form",
+      "questionText": "\"I'm hungry.\" \"Wait. I ___ make you some food.\"",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "am going to",
+        "-"
+      ],
+      "correctAnswer": "will",
+      "feedback": "That's right! This is an instant decision (you decide to make food right now because someone is hungry). We use 'will' for decisions made at the moment of speaking.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Instant Decision)",
+      "frenchComparison": {
+        "frenchStructure": "\"Il fait très chaud...\" \"Tu as raison. Je vais ouvrir la fenêtre.\"\n(French often uses the *Futur Proche* (\"je vais ouvrir\") for an instant decision made at the moment of speaking.)",
+        "englishStructure": "\"I will open the window.\"\n(English *must* use \"will\" for an *instant decision* or offer made at the moment of speaking.)",
+        "whyDifficult": "This is the reverse of the previous item. Students translate the *Futur Proche* (\"je vais\") directly to \"I am going to\", but English reserves \"will\" for this specific situation of a spontaneous decision.",
+        "visualHighlighting": {
+          "incorrect": "I am going to open the window.",
+          "correct": "I will open the window."
+        }
+      }
+    },
+    {
+      "id": "tense-form-18-A",
+      "moduleId": "tense-form",
+      "questionText": "Look at those dark clouds! It ___.",
+      "type": "multiple_choice",
+      "options": [
+        "will rain",
+        "is going to rain",
+        "rains"
+      ],
+      "correctAnswer": "is going to rain",
+      "feedback": "Excellent! This is a prediction based on present evidence (the dark clouds we can see). We use 'be going to' for predictions based on evidence. 'Will' is for general predictions without visible evidence.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Prediction)"
+    },
+    {
+      "id": "tense-form-19-A",
+      "moduleId": "tense-form",
+      "questionText": "Read the school rule: \"Students ___ not use phones in class.\"",
+      "type": "multiple_choice",
+      "options": [
+        "are going",
+        "will",
+        "must"
+      ],
+      "correctAnswer": "must",
+      "feedback": "Good work! This is a rule or obligation, not a future action. We use 'must' for strong obligations or rules. 'Will' is for future actions or promises.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Obligation)"
+    },
+    {
+      "id": "tense-form-20-A",
+      "moduleId": "tense-form",
+      "questionText": "When ___ your sister arrive from Douala?",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "is",
+        "does"
+      ],
+      "correctAnswer": "will",
+      "feedback": "Correct! This is a question about a future action. In questions with 'will', the modal comes before the subject: 'When will you...?' (not 'When you will...?').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Question)"
+    },
+    {
+      "id": "tense-form-21-A",
+      "moduleId": "tense-form",
+      "questionText": "My little brother ___ write his name, but he ___ read yet.",
+      "type": "multiple_choice",
+      "options": [
+        "can / can't",
+        "can't / can",
+        "must / can"
+      ],
+      "correctAnswer": "can / can't",
+      "feedback": "Well done! We use 'can' to show ability (something you are able to do) and 'can't' to show inability. The boy has the ability to write but does not have the ability to read.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Ability)"
+    },
+    {
+      "id": "tense-form-22-A",
+      "moduleId": "tense-form",
+      "questionText": "Read the school rule: \"All students ___ attend assembly every Monday.\"",
+      "type": "multiple_choice",
+      "options": [
+        "can",
+        "should",
+        "must"
+      ],
+      "correctAnswer": "must",
+      "feedback": "That's right! 'Must' expresses a strong obligation or rule. 'Should' is for advice, and 'can' is for ability or permission. A school rule requires 'must'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Obligation)"
+    },
+    {
+      "id": "tense-form-23-A",
+      "moduleId": "tense-form",
+      "questionText": "A: \"I have a headache.\" B: \"You ___ rest and drink water.\"",
+      "type": "multiple_choice",
+      "options": [
+        "should",
+        "must",
+        "can"
+      ],
+      "correctAnswer": "should",
+      "feedback": "Perfect! 'Should' is used to give advice or suggestions. 'Must' is too strong (it's not an obligation), and 'can' means ability, not advice.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Advice)"
+    },
+    {
+      "id": "tense-form-24-A",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"Students must to respect their teachers.\"",
+      "type": "error_correction",
+      "options": [
+        "must to respect",
+        "their teachers",
+        "Students",
+        "No error"
+      ],
+      "correctAnswer": "must to respect",
+      "feedback": "You found it! Modals (can, must, should, will) are always followed by the base verb without 'to'. The correct sentence is \"Students must respect their teachers.\" This is different from French \"doivent respecter\" which might cause this error.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "must respect",
+      "subTopic": "Modals (Form)",
+      "frenchComparison": {
+        "frenchStructure": "\"Tu dois faire tes devoirs...\"\n(French modal verbs like *devoir* (must), *pouvoir* (can), and *vouloir* (want) are followed by the *infinitive* form of the next verb: \"faire\", \"aller\", \"parler\".)",
+        "englishStructure": "\"You must do your homework...\"\n(English modal verbs (must, can, should, will) are *always* followed by the *base verb* (the infinitive *without* 'to').)",
+        "whyDifficult": "French speakers are trained to use the full infinitive after a modal. They translate this logic by adding \"to\" after English modals, creating the very common \"must to do\", \"can to go\", or \"should to study\" errors.",
+        "visualHighlighting": {
+          "incorrect": "You must to do your homework.",
+          "correct": "You must do your homework."
+        }
+      }
+    },
+    {
+      "id": "tense-form-25-A",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"My sister cans speak three languages.\"",
+      "type": "error_correction",
+      "options": [
+        "cans speak",
+        "three languages",
+        "My sister",
+        "No error"
+      ],
+      "correctAnswer": "cans speak",
+      "feedback": "Excellent! Modals never take an '-s' for the third person (he/she/it). We say \"She can speak\" (NOT \"She cans speak\"). All modals stay the same for all persons: I can, you can, he can, we can, they can.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "can speak",
+      "subTopic": "Modals (Form)",
+      "frenchComparison": {
+        "frenchStructure": "\"Mon père peut conduire un grand camion.\"\n(French modal-like verbs are conjugated. The verb \"pouvoir\" changes from the infinitive to \"peut\" for the 3rd person \"il\".)",
+        "englishStructure": "\"My father can drive a large truck.\"\n(English modal verbs (can, must, should) *never* change. They do not take an \"-s\" for the third person.)",
+        "whyDifficult": "French speakers learn to conjugate all verbs for the subject (je peux, tu peux, il peut). They apply this rule to English modals and add an \"-s\" for \"he/she/it\", resulting in \"cans\", \"musts\", or \"shoulds\".",
+        "visualHighlighting": {
+          "incorrect": "My father cans drive...",
+          "correct": "My father can drive..."
+        }
+      }
+    },
+    {
+      "id": "tense-form-1-B",
+      "moduleId": "tense-form",
+      "questionText": "My father ___ ndolé every Sunday.",
+      "type": "multiple_choice",
+      "options": [
+        "is cooking",
+        "cooks",
+        "cook"
+      ],
+      "correctAnswer": "cooks",
+      "feedback": "Great! We use the Present Simple ('cooks') because \"every Sunday\" shows a habit or routine. We add '-s' because 'father' is third-person singular (he).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Simple"
+    },
+    {
+      "id": "tense-form-2-B",
+      "moduleId": "tense-form",
+      "questionText": "Shh! My little sister ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sleeps",
+        "is sleeping",
+        "sleep"
+      ],
+      "correctAnswer": "is sleeping",
+      "feedback": "Correct! \"Shh!\" tells us the action is happening right now. For actions happening now, we use the Present Continuous ('is sleeping').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Continuous"
+    },
+    {
+      "id": "tense-form-3-B",
+      "moduleId": "tense-form",
+      "questionText": "I ___ Cameroonian music is beautiful.",
+      "type": "multiple_choice",
+      "options": [
+        "am thinking",
+        "thinks",
+        "think"
+      ],
+      "correctAnswer": "think",
+      "feedback": "Well done! When 'think' means 'believe' or 'have an opinion', we use the Present Simple, not the continuous form.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Simple (State Verb)"
+    },
+    {
+      "id": "tense-form-4-B",
+      "moduleId": "tense-form",
+      "questionText": "\"Where is your mother?\" \"She ___ at the market.\"",
+      "type": "multiple_choice",
+      "options": [
+        "shops",
+        "shop",
+        "is shopping"
+      ],
+      "correctAnswer": "is shopping",
+      "feedback": "Perfect! The question asks where she is right now, so we use the Present Continuous to describe what she is doing at this moment.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Continuous"
+    },
+    {
+      "id": "tense-form-5-B",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"My brother not play football.\"",
+      "type": "error_correction",
+      "options": [
+        "My brother",
+        "not play",
+        "football",
+        "No error"
+      ],
+      "correctAnswer": "not play",
+      "feedback": "Excellent! In English, we must use the auxiliary 'do' or 'does' to make a negative in the Present Simple. For 'brother' (he), we use 'does not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "does not play",
+      "subTopic": "Present Simple (Negative)"
+    },
+    {
+      "id": "tense-form-6-B",
+      "moduleId": "tense-form",
+      "questionText": "Last week, we ___ our teacher at the motor park.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "have seen",
+        "saw"
+      ],
+      "correctAnswer": "saw",
+      "feedback": "That's right! \"Last week\" is a finished past time, so we use the Past Simple. The past of 'see' is the irregular verb 'saw'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Irregular)"
+    },
+    {
+      "id": "tense-form-7-B",
+      "moduleId": "tense-form",
+      "questionText": "My family ___ to Kribi last holiday.",
+      "type": "multiple_choice",
+      "options": [
+        "traveled",
+        "have traveled",
+        "travels"
+      ],
+      "correctAnswer": "traveled",
+      "feedback": "Good job! \"Last holiday\" is a specific, finished time in the past, so we use the Past Simple ('traveled').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Regular)"
+    },
+    {
+      "id": "tense-form-8-B",
+      "moduleId": "tense-form",
+      "questionText": "I ___ Foncha at school yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "didn't see",
+        "haven't seen",
+        "didn't saw"
+      ],
+      "correctAnswer": "didn't see",
+      "feedback": "Correct! To make a negative in the past, we use 'didn't' + base verb ('see'). We don't use 'saw' (option C) or the Present Perfect (option B) because \"yesterday\" is a finished time.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Negative)"
+    },
+    {
+      "id": "tense-form-9-B",
+      "moduleId": "tense-form",
+      "questionText": "What time ___ you go to bed last night?",
+      "type": "multiple_choice",
+      "options": [
+        "Have",
+        "Do",
+        "Did"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Well done! \"Last night\" is a finished past time. To ask a question in the Past Simple, we start with 'Did'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Past Simple (Question)"
+    },
+    {
+      "id": "tense-form-10-B",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"I have bought this phone two weeks ago.\"",
+      "type": "error_correction",
+      "options": [
+        "have bought",
+        "this phone",
+        "two weeks ago",
+        "No error"
+      ],
+      "correctAnswer": "have bought",
+      "feedback": "You got it! \"Two weeks ago\" is a specific, finished time in the past. We must use the Past Simple ('bought'), not the Present Perfect ('have bought').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "bought",
+      "subTopic": "Past Simple vs. Present Perfect"
+    },
+    {
+      "id": "tense-form-11-B",
+      "moduleId": "tense-form",
+      "questionText": "___ you ever visited the Waza National Park?",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Were",
+        "Have"
+      ],
+      "correctAnswer": "Have",
+      "feedback": "Perfect! This is a question about life experience. The word \"ever\" is a clue. We use the Present Perfect: 'Have you ever...?'",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Experience)"
+    },
+    {
+      "id": "tense-form-12-B",
+      "moduleId": "tense-form",
+      "questionText": "My aunt ___ in that house for more than twenty years.",
+      "type": "multiple_choice",
+      "options": [
+        "lives",
+        "has lived",
+        "is living"
+      ],
+      "correctAnswer": "has lived",
+      "feedback": "Excellent! The phrase \"for more than twenty years\" shows an action that started in the past and continues now. We must use the Present Perfect ('has lived').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Since/For)"
+    },
+    {
+      "id": "tense-form-13-B",
+      "moduleId": "tense-form",
+      "questionText": "The taxi is gone! We ___ the bus.",
+      "type": "multiple_choice",
+      "options": [
+        "missed",
+        "have missed",
+        "miss"
+      ],
+      "correctAnswer": "have missed",
+      "feedback": "That's right! The Present Perfect ('have missed') shows a past action with a present result. The taxi left (past), and now we need to take the bus (present result).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Present Result)"
+    },
+    {
+      "id": "tense-form-14-B",
+      "moduleId": "tense-form",
+      "questionText": "Has Biya finished his homework ___?",
+      "type": "multiple_choice",
+      "options": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "correctAnswer": "yet",
+      "feedback": "Good! We use 'yet' in questions and negative sentences with the Present Perfect. 'Already' is used in positive sentences.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Present Perfect (Yet)"
+    },
+    {
+      "id": "tense-form-15-B",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"My parents are married since 1990.\"",
+      "type": "error_correction",
+      "options": [
+        "are married",
+        "since",
+        "1990",
+        "No error"
+      ],
+      "correctAnswer": "are married",
+      "feedback": "Correct! When we use \"since\" with a starting point in the past, we must use the Present Perfect. The correct sentence is \"My parents have been married since 1990.\"",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "have been married",
+      "subTopic": "Present Perfect (Since/For)"
+    },
+    {
+      "id": "tense-form-16-B",
+      "moduleId": "tense-form",
+      "questionText": "My class ___ an excursion to Kribi next term. The teacher told us today.",
+      "type": "multiple_choice",
+      "options": [
+        "will have",
+        "has",
+        "is going to have"
+      ],
+      "correctAnswer": "is going to have",
+      "feedback": "Perfect! This is a plan that was decided before now (the teacher already told us). We use 'be going to' for plans decided earlier.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Plan)"
+    },
+    {
+      "id": "tense-form-17-B",
+      "moduleId": "tense-form",
+      "questionText": "\"I'm thirsty.\" \"Wait. I ___ get you some water.\"",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "am going to",
+        "-"
+      ],
+      "correctAnswer": "will",
+      "feedback": "Excellent! This is an instant decision (you decide to get water right now). We use 'will' for decisions made at the moment of speaking.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Instant Decision)"
+    },
+    {
+      "id": "tense-form-18-B",
+      "moduleId": "tense-form",
+      "questionText": "Don't stand on that old chair! You ___.",
+      "type": "multiple_choice",
+      "options": [
+        "will fall",
+        "are going to fall",
+        "fall"
+      ],
+      "correctAnswer": "are going to fall",
+      "feedback": "That's right! This is a prediction based on present evidence (the old chair we can see). We use 'be going to' for predictions based on evidence.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Prediction)"
+    },
+    {
+      "id": "tense-form-19-B",
+      "moduleId": "tense-form",
+      "questionText": "Read the dialogue. Ekane: \"Please don't tell anyone my secret.\" Muna: \"I promise. I ___ say anything.\"",
+      "type": "multiple_choice",
+      "options": [
+        "am not going to",
+        "will not (won't)",
+        "do not"
+      ],
+      "correctAnswer": "will not (won't)",
+      "feedback": "Good work! We use 'will not' (won't) for promises. Promises are about future actions, and 'will' is used for promises and offers.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Promise)"
+    },
+    {
+      "id": "tense-form-20-B",
+      "moduleId": "tense-form",
+      "questionText": "What time ___ the meeting start tomorrow?",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "is",
+        "does"
+      ],
+      "correctAnswer": "will",
+      "feedback": "Correct! This is a question about a future action. In questions with 'will', the modal comes before the subject: 'What time will...?' (not 'What time ... will?').",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future Forms (Question)"
+    },
+    {
+      "id": "tense-form-21-B",
+      "moduleId": "tense-form",
+      "questionText": "A fish ___ breathe on land, but it ___ swim very well.",
+      "type": "multiple_choice",
+      "options": [
+        "can / can't",
+        "can't / can",
+        "mustn't / can"
+      ],
+      "correctAnswer": "can't / can",
+      "feedback": "Perfect! We use 'can't' to show inability (a fish cannot breathe on land) and 'can' to show ability (a fish is able to swim).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Ability)"
+    },
+    {
+      "id": "tense-form-22-B",
+      "moduleId": "tense-form",
+      "questionText": "Read the sign at the library: \"You ___ be quiet.\"",
+      "type": "multiple_choice",
+      "options": [
+        "can",
+        "should",
+        "must"
+      ],
+      "correctAnswer": "must",
+      "feedback": "Excellent! 'Must' expresses a strong obligation or rule. A library sign is a rule, so we use 'must'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Obligation)"
+    },
+    {
+      "id": "tense-form-23-B",
+      "moduleId": "tense-form",
+      "questionText": "A: \"I failed my maths test.\" B: \"You ___ study harder for the next one.\"",
+      "type": "multiple_choice",
+      "options": [
+        "should",
+        "must",
+        "can"
+      ],
+      "correctAnswer": "should",
+      "feedback": "That's right! 'Should' is used to give advice or suggestions. 'Must' is too strong for advice, and 'can' means ability.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Advice)"
+    },
+    {
+      "id": "tense-form-24-B",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"We should to help our parents.\"",
+      "type": "error_correction",
+      "options": [
+        "should to help",
+        "our parents",
+        "We",
+        "No error"
+      ],
+      "correctAnswer": "should to help",
+      "feedback": "You found it! Modals are always followed by the base verb without 'to'. The correct sentence is \"We should help our parents.\"",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "should help",
+      "subTopic": "Modals (Form)"
+    },
+    {
+      "id": "tense-form-25-B",
+      "moduleId": "tense-form",
+      "questionText": "Find the error: \"She musts be very tired.\"",
+      "type": "error_correction",
+      "options": [
+        "musts be",
+        "very tired",
+        "She",
+        "No error"
+      ],
+      "correctAnswer": "musts be",
+      "feedback": "Perfect! Modals never take an '-s' for the third person. We say \"She must be\" (NOT \"She musts be\"). Modals stay the same for all persons.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "must be",
+      "subTopic": "Modals (Form)"
+    }
+  ]
+}
