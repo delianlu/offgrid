@@ -1,12 +1,17 @@
 import { useDarkMode } from '../hooks/useDarkMode';
 
 export function DarkModeToggle() {
+  console.log('[DarkModeToggle] Component rendering');
   const { isDark, preference, setPreference } = useDarkMode();
+  console.log('[DarkModeToggle] Hook values:', { isDark, preference });
 
   return (
     <div className="relative group">
       <button
-        onClick={() => setPreference(isDark ? 'light' : 'dark')}
+        onClick={() => {
+          console.log('[DarkModeToggle] Button clicked! Current isDark:', isDark);
+          setPreference(isDark ? 'light' : 'dark');
+        }}
         className="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/20 hover:bg-white/30 transition-colors text-white"
         aria-label="Toggle dark mode"
         title={`Current: ${preference} mode`}
