@@ -24,18 +24,18 @@ export function DailyGoals() {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.1 }}
-      className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-5 shadow-lg text-white"
+      className="bg-gradient-to-br from-orange-500 to-orange-600 dark:from-blue-600 dark:to-blue-700 rounded-2xl p-5 shadow-lg dark:shadow-2xl text-white"
     >
       <div className="flex items-start justify-between mb-3">
         <div>
-          <h3 className="text-sm font-semibold text-orange-100 mb-1">
+          <h3 className="text-sm font-semibold text-orange-100 dark:text-blue-100 mb-1">
             Daily Goal
           </h3>
           <div className="flex items-baseline gap-1">
             <span className="text-3xl font-bold">{goal.lessonsCompleted}</span>
-            <span className="text-lg text-orange-100">/ {goal.dailyTarget}</span>
+            <span className="text-lg text-orange-100 dark:text-blue-100">/ {goal.dailyTarget}</span>
           </div>
-          <p className="text-xs text-orange-100 mt-1">
+          <p className="text-xs text-orange-100 dark:text-blue-100 mt-1">
             {goal.isAchieved ? '🎉 Goal achieved!' : 'lessons today'}
           </p>
         </div>
@@ -74,7 +74,7 @@ export function DailyGoals() {
       </div>
 
       {/* Progress Bar */}
-      <div className="bg-orange-600 rounded-full h-2 overflow-hidden">
+      <div className="bg-orange-600 dark:bg-blue-800 rounded-full h-2 overflow-hidden">
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${goal.percentage}%` }}
@@ -88,7 +88,7 @@ export function DailyGoals() {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 200 }}
-          className="mt-3 bg-white/20 rounded-lg p-2 text-center"
+          className="mt-3 bg-white/20 dark:bg-white/10 rounded-lg p-2 text-center"
         >
           <p className="text-xs font-semibold">
             🏆 You're on fire! Keep it up!

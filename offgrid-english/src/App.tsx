@@ -75,17 +75,17 @@ export default function App() {
       <PWAInstallPrompt />
       <OfflineIndicator />
 
-      <div className="min-h-screen bg-amber-50 pb-20">
+      <div className="min-h-screen bg-amber-50 dark:bg-slate-900 pb-20">
 
         {/* Top Bar - Orange with Streak & XP */}
-        <div className="bg-orange-500 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md">
+        <div className="bg-orange-500 dark:bg-slate-800 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md dark:shadow-xl">
           <div className="flex items-center gap-3">
             {/* Prominent Streak Counter */}
             <motion.div
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              className="bg-white/20 rounded-lg px-3 py-1.5 backdrop-blur-sm"
+              className="bg-white/20 dark:bg-slate-700 rounded-lg px-3 py-1.5 backdrop-blur-sm"
             >
               <div className="flex items-center gap-2">
                 <motion.span
@@ -96,13 +96,13 @@ export default function App() {
                   🔥
                 </motion.span>
                 <div>
-                  <div className="text-xs text-orange-100 leading-none">Streak</div>
+                  <div className="text-xs text-orange-100 dark:text-slate-300 leading-none">Streak</div>
                   <div className="text-lg font-bold leading-tight">{streakDays}</div>
                 </div>
               </div>
             </motion.div>
 
-            <span className="text-sm font-semibold flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg">
+            <span className="text-sm font-semibold flex items-center gap-1.5 bg-white/10 dark:bg-slate-700 px-3 py-1.5 rounded-lg">
               <span className="text-base">⚡</span>
               <span>{totalXP} XP</span>
             </span>
@@ -111,44 +111,44 @@ export default function App() {
         </div>
 
         {/* Welcome Section - Orange Gradient */}
-        <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-6 shadow-lg">
+        <div className="bg-gradient-to-r from-orange-500 to-orange-600 dark:from-slate-800 dark:to-slate-700 text-white p-6 shadow-lg">
           <h1 className="text-2xl font-bold mb-1">Welcome back! 👋</h1>
-          <p className="text-orange-100">Pick a topic to practice</p>
+          <p className="text-orange-100 dark:text-slate-300">Pick a topic to practice</p>
         </div>
 
         {/* Stats Cards - At Top (Prominent) */}
-        <div className="grid grid-cols-3 gap-3 p-4 bg-amber-50">
+        <div className="grid grid-cols-3 gap-3 p-4 bg-amber-50 dark:bg-slate-900">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1 }}
-            className="bg-white rounded-xl p-3 text-center shadow-lg"
+            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
           >
             <div className="text-2xl mb-1">📚</div>
-            <p className="text-xl font-bold text-gray-900">{totalLessons}</p>
-            <p className="text-xs text-gray-600">Lessons</p>
+            <p className="text-xl font-bold text-gray-900 dark:text-slate-100">{totalLessons}</p>
+            <p className="text-xs text-gray-600 dark:text-slate-300">Lessons</p>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="bg-white rounded-xl p-3 text-center shadow-lg"
+            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
           >
             <div className="text-2xl mb-1">🔥</div>
-            <p className="text-xl font-bold text-orange-600">{streakDays}</p>
-            <p className="text-xs text-gray-600">Day Streak</p>
+            <p className="text-xl font-bold text-orange-600 dark:text-orange-400">{streakDays}</p>
+            <p className="text-xs text-gray-600 dark:text-slate-300">Day Streak</p>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3 }}
-            className="bg-white rounded-xl p-3 text-center shadow-lg"
+            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
           >
             <div className="text-2xl mb-1">🎯</div>
-            <p className="text-xl font-bold text-green-600">{overallCompletion}%</p>
-            <p className="text-xs text-gray-600">Complete</p>
+            <p className="text-xl font-bold text-green-600 dark:text-emerald-400">{overallCompletion}%</p>
+            <p className="text-xs text-gray-600 dark:text-slate-300">Complete</p>
           </motion.div>
         </div>
 
@@ -169,10 +169,10 @@ export default function App() {
 
         {/* Section Header */}
         <div className="px-4 pt-2 pb-2">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-slate-100 mb-1">
             Grammar Topics
           </h2>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 dark:text-slate-300">
             Pick one to practice 👇
           </p>
         </div>
@@ -197,21 +197,21 @@ export default function App() {
               completed: {
                 icon: '✅',
                 iconSize: 'text-5xl',
-                bgColor: 'bg-white',
-                borderColor: 'border-l-4 border-green-500',
-                textColor: 'text-gray-900',
-                progressBg: 'bg-gray-200',
-                progressColor: 'bg-green-500',
+                bgColor: 'bg-white dark:bg-slate-800',
+                borderColor: 'border-l-4 border-green-500 dark:border-emerald-400',
+                textColor: 'text-gray-900 dark:text-slate-100',
+                progressBg: 'bg-gray-200 dark:bg-slate-700',
+                progressColor: 'bg-green-500 dark:bg-emerald-500',
                 statusText: 'Complete!',
-                statusColor: 'text-green-600'
+                statusColor: 'text-green-600 dark:text-emerald-400'
               },
               active: {
                 icon: '🔥',
                 iconSize: 'text-6xl',
-                bgColor: 'bg-gradient-to-br from-orange-500 to-orange-600',
+                bgColor: 'bg-gradient-to-br from-orange-500 to-orange-600 dark:from-blue-500 dark:to-blue-600',
                 borderColor: '',
                 textColor: 'text-white',
-                progressBg: 'bg-white/30',
+                progressBg: 'bg-white/30 dark:bg-white/20',
                 progressColor: 'bg-white',
                 statusText: `${completion}% done`,
                 statusColor: 'text-white'
@@ -219,13 +219,13 @@ export default function App() {
               locked: {
                 icon: '🔒',
                 iconSize: 'text-5xl',
-                bgColor: 'bg-white',
-                borderColor: 'border border-gray-200',
-                textColor: 'text-gray-700',
+                bgColor: 'bg-white dark:bg-slate-800',
+                borderColor: 'border border-gray-200 dark:border-slate-700',
+                textColor: 'text-gray-700 dark:text-slate-300',
                 progressBg: '',
                 progressColor: '',
                 statusText: 'Locked',
-                statusColor: 'text-gray-500'
+                statusColor: 'text-gray-500 dark:text-slate-400'
               }
             }[status];
 
@@ -254,7 +254,7 @@ export default function App() {
 
                 {/* Lesson Count */}
                 <p className={`text-sm mb-3 ${
-                  status === 'active' ? 'text-orange-100' : 'text-gray-600'
+                  status === 'active' ? 'text-orange-100 dark:text-blue-100' : 'text-gray-600 dark:text-slate-300'
                 }`}>
                   {module.items} lessons
                 </p>
@@ -278,8 +278,8 @@ export default function App() {
 
                 {/* Locked State */}
                 {isLocked && (
-                  <div className="bg-gray-100 rounded-lg p-2 text-center mt-2">
-                    <p className="text-xs font-semibold text-gray-600">
+                  <div className="bg-gray-100 dark:bg-slate-700 rounded-lg p-2 text-center mt-2">
+                    <p className="text-xs font-semibold text-gray-600 dark:text-slate-300">
                       Complete previous to unlock
                     </p>
                   </div>
@@ -300,37 +300,37 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <div className="text-center text-sm text-gray-500 py-4">
+        <div className="text-center text-sm text-gray-500 dark:text-slate-400 py-4">
           <p className="font-semibold">Version {APP_VERSION} • 100% Offline</p>
           <p className="mt-1">Made with ❤️ for Cameroonian learners</p>
         </div>
       </div>
 
       {/* Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg">
+      <nav className="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-800 border-t border-gray-200 dark:border-slate-700 shadow-lg">
         <div className="grid grid-cols-3">
           <Link
             to="/"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">🏠</span>
-            <span className="text-xs font-medium text-gray-700">Home</span>
+            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Home</span>
           </Link>
 
           <Link
             to="/progress-report"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">📊</span>
-            <span className="text-xs font-medium text-gray-700">Progress</span>
+            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Progress</span>
           </Link>
 
           <Link
             to="/analytics"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">⚙️</span>
-            <span className="text-xs font-medium text-gray-700">Settings</span>
+            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Settings</span>
           </Link>
         </div>
       </nav>

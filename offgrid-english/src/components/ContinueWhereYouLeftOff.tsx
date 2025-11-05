@@ -52,29 +52,29 @@ export function ContinueWhereYouLeftOff() {
       className="mb-4"
     >
       <Link to={`/practice/${activity.moduleId}`}>
-        <div className="bg-white rounded-2xl p-4 shadow-lg border-l-4 border-green-500 hover:shadow-xl transition-all active:scale-95">
+        <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 shadow-lg dark:shadow-2xl border-l-4 border-green-500 dark:border-emerald-400 hover:shadow-xl transition-all active:scale-95">
           <div className="flex items-start gap-3">
             <div className="text-3xl">📚</div>
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
-                <h3 className="text-sm font-semibold text-gray-900">
+                <h3 className="text-sm font-semibold text-gray-900 dark:text-slate-100">
                   Continue Learning
                 </h3>
-                <span className="text-xs text-gray-500">
+                <span className="text-xs text-gray-500 dark:text-slate-400">
                   {getRelativeTime(activity.timestamp)}
                 </span>
               </div>
-              <p className="text-base font-bold text-gray-900 mb-1">
+              <p className="text-base font-bold text-gray-900 dark:text-slate-100 mb-1">
                 {activity.moduleName}
               </p>
               <div className="flex items-center gap-2">
-                <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">
+                <span className="text-xs bg-green-100 dark:bg-green-900/40 text-green-800 dark:text-green-300 px-2 py-1 rounded-full font-semibold">
                   {phaseText}
                 </span>
-                <span className="text-xs text-gray-600">→ Pick up where you left off</span>
+                <span className="text-xs text-gray-600 dark:text-slate-300">→ Pick up where you left off</span>
               </div>
             </div>
-            <div className="text-2xl text-gray-400">›</div>
+            <div className="text-2xl text-gray-400 dark:text-slate-500">›</div>
           </div>
         </div>
       </Link>

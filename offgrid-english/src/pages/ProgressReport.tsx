@@ -51,10 +51,10 @@ export function ProgressReport() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 dark:bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce-gentle">📊</div>
-          <p className="text-lg text-gray-700 font-medium">Generating your report...</p>
+          <p className="text-lg text-gray-700 dark:text-slate-300 font-medium">Generating your report...</p>
         </div>
       </div>
     );
@@ -62,19 +62,19 @@ export function ProgressReport() {
 
   if (!stats) {
     return (
-      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 dark:bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4">📭</div>
-          <p className="text-lg text-gray-700 font-medium">No data available yet</p>
+          <p className="text-lg text-gray-700 dark:text-slate-300 font-medium">No data available yet</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-amber-50">
+    <div className="min-h-screen bg-amber-50 dark:bg-slate-900">
       {/* Header */}
-      <header className="bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg">
+      <header className="bg-gradient-to-r from-orange-500 to-orange-600 dark:from-slate-800 dark:to-slate-700 text-white shadow-lg">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link
             to="/"
@@ -96,12 +96,12 @@ export function ProgressReport() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white mb-8 shadow-xl"
+          className="bg-gradient-to-r from-orange-500 to-orange-600 dark:from-blue-600 dark:to-blue-700 rounded-2xl p-8 text-white mb-8 shadow-xl dark:shadow-2xl"
         >
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-3xl font-bold mb-2">📊 Last 7 Days</h2>
-              <p className="text-orange-100">
+              <p className="text-orange-100 dark:text-blue-100">
                 {new Date().toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
@@ -129,12 +129,12 @@ export function ProgressReport() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-orange-500"
+            className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg dark:shadow-2xl border-l-4 border-orange-500 dark:border-orange-400"
           >
-            <div className="text-sm text-gray-600 font-semibold mb-2">
+            <div className="text-sm text-gray-600 dark:text-slate-300 font-semibold mb-2">
               QUESTIONS
             </div>
-            <div className="text-3xl font-bold text-orange-600">
+            <div className="text-3xl font-bold text-orange-600 dark:text-orange-400">
               {stats.totalQuestions}
             </div>
           </motion.div>
@@ -143,12 +143,12 @@ export function ProgressReport() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3 }}
-            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-green-500"
+            className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg dark:shadow-2xl border-l-4 border-green-500 dark:border-emerald-400"
           >
-            <div className="text-sm text-gray-600 font-semibold mb-2">
+            <div className="text-sm text-gray-600 dark:text-slate-300 font-semibold mb-2">
               ACCURACY
             </div>
-            <div className="text-3xl font-bold text-green-600">
+            <div className="text-3xl font-bold text-green-600 dark:text-emerald-400">
               {stats.accuracy}%
             </div>
           </motion.div>
@@ -157,14 +157,14 @@ export function ProgressReport() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4 }}
-            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-purple-500"
+            className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg dark:shadow-2xl border-l-4 border-purple-500 dark:border-purple-400"
           >
-            <div className="text-sm text-gray-600 font-semibold mb-2">
+            <div className="text-sm text-gray-600 dark:text-slate-300 font-semibold mb-2">
               TIME SPENT
             </div>
             <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">
               {stats.timeSpent}
-              <span className="text-sm text-gray-500 dark:text-gray-400 ml-1">min</span>
+              <span className="text-sm text-gray-500 dark:text-slate-400 ml-1">min</span>
             </div>
           </motion.div>
 
@@ -172,9 +172,9 @@ export function ProgressReport() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4 }}
-            className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md"
+            className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg dark:shadow-2xl border-l-4 border-orange-500 dark:border-orange-400"
           >
-            <div className="text-sm text-gray-500 dark:text-gray-400 font-semibold mb-2">
+            <div className="text-sm text-gray-600 dark:text-slate-300 font-semibold mb-2">
               STREAK
             </div>
             <div className="text-3xl font-bold text-orange-600 dark:text-orange-400">

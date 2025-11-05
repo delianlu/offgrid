@@ -15,28 +15,28 @@ export const FeedbackBox: React.FC<FeedbackBoxProps> = ({
 }) => {
   const styles = {
     success: {
-      bg: 'bg-green-100',
-      border: 'border-green-500',
+      bg: 'bg-green-100 dark:bg-green-900/30',
+      border: 'border-green-500 dark:border-green-400',
       icon: '✓',
-      iconColor: 'text-green-500',
-      titleColor: 'text-green-900',
-      messageColor: 'text-green-800',
+      iconColor: 'text-green-500 dark:text-green-400',
+      titleColor: 'text-green-900 dark:text-green-100',
+      messageColor: 'text-green-800 dark:text-green-200',
     },
     error: {
-      bg: 'bg-red-100',
-      border: 'border-red-500',
+      bg: 'bg-red-100 dark:bg-red-900/30',
+      border: 'border-red-500 dark:border-red-400',
       icon: '✗',
-      iconColor: 'text-red-500',
-      titleColor: 'text-red-900',
-      messageColor: 'text-red-800',
+      iconColor: 'text-red-500 dark:text-red-400',
+      titleColor: 'text-red-900 dark:text-red-100',
+      messageColor: 'text-red-800 dark:text-red-200',
     },
     info: {
-      bg: 'bg-blue-100',
-      border: 'border-blue-500',
+      bg: 'bg-blue-100 dark:bg-blue-900/30',
+      border: 'border-blue-500 dark:border-blue-400',
       icon: 'ℹ',
-      iconColor: 'text-blue-500',
-      titleColor: 'text-blue-900',
-      messageColor: 'text-blue-800',
+      iconColor: 'text-blue-500 dark:text-blue-400',
+      titleColor: 'text-blue-900 dark:text-blue-100',
+      messageColor: 'text-blue-800 dark:text-blue-200',
     },
   };
 
@@ -70,12 +70,12 @@ export const ExplanationBox: React.FC<ExplanationBoxProps> = ({
   children,
 }) => {
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-xl p-5 shadow-md">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-l-4 border-blue-500 dark:border-blue-400 rounded-xl p-5 shadow-md dark:shadow-xl">
       <div className="flex items-center gap-2 mb-3">
         <span className="text-2xl">💡</span>
-        <p className="text-sm font-bold text-blue-900">{title}</p>
+        <p className="text-sm font-bold text-blue-900 dark:text-blue-100">{title}</p>
       </div>
-      <div className="text-sm text-gray-800 leading-relaxed pl-8">
+      <div className="text-sm text-gray-800 dark:text-slate-200 leading-relaxed pl-8">
         {children}
       </div>
     </div>
@@ -113,21 +113,21 @@ export const ComparisonBox: React.FC<ComparisonBoxProps> = ({
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* French (Wrong) */}
-      <div className="bg-gradient-to-br from-red-50 to-pink-50 border-l-4 border-red-400 rounded-xl p-4 shadow-md">
+      <div className="bg-gradient-to-br from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/20 border-l-4 border-red-400 dark:border-red-400 rounded-xl p-4 shadow-md dark:shadow-xl">
         <div className="flex items-center gap-2 mb-2">
           <span className="text-lg">❌</span>
-          <p className="text-xs font-bold text-red-700 uppercase tracking-wide">French</p>
+          <p className="text-xs font-bold text-red-700 dark:text-red-300 uppercase tracking-wide">French</p>
         </div>
-        <p className="text-base text-gray-800 font-medium leading-relaxed">{frenchText}</p>
+        <p className="text-base text-gray-800 dark:text-slate-200 font-medium leading-relaxed">{frenchText}</p>
       </div>
 
       {/* English (Correct) */}
-      <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-l-4 border-green-500 rounded-xl p-4 shadow-md">
+      <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-l-4 border-green-500 dark:border-green-400 rounded-xl p-4 shadow-md dark:shadow-xl">
         <div className="flex items-center gap-2 mb-2">
           <span className="text-lg">✓</span>
-          <p className="text-xs font-bold text-green-700 uppercase tracking-wide">English</p>
+          <p className="text-xs font-bold text-green-700 dark:text-green-300 uppercase tracking-wide">English</p>
         </div>
-        <p className="text-base text-gray-800 font-medium leading-relaxed">{renderEnglish()}</p>
+        <p className="text-base text-gray-800 dark:text-slate-200 font-medium leading-relaxed">{renderEnglish()}</p>
       </div>
     </div>
   );
