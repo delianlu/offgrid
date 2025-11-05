@@ -6,6 +6,7 @@ import { OfflineIndicator } from './components/OfflineIndicator';
 import { Onboarding } from './components/Onboarding';
 import { DailyGoals } from './components/DailyGoals';
 import { ContinueWhereYouLeftOff } from './components/ContinueWhereYouLeftOff';
+import { ReviewModeCard } from './components/ReviewModeCard';
 import { motion } from 'framer-motion';
 import { calculateModuleProgress } from './services/progressTracking';
 
@@ -159,6 +160,11 @@ export default function App() {
         {/* Continue Where You Left Off */}
         <div className="px-4">
           <ContinueWhereYouLeftOff />
+        </div>
+
+        {/* Review Mode Card */}
+        <div className="px-4">
+          <ReviewModeCard />
         </div>
 
         {/* Section Header */}

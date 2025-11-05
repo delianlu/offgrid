@@ -70,9 +70,12 @@ export const ExplanationBox: React.FC<ExplanationBoxProps> = ({
   children,
 }) => {
   return (
-    <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
-      <p className="text-sm font-bold text-gray-900 mb-2">{title}</p>
-      <div className="text-sm text-gray-700 leading-relaxed">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-xl p-5 shadow-md">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-2xl">💡</span>
+        <p className="text-sm font-bold text-blue-900">{title}</p>
+      </div>
+      <div className="text-sm text-gray-800 leading-relaxed pl-8">
         {children}
       </div>
     </div>
@@ -108,17 +111,23 @@ export const ComparisonBox: React.FC<ComparisonBoxProps> = ({
   };
 
   return (
-    <div className="grid grid-cols-2 gap-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* French (Wrong) */}
-      <div className="bg-red-50 border-2 border-red-200 rounded-xl p-3">
-        <p className="text-xs font-bold text-red-700 mb-1">❌ French</p>
-        <p className="text-sm text-gray-700 font-medium">{frenchText}</p>
+      <div className="bg-gradient-to-br from-red-50 to-pink-50 border-l-4 border-red-400 rounded-xl p-4 shadow-md">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-lg">❌</span>
+          <p className="text-xs font-bold text-red-700 uppercase tracking-wide">French</p>
+        </div>
+        <p className="text-base text-gray-800 font-medium leading-relaxed">{frenchText}</p>
       </div>
 
       {/* English (Correct) */}
-      <div className="bg-green-50 border-2 border-green-200 rounded-xl p-3">
-        <p className="text-xs font-bold text-green-700 mb-1">✓ English</p>
-        <p className="text-sm text-gray-700 font-medium">{renderEnglish()}</p>
+      <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-l-4 border-green-500 rounded-xl p-4 shadow-md">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-lg">✓</span>
+          <p className="text-xs font-bold text-green-700 uppercase tracking-wide">English</p>
+        </div>
+        <p className="text-base text-gray-800 font-medium leading-relaxed">{renderEnglish()}</p>
       </div>
     </div>
   );

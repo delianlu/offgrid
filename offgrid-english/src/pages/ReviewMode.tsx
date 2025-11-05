@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Header } from '../components/common/Header';
 import { Button } from '../components/common/Button';
 import { MultipleChoice } from '../components/MultipleChoice';
-import { AnimatedFeedback } from '../components/AnimatedFeedback';
+import { EnhancedFeedback } from '../components/EnhancedFeedback';
 import {
   getDueForReviewItems,
   getReviewStats,
@@ -57,10 +57,10 @@ export function ReviewMode() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4">📖</div>
-          <p className="text-lg text-gray-600">Loading review items...</p>
+          <div className="text-6xl mb-4 animate-bounce-gentle">🔄</div>
+          <p className="text-lg text-gray-700 font-medium">Loading review items...</p>
         </div>
       </div>
     );
@@ -70,7 +70,7 @@ export function ReviewMode() {
   if (reviewing) {
     if (idx >= items.length) {
       return (
-        <div className="min-h-screen bg-gray-50 flex flex-col">
+        <div className="min-h-screen bg-amber-50 flex flex-col">
           <Header title="Review Mode" />
           <div className="flex-1 flex items-center justify-center p-6">
             <div className="text-center max-w-md">
@@ -81,6 +81,11 @@ export function ReviewMode() {
               <p className="text-gray-600 mb-6 text-lg">
                 Great work! You reviewed {items.length} items. Your review schedule has been updated.
               </p>
+              <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-l-4 border-orange-500 rounded-xl p-4 mb-6">
+                <p className="text-sm text-gray-700">
+                  💡 Regular review strengthens your memory and improves long-term retention.
+                </p>
+              </div>
               <div className="flex flex-col gap-3">
                 <Button variant="primary" onClick={() => {
                   setReviewing(false);
@@ -142,16 +147,15 @@ export function ReviewMode() {
     }
 
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="min-h-screen bg-amber-50 flex flex-col">
         <Header
-          title="Review Mode"
           currentItem={idx + 1}
           totalItems={items.length}
           progress={progress}
         />
         <div className="bg-white border-b border-gray-200 px-6 py-3">
-          <span className="inline-block bg-orange-100 text-orange-800 text-sm font-bold px-4 py-2 rounded-full">
-            📖 Review Mode
+          <span className="inline-block bg-purple-100 text-purple-800 text-sm font-bold px-4 py-2 rounded-full shadow-sm">
+            🔄 Review Mode
           </span>
         </div>
         <main className="flex-1 max-w-5xl mx-auto" style={{ paddingLeft: '80px', paddingRight: '80px', paddingTop: '24px', paddingBottom: '80px', width: 'calc(100% - 160px)' }}>
@@ -161,19 +165,17 @@ export function ReviewMode() {
               options={item.options}
               onAnswer={onAnswer}
               scenario={item.scenario}
+              itemId={item.id}
+              moduleId={item.moduleId}
             />
           ) : (
             <div className="py-6">
-              <AnimatedFeedback
-                type={isCorrect ? 'success' : 'error'}
-                title={isCorrect ? 'Correct!' : 'Not quite right'}
-                message={
-                  isCorrect
-                    ? 'Great job! This item has been scheduled for review later.'
-                    : "Let's review why this doesn't work."
-                }
-                explanation={!isCorrect ? item.feedback : undefined}
-                contrastiveAnalysis={!isCorrect ? item.frenchComparison : undefined}
+              <EnhancedFeedback
+                isCorrect={isCorrect}
+                correctAnswer={item.correctAnswer}
+                userAnswer={lastAnswer || ''}
+                explanation={item.feedback}
+                contrastiveAnalysis={item.frenchComparison}
                 onContinue={next}
               />
             </div>
@@ -185,7 +187,7 @@ export function ReviewMode() {
 
   // Review Stats & Start Screen
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-amber-50">
       <Header title="Review Mode" />
 
       <main className="max-w-6xl mx-auto p-6">
