@@ -81,6 +81,11 @@ export default function App() {
 
         {/* Top Bar - Orange with Streak & XP */}
         <div className="bg-orange-500 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md">
+          {/* TEST MARKER - DELETE THIS */}
+          <div className="absolute top-0 right-0 bg-red-600 text-white px-2 py-1 text-xs">
+            v2.0.0-NEW
+          </div>
+
           <div className="flex items-center gap-3">
             {/* Prominent Streak Counter */}
             <motion.div
