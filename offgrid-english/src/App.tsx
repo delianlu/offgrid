@@ -4,6 +4,8 @@ import { DarkModeToggle } from './components/DarkModeToggle';
 import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { Onboarding } from './components/Onboarding';
+import { DailyGoals } from './components/DailyGoals';
+import { ContinueWhereYouLeftOff } from './components/ContinueWhereYouLeftOff';
 import { motion } from 'framer-motion';
 import { calculateModuleProgress } from './services/progressTracking';
 
@@ -75,13 +77,33 @@ export default function App() {
       <div className="min-h-screen bg-amber-50 pb-20">
 
         {/* Top Bar - Orange with Streak & XP */}
-        <div className="bg-orange-500 text-white px-4 py-2 flex justify-between items-center sticky top-0 z-50 shadow-md">
-          <div className="flex items-center gap-4">
-            <span className="text-sm font-semibold flex items-center gap-1">
-              🔥 {streakDays} day streak
-            </span>
-            <span className="text-sm font-semibold flex items-center gap-1">
-              ⚡ {totalXP} XP
+        <div className="bg-orange-500 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md">
+          <div className="flex items-center gap-3">
+            {/* Prominent Streak Counter */}
+            <motion.div
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.3 }}
+              className="bg-white/20 rounded-lg px-3 py-1.5 backdrop-blur-sm"
+            >
+              <div className="flex items-center gap-2">
+                <motion.span
+                  animate={{ rotate: [0, 10, -10, 10, 0] }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className="text-lg"
+                >
+                  🔥
+                </motion.span>
+                <div>
+                  <div className="text-xs text-orange-100 leading-none">Streak</div>
+                  <div className="text-lg font-bold leading-tight">{streakDays}</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <span className="text-sm font-semibold flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg">
+              <span className="text-base">⚡</span>
+              <span>{totalXP} XP</span>
             </span>
           </div>
           <DarkModeToggle />
@@ -129,8 +151,18 @@ export default function App() {
           </motion.div>
         </div>
 
+        {/* Daily Goals Widget */}
+        <div className="px-4 mb-4">
+          <DailyGoals />
+        </div>
+
+        {/* Continue Where You Left Off */}
+        <div className="px-4">
+          <ContinueWhereYouLeftOff />
+        </div>
+
         {/* Section Header */}
-        <div className="px-4 pt-4 pb-2">
+        <div className="px-4 pt-2 pb-2">
           <h2 className="text-lg font-bold text-gray-900 mb-1">
             Grammar Topics
           </h2>
