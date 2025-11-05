@@ -169,7 +169,7 @@ export default function App() {
               },
               active: {
                 icon: '🔥',
-                iconSize: 'text-5xl',
+                iconSize: 'text-6xl',
                 bgColor: 'bg-gradient-to-br from-orange-500 to-orange-600',
                 borderColor: '',
                 textColor: 'text-white',
@@ -180,7 +180,7 @@ export default function App() {
               },
               locked: {
                 icon: '🔒',
-                iconSize: 'text-4xl',
+                iconSize: 'text-5xl',
                 bgColor: 'bg-white',
                 borderColor: 'border border-gray-200',
                 textColor: 'text-gray-700',
