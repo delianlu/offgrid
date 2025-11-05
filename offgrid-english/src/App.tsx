@@ -169,6 +169,28 @@ export default function App() {
           <ReviewModeCard />
         </div>
 
+        {/* Mistake Journal Card */}
+        <div className="px-4 mb-4">
+          <Link to="/mistake-journal">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl p-4 shadow-lg text-white cursor-pointer"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">📝</span>
+                  <div>
+                    <h3 className="font-bold text-lg">Mistake Journal</h3>
+                    <p className="text-sm text-purple-100">Track and learn from your errors</p>
+                  </div>
+                </div>
+                <span className="text-2xl">→</span>
+              </div>
+            </motion.div>
+          </Link>
+        </div>
+
         {/* Section Header */}
         <div className="px-4 pt-2 pb-2">
           <h2 className="text-lg font-bold text-gray-900 mb-1">
