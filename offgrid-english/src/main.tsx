@@ -14,6 +14,7 @@ import { Achievements } from './pages/Achievements';
 import { Bookmarks } from './pages/Bookmarks';
 import { ChallengeMode } from './pages/ChallengeMode';
 import { ProgressReport } from './pages/ProgressReport';
+import { MistakeJournal } from './pages/MistakeJournal';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -27,7 +28,8 @@ const router = createBrowserRouter([
   { path: '/achievements', element: <Achievements /> },
   { path: '/bookmarks', element: <Bookmarks /> },
   { path: '/challenge', element: <ChallengeMode /> },
-  { path: '/progress-report', element: <ProgressReport /> }
+  { path: '/progress-report', element: <ProgressReport /> },
+  { path: '/mistake-journal', element: <MistakeJournal /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

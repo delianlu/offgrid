@@ -1,5 +1,5 @@
 import Dexie from 'dexie';
-import type { Module, Item, Attempt, ReviewData, Bookmark } from '../types/schemas';
+import type { Module, Item, Attempt, ReviewData, Bookmark, MistakeJournalEntry } from '../types/schemas';
 
 export class OffGridDB extends Dexie {
   modules!: Dexie.Table<Module>;
@@ -7,6 +7,7 @@ export class OffGridDB extends Dexie {
   attempts!: Dexie.Table<Attempt>;
   reviewData!: Dexie.Table<ReviewData>;
   bookmarks!: Dexie.Table<Bookmark>;
+  mistakes!: Dexie.Table<MistakeJournalEntry>;
   constructor() {
     super('OffGridEnglishDB');
 
@@ -77,13 +78,23 @@ export class OffGridDB extends Dexie {
       reviewData: 'itemId, nextReviewAt, lastReviewedAt',
       bookmarks: 'itemId, moduleId, bookmarkedAt'
     });
+
+    // Version 8: Added mistakes table for mistake journal
+    this.version(8).stores({
+      modules: 'id, category, module_version',
+      items: 'id, moduleId, formType, transferType, item_version',
+      attempts: 'id, itemId, moduleId, formType, transferType, timestamp',
+      reviewData: 'itemId, nextReviewAt, lastReviewedAt',
+      bookmarks: 'itemId, moduleId, bookmarkedAt',
+      mistakes: 'id, itemId, moduleId, timestamp, resolved, lastSeenAt'
+    });
   }
 }
 
 export const db = new OffGridDB();
 
 export async function resetDatabase() {
-  await Promise.all([db.modules.clear(), db.items.clear(), db.attempts.clear(), db.reviewData.clear(), db.bookmarks.clear()]);
+  await Promise.all([db.modules.clear(), db.items.clear(), db.attempts.clear(), db.reviewData.clear(), db.bookmarks.clear(), db.mistakes.clear()]);
 }
 
 export async function hardResetApp() {

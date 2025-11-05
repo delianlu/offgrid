@@ -94,6 +94,19 @@ export const BookmarkSchema = z.object({
   note: z.string().optional() // Optional user note
 });
 
+export const MistakeJournalEntrySchema = z.object({
+  id: z.string(), // Unique ID for this entry
+  itemId: z.string(), // Reference to the item
+  moduleId: z.string(), // Reference to the module
+  questionText: z.string(), // The question that was answered
+  studentAnswer: z.string(), // What the student answered
+  correctAnswer: z.string(), // The correct answer
+  timestamp: z.number(), // When the mistake was made
+  attemptCount: z.number(), // How many times this mistake was made
+  lastSeenAt: z.number(), // Last time this mistake occurred
+  resolved: z.boolean() // Whether the student has mastered this
+});
+
 export type CommonError = z.infer<typeof CommonErrorSchema>;
 export type Module = z.infer<typeof ModuleSchema>;
 export type Scenario = z.infer<typeof ScenarioSchema>;
@@ -103,3 +116,4 @@ export type Item = z.infer<typeof ItemSchema>;
 export type Attempt = z.infer<typeof AttemptSchema>;
 export type ReviewData = z.infer<typeof ReviewDataSchema>;
 export type Bookmark = z.infer<typeof BookmarkSchema>;
+export type MistakeJournalEntry = z.infer<typeof MistakeJournalEntrySchema>;
