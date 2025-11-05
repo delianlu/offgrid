@@ -27,20 +27,20 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   return (
-    <header className="bg-blue-600 text-white p-4 shadow-md">
+    <header className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-4 shadow-lg">
       <div className="flex items-center justify-between mb-3">
         {/* Back Button */}
         <button
           onClick={handleBack}
-          className="font-semibold text-lg hover:opacity-80 transition-opacity focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600 rounded px-2 py-1"
+          className="font-semibold text-lg hover:bg-white/20 transition-all active:scale-95 rounded-lg px-3 py-1"
         >
           ← Back
         </button>
 
         {/* Title or Progress */}
-        {title && <span className="text-sm font-medium">{title}</span>}
+        {title && <span className="text-sm font-semibold">{title}</span>}
         {currentItem !== undefined && totalItems !== undefined && (
-          <span className="text-sm font-medium">
+          <span className="text-sm font-semibold bg-white/20 px-3 py-1 rounded-full">
             Question {currentItem} of {totalItems}
           </span>
         )}
@@ -48,9 +48,9 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Progress Bar */}
       {progress !== undefined && (
-        <div className="bg-blue-500 rounded-full h-2">
+        <div className="bg-orange-600 rounded-full h-3 overflow-hidden shadow-inner">
           <div
-            className="bg-white h-2 rounded-full transition-all duration-300"
+            className="bg-white h-3 rounded-full transition-all duration-500 ease-out shadow-lg"
             style={{ width: `${progress}%` }}
             role="progressbar"
             aria-valuenow={progress}

@@ -273,7 +273,7 @@ export default function App() {
         <div className="grid grid-cols-3">
           <Link
             to="/"
-            className="flex flex-col items-center py-3 hover:bg-gray-50 transition-colors"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">🏠</span>
             <span className="text-xs font-medium text-gray-700">Home</span>
@@ -281,7 +281,7 @@ export default function App() {
 
           <Link
             to="/progress-report"
-            className="flex flex-col items-center py-3 hover:bg-gray-50 transition-colors"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">📊</span>
             <span className="text-xs font-medium text-gray-700">Progress</span>
@@ -289,7 +289,7 @@ export default function App() {
 
           <Link
             to="/analytics"
-            className="flex flex-col items-center py-3 hover:bg-gray-50 transition-colors"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">⚙️</span>
             <span className="text-xs font-medium text-gray-700">Settings</span>

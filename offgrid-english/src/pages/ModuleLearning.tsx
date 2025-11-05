@@ -45,10 +45,10 @@ export function ModuleLearning() {
 
   if (!module) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4">📚</div>
-          <p className="text-lg text-gray-600">Loading module...</p>
+          <div className="text-6xl mb-4 animate-bounce-gentle">📚</div>
+          <p className="text-lg text-gray-700 font-medium">Loading module...</p>
         </div>
       </div>
     );
@@ -59,7 +59,7 @@ export function ModuleLearning() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-amber-50 flex flex-col">
       {/* Header */}
       <Header title={module.name} />
 
@@ -67,7 +67,7 @@ export function ModuleLearning() {
       <main className="flex-1 max-w-5xl mx-auto" style={{ paddingLeft: '80px', paddingRight: '80px', paddingTop: '24px', paddingBottom: '80px', width: 'calc(100% - 160px)' }}>
         {/* Phase Badge */}
         <div className="mb-6">
-          <span className="inline-block bg-blue-100 text-blue-800 text-sm font-bold px-4 py-2 rounded-full">
+          <span className="inline-block bg-orange-100 text-orange-800 text-sm font-bold px-4 py-2 rounded-full shadow-sm">
             📖 Phase 1: LEARN
           </span>
         </div>
@@ -77,7 +77,7 @@ export function ModuleLearning() {
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
             {module.name}
           </h1>
-          <div className="h-1 w-24 bg-blue-500 rounded-full"></div>
+          <div className="h-1 w-24 bg-orange-500 rounded-full"></div>
         </div>
 
         {/* Module Introduction */}
@@ -180,7 +180,7 @@ export function ModuleLearning() {
         )}
 
         {/* Ready to Practice */}
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-green-500 rounded-xl p-6 mb-6 shadow-sm">
+        <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-l-4 border-orange-500 rounded-xl p-6 mb-6 shadow-md">
           <div className="flex items-start gap-3">
             <div className="text-4xl">🎯</div>
             <div className="flex-1">

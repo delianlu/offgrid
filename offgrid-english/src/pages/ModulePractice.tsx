@@ -4,7 +4,8 @@ import { db } from '../db/database';
 import type { Item } from '../types/schemas';
 import { MultipleChoice } from '../components/MultipleChoice';
 import { Header } from '../components/common/Header';
-import { AnimatedFeedback } from '../components/AnimatedFeedback';
+import { EnhancedFeedback } from '../components/EnhancedFeedback';
+import { CompletionCelebration } from '../components/CompletionCelebration';
 import { Button } from '../components/common/Button';
 import { APP_VERSION } from '../App';
 import { updateReviewData, attemptToQuality } from '../services/spacedRepetition';
@@ -50,10 +51,10 @@ export function ModulePractice() {
 
   if (items.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4">📚</div>
-          <p className="text-lg text-gray-600">Loading module...</p>
+          <div className="text-6xl mb-4 animate-bounce-gentle">📚</div>
+          <p className="text-lg text-gray-700 font-medium">Loading module...</p>
         </div>
       </div>
     );
@@ -78,95 +79,32 @@ export function ModulePractice() {
   }
 
   if (idx >= items.length) {
+    const xpEarned = items.length * 10;
+
     // Check if we completed Form A (Phase 2) - move to Form B (Phase 3)
     if (currentPhase === 'A') {
       return (
-        <div className="min-h-screen bg-gray-50 flex flex-col">
-          <Header title={moduleName} />
-          <div className="flex-1 flex items-center justify-center p-6">
-            <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl">
-              <div className="text-center mb-6">
-                <div className="text-6xl mb-4">🎉</div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                  Phase 2 Complete!
-                </h2>
-                <p className="text-gray-600 text-lg">
-                  Great work! You've finished all {items.length} practice questions.
-                </p>
-              </div>
-
-              {/* Phase Transition */}
-              <div className="bg-gradient-to-r from-purple-50 to-blue-50 border-l-4 border-purple-500 rounded-xl p-6 mb-6">
-                <div className="flex items-start gap-3">
-                  <div className="text-4xl">🚀</div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 text-xl mb-2">
-                      Ready for Phase 3: Transfer Assessment
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      Now it's time to test if you can apply what you learned to <strong>new situations</strong>.
-                      Phase 3 has different questions that test the same grammar rules in different contexts.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Button variant="primary" onClick={loadFormB} fullWidth={true}>
-                  Continue to Phase 3 →
-                </Button>
-                <Button
-                  variant="secondary"
-                  onClick={() => window.location.href = '/'}
-                  fullWidth={true}
-                >
-                  Back to Modules
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CompletionCelebration
+          moduleName={moduleName}
+          xpEarned={xpEarned}
+          totalXP={xpEarned}
+          itemsCompleted={items.length}
+          onContinue={loadFormB}
+          phaseType="phase2"
+        />
       );
     }
 
     // Completed Form B (Phase 3) - module fully complete
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <Header title={moduleName} />
-        <div className="flex-1 flex items-center justify-center p-6">
-          <div className="text-center max-w-md">
-            <div className="text-6xl mb-4">🏆</div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
-              Module Mastered!
-            </h2>
-            <p className="text-gray-600 mb-2 text-lg">
-              Congratulations! You've completed all 3 phases:
-            </p>
-            <div className="bg-white rounded-xl p-6 mb-6 shadow-md text-left">
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">✓</span>
-                  <span className="text-gray-700">Phase 1: Learning</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">✓</span>
-                  <span className="text-gray-700">Phase 2: Practice</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">✓</span>
-                  <span className="text-gray-700">Phase 3: Transfer</span>
-                </div>
-              </div>
-            </div>
-            <Button
-              variant="success"
-              onClick={() => window.location.href = '/'}
-            >
-              Back to Modules
-            </Button>
-          </div>
-        </div>
-      </div>
+      <CompletionCelebration
+        moduleName={moduleName}
+        xpEarned={xpEarned}
+        totalXP={xpEarned * 2}
+        itemsCompleted={items.length * 2}
+        onContinue={() => window.location.href = '/'}
+        phaseType="module"
+      />
     );
   }
 
@@ -175,8 +113,8 @@ export function ModulePractice() {
   const isCorrect = lastAnswer === item.correctAnswer;
 
   const phaseInfo = currentPhase === 'A'
-    ? { emoji: '✏️', name: 'Phase 2: PRACTICE', color: 'bg-green-100 text-green-800' }
-    : { emoji: '🚀', name: 'Phase 3: TRANSFER', color: 'bg-purple-100 text-purple-800' };
+    ? { emoji: '✏️', name: 'Phase 2: PRACTICE', color: 'bg-orange-100 text-orange-800' }
+    : { emoji: '🚀', name: 'Phase 3: TRANSFER', color: 'bg-amber-100 text-amber-800' };
 
   async function onAnswer(answer: string) {
     setLastAnswer(answer);
@@ -224,7 +162,7 @@ export function ModulePractice() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-amber-50 flex flex-col">
       {/* Achievement Toast */}
       <AchievementToast
         achievement={achievementToast}
@@ -240,7 +178,7 @@ export function ModulePractice() {
 
       {/* Phase Indicator */}
       <div className="bg-white border-b border-gray-200 px-6 py-3">
-        <span className={`inline-block ${phaseInfo.color} text-sm font-bold px-4 py-2 rounded-full`}>
+        <span className={`inline-block ${phaseInfo.color} text-sm font-bold px-4 py-2 rounded-full shadow-sm`}>
           {phaseInfo.emoji} {phaseInfo.name}
         </span>
       </div>
@@ -258,16 +196,12 @@ export function ModulePractice() {
           />
         ) : (
           <div className="py-6">
-            <AnimatedFeedback
-              type={isCorrect ? 'success' : 'error'}
-              title={isCorrect ? 'Correct!' : 'Not quite right'}
-              message={
-                isCorrect
-                  ? 'Great job! You chose the right answer.'
-                  : "Let's look at why this doesn't work."
-              }
-              explanation={!isCorrect ? item.feedback : undefined}
-              contrastiveAnalysis={!isCorrect ? item.frenchComparison : undefined}
+            <EnhancedFeedback
+              isCorrect={isCorrect}
+              correctAnswer={item.correctAnswer}
+              userAnswer={lastAnswer || ''}
+              explanation={item.feedback}
+              contrastiveAnalysis={item.frenchComparison}
               onContinue={next}
             />
           </div>
