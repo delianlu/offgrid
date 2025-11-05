@@ -331,7 +331,6 @@ export default function App() {
         {/* Footer */}
         <div className="text-center text-sm text-gray-500 py-4">
           <p className="font-semibold">{t('app.version')} {APP_VERSION} • {t('app.offline')}</p>
-          <p className="mt-1">{t('app.tagline')}</p>
         </div>
       </div>
 
