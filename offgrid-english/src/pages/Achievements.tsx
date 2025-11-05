@@ -45,7 +45,7 @@ export function Achievements() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-amber-50">
       <Header title="Achievements" />
 
       <main className="max-w-6xl mx-auto p-6">
@@ -53,40 +53,38 @@ export function Achievements() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 rounded-2xl shadow-xl p-1 mb-6"
+          className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl shadow-xl p-6 mb-6 text-white"
         >
-          <div className="bg-white dark:bg-gray-800 rounded-xl p-6">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-4">
-                <div className="text-5xl">🏆</div>
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-1">
-                    Your Achievements
-                  </h2>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Track your progress and unlock rewards
-                  </p>
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-1">
-                  {stats.unlocked} / {stats.total}
-                </div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  {stats.percentage}% Complete
-                </div>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <div className="text-5xl">🏆</div>
+              <div>
+                <h2 className="text-2xl font-bold mb-1">
+                  Your Achievements
+                </h2>
+                <p className="text-orange-100">
+                  Track your progress and unlock rewards
+                </p>
               </div>
             </div>
+            <div className="text-center bg-white/20 rounded-xl px-6 py-4 backdrop-blur-sm">
+              <div className="text-4xl font-bold mb-1">
+                {stats.unlocked} / {stats.total}
+              </div>
+              <div className="text-sm text-orange-100">
+                {stats.percentage}% Complete
+              </div>
+            </div>
+          </div>
 
-            {/* Progress Bar */}
-            <div className="mt-4 bg-gray-200 dark:bg-gray-700 rounded-full h-3 overflow-hidden">
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: `${stats.percentage}%` }}
-                transition={{ duration: 1, delay: 0.3 }}
-                className="h-full bg-gradient-to-r from-yellow-400 to-orange-500"
-              />
-            </div>
+          {/* Progress Bar */}
+          <div className="mt-4 bg-orange-600 rounded-full h-3 overflow-hidden">
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${stats.percentage}%` }}
+              transition={{ duration: 1, delay: 0.3 }}
+              className="h-full bg-white rounded-full shadow-lg"
+            />
           </div>
         </motion.div>
 
@@ -99,30 +97,30 @@ export function Achievements() {
         >
           <button
             onClick={() => setFilter('all')}
-            className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
+            className={`px-4 py-2 rounded-lg font-semibold transition-all active:scale-95 ${
               filter === 'all'
-                ? 'bg-blue-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700'
+                ? 'bg-orange-500 text-white shadow-lg'
+                : 'bg-white text-gray-700 hover:bg-orange-50 shadow-md'
             }`}
           >
             All ({achievements.length})
           </button>
           <button
             onClick={() => setFilter('unlocked')}
-            className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
+            className={`px-4 py-2 rounded-lg font-semibold transition-all active:scale-95 ${
               filter === 'unlocked'
-                ? 'bg-green-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-gray-700'
+                ? 'bg-green-600 text-white shadow-lg'
+                : 'bg-white text-gray-700 hover:bg-green-50 shadow-md'
             }`}
           >
             Unlocked ({stats.unlocked})
           </button>
           <button
             onClick={() => setFilter('locked')}
-            className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
+            className={`px-4 py-2 rounded-lg font-semibold transition-all active:scale-95 ${
               filter === 'locked'
-                ? 'bg-gray-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'
+                ? 'bg-gray-600 text-white shadow-lg'
+                : 'bg-white text-gray-700 hover:bg-gray-50 shadow-md'
             }`}
           >
             Locked ({stats.total - stats.unlocked})

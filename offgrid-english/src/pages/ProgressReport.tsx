@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { WeeklySummary } from '../components/WeeklySummary';
 import {
   calculateWeeklyStats,
   generateEmailReport,
@@ -50,10 +51,10 @@ export function ProgressReport() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-gray-50 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-6xl mb-4">📊</div>
-          <p className="text-gray-600 dark:text-gray-400">Generating your report...</p>
+          <div className="text-6xl mb-4 animate-bounce-gentle">📊</div>
+          <p className="text-lg text-gray-700 font-medium">Generating your report...</p>
         </div>
       </div>
     );
@@ -61,31 +62,31 @@ export function ProgressReport() {
 
   if (!stats) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-gray-50 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center">
+      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4">📭</div>
-          <p className="text-gray-600 dark:text-gray-400">No data available yet</p>
+          <p className="text-lg text-gray-700 font-medium">No data available yet</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-gray-50 dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen bg-amber-50">
       {/* Header */}
-      <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+      <header className="bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link
             to="/"
-            className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold flex items-center gap-2"
+            className="text-white hover:bg-white/20 font-semibold flex items-center gap-2 px-3 py-1 rounded-lg transition-all active:scale-95"
           >
             <span>←</span>
             <span>Home</span>
           </Link>
-          <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-            Weekly Progress Report
+          <h1 className="text-xl font-bold">
+            Progress Report
           </h1>
-          <div className="w-16"></div>
+          <div className="w-20"></div>
         </div>
       </header>
 
@@ -95,12 +96,12 @@ export function ProgressReport() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-700 dark:to-purple-700 rounded-2xl p-8 text-white mb-8 shadow-xl"
+          className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white mb-8 shadow-xl"
         >
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-3xl font-bold mb-2">📊 Last 7 Days</h2>
-              <p className="text-blue-100 dark:text-blue-200">
+              <p className="text-orange-100">
                 {new Date().toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
@@ -112,18 +113,28 @@ export function ProgressReport() {
           </div>
         </motion.div>
 
+        {/* Weekly Summary Visualization */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="mb-8"
+        >
+          <WeeklySummary />
+        </motion.div>
+
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.1 }}
-            className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md"
+            transition={{ delay: 0.2 }}
+            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-orange-500"
           >
-            <div className="text-sm text-gray-500 dark:text-gray-400 font-semibold mb-2">
+            <div className="text-sm text-gray-600 font-semibold mb-2">
               QUESTIONS
             </div>
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+            <div className="text-3xl font-bold text-orange-600">
               {stats.totalQuestions}
             </div>
           </motion.div>
@@ -131,13 +142,13 @@ export function ProgressReport() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
-            className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md"
+            transition={{ delay: 0.3 }}
+            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-green-500"
           >
-            <div className="text-sm text-gray-500 dark:text-gray-400 font-semibold mb-2">
+            <div className="text-sm text-gray-600 font-semibold mb-2">
               ACCURACY
             </div>
-            <div className="text-3xl font-bold text-green-600 dark:text-green-400">
+            <div className="text-3xl font-bold text-green-600">
               {stats.accuracy}%
             </div>
           </motion.div>
@@ -145,10 +156,10 @@ export function ProgressReport() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.3 }}
-            className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md"
+            transition={{ delay: 0.4 }}
+            className="bg-white rounded-xl p-5 shadow-lg border-l-4 border-purple-500"
           >
-            <div className="text-sm text-gray-500 dark:text-gray-400 font-semibold mb-2">
+            <div className="text-sm text-gray-600 font-semibold mb-2">
               TIME SPENT
             </div>
             <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">
