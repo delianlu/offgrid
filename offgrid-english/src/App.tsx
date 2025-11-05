@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
-import { DarkModeToggle } from './components/DarkModeToggle';
+import { useTranslation } from 'react-i18next';
 import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { Onboarding } from './components/Onboarding';
 import { DailyGoals } from './components/DailyGoals';
 import { ContinueWhereYouLeftOff } from './components/ContinueWhereYouLeftOff';
 import { ReviewModeCard } from './components/ReviewModeCard';
+import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { motion } from 'framer-motion';
 import { calculateModuleProgress } from './services/progressTracking';
 
@@ -30,6 +31,7 @@ interface ModuleProgress {
 }
 
 export default function App() {
+  const { t } = useTranslation();
   const [streakDays, setStreakDays] = useState(0);
   const [totalXP, setTotalXP] = useState(0);
   const [moduleProgress, setModuleProgress] = useState<Record<string, ModuleProgress>>({});
@@ -75,17 +77,17 @@ export default function App() {
       <PWAInstallPrompt />
       <OfflineIndicator />
 
-      <div className="min-h-screen bg-amber-50 dark:bg-slate-900 pb-20">
+      <div className="min-h-screen bg-amber-50 pb-20">
 
         {/* Top Bar - Orange with Streak & XP */}
-        <div className="bg-orange-500 dark:bg-slate-800 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md dark:shadow-xl">
+        <div className="bg-orange-500 text-white px-4 py-3 flex justify-between items-center sticky top-0 z-50 shadow-md">
           <div className="flex items-center gap-3">
             {/* Prominent Streak Counter */}
             <motion.div
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              className="bg-white/20 dark:bg-slate-700 rounded-lg px-3 py-1.5 backdrop-blur-sm"
+              className="bg-white/20 rounded-lg px-3 py-1.5 backdrop-blur-sm"
             >
               <div className="flex items-center gap-2">
                 <motion.span
@@ -96,59 +98,59 @@ export default function App() {
                   🔥
                 </motion.span>
                 <div>
-                  <div className="text-xs text-orange-100 dark:text-slate-300 leading-none">Streak</div>
+                  <div className="text-xs text-orange-100 leading-none">{t('stats.streak')}</div>
                   <div className="text-lg font-bold leading-tight">{streakDays}</div>
                 </div>
               </div>
             </motion.div>
 
-            <span className="text-sm font-semibold flex items-center gap-1.5 bg-white/10 dark:bg-slate-700 px-3 py-1.5 rounded-lg">
+            <span className="text-sm font-semibold flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg">
               <span className="text-base">⚡</span>
-              <span>{totalXP} XP</span>
+              <span>{totalXP} {t('stats.xp')}</span>
             </span>
           </div>
-          <DarkModeToggle />
+          <LanguageSwitcher />
         </div>
 
         {/* Welcome Section - Orange Gradient */}
-        <div className="bg-gradient-to-r from-orange-500 to-orange-600 dark:from-slate-800 dark:to-slate-700 text-white p-6 shadow-lg">
-          <h1 className="text-2xl font-bold mb-1">Welcome back! 👋</h1>
-          <p className="text-orange-100 dark:text-slate-300">Pick a topic to practice</p>
+        <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-6 shadow-lg">
+          <h1 className="text-2xl font-bold mb-1">{t('welcome.title')}</h1>
+          <p className="text-orange-100">{t('welcome.subtitle')}</p>
         </div>
 
         {/* Stats Cards - At Top (Prominent) */}
-        <div className="grid grid-cols-3 gap-3 p-4 bg-amber-50 dark:bg-slate-900">
+        <div className="grid grid-cols-3 gap-3 p-4 bg-amber-50">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1 }}
-            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
+            className="bg-white rounded-xl p-3 text-center shadow-lg"
           >
             <div className="text-2xl mb-1">📚</div>
-            <p className="text-xl font-bold text-gray-900 dark:text-slate-100">{totalLessons}</p>
-            <p className="text-xs text-gray-600 dark:text-slate-300">Lessons</p>
+            <p className="text-xl font-bold text-gray-900">{totalLessons}</p>
+            <p className="text-xs text-gray-600">{t('stats.lessons')}</p>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
+            className="bg-white rounded-xl p-3 text-center shadow-lg"
           >
             <div className="text-2xl mb-1">🔥</div>
-            <p className="text-xl font-bold text-orange-600 dark:text-orange-400">{streakDays}</p>
-            <p className="text-xs text-gray-600 dark:text-slate-300">Day Streak</p>
+            <p className="text-xl font-bold text-orange-600">{streakDays}</p>
+            <p className="text-xs text-gray-600">{t('stats.dayStreak')}</p>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3 }}
-            className="bg-white dark:bg-slate-800 rounded-xl p-3 text-center shadow-lg dark:shadow-2xl"
+            className="bg-white rounded-xl p-3 text-center shadow-lg"
           >
             <div className="text-2xl mb-1">🎯</div>
-            <p className="text-xl font-bold text-green-600 dark:text-emerald-400">{overallCompletion}%</p>
-            <p className="text-xs text-gray-600 dark:text-slate-300">Complete</p>
+            <p className="text-xl font-bold text-green-600">{overallCompletion}%</p>
+            <p className="text-xs text-gray-600">{t('stats.complete')}</p>
           </motion.div>
         </div>
 
@@ -169,11 +171,11 @@ export default function App() {
 
         {/* Section Header */}
         <div className="px-4 pt-2 pb-2">
-          <h2 className="text-lg font-bold text-gray-900 dark:text-slate-100 mb-1">
-            Grammar Topics
+          <h2 className="text-lg font-bold text-gray-900 mb-1">
+            {t('modules.title')}
           </h2>
-          <p className="text-sm text-gray-600 dark:text-slate-300">
-            Pick one to practice 👇
+          <p className="text-sm text-gray-600">
+            {t('modules.subtitle')}
           </p>
         </div>
 
@@ -197,35 +199,35 @@ export default function App() {
               completed: {
                 icon: '✅',
                 iconSize: 'text-5xl',
-                bgColor: 'bg-white dark:bg-slate-800',
-                borderColor: 'border-l-4 border-green-500 dark:border-emerald-400',
-                textColor: 'text-gray-900 dark:text-slate-100',
-                progressBg: 'bg-gray-200 dark:bg-slate-700',
-                progressColor: 'bg-green-500 dark:bg-emerald-500',
-                statusText: 'Complete!',
-                statusColor: 'text-green-600 dark:text-emerald-400'
+                bgColor: 'bg-white',
+                borderColor: 'border-l-4 border-green-500',
+                textColor: 'text-gray-900',
+                progressBg: 'bg-gray-200',
+                progressColor: 'bg-green-500',
+                statusText: t('modules.completed'),
+                statusColor: 'text-green-600'
               },
               active: {
                 icon: '🔥',
                 iconSize: 'text-6xl',
-                bgColor: 'bg-gradient-to-br from-orange-500 to-orange-600 dark:from-blue-500 dark:to-blue-600',
+                bgColor: 'bg-gradient-to-br from-orange-500 to-orange-600',
                 borderColor: '',
                 textColor: 'text-white',
-                progressBg: 'bg-white/30 dark:bg-white/20',
+                progressBg: 'bg-white/30',
                 progressColor: 'bg-white',
-                statusText: `${completion}% done`,
+                statusText: t('modules.completion', { percent: completion }),
                 statusColor: 'text-white'
               },
               locked: {
                 icon: '🔒',
                 iconSize: 'text-5xl',
-                bgColor: 'bg-white dark:bg-slate-800',
-                borderColor: 'border border-gray-200 dark:border-slate-700',
-                textColor: 'text-gray-700 dark:text-slate-300',
+                bgColor: 'bg-white',
+                borderColor: 'border border-gray-200',
+                textColor: 'text-gray-700',
                 progressBg: '',
                 progressColor: '',
-                statusText: 'Locked',
-                statusColor: 'text-gray-500 dark:text-slate-400'
+                statusText: t('modules.locked'),
+                statusColor: 'text-gray-500'
               }
             }[status];
 
@@ -249,14 +251,14 @@ export default function App() {
 
                 {/* Title */}
                 <h3 className={`text-lg font-bold mb-1 ${config.textColor}`}>
-                  {module.name}
+                  {t(`modules.${module.id}`)}
                 </h3>
 
                 {/* Lesson Count */}
                 <p className={`text-sm mb-3 ${
-                  status === 'active' ? 'text-orange-100 dark:text-blue-100' : 'text-gray-600 dark:text-slate-300'
+                  status === 'active' ? 'text-orange-100' : 'text-gray-600'
                 }`}>
-                  {module.items} lessons
+                  {t('modules.lessons_count', { count: module.items })}
                 </p>
 
                 {/* Progress Bar (only if not locked) */}
@@ -278,9 +280,9 @@ export default function App() {
 
                 {/* Locked State */}
                 {isLocked && (
-                  <div className="bg-gray-100 dark:bg-slate-700 rounded-lg p-2 text-center mt-2">
-                    <p className="text-xs font-semibold text-gray-600 dark:text-slate-300">
-                      Complete previous to unlock
+                  <div className="bg-gray-100 rounded-lg p-2 text-center mt-2">
+                    <p className="text-xs font-semibold text-gray-600">
+                      {t('modules.unlockMessage')}
                     </p>
                   </div>
                 )}
@@ -300,37 +302,37 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <div className="text-center text-sm text-gray-500 dark:text-slate-400 py-4">
-          <p className="font-semibold">Version {APP_VERSION} • 100% Offline</p>
-          <p className="mt-1">Made with ❤️ for Cameroonian learners</p>
+        <div className="text-center text-sm text-gray-500 py-4">
+          <p className="font-semibold">{t('app.version')} {APP_VERSION} • {t('app.offline')}</p>
+          <p className="mt-1">{t('app.tagline')}</p>
         </div>
       </div>
 
       {/* Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-800 border-t border-gray-200 dark:border-slate-700 shadow-lg">
+      <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg">
         <div className="grid grid-cols-3">
           <Link
             to="/"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">🏠</span>
-            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Home</span>
+            <span className="text-xs font-medium text-gray-700">{t('navigation.home')}</span>
           </Link>
 
           <Link
             to="/progress-report"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">📊</span>
-            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Progress</span>
+            <span className="text-xs font-medium text-gray-700">{t('navigation.progress')}</span>
           </Link>
 
           <Link
             to="/analytics"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 dark:hover:bg-slate-700 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">⚙️</span>
-            <span className="text-xs font-medium text-gray-700 dark:text-slate-300">Settings</span>
+            <span className="text-xs font-medium text-gray-700">{t('navigation.settings')}</span>
           </Link>
         </div>
       </nav>

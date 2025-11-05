@@ -1,0 +1,127 @@
+{
+  "app": {
+    "title": "OffGrid English",
+    "version": "Version",
+    "offline": "100% Hors ligne",
+    "tagline": "Fait avec ❤️ pour les apprenants camerounais"
+  },
+  "welcome": {
+    "title": "Bon retour ! 👋",
+    "subtitle": "Choisissez un sujet pour pratiquer"
+  },
+  "stats": {
+    "lessons": "Leçons",
+    "dayStreak": "Série de jours",
+    "complete": "Complété",
+    "streak": "Série",
+    "xp": "XP"
+  },
+  "modules": {
+    "title": "Sujets de grammaire",
+    "subtitle": "Choisissez-en un pour pratiquer 👇",
+    "tense-form": "Temps et forme du verbe",
+    "subject-verb-agreement": "Accord sujet-verbe",
+    "prepositions": "Prépositions",
+    "word-order": "Ordre des mots",
+    "plurality": "Pluralité",
+    "articles": "Articles",
+    "auxiliaries": "Auxiliaires",
+    "cameroonian-scenarios": "Scénarios réels",
+    "false-cognates": "Faux amis",
+    "lessons_count": "{{count}} leçons",
+    "completion": "{{percent}}% terminé",
+    "completed": "Terminé !",
+    "locked": "Verrouillé",
+    "unlockMessage": "Complétez le précédent pour déverrouiller"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "progress": "Progrès",
+    "settings": "Paramètres",
+    "review": "Révision",
+    "challenges": "Défis",
+    "achievements": "Réalisations",
+    "bookmarks": "Favoris",
+    "analytics": "Analytique"
+  },
+  "dailyGoals": {
+    "title": "Objectifs quotidiens",
+    "completed": "Objectifs atteints pour aujourd'hui !",
+    "practice": "Pratiquer {{count}} questions",
+    "review": "Réviser {{count}} éléments",
+    "streak": "Maintenez votre série"
+  },
+  "continueWhereYouLeftOff": {
+    "title": "Reprendre où vous vous êtes arrêté",
+    "continue": "Continuer",
+    "startLearning": "Commencer l'apprentissage"
+  },
+  "reviewMode": {
+    "title": "Mode révision",
+    "subtitle": "Pratiquez ce que vous avez appris",
+    "itemsDue": "{{count}} éléments à réviser",
+    "startReview": "Commencer la révision"
+  },
+  "practice": {
+    "check": "Vérifier",
+    "next": "Suivant",
+    "back": "Retour",
+    "submit": "Soumettre",
+    "correct": "Correct !",
+    "incorrect": "Incorrect",
+    "tryAgain": "Réessayez"
+  },
+  "learning": {
+    "startLearning": "Commencer l'apprentissage",
+    "startPractice": "Commencer la pratique",
+    "continue": "Continuer",
+    "completed": "Module terminé !",
+    "congratulations": "Félicitations !"
+  },
+  "challenges": {
+    "title": "Défis hebdomadaires",
+    "speed": "Défi de vitesse",
+    "accuracy": "Défi de précision",
+    "start": "Commencer le défi",
+    "timeLeft": "Temps restant",
+    "score": "Score"
+  },
+  "achievements": {
+    "title": "Réalisations",
+    "unlocked": "Déverrouillé",
+    "locked": "Verrouillé",
+    "progress": "Progrès"
+  },
+  "progressReport": {
+    "title": "Rapport de progrès hebdomadaire",
+    "summary": "Résumé hebdomadaire",
+    "totalXP": "XP total",
+    "questionsAnswered": "Questions répondues",
+    "accuracy": "Précision",
+    "streakDays": "Jours de série"
+  },
+  "bookmarks": {
+    "title": "Favoris",
+    "empty": "Aucun favori pour le moment",
+    "add": "Ajouter un favori",
+    "remove": "Supprimer"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "reset": "Réinitialiser le progrès",
+    "about": "À propos"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer"
+  }
+}

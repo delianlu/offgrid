@@ -1,0 +1,127 @@
+{
+  "app": {
+    "title": "OffGrid English",
+    "version": "Version",
+    "offline": "100% Offline",
+    "tagline": "Made with ❤️ for Cameroonian learners"
+  },
+  "welcome": {
+    "title": "Welcome back! 👋",
+    "subtitle": "Pick a topic to practice"
+  },
+  "stats": {
+    "lessons": "Lessons",
+    "dayStreak": "Day Streak",
+    "complete": "Complete",
+    "streak": "Streak",
+    "xp": "XP"
+  },
+  "modules": {
+    "title": "Grammar Topics",
+    "subtitle": "Pick one to practice 👇",
+    "tense-form": "Verb Tense & Form",
+    "subject-verb-agreement": "Subject-Verb Agreement",
+    "prepositions": "Prepositions",
+    "word-order": "Word Order",
+    "plurality": "Plurality",
+    "articles": "Articles",
+    "auxiliaries": "Auxiliaries",
+    "cameroonian-scenarios": "Real Scenarios",
+    "false-cognates": "False Friends",
+    "lessons_count": "{{count}} lessons",
+    "completion": "{{percent}}% done",
+    "completed": "Complete!",
+    "locked": "Locked",
+    "unlockMessage": "Complete previous to unlock"
+  },
+  "navigation": {
+    "home": "Home",
+    "progress": "Progress",
+    "settings": "Settings",
+    "review": "Review",
+    "challenges": "Challenges",
+    "achievements": "Achievements",
+    "bookmarks": "Bookmarks",
+    "analytics": "Analytics"
+  },
+  "dailyGoals": {
+    "title": "Daily Goals",
+    "completed": "Goals completed for today!",
+    "practice": "Practice {{count}} questions",
+    "review": "Review {{count}} items",
+    "streak": "Maintain your streak"
+  },
+  "continueWhereYouLeftOff": {
+    "title": "Continue Where You Left Off",
+    "continue": "Continue",
+    "startLearning": "Start Learning"
+  },
+  "reviewMode": {
+    "title": "Review Mode",
+    "subtitle": "Practice what you've learned",
+    "itemsDue": "{{count}} items due for review",
+    "startReview": "Start Review"
+  },
+  "practice": {
+    "check": "Check",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "tryAgain": "Try again"
+  },
+  "learning": {
+    "startLearning": "Start Learning",
+    "startPractice": "Start Practice",
+    "continue": "Continue",
+    "completed": "Module Completed!",
+    "congratulations": "Congratulations!"
+  },
+  "challenges": {
+    "title": "Weekly Challenges",
+    "speed": "Speed Challenge",
+    "accuracy": "Accuracy Challenge",
+    "start": "Start Challenge",
+    "timeLeft": "Time Left",
+    "score": "Score"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "progress": "Progress"
+  },
+  "progressReport": {
+    "title": "Weekly Progress Report",
+    "summary": "Weekly Summary",
+    "totalXP": "Total XP",
+    "questionsAnswered": "Questions Answered",
+    "accuracy": "Accuracy",
+    "streakDays": "Streak Days"
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "empty": "No bookmarks yet",
+    "add": "Add Bookmark",
+    "remove": "Remove"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "reset": "Reset Progress",
+    "about": "About"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  }
+}
