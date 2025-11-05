@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 /* Mobile-First Global Styles */
 * {
   /* Prevent text size adjustment on orientation change */
