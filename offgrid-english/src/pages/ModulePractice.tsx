@@ -11,6 +11,13 @@ import { APP_VERSION } from '../App';
 import { updateReviewData, attemptToQuality } from '../services/spacedRepetition';
 import { checkAchievements, type Achievement } from '../services/achievements';
 import { AchievementToast } from '../components/AchievementToast';
+import {
+  selectNextQuestion,
+  calculatePerformanceLevel,
+  getDifficultyMessage,
+  type PerformanceLevel
+} from '../services/adaptiveDifficulty';
+import { PerformanceInsight } from '../components/PerformanceInsight';
 
 function sessionId() {
   return 'sess-' + Math.random().toString(36).slice(2);
@@ -18,13 +25,16 @@ function sessionId() {
 
 export function ModulePractice() {
   const { moduleId = 'tense-form' } = useParams();
-  const [items, setItems] = useState<Item[]>([]);
+  const [currentItem, setCurrentItem] = useState<Item | null>(null);
   const [moduleName, setModuleName] = useState<string>('');
-  const [idx, setIdx] = useState(0);
   const [lastAnswer, setLastAnswer] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [currentPhase, setCurrentPhase] = useState<'A' | 'B'>('A');
   const [achievementToast, setAchievementToast] = useState<Achievement | null>(null);
+  const [attemptedInSession, setAttemptedInSession] = useState<Set<string>>(new Set());
+  const [totalItemsInPhase, setTotalItemsInPhase] = useState(0);
+  const [performanceLevel, setPerformanceLevel] = useState<PerformanceLevel | null>(null);
+  const [showPerformanceInsight, setShowPerformanceInsight] = useState(false);
   const sid = useMemo(sessionId, []);
 
   useEffect(() => {
@@ -38,7 +48,7 @@ export function ModulePractice() {
 
       // Start with Form A (Phase 2: PRACTICE)
       const formAItems = await db.items.where({ moduleId, formType: 'A' }).toArray();
-      setItems(formAItems);
+      setTotalItemsInPhase(formAItems.length);
       setCurrentPhase('A');
 
       // Get module name
@@ -46,10 +56,29 @@ export function ModulePractice() {
       if (module) {
         setModuleName(module.name);
       }
+
+      // Load initial performance level and first question
+      await loadNextAdaptiveQuestion('A', new Set());
     })();
   }, [moduleId]);
 
-  if (items.length === 0) {
+  async function loadNextAdaptiveQuestion(phase: 'A' | 'B', attempted: Set<string>) {
+    // Get performance level
+    const perf = await calculatePerformanceLevel(moduleId);
+    setPerformanceLevel(perf);
+
+    // Select next question adaptively
+    const nextItem = await selectNextQuestion(moduleId, phase, attempted);
+    setCurrentItem(nextItem);
+
+    // Show performance insight every 5 questions
+    if (attempted.size > 0 && attempted.size % 5 === 0) {
+      setShowPerformanceInsight(true);
+      setTimeout(() => setShowPerformanceInsight(false), 5000);
+    }
+  }
+
+  if (!currentItem || totalItemsInPhase === 0) {
     return (
       <div className="min-h-screen bg-amber-50 flex items-center justify-center">
         <div className="text-center">
@@ -71,15 +100,17 @@ export function ModulePractice() {
     }
 
     const formBItems = await db.items.where({ moduleId, formType: 'B' }).toArray();
-    setItems(formBItems);
+    setTotalItemsInPhase(formBItems.length);
     setCurrentPhase('B');
-    setIdx(0);
+    setAttemptedInSession(new Set());
     setLastAnswer(null);
     setShowFeedback(false);
+    await loadNextAdaptiveQuestion('B', new Set());
   }
 
-  if (idx >= items.length) {
-    const xpEarned = items.length * 10;
+  // Check if phase is complete (all items attempted at least once)
+  if (attemptedInSession.size >= totalItemsInPhase) {
+    const xpEarned = attemptedInSession.size * 10;
 
     // Check if we completed Form A (Phase 2) - move to Form B (Phase 3)
     if (currentPhase === 'A') {
@@ -88,7 +119,7 @@ export function ModulePractice() {
           moduleName={moduleName}
           xpEarned={xpEarned}
           totalXP={xpEarned}
-          itemsCompleted={items.length}
+          itemsCompleted={attemptedInSession.size}
           onContinue={loadFormB}
           phaseType="phase2"
         />
@@ -101,15 +132,15 @@ export function ModulePractice() {
         moduleName={moduleName}
         xpEarned={xpEarned}
         totalXP={xpEarned * 2}
-        itemsCompleted={items.length * 2}
+        itemsCompleted={attemptedInSession.size * 2}
         onContinue={() => window.location.href = '/'}
         phaseType="module"
       />
     );
   }
 
-  const item = items[idx];
-  const progress = ((idx + 1) / items.length) * 100;
+  const item = currentItem;
+  const progress = (attemptedInSession.size / totalItemsInPhase) * 100;
   const isCorrect = lastAnswer === item.correctAnswer;
 
   const phaseInfo = currentPhase === 'A'
@@ -156,9 +187,17 @@ export function ModulePractice() {
     if (last && last.itemId === item.id) {
       await db.attempts.update(last.id, { feedbackViewedAt: now });
     }
+
+    // Add to attempted set
+    const newAttempted = new Set(attemptedInSession);
+    newAttempted.add(item.id);
+    setAttemptedInSession(newAttempted);
+
     setShowFeedback(false);
     setLastAnswer(null);
-    setIdx(i => i + 1);
+
+    // Load next adaptive question
+    await loadNextAdaptiveQuestion(currentPhase, newAttempted);
   }
 
   return (
@@ -171,8 +210,8 @@ export function ModulePractice() {
 
       {/* Header with Progress */}
       <Header
-        currentItem={idx + 1}
-        totalItems={items.length}
+        currentItem={attemptedInSession.size + 1}
+        totalItems={totalItemsInPhase}
         progress={progress}
       />
 
@@ -185,6 +224,14 @@ export function ModulePractice() {
 
       {/* Content */}
       <main className="flex-1 max-w-5xl mx-auto" style={{ paddingLeft: '80px', paddingRight: '80px', paddingTop: '24px', paddingBottom: '80px', width: 'calc(100% - 160px)' }}>
+        {/* Performance Insight */}
+        {showPerformanceInsight && performanceLevel && (
+          <PerformanceInsight
+            performanceLevel={performanceLevel}
+            message={getDifficultyMessage(performanceLevel)}
+          />
+        )}
+
         {!showFeedback ? (
           <MultipleChoice
             question={item.questionText}
