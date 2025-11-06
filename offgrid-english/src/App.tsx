@@ -8,6 +8,7 @@ import { DailyGoals } from './components/DailyGoals';
 import { ContinueWhereYouLeftOff } from './components/ContinueWhereYouLeftOff';
 import { ReviewModeCard } from './components/ReviewModeCard';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { ProgressPredictionCard } from './components/ProgressPredictionCard';
 import { motion } from 'framer-motion';
 import { calculateModuleProgress } from './services/progressTracking';
 
@@ -211,6 +212,11 @@ export default function App() {
               </div>
             </motion.div>
           </Link>
+        </div>
+
+        {/* Progress Prediction Card */}
+        <div className="px-4 mb-4">
+          <ProgressPredictionCard />
         </div>
 
         {/* Section Header */}
