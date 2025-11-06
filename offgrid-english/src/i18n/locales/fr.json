@@ -123,5 +123,14 @@
     "delete": "Supprimer",
     "edit": "Modifier",
     "close": "Fermer"
+  },
+  "voice": {
+    "answerWithVoice": "Répondre par la voix",
+    "listening": "Écoute... (Appuyez pour arrêter)",
+    "speakNow": "Parlez maintenant...",
+    "youSaid": "Vous avez dit :",
+    "noSpeech": "Aucune parole détectée. Veuillez réessayer.",
+    "couldNotMatch": "Impossible de faire correspondre \"{{text}}\" à une option. Réessayez ou cliquez.",
+    "sayAnswerOrLetter": "💡 Dites le texte de la réponse ou la lettre (A, B, C, D)"
   }
 }

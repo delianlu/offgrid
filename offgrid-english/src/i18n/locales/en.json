@@ -123,5 +123,14 @@
     "delete": "Delete",
     "edit": "Edit",
     "close": "Close"
+  },
+  "voice": {
+    "answerWithVoice": "Answer with Voice",
+    "listening": "Listening... (Tap to stop)",
+    "speakNow": "Speak now...",
+    "youSaid": "You said:",
+    "noSpeech": "No speech detected. Please try again.",
+    "couldNotMatch": "Could not match \"{{text}}\" to an option. Try again or click.",
+    "sayAnswerOrLetter": "💡 Say the answer text or letter (A, B, C, D)"
   }
 }

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 interface VoiceInputProps {
   options: string[];
@@ -14,6 +15,7 @@ const SpeechRecognition =
 const isSupported = !!SpeechRecognition;
 
 export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInputProps) {
+  const { t } = useTranslation();
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
   const [showFeedback, setShowFeedback] = useState(false);
@@ -49,7 +51,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
       setIsListening(false);
       if (event.error === 'no-speech') {
         setShowFeedback(true);
-        setTranscript('No speech detected. Please try again.');
+        setTranscript(t('voice.noSpeech'));
         setTimeout(() => setShowFeedback(false), 3000);
       }
     };
@@ -103,7 +105,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
       }, 500);
     } else {
       setShowFeedback(true);
-      setTranscript(`Could not match "${text}" to an option. Try again or click.`);
+      setTranscript(t('voice.couldNotMatch', { text }));
       setTimeout(() => setShowFeedback(false), 3000);
     }
   }
@@ -147,7 +149,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
       >
         <span className="text-2xl">{isListening ? '🎤' : '🎙️'}</span>
         <span>
-          {isListening ? 'Listening... (Tap to stop)' : 'Answer with Voice'}
+          {isListening ? t('voice.listening') : t('voice.answerWithVoice')}
         </span>
       </button>
 
@@ -191,7 +193,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
                     />
                   </div>
                   <span className="text-sm font-semibold text-purple-700 dark:text-purple-300">
-                    Speak now...
+                    {t('voice.speakNow')}
                   </span>
                 </div>
               )}
@@ -199,7 +201,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
               {transcript && (
                 <div className="text-gray-700 dark:text-gray-300">
                   <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase">
-                    You said:
+                    {t('voice.youSaid')}
                   </span>
                   <p className="mt-1 text-sm font-medium">{transcript}</p>
                 </div>
@@ -207,7 +209,7 @@ export function VoiceInput({ options, onAnswer, isDisabled = false }: VoiceInput
 
               {isListening && (
                 <div className="mt-3 text-xs text-gray-500 dark:text-gray-400">
-                  <p>💡 Say the answer text or letter (A, B, C, D)</p>
+                  <p>{t('voice.sayAnswerOrLetter')}</p>
                 </div>
               )}
             </div>
