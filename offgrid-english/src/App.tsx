@@ -191,6 +191,28 @@ export default function App() {
           </Link>
         </div>
 
+        {/* Teacher Dashboard Card */}
+        <div className="px-4 mb-4">
+          <Link to="/teacher-dashboard">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl p-4 shadow-lg text-white cursor-pointer"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">👩‍🏫</span>
+                  <div>
+                    <h3 className="font-bold text-lg">Teacher Dashboard</h3>
+                    <p className="text-sm text-indigo-100">Monitor progress and analytics</p>
+                  </div>
+                </div>
+                <span className="text-2xl">→</span>
+              </div>
+            </motion.div>
+          </Link>
+        </div>
+
         {/* Section Header */}
         <div className="px-4 pt-2 pb-2">
           <h2 className="text-lg font-bold text-gray-900 mb-1">
