@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { ComparisonBox, ExplanationBox } from './common/FeedbackBox';
 import type { ContrastiveAnalysis } from '../types/schemas';
+import { celebrate } from '../services/celebrations';
 
 // Varied success messages
 const SUCCESS_MESSAGES = [
@@ -41,6 +43,13 @@ export function EnhancedFeedback({
   // Randomly select a message
   const messages = isCorrect ? SUCCESS_MESSAGES : ERROR_MESSAGES;
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+  // Trigger celebration on correct answer
+  useEffect(() => {
+    if (isCorrect) {
+      celebrate('correct', 1);
+    }
+  }, [isCorrect]);
 
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { Button } from './common/Button';
+import { celebrateModuleCompletion, celebrate } from '../services/celebrations';
 
 interface CompletionCelebrationProps {
   moduleName: string;
@@ -18,6 +20,15 @@ export function CompletionCelebration({
   onContinue,
   phaseType = 'module'
 }: CompletionCelebrationProps) {
+  // Trigger celebration on mount
+  useEffect(() => {
+    if (phaseType === 'module') {
+      celebrateModuleCompletion(moduleName);
+    } else {
+      celebrate('achievement', 3);
+    }
+  }, [phaseType, moduleName]);
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
       <motion.div
