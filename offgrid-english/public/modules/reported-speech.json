@@ -1,0 +1,3296 @@
+{
+  "id": "reported-speech",
+  "name": "Reported Speech",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Reported Speech module! This is the grammar of gossip and storytelling. In French, you often keep the original tense (*Il a dit qu'il est malade*). In English, if the main verb is past (*He said*), you usually push everything back into the past (*He said he was sick*). This is called 'Backshifting'.",
+  "contrastiveExplanation": "The Backstep (Tense Shift):\nEnglish: Present -> Past. Past -> Past Perfect. Will -> Would.\nFrench: Often keeps the original tense.\n\nSay vs. Tell:\nEnglish: Say (something). Tell (someone).\nFrench: 'Dire' works for both. (Dire à quelqu'un -> Tell someone).\n\nIndirect Questions:\nEnglish: Statement Order (Subject + Verb). No 'Do/Did'.\nFrench: Il a demandé où j'habite. English: He asked where I lived.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Say vs Tell",
+      "wrong": "He said me that he was busy.",
+      "correct": "He told me that he was busy.",
+      "frenchConnection": "Direct translation of 'Il m'a dit'. 'Say' cannot take a person object without 'to'. Use 'Tell'."
+    },
+    {
+      "number": 2,
+      "subTopic": "Tense Shift (Will)",
+      "wrong": "He said he will come.",
+      "correct": "He said he would come.",
+      "frenchConnection": "French logic ('Il a dit qu'il viendra'). In English past narration, 'will' becomes 'would'."
+    },
+    {
+      "number": 3,
+      "subTopic": "Indirect Question Order",
+      "wrong": "He asked me where is the bank.",
+      "correct": "He asked me where the bank was.",
+      "frenchConnection": "Keeping the question order. Reported questions must use statement order (Subject + Verb)."
+    },
+    {
+      "number": 4,
+      "subTopic": "Reporting Verbs",
+      "wrong": "She told that she was tired.",
+      "correct": "She said that she was tired.",
+      "frenchConnection": "Using 'Tell' without a listener. 'Tell' requires an object (Tell *someone*)."
+    },
+    {
+      "number": 5,
+      "subTopic": "Past to Past Perfect",
+      "wrong": "He said he bought the car.",
+      "correct": "He said he had bought the car.",
+      "frenchConnection": "Not shifting the Past Simple back. If he bought it *before* he said it, use Past Perfect."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "rs-e01-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am happy.\" -> He said he ___ happy.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "was",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Present (am) shifts to Past (was).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il était heureux...",
+        "englishStructure": "He said he was happy...",
+        "whyDifficult": "French often keeps original tense. English backshifts.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e02-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I like football.\" -> He said he ___ football.",
+      "type": "multiple_choice",
+      "options": [
+        "likes",
+        "liked",
+        "like"
+      ],
+      "correctAnswer": "liked",
+      "feedback": "Correct! 'Like' shifts to 'Liked'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il aimait...",
+        "englishStructure": "He said he liked...",
+        "whyDifficult": "Backshift required in English.",
+        "visualHighlighting": {
+          "incorrect": "likes",
+          "correct": "liked"
+        }
+      }
+    },
+    {
+      "id": "rs-e03-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I will help you.\" -> She said she ___ help me.",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "would",
+        "can"
+      ],
+      "correctAnswer": "would",
+      "feedback": "Correct! 'Will' shifts to 'Would'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Will to Would)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle m'aiderait...",
+        "englishStructure": "She said she would help me...",
+        "whyDifficult": "Will becomes Would in reported speech.",
+        "visualHighlighting": {
+          "incorrect": "will",
+          "correct": "would"
+        }
+      }
+    },
+    {
+      "id": "rs-e04-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I can swim.\" -> He said he ___ swim.",
+      "type": "multiple_choice",
+      "options": [
+        "can",
+        "could",
+        "will"
+      ],
+      "correctAnswer": "could",
+      "feedback": "Correct! 'Can' shifts to 'Could'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Can to Could)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il pouvait...",
+        "englishStructure": "He said he could...",
+        "whyDifficult": "Can becomes Could.",
+        "visualHighlighting": {
+          "incorrect": "can",
+          "correct": "could"
+        }
+      }
+    },
+    {
+      "id": "rs-e05-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "He ___ me that he was tired.",
+      "type": "multiple_choice",
+      "options": [
+        "said",
+        "told",
+        "asked"
+      ],
+      "correctAnswer": "told",
+      "feedback": "Correct! 'Told' is followed by a person (me).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit...",
+        "englishStructure": "He told me...",
+        "whyDifficult": "'Tell' needs a person object. 'Say' does not.",
+        "visualHighlighting": {
+          "incorrect": "said",
+          "correct": "told"
+        }
+      }
+    },
+    {
+      "id": "rs-e06-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "She ___ that she was hungry.",
+      "type": "multiple_choice",
+      "options": [
+        "said",
+        "told",
+        "talked"
+      ],
+      "correctAnswer": "said",
+      "feedback": "Correct! 'Said' is used without a person object.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit que...",
+        "englishStructure": "She said that...",
+        "whyDifficult": "'Said' is used when there is no listener mentioned.",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "said"
+        }
+      }
+    },
+    {
+      "id": "rs-e07-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am working.\" -> He said he ___ working.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "was",
+        "has"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Am working' -> 'Was working'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il travaillait...",
+        "englishStructure": "He said he was working...",
+        "whyDifficult": "Present Continuous becomes Past Continuous.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e08-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I don't know.\" -> He said he ___ know.",
+      "type": "multiple_choice",
+      "options": [
+        "didn't",
+        "doesn't",
+        "don't"
+      ],
+      "correctAnswer": "didn't",
+      "feedback": "Correct! 'Don't' shifts to 'Didn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il ne savait pas...",
+        "englishStructure": "He said he didn't know...",
+        "whyDifficult": "Don't becomes Didn't.",
+        "visualHighlighting": {
+          "incorrect": "doesn't",
+          "correct": "didn't"
+        }
+      }
+    },
+    {
+      "id": "rs-e09-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"My car is blue.\" -> He said ___ car was blue.",
+      "type": "multiple_choice",
+      "options": [
+        "my",
+        "his",
+        "her"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! Pronoun shift: My -> His (if speaker is male).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronoun Shift",
+      "frenchComparison": {
+        "frenchStructure": "Sa voiture...",
+        "englishStructure": "His car...",
+        "whyDifficult": "Pronouns must match the speaker.",
+        "visualHighlighting": {
+          "incorrect": "my",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "rs-e10-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I have a dog.\" -> She said she ___ a dog.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "had",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! 'Have' -> 'Had'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle avait...",
+        "englishStructure": "She said she had...",
+        "whyDifficult": "Have becomes Had.",
+        "visualHighlighting": {
+          "incorrect": "has",
+          "correct": "had"
+        }
+      }
+    },
+    {
+      "id": "rs-e11-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"It isn't raining.\" -> He said it ___ raining.",
+      "type": "multiple_choice",
+      "options": [
+        "isn't",
+        "wasn't",
+        "won't"
+      ],
+      "correctAnswer": "wasn't",
+      "feedback": "Correct! 'Isn't' -> 'Wasn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il ne pleuvait pas...",
+        "englishStructure": "He said it wasn't raining...",
+        "whyDifficult": "Isn't becomes Wasn't.",
+        "visualHighlighting": {
+          "incorrect": "isn't",
+          "correct": "wasn't"
+        }
+      }
+    },
+    {
+      "id": "rs-e12-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "He told ___ a story.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "to me",
+        "I"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Tell + Object Pronoun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a raconté...",
+        "englishStructure": "He told me...",
+        "whyDifficult": "Tell takes the object directly (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to me",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "rs-e13-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"We are late.\" -> They said ___ were late.",
+      "type": "multiple_choice",
+      "options": [
+        "we",
+        "they",
+        "you"
+      ],
+      "correctAnswer": "they",
+      "feedback": "Correct! Pronoun shift: We -> They.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronoun Shift",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont dit qu'ils étaient...",
+        "englishStructure": "They said they were...",
+        "whyDifficult": "We becomes They.",
+        "visualHighlighting": {
+          "incorrect": "we",
+          "correct": "they"
+        }
+      }
+    },
+    {
+      "id": "rs-e14-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I must go.\" -> He said he ___ go.",
+      "type": "multiple_choice",
+      "options": [
+        "must",
+        "had to",
+        "has to"
+      ],
+      "correctAnswer": "had to",
+      "feedback": "Correct! 'Must' usually shifts to 'Had to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il devait...",
+        "englishStructure": "He said he had to...",
+        "whyDifficult": "Must becomes Had to.",
+        "visualHighlighting": {
+          "incorrect": "must",
+          "correct": "had to"
+        }
+      }
+    },
+    {
+      "id": "rs-e15-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am going.\" -> She said she ___ going.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "was",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Am' -> 'Was'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle allait...",
+        "englishStructure": "She said she was going...",
+        "whyDifficult": "Am becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e16-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"It is cold.\" -> He said it ___ cold.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "was",
+        "has"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Is' -> 'Was'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il faisait froid...",
+        "englishStructure": "He said it was cold...",
+        "whyDifficult": "Is becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e17-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "She ___ to him.",
+      "type": "multiple_choice",
+      "options": [
+        "said",
+        "told",
+        "asked"
+      ],
+      "correctAnswer": "said",
+      "feedback": "Correct! 'Said' can take 'to + person'. (Told him / Said to him).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Elle lui a dit...",
+        "englishStructure": "She said to him...",
+        "whyDifficult": "Said requires 'to' before a person.",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "said"
+        }
+      }
+    },
+    {
+      "id": "rs-e18-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I feel sick.\" -> He said he ___ sick.",
+      "type": "multiple_choice",
+      "options": [
+        "felt",
+        "feel",
+        "feels"
+      ],
+      "correctAnswer": "felt",
+      "feedback": "Correct! 'Feel' -> 'Felt'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il se sentait...",
+        "englishStructure": "He said he felt...",
+        "whyDifficult": "Feel becomes Felt.",
+        "visualHighlighting": {
+          "incorrect": "feels",
+          "correct": "felt"
+        }
+      }
+    },
+    {
+      "id": "rs-e19-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"You are nice.\" -> He told me I ___ nice.",
+      "type": "multiple_choice",
+      "options": [
+        "am",
+        "was",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Are' -> 'Was' (singular I).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronoun/Tense Shift",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit que j'étais...",
+        "englishStructure": "He told me I was...",
+        "whyDifficult": "Pronoun 'You' becomes 'I', so verb must agree (was).",
+        "visualHighlighting": {
+          "incorrect": "am",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e20-A",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I play piano.\" -> She said she ___ piano.",
+      "type": "multiple_choice",
+      "options": [
+        "play",
+        "played",
+        "plays"
+      ],
+      "correctAnswer": "played",
+      "feedback": "Correct! 'Play' -> 'Played'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle jouait...",
+        "englishStructure": "She said she played...",
+        "whyDifficult": "Play becomes Played.",
+        "visualHighlighting": {
+          "incorrect": "plays",
+          "correct": "played"
+        }
+      }
+    },
+    {
+      "id": "rs-m01-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I saw him.\" -> He said he ___ him.",
+      "type": "multiple_choice",
+      "options": [
+        "saw",
+        "had seen",
+        "has seen"
+      ],
+      "correctAnswer": "had seen",
+      "feedback": "Correct! Past Simple (saw) shifts to Past Perfect (had seen).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Past to Past Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il l'avait vu...",
+        "englishStructure": "He said he had seen him...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "saw",
+          "correct": "had seen"
+        }
+      }
+    },
+    {
+      "id": "rs-m02-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Where do you live?\" -> He asked me where I ___.",
+      "type": "multiple_choice",
+      "options": [
+        "live",
+        "lived",
+        "did live"
+      ],
+      "correctAnswer": "lived",
+      "feedback": "Correct! Question order changes to Statement order (Subject + Verb). Tense shifts.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé où j'habitais...",
+        "englishStructure": "He asked me where I lived...",
+        "whyDifficult": "Question order becomes statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "did live",
+          "correct": "lived"
+        }
+      }
+    },
+    {
+      "id": "rs-m03-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I have eaten.\" -> She said she ___ eaten.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "had",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! Present Perfect (have eaten) -> Past Perfect (had eaten).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle avait mangé...",
+        "englishStructure": "She said she had eaten...",
+        "whyDifficult": "Have becomes Had.",
+        "visualHighlighting": {
+          "incorrect": "has",
+          "correct": "had"
+        }
+      }
+    },
+    {
+      "id": "rs-m04-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I am coming tomorrow.\" -> He said he was coming ___.",
+      "type": "multiple_choice",
+      "options": [
+        "tomorrow",
+        "the next day",
+        "yesterday"
+      ],
+      "correctAnswer": "the next day",
+      "feedback": "Correct! 'Tomorrow' changes to 'the next day' or 'the following day'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il venait le lendemain...",
+        "englishStructure": "He said he was coming the next day...",
+        "whyDifficult": "Tomorrow becomes The next day.",
+        "visualHighlighting": {
+          "incorrect": "tomorrow",
+          "correct": "the next day"
+        }
+      }
+    },
+    {
+      "id": "rs-m05-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Are you happy?\" -> He asked if I ___ happy.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "am",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Yes/No question uses 'If' + Statement order.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions (Yes/No)",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé si j'étais heureux...",
+        "englishStructure": "He asked if I was happy...",
+        "whyDifficult": "Use 'if' for yes/no questions.",
+        "visualHighlighting": {
+          "incorrect": "am",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-m06-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I visited Kribi last year.\" -> He said he had visited Kribi ___.",
+      "type": "multiple_choice",
+      "options": [
+        "last year",
+        "the year before",
+        "the next year"
+      ],
+      "correctAnswer": "the year before",
+      "feedback": "Correct! 'Last year' -> 'The year before'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il avait visité Kribi l'année précédente...",
+        "englishStructure": "He said he had visited Kribi the year before...",
+        "whyDifficult": "Last year becomes The year before.",
+        "visualHighlighting": {
+          "incorrect": "last year",
+          "correct": "the year before"
+        }
+      }
+    },
+    {
+      "id": "rs-m07-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Don't speak!\" -> The teacher told us ___ speak.",
+      "type": "multiple_choice",
+      "options": [
+        "not to",
+        "to not",
+        "don't"
+      ],
+      "correctAnswer": "not to",
+      "feedback": "Correct! Negative Imperative -> 'Not to' + Verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reported Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Le professeur nous a dit de ne pas parler...",
+        "englishStructure": "The teacher told us not to speak...",
+        "whyDifficult": "Use 'not to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "don't",
+          "correct": "not to"
+        }
+      }
+    },
+    {
+      "id": "rs-m08-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I will see you here.\" -> He said he would see me ___.",
+      "type": "multiple_choice",
+      "options": [
+        "here",
+        "there",
+        "where"
+      ],
+      "correctAnswer": "there",
+      "feedback": "Correct! 'Here' -> 'There'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il me verrait là-bas...",
+        "englishStructure": "He said he would see me there...",
+        "whyDifficult": "Here becomes There.",
+        "visualHighlighting": {
+          "incorrect": "here",
+          "correct": "there"
+        }
+      }
+    },
+    {
+      "id": "rs-m09-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Do you like coffee?\" -> She asked me ___ I liked coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "weather",
+        "whether"
+      ],
+      "correctAnswer": "whether",
+      "feedback": "Correct! 'If' or 'Whether' for Yes/No questions.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a demandé si j'aimais...",
+        "englishStructure": "She asked me whether I liked...",
+        "whyDifficult": "Use 'whether' or 'if'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "whether"
+        }
+      }
+    },
+    {
+      "id": "rs-m10-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"We must study.\" -> He said they ___ study.",
+      "type": "multiple_choice",
+      "options": [
+        "must",
+        "had to",
+        "should"
+      ],
+      "correctAnswer": "had to",
+      "feedback": "Correct! 'Must' becomes 'Had to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'ils devaient...",
+        "englishStructure": "He said they had to...",
+        "whyDifficult": "Must becomes Had to.",
+        "visualHighlighting": {
+          "incorrect": "must",
+          "correct": "had to"
+        }
+      }
+    },
+    {
+      "id": "rs-m11-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Sit down.\" -> He told me ___ down.",
+      "type": "multiple_choice",
+      "options": [
+        "sit",
+        "to sit",
+        "sitting"
+      ],
+      "correctAnswer": "to sit",
+      "feedback": "Correct! Imperative -> 'To' + Verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reported Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit de m'asseoir...",
+        "englishStructure": "He told me to sit down...",
+        "whyDifficult": "Use 'to' + infinitive for commands.",
+        "visualHighlighting": {
+          "incorrect": "sit",
+          "correct": "to sit"
+        }
+      }
+    },
+    {
+      "id": "rs-m12-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"What time is it?\" -> He asked what time ___.",
+      "type": "multiple_choice",
+      "options": [
+        "is it",
+        "it was",
+        "was it"
+      ],
+      "correctAnswer": "it was",
+      "feedback": "Correct! Statement order: Subject (it) + Verb (was).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé quelle heure il était...",
+        "englishStructure": "He asked what time it was...",
+        "whyDifficult": "Statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "was it",
+          "correct": "it was"
+        }
+      }
+    },
+    {
+      "id": "rs-m13-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I may be late.\" -> She said she ___ be late.",
+      "type": "multiple_choice",
+      "options": [
+        "may",
+        "might",
+        "will"
+      ],
+      "correctAnswer": "might",
+      "feedback": "Correct! 'May' -> 'Might'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (May)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle pourrait...",
+        "englishStructure": "She said she might be late...",
+        "whyDifficult": "May becomes Might.",
+        "visualHighlighting": {
+          "incorrect": "may",
+          "correct": "might"
+        }
+      }
+    },
+    {
+      "id": "rs-m14-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I can help.\" -> He said he ___ help.",
+      "type": "multiple_choice",
+      "options": [
+        "could",
+        "can",
+        "would"
+      ],
+      "correctAnswer": "could",
+      "feedback": "Correct! 'Can' -> 'Could'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il pouvait...",
+        "englishStructure": "He said he could help...",
+        "whyDifficult": "Can becomes Could.",
+        "visualHighlighting": {
+          "incorrect": "can",
+          "correct": "could"
+        }
+      }
+    },
+    {
+      "id": "rs-m15-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I have been waiting.\" -> He said he ___ waiting.",
+      "type": "multiple_choice",
+      "options": [
+        "has been",
+        "had been",
+        "was"
+      ],
+      "correctAnswer": "had been",
+      "feedback": "Correct! Present Perfect Continuous -> Past Perfect Continuous.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il attendait...",
+        "englishStructure": "He said he had been waiting...",
+        "whyDifficult": "Present Perfect Continuous becomes Past Perfect Continuous.",
+        "visualHighlighting": {
+          "incorrect": "has been",
+          "correct": "had been"
+        }
+      }
+    },
+    {
+      "id": "rs-m16-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Why are you crying?\" -> He asked me why I ___.",
+      "type": "multiple_choice",
+      "options": [
+        "was crying",
+        "am crying",
+        "cried"
+      ],
+      "correctAnswer": "was crying",
+      "feedback": "Correct! Present Continuous -> Past Continuous.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé pourquoi je pleurais...",
+        "englishStructure": "He asked me why I was crying...",
+        "whyDifficult": "Statement order + Tense shift.",
+        "visualHighlighting": {
+          "incorrect": "am crying",
+          "correct": "was crying"
+        }
+      }
+    },
+    {
+      "id": "rs-m17-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"This is my book.\" -> He said ___ was his book.",
+      "type": "multiple_choice",
+      "options": [
+        "this",
+        "that",
+        "it"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! 'This' (near) -> 'That' (distant).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Shift",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que c'était son livre...",
+        "englishStructure": "He said that was his book...",
+        "whyDifficult": "This becomes That.",
+        "visualHighlighting": {
+          "incorrect": "this",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rs-m18-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I will call you tonight.\" -> He said he would call me ___.",
+      "type": "multiple_choice",
+      "options": [
+        "tonight",
+        "that night",
+        "this night"
+      ],
+      "correctAnswer": "that night",
+      "feedback": "Correct! 'Tonight' -> 'That night'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il m'appellerait ce soir-là...",
+        "englishStructure": "He said he would call me that night...",
+        "whyDifficult": "Tonight becomes That night.",
+        "visualHighlighting": {
+          "incorrect": "tonight",
+          "correct": "that night"
+        }
+      }
+    },
+    {
+      "id": "rs-m19-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Please help me.\" -> She ___ me to help her.",
+      "type": "multiple_choice",
+      "options": [
+        "asked",
+        "said",
+        "told"
+      ],
+      "correctAnswer": "asked",
+      "feedback": "Correct! 'Please' implies a request -> Asked.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a demandé de l'aider...",
+        "englishStructure": "She asked me to help her...",
+        "whyDifficult": "Use 'ask' for requests.",
+        "visualHighlighting": {
+          "incorrect": "said",
+          "correct": "asked"
+        }
+      }
+    },
+    {
+      "id": "rs-m20-A",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Who broke the window?\" -> He asked who ___ the window.",
+      "type": "multiple_choice",
+      "options": [
+        "broke",
+        "had broken",
+        "breaks"
+      ],
+      "correctAnswer": "had broken",
+      "feedback": "Correct! Past Simple -> Past Perfect.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé qui avait cassé...",
+        "englishStructure": "He asked who had broken...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "broke",
+          "correct": "had broken"
+        }
+      }
+    },
+    {
+      "id": "rs-h01-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I should have gone.\" -> He said he ___ gone.",
+      "type": "multiple_choice",
+      "options": [
+        "should have",
+        "shall have",
+        "would have"
+      ],
+      "correctAnswer": "should have",
+      "feedback": "Correct! Modals like 'should', 'could', 'would' do NOT change.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (No Change)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il aurait dû...",
+        "englishStructure": "He said he should have gone...",
+        "whyDifficult": "Should have does not change.",
+        "visualHighlighting": {
+          "incorrect": "would have",
+          "correct": "should have"
+        }
+      }
+    },
+    {
+      "id": "rs-h02-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Let's go to the cinema.\" -> He ___ going to the cinema.",
+      "type": "multiple_choice",
+      "options": [
+        "suggested",
+        "asked",
+        "told"
+      ],
+      "correctAnswer": "suggested",
+      "feedback": "Correct! 'Let's' = Suggestion. 'Suggest' takes -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré d'aller...",
+        "englishStructure": "He suggested going...",
+        "whyDifficult": "Suggest + -ing (Gerund).",
+        "visualHighlighting": {
+          "incorrect": "asked",
+          "correct": "suggested"
+        }
+      }
+    },
+    {
+      "id": "rs-h03-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"If I were you, I would go.\" -> He ___ me to go.",
+      "type": "multiple_choice",
+      "options": [
+        "advised",
+        "said",
+        "suggested"
+      ],
+      "correctAnswer": "advised",
+      "feedback": "Correct! 'If I were you' = Advice.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Advise)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a conseillé de...",
+        "englishStructure": "He advised me to...",
+        "whyDifficult": "Advise + Object + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "suggested",
+          "correct": "advised"
+        }
+      }
+    },
+    {
+      "id": "rs-h04-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I didn't do it!\" -> He ___ doing it.",
+      "type": "multiple_choice",
+      "options": [
+        "refused",
+        "denied",
+        "admitted"
+      ],
+      "correctAnswer": "denied",
+      "feedback": "Correct! 'Denied' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Deny)",
+      "frenchComparison": {
+        "frenchStructure": "Il a nié l'avoir fait...",
+        "englishStructure": "He denied doing it...",
+        "whyDifficult": "Deny + -ing.",
+        "visualHighlighting": {
+          "incorrect": "refused",
+          "correct": "denied"
+        }
+      }
+    },
+    {
+      "id": "rs-h05-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "He suggested ___ a taxi.",
+      "type": "multiple_choice",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correctAnswer": "taking",
+      "feedback": "Correct! 'Suggest' + -ing. (Never 'Suggest to').",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré de prendre...",
+        "englishStructure": "He suggested taking...",
+        "whyDifficult": "Suggest + -ing. NOT 'Suggest to'.",
+        "visualHighlighting": {
+          "incorrect": "to take",
+          "correct": "taking"
+        }
+      }
+    },
+    {
+      "id": "rs-h06-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Water boils at 100 degrees.\" -> He said water ___ at 100 degrees.",
+      "type": "multiple_choice",
+      "options": [
+        "boils",
+        "boiled",
+        "had boiled"
+      ],
+      "correctAnswer": "boils",
+      "feedback": "Correct! Universal truths do NOT need to change tense.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Universal Truths",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que l'eau bout...",
+        "englishStructure": "He said water boils...",
+        "whyDifficult": "No backshift for universal truths.",
+        "visualHighlighting": {
+          "incorrect": "boiled",
+          "correct": "boils"
+        }
+      }
+    },
+    {
+      "id": "rs-h07-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Don't forget to call.\" -> He ___ me to call.",
+      "type": "multiple_choice",
+      "options": [
+        "reminded",
+        "remembered",
+        "told"
+      ],
+      "correctAnswer": "reminded",
+      "feedback": "Correct! 'Don't forget' = Remind.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Remind)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a rappelé d'appeler...",
+        "englishStructure": "He reminded me to call...",
+        "whyDifficult": "Remind + Object + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "remembered",
+          "correct": "reminded"
+        }
+      }
+    },
+    {
+      "id": "rs-h08-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I am sorry I was late.\" -> He apologized for ___ late.",
+      "type": "multiple_choice",
+      "options": [
+        "being",
+        "be",
+        "having been"
+      ],
+      "correctAnswer": "being",
+      "feedback": "Correct! 'Apologize for' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Apologize)",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est excusé d'être...",
+        "englishStructure": "He apologized for being...",
+        "whyDifficult": "Apologize for + -ing.",
+        "visualHighlighting": {
+          "incorrect": "be",
+          "correct": "being"
+        }
+      }
+    },
+    {
+      "id": "rs-h09-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Why don't we go out?\" -> He suggested ___ out.",
+      "type": "multiple_choice",
+      "options": [
+        "going",
+        "to go",
+        "that we go"
+      ],
+      "correctAnswer": "going",
+      "feedback": "Correct! Suggestion structure.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré de sortir...",
+        "englishStructure": "He suggested going out...",
+        "whyDifficult": "Suggest + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to go",
+          "correct": "going"
+        }
+      }
+    },
+    {
+      "id": "rs-h10-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"You stole the money!\" -> He accused me ___ stealing the money.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "for",
+        "on"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! 'Accuse of'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Accuse)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a accusé d'avoir volé...",
+        "englishStructure": "He accused me of stealing...",
+        "whyDifficult": "Accuse + Object + of + -ing.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "rs-h11-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"He suggested me to go.\"",
+      "type": "error_correction",
+      "options": [
+        "suggested",
+        "me",
+        "to go",
+        "No error"
+      ],
+      "correctAnswer": "to go",
+      "feedback": "Correct! 'Suggest' cannot be followed by 'Person + to'. Say 'Suggested that I go' or 'Suggested going'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "that I go",
+      "subTopic": "Reporting Verbs Error",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré que j'aille...",
+        "englishStructure": "He suggested that I go...",
+        "whyDifficult": "Suggest cannot take 'Person + to'.",
+        "visualHighlighting": {
+          "incorrect": "to go",
+          "correct": "that I go"
+        }
+      }
+    },
+    {
+      "id": "rs-h12-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I'll pay.\" -> He insisted on ___.",
+      "type": "multiple_choice",
+      "options": [
+        "paying",
+        "pay",
+        "to pay"
+      ],
+      "correctAnswer": "paying",
+      "feedback": "Correct! 'Insist on' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Insist)",
+      "frenchComparison": {
+        "frenchStructure": "Il a insisté pour payer...",
+        "englishStructure": "He insisted on paying...",
+        "whyDifficult": "Insist on + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to pay",
+          "correct": "paying"
+        }
+      }
+    },
+    {
+      "id": "rs-h13-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"If I were rich, I would travel.\" -> He said if he ___ rich, he would travel.",
+      "type": "multiple_choice",
+      "options": [
+        "had been",
+        "were",
+        "was"
+      ],
+      "correctAnswer": "were",
+      "feedback": "Correct! Second Conditional (Unreal) usually doesn't change in reported speech.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Conditionals in Reported Speech",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que s'il était riche...",
+        "englishStructure": "He said if he were rich...",
+        "whyDifficult": "Unreal conditionals do not change.",
+        "visualHighlighting": {
+          "incorrect": "had been",
+          "correct": "were"
+        }
+      }
+    },
+    {
+      "id": "rs-h14-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I used to live here.\" -> He said he ___ to live there.",
+      "type": "multiple_choice",
+      "options": [
+        "used",
+        "had used",
+        "was used"
+      ],
+      "correctAnswer": "used",
+      "feedback": "Correct! 'Used to' does not change.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to (No Change)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il habitait...",
+        "englishStructure": "He said he used to live...",
+        "whyDifficult": "Used to does not change.",
+        "visualHighlighting": {
+          "incorrect": "had used",
+          "correct": "used"
+        }
+      }
+    },
+    {
+      "id": "rs-h15-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "He asked me what ___ doing.",
+      "type": "multiple_choice",
+      "options": [
+        "I was",
+        "was I",
+        "am I"
+      ],
+      "correctAnswer": "I was",
+      "feedback": "Correct! Statement order (Subject + Verb).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé ce que je faisais...",
+        "englishStructure": "He asked me what I was doing...",
+        "whyDifficult": "Statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "was I",
+          "correct": "I was"
+        }
+      }
+    },
+    {
+      "id": "rs-h16-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I wish I knew.\" -> He said he wished he ___.",
+      "type": "multiple_choice",
+      "options": [
+        "knew",
+        "had known",
+        "knows"
+      ],
+      "correctAnswer": "knew",
+      "feedback": "Correct! 'Wish' + Past usually stays the same (or changes to Past Perfect, but 'knew' is acceptable/common). Actually, strictly, past simple in wish clauses often remains.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Wishes in Reported Speech",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il aimerait savoir...",
+        "englishStructure": "He said he wished he knew...",
+        "whyDifficult": "Wishes often don't change tense.",
+        "visualHighlighting": {
+          "incorrect": "knows",
+          "correct": "knew"
+        }
+      }
+    },
+    {
+      "id": "rs-h17-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"No, I won't go.\" -> He refused ___.",
+      "type": "multiple_choice",
+      "options": [
+        "to go",
+        "going",
+        "go"
+      ],
+      "correctAnswer": "to go",
+      "feedback": "Correct! 'Refuse' + Infinitive.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Refuse)",
+      "frenchComparison": {
+        "frenchStructure": "Il a refusé d'aller...",
+        "englishStructure": "He refused to go...",
+        "whyDifficult": "Refuse + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "going",
+          "correct": "to go"
+        }
+      }
+    },
+    {
+      "id": "rs-h18-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I bought the car.\" -> She confirmed that she ___ the car.",
+      "type": "multiple_choice",
+      "options": [
+        "had bought",
+        "bought",
+        "has bought"
+      ],
+      "correctAnswer": "had bought",
+      "feedback": "Correct! Past Simple -> Past Perfect.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift",
+      "frenchComparison": {
+        "frenchStructure": "Elle a confirmé qu'elle avait acheté...",
+        "englishStructure": "She confirmed that she had bought...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "bought",
+          "correct": "had bought"
+        }
+      }
+    },
+    {
+      "id": "rs-h19-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Congratulations on passing.\" -> He congratulated me ___ passing.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "for",
+        "with"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! Congratulate + on.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Congratulate)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a félicité pour...",
+        "englishStructure": "He congratulated me on...",
+        "whyDifficult": "Congratulate + on.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "rs-h20-A",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"He told that he was busy.\"",
+      "type": "error_correction",
+      "options": [
+        "told",
+        "that",
+        "he was",
+        "No error"
+      ],
+      "correctAnswer": "told",
+      "feedback": "Correct! 'Told' must be followed by a person. Use 'said' or 'told me'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "said",
+      "subTopic": "Reporting Verbs Error",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il était occupé...",
+        "englishStructure": "He said he was busy...",
+        "whyDifficult": "Told needs a person. Said does not.",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "said"
+        }
+      }
+    },
+    {
+      "id": "rs-e01-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am tired.\" -> She said she ___ tired.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Am -> Was.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle était fatiguée...",
+        "englishStructure": "She said she was tired...",
+        "whyDifficult": "Am becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e02-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I want water.\" -> He said he ___ water.",
+      "type": "multiple_choice",
+      "options": [
+        "wanted",
+        "want",
+        "wants"
+      ],
+      "correctAnswer": "wanted",
+      "feedback": "Correct! Want -> Wanted.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il voulait...",
+        "englishStructure": "He said he wanted...",
+        "whyDifficult": "Want becomes Wanted.",
+        "visualHighlighting": {
+          "incorrect": "wants",
+          "correct": "wanted"
+        }
+      }
+    },
+    {
+      "id": "rs-e03-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I will call.\" -> He said he ___ call.",
+      "type": "multiple_choice",
+      "options": [
+        "would",
+        "will",
+        "can"
+      ],
+      "correctAnswer": "would",
+      "feedback": "Correct! Will -> Would.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Will to Would)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il appellerait...",
+        "englishStructure": "He said he would call...",
+        "whyDifficult": "Will becomes Would.",
+        "visualHighlighting": {
+          "incorrect": "will",
+          "correct": "would"
+        }
+      }
+    },
+    {
+      "id": "rs-e04-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I can drive.\" -> She said she ___ drive.",
+      "type": "multiple_choice",
+      "options": [
+        "could",
+        "can",
+        "will"
+      ],
+      "correctAnswer": "could",
+      "feedback": "Correct! Can -> Could.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Can to Could)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle pouvait...",
+        "englishStructure": "She said she could...",
+        "whyDifficult": "Can becomes Could.",
+        "visualHighlighting": {
+          "incorrect": "can",
+          "correct": "could"
+        }
+      }
+    },
+    {
+      "id": "rs-e05-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "He ___ me a lie.",
+      "type": "multiple_choice",
+      "options": [
+        "told",
+        "said",
+        "say"
+      ],
+      "correctAnswer": "told",
+      "feedback": "Correct! 'Told' + person. Also fixed phrase 'Tell a lie'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a raconté un mensonge...",
+        "englishStructure": "He told me a lie...",
+        "whyDifficult": "Tell + Person.",
+        "visualHighlighting": {
+          "incorrect": "said",
+          "correct": "told"
+        }
+      }
+    },
+    {
+      "id": "rs-e06-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "He ___ good morning.",
+      "type": "multiple_choice",
+      "options": [
+        "said",
+        "told",
+        "say"
+      ],
+      "correctAnswer": "said",
+      "feedback": "Correct! Fixed phrase 'Say hello/goodbye'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit bonjour...",
+        "englishStructure": "He said good morning...",
+        "whyDifficult": "Say + Greeting.",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "said"
+        }
+      }
+    },
+    {
+      "id": "rs-e07-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am sleeping.\" -> She said she ___ sleeping.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Am -> Was.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle dormait...",
+        "englishStructure": "She said she was sleeping...",
+        "whyDifficult": "Am becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e08-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I don't like it.\" -> He said he ___ like it.",
+      "type": "multiple_choice",
+      "options": [
+        "didn't",
+        "doesn't",
+        "don't"
+      ],
+      "correctAnswer": "didn't",
+      "feedback": "Correct! Don't -> Didn't.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il n'aimait pas ça...",
+        "englishStructure": "He said he didn't like it...",
+        "whyDifficult": "Don't becomes Didn't.",
+        "visualHighlighting": {
+          "incorrect": "doesn't",
+          "correct": "didn't"
+        }
+      }
+    },
+    {
+      "id": "rs-e09-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"My bag is heavy.\" -> She said ___ bag was heavy.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "my",
+        "his"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! My -> Her (female speaker).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronoun Shift",
+      "frenchComparison": {
+        "frenchStructure": "Son sac...",
+        "englishStructure": "Her bag...",
+        "whyDifficult": "Pronoun must match the speaker (She).",
+        "visualHighlighting": {
+          "incorrect": "my",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "rs-e10-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I have a cat.\" -> He said he ___ a cat.",
+      "type": "multiple_choice",
+      "options": [
+        "had",
+        "has",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! Have -> Had.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il avait...",
+        "englishStructure": "He said he had...",
+        "whyDifficult": "Have becomes Had.",
+        "visualHighlighting": {
+          "incorrect": "has",
+          "correct": "had"
+        }
+      }
+    },
+    {
+      "id": "rs-e11-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"He isn't here.\" -> She said he ___ there.",
+      "type": "multiple_choice",
+      "options": [
+        "wasn't",
+        "isn't",
+        "weren't"
+      ],
+      "correctAnswer": "wasn't",
+      "feedback": "Correct! Isn't -> Wasn't.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'il n'était pas là...",
+        "englishStructure": "She said he wasn't there...",
+        "whyDifficult": "Isn't becomes Wasn't.",
+        "visualHighlighting": {
+          "incorrect": "isn't",
+          "correct": "wasn't"
+        }
+      }
+    },
+    {
+      "id": "rs-e12-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "Tell ___ the truth.",
+      "type": "multiple_choice",
+      "options": [
+        "him",
+        "to him",
+        "he"
+      ],
+      "correctAnswer": "him",
+      "feedback": "Correct! Tell + Person.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Dis-lui la vérité...",
+        "englishStructure": "Tell him the truth...",
+        "whyDifficult": "Tell + Person (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to him",
+          "correct": "him"
+        }
+      }
+    },
+    {
+      "id": "rs-e13-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"We are friends.\" -> They said they ___ friends.",
+      "type": "multiple_choice",
+      "options": [
+        "were",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "were",
+      "feedback": "Correct! Are -> Were.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont dit qu'ils étaient amis...",
+        "englishStructure": "They said they were friends...",
+        "whyDifficult": "Are becomes Were.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "were"
+        }
+      }
+    },
+    {
+      "id": "rs-e14-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I must work.\" -> She said she ___ work.",
+      "type": "multiple_choice",
+      "options": [
+        "had to",
+        "must",
+        "has to"
+      ],
+      "correctAnswer": "had to",
+      "feedback": "Correct! Must -> Had to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle devait...",
+        "englishStructure": "She said she had to...",
+        "whyDifficult": "Must becomes Had to.",
+        "visualHighlighting": {
+          "incorrect": "must",
+          "correct": "had to"
+        }
+      }
+    },
+    {
+      "id": "rs-e15-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I am eating.\" -> He said he ___ eating.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Am -> Was.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il mangeait...",
+        "englishStructure": "He said he was eating...",
+        "whyDifficult": "Am becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e16-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"It is hot.\" -> She said it ___ hot.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Is -> Was.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'il faisait chaud...",
+        "englishStructure": "She said it was hot...",
+        "whyDifficult": "Is becomes Was.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e17-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "He ___ something funny.",
+      "type": "multiple_choice",
+      "options": [
+        "said",
+        "told",
+        "tell"
+      ],
+      "correctAnswer": "said",
+      "feedback": "Correct! Say + Thing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Say vs Tell",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit quelque chose...",
+        "englishStructure": "He said something...",
+        "whyDifficult": "Say + Thing (no person).",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "said"
+        }
+      }
+    },
+    {
+      "id": "rs-e18-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I feel happy.\" -> She said she ___ happy.",
+      "type": "multiple_choice",
+      "options": [
+        "felt",
+        "feels",
+        "feel"
+      ],
+      "correctAnswer": "felt",
+      "feedback": "Correct! Feel -> Felt.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a dit qu'elle se sentait...",
+        "englishStructure": "She said she felt...",
+        "whyDifficult": "Feel becomes Felt.",
+        "visualHighlighting": {
+          "incorrect": "feels",
+          "correct": "felt"
+        }
+      }
+    },
+    {
+      "id": "rs-e19-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"You are strong.\" -> He told me I ___ strong.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "am",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! You (I) are (was).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronoun/Tense Shift",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit que j'étais fort...",
+        "englishStructure": "He told me I was strong...",
+        "whyDifficult": "Pronoun 'You' becomes 'I', verb agrees (was).",
+        "visualHighlighting": {
+          "incorrect": "am",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "rs-e20-B",
+      "moduleId": "reported-speech",
+      "difficulty": "easy",
+      "questionText": "\"I cook every day.\" -> He said he ___ every day.",
+      "type": "multiple_choice",
+      "options": [
+        "cooked",
+        "cook",
+        "cooks"
+      ],
+      "correctAnswer": "cooked",
+      "feedback": "Correct! Cook -> Cooked.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Present to Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il cuisinait...",
+        "englishStructure": "He said he cooked...",
+        "whyDifficult": "Cook becomes Cooked.",
+        "visualHighlighting": {
+          "incorrect": "cooks",
+          "correct": "cooked"
+        }
+      }
+    },
+    {
+      "id": "rs-m01-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I went home.\" -> He said he ___ home.",
+      "type": "multiple_choice",
+      "options": [
+        "had gone",
+        "went",
+        "has gone"
+      ],
+      "correctAnswer": "had gone",
+      "feedback": "Correct! Past Simple (went) -> Past Perfect (had gone).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Past to Past Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il était rentré...",
+        "englishStructure": "He said he had gone...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "went",
+          "correct": "had gone"
+        }
+      }
+    },
+    {
+      "id": "rs-m02-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"What do you want?\" -> He asked what I ___.",
+      "type": "multiple_choice",
+      "options": [
+        "wanted",
+        "want",
+        "did want"
+      ],
+      "correctAnswer": "wanted",
+      "feedback": "Correct! Indirect question: Statement order.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé ce que je voulais...",
+        "englishStructure": "He asked what I wanted...",
+        "whyDifficult": "Statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "did want",
+          "correct": "wanted"
+        }
+      }
+    },
+    {
+      "id": "rs-m03-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I have finished.\" -> He said he ___ finished.",
+      "type": "multiple_choice",
+      "options": [
+        "had",
+        "has",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! Have -> Had.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il avait fini...",
+        "englishStructure": "He said he had finished...",
+        "whyDifficult": "Have becomes Had.",
+        "visualHighlighting": {
+          "incorrect": "has",
+          "correct": "had"
+        }
+      }
+    },
+    {
+      "id": "rs-m04-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I will go tomorrow.\" -> He said he would go ___.",
+      "type": "multiple_choice",
+      "options": [
+        "the next day",
+        "tomorrow",
+        "yesterday"
+      ],
+      "correctAnswer": "the next day",
+      "feedback": "Correct! Tomorrow -> The next day.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il irait le lendemain...",
+        "englishStructure": "He said he would go the next day...",
+        "whyDifficult": "Tomorrow becomes The next day.",
+        "visualHighlighting": {
+          "incorrect": "tomorrow",
+          "correct": "the next day"
+        }
+      }
+    },
+    {
+      "id": "rs-m05-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Is it raining?\" -> He asked ___ it was raining.",
+      "type": "multiple_choice",
+      "options": [
+        "if",
+        "that",
+        "what"
+      ],
+      "correctAnswer": "if",
+      "feedback": "Correct! 'If' for Yes/No questions.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions (Yes/No)",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé s'il pleuvait...",
+        "englishStructure": "He asked if it was raining...",
+        "whyDifficult": "Use 'if' for yes/no questions.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "if"
+        }
+      }
+    },
+    {
+      "id": "rs-m06-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I saw her yesterday.\" -> He said he had seen her ___.",
+      "type": "multiple_choice",
+      "options": [
+        "the day before",
+        "yesterday",
+        "tomorrow"
+      ],
+      "correctAnswer": "the day before",
+      "feedback": "Correct! Yesterday -> The day before.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il l'avait vue la veille...",
+        "englishStructure": "He said he had seen her the day before...",
+        "whyDifficult": "Yesterday becomes The day before.",
+        "visualHighlighting": {
+          "incorrect": "yesterday",
+          "correct": "the day before"
+        }
+      }
+    },
+    {
+      "id": "rs-m07-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Don't eat!\" -> He told me ___ eat.",
+      "type": "multiple_choice",
+      "options": [
+        "not to",
+        "to not",
+        "don't"
+      ],
+      "correctAnswer": "not to",
+      "feedback": "Correct! Negative Imperative -> 'Not to' + Verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reported Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit de ne pas manger...",
+        "englishStructure": "He told me not to eat...",
+        "whyDifficult": "Use 'not to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "don't",
+          "correct": "not to"
+        }
+      }
+    },
+    {
+      "id": "rs-m08-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I will be here.\" -> He said he would be ___.",
+      "type": "multiple_choice",
+      "options": [
+        "there",
+        "here",
+        "where"
+      ],
+      "correctAnswer": "there",
+      "feedback": "Correct! Here -> There.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il serait là-bas...",
+        "englishStructure": "He said he would be there...",
+        "whyDifficult": "Here becomes There.",
+        "visualHighlighting": {
+          "incorrect": "here",
+          "correct": "there"
+        }
+      }
+    },
+    {
+      "id": "rs-m09-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Do you know him?\" -> He asked ___ I knew him.",
+      "type": "multiple_choice",
+      "options": [
+        "whether",
+        "that",
+        "weather"
+      ],
+      "correctAnswer": "whether",
+      "feedback": "Correct! 'Whether' or 'If'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé si je le connaissais...",
+        "englishStructure": "He asked whether I knew him...",
+        "whyDifficult": "Use 'whether' or 'if'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "whether"
+        }
+      }
+    },
+    {
+      "id": "rs-m10-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"We must go.\" -> They said they ___ go.",
+      "type": "multiple_choice",
+      "options": [
+        "had to",
+        "must",
+        "have to"
+      ],
+      "correctAnswer": "had to",
+      "feedback": "Correct! Must -> Had to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont dit qu'ils devaient...",
+        "englishStructure": "They said they had to...",
+        "whyDifficult": "Must becomes Had to.",
+        "visualHighlighting": {
+          "incorrect": "must",
+          "correct": "had to"
+        }
+      }
+    },
+    {
+      "id": "rs-m11-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Stand up.\" -> He told me ___ up.",
+      "type": "multiple_choice",
+      "options": [
+        "to stand",
+        "stand",
+        "standing"
+      ],
+      "correctAnswer": "to stand",
+      "feedback": "Correct! Imperative -> 'To' + Verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reported Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit de me lever...",
+        "englishStructure": "He told me to stand up...",
+        "whyDifficult": "Use 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "stand",
+          "correct": "to stand"
+        }
+      }
+    },
+    {
+      "id": "rs-m12-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Where is she?\" -> He asked where ___.",
+      "type": "multiple_choice",
+      "options": [
+        "she was",
+        "is she",
+        "was she"
+      ],
+      "correctAnswer": "she was",
+      "feedback": "Correct! Statement order.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé où elle était...",
+        "englishStructure": "He asked where she was...",
+        "whyDifficult": "Statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "was she",
+          "correct": "she was"
+        }
+      }
+    },
+    {
+      "id": "rs-m13-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I may come.\" -> He said he ___ come.",
+      "type": "multiple_choice",
+      "options": [
+        "might",
+        "may",
+        "will"
+      ],
+      "correctAnswer": "might",
+      "feedback": "Correct! May -> Might.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (May)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il pourrait venir...",
+        "englishStructure": "He said he might come...",
+        "whyDifficult": "May becomes Might.",
+        "visualHighlighting": {
+          "incorrect": "may",
+          "correct": "might"
+        }
+      }
+    },
+    {
+      "id": "rs-m14-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I can do it.\" -> He said he ___ do it.",
+      "type": "multiple_choice",
+      "options": [
+        "could",
+        "can",
+        "would"
+      ],
+      "correctAnswer": "could",
+      "feedback": "Correct! Can -> Could.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il pouvait...",
+        "englishStructure": "He said he could do it...",
+        "whyDifficult": "Can becomes Could.",
+        "visualHighlighting": {
+          "incorrect": "can",
+          "correct": "could"
+        }
+      }
+    },
+    {
+      "id": "rs-m15-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I have been working.\" -> He said he ___ working.",
+      "type": "multiple_choice",
+      "options": [
+        "had been",
+        "has been",
+        "was"
+      ],
+      "correctAnswer": "had been",
+      "feedback": "Correct! Present Perfect Continuous -> Past Perfect Continuous.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il travaillait...",
+        "englishStructure": "He said he had been working...",
+        "whyDifficult": "Present Perfect Continuous becomes Past Perfect Continuous.",
+        "visualHighlighting": {
+          "incorrect": "has been",
+          "correct": "had been"
+        }
+      }
+    },
+    {
+      "id": "rs-m16-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Why are you laughing?\" -> He asked why I ___.",
+      "type": "multiple_choice",
+      "options": [
+        "was laughing",
+        "am laughing",
+        "laughed"
+      ],
+      "correctAnswer": "was laughing",
+      "feedback": "Correct! Present Continuous -> Past Continuous.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé pourquoi je riais...",
+        "englishStructure": "He asked why I was laughing...",
+        "whyDifficult": "Statement order + Tense shift.",
+        "visualHighlighting": {
+          "incorrect": "am laughing",
+          "correct": "was laughing"
+        }
+      }
+    },
+    {
+      "id": "rs-m17-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"This is it.\" -> He said ___ was it.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "this",
+        "it"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! This -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Shift",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que c'était ça...",
+        "englishStructure": "He said that was it...",
+        "whyDifficult": "This becomes That.",
+        "visualHighlighting": {
+          "incorrect": "this",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rs-m18-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"I will do it tonight.\" -> He said he would do it ___.",
+      "type": "multiple_choice",
+      "options": [
+        "that night",
+        "tonight",
+        "this night"
+      ],
+      "correctAnswer": "that night",
+      "feedback": "Correct! Tonight -> That night.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il le ferait ce soir-là...",
+        "englishStructure": "He said he would do it that night...",
+        "whyDifficult": "Tonight becomes That night.",
+        "visualHighlighting": {
+          "incorrect": "tonight",
+          "correct": "that night"
+        }
+      }
+    },
+    {
+      "id": "rs-m19-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Please wait.\" -> He ___ me to wait.",
+      "type": "multiple_choice",
+      "options": [
+        "asked",
+        "said",
+        "told"
+      ],
+      "correctAnswer": "asked",
+      "feedback": "Correct! Please -> Asked.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé d'attendre...",
+        "englishStructure": "He asked me to wait...",
+        "whyDifficult": "Use 'ask' for requests.",
+        "visualHighlighting": {
+          "incorrect": "said",
+          "correct": "asked"
+        }
+      }
+    },
+    {
+      "id": "rs-m20-B",
+      "moduleId": "reported-speech",
+      "difficulty": "medium",
+      "questionText": "\"Who did it?\" -> He asked who ___ it.",
+      "type": "multiple_choice",
+      "options": [
+        "had done",
+        "did",
+        "done"
+      ],
+      "correctAnswer": "had done",
+      "feedback": "Correct! Past Simple -> Past Perfect.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il a demandé qui l'avait fait...",
+        "englishStructure": "He asked who had done it...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "did",
+          "correct": "had done"
+        }
+      }
+    },
+    {
+      "id": "rs-h01-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I would buy it.\" -> He said he ___ buy it.",
+      "type": "multiple_choice",
+      "options": [
+        "would",
+        "will",
+        "would have"
+      ],
+      "correctAnswer": "would",
+      "feedback": "Correct! 'Would' does not change.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (No Change)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il l'achèterait...",
+        "englishStructure": "He said he would buy it...",
+        "whyDifficult": "Would does not change.",
+        "visualHighlighting": {
+          "incorrect": "will",
+          "correct": "would"
+        }
+      }
+    },
+    {
+      "id": "rs-h02-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Let's eat.\" -> He ___ eating.",
+      "type": "multiple_choice",
+      "options": [
+        "suggested",
+        "told",
+        "asked"
+      ],
+      "correctAnswer": "suggested",
+      "feedback": "Correct! Suggested + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré de manger...",
+        "englishStructure": "He suggested eating...",
+        "whyDifficult": "Suggest + -ing (Gerund).",
+        "visualHighlighting": {
+          "incorrect": "told",
+          "correct": "suggested"
+        }
+      }
+    },
+    {
+      "id": "rs-h03-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"You should study.\" -> He ___ me to study.",
+      "type": "multiple_choice",
+      "options": [
+        "advised",
+        "said",
+        "suggested"
+      ],
+      "correctAnswer": "advised",
+      "feedback": "Correct! Advised + person + to.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Advise)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a conseillé d'étudier...",
+        "englishStructure": "He advised me to study...",
+        "whyDifficult": "Advise + Object + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "suggested",
+          "correct": "advised"
+        }
+      }
+    },
+    {
+      "id": "rs-h04-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I won't go!\" -> He ___ to go.",
+      "type": "multiple_choice",
+      "options": [
+        "refused",
+        "denied",
+        "said"
+      ],
+      "correctAnswer": "refused",
+      "feedback": "Correct! Refuse + Infinitive.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Refuse)",
+      "frenchComparison": {
+        "frenchStructure": "Il a refusé d'aller...",
+        "englishStructure": "He refused to go...",
+        "whyDifficult": "Refuse + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "denied",
+          "correct": "refused"
+        }
+      }
+    },
+    {
+      "id": "rs-h05-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Why don't we play?\" -> He suggested ___.",
+      "type": "multiple_choice",
+      "options": [
+        "playing",
+        "to play",
+        "play"
+      ],
+      "correctAnswer": "playing",
+      "feedback": "Correct! Suggest + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré de jouer...",
+        "englishStructure": "He suggested playing...",
+        "whyDifficult": "Suggest + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to play",
+          "correct": "playing"
+        }
+      }
+    },
+    {
+      "id": "rs-h06-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"The sun rises in the east.\" -> He said the sun ___ in the east.",
+      "type": "multiple_choice",
+      "options": [
+        "rises",
+        "rose",
+        "risen"
+      ],
+      "correctAnswer": "rises",
+      "feedback": "Correct! Universal truth (no change).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Universal Truths",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que le soleil se lève...",
+        "englishStructure": "He said the sun rises...",
+        "whyDifficult": "No backshift for universal truths.",
+        "visualHighlighting": {
+          "incorrect": "rose",
+          "correct": "rises"
+        }
+      }
+    },
+    {
+      "id": "rs-h07-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Remember to lock the door.\" -> He ___ me to lock it.",
+      "type": "multiple_choice",
+      "options": [
+        "reminded",
+        "remembered",
+        "said"
+      ],
+      "correctAnswer": "reminded",
+      "feedback": "Correct! Remind + person + to.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Remind)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a rappelé de fermer...",
+        "englishStructure": "He reminded me to lock it...",
+        "whyDifficult": "Remind + Object + Infinitive.",
+        "visualHighlighting": {
+          "incorrect": "remembered",
+          "correct": "reminded"
+        }
+      }
+    },
+    {
+      "id": "rs-h08-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I'm sorry I shouted.\" -> He apologized for ___.",
+      "type": "multiple_choice",
+      "options": [
+        "shouting",
+        "shout",
+        "shouted"
+      ],
+      "correctAnswer": "shouting",
+      "feedback": "Correct! Apologize for + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Apologize)",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est excusé d'avoir crié...",
+        "englishStructure": "He apologized for shouting...",
+        "whyDifficult": "Apologize for + -ing.",
+        "visualHighlighting": {
+          "incorrect": "shout",
+          "correct": "shouting"
+        }
+      }
+    },
+    {
+      "id": "rs-h09-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Let's take a break.\" -> He suggested ___ a break.",
+      "type": "multiple_choice",
+      "options": [
+        "taking",
+        "to take",
+        "take"
+      ],
+      "correctAnswer": "taking",
+      "feedback": "Correct! Suggest + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Suggest)",
+      "frenchComparison": {
+        "frenchStructure": "Il a suggéré de faire une pause...",
+        "englishStructure": "He suggested taking a break...",
+        "whyDifficult": "Suggest + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to take",
+          "correct": "taking"
+        }
+      }
+    },
+    {
+      "id": "rs-h10-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"You broke the vase!\" -> She accused me ___ breaking it.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "for",
+        "on"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! Accuse of.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Accuse)",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a accusé d'avoir cassé...",
+        "englishStructure": "She accused me of breaking it...",
+        "whyDifficult": "Accuse + Object + of + -ing.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "rs-h11-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"She explained me the problem.\"",
+      "type": "error_correction",
+      "options": [
+        "explained",
+        "me",
+        "the problem",
+        "No error"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! 'Explain' cannot take an indirect object directly. Say 'Explained the problem to me'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "to me",
+      "subTopic": "Reporting Verbs Error",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a expliqué le problème...",
+        "englishStructure": "She explained the problem to me...",
+        "whyDifficult": "Explain to + Person (not 'Explain me').",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "to me"
+        }
+      }
+    },
+    {
+      "id": "rs-h12-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I will help.\" -> He insisted on ___.",
+      "type": "multiple_choice",
+      "options": [
+        "helping",
+        "help",
+        "to help"
+      ],
+      "correctAnswer": "helping",
+      "feedback": "Correct! Insist on + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Insist)",
+      "frenchComparison": {
+        "frenchStructure": "Il a insisté pour aider...",
+        "englishStructure": "He insisted on helping...",
+        "whyDifficult": "Insist on + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to help",
+          "correct": "helping"
+        }
+      }
+    },
+    {
+      "id": "rs-h13-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"If I had time, I would go.\" -> He said if he ___ time, he would go.",
+      "type": "multiple_choice",
+      "options": [
+        "had",
+        "had had",
+        "has"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! Second Conditional usually stays Past Simple.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Conditionals in Reported Speech",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit que s'il avait le temps...",
+        "englishStructure": "He said if he had time...",
+        "whyDifficult": "Unreal conditionals do not change.",
+        "visualHighlighting": {
+          "incorrect": "had had",
+          "correct": "had"
+        }
+      }
+    },
+    {
+      "id": "rs-h14-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I used to smoke.\" -> He said he ___ to smoke.",
+      "type": "multiple_choice",
+      "options": [
+        "used",
+        "had used",
+        "was used"
+      ],
+      "correctAnswer": "used",
+      "feedback": "Correct! 'Used to' no change.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to (No Change)",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il fumait...",
+        "englishStructure": "He said he used to smoke...",
+        "whyDifficult": "Used to does not change.",
+        "visualHighlighting": {
+          "incorrect": "had used",
+          "correct": "used"
+        }
+      }
+    },
+    {
+      "id": "rs-h15-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "He asked me who ___.",
+      "type": "multiple_choice",
+      "options": [
+        "I was",
+        "was I",
+        "am I"
+      ],
+      "correctAnswer": "I was",
+      "feedback": "Correct! Statement order.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indirect Questions",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a demandé qui j'étais...",
+        "englishStructure": "He asked me who I was...",
+        "whyDifficult": "Statement order (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "was I",
+          "correct": "I was"
+        }
+      }
+    },
+    {
+      "id": "rs-h16-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I wish I were rich.\" -> He said he wished he ___ rich.",
+      "type": "multiple_choice",
+      "options": [
+        "were",
+        "had been",
+        "was"
+      ],
+      "correctAnswer": "were",
+      "feedback": "Correct! 'Wish' + Were stays same.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Wishes in Reported Speech",
+      "frenchComparison": {
+        "frenchStructure": "Il a dit qu'il aimerait être riche...",
+        "englishStructure": "He said he wished he were rich...",
+        "whyDifficult": "Wishes often don't change tense.",
+        "visualHighlighting": {
+          "incorrect": "was",
+          "correct": "were"
+        }
+      }
+    },
+    {
+      "id": "rs-h17-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I didn't steal it.\" -> He denied ___ it.",
+      "type": "multiple_choice",
+      "options": [
+        "stealing",
+        "to steal",
+        "steal"
+      ],
+      "correctAnswer": "stealing",
+      "feedback": "Correct! Deny + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Deny)",
+      "frenchComparison": {
+        "frenchStructure": "Il a nié l'avoir volé...",
+        "englishStructure": "He denied stealing it...",
+        "whyDifficult": "Deny + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to steal",
+          "correct": "stealing"
+        }
+      }
+    },
+    {
+      "id": "rs-h18-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"I passed the test.\" -> She confirmed that she ___ the test.",
+      "type": "multiple_choice",
+      "options": [
+        "had passed",
+        "passed",
+        "has passed"
+      ],
+      "correctAnswer": "had passed",
+      "feedback": "Correct! Past -> Past Perfect.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Tense Shift",
+      "frenchComparison": {
+        "frenchStructure": "Elle a confirmé qu'elle avait réussi...",
+        "englishStructure": "She confirmed that she had passed...",
+        "whyDifficult": "Past Simple becomes Past Perfect.",
+        "visualHighlighting": {
+          "incorrect": "passed",
+          "correct": "had passed"
+        }
+      }
+    },
+    {
+      "id": "rs-h19-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "\"Congratulations.\" -> He congratulated me ___ my success.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "for",
+        "with"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! Congratulate on.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reporting Verbs (Congratulate)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a félicité pour...",
+        "englishStructure": "He congratulated me on...",
+        "whyDifficult": "Congratulate + on.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "rs-h20-B",
+      "moduleId": "reported-speech",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"He said me to go.\"",
+      "type": "error_correction",
+      "options": [
+        "said",
+        "me",
+        "to go",
+        "No error"
+      ],
+      "correctAnswer": "said",
+      "feedback": "Correct! 'Say' cannot take 'me' directly. Use 'He told me to go'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "told",
+      "subTopic": "Reporting Verbs Error",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a dit d'aller...",
+        "englishStructure": "He told me to go...",
+        "whyDifficult": "Told needs a person. Said does not.",
+        "visualHighlighting": {
+          "incorrect": "said",
+          "correct": "told"
+        }
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "title": "OffGrid English",
     "version": "Version",
     "offline": "100% Offline",
-    "tagline": "Made with ❤️ for Cameroonian learners"
+    "tagline": "Learn anywhere, anytime"
   },
   "welcome": {
     "title": "Welcome back! 👋",
@@ -14,11 +14,52 @@
     "dayStreak": "Day Streak",
     "complete": "Complete",
     "streak": "Streak",
-    "xp": "XP"
+    "xp": "Total XP",
+    "keepGoing": "Keep going! 🎯",
+    "lessonsProgress": "{{current}} of {{total}} lessons",
+    "module": "Module"
+  },
+  "common": {
+    "today": "today",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  },
+  "hero": {
+    "continueJourney": "Continue Your Journey",
+    "lastStudied": "Last studied",
+    "hoursAgo": "hours ago",
+    "lessonsComplete": "of {{total}} lessons complete",
+    "continuePractice": "Continue Practice"
+  },
+  "quickAccess": {
+    "dailyGoal": {
+      "title": "Daily Goal",
+      "subtitle": "{{percent}}% complete",
+      "progress": "Today's progress",
+      "moreToGo": "more to go!"
+    },
+    "prediction": {
+      "title": "Prediction",
+      "subtitle": "Your forecast",
+      "description": "Track your learning trajectory",
+      "viewDetails": "View Details"
+    },
+    "mistakes": {
+      "title": "Mistakes",
+      "subtitle": "Review errors",
+      "description": "Learn from your mistakes",
+      "reviewNow": "Review Now"
+    }
   },
   "modules": {
-    "title": "Grammar Topics",
-    "subtitle": "Pick one to practice 👇",
+    "title": "Your Learning Path",
+    "subtitle": "Master grammar step by step 👇",
     "tense-form": "Verb Tense & Form",
     "subject-verb-agreement": "Subject-Verb Agreement",
     "prepositions": "Prepositions",
@@ -26,13 +67,33 @@
     "plurality": "Plurality",
     "articles": "Articles",
     "auxiliaries": "Auxiliaries",
-    "cameroonian-scenarios": "Real Scenarios",
-    "false-cognates": "False Friends",
+    "pronouns-possessives": "Pronouns & Possessives",
+    "gerunds-infinitives": "Gerunds & Infinitives",
+    "comparatives-superlatives": "Comparatives & Superlatives",
+    "conditionals": "Conditionals",
+    "sentence-connectors": "Sentence Connectors",
+    "countable-uncountable": "Countable & Uncountable",
+    "question-tags": "Question Tags",
+    "relative-clauses": "Relative Clauses",
+    "false-cognates": "Tricky Words",
+    "passive-voice": "Passive Voice",
+    "reported-speech": "Reported Speech",
     "lessons_count": "{{count}} lessons",
+    "grammarPractice": "Grammar practice",
+    "realWorldScenarios": "Real-world scenarios",
+    "yourProgress": "Your Progress",
+    "mediumLevel": "Medium Level",
+    "lastPracticed": "Last: {{time}} hours ago",
     "completion": "{{percent}}% done",
     "completed": "Complete!",
     "locked": "Locked",
-    "unlockMessage": "Complete previous to unlock"
+    "unlockMessage": "Complete previous to unlock",
+    "almostReady": "Almost ready!",
+    "completeModuleFirst": "Complete {{count}} more lessons in the current module to unlock",
+    "completePrevious": "Complete previous modules to unlock",
+    "continuePractice": "Continue Practice",
+    "startLearning": "Start Learning",
+    "reviewModule": "Review Module"
   },
   "navigation": {
     "home": "Home",
@@ -42,7 +103,8 @@
     "challenges": "Challenges",
     "achievements": "Achievements",
     "bookmarks": "Bookmarks",
-    "analytics": "Analytics"
+    "analytics": "Analytics",
+    "practice": "Practice"
   },
   "dailyGoals": {
     "title": "Daily Goals",
@@ -108,21 +170,32 @@
   },
   "settings": {
     "title": "Settings",
+    "account": "Account",
+    "notLoggedIn": "Not logged in",
+    "preferences": "Preferences",
     "language": "Language",
-    "theme": "Theme",
+    "sound": "Sound",
+    "on": "On",
+    "off": "Off",
     "notifications": "Notifications",
-    "reset": "Reset Progress",
-    "about": "About"
-  },
-  "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "teacherTools": "Teacher Tools",
+    "teacherDashboard": "Teacher Dashboard",
+    "analytics": "Analytics Dashboard",
+    "teacherValidation": "Content Validation",
+    "data": "Data & Storage",
+    "downloadData": "Download Data",
+    "exportProgress": "Export your progress",
+    "resetApp": "Reset App",
+    "clearAllData": "Clear all data",
+    "about": "About",
+    "version": "Version",
+    "logout": "Logout",
+    "resetConfirmTitle": "Reset All Data?",
+    "resetConfirmMessage": "Are you sure you want to reset all data? This action cannot be undone.",
     "cancel": "Cancel",
-    "save": "Save",
-    "delete": "Delete",
-    "edit": "Edit",
-    "close": "Close"
+    "resetConfirm": "Reset"
   },
   "voice": {
     "answerWithVoice": "Answer with Voice",

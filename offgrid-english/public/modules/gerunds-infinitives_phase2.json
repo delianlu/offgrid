@@ -1,0 +1,1622 @@
+[
+    {
+        "id": "gi-e21-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I enjoy ___ football.",
+        "type": "multiple_choice",
+        "options": [
+            "play",
+            "playing",
+            "to play"
+        ],
+        "correctAnswer": "playing",
+        "feedback": "Correct! 'Enjoy' is followed by the gerund (-ing).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Enjoy + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "J'aime jouer",
+            "englishStructure": "I enjoy playing",
+            "whyDifficult": "French uses infinitive. English uses -ing after 'enjoy'.",
+            "visualHighlighting": {
+                "incorrect": "enjoy to play",
+                "correct": "enjoy playing"
+            }
+        }
+    },
+    {
+        "id": "gi-e22-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I want ___ home.",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "to go",
+        "feedback": "Correct! 'Want' is followed by the infinitive (to...).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Want + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Je veux aller",
+            "englishStructure": "I want to go",
+            "whyDifficult": "Direct translation usually works.",
+            "visualHighlighting": {
+                "incorrect": "want going",
+                "correct": "want to go"
+            }
+        }
+    },
+    {
+        "id": "gi-e23-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "She likes ___ books.",
+        "type": "multiple_choice",
+        "options": [
+            "read",
+            "reading",
+            "reads"
+        ],
+        "correctAnswer": "reading",
+        "feedback": "Correct! 'Like' can be followed by -ing (or to...).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Like + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Elle aime lire",
+            "englishStructure": "She likes reading",
+            "whyDifficult": "French uses infinitive.",
+            "visualHighlighting": {
+                "incorrect": "likes read",
+                "correct": "likes reading"
+            }
+        }
+    },
+    {
+        "id": "gi-e24-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "He decided ___ a car.",
+        "type": "multiple_choice",
+        "options": [
+            "buy",
+            "buying",
+            "to buy"
+        ],
+        "correctAnswer": "to buy",
+        "feedback": "Correct! 'Decide' is followed by the infinitive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Decide + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Il a décidé d'acheter",
+            "englishStructure": "He decided to buy",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "decided buying",
+                "correct": "decided to buy"
+            }
+        }
+    },
+    {
+        "id": "gi-e25-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "___ is good for you.",
+        "type": "multiple_choice",
+        "options": [
+            "Swim",
+            "Swimming",
+            "Swam"
+        ],
+        "correctAnswer": "Swimming",
+        "feedback": "Correct! Gerund as subject.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Gerund as Subject",
+        "frenchComparison": {
+            "frenchStructure": "Nager est bon",
+            "englishStructure": "Swimming is good",
+            "whyDifficult": "French uses infinitive as subject. English uses Gerund.",
+            "visualHighlighting": {
+                "incorrect": "Swim is",
+                "correct": "Swimming is"
+            }
+        }
+    },
+    {
+        "id": "gi-e26-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I promise ___ you.",
+        "type": "multiple_choice",
+        "options": [
+            "help",
+            "helping",
+            "to help"
+        ],
+        "correctAnswer": "to help",
+        "feedback": "Correct! 'Promise' + Infinitive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Promise + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Je promets d'aider",
+            "englishStructure": "I promise to help",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "promise helping",
+                "correct": "promise to help"
+            }
+        }
+    },
+    {
+        "id": "gi-e27-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "Stop ___ !",
+        "type": "multiple_choice",
+        "options": [
+            "talk",
+            "talking",
+            "to talk"
+        ],
+        "correctAnswer": "talking",
+        "feedback": "Correct! 'Stop' + -ing means to cease the action.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Stop + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Arrête de parler",
+            "englishStructure": "Stop talking",
+            "whyDifficult": "French uses 'de' + infinitive.",
+            "visualHighlighting": {
+                "incorrect": "Stop to talk",
+                "correct": "Stop talking"
+            }
+        }
+    },
+    {
+        "id": "gi-e28-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I hope ___ you soon.",
+        "type": "multiple_choice",
+        "options": [
+            "see",
+            "seeing",
+            "to see"
+        ],
+        "correctAnswer": "to see",
+        "feedback": "Correct! 'Hope' + Infinitive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Hope + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'espère te voir",
+            "englishStructure": "I hope to see you",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "hope seeing",
+                "correct": "hope to see"
+            }
+        }
+    },
+    {
+        "id": "gi-e29-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "She finished ___ her homework.",
+        "type": "multiple_choice",
+        "options": [
+            "do",
+            "doing",
+            "to do"
+        ],
+        "correctAnswer": "doing",
+        "feedback": "Correct! 'Finish' + Gerund.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Finish + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Elle a fini de faire",
+            "englishStructure": "She finished doing",
+            "whyDifficult": "French uses 'de' + infinitive.",
+            "visualHighlighting": {
+                "incorrect": "finished to do",
+                "correct": "finished doing"
+            }
+        }
+    },
+    {
+        "id": "gi-e30-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I need ___ some water.",
+        "type": "multiple_choice",
+        "options": [
+            "drink",
+            "drinking",
+            "to drink"
+        ],
+        "correctAnswer": "to drink",
+        "feedback": "Correct! 'Need' + Infinitive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Need + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'ai besoin de boire",
+            "englishStructure": "I need to drink",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "need drinking",
+                "correct": "need to drink"
+            }
+        }
+    },
+    {
+        "id": "gi-e21-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "He hates ___ early.",
+        "type": "multiple_choice",
+        "options": [
+            "wake up",
+            "waking up",
+            "wakes up"
+        ],
+        "correctAnswer": "waking up",
+        "feedback": "Correct! 'Hate' can be followed by -ing.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Hate + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il déteste se réveiller",
+            "englishStructure": "He hates waking up",
+            "whyDifficult": "French uses infinitive.",
+            "visualHighlighting": {
+                "incorrect": "hates wake up",
+                "correct": "hates waking up"
+            }
+        }
+    },
+    {
+        "id": "gi-e22-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I would like ___ a pizza.",
+        "type": "multiple_choice",
+        "options": [
+            "eat",
+            "eating",
+            "to eat"
+        ],
+        "correctAnswer": "to eat",
+        "feedback": "Correct! 'Would like' + Infinitive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Would like + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'aimerais manger",
+            "englishStructure": "I would like to eat",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "would like eating",
+                "correct": "would like to eat"
+            }
+        }
+    },
+    {
+        "id": "gi-e23-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "Keep ___ !",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "going",
+        "feedback": "Correct! 'Keep' + Gerund.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Keep + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Continue",
+            "englishStructure": "Keep going",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "Keep to go",
+                "correct": "Keep going"
+            }
+        }
+    },
+    {
+        "id": "gi-e24-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I learned ___ English.",
+        "type": "multiple_choice",
+        "options": [
+            "speak",
+            "speaking",
+            "to speak"
+        ],
+        "correctAnswer": "to speak",
+        "feedback": "Correct! 'Learn' + Infinitive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Learn + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'ai appris à parler",
+            "englishStructure": "I learned to speak",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "learned speaking",
+                "correct": "learned to speak"
+            }
+        }
+    },
+    {
+        "id": "gi-e25-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "___ is fun.",
+        "type": "multiple_choice",
+        "options": [
+            "Dance",
+            "Dancing",
+            "To dance"
+        ],
+        "correctAnswer": "Dancing",
+        "feedback": "Correct! Gerund as subject.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Gerund as Subject",
+        "frenchComparison": {
+            "frenchStructure": "Danser est amusant",
+            "englishStructure": "Dancing is fun",
+            "whyDifficult": "French uses infinitive.",
+            "visualHighlighting": {
+                "incorrect": "Dance is",
+                "correct": "Dancing is"
+            }
+        }
+    },
+    {
+        "id": "gi-e26-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I plan ___ to Douala.",
+        "type": "multiple_choice",
+        "options": [
+            "move",
+            "moving",
+            "to move"
+        ],
+        "correctAnswer": "to move",
+        "feedback": "Correct! 'Plan' + Infinitive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Plan + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Je prévois de déménager",
+            "englishStructure": "I plan to move",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "plan moving",
+                "correct": "plan to move"
+            }
+        }
+    },
+    {
+        "id": "gi-e27-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "Avoid ___ junk food.",
+        "type": "multiple_choice",
+        "options": [
+            "eat",
+            "eating",
+            "to eat"
+        ],
+        "correctAnswer": "eating",
+        "feedback": "Correct! 'Avoid' + Gerund.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Avoid + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Évite de manger",
+            "englishStructure": "Avoid eating",
+            "whyDifficult": "French uses 'de' + infinitive.",
+            "visualHighlighting": {
+                "incorrect": "Avoid to eat",
+                "correct": "Avoid eating"
+            }
+        }
+    },
+    {
+        "id": "gi-e28-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "I forgot ___ the door.",
+        "type": "multiple_choice",
+        "options": [
+            "lock",
+            "locking",
+            "to lock"
+        ],
+        "correctAnswer": "to lock",
+        "feedback": "Correct! 'Forget to do' = didn't do it.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Forget + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'ai oublié de fermer",
+            "englishStructure": "I forgot to lock",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "forgot locking",
+                "correct": "forgot to lock"
+            }
+        }
+    },
+    {
+        "id": "gi-e29-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "Do you mind ___ ?",
+        "type": "multiple_choice",
+        "options": [
+            "wait",
+            "waiting",
+            "to wait"
+        ],
+        "correctAnswer": "waiting",
+        "feedback": "Correct! 'Mind' + Gerund.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Mind + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Ça te dérange d'attendre ?",
+            "englishStructure": "Do you mind waiting?",
+            "whyDifficult": "French uses 'de' + infinitive.",
+            "visualHighlighting": {
+                "incorrect": "mind to wait",
+                "correct": "mind waiting"
+            }
+        }
+    },
+    {
+        "id": "gi-e30-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "easy",
+        "questionText": "It started ___.",
+        "type": "multiple_choice",
+        "options": [
+            "rain",
+            "raining",
+            "rained"
+        ],
+        "correctAnswer": "raining",
+        "feedback": "Correct! 'Start' can be followed by -ing (or to...).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Start + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a commencé à pleuvoir",
+            "englishStructure": "It started raining",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "started rain",
+                "correct": "started raining"
+            }
+        }
+    },
+    {
+        "id": "gi-m21-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I look forward to ___ you.",
+        "type": "multiple_choice",
+        "options": [
+            "see",
+            "seeing",
+            "saw"
+        ],
+        "correctAnswer": "seeing",
+        "feedback": "Correct! 'Look forward to' is followed by -ing because 'to' is a preposition here.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Look forward to + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "J'ai hâte de te voir",
+            "englishStructure": "I look forward to seeing you",
+            "whyDifficult": "'To' is usually followed by infinitive, but here it's a preposition.",
+            "visualHighlighting": {
+                "incorrect": "look forward to see",
+                "correct": "look forward to seeing"
+            }
+        }
+    },
+    {
+        "id": "gi-m22-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "He is good at ___.",
+        "type": "multiple_choice",
+        "options": [
+            "cook",
+            "cooking",
+            "to cook"
+        ],
+        "correctAnswer": "cooking",
+        "feedback": "Correct! Prepositions (at) are followed by -ing.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Preposition + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il est bon en cuisine",
+            "englishStructure": "He is good at cooking",
+            "whyDifficult": "Preposition rule.",
+            "visualHighlighting": {
+                "incorrect": "good at cook",
+                "correct": "good at cooking"
+            }
+        }
+    },
+    {
+        "id": "gi-m23-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I stopped ___ some water.",
+        "type": "multiple_choice",
+        "options": [
+            "drinking",
+            "to drink",
+            "drink"
+        ],
+        "correctAnswer": "to drink",
+        "feedback": "Correct! 'Stop to do' means stop in order to do something.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Stop + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Je me suis arrêté pour boire",
+            "englishStructure": "I stopped to drink",
+            "whyDifficult": "Difference between 'stop doing' and 'stop to do'.",
+            "visualHighlighting": {
+                "incorrect": "stopped drinking",
+                "correct": "stopped to drink"
+            }
+        }
+    },
+    {
+        "id": "gi-m24-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "It is too cold ___ out.",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "to go",
+        "feedback": "Correct! Too + Adjective + Infinitive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Too...to",
+        "frenchComparison": {
+            "frenchStructure": "Trop froid pour sortir",
+            "englishStructure": "Too cold to go out",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "too cold going",
+                "correct": "too cold to go"
+            }
+        }
+    },
+    {
+        "id": "gi-m25-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I remember ___ the door.",
+        "type": "multiple_choice",
+        "options": [
+            "lock",
+            "locking",
+            "to lock"
+        ],
+        "correctAnswer": "locking",
+        "feedback": "Correct! 'Remember doing' refers to a past memory.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Remember + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je me souviens d'avoir fermé",
+            "englishStructure": "I remember locking",
+            "whyDifficult": "Difference between 'remember doing' and 'remember to do'.",
+            "visualHighlighting": {
+                "incorrect": "remember to lock",
+                "correct": "remember locking"
+            }
+        }
+    },
+    {
+        "id": "gi-m26-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "He made me ___.",
+        "type": "multiple_choice",
+        "options": [
+            "laugh",
+            "laughing",
+            "to laugh"
+        ],
+        "correctAnswer": "laugh",
+        "feedback": "Correct! 'Make' + Object + Base Verb (Bare Infinitive).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Make + Object + Verb",
+        "frenchComparison": {
+            "frenchStructure": "Il m'a fait rire",
+            "englishStructure": "He made me laugh",
+            "whyDifficult": "No 'to' after make.",
+            "visualHighlighting": {
+                "incorrect": "made me to laugh",
+                "correct": "made me laugh"
+            }
+        }
+    },
+    {
+        "id": "gi-m27-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I suggest ___ a taxi.",
+        "type": "multiple_choice",
+        "options": [
+            "take",
+            "taking",
+            "to take"
+        ],
+        "correctAnswer": "taking",
+        "feedback": "Correct! 'Suggest' + Gerund.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Suggest + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je suggère de prendre",
+            "englishStructure": "I suggest taking",
+            "whyDifficult": "French uses 'de' + infinitive.",
+            "visualHighlighting": {
+                "incorrect": "suggest to take",
+                "correct": "suggest taking"
+            }
+        }
+    },
+    {
+        "id": "gi-m28-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "It's no use ___.",
+        "type": "multiple_choice",
+        "options": [
+            "worry",
+            "worrying",
+            "to worry"
+        ],
+        "correctAnswer": "worrying",
+        "feedback": "Correct! 'It's no use' + Gerund.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "It's no use",
+        "frenchComparison": {
+            "frenchStructure": "Ça ne sert à rien de s'inquiéter",
+            "englishStructure": "It's no use worrying",
+            "whyDifficult": "Fixed expression.",
+            "visualHighlighting": {
+                "incorrect": "no use to worry",
+                "correct": "no use worrying"
+            }
+        }
+    },
+    {
+        "id": "gi-m29-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I tried ___ the window, but it was stuck.",
+        "type": "multiple_choice",
+        "options": [
+            "open",
+            "opening",
+            "to open"
+        ],
+        "correctAnswer": "to open",
+        "feedback": "Correct! 'Try to do' = attempt.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Try + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "J'ai essayé d'ouvrir",
+            "englishStructure": "I tried to open",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "tried opening",
+                "correct": "tried to open"
+            }
+        }
+    },
+    {
+        "id": "gi-m30-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "Let him ___.",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "go",
+        "feedback": "Correct! 'Let' + Object + Base Verb.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Let + Object + Verb",
+        "frenchComparison": {
+            "frenchStructure": "Laisse-le partir",
+            "englishStructure": "Let him go",
+            "whyDifficult": "No 'to'.",
+            "visualHighlighting": {
+                "incorrect": "Let him to go",
+                "correct": "Let him go"
+            }
+        }
+    },
+    {
+        "id": "gi-m21-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I am used to ___ early.",
+        "type": "multiple_choice",
+        "options": [
+            "wake up",
+            "waking up",
+            "woke up"
+        ],
+        "correctAnswer": "waking up",
+        "feedback": "Correct! 'Be used to' + Gerund.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Be used to + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je suis habitué à me réveiller",
+            "englishStructure": "I am used to waking up",
+            "whyDifficult": "'To' is a preposition here.",
+            "visualHighlighting": {
+                "incorrect": "used to wake up",
+                "correct": "used to waking up"
+            }
+        }
+    },
+    {
+        "id": "gi-m22-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "She left without ___ goodbye.",
+        "type": "multiple_choice",
+        "options": [
+            "say",
+            "saying",
+            "to say"
+        ],
+        "correctAnswer": "saying",
+        "feedback": "Correct! After preposition 'without', use -ing.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Preposition + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Sans dire",
+            "englishStructure": "Without saying",
+            "whyDifficult": "Preposition rule.",
+            "visualHighlighting": {
+                "incorrect": "without to say",
+                "correct": "without saying"
+            }
+        }
+    },
+    {
+        "id": "gi-m23-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "Don't forget ___ the lights.",
+        "type": "multiple_choice",
+        "options": [
+            "turn off",
+            "turning off",
+            "to turn off"
+        ],
+        "correctAnswer": "to turn off",
+        "feedback": "Correct! 'Forget to do' = remember to do it.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Forget + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "N'oublie pas d'éteindre",
+            "englishStructure": "Don't forget to turn off",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "forget turning off",
+                "correct": "forget to turn off"
+            }
+        }
+    },
+    {
+        "id": "gi-m24-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "He is old enough ___.",
+        "type": "multiple_choice",
+        "options": [
+            "drive",
+            "driving",
+            "to drive"
+        ],
+        "correctAnswer": "to drive",
+        "feedback": "Correct! Adjective + Enough + Infinitive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Enough...to",
+        "frenchComparison": {
+            "frenchStructure": "Assez vieux pour conduire",
+            "englishStructure": "Old enough to drive",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "old enough driving",
+                "correct": "old enough to drive"
+            }
+        }
+    },
+    {
+        "id": "gi-m25-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I regret ___ you that you failed.",
+        "type": "multiple_choice",
+        "options": [
+            "tell",
+            "telling",
+            "to tell"
+        ],
+        "correctAnswer": "to tell",
+        "feedback": "Correct! 'Regret to tell' is used for bad news.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Regret + Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Je regrette de vous dire",
+            "englishStructure": "I regret to tell you",
+            "whyDifficult": "Difference between 'regret doing' and 'regret to do'.",
+            "visualHighlighting": {
+                "incorrect": "regret telling",
+                "correct": "regret to tell"
+            }
+        }
+    },
+    {
+        "id": "gi-m26-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I saw him ___ the street.",
+        "type": "multiple_choice",
+        "options": [
+            "cross",
+            "crossed",
+            "to cross"
+        ],
+        "correctAnswer": "cross",
+        "feedback": "Correct! See + Object + Base Verb (completed action).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "See + Object + Verb",
+        "frenchComparison": {
+            "frenchStructure": "Je l'ai vu traverser",
+            "englishStructure": "I saw him cross",
+            "whyDifficult": "No 'to'.",
+            "visualHighlighting": {
+                "incorrect": "saw him to cross",
+                "correct": "saw him cross"
+            }
+        }
+    },
+    {
+        "id": "gi-m27-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "I prefer ___ to walking.",
+        "type": "multiple_choice",
+        "options": [
+            "run",
+            "running",
+            "to run"
+        ],
+        "correctAnswer": "running",
+        "feedback": "Correct! Prefer doing to doing.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Prefer...to...",
+        "frenchComparison": {
+            "frenchStructure": "Je préfère courir à marcher",
+            "englishStructure": "I prefer running to walking",
+            "whyDifficult": "Parallel structure.",
+            "visualHighlighting": {
+                "incorrect": "prefer to run",
+                "correct": "prefer running"
+            }
+        }
+    },
+    {
+        "id": "gi-m28-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "It is worth ___.",
+        "type": "multiple_choice",
+        "options": [
+            "try",
+            "trying",
+            "to try"
+        ],
+        "correctAnswer": "trying",
+        "feedback": "Correct! 'It is worth' + Gerund.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "It is worth",
+        "frenchComparison": {
+            "frenchStructure": "Ça vaut la peine d'essayer",
+            "englishStructure": "It is worth trying",
+            "whyDifficult": "Fixed expression.",
+            "visualHighlighting": {
+                "incorrect": "worth to try",
+                "correct": "worth trying"
+            }
+        }
+    },
+    {
+        "id": "gi-m29-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "Try ___ some salt to the soup.",
+        "type": "multiple_choice",
+        "options": [
+            "add",
+            "adding",
+            "to add"
+        ],
+        "correctAnswer": "adding",
+        "feedback": "Correct! 'Try doing' = experiment.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Try + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Essaie d'ajouter",
+            "englishStructure": "Try adding",
+            "whyDifficult": "Meaning difference.",
+            "visualHighlighting": {
+                "incorrect": "try to add",
+                "correct": "try adding"
+            }
+        }
+    },
+    {
+        "id": "gi-m30-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "medium",
+        "questionText": "Help me ___ this box.",
+        "type": "multiple_choice",
+        "options": [
+            "carry",
+            "carrying",
+            "carried"
+        ],
+        "correctAnswer": "carry",
+        "feedback": "Correct! Help + (to) + Verb.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Help + Verb",
+        "frenchComparison": {
+            "frenchStructure": "Aide-moi à porter",
+            "englishStructure": "Help me carry",
+            "whyDifficult": "Can be 'help carry' or 'help to carry'.",
+            "visualHighlighting": {
+                "incorrect": "help carrying",
+                "correct": "help carry"
+            }
+        }
+    },
+    {
+        "id": "gi-h21-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I regret ___ my job.",
+        "type": "multiple_choice",
+        "options": [
+            "quit",
+            "quitting",
+            "to quit"
+        ],
+        "correctAnswer": "quitting",
+        "feedback": "Correct! 'Regret doing' = feeling sorry about past action.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Regret + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je regrette d'avoir quitté",
+            "englishStructure": "I regret quitting",
+            "whyDifficult": "Contrast with 'regret to say'.",
+            "visualHighlighting": {
+                "incorrect": "regret to quit",
+                "correct": "regret quitting"
+            }
+        }
+    },
+    {
+        "id": "gi-h22-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He denied ___ the money.",
+        "type": "multiple_choice",
+        "options": [
+            "steal",
+            "stealing",
+            "to steal"
+        ],
+        "correctAnswer": "stealing",
+        "feedback": "Correct! 'Deny' + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Deny + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a nié avoir volé",
+            "englishStructure": "He denied stealing",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "denied to steal",
+                "correct": "denied stealing"
+            }
+        }
+    },
+    {
+        "id": "gi-h23-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I can't help ___.",
+        "type": "multiple_choice",
+        "options": [
+            "laugh",
+            "laughing",
+            "to laugh"
+        ],
+        "correctAnswer": "laughing",
+        "feedback": "Correct! 'Can't help' + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Can't help",
+        "frenchComparison": {
+            "frenchStructure": "Je ne peux pas m'empêcher de rire",
+            "englishStructure": "I can't help laughing",
+            "whyDifficult": "Idiomatic expression.",
+            "visualHighlighting": {
+                "incorrect": "can't help to laugh",
+                "correct": "can't help laughing"
+            }
+        }
+    },
+    {
+        "id": "gi-h24-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He admitted ___ a mistake.",
+        "type": "multiple_choice",
+        "options": [
+            "make",
+            "making",
+            "to make"
+        ],
+        "correctAnswer": "making",
+        "feedback": "Correct! 'Admit' + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Admit + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a admis avoir fait",
+            "englishStructure": "He admitted making",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "admitted to make",
+                "correct": "admitted making"
+            }
+        }
+    },
+    {
+        "id": "gi-h25-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I object to ___ treated like this.",
+        "type": "multiple_choice",
+        "options": [
+            "be",
+            "being",
+            "been"
+        ],
+        "correctAnswer": "being",
+        "feedback": "Correct! 'Object to' + Gerund ('to' is a preposition).",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Object to + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je m'oppose à être traité",
+            "englishStructure": "I object to being treated",
+            "whyDifficult": "'To' as preposition.",
+            "visualHighlighting": {
+                "incorrect": "object to be",
+                "correct": "object to being"
+            }
+        }
+    },
+    {
+        "id": "gi-h26-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He was accused of ___.",
+        "type": "multiple_choice",
+        "options": [
+            "lie",
+            "lying",
+            "to lie"
+        ],
+        "correctAnswer": "lying",
+        "feedback": "Correct! Accused of + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Accuse of + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Accusé de mentir",
+            "englishStructure": "Accused of lying",
+            "whyDifficult": "Preposition rule.",
+            "visualHighlighting": {
+                "incorrect": "accused of to lie",
+                "correct": "accused of lying"
+            }
+        }
+    },
+    {
+        "id": "gi-h27-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "It's no good ___ to him.",
+        "type": "multiple_choice",
+        "options": [
+            "talk",
+            "talking",
+            "to talk"
+        ],
+        "correctAnswer": "talking",
+        "feedback": "Correct! 'It's no good' + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "It's no good",
+        "frenchComparison": {
+            "frenchStructure": "Ça ne sert à rien de lui parler",
+            "englishStructure": "It's no good talking to him",
+            "whyDifficult": "Idiomatic.",
+            "visualHighlighting": {
+                "incorrect": "no good to talk",
+                "correct": "no good talking"
+            }
+        }
+    },
+    {
+        "id": "gi-h28-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I'd rather ___ home.",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "go",
+        "feedback": "Correct! 'Would rather' + Base Verb.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Would rather",
+        "frenchComparison": {
+            "frenchStructure": "Je préférerais rentrer",
+            "englishStructure": "I'd rather go",
+            "whyDifficult": "No 'to'.",
+            "visualHighlighting": {
+                "incorrect": "rather to go",
+                "correct": "rather go"
+            }
+        }
+    },
+    {
+        "id": "gi-h29-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He succeeded in ___ the problem.",
+        "type": "multiple_choice",
+        "options": [
+            "solve",
+            "solving",
+            "to solve"
+        ],
+        "correctAnswer": "solving",
+        "feedback": "Correct! Succeed in + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Succeed in + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a réussi à résoudre",
+            "englishStructure": "He succeeded in solving",
+            "whyDifficult": "Preposition 'in'.",
+            "visualHighlighting": {
+                "incorrect": "succeeded to solve",
+                "correct": "succeeded in solving"
+            }
+        }
+    },
+    {
+        "id": "gi-h30-A",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I heard him ___ the guitar.",
+        "type": "multiple_choice",
+        "options": [
+            "play",
+            "playing",
+            "to play"
+        ],
+        "correctAnswer": "playing",
+        "feedback": "Correct! Hear + Object + -ing (action in progress). 'Play' is also possible for complete action, but 'playing' fits 'in progress'.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Hear + Object + -ing",
+        "frenchComparison": {
+            "frenchStructure": "Je l'ai entendu jouer",
+            "englishStructure": "I heard him playing",
+            "whyDifficult": "Action in progress.",
+            "visualHighlighting": {
+                "incorrect": "heard him to play",
+                "correct": "heard him playing"
+            }
+        }
+    },
+    {
+        "id": "gi-h21-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I remember ___ the keys on the table.",
+        "type": "multiple_choice",
+        "options": [
+            "put",
+            "putting",
+            "to put"
+        ],
+        "correctAnswer": "putting",
+        "feedback": "Correct! Memory of past action.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Remember + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je me souviens d'avoir mis",
+            "englishStructure": "I remember putting",
+            "whyDifficult": "Past memory.",
+            "visualHighlighting": {
+                "incorrect": "remember to put",
+                "correct": "remember putting"
+            }
+        }
+    },
+    {
+        "id": "gi-h22-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He confessed to ___ the window.",
+        "type": "multiple_choice",
+        "options": [
+            "break",
+            "breaking",
+            "broken"
+        ],
+        "correctAnswer": "breaking",
+        "feedback": "Correct! 'Confess to' + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Confess to + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a avoué avoir cassé",
+            "englishStructure": "He confessed to breaking",
+            "whyDifficult": "'To' is a preposition.",
+            "visualHighlighting": {
+                "incorrect": "confessed to break",
+                "correct": "confessed to breaking"
+            }
+        }
+    },
+    {
+        "id": "gi-h23-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I can't stand ___.",
+        "type": "multiple_choice",
+        "options": [
+            "wait",
+            "waiting",
+            "to wait"
+        ],
+        "correctAnswer": "waiting",
+        "feedback": "Correct! 'Can't stand' + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Can't stand",
+        "frenchComparison": {
+            "frenchStructure": "Je ne supporte pas d'attendre",
+            "englishStructure": "I can't stand waiting",
+            "whyDifficult": "Idiom.",
+            "visualHighlighting": {
+                "incorrect": "can't stand to wait",
+                "correct": "can't stand waiting"
+            }
+        }
+    },
+    {
+        "id": "gi-h24-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He suggested ___ to the cinema.",
+        "type": "multiple_choice",
+        "options": [
+            "go",
+            "going",
+            "to go"
+        ],
+        "correctAnswer": "going",
+        "feedback": "Correct! Suggest + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Suggest + Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il a suggéré d'aller",
+            "englishStructure": "He suggested going",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "suggested to go",
+                "correct": "suggested going"
+            }
+        }
+    },
+    {
+        "id": "gi-h25-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I am looking forward to ___ from you.",
+        "type": "multiple_choice",
+        "options": [
+            "hear",
+            "hearing",
+            "heard"
+        ],
+        "correctAnswer": "hearing",
+        "feedback": "Correct! Look forward to + -ing.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Look forward to",
+        "frenchComparison": {
+            "frenchStructure": "J'ai hâte d'avoir de tes nouvelles",
+            "englishStructure": "I am looking forward to hearing from you",
+            "whyDifficult": "Preposition 'to'.",
+            "visualHighlighting": {
+                "incorrect": "to hear",
+                "correct": "to hearing"
+            }
+        }
+    },
+    {
+        "id": "gi-h26-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He was prevented from ___.",
+        "type": "multiple_choice",
+        "options": [
+            "enter",
+            "entering",
+            "to enter"
+        ],
+        "correctAnswer": "entering",
+        "feedback": "Correct! Prevent from + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Prevent from",
+        "frenchComparison": {
+            "frenchStructure": "Empêché d'entrer",
+            "englishStructure": "Prevented from entering",
+            "whyDifficult": "Preposition.",
+            "visualHighlighting": {
+                "incorrect": "prevented to enter",
+                "correct": "prevented from entering"
+            }
+        }
+    },
+    {
+        "id": "gi-h27-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "There is no point in ___.",
+        "type": "multiple_choice",
+        "options": [
+            "argue",
+            "arguing",
+            "to argue"
+        ],
+        "correctAnswer": "arguing",
+        "feedback": "Correct! 'There is no point in' + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "There is no point",
+        "frenchComparison": {
+            "frenchStructure": "Ça ne sert à rien de discuter",
+            "englishStructure": "There is no point in arguing",
+            "whyDifficult": "Idiom.",
+            "visualHighlighting": {
+                "incorrect": "point to argue",
+                "correct": "point in arguing"
+            }
+        }
+    },
+    {
+        "id": "gi-h28-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "You had better ___ now.",
+        "type": "multiple_choice",
+        "options": [
+            "leave",
+            "leaving",
+            "to leave"
+        ],
+        "correctAnswer": "leave",
+        "feedback": "Correct! 'Had better' + Base Verb.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Had better",
+        "frenchComparison": {
+            "frenchStructure": "Tu ferais mieux de partir",
+            "englishStructure": "You had better leave",
+            "whyDifficult": "No 'to'.",
+            "visualHighlighting": {
+                "incorrect": "had better to leave",
+                "correct": "had better leave"
+            }
+        }
+    },
+    {
+        "id": "gi-h29-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "He insists on ___.",
+        "type": "multiple_choice",
+        "options": [
+            "pay",
+            "paying",
+            "to pay"
+        ],
+        "correctAnswer": "paying",
+        "feedback": "Correct! Insist on + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Insist on",
+        "frenchComparison": {
+            "frenchStructure": "Il insiste pour payer",
+            "englishStructure": "He insists on paying",
+            "whyDifficult": "Preposition.",
+            "visualHighlighting": {
+                "incorrect": "insists to pay",
+                "correct": "insists on paying"
+            }
+        }
+    },
+    {
+        "id": "gi-h30-B",
+        "moduleId": "gerunds-infinitives",
+        "difficulty": "hard",
+        "questionText": "I saw him ___ the vase.",
+        "type": "multiple_choice",
+        "options": [
+            "break",
+            "breaking",
+            "to break"
+        ],
+        "correctAnswer": "break",
+        "feedback": "Correct! See + Object + Base Verb (completed action).",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "See + Object + Verb",
+        "frenchComparison": {
+            "frenchStructure": "Je l'ai vu casser",
+            "englishStructure": "I saw him break",
+            "whyDifficult": "No 'to'.",
+            "visualHighlighting": {
+                "incorrect": "saw him to break",
+                "correct": "saw him break"
+            }
+        }
+    }
+]

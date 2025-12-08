@@ -1,0 +1,1200 @@
+{
+    "id": "phonology-lab",
+    "name": "Phonology Lab",
+    "category": "phonology",
+    "moduleIntroduction": "Welcome to the Phonology Lab! 🎙️\n\nThis special module is designed to help you sound more like a native English speaker. Research shows that two of the biggest challenges for Francophone learners are **Consonant Clusters** (like 'str' in 'street') and **Word Stress** (knowing which part of the word to say loudly).\n\nIn this lab, you will:\n1.  **Listen** to the correct pronunciation.\n2.  **Record** your own voice.\n3.  **Compare** the two to improve your accent.\n\nMastering these sounds will make your English clearer and more confident!",
+    "contrastiveExplanation": "Why is this hard?\n\n**1. Consonant Clusters:**\nFrench rarely puts 3 consonants together (like 'spr' or 'str'). English does this often! French speakers often add a vowel sound to make it easier (e.g., saying \"es-port\" instead of \"sport\").\n\n**2. Word Stress:**\nIn French, stress is usually even or at the end of the word. In English, stress changes the meaning! (e.g., 'RE-cord' is a noun, 're-CORD' is a verb). Using the wrong stress can confuse listeners.",
+    "commonErrors": [
+        {
+            "number": 1,
+            "subTopic": "S-Clusters",
+            "wrong": "I like es-sport.",
+            "correct": "I like sport.",
+            "frenchConnection": "Adding an 'e' sound before 's' (e.g., 'es-school', 'es-start')."
+        },
+        {
+            "number": 2,
+            "subTopic": "Word Stress",
+            "wrong": "ComforTAble",
+            "correct": "COMfortable",
+            "frenchConnection": "Stressing the end of the word instead of the beginning."
+        }
+    ],
+    "schema_version": "1",
+    "module_version": "1.0.0",
+    "items": [],
+    "consonantClusters": [
+        {
+            "cluster": "pl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "play",
+                "please",
+                "plane",
+                "plastic"
+            ]
+        },
+        {
+            "cluster": "bl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "blue",
+                "black",
+                "block",
+                "blame"
+            ]
+        },
+        {
+            "cluster": "cl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "clean",
+                "class",
+                "clock",
+                "clear"
+            ]
+        },
+        {
+            "cluster": "gl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "glass",
+                "glove",
+                "glue",
+                "global"
+            ]
+        },
+        {
+            "cluster": "fl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "flower",
+                "floor",
+                "flat",
+                "fly"
+            ]
+        },
+        {
+            "cluster": "sl",
+            "position": "initial",
+            "clusterType": "L-cluster",
+            "words": [
+                "sleep",
+                "slow",
+                "slide",
+                "slim"
+            ]
+        },
+        {
+            "cluster": "pr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "price",
+                "problem",
+                "promise",
+                "print"
+            ]
+        },
+        {
+            "cluster": "br",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "bring",
+                "break",
+                "brown",
+                "brother"
+            ]
+        },
+        {
+            "cluster": "tr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "train",
+                "travel",
+                "tree",
+                "try"
+            ]
+        },
+        {
+            "cluster": "dr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "drive",
+                "drink",
+                "dress",
+                "dream"
+            ]
+        },
+        {
+            "cluster": "cr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "cry",
+                "cross",
+                "create",
+                "cream"
+            ]
+        },
+        {
+            "cluster": "gr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "green",
+                "great",
+                "group",
+                "ground"
+            ]
+        },
+        {
+            "cluster": "fr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "friend",
+                "from",
+                "free",
+                "fresh"
+            ]
+        },
+        {
+            "cluster": "thr",
+            "position": "initial",
+            "clusterType": "R-cluster",
+            "words": [
+                "three",
+                "throw",
+                "through",
+                "throat"
+            ]
+        },
+        {
+            "cluster": "sp",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "speak",
+                "sport",
+                "spoon",
+                "spring"
+            ]
+        },
+        {
+            "cluster": "st",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "stop",
+                "start",
+                "street",
+                "student"
+            ]
+        },
+        {
+            "cluster": "sk",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "sky",
+                "skill",
+                "skirt",
+                "school"
+            ]
+        },
+        {
+            "cluster": "sm",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "small",
+                "smile",
+                "smoke",
+                "smell"
+            ]
+        },
+        {
+            "cluster": "sn",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "snow",
+                "snake",
+                "snack",
+                "snail"
+            ]
+        },
+        {
+            "cluster": "sw",
+            "position": "initial",
+            "clusterType": "S-cluster",
+            "words": [
+                "swim",
+                "sweet",
+                "swing",
+                "switch"
+            ]
+        },
+        {
+            "cluster": "tw",
+            "position": "initial",
+            "clusterType": "other-initial",
+            "words": [
+                "two",
+                "twelve",
+                "twenty",
+                "twin"
+            ]
+        },
+        {
+            "cluster": "qu",
+            "position": "initial",
+            "clusterType": "other-initial",
+            "words": [
+                "quick",
+                "quiet",
+                "queen",
+                "question"
+            ]
+        },
+        {
+            "cluster": "spr",
+            "position": "initial",
+            "clusterType": "3-consonant",
+            "words": [
+                "spring",
+                "spray",
+                "spread",
+                "sprite"
+            ]
+        },
+        {
+            "cluster": "str",
+            "position": "initial",
+            "clusterType": "3-consonant",
+            "words": [
+                "street",
+                "strong",
+                "strange",
+                "strawberry"
+            ]
+        },
+        {
+            "cluster": "scr",
+            "position": "initial",
+            "clusterType": "3-consonant",
+            "words": [
+                "screen",
+                "scream",
+                "scratch",
+                "screw"
+            ]
+        },
+        {
+            "cluster": "spl",
+            "position": "initial",
+            "clusterType": "3-consonant",
+            "words": [
+                "split",
+                "splash",
+                "splendid",
+                "splice"
+            ]
+        },
+        {
+            "cluster": "squ",
+            "position": "initial",
+            "clusterType": "3-consonant",
+            "words": [
+                "square",
+                "squeeze",
+                "squid",
+                "squash"
+            ]
+        },
+        {
+            "cluster": "mp",
+            "position": "final",
+            "clusterType": "nasal+stop",
+            "words": [
+                "lamp",
+                "jump",
+                "camp",
+                "stamp"
+            ]
+        },
+        {
+            "cluster": "nd",
+            "position": "final",
+            "clusterType": "nasal+stop",
+            "words": [
+                "hand",
+                "send",
+                "friend",
+                "ground"
+            ]
+        },
+        {
+            "cluster": "nt",
+            "position": "final",
+            "clusterType": "nasal+stop",
+            "words": [
+                "want",
+                "plant",
+                "print",
+                "front"
+            ]
+        },
+        {
+            "cluster": "nk",
+            "position": "final",
+            "clusterType": "nasal+stop",
+            "words": [
+                "bank",
+                "think",
+                "thank",
+                "drink"
+            ]
+        },
+        {
+            "cluster": "pt",
+            "position": "final",
+            "clusterType": "stop+stop",
+            "words": [
+                "slept",
+                "kept",
+                "helped",
+                "stopped"
+            ]
+        },
+        {
+            "cluster": "kt",
+            "position": "final",
+            "clusterType": "stop+stop",
+            "words": [
+                "act",
+                "fact",
+                "dictate"
+            ]
+        },
+        {
+            "cluster": "ks",
+            "position": "final",
+            "clusterType": "stop+fricative",
+            "words": [
+                "box",
+                "six",
+                "next",
+                "text"
+            ]
+        },
+        {
+            "cluster": "ld",
+            "position": "final",
+            "clusterType": "liquid+stop",
+            "words": [
+                "cold",
+                "held",
+                "bold",
+                "child"
+            ]
+        },
+        {
+            "cluster": "lt",
+            "position": "final",
+            "clusterType": "liquid+stop",
+            "words": [
+                "belt",
+                "felt",
+                "salt",
+                "difficult"
+            ]
+        },
+        {
+            "cluster": "st",
+            "position": "final",
+            "clusterType": "fricative-final",
+            "words": [
+                "last",
+                "first",
+                "fast",
+                "test"
+            ]
+        },
+        {
+            "cluster": "sk",
+            "position": "final",
+            "clusterType": "fricative-final",
+            "words": [
+                "desk",
+                "mask",
+                "risk",
+                "task"
+            ]
+        },
+        {
+            "cluster": "sp",
+            "position": "final",
+            "clusterType": "fricative-final",
+            "words": [
+                "wasp",
+                "crisp",
+                "grasp",
+                "clasp"
+            ]
+        }
+    ],
+    "stressPatterns": {
+        "twoSyllableNounsAdjectives": [
+            {
+                "word": "table",
+                "syllableBreak": [
+                    "TA",
+                    "ble"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "student",
+                "syllableBreak": [
+                    "STU",
+                    "dent"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "teacher",
+                "syllableBreak": [
+                    "TEA",
+                    "cher"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "doctor",
+                "syllableBreak": [
+                    "DOC",
+                    "tor"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "market",
+                "syllableBreak": [
+                    "MAR",
+                    "ket"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "apple",
+                "syllableBreak": [
+                    "AP",
+                    "ple"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "happy",
+                "syllableBreak": [
+                    "HAP",
+                    "py"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "busy",
+                "syllableBreak": [
+                    "BUS",
+                    "y"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "clever",
+                "syllableBreak": [
+                    "CLE",
+                    "ver"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "picture",
+                "syllableBreak": [
+                    "PIC",
+                    "ture"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun"
+            }
+        ],
+        "twoSyllableVerbs": [
+            {
+                "word": "begin",
+                "syllableBreak": [
+                    "be",
+                    "GIN"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "relax",
+                "syllableBreak": [
+                    "re",
+                    "LAX"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "explain",
+                "syllableBreak": [
+                    "ex",
+                    "PLAIN"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "decide",
+                "syllableBreak": [
+                    "de",
+                    "CIDE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "arrive",
+                "syllableBreak": [
+                    "ar",
+                    "RIVE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "return",
+                "syllableBreak": [
+                    "re",
+                    "TURN"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "forget",
+                "syllableBreak": [
+                    "for",
+                    "GET"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "agree",
+                "syllableBreak": [
+                    "a",
+                    "GREE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "invite",
+                "syllableBreak": [
+                    "in",
+                    "VITE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "delay",
+                "syllableBreak": [
+                    "de",
+                    "LAY"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb"
+            }
+        ],
+        "nounVerbPairs": [
+            {
+                "word": "import (noun)",
+                "syllableBreak": [
+                    "IM",
+                    "port"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: im-PORT"
+            },
+            {
+                "word": "import (verb)",
+                "syllableBreak": [
+                    "im",
+                    "PORT"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: IM-port"
+            },
+            {
+                "word": "record (noun)",
+                "syllableBreak": [
+                    "RE",
+                    "cord"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: re-CORD"
+            },
+            {
+                "word": "record (verb)",
+                "syllableBreak": [
+                    "re",
+                    "CORD"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: RE-cord"
+            },
+            {
+                "word": "present (noun)",
+                "syllableBreak": [
+                    "PRE",
+                    "sent"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: pre-SENT"
+            },
+            {
+                "word": "present (verb)",
+                "syllableBreak": [
+                    "pre",
+                    "SENT"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: PRE-sent"
+            },
+            {
+                "word": "contract (noun)",
+                "syllableBreak": [
+                    "CON",
+                    "tract"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: con-TRACT"
+            },
+            {
+                "word": "contract (verb)",
+                "syllableBreak": [
+                    "con",
+                    "TRACT"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: CON-tract"
+            },
+            {
+                "word": "progress (noun)",
+                "syllableBreak": [
+                    "PRO",
+                    "gress"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: pro-GRESS"
+            },
+            {
+                "word": "progress (verb)",
+                "syllableBreak": [
+                    "pro",
+                    "GRESS"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: PRO-gress"
+            },
+            {
+                "word": "increase (noun)",
+                "syllableBreak": [
+                    "IN",
+                    "crease"
+                ],
+                "stressPattern": "O o",
+                "stressedSyllableIndex": 0,
+                "partOfSpeech": "noun",
+                "note": "Verb: in-CREASE"
+            },
+            {
+                "word": "increase (verb)",
+                "syllableBreak": [
+                    "in",
+                    "CREASE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1,
+                "partOfSpeech": "verb",
+                "note": "Noun: IN-crease"
+            },
+            {
+                "base": "decrease",
+                "noun": {
+                    "word": "decrease",
+                    "syllableBreak": [
+                        "DE",
+                        "crease"
+                    ],
+                    "stressPattern": "O o",
+                    "stressedSyllableIndex": 0,
+                    "partOfSpeech": "noun"
+                },
+                "verb": {
+                    "word": "decrease",
+                    "syllableBreak": [
+                        "de",
+                        "CREASE"
+                    ],
+                    "stressPattern": "o O",
+                    "stressedSyllableIndex": 1,
+                    "partOfSpeech": "verb"
+                }
+            }
+        ],
+        "threeSyllableStressFirst": [
+            {
+                "word": "family",
+                "syllableBreak": [
+                    "FA",
+                    "mi",
+                    "ly"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "animal",
+                "syllableBreak": [
+                    "AN",
+                    "i",
+                    "mal"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "difficult",
+                "syllableBreak": [
+                    "DI",
+                    "ffi",
+                    "cult"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "beautiful",
+                "syllableBreak": [
+                    "BEAU",
+                    "ti",
+                    "ful"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "interesting",
+                "syllableBreak": [
+                    "IN",
+                    "ter",
+                    "est-ing"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "everything",
+                "syllableBreak": [
+                    "EV",
+                    "ery",
+                    "thing"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "hospital",
+                "syllableBreak": [
+                    "HOS",
+                    "pi",
+                    "tal"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "wonderful",
+                "syllableBreak": [
+                    "WON",
+                    "der",
+                    "ful"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "practical",
+                "syllableBreak": [
+                    "PRA",
+                    "cti",
+                    "cal"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            },
+            {
+                "word": "century",
+                "syllableBreak": [
+                    "CEN",
+                    "tu",
+                    "ry"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            }
+        ],
+        "threeSyllableStressSecond": [
+            {
+                "word": "relaxing",
+                "syllableBreak": [
+                    "re",
+                    "LAX",
+                    "ing"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "important",
+                "syllableBreak": [
+                    "im",
+                    "POR",
+                    "tant"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "example",
+                "syllableBreak": [
+                    "ex",
+                    "AM",
+                    "ple"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "ability",
+                "syllableBreak": [
+                    "a",
+                    "BIL",
+                    "i",
+                    "ty"
+                ],
+                "stressPattern": "o O o o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "computer",
+                "syllableBreak": [
+                    "com",
+                    "PU",
+                    "ter"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "tomato",
+                "syllableBreak": [
+                    "to",
+                    "MA",
+                    "to"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1,
+                "note": "BrE pattern"
+            },
+            {
+                "word": "policeman",
+                "syllableBreak": [
+                    "po",
+                    "LI",
+                    "ce",
+                    "man"
+                ],
+                "stressPattern": "o O o o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "responsible",
+                "syllableBreak": [
+                    "re",
+                    "SPON",
+                    "si",
+                    "ble"
+                ],
+                "stressPattern": "o O o o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "adapted",
+                "syllableBreak": [
+                    "a",
+                    "DAPT",
+                    "ed"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "condition",
+                "syllableBreak": [
+                    "con",
+                    "DI",
+                    "tion"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            }
+        ],
+        "threeSyllableStressThird": [
+            {
+                "word": "engineer",
+                "syllableBreak": [
+                    "en",
+                    "gi",
+                    "NEER"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "volunteer",
+                "syllableBreak": [
+                    "vol",
+                    "un",
+                    "TEER"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "understand",
+                "syllableBreak": [
+                    "un",
+                    "der",
+                    "STAND"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "recommend",
+                "syllableBreak": [
+                    "re",
+                    "com",
+                    "MEND"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "entertain",
+                "syllableBreak": [
+                    "en",
+                    "ter",
+                    "TAIN"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "interrupt",
+                "syllableBreak": [
+                    "in",
+                    "ter",
+                    "RUPT"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "guarantee",
+                "syllableBreak": [
+                    "guar",
+                    "an",
+                    "TEE"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "overthrow",
+                "syllableBreak": [
+                    "o",
+                    "ver",
+                    "THROW"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "underline",
+                "syllableBreak": [
+                    "un",
+                    "der",
+                    "LINE"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "interact",
+                "syllableBreak": [
+                    "in",
+                    "ter",
+                    "ACT"
+                ],
+                "stressPattern": "o o O",
+                "stressedSyllableIndex": 2
+            }
+        ],
+        "frenchTrapWords": [
+            {
+                "word": "hotel",
+                "syllableBreak": [
+                    "ho",
+                    "TEL"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "develop",
+                "syllableBreak": [
+                    "de",
+                    "VEL",
+                    "op"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "expensive",
+                "syllableBreak": [
+                    "ex",
+                    "PEN",
+                    "sive"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "agreement",
+                "syllableBreak": [
+                    "a",
+                    "GREE",
+                    "ment"
+                ],
+                "stressPattern": "o O o",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "information",
+                "syllableBreak": [
+                    "in",
+                    "for",
+                    "MA",
+                    "tion"
+                ],
+                "stressPattern": "o o O o",
+                "stressedSyllableIndex": 2
+            },
+            {
+                "word": "police",
+                "syllableBreak": [
+                    "po",
+                    "LICE"
+                ],
+                "stressPattern": "o O",
+                "stressedSyllableIndex": 1
+            },
+            {
+                "word": "advertise",
+                "syllableBreak": [
+                    "AD",
+                    "ver",
+                    "tise"
+                ],
+                "stressPattern": "O o o",
+                "stressedSyllableIndex": 0
+            }
+        ]
+    }
+}

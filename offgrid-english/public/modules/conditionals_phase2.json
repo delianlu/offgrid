@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "cond-e21-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you heat ice, it ___.",
+        "type": "multiple_choice",
+        "options": [
+            "melt",
+            "melts",
+            "will melt"
+        ],
+        "correctAnswer": "melts",
+        "feedback": "Correct! Zero Conditional for general truths: If + Present, Present.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si tu chauffes de la glace, elle fond",
+            "englishStructure": "If you heat ice, it melts",
+            "whyDifficult": "Same structure.",
+            "visualHighlighting": {
+                "incorrect": "will melt",
+                "correct": "melts"
+            }
+        }
+    },
+    {
+        "id": "cond-e22-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If it rains, I ___ home.",
+        "type": "multiple_choice",
+        "options": [
+            "stay",
+            "will stay",
+            "stayed"
+        ],
+        "correctAnswer": "will stay",
+        "feedback": "Correct! First Conditional: If + Present, Will.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional",
+        "frenchComparison": {
+            "frenchStructure": "S'il pleut, je resterai...",
+            "englishStructure": "If it rains, I will stay...",
+            "whyDifficult": "French uses future after 'si' sometimes? No, French uses present after si. English uses present after if.",
+            "visualHighlighting": {
+                "incorrect": "stay",
+                "correct": "will stay"
+            }
+        }
+    },
+    {
+        "id": "cond-e23-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you see him, ___ him.",
+        "type": "multiple_choice",
+        "options": [
+            "tell",
+            "tells",
+            "will tell"
+        ],
+        "correctAnswer": "tell",
+        "feedback": "Correct! First Conditional with Imperative.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Imperative)",
+        "frenchComparison": {
+            "frenchStructure": "Si tu le vois, dis-lui",
+            "englishStructure": "If you see him, tell him",
+            "whyDifficult": "Imperative structure.",
+            "visualHighlighting": {
+                "incorrect": "will tell",
+                "correct": "tell"
+            }
+        }
+    },
+    {
+        "id": "cond-e24-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "___ you study, you will fail.",
+        "type": "multiple_choice",
+        "options": [
+            "If",
+            "Unless",
+            "When"
+        ],
+        "correctAnswer": "Unless",
+        "feedback": "Correct! 'Unless' means 'If not'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Unless",
+        "frenchComparison": {
+            "frenchStructure": "À moins que tu n'étudies",
+            "englishStructure": "Unless you study",
+            "whyDifficult": "'Unless' includes the negative idea.",
+            "visualHighlighting": {
+                "incorrect": "If",
+                "correct": "Unless"
+            }
+        }
+    },
+    {
+        "id": "cond-e25-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "When I am tired, I ___.",
+        "type": "multiple_choice",
+        "options": [
+            "sleep",
+            "will sleep",
+            "slept"
+        ],
+        "correctAnswer": "sleep",
+        "feedback": "Correct! Zero Conditional with 'When'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Quand je suis fatigué, je dors",
+            "englishStructure": "When I am tired, I sleep",
+            "whyDifficult": "Same structure.",
+            "visualHighlighting": {
+                "incorrect": "will sleep",
+                "correct": "sleep"
+            }
+        }
+    },
+    {
+        "id": "cond-e26-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you finish, you ___ go.",
+        "type": "multiple_choice",
+        "options": [
+            "can",
+            "do",
+            "did"
+        ],
+        "correctAnswer": "can",
+        "feedback": "Correct! First Conditional with Modal.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Modal)",
+        "frenchComparison": {
+            "frenchStructure": "Si tu finis, tu peux partir",
+            "englishStructure": "If you finish, you can go",
+            "whyDifficult": "Modal usage.",
+            "visualHighlighting": {
+                "incorrect": "do",
+                "correct": "can"
+            }
+        }
+    },
+    {
+        "id": "cond-e27-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you mix red and blue, you ___ purple.",
+        "type": "multiple_choice",
+        "options": [
+            "get",
+            "will get",
+            "got"
+        ],
+        "correctAnswer": "get",
+        "feedback": "Correct! Scientific fact -> Zero Conditional.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si tu mélanges... tu obtiens...",
+            "englishStructure": "If you mix... you get...",
+            "whyDifficult": "Present tense for facts.",
+            "visualHighlighting": {
+                "incorrect": "will get",
+                "correct": "get"
+            }
+        }
+    },
+    {
+        "id": "cond-e28-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you don't hurry, you ___ late.",
+        "type": "multiple_choice",
+        "options": [
+            "are",
+            "will be",
+            "were"
+        ],
+        "correctAnswer": "will be",
+        "feedback": "Correct! First Conditional prediction.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Tu seras en retard",
+            "englishStructure": "You will be late",
+            "whyDifficult": "Future result.",
+            "visualHighlighting": {
+                "incorrect": "are",
+                "correct": "will be"
+            }
+        }
+    },
+    {
+        "id": "cond-e29-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "Unless means ___.",
+        "type": "multiple_choice",
+        "options": [
+            "If",
+            "If not",
+            "When"
+        ],
+        "correctAnswer": "If not",
+        "feedback": "Correct! Unless = If not.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Unless",
+        "frenchComparison": {
+            "frenchStructure": "À moins que = Si... ne... pas",
+            "englishStructure": "Unless = If not",
+            "whyDifficult": "Concept check.",
+            "visualHighlighting": {
+                "incorrect": "If",
+                "correct": "If not"
+            }
+        }
+    },
+    {
+        "id": "cond-e30-A",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "What ___ you do if it rains?",
+        "type": "multiple_choice",
+        "options": [
+            "do",
+            "will",
+            "did"
+        ],
+        "correctAnswer": "will",
+        "feedback": "Correct! Question in First Conditional.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Question)",
+        "frenchComparison": {
+            "frenchStructure": "Que feras-tu... ?",
+            "englishStructure": "What will you do...?",
+            "whyDifficult": "Future auxiliary.",
+            "visualHighlighting": {
+                "incorrect": "do",
+                "correct": "will"
+            }
+        }
+    },
+    {
+        "id": "cond-e21-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If water boils, it ___ into steam.",
+        "type": "multiple_choice",
+        "options": [
+            "turn",
+            "turns",
+            "will turn"
+        ],
+        "correctAnswer": "turns",
+        "feedback": "Correct! Zero Conditional fact.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Elle se transforme",
+            "englishStructure": "It turns",
+            "whyDifficult": "Present tense.",
+            "visualHighlighting": {
+                "incorrect": "will turn",
+                "correct": "turns"
+            }
+        }
+    },
+    {
+        "id": "cond-e22-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If he comes, I ___ happy.",
+        "type": "multiple_choice",
+        "options": [
+            "am",
+            "will be",
+            "was"
+        ],
+        "correctAnswer": "will be",
+        "feedback": "Correct! First Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Je serai content",
+            "englishStructure": "I will be happy",
+            "whyDifficult": "Future result.",
+            "visualHighlighting": {
+                "incorrect": "am",
+                "correct": "will be"
+            }
+        }
+    },
+    {
+        "id": "cond-e23-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you are hungry, ___ something.",
+        "type": "multiple_choice",
+        "options": [
+            "eat",
+            "eats",
+            "will eat"
+        ],
+        "correctAnswer": "eat",
+        "feedback": "Correct! Imperative.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Imperative)",
+        "frenchComparison": {
+            "frenchStructure": "Mange",
+            "englishStructure": "Eat",
+            "whyDifficult": "Imperative.",
+            "visualHighlighting": {
+                "incorrect": "will eat",
+                "correct": "eat"
+            }
+        }
+    },
+    {
+        "id": "cond-e24-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "___ it rains, we will play football.",
+        "type": "multiple_choice",
+        "options": [
+            "Unless",
+            "If",
+            "When"
+        ],
+        "correctAnswer": "Unless",
+        "feedback": "Correct! Unless it rains = If it doesn't rain.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Unless",
+        "frenchComparison": {
+            "frenchStructure": "À moins qu'il ne pleuve",
+            "englishStructure": "Unless it rains",
+            "whyDifficult": "Negative meaning.",
+            "visualHighlighting": {
+                "incorrect": "If",
+                "correct": "Unless"
+            }
+        }
+    },
+    {
+        "id": "cond-e25-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "When the sun sets, it ___ dark.",
+        "type": "multiple_choice",
+        "options": [
+            "get",
+            "gets",
+            "will get"
+        ],
+        "correctAnswer": "gets",
+        "feedback": "Correct! Zero Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Il fait sombre",
+            "englishStructure": "It gets dark",
+            "whyDifficult": "Present tense.",
+            "visualHighlighting": {
+                "incorrect": "will get",
+                "correct": "gets"
+            }
+        }
+    },
+    {
+        "id": "cond-e26-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you need help, ___ me.",
+        "type": "multiple_choice",
+        "options": [
+            "ask",
+            "asks",
+            "will ask"
+        ],
+        "correctAnswer": "ask",
+        "feedback": "Correct! Imperative.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Imperative)",
+        "frenchComparison": {
+            "frenchStructure": "Demande-moi",
+            "englishStructure": "Ask me",
+            "whyDifficult": "Imperative.",
+            "visualHighlighting": {
+                "incorrect": "will ask",
+                "correct": "ask"
+            }
+        }
+    },
+    {
+        "id": "cond-e27-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If you drop a glass, it ___.",
+        "type": "multiple_choice",
+        "options": [
+            "break",
+            "breaks",
+            "will break"
+        ],
+        "correctAnswer": "breaks",
+        "feedback": "Correct! Zero Conditional fact.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Zero Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Il casse",
+            "englishStructure": "It breaks",
+            "whyDifficult": "Present tense.",
+            "visualHighlighting": {
+                "incorrect": "will break",
+                "correct": "breaks"
+            }
+        }
+    },
+    {
+        "id": "cond-e28-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "If she doesn't call, I ___ worry.",
+        "type": "multiple_choice",
+        "options": [
+            "will",
+            "do",
+            "am"
+        ],
+        "correctAnswer": "will",
+        "feedback": "Correct! First Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Je m'inquiéterai",
+            "englishStructure": "I will worry",
+            "whyDifficult": "Future result.",
+            "visualHighlighting": {
+                "incorrect": "do",
+                "correct": "will"
+            }
+        }
+    },
+    {
+        "id": "cond-e29-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "I won't go ___ you go.",
+        "type": "multiple_choice",
+        "options": [
+            "unless",
+            "if not",
+            "without"
+        ],
+        "correctAnswer": "unless",
+        "feedback": "Correct! I won't go if you don't go.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Unless",
+        "frenchComparison": {
+            "frenchStructure": "À moins que tu n'y ailles",
+            "englishStructure": "Unless you go",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "if not",
+                "correct": "unless"
+            }
+        }
+    },
+    {
+        "id": "cond-e30-B",
+        "moduleId": "conditionals",
+        "difficulty": "easy",
+        "questionText": "Where ___ you go if you have time?",
+        "type": "multiple_choice",
+        "options": [
+            "will",
+            "do",
+            "did"
+        ],
+        "correctAnswer": "will",
+        "feedback": "Correct! First Conditional question.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "First Conditional (Question)",
+        "frenchComparison": {
+            "frenchStructure": "Où iras-tu... ?",
+            "englishStructure": "Where will you go...?",
+            "whyDifficult": "Future auxiliary.",
+            "visualHighlighting": {
+                "incorrect": "do",
+                "correct": "will"
+            }
+        }
+    },
+    {
+        "id": "cond-m21-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I ___ money, I would buy a car.",
+        "type": "multiple_choice",
+        "options": [
+            "have",
+            "had",
+            "will have"
+        ],
+        "correctAnswer": "had",
+        "feedback": "Correct! Second Conditional: If + Past Simple, ... Would.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si j'avais de l'argent...",
+            "englishStructure": "If I had money...",
+            "whyDifficult": "French uses Imparfait. English uses Past Simple.",
+            "visualHighlighting": {
+                "incorrect": "have",
+                "correct": "had"
+            }
+        }
+    },
+    {
+        "id": "cond-m22-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I ___ you, I would go.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "am"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! 'If I were you' is the standard form for advice.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional (Advice)",
+        "frenchComparison": {
+            "frenchStructure": "Si j'étais toi...",
+            "englishStructure": "If I were you...",
+            "whyDifficult": "Subjunctive 'were' used for all persons.",
+            "visualHighlighting": {
+                "incorrect": "was",
+                "correct": "were"
+            }
+        }
+    },
+    {
+        "id": "cond-m23-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I had known, I ___ come.",
+        "type": "multiple_choice",
+        "options": [
+            "would",
+            "would have",
+            "will have"
+        ],
+        "correctAnswer": "would have",
+        "feedback": "Correct! Third Conditional: If + Past Perfect, ... Would have + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Third Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Je serais venu",
+            "englishStructure": "I would have come",
+            "whyDifficult": "Complex structure.",
+            "visualHighlighting": {
+                "incorrect": "would come",
+                "correct": "would have come"
+            }
+        }
+    },
+    {
+        "id": "cond-m24-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "You can go ___ you are quiet.",
+        "type": "multiple_choice",
+        "options": [
+            "as long as",
+            "unless",
+            "so long"
+        ],
+        "correctAnswer": "as long as",
+        "feedback": "Correct! 'As long as' means 'on condition that'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "As long as",
+        "frenchComparison": {
+            "frenchStructure": "Tant que tu es sage",
+            "englishStructure": "As long as you are quiet",
+            "whyDifficult": "Connector usage.",
+            "visualHighlighting": {
+                "incorrect": "unless",
+                "correct": "as long as"
+            }
+        }
+    },
+    {
+        "id": "cond-m25-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "___ that you pay, you can stay.",
+        "type": "multiple_choice",
+        "options": [
+            "Provided",
+            "Providing",
+            "Unless"
+        ],
+        "correctAnswer": "Provided",
+        "feedback": "Correct! 'Provided that' is formal for 'if'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Provided that",
+        "frenchComparison": {
+            "frenchStructure": "À condition que",
+            "englishStructure": "Provided that",
+            "whyDifficult": "Formal connector.",
+            "visualHighlighting": {
+                "incorrect": "Unless",
+                "correct": "Provided"
+            }
+        }
+    },
+    {
+        "id": "cond-m26-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "Take an umbrella ___ it rains.",
+        "type": "multiple_choice",
+        "options": [
+            "if",
+            "in case",
+            "when"
+        ],
+        "correctAnswer": "in case",
+        "feedback": "Correct! 'In case' is for precaution. 'If' is for condition.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "In case",
+        "frenchComparison": {
+            "frenchStructure": "Au cas où il pleuvrait",
+            "englishStructure": "In case it rains",
+            "whyDifficult": "'In case' vs 'If'.",
+            "visualHighlighting": {
+                "incorrect": "if",
+                "correct": "in case"
+            }
+        }
+    },
+    {
+        "id": "cond-m27-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "I wish I ___ a car.",
+        "type": "multiple_choice",
+        "options": [
+            "have",
+            "had",
+            "will have"
+        ],
+        "correctAnswer": "had",
+        "feedback": "Correct! Wish + Past Simple for present desire.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Wish (Present)",
+        "frenchComparison": {
+            "frenchStructure": "J'aimerais avoir...",
+            "englishStructure": "I wish I had...",
+            "whyDifficult": "French uses conditional. English uses past simple.",
+            "visualHighlighting": {
+                "incorrect": "have",
+                "correct": "had"
+            }
+        }
+    },
+    {
+        "id": "cond-m28-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If only I ___ the answer.",
+        "type": "multiple_choice",
+        "options": [
+            "know",
+            "knew",
+            "known"
+        ],
+        "correctAnswer": "knew",
+        "feedback": "Correct! If only + Past Simple.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "If only",
+        "frenchComparison": {
+            "frenchStructure": "Si seulement je savais",
+            "englishStructure": "If only I knew",
+            "whyDifficult": "Past tense for present wish.",
+            "visualHighlighting": {
+                "incorrect": "know",
+                "correct": "knew"
+            }
+        }
+    },
+    {
+        "id": "cond-m29-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I ___ fly, I would go to Paris.",
+        "type": "multiple_choice",
+        "options": [
+            "can",
+            "could",
+            "will can"
+        ],
+        "correctAnswer": "could",
+        "feedback": "Correct! Past of 'can' is 'could'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional (Modal)",
+        "frenchComparison": {
+            "frenchStructure": "Si je pouvais voler",
+            "englishStructure": "If I could fly",
+            "whyDifficult": "Modal usage.",
+            "visualHighlighting": {
+                "incorrect": "can",
+                "correct": "could"
+            }
+        }
+    },
+    {
+        "id": "cond-m30-A",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I hadn't eaten, I ___ hungry.",
+        "type": "multiple_choice",
+        "options": [
+            "would be",
+            "would have been",
+            "will be"
+        ],
+        "correctAnswer": "would have been",
+        "feedback": "Correct! Third Conditional.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Third Conditional",
+        "frenchComparison": {
+            "frenchStructure": "J'aurais eu faim",
+            "englishStructure": "I would have been hungry",
+            "whyDifficult": "Complex structure.",
+            "visualHighlighting": {
+                "incorrect": "would be",
+                "correct": "would have been"
+            }
+        }
+    },
+    {
+        "id": "cond-m21-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If she ___ here, she would help us.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "were",
+            "was"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! Second Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si elle était là",
+            "englishStructure": "If she were here",
+            "whyDifficult": "Subjunctive 'were'.",
+            "visualHighlighting": {
+                "incorrect": "is",
+                "correct": "were"
+            }
+        }
+    },
+    {
+        "id": "cond-m22-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "What ___ you do if you won the lottery?",
+        "type": "multiple_choice",
+        "options": [
+            "will",
+            "would",
+            "did"
+        ],
+        "correctAnswer": "would",
+        "feedback": "Correct! Second Conditional question.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional (Question)",
+        "frenchComparison": {
+            "frenchStructure": "Que ferais-tu... ?",
+            "englishStructure": "What would you do...?",
+            "whyDifficult": "Conditional auxiliary.",
+            "visualHighlighting": {
+                "incorrect": "will",
+                "correct": "would"
+            }
+        }
+    },
+    {
+        "id": "cond-m23-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If he ___ studied, he would have passed.",
+        "type": "multiple_choice",
+        "options": [
+            "has",
+            "had",
+            "would have"
+        ],
+        "correctAnswer": "had",
+        "feedback": "Correct! Third Conditional (If + Past Perfect).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Third Conditional",
+        "frenchComparison": {
+            "frenchStructure": "S'il avait étudié",
+            "englishStructure": "If he had studied",
+            "whyDifficult": "Past Perfect usage.",
+            "visualHighlighting": {
+                "incorrect": "has",
+                "correct": "had"
+            }
+        }
+    },
+    {
+        "id": "cond-m24-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "I will cook ___ you wash the dishes.",
+        "type": "multiple_choice",
+        "options": [
+            "as long as",
+            "unless",
+            "so long"
+        ],
+        "correctAnswer": "as long as",
+        "feedback": "Correct! Condition.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "As long as",
+        "frenchComparison": {
+            "frenchStructure": "Tant que tu fais la vaisselle",
+            "englishStructure": "As long as you wash the dishes",
+            "whyDifficult": "Connector.",
+            "visualHighlighting": {
+                "incorrect": "unless",
+                "correct": "as long as"
+            }
+        }
+    },
+    {
+        "id": "cond-m25-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "___ that you are 18, you can enter.",
+        "type": "multiple_choice",
+        "options": [
+            "Provided",
+            "If",
+            "Unless"
+        ],
+        "correctAnswer": "Provided",
+        "feedback": "Correct! Formal condition.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Provided that",
+        "frenchComparison": {
+            "frenchStructure": "À condition que",
+            "englishStructure": "Provided that",
+            "whyDifficult": "Formal connector.",
+            "visualHighlighting": {
+                "incorrect": "If",
+                "correct": "Provided"
+            }
+        }
+    },
+    {
+        "id": "cond-m26-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "Call me ___ you need help.",
+        "type": "multiple_choice",
+        "options": [
+            "in case",
+            "if",
+            "unless"
+        ],
+        "correctAnswer": "if",
+        "feedback": "Correct! Condition (not precaution).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "If vs In case",
+        "frenchComparison": {
+            "frenchStructure": "Si tu as besoin d'aide",
+            "englishStructure": "If you need help",
+            "whyDifficult": "Distinction.",
+            "visualHighlighting": {
+                "incorrect": "in case",
+                "correct": "if"
+            }
+        }
+    },
+    {
+        "id": "cond-m27-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "I wish I ___ speak French.",
+        "type": "multiple_choice",
+        "options": [
+            "can",
+            "could",
+            "will"
+        ],
+        "correctAnswer": "could",
+        "feedback": "Correct! Wish + Past (Modal).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Wish (Ability)",
+        "frenchComparison": {
+            "frenchStructure": "J'aimerais pouvoir...",
+            "englishStructure": "I wish I could...",
+            "whyDifficult": "Modal usage.",
+            "visualHighlighting": {
+                "incorrect": "can",
+                "correct": "could"
+            }
+        }
+    },
+    {
+        "id": "cond-m28-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If only it ___ raining.",
+        "type": "multiple_choice",
+        "options": [
+            "stop",
+            "stopped",
+            "stops"
+        ],
+        "correctAnswer": "stopped",
+        "feedback": "Correct! If only + Past Simple.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "If only",
+        "frenchComparison": {
+            "frenchStructure": "Si seulement ça s'arrêtait",
+            "englishStructure": "If only it stopped",
+            "whyDifficult": "Past tense.",
+            "visualHighlighting": {
+                "incorrect": "stops",
+                "correct": "stopped"
+            }
+        }
+    },
+    {
+        "id": "cond-m29-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "If I ___ time, I would help.",
+        "type": "multiple_choice",
+        "options": [
+            "have",
+            "had",
+            "will have"
+        ],
+        "correctAnswer": "had",
+        "feedback": "Correct! Second Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Second Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si j'avais le temps",
+            "englishStructure": "If I had time",
+            "whyDifficult": "Past tense.",
+            "visualHighlighting": {
+                "incorrect": "have",
+                "correct": "had"
+            }
+        }
+    },
+    {
+        "id": "cond-m30-B",
+        "moduleId": "conditionals",
+        "difficulty": "medium",
+        "questionText": "She would have come if she ___ known.",
+        "type": "multiple_choice",
+        "options": [
+            "has",
+            "had",
+            "would have"
+        ],
+        "correctAnswer": "had",
+        "feedback": "Correct! Third Conditional.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Third Conditional",
+        "frenchComparison": {
+            "frenchStructure": "Si elle avait su",
+            "englishStructure": "If she had known",
+            "whyDifficult": "Past Perfect.",
+            "visualHighlighting": {
+                "incorrect": "has",
+                "correct": "had"
+            }
+        }
+    }
+]

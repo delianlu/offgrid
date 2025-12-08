@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Articles module! These are the small words (a, an, the) that cause big confusion.",
+    "theProblem": "In French, you use articles almost all the time (*Le* riz, *La* France, *Un* médecin). In English, we often delete them completely! The biggest mistake Francophones make is over-using the word 'The'.",
+    "thePromise": "By the end of this lesson, you will know exactly when to use 'A', when to use 'The', and most importantly, when to use **Zero Article** (nothing at all)."
+  },
+  "contrastiveExplanation": "### Concept 1: The Generalization Trap (Zero Article)\n\n**The Rule:**\nWhen talking about plural nouns or uncountable things **in general** (all of them, everywhere), English uses **Zero Article (Ø)**.\n* *I like **Ø** bananas.* (All bananas).\n* ***Ø** Life is hard.* (Life in general).\n\n**The French Trap:**\nFrench *requires* the definite article (*le, la, les*) for general concepts.\n* *J'aime **les** bananes.*\n* * **La** vie est dure.*\nBecause of this, students usually say: \"I like **the** bananas.\"\n\n**The Fix:**\nIf you mean \"in general,\" **kill the 'The'**.\n\n**Visual Metaphor:**\nThink of **'The'** as a **Spotlight** 🔦. It points at one specific thing. If you are talking about *everything* (the whole world, all bananas), you don't need a spotlight. You need **Daylight** (Zero Article).\n\n**Examples:**\n* 🇫🇷 *Le riz est populaire au Cameroun.*\n    * ❌ **The** rice is popular.\n    * ✅ **Ø Rice** is popular.\n* 🇫🇷 *Les chiens aboient.* (Dogs in general)\n    * ❌ **The** dogs bark.\n    * ✅ **Ø Dogs** bark.\n\n---\n\n### Concept 2: The Profession Badge (A / An)\n\n**The Rule:**\nIn English, when stating someone's job, you MUST use **a** or **an**.\n* *He is **a** teacher.*\n* *She is **an** engineer.*\n\n**The French Trap:**\nFrench treats professions like adjectives after 'être'.\n* *Il est **Ø** professeur.*\n* *Elle est **Ø** ingénieur.*\n\n**The Fix:**\nIn English, a job is a \"thing\" you count. Imagine every worker wears a **Badge**. You must say \"He is (one) teacher.\"\n\n**Examples:**\n* 🇫🇷 *Mon père est docteur.*\n    * ❌ My father is doctor.\n    * ✅ My father is **a doctor**.\n* 🇫🇷 *Je veux être infirmière.*\n    * ❌ I want to be nurse.\n    * ✅ I want to be **a nurse**.\n\n---\n\n### Concept 3: The Sound Rule (A vs. An)\n\n**The Rule:**\n* Use **A** before a **Consonant Sound** (a book, a car, a university).\n* Use **AN** before a **Vowel Sound** (an apple, an egg, an hour).\n\n**The French Trap:**\nIn French, 'H' is usually silent, but in English, 'H' is usually pronounced (House, Home). HOWEVER, words from French roots (Hour, Honest, Honor) keep the silent H.\nAlso, words starting with 'U' (University) often sound like 'You' (Y is a consonant sound).\n\n**The Fix:**\nListen to the **Sound**, not the spelling. \n* *Hour* sounds like *Our* ➡️ **An**.\n* *University* sounds like *You-niversity* ➡️ **A**.\n\n**Examples:**\n* 🇫🇷 *C'est un honneur.*\n    * ❌ It is **a** honour.\n    * ✅ It is **an** honour. (Silent H)\n* 🇫🇷 *C'est une université.*\n    * ❌ It is **an** university.\n    * ✅ It is **a** university. ('Y' sound)",
+  "commonErrors": [
+    {
+      "subTopic": "General Plurals",
+      "wrong": "I like the mangoes.",
+      "correct": "I like mangoes.",
+      "frenchConnection": "Direct translation of \"J'aime les mangues\". For general preference, drop 'the'."
+    },
+    {
+      "subTopic": "General Uncountable",
+      "wrong": "The money is important.",
+      "correct": "Money is important.",
+      "frenchConnection": "Direct translation of \"L'argent est important\". General concepts take Zero Article."
+    },
+    {
+      "subTopic": "Professions",
+      "wrong": "He is taxi driver.",
+      "correct": "He is a taxi driver.",
+      "frenchConnection": "French omits the article (\"Il est chauffeur de taxi\"). English requires 'a/an'."
+    },
+    {
+      "subTopic": "Silent H",
+      "wrong": "I waited for a hour.",
+      "correct": "I waited for an hour.",
+      "frenchConnection": "Students see the letter 'h' and use 'a', but the sound is 'our' (vowel), so it needs 'an'."
+    },
+    {
+      "subTopic": "Institutions (School/Church)",
+      "wrong": "My son goes to the school.",
+      "correct": "My son goes to school.",
+      "frenchConnection": "French uses \"à l'école\". English uses Zero Article when referring to the institution's purpose (learning)."
+    },
+    {
+      "subTopic": "Abstract Nouns",
+      "wrong": "The love is blind.",
+      "correct": "Love is blind.",
+      "frenchConnection": "\"L'amour rend aveugle.\" Abstract nouns in general use Zero Article."
+    }
+  ]
+}

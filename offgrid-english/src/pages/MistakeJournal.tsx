@@ -44,14 +44,14 @@ export function MistakeJournal() {
   };
 
   return (
-    <div className="min-h-screen bg-amber-50 pb-20">
+    <div className="min-h-screen bg-slate-50 pb-20">
       {/* Header */}
-      <header className="bg-orange-500 text-white px-4 py-4 sticky top-0 z-50 shadow-md">
+      <header className="bg-blue-500 text-white px-4 py-4 sticky top-0 z-50 shadow-md">
         <div className="flex items-center gap-3">
           <Link to="/" className="text-2xl">←</Link>
           <div>
             <h1 className="text-xl font-bold">Mistake Journal</h1>
-            <p className="text-sm text-orange-100">Track and learn from your errors</p>
+            <p className="text-sm text-blue-100">Track and learn from your errors</p>
           </div>
         </div>
       </header>
@@ -76,7 +76,7 @@ export function MistakeJournal() {
             className="bg-white rounded-xl p-3 text-center shadow-lg"
           >
             <div className="text-2xl mb-1">⚠️</div>
-            <p className="text-2xl font-bold text-orange-600">{stats.unresolved}</p>
+            <p className="text-2xl font-bold text-blue-600">{stats.unresolved}</p>
             <p className="text-xs text-gray-600">Active</p>
           </motion.div>
 
@@ -152,7 +152,7 @@ export function MistakeJournal() {
                           {mistake.moduleId}
                         </span>
                         {mistake.attemptCount > 1 && (
-                          <span className="text-xs font-semibold text-orange-500 bg-orange-50 px-2 py-1 rounded">
+                          <span className="text-xs font-semibold text-blue-500 bg-blue-50 px-2 py-1 rounded">
                             {mistake.attemptCount}x
                           </span>
                         )}
@@ -211,7 +211,7 @@ export function MistakeJournal() {
         <div className="grid grid-cols-3">
           <Link
             to="/"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-blue-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">🏠</span>
             <span className="text-xs font-medium text-gray-700">{t('navigation.home')}</span>
@@ -219,15 +219,15 @@ export function MistakeJournal() {
 
           <Link
             to="/mistake-journal"
-            className="flex flex-col items-center py-3 bg-orange-50 transition-all"
+            className="flex flex-col items-center py-3 bg-blue-50 transition-all"
           >
             <span className="text-2xl mb-1">📝</span>
-            <span className="text-xs font-medium text-orange-600">Mistakes</span>
+            <span className="text-xs font-medium text-blue-600">Mistakes</span>
           </Link>
 
           <Link
             to="/analytics"
-            className="flex flex-col items-center py-3 hover:bg-orange-50 transition-all active:scale-95"
+            className="flex flex-col items-center py-3 hover:bg-blue-50 transition-all active:scale-95"
           >
             <span className="text-2xl mb-1">⚙️</span>
             <span className="text-xs font-medium text-gray-700">{t('navigation.settings')}</span>

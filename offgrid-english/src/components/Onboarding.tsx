@@ -77,7 +77,10 @@ export function Onboarding() {
 
   function handleComplete() {
     setShow(false);
-    localStorage.setItem(ONBOARDING_KEY, Date.now().toString());
+    // Use requestAnimationFrame to ensure the state update paints before we do the heavy lifting of storage
+    requestAnimationFrame(() => {
+      localStorage.setItem(ONBOARDING_KEY, Date.now().toString());
+    });
   }
 
   const step = STEPS[currentStep];
@@ -176,11 +179,10 @@ export function Onboarding() {
                     <button
                       key={index}
                       onClick={() => setCurrentStep(index)}
-                      className={`h-2 rounded-full transition-all duration-300 cursor-pointer hover:opacity-75 ${
-                        index === currentStep
+                      className={`h-2 rounded-full transition-all duration-300 cursor-pointer hover:opacity-75 ${index === currentStep
                           ? 'w-8 bg-blue-500'
                           : 'w-2 bg-gray-300 dark:bg-gray-600'
-                      }`}
+                        }`}
                       aria-label={`Go to step ${index + 1}`}
                     />
                   ))}

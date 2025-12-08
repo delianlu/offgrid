@@ -1,0 +1,3288 @@
+{
+  "id": "question-tags",
+  "name": "Question Tags",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Question Tags module! This is the art of asking for confirmation. In French, you can just say 'N'est-ce pas?' or 'Non?' at the end of any sentence. In English, this is impossible. We have a complex system where the end of the sentence must mathematically match the beginning.",
+  "contrastiveExplanation": "The Mirror Rule:\nEnglish: You must repeat the Auxiliary Verb and the Subject Pronoun. (She is -> Isn't she?).\nFrench: Uses a fixed phrase (N'est-ce pas?).\n\nPolarity Switch:\nEnglish: Positive Sentence -> Negative Tag. Negative Sentence -> Positive Tag.\nFrench: Usually adds a negative tag (non?).\n\nThe 'Do' Rescue:\nEnglish: If there is no auxiliary (Simple Tenses), use Do/Does/Did.\nFrench: No change in structure.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Universal Tag",
+      "wrong": "You are coming, isn't it?",
+      "correct": "You are coming, aren't you?",
+      "frenchConnection": "Direct translation of 'N'est-ce pas'. The tag must match the subject 'You'."
+    },
+    {
+      "number": 2,
+      "subTopic": "Present Simple",
+      "wrong": "You like rice, like you not?",
+      "correct": "You like rice, don't you?",
+      "frenchConnection": "Trying to use the main verb in the tag. Use 'Do/Does'."
+    },
+    {
+      "number": 3,
+      "subTopic": "Past Simple",
+      "wrong": "He went out, isn't he?",
+      "correct": "He went out, didn't he?",
+      "frenchConnection": "Confusing tense. 'Went' (Past) needs 'Did'."
+    },
+    {
+      "number": 4,
+      "subTopic": "I am (Exception)",
+      "wrong": "I am late, amn't I?",
+      "correct": "I am late, aren't I?",
+      "frenchConnection": "English irregularity. 'Amn't' does not exist."
+    },
+    {
+      "number": 5,
+      "subTopic": "Imperatives",
+      "wrong": "Sit down, do you?",
+      "correct": "Sit down, will you?",
+      "frenchConnection": "Imperatives (Commands) usually take 'will you'."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "qt-e01-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "She is a doctor, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't she",
+        "is she",
+        "doesn't she"
+      ],
+      "correctAnswer": "isn't she",
+      "feedback": "Correct! Positive 'She is' -> Negative 'isn't she'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est médecin, n'est-ce pas ?",
+        "englishStructure": "She is a doctor, isn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the verb 'is' and subject 'she'.",
+        "visualHighlighting": {
+          "incorrect": "is she",
+          "correct": "isn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-e02-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You are tired, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't you",
+        "are you",
+        "don't you"
+      ],
+      "correctAnswer": "aren't you",
+      "feedback": "Correct! Positive 'You are' -> Negative 'aren't you'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Tu es fatigué, n'est-ce pas ?",
+        "englishStructure": "You are tired, aren't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'are' and 'you'.",
+        "visualHighlighting": {
+          "incorrect": "are you",
+          "correct": "aren't you"
+        }
+      }
+    },
+    {
+      "id": "qt-e03-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They aren't here, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "are they",
+        "aren't they",
+        "do they"
+      ],
+      "correctAnswer": "are they",
+      "feedback": "Correct! Negative 'aren't' -> Positive 'are they'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne sont pas là, n'est-ce pas ?",
+        "englishStructure": "They aren't here, are they?",
+        "whyDifficult": "Negative sentence requires a positive tag in English.",
+        "visualHighlighting": {
+          "incorrect": "aren't they",
+          "correct": "are they"
+        }
+      }
+    },
+    {
+      "id": "qt-e04-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He can swim, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "can't he",
+        "can he",
+        "is he"
+      ],
+      "correctAnswer": "can't he",
+      "feedback": "Correct! Positive 'can' -> Negative 'can't he'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Il sait nager, n'est-ce pas ?",
+        "englishStructure": "He can swim, can't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the modal 'can'.",
+        "visualHighlighting": {
+          "incorrect": "can he",
+          "correct": "can't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e05-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We won't go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will we",
+        "won't we",
+        "do we"
+      ],
+      "correctAnswer": "will we",
+      "feedback": "Correct! Negative 'won't' -> Positive 'will we'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'irons pas, n'est-ce pas ?",
+        "englishStructure": "We won't go, will we?",
+        "whyDifficult": "Negative 'won't' requires positive 'will'.",
+        "visualHighlighting": {
+          "incorrect": "won't we",
+          "correct": "will we"
+        }
+      }
+    },
+    {
+      "id": "qt-e06-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "It is hot today, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! Positive 'It is' -> Negative 'isn't it'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Il fait chaud aujourd'hui, n'est-ce pas ?",
+        "englishStructure": "It is hot today, isn't it?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'is' and 'it'.",
+        "visualHighlighting": {
+          "incorrect": "is it",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-e07-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You don't smoke, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do you",
+        "don't you",
+        "are you"
+      ],
+      "correctAnswer": "do you",
+      "feedback": "Correct! Negative 'don't' -> Positive 'do you'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne fumes pas, n'est-ce pas ?",
+        "englishStructure": "You don't smoke, do you?",
+        "whyDifficult": "Negative 'don't' requires positive 'do'.",
+        "visualHighlighting": {
+          "incorrect": "don't you",
+          "correct": "do you"
+        }
+      }
+    },
+    {
+      "id": "qt-e08-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He isn't a teacher, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "is he",
+        "isn't he",
+        "does he"
+      ],
+      "correctAnswer": "is he",
+      "feedback": "Correct! Negative 'isn't' -> Positive 'is he'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'est pas professeur, n'est-ce pas ?",
+        "englishStructure": "He isn't a teacher, is he?",
+        "whyDifficult": "Negative 'isn't' requires positive 'is'.",
+        "visualHighlighting": {
+          "incorrect": "isn't he",
+          "correct": "is he"
+        }
+      }
+    },
+    {
+      "id": "qt-e09-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They were happy, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "weren't they",
+        "were they",
+        "didn't they"
+      ],
+      "correctAnswer": "weren't they",
+      "feedback": "Correct! Positive 'were' -> Negative 'weren't they'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Ils étaient heureux, n'est-ce pas ?",
+        "englishStructure": "They were happy, weren't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'were'.",
+        "visualHighlighting": {
+          "incorrect": "were they",
+          "correct": "weren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-e10-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "She wasn't home, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "was she",
+        "wasn't she",
+        "did she"
+      ],
+      "correctAnswer": "was she",
+      "feedback": "Correct! Negative 'wasn't' -> Positive 'was she'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'était pas à la maison, n'est-ce pas ?",
+        "englishStructure": "She wasn't home, was she?",
+        "whyDifficult": "Negative 'wasn't' requires positive 'was'.",
+        "visualHighlighting": {
+          "incorrect": "wasn't she",
+          "correct": "was she"
+        }
+      }
+    },
+    {
+      "id": "qt-e11-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You have a car, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "don't you",
+        "haven't you",
+        "isn't it"
+      ],
+      "correctAnswer": "don't you",
+      "feedback": "Correct! 'Have' (possession) uses 'don't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Possession)",
+      "frenchComparison": {
+        "frenchStructure": "Tu as une voiture, n'est-ce pas ?",
+        "englishStructure": "You have a car, don't you?",
+        "whyDifficult": "In modern English, 'have' for possession takes 'do/don't' in tags.",
+        "visualHighlighting": {
+          "incorrect": "haven't you",
+          "correct": "don't you"
+        }
+      }
+    },
+    {
+      "id": "qt-e12-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "Muna is smart, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't he",
+        "isn't Muna",
+        "doesn't he"
+      ],
+      "correctAnswer": "isn't he",
+      "feedback": "Correct! Use pronoun 'he' for Muna.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns in Tags",
+      "frenchComparison": {
+        "frenchStructure": "Muna est intelligent, n'est-ce pas ?",
+        "englishStructure": "Muna is smart, isn't he?",
+        "whyDifficult": "English requires changing the name 'Muna' to the pronoun 'he'.",
+        "visualHighlighting": {
+          "incorrect": "isn't Muna",
+          "correct": "isn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e13-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "The dog is hungry, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "doesn't it",
+        "is it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! Dog = It.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns in Tags",
+      "frenchComparison": {
+        "frenchStructure": "Le chien a faim, n'est-ce pas ?",
+        "englishStructure": "The dog is hungry, isn't it?",
+        "whyDifficult": "English requires changing 'The dog' to 'it'.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-e14-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You can help me, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "can't you",
+        "can you",
+        "don't you"
+      ],
+      "correctAnswer": "can't you",
+      "feedback": "Correct! 'Can' -> 'Can't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Tu peux m'aider, n'est-ce pas ?",
+        "englishStructure": "You can help me, can't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'can'.",
+        "visualHighlighting": {
+          "incorrect": "can you",
+          "correct": "can't you"
+        }
+      }
+    },
+    {
+      "id": "qt-e15-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We must go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "mustn't we",
+        "must we",
+        "don't we"
+      ],
+      "correctAnswer": "mustn't we",
+      "feedback": "Correct! 'Must' -> 'Mustn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Nous devons partir, n'est-ce pas ?",
+        "englishStructure": "We must go, mustn't we?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'must'.",
+        "visualHighlighting": {
+          "incorrect": "must we",
+          "correct": "mustn't we"
+        }
+      }
+    },
+    {
+      "id": "qt-e16-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "She should study, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shouldn't she",
+        "should she",
+        "does she"
+      ],
+      "correctAnswer": "shouldn't she",
+      "feedback": "Correct! 'Should' -> 'Shouldn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Should)",
+      "frenchComparison": {
+        "frenchStructure": "Elle devrait étudier, n'est-ce pas ?",
+        "englishStructure": "She should study, shouldn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'should'.",
+        "visualHighlighting": {
+          "incorrect": "should she",
+          "correct": "shouldn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-e17-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They will arrive soon, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "won't they",
+        "will they",
+        "don't they"
+      ],
+      "correctAnswer": "won't they",
+      "feedback": "Correct! 'Will' -> 'Won't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Ils arriveront bientôt, n'est-ce pas ?",
+        "englishStructure": "They will arrive soon, won't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'will' (as 'won't').",
+        "visualHighlighting": {
+          "incorrect": "will they",
+          "correct": "won't they"
+        }
+      }
+    },
+    {
+      "id": "qt-e18-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You are kidding, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't you",
+        "are you",
+        "isn't it"
+      ],
+      "correctAnswer": "aren't you",
+      "feedback": "Correct! 'You are' -> 'Aren't you'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Tu plaisantes, n'est-ce pas ?",
+        "englishStructure": "You are kidding, aren't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'are'.",
+        "visualHighlighting": {
+          "incorrect": "are you",
+          "correct": "aren't you"
+        }
+      }
+    },
+    {
+      "id": "qt-e19-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "It wasn't me, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "was it",
+        "wasn't it",
+        "did it"
+      ],
+      "correctAnswer": "was it",
+      "feedback": "Correct! Negative 'wasn't' -> Positive 'was it'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Ce n'était pas moi, n'est-ce pas ?",
+        "englishStructure": "It wasn't me, was it?",
+        "whyDifficult": "Negative 'wasn't' requires positive 'was'.",
+        "visualHighlighting": {
+          "incorrect": "wasn't it",
+          "correct": "was it"
+        }
+      }
+    },
+    {
+      "id": "qt-e20-A",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We aren't late, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "are we",
+        "aren't we",
+        "do we"
+      ],
+      "correctAnswer": "are we",
+      "feedback": "Correct! Negative 'aren't' -> Positive 'are we'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Nous ne sommes pas en retard, n'est-ce pas ?",
+        "englishStructure": "We aren't late, are we?",
+        "whyDifficult": "Negative 'aren't' requires positive 'are'.",
+        "visualHighlighting": {
+          "incorrect": "aren't we",
+          "correct": "are we"
+        }
+      }
+    },
+    {
+      "id": "qt-m01-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You play the guitar, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "don't you",
+        "play you",
+        "aren't you"
+      ],
+      "correctAnswer": "don't you",
+      "feedback": "Correct! Present Simple (play) uses 'don't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Tu joues de la guitare, n'est-ce pas ?",
+        "englishStructure": "You play the guitar, don't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'don't' for Present Simple verbs.",
+        "visualHighlighting": {
+          "incorrect": "play you",
+          "correct": "don't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m02-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She lives in Limbe, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't she",
+        "don't she",
+        "isn't she"
+      ],
+      "correctAnswer": "doesn't she",
+      "feedback": "Correct! Third person (She lives) uses 'doesn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Elle habite à Limbe, n'est-ce pas ?",
+        "englishStructure": "She lives in Limbe, doesn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'doesn't' for 3rd person singular.",
+        "visualHighlighting": {
+          "incorrect": "isn't she",
+          "correct": "doesn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-m03-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He went to school yesterday, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't he",
+        "doesn't he",
+        "wasn't he"
+      ],
+      "correctAnswer": "didn't he",
+      "feedback": "Correct! Past Simple (went) uses 'didn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Il est allé à l'école, n'est-ce pas ?",
+        "englishStructure": "He went to school yesterday, didn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'didn't' for Past Simple.",
+        "visualHighlighting": {
+          "incorrect": "wasn't he",
+          "correct": "didn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-m04-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "They didn't see us, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "have they"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! Negative 'didn't' -> Positive 'did they'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne nous ont pas vus, n'est-ce pas ?",
+        "englishStructure": "They didn't see us, did they?",
+        "whyDifficult": "Negative 'didn't' requires positive 'did'.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-m05-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You have eaten, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "haven't you",
+        "don't you",
+        "didn't you"
+      ],
+      "correctAnswer": "haven't you",
+      "feedback": "Correct! Present Perfect (have eaten) uses 'haven't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Tu as mangé, n'est-ce pas ?",
+        "englishStructure": "You have eaten, haven't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the auxiliary 'have'.",
+        "visualHighlighting": {
+          "incorrect": "don't you",
+          "correct": "haven't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m06-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She has finished, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "hasn't she",
+        "doesn't she",
+        "didn't she"
+      ],
+      "correctAnswer": "hasn't she",
+      "feedback": "Correct! Present Perfect (has finished) uses 'hasn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a fini, n'est-ce pas ?",
+        "englishStructure": "She has finished, hasn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the auxiliary 'has'.",
+        "visualHighlighting": {
+          "incorrect": "doesn't she",
+          "correct": "hasn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-m07-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You haven't met him, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "have you",
+        "do you",
+        "did you"
+      ],
+      "correctAnswer": "have you",
+      "feedback": "Correct! Negative 'haven't' -> Positive 'have you'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne l'as pas rencontré, n'est-ce pas ?",
+        "englishStructure": "You haven't met him, have you?",
+        "whyDifficult": "Negative 'haven't' requires positive 'have'.",
+        "visualHighlighting": {
+          "incorrect": "haven't you",
+          "correct": "have you"
+        }
+      }
+    },
+    {
+      "id": "qt-m08-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "I am your friend, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't I",
+        "amn't I",
+        "am I"
+      ],
+      "correctAnswer": "aren't I",
+      "feedback": "Correct! Exception: 'I am' -> 'aren't I'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Exception (I am)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis ton ami, n'est-ce pas ?",
+        "englishStructure": "I am your friend, aren't I?",
+        "whyDifficult": "English exception: 'amn't I' doesn't exist. We use 'aren't I'.",
+        "visualHighlighting": {
+          "incorrect": "amn't I",
+          "correct": "aren't I"
+        }
+      }
+    },
+    {
+      "id": "qt-m09-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "I am not late, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "am I",
+        "aren't I",
+        "are I"
+      ],
+      "correctAnswer": "am I",
+      "feedback": "Correct! Negative 'I am not' -> Positive 'am I' (Regular).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Exception (I am not)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne suis pas en retard, n'est-ce pas ?",
+        "englishStructure": "I am not late, am I?",
+        "whyDifficult": "Negative 'I am not' follows the normal rule (am I), unlike the positive form.",
+        "visualHighlighting": {
+          "incorrect": "aren't I",
+          "correct": "am I"
+        }
+      }
+    },
+    {
+      "id": "qt-m10-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He likes fufu, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't he",
+        "don't he",
+        "isn't he"
+      ],
+      "correctAnswer": "doesn't he",
+      "feedback": "Correct! 'Likes' uses 'doesn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Il aime le fufu, n'est-ce pas ?",
+        "englishStructure": "He likes fufu, doesn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'doesn't' for 3rd person singular.",
+        "visualHighlighting": {
+          "incorrect": "isn't he",
+          "correct": "doesn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-m11-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You don't have a pen, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do you",
+        "have you",
+        "aren't you"
+      ],
+      "correctAnswer": "do you",
+      "feedback": "Correct! Negative 'don't' -> Positive 'do you'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Tu n'as pas de stylo, n'est-ce pas ?",
+        "englishStructure": "You don't have a pen, do you?",
+        "whyDifficult": "Negative 'don't' requires positive 'do'.",
+        "visualHighlighting": {
+          "incorrect": "have you",
+          "correct": "do you"
+        }
+      }
+    },
+    {
+      "id": "qt-m12-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "We had a good time, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't we",
+        "hadn't we",
+        "haven't we"
+      ],
+      "correctAnswer": "didn't we",
+      "feedback": "Correct! 'Had' is the past main verb -> 'Didn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons passé un bon moment, n'est-ce pas ?",
+        "englishStructure": "We had a good time, didn't we?",
+        "whyDifficult": "When 'had' is the main verb (not auxiliary), use 'didn't'.",
+        "visualHighlighting": {
+          "incorrect": "hadn't we",
+          "correct": "didn't we"
+        }
+      }
+    },
+    {
+      "id": "qt-m13-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She will be happy, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "won't she",
+        "will she",
+        "isn't she"
+      ],
+      "correctAnswer": "won't she",
+      "feedback": "Correct! 'Will' -> 'Won't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Elle sera heureuse, n'est-ce pas ?",
+        "englishStructure": "She will be happy, won't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'will' (as 'won't').",
+        "visualHighlighting": {
+          "incorrect": "isn't she",
+          "correct": "won't she"
+        }
+      }
+    },
+    {
+      "id": "qt-m14-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "The boys speak English, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "don't they",
+        "doesn't they",
+        "aren't they"
+      ],
+      "correctAnswer": "don't they",
+      "feedback": "Correct! 'Speak' (plural) uses 'don't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Les garçons parlent anglais, n'est-ce pas ?",
+        "englishStructure": "The boys speak English, don't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'don't' for plural subjects.",
+        "visualHighlighting": {
+          "incorrect": "aren't they",
+          "correct": "don't they"
+        }
+      }
+    },
+    {
+      "id": "qt-m15-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "It rarely rains here, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "does it",
+        "doesn't it",
+        "is it"
+      ],
+      "correctAnswer": "does it",
+      "feedback": "Correct! 'Rarely' is negative, so the tag is Positive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Il pleut rarement ici, n'est-ce pas ?",
+        "englishStructure": "It rarely rains here, does it?",
+        "whyDifficult": "'Rarely' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "does it"
+        }
+      }
+    },
+    {
+      "id": "qt-m16-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He never listens, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "does he",
+        "doesn't he",
+        "is he"
+      ],
+      "correctAnswer": "does he",
+      "feedback": "Correct! 'Never' makes the sentence negative -> Positive tag.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Il n'écoute jamais, n'est-ce pas ?",
+        "englishStructure": "He never listens, does he?",
+        "whyDifficult": "'Never' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he",
+          "correct": "does he"
+        }
+      }
+    },
+    {
+      "id": "qt-m17-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "There is a problem, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't there",
+        "isn't it",
+        "is there"
+      ],
+      "correctAnswer": "isn't there",
+      "feedback": "Correct! 'There' is used in the tag for 'There is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There is",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un problème, n'est-ce pas ?",
+        "englishStructure": "There is a problem, isn't there?",
+        "whyDifficult": "English uses 'there' in the tag, not 'it'.",
+        "visualHighlighting": {
+          "incorrect": "isn't it",
+          "correct": "isn't there"
+        }
+      }
+    },
+    {
+      "id": "qt-m18-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "There are many people, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't there",
+        "aren't they",
+        "isn't there"
+      ],
+      "correctAnswer": "aren't there",
+      "feedback": "Correct! 'There' is used in the tag.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There are",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de gens, n'est-ce pas ?",
+        "englishStructure": "There are many people, aren't there?",
+        "whyDifficult": "English uses 'there' in the tag, not 'they'.",
+        "visualHighlighting": {
+          "incorrect": "aren't they",
+          "correct": "aren't there"
+        }
+      }
+    },
+    {
+      "id": "qt-m19-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You'd better go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "hadn't you",
+        "wouldn't you",
+        "didn't you"
+      ],
+      "correctAnswer": "hadn't you",
+      "feedback": "Correct! 'You'd better' = 'You had better'. Tag is 'hadn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Had better",
+      "frenchComparison": {
+        "frenchStructure": "Tu ferais mieux d'y aller, n'est-ce pas ?",
+        "englishStructure": "You'd better go, hadn't you?",
+        "whyDifficult": "'You'd better' stands for 'You had better', so the tag uses 'hadn't'.",
+        "visualHighlighting": {
+          "incorrect": "wouldn't you",
+          "correct": "hadn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m20-A",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He'd like to come, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "wouldn't he",
+        "hadn't he",
+        "didn't he"
+      ],
+      "correctAnswer": "wouldn't he",
+      "feedback": "Correct! 'He'd like' = 'He would like'. Tag is 'wouldn't'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Would like",
+      "frenchComparison": {
+        "frenchStructure": "Il aimerait venir, n'est-ce pas ?",
+        "englishStructure": "He'd like to come, wouldn't he?",
+        "whyDifficult": "'He'd like' stands for 'He would like', so the tag uses 'wouldn't'.",
+        "visualHighlighting": {
+          "incorrect": "hadn't he",
+          "correct": "wouldn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-h01-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Let's go to the beach, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shall we",
+        "will we",
+        "do we"
+      ],
+      "correctAnswer": "shall we",
+      "feedback": "Correct! Tag for 'Let's' is 'shall we'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives (Let's)",
+      "frenchComparison": {
+        "frenchStructure": "Allons à la plage, d'accord ?",
+        "englishStructure": "Let's go to the beach, shall we?",
+        "whyDifficult": "English uses 'shall we' for suggestions starting with 'Let's'.",
+        "visualHighlighting": {
+          "incorrect": "will we",
+          "correct": "shall we"
+        }
+      }
+    },
+    {
+      "id": "qt-h02-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Don't be late, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "do you",
+        "are you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Imperative (Command) uses 'will you'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Ne sois pas en retard, d'accord ?",
+        "englishStructure": "Don't be late, will you?",
+        "whyDifficult": "Imperatives (commands) usually take 'will you' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "do you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-h03-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Everyone is here, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't they",
+        "isn't he",
+        "isn't everyone"
+      ],
+      "correctAnswer": "aren't they",
+      "feedback": "Correct! 'Everyone' takes a singular verb (is), but the tag uses 'they'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Everyone)",
+      "frenchComparison": {
+        "frenchStructure": "Tout le monde est là, n'est-ce pas ?",
+        "englishStructure": "Everyone is here, aren't they?",
+        "whyDifficult": "'Everyone' is singular, but the tag uses 'they' (and thus plural verb 'are').",
+        "visualHighlighting": {
+          "incorrect": "isn't he",
+          "correct": "aren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-h04-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Nobody knows, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do they",
+        "don't they",
+        "does he"
+      ],
+      "correctAnswer": "do they",
+      "feedback": "Correct! 'Nobody' is negative, so positive tag. 'They' is the pronoun.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Nobody)",
+      "frenchComparison": {
+        "frenchStructure": "Personne ne sait, n'est-ce pas ?",
+        "englishStructure": "Nobody knows, do they?",
+        "whyDifficult": "'Nobody' makes the sentence negative (positive tag) and uses 'they' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "don't they",
+          "correct": "do they"
+        }
+      }
+    },
+    {
+      "id": "qt-h05-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Nothing is wrong, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "is it",
+        "isn't it",
+        "is nothing"
+      ],
+      "correctAnswer": "is it",
+      "feedback": "Correct! 'Nothing' is negative, so positive tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Nothing)",
+      "frenchComparison": {
+        "frenchStructure": "Rien ne va mal, n'est-ce pas ?",
+        "englishStructure": "Nothing is wrong, is it?",
+        "whyDifficult": "'Nothing' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "isn't it",
+          "correct": "is it"
+        }
+      }
+    },
+    {
+      "id": "qt-h06-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "This is your bag, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "isn't this",
+        "is it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! 'This' changes to 'it' in the tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est ton sac, n'est-ce pas ?",
+        "englishStructure": "This is your bag, isn't it?",
+        "whyDifficult": "'This' becomes 'it' in the question tag.",
+        "visualHighlighting": {
+          "incorrect": "isn't this",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-h07-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Those are my shoes, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't they",
+        "aren't those",
+        "are they"
+      ],
+      "correctAnswer": "aren't they",
+      "feedback": "Correct! 'Those' changes to 'they' in the tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ce sont mes chaussures, n'est-ce pas ?",
+        "englishStructure": "Those are my shoes, aren't they?",
+        "whyDifficult": "'Those' becomes 'they' in the question tag.",
+        "visualHighlighting": {
+          "incorrect": "aren't those",
+          "correct": "aren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-h08-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "I think he is right, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't he",
+        "don't I",
+        "is he"
+      ],
+      "correctAnswer": "isn't he",
+      "feedback": "Correct! Tag the main thought (he is right), not the intro (I think).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Complex Sentences (I think)",
+      "frenchComparison": {
+        "frenchStructure": "Je pense qu'il a raison, n'est-ce pas ?",
+        "englishStructure": "I think he is right, isn't he?",
+        "whyDifficult": "Tag the main clause ('he is right'), not the introductory clause ('I think').",
+        "visualHighlighting": {
+          "incorrect": "don't I",
+          "correct": "isn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-h09-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "I don't suppose you know, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do you",
+        "don't you",
+        "do I"
+      ],
+      "correctAnswer": "do you",
+      "feedback": "Correct! Negative introduction affects the tag. (Meaning: You don't know, do you?)",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Complex Sentences (I suppose)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne suppose pas que tu saches, si ?",
+        "englishStructure": "I don't suppose you know, do you?",
+        "whyDifficult": "The negative 'don't suppose' makes the whole sentence negative, requiring a positive tag.",
+        "visualHighlighting": {
+          "incorrect": "don't you",
+          "correct": "do you"
+        }
+      }
+    },
+    {
+      "id": "qt-h10-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Hardly anyone passed, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "did he"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! 'Hardly' is negative -> Positive tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Presque personne n'a réussi, n'est-ce pas ?",
+        "englishStructure": "Hardly anyone passed, did they?",
+        "whyDifficult": "'Hardly' makes the sentence negative. 'Anyone' uses 'they' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-h11-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "He ought to go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shouldn't he",
+        "oughtn't he",
+        "doesn't he"
+      ],
+      "correctAnswer": "shouldn't he",
+      "feedback": "Correct! 'Shouldn't' is the common tag for 'ought to' (though oughtn't is possible but rare).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Ought to)",
+      "frenchComparison": {
+        "frenchStructure": "Il devrait y aller, n'est-ce pas ?",
+        "englishStructure": "He ought to go, shouldn't he?",
+        "whyDifficult": "'Ought to' often takes 'shouldn't' in the tag in modern English.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he",
+          "correct": "shouldn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-h12-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Open the window, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "do you",
+        "don't you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Imperative command.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Ouvre la fenêtre, veux-tu ?",
+        "englishStructure": "Open the window, will you?",
+        "whyDifficult": "Positive imperatives typically use 'will you'.",
+        "visualHighlighting": {
+          "incorrect": "do you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-h13-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Let's not argue, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shall we",
+        "will we",
+        "do we"
+      ],
+      "correctAnswer": "shall we",
+      "feedback": "Correct! 'Let's' always uses 'shall we', even in negative.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives (Let's)",
+      "frenchComparison": {
+        "frenchStructure": "Ne nous disputons pas, d'accord ?",
+        "englishStructure": "Let's not argue, shall we?",
+        "whyDifficult": "'Let's' always takes 'shall we', regardless of positive or negative.",
+        "visualHighlighting": {
+          "incorrect": "will we",
+          "correct": "shall we"
+        }
+      }
+    },
+    {
+      "id": "qt-h14-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Everything is fine, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "aren't they",
+        "is it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! 'Everything' = It.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Things)",
+      "frenchComparison": {
+        "frenchStructure": "Tout va bien, n'est-ce pas ?",
+        "englishStructure": "Everything is fine, isn't it?",
+        "whyDifficult": "'Everything' is singular and uses 'it' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "aren't they",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-h15-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "You used to live here, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't you",
+        "usedn't you",
+        "don't you"
+      ],
+      "correctAnswer": "didn't you",
+      "feedback": "Correct! 'Used to' is past -> Didn't.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to",
+      "frenchComparison": {
+        "frenchStructure": "Tu habitais ici, n'est-ce pas ?",
+        "englishStructure": "You used to live here, didn't you?",
+        "whyDifficult": "'Used to' is treated as a past tense verb, so the tag uses 'didn't'.",
+        "visualHighlighting": {
+          "incorrect": "usedn't you",
+          "correct": "didn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-h16-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "You must be tired, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't you",
+        "mustn't you",
+        "don't you"
+      ],
+      "correctAnswer": "aren't you",
+      "feedback": "Correct! When 'must' means deduction, tag the 'be' (aren't you).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must - Deduction)",
+      "frenchComparison": {
+        "frenchStructure": "Tu dois être fatigué, n'est-ce pas ?",
+        "englishStructure": "You must be tired, aren't you?",
+        "whyDifficult": "When 'must' expresses probability/deduction, we often tag the main verb 'be' (aren't you).",
+        "visualHighlighting": {
+          "incorrect": "mustn't you",
+          "correct": "aren't you"
+        }
+      }
+    },
+    {
+      "id": "qt-h17-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "He needs to rest, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't he",
+        "needn't he",
+        "isn't he"
+      ],
+      "correctAnswer": "doesn't he",
+      "feedback": "Correct! 'Needs' is a main verb here -> 'Doesn't'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Need (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Il a besoin de se reposer, n'est-ce pas ?",
+        "englishStructure": "He needs to rest, doesn't he?",
+        "whyDifficult": "'Needs' is used as a main verb here, so it takes 'doesn't'.",
+        "visualHighlighting": {
+          "incorrect": "needn't he",
+          "correct": "doesn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-h18-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Few people know this, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do they",
+        "don't they",
+        "does he"
+      ],
+      "correctAnswer": "do they",
+      "feedback": "Correct! 'Few' is negative -> Positive tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few)",
+      "frenchComparison": {
+        "frenchStructure": "Peu de gens le savent, n'est-ce pas ?",
+        "englishStructure": "Few people know this, do they?",
+        "whyDifficult": "'Few' (without 'a') is negative, so the tag is positive.",
+        "visualHighlighting": {
+          "incorrect": "don't they",
+          "correct": "do they"
+        }
+      }
+    },
+    {
+      "id": "qt-h19-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Nobody called, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "did he"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! Negative 'Nobody' -> Positive tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Nobody)",
+      "frenchComparison": {
+        "frenchStructure": "Personne n'a appelé, n'est-ce pas ?",
+        "englishStructure": "Nobody called, did they?",
+        "whyDifficult": "'Nobody' is negative -> positive tag. 'They' is used for 'nobody'.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-h20-A",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "One should be careful, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shouldn't one",
+        "shouldn't he",
+        "shouldn't they"
+      ],
+      "correctAnswer": "shouldn't one",
+      "feedback": "Correct! Formal English repeats 'one'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (One)",
+      "frenchComparison": {
+        "frenchStructure": "On devrait faire attention, n'est-ce pas ?",
+        "englishStructure": "One should be careful, shouldn't one?",
+        "whyDifficult": "In formal English, the subject 'one' is repeated in the tag.",
+        "visualHighlighting": {
+          "incorrect": "shouldn't he",
+          "correct": "shouldn't one"
+        }
+      }
+    },
+    {
+      "id": "qt-e01-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He is a student, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't he",
+        "is he",
+        "doesn't he"
+      ],
+      "correctAnswer": "isn't he",
+      "feedback": "Correct! Positive 'He is' -> Negative 'isn't he'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Il est étudiant, n'est-ce pas ?",
+        "englishStructure": "He is a student, isn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'is' and 'he'.",
+        "visualHighlighting": {
+          "incorrect": "is he",
+          "correct": "isn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e02-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They are friends, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't they",
+        "are they",
+        "don't they"
+      ],
+      "correctAnswer": "aren't they",
+      "feedback": "Correct! Positive 'They are' -> Negative 'aren't they'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Ils sont amis, n'est-ce pas ?",
+        "englishStructure": "They are friends, aren't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'are' and 'they'.",
+        "visualHighlighting": {
+          "incorrect": "are they",
+          "correct": "aren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-e03-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "She isn't sad, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "is she",
+        "isn't she",
+        "does she"
+      ],
+      "correctAnswer": "is she",
+      "feedback": "Correct! Negative 'isn't' -> Positive 'is she'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'est pas triste, n'est-ce pas ?",
+        "englishStructure": "She isn't sad, is she?",
+        "whyDifficult": "Negative 'isn't' requires positive 'is'.",
+        "visualHighlighting": {
+          "incorrect": "isn't she",
+          "correct": "is she"
+        }
+      }
+    },
+    {
+      "id": "qt-e04-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We can dance, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "can't we",
+        "can we",
+        "do we"
+      ],
+      "correctAnswer": "can't we",
+      "feedback": "Correct! Positive 'can' -> Negative 'can't we'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Nous pouvons danser, n'est-ce pas ?",
+        "englishStructure": "We can dance, can't we?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'can'.",
+        "visualHighlighting": {
+          "incorrect": "can we",
+          "correct": "can't we"
+        }
+      }
+    },
+    {
+      "id": "qt-e05-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You won't tell, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "won't you",
+        "do you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Negative 'won't' -> Positive 'will you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne le diras pas, n'est-ce pas ?",
+        "englishStructure": "You won't tell, will you?",
+        "whyDifficult": "Negative 'won't' requires positive 'will'.",
+        "visualHighlighting": {
+          "incorrect": "won't you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-e06-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "It is cold, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! Positive 'It is' -> Negative 'isn't it'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Present)",
+      "frenchComparison": {
+        "frenchStructure": "Il fait froid, n'est-ce pas ?",
+        "englishStructure": "It is cold, isn't it?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'is' and 'it'.",
+        "visualHighlighting": {
+          "incorrect": "is it",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-e07-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They don't know, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "do they",
+        "don't they",
+        "are they"
+      ],
+      "correctAnswer": "do they",
+      "feedback": "Correct! Negative 'don't' -> Positive 'do they'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne savent pas, n'est-ce pas ?",
+        "englishStructure": "They don't know, do they?",
+        "whyDifficult": "Negative 'don't' requires positive 'do'.",
+        "visualHighlighting": {
+          "incorrect": "don't they",
+          "correct": "do they"
+        }
+      }
+    },
+    {
+      "id": "qt-e08-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You aren't busy, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "are you",
+        "aren't you",
+        "do you"
+      ],
+      "correctAnswer": "are you",
+      "feedback": "Correct! Negative 'aren't' -> Positive 'are you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Tu n'es pas occupé, n'est-ce pas ?",
+        "englishStructure": "You aren't busy, are you?",
+        "whyDifficult": "Negative 'aren't' requires positive 'are'.",
+        "visualHighlighting": {
+          "incorrect": "aren't you",
+          "correct": "are you"
+        }
+      }
+    },
+    {
+      "id": "qt-e09-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He was there, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "wasn't he",
+        "was he",
+        "did he"
+      ],
+      "correctAnswer": "wasn't he",
+      "feedback": "Correct! Positive 'was' -> Negative 'wasn't he'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il était là, n'est-ce pas ?",
+        "englishStructure": "He was there, wasn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'was'.",
+        "visualHighlighting": {
+          "incorrect": "was he",
+          "correct": "wasn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e10-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We weren't lost, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "were we",
+        "weren't we",
+        "did we"
+      ],
+      "correctAnswer": "were we",
+      "feedback": "Correct! Negative 'weren't' -> Positive 'were we'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'étions pas perdus, n'est-ce pas ?",
+        "englishStructure": "We weren't lost, were we?",
+        "whyDifficult": "Negative 'weren't' requires positive 'were'.",
+        "visualHighlighting": {
+          "incorrect": "weren't we",
+          "correct": "were we"
+        }
+      }
+    },
+    {
+      "id": "qt-e11-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "She has a cat, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't she",
+        "hasn't she",
+        "isn't it"
+      ],
+      "correctAnswer": "doesn't she",
+      "feedback": "Correct! 'Has' (possession) uses 'doesn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Possession)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a un chat, n'est-ce pas ?",
+        "englishStructure": "She has a cat, doesn't she?",
+        "whyDifficult": "In modern English, 'has' for possession takes 'doesn't' in tags.",
+        "visualHighlighting": {
+          "incorrect": "hasn't she",
+          "correct": "doesn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-e12-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "Ali is tall, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't he",
+        "isn't Ali",
+        "doesn't he"
+      ],
+      "correctAnswer": "isn't he",
+      "feedback": "Correct! Use pronoun 'he' for Ali.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns in Tags",
+      "frenchComparison": {
+        "frenchStructure": "Ali est grand, n'est-ce pas ?",
+        "englishStructure": "Ali is tall, isn't he?",
+        "whyDifficult": "English requires changing the name 'Ali' to the pronoun 'he'.",
+        "visualHighlighting": {
+          "incorrect": "isn't Ali",
+          "correct": "isn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e13-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "The car is blue, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "doesn't it",
+        "is it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! Car = It.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns in Tags",
+      "frenchComparison": {
+        "frenchStructure": "La voiture est bleue, n'est-ce pas ?",
+        "englishStructure": "The car is blue, isn't it?",
+        "whyDifficult": "English requires changing 'The car' to 'it'.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-e14-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He can drive, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "can't he",
+        "can he",
+        "don't he"
+      ],
+      "correctAnswer": "can't he",
+      "feedback": "Correct! 'Can' -> 'Can't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Can)",
+      "frenchComparison": {
+        "frenchStructure": "Il sait conduire, n'est-ce pas ?",
+        "englishStructure": "He can drive, can't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'can'.",
+        "visualHighlighting": {
+          "incorrect": "can he",
+          "correct": "can't he"
+        }
+      }
+    },
+    {
+      "id": "qt-e15-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You must study, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "mustn't you",
+        "must you",
+        "don't you"
+      ],
+      "correctAnswer": "mustn't you",
+      "feedback": "Correct! 'Must' -> 'Mustn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must)",
+      "frenchComparison": {
+        "frenchStructure": "Tu dois étudier, n'est-ce pas ?",
+        "englishStructure": "You must study, mustn't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'must'.",
+        "visualHighlighting": {
+          "incorrect": "must you",
+          "correct": "mustn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-e16-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "We should go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shouldn't we",
+        "should we",
+        "do we"
+      ],
+      "correctAnswer": "shouldn't we",
+      "feedback": "Correct! 'Should' -> 'Shouldn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Should)",
+      "frenchComparison": {
+        "frenchStructure": "Nous devrions y aller, n'est-ce pas ?",
+        "englishStructure": "We should go, shouldn't we?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'should'.",
+        "visualHighlighting": {
+          "incorrect": "should we",
+          "correct": "shouldn't we"
+        }
+      }
+    },
+    {
+      "id": "qt-e17-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "It will rain, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "won't it",
+        "will it",
+        "doesn't it"
+      ],
+      "correctAnswer": "won't it",
+      "feedback": "Correct! 'Will' -> 'Won't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Il va pleuvoir, n'est-ce pas ?",
+        "englishStructure": "It will rain, won't it?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'will' (as 'won't').",
+        "visualHighlighting": {
+          "incorrect": "will it",
+          "correct": "won't it"
+        }
+      }
+    },
+    {
+      "id": "qt-e18-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "They are playing, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't they",
+        "are they",
+        "isn't it"
+      ],
+      "correctAnswer": "aren't they",
+      "feedback": "Correct! 'They are' -> 'Aren't they'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Ils jouent, n'est-ce pas ?",
+        "englishStructure": "They are playing, aren't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'are'.",
+        "visualHighlighting": {
+          "incorrect": "are they",
+          "correct": "aren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-e19-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "He wasn't sick, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "was he",
+        "wasn't he",
+        "did he"
+      ],
+      "correctAnswer": "was he",
+      "feedback": "Correct! Negative 'wasn't' -> Positive 'was he'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Past)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'était pas malade, n'est-ce pas ?",
+        "englishStructure": "He wasn't sick, was he?",
+        "whyDifficult": "Negative 'wasn't' requires positive 'was'.",
+        "visualHighlighting": {
+          "incorrect": "wasn't he",
+          "correct": "was he"
+        }
+      }
+    },
+    {
+      "id": "qt-e20-B",
+      "moduleId": "question-tags",
+      "difficulty": "easy",
+      "questionText": "You aren't sleeping, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "are you",
+        "aren't you",
+        "do you"
+      ],
+      "correctAnswer": "are you",
+      "feedback": "Correct! Negative 'aren't' -> Positive 'are you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne dors pas, n'est-ce pas ?",
+        "englishStructure": "You aren't sleeping, are you?",
+        "whyDifficult": "Negative 'aren't' requires positive 'are'.",
+        "visualHighlighting": {
+          "incorrect": "aren't you",
+          "correct": "are you"
+        }
+      }
+    },
+    {
+      "id": "qt-m01-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He loves football, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't he",
+        "don't he",
+        "isn't he"
+      ],
+      "correctAnswer": "doesn't he",
+      "feedback": "Correct! 'Loves' -> 'Doesn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Il aime le football, n'est-ce pas ?",
+        "englishStructure": "He loves football, doesn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'doesn't' for 3rd person singular.",
+        "visualHighlighting": {
+          "incorrect": "isn't he",
+          "correct": "doesn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-m02-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "They went home, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't they",
+        "don't they",
+        "weren't they"
+      ],
+      "correctAnswer": "didn't they",
+      "feedback": "Correct! 'Went' -> 'Didn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Ils sont rentrés chez eux, n'est-ce pas ?",
+        "englishStructure": "They went home, didn't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'didn't' for Past Simple.",
+        "visualHighlighting": {
+          "incorrect": "weren't they",
+          "correct": "didn't they"
+        }
+      }
+    },
+    {
+      "id": "qt-m03-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You haven't seen him, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "have you",
+        "haven't you",
+        "did you"
+      ],
+      "correctAnswer": "have you",
+      "feedback": "Correct! 'Haven't' -> 'Have you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne l'as pas vu, n'est-ce pas ?",
+        "englishStructure": "You haven't seen him, have you?",
+        "whyDifficult": "Negative 'haven't' requires positive 'have'.",
+        "visualHighlighting": {
+          "incorrect": "haven't you",
+          "correct": "have you"
+        }
+      }
+    },
+    {
+      "id": "qt-m04-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She has left, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "hasn't she",
+        "didn't she",
+        "doesn't she"
+      ],
+      "correctAnswer": "hasn't she",
+      "feedback": "Correct! 'Has' (auxiliary) -> 'Hasn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est partie, n'est-ce pas ?",
+        "englishStructure": "She has left, hasn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the auxiliary 'has'.",
+        "visualHighlighting": {
+          "incorrect": "doesn't she",
+          "correct": "hasn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-m05-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "We didn't win, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did we",
+        "didn't we",
+        "had we"
+      ],
+      "correctAnswer": "did we",
+      "feedback": "Correct! 'Didn't' -> 'Did we'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'avons pas gagné, n'est-ce pas ?",
+        "englishStructure": "We didn't win, did we?",
+        "whyDifficult": "Negative 'didn't' requires positive 'did'.",
+        "visualHighlighting": {
+          "incorrect": "didn't we",
+          "correct": "did we"
+        }
+      }
+    },
+    {
+      "id": "qt-m06-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "I am not crazy, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "am I",
+        "aren't I",
+        "do I"
+      ],
+      "correctAnswer": "am I",
+      "feedback": "Correct! 'I am not' -> 'Am I'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Exception (I am not)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne suis pas fou, n'est-ce pas ?",
+        "englishStructure": "I am not crazy, am I?",
+        "whyDifficult": "Negative 'I am not' follows the normal rule (am I), unlike the positive form.",
+        "visualHighlighting": {
+          "incorrect": "aren't I",
+          "correct": "am I"
+        }
+      }
+    },
+    {
+      "id": "qt-m07-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He never talks, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "does he",
+        "doesn't he",
+        "is he"
+      ],
+      "correctAnswer": "does he",
+      "feedback": "Correct! 'Never' is negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Il ne parle jamais, n'est-ce pas ?",
+        "englishStructure": "He never talks, does he?",
+        "whyDifficult": "'Never' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he",
+          "correct": "does he"
+        }
+      }
+    },
+    {
+      "id": "qt-m08-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You'd better study, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "hadn't you",
+        "wouldn't you",
+        "didn't you"
+      ],
+      "correctAnswer": "hadn't you",
+      "feedback": "Correct! 'You'd better' = 'You had better'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Had better",
+      "frenchComparison": {
+        "frenchStructure": "Tu ferais mieux d'étudier, n'est-ce pas ?",
+        "englishStructure": "You'd better study, hadn't you?",
+        "whyDifficult": "'You'd better' stands for 'You had better', so the tag uses 'hadn't'.",
+        "visualHighlighting": {
+          "incorrect": "wouldn't you",
+          "correct": "hadn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m09-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "There was a fire, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "wasn't there",
+        "was there",
+        "didn't there"
+      ],
+      "correctAnswer": "wasn't there",
+      "feedback": "Correct! 'There was' -> 'Wasn't there'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There was",
+      "frenchComparison": {
+        "frenchStructure": "Il y a eu un incendie, n'est-ce pas ?",
+        "englishStructure": "There was a fire, wasn't there?",
+        "whyDifficult": "English uses 'there' in the tag, not 'it'.",
+        "visualHighlighting": {
+          "incorrect": "didn't there",
+          "correct": "wasn't there"
+        }
+      }
+    },
+    {
+      "id": "qt-m10-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "Let's dance, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shall we",
+        "will we",
+        "do we"
+      ],
+      "correctAnswer": "shall we",
+      "feedback": "Correct! 'Let's' -> 'Shall we'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives (Let's)",
+      "frenchComparison": {
+        "frenchStructure": "Dansons, d'accord ?",
+        "englishStructure": "Let's dance, shall we?",
+        "whyDifficult": "English uses 'shall we' for suggestions starting with 'Let's'.",
+        "visualHighlighting": {
+          "incorrect": "will we",
+          "correct": "shall we"
+        }
+      }
+    },
+    {
+      "id": "qt-m11-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "Don't do that, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "do you",
+        "did you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Imperative 'Don't' -> 'Will you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Ne fais pas ça, d'accord ?",
+        "englishStructure": "Don't do that, will you?",
+        "whyDifficult": "Imperatives (commands) usually take 'will you' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "do you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-m12-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He works hard, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't he",
+        "don't he",
+        "isn't he"
+      ],
+      "correctAnswer": "doesn't he",
+      "feedback": "Correct! 'Works' -> 'Doesn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Il travaille dur, n'est-ce pas ?",
+        "englishStructure": "He works hard, doesn't he?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'doesn't' for 3rd person singular.",
+        "visualHighlighting": {
+          "incorrect": "isn't he",
+          "correct": "doesn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-m13-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You know him, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "don't you",
+        "do you",
+        "aren't you"
+      ],
+      "correctAnswer": "don't you",
+      "feedback": "Correct! 'Know' -> 'Don't you'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Present Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Tu le connais, n'est-ce pas ?",
+        "englishStructure": "You know him, don't you?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'don't' for Present Simple verbs.",
+        "visualHighlighting": {
+          "incorrect": "aren't you",
+          "correct": "don't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m14-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She taught you, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't she",
+        "doesn't she",
+        "hasn't she"
+      ],
+      "correctAnswer": "didn't she",
+      "feedback": "Correct! Past 'Taught' -> 'Didn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Elle t'a enseigné, n'est-ce pas ?",
+        "englishStructure": "She taught you, didn't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'didn't' for Past Simple.",
+        "visualHighlighting": {
+          "incorrect": "doesn't she",
+          "correct": "didn't she"
+        }
+      }
+    },
+    {
+      "id": "qt-m15-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "We haven't met, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "have we",
+        "haven't we",
+        "did we"
+      ],
+      "correctAnswer": "have we",
+      "feedback": "Correct! 'Haven't' -> 'Have we'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Nous ne nous sommes pas rencontrés, n'est-ce pas ?",
+        "englishStructure": "We haven't met, have we?",
+        "whyDifficult": "Negative 'haven't' requires positive 'have'.",
+        "visualHighlighting": {
+          "incorrect": "haven't we",
+          "correct": "have we"
+        }
+      }
+    },
+    {
+      "id": "qt-m16-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "You'd like coffee, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "wouldn't you",
+        "didn't you",
+        "hadn't you"
+      ],
+      "correctAnswer": "wouldn't you",
+      "feedback": "Correct! 'You'd like' = 'You would like'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Would like",
+      "frenchComparison": {
+        "frenchStructure": "Tu aimerais du café, n'est-ce pas ?",
+        "englishStructure": "You'd like coffee, wouldn't you?",
+        "whyDifficult": "'You'd like' stands for 'You would like', so the tag uses 'wouldn't'.",
+        "visualHighlighting": {
+          "incorrect": "hadn't you",
+          "correct": "wouldn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-m17-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "He seldom laughs, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "does he",
+        "doesn't he",
+        "is he"
+      ],
+      "correctAnswer": "does he",
+      "feedback": "Correct! 'Seldom' is negative.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Il rit rarement, n'est-ce pas ?",
+        "englishStructure": "He seldom laughs, does he?",
+        "whyDifficult": "'Seldom' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he",
+          "correct": "does he"
+        }
+      }
+    },
+    {
+      "id": "qt-m18-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "They lived there, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't they",
+        "don't they",
+        "haven't they"
+      ],
+      "correctAnswer": "didn't they",
+      "feedback": "Correct! Past 'Lived' -> 'Didn't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Past Simple)",
+      "frenchComparison": {
+        "frenchStructure": "Ils habitaient là, n'est-ce pas ?",
+        "englishStructure": "They lived there, didn't they?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English uses 'didn't' for Past Simple.",
+        "visualHighlighting": {
+          "incorrect": "haven't they",
+          "correct": "didn't they"
+        }
+      }
+    },
+    {
+      "id": "qt-m19-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "It has stopped raining, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "hasn't it",
+        "didn't it",
+        "doesn't it"
+      ],
+      "correctAnswer": "hasn't it",
+      "feedback": "Correct! Present Perfect 'Has stopped'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il a cessé de pleuvoir, n'est-ce pas ?",
+        "englishStructure": "It has stopped raining, hasn't it?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats the auxiliary 'has'.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "hasn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-m20-B",
+      "moduleId": "question-tags",
+      "difficulty": "medium",
+      "questionText": "She will win, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "won't she",
+        "will she",
+        "doesn't she"
+      ],
+      "correctAnswer": "won't she",
+      "feedback": "Correct! 'Will' -> 'Won't'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Future (Will)",
+      "frenchComparison": {
+        "frenchStructure": "Elle va gagner, n'est-ce pas ?",
+        "englishStructure": "She will win, won't she?",
+        "whyDifficult": "French uses 'n'est-ce pas'. English repeats 'will' (as 'won't').",
+        "visualHighlighting": {
+          "incorrect": "doesn't she",
+          "correct": "won't she"
+        }
+      }
+    },
+    {
+      "id": "qt-h01-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Nobody was there, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "were they",
+        "was he",
+        "weren't they"
+      ],
+      "correctAnswer": "were they",
+      "feedback": "Correct! 'Nobody' -> 'They'. Negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Nobody)",
+      "frenchComparison": {
+        "frenchStructure": "Personne n'était là, n'est-ce pas ?",
+        "englishStructure": "Nobody was there, were they?",
+        "whyDifficult": "'Nobody' is singular but takes 'they' in the tag. It also makes the sentence negative.",
+        "visualHighlighting": {
+          "incorrect": "was he",
+          "correct": "were they"
+        }
+      }
+    },
+    {
+      "id": "qt-h02-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Everybody knows, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "don't they",
+        "doesn't he",
+        "do they"
+      ],
+      "correctAnswer": "don't they",
+      "feedback": "Correct! 'Everybody' takes singular verb, but tag uses 'they' (plural verb).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Everybody)",
+      "frenchComparison": {
+        "frenchStructure": "Tout le monde le sait, n'est-ce pas ?",
+        "englishStructure": "Everybody knows, don't they?",
+        "whyDifficult": "'Everybody' takes a singular verb, but the tag uses 'they' and a plural verb.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he",
+          "correct": "don't they"
+        }
+      }
+    },
+    {
+      "id": "qt-h03-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Nothing matters, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "does it",
+        "doesn't it",
+        "do they"
+      ],
+      "correctAnswer": "does it",
+      "feedback": "Correct! 'Nothing' is negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Nothing)",
+      "frenchComparison": {
+        "frenchStructure": "Rien n'a d'importance, n'est-ce pas ?",
+        "englishStructure": "Nothing matters, does it?",
+        "whyDifficult": "'Nothing' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "does it"
+        }
+      }
+    },
+    {
+      "id": "qt-h04-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "This is yours, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "isn't this",
+        "is it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! 'This' becomes 'it'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est à toi, n'est-ce pas ?",
+        "englishStructure": "This is yours, isn't it?",
+        "whyDifficult": "'This' changes to 'it' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "isn't this",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-h05-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "These are nice, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't they",
+        "aren't these",
+        "are they"
+      ],
+      "correctAnswer": "aren't they",
+      "feedback": "Correct! 'These' becomes 'they'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Demonstrative Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ceux-ci sont beaux, n'est-ce pas ?",
+        "englishStructure": "These are nice, aren't they?",
+        "whyDifficult": "'These' changes to 'they' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "aren't these",
+          "correct": "aren't they"
+        }
+      }
+    },
+    {
+      "id": "qt-h06-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "I suppose you're tired, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't you",
+        "don't I",
+        "are you"
+      ],
+      "correctAnswer": "aren't you",
+      "feedback": "Correct! Tag the main idea (you are tired), not 'I suppose'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Complex Sentences (I suppose)",
+      "frenchComparison": {
+        "frenchStructure": "Je suppose que tu es fatigué, n'est-ce pas ?",
+        "englishStructure": "I suppose you're tired, aren't you?",
+        "whyDifficult": "The tag relates to the main clause 'you're tired', not 'I suppose'.",
+        "visualHighlighting": {
+          "incorrect": "don't I",
+          "correct": "aren't you"
+        }
+      }
+    },
+    {
+      "id": "qt-h07-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "I don't think he'll come, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will he",
+        "won't he",
+        "do I"
+      ],
+      "correctAnswer": "will he",
+      "feedback": "Correct! 'Don't think' makes the sentence negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Complex Sentences (I think)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne pense pas qu'il viendra, n'est-ce pas ?",
+        "englishStructure": "I don't think he'll come, will he?",
+        "whyDifficult": "'I don't think' makes the whole sentence negative, so the tag is positive.",
+        "visualHighlighting": {
+          "incorrect": "won't he",
+          "correct": "will he"
+        }
+      }
+    },
+    {
+      "id": "qt-h08-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Hardly any students passed, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "do they"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! 'Hardly' is negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Adverbs",
+      "frenchComparison": {
+        "frenchStructure": "Presque aucun étudiant n'a réussi, n'est-ce pas ?",
+        "englishStructure": "Hardly any students passed, did they?",
+        "whyDifficult": "'Hardly' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-h09-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "One shouldn't lie, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "should one",
+        "should he",
+        "should they"
+      ],
+      "correctAnswer": "should one",
+      "feedback": "Correct! Formal 'One' repeats.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (One)",
+      "frenchComparison": {
+        "frenchStructure": "On ne devrait pas mentir, n'est-ce pas ?",
+        "englishStructure": "One shouldn't lie, should one?",
+        "whyDifficult": "The subject 'one' is repeated in the tag in formal English.",
+        "visualHighlighting": {
+          "incorrect": "should he",
+          "correct": "should one"
+        }
+      }
+    },
+    {
+      "id": "qt-h10-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Pass me the salt, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "do you",
+        "don't you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Imperative.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Passe-moi le sel, d'accord ?",
+        "englishStructure": "Pass me the salt, will you?",
+        "whyDifficult": "Imperatives (commands) usually take 'will you' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "do you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-h11-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Let's have lunch, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "shall we",
+        "will we",
+        "do we"
+      ],
+      "correctAnswer": "shall we",
+      "feedback": "Correct! 'Let's' -> 'Shall we'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives (Let's)",
+      "frenchComparison": {
+        "frenchStructure": "Déjeunons, d'accord ?",
+        "englishStructure": "Let's have lunch, shall we?",
+        "whyDifficult": "English uses 'shall we' for suggestions starting with 'Let's'.",
+        "visualHighlighting": {
+          "incorrect": "will we",
+          "correct": "shall we"
+        }
+      }
+    },
+    {
+      "id": "qt-h12-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Neither of them came, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "do they"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! 'Neither' is negative -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions (Neither)",
+      "frenchComparison": {
+        "frenchStructure": "Aucun d'eux n'est venu, n'est-ce pas ?",
+        "englishStructure": "Neither of them came, did they?",
+        "whyDifficult": "'Neither' makes the sentence negative, so the tag must be positive.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-h13-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "You used to smoke, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "didn't you",
+        "usedn't you",
+        "don't you"
+      ],
+      "correctAnswer": "didn't you",
+      "feedback": "Correct! 'Used to' -> 'Didn't'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to",
+      "frenchComparison": {
+        "frenchStructure": "Tu fumais avant, n'est-ce pas ?",
+        "englishStructure": "You used to smoke, didn't you?",
+        "whyDifficult": "'Used to' behaves like a past tense verb and takes 'didn't' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "usedn't you",
+          "correct": "didn't you"
+        }
+      }
+    },
+    {
+      "id": "qt-h14-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "It can't be true, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "is it",
+        "can it",
+        "isn't it"
+      ],
+      "correctAnswer": "can it",
+      "feedback": "Correct! 'Can't' -> 'Can it'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals",
+      "frenchComparison": {
+        "frenchStructure": "Ce n'est pas possible, n'est-ce pas ?",
+        "englishStructure": "It can't be true, can it?",
+        "whyDifficult": "Negative 'can't' requires positive 'can'.",
+        "visualHighlighting": {
+          "incorrect": "is it",
+          "correct": "can it"
+        }
+      }
+    },
+    {
+      "id": "qt-h15-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "He'd better not go, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "had he",
+        "would he",
+        "did he"
+      ],
+      "correctAnswer": "had he",
+      "feedback": "Correct! 'Had better' negative -> Positive 'Had he'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Had better",
+      "frenchComparison": {
+        "frenchStructure": "Il ferait mieux de ne pas y aller, n'est-ce pas ?",
+        "englishStructure": "He'd better not go, had he?",
+        "whyDifficult": "'He'd better' is 'He had better'. Since it's negative ('not'), the tag is positive 'had he'.",
+        "visualHighlighting": {
+          "incorrect": "would he",
+          "correct": "had he"
+        }
+      }
+    },
+    {
+      "id": "qt-h16-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Something is wrong, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it"
+      ],
+      "correctAnswer": "isn't it",
+      "feedback": "Correct! 'Something' = It.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (Things)",
+      "frenchComparison": {
+        "frenchStructure": "Quelque chose ne va pas, n'est-ce pas ?",
+        "englishStructure": "Something is wrong, isn't it?",
+        "whyDifficult": "'Something' is singular and uses 'it' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "doesn't it",
+          "correct": "isn't it"
+        }
+      }
+    },
+    {
+      "id": "qt-h17-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Few students passed, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "did they",
+        "didn't they",
+        "do they"
+      ],
+      "correctAnswer": "did they",
+      "feedback": "Correct! 'Few' is negative.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few)",
+      "frenchComparison": {
+        "frenchStructure": "Peu d'étudiants ont réussi, n'est-ce pas ?",
+        "englishStructure": "Few students passed, did they?",
+        "whyDifficult": "'Few' (meaning not many) makes the sentence negative, so the tag is positive.",
+        "visualHighlighting": {
+          "incorrect": "didn't they",
+          "correct": "did they"
+        }
+      }
+    },
+    {
+      "id": "qt-h18-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "He must be joking, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "isn't he",
+        "mustn't he",
+        "doesn't he"
+      ],
+      "correctAnswer": "isn't he",
+      "feedback": "Correct! Deduction about state -> 'Isn't he'. ('Mustn't he' is rare/old).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals (Must - Deduction)",
+      "frenchComparison": {
+        "frenchStructure": "Il doit plaisanter, n'est-ce pas ?",
+        "englishStructure": "He must be joking, isn't he?",
+        "whyDifficult": "When 'must' expresses deduction about a state, the tag often uses 'isn't' (or 'aren't').",
+        "visualHighlighting": {
+          "incorrect": "mustn't he",
+          "correct": "isn't he"
+        }
+      }
+    },
+    {
+      "id": "qt-h19-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "Don't tell him, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "will you",
+        "do you",
+        "did you"
+      ],
+      "correctAnswer": "will you",
+      "feedback": "Correct! Negative imperative -> 'Will you'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Imperatives",
+      "frenchComparison": {
+        "frenchStructure": "Ne lui dis pas, d'accord ?",
+        "englishStructure": "Don't tell him, will you?",
+        "whyDifficult": "Imperatives (commands) usually take 'will you' in the tag.",
+        "visualHighlighting": {
+          "incorrect": "do you",
+          "correct": "will you"
+        }
+      }
+    },
+    {
+      "id": "qt-h20-B",
+      "moduleId": "question-tags",
+      "difficulty": "hard",
+      "questionText": "I am never late, ___?",
+      "type": "multiple_choice",
+      "options": [
+        "am I",
+        "aren't I",
+        "don't I"
+      ],
+      "correctAnswer": "am I",
+      "feedback": "Correct! 'Never' makes it negative -> Positive 'Am I'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Exception (I am + Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne suis jamais en retard, n'est-ce pas ?",
+        "englishStructure": "I am never late, am I?",
+        "whyDifficult": "'Never' makes the sentence negative, so the tag is positive 'am I'.",
+        "visualHighlighting": {
+          "incorrect": "aren't I",
+          "correct": "am I"
+        }
+      }
+    }
+  ]
+}

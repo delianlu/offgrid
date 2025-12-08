@@ -108,6 +108,21 @@ export function CompletionCelebration({
           </div>
         </motion.div>
 
+        {/* Share Button (Mock) */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.75 }}
+          className="mb-4"
+        >
+          <button
+            className="text-blue-600 font-semibold text-sm hover:text-blue-800 flex items-center justify-center gap-2 w-full transition-colors"
+            onClick={() => alert('Sharing functionality coming soon!')}
+          >
+            <span>📤</span> Share Achievement
+          </button>
+        </motion.div>
+
         {/* Continue Button */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

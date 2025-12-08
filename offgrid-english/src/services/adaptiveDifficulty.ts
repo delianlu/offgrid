@@ -175,16 +175,63 @@ export async function calculatePerformanceLevel(moduleId: string): Promise<Perfo
  * Select next question adaptively based on performance
  * Priority: weak areas > new items > moderate difficulty > review
  */
+/**
+ * Simple seeded random number generator (Linear Congruential Generator)
+ */
+function seededRandom(seed: number) {
+  const m = 0x80000000;
+  const a = 1103515245;
+  const c = 12345;
+  let state = seed ? seed : Math.floor(Math.random() * (m - 1));
+
+  return function () {
+    state = (a * state + c) % m;
+    return state / (m - 1);
+  };
+}
+
+/**
+ * Select next question adaptively based on performance
+ * Priority: weak areas > new items > moderate difficulty > review
+ */
 export async function selectNextQuestion(
   moduleId: string,
   formType: 'A' | 'B',
-  attemptedItemIds: Set<string>
+  attemptedItemIds: Set<string>,
+  seed?: string
 ): Promise<Item | null> {
   // Get all items for this module and form
-  const allItems = await db.items.where({ moduleId, formType }).toArray();
+  const allDbItems = await db.items.toArray();
+  const allItems = allDbItems.filter(i => i.moduleId === moduleId && i.formType === formType);
 
   if (allItems.length === 0) return null;
 
+  // If seeded (Classroom Mode), use deterministic selection
+  if (seed) {
+    // Convert seed string (e.g., "LION-45") to number
+    let seedNum = 0;
+    for (let i = 0; i < seed.length; i++) {
+      seedNum = ((seedNum << 5) - seedNum) + seed.charCodeAt(i);
+      seedNum |= 0;
+    }
+
+    const rng = seededRandom(Math.abs(seedNum));
+
+    // Filter out items already attempted in this session
+    const availableItems = allItems.filter(item => !attemptedItemIds.has(item.id));
+
+    // If all items attempted, reset (or handle as complete)
+    if (availableItems.length === 0) return null;
+
+    // Sort available items by ID to ensure consistent order before random selection
+    availableItems.sort((a, b) => a.id.localeCompare(b.id));
+
+    // Select random item using seeded RNG
+    const randomIndex = Math.floor(rng() * availableItems.length);
+    return availableItems[randomIndex];
+  }
+
+  // Normal Adaptive Mode (Unchanged logic)
   // Get performance level
   const perfLevel = await calculatePerformanceLevel(moduleId);
 

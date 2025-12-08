@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useAuth } from '../contexts/AuthContext';
 import { Header } from '../components/common/Header';
 import { Button } from '../components/common/Button';
 import { MultipleChoice } from '../components/MultipleChoice';
@@ -10,19 +11,22 @@ import {
   updateAccuracyChallenge,
   calculateDailyStreak,
   getChallengeItems,
+  getChallengeItemsBySeed,
+  generateChallengeCode,
   formatTime,
   type ChallengeStats
 } from '../services/challenges';
 import { db } from '../db/database';
 import type { Item } from '../types/schemas';
 
-type ChallengeType = 'speed' | 'accuracy' | 'streak' | null;
+type ChallengeType = 'speed' | 'accuracy' | 'code' | null;
 
 function sessionId() {
   return 'sess-' + Math.random().toString(36).slice(2);
 }
 
 export function ChallengeMode() {
+  const { currentUser } = useAuth();
   const navigate = useNavigate();
   const [stats, setStats] = useState<ChallengeStats | null>(null);
   const [selectedChallenge, setSelectedChallenge] = useState<ChallengeType>(null);
@@ -36,10 +40,22 @@ export function ChallengeMode() {
   const [startTime, setStartTime] = useState<number>(0);
   const [accuracyStreak, setAccuracyStreak] = useState(0);
   const [failed, setFailed] = useState(false);
+  const [challengeCode, setChallengeCode] = useState('');
+  const [inputCode, setInputCode] = useState('');
   const sid = useMemo(sessionId, []);
 
   useEffect(() => {
     loadStats();
+
+    // Check for URL params (Duel Mode)
+    const params = new URLSearchParams(window.location.search);
+    const seed = params.get('seed');
+    const topic = params.get('topic');
+    const diff = params.get('diff');
+
+    if (seed) {
+      startChallenge('code', seed, topic || undefined, diff || undefined);
+    }
   }, []);
 
   // Timer for speed challenge
@@ -65,9 +81,17 @@ export function ChallengeMode() {
     setStats({ ...challengeStats, currentDailyStreak: dailyStreak });
   }
 
-  async function startChallenge(type: ChallengeType) {
+  async function startChallenge(type: ChallengeType, seed?: string, topic?: string, difficulty?: string) {
     setSelectedChallenge(type);
-    const challengeItems = await getChallengeItems(10);
+
+    let challengeItems: Item[];
+    if (type === 'code' && seed) {
+      challengeItems = await getChallengeItemsBySeed(seed, 10, topic, difficulty);
+      setChallengeCode(seed);
+    } else {
+      challengeItems = await getChallengeItems(10);
+    }
+
     setItems(challengeItems);
     setIdx(0);
     setLastAnswer(null);
@@ -81,6 +105,16 @@ export function ChallengeMode() {
       setTimerActive(true);
       setStartTime(Date.now());
     }
+  }
+
+  function handleCreateCodeChallenge() {
+    const code = generateChallengeCode();
+    startChallenge('code', code);
+  }
+
+  function handleJoinCodeChallenge() {
+    if (inputCode.length < 4) return;
+    startChallenge('code', inputCode.toUpperCase());
   }
 
   function handleTimeOut() {
@@ -99,6 +133,7 @@ export function ChallengeMode() {
     const attemptId = 'att-' + Date.now();
     await db.attempts.add({
       id: attemptId,
+      userId: currentUser?.id, // Add userId
       moduleId: item.moduleId,
       itemId: item.id,
       formType: item.formType,
@@ -199,6 +234,16 @@ export function ChallengeMode() {
                 </p>
               </div>
             )}
+            {selectedChallenge === 'code' && (
+              <div className="bg-purple-50 rounded-lg p-4 mb-4">
+                <p className="text-purple-900 font-bold text-lg mb-1">
+                  Code: {challengeCode}
+                </p>
+                <p className="text-purple-700 text-sm">
+                  Share this code with friends to play the same questions!
+                </p>
+              </div>
+            )}
             <div className="flex flex-col gap-3">
               <Button variant="primary" onClick={() => {
                 setSelectedChallenge(null);
@@ -242,7 +287,7 @@ export function ChallengeMode() {
               </p>
             )}
             <div className="flex flex-col gap-3">
-              <Button variant="primary" onClick={() => startChallenge(selectedChallenge)}>
+              <Button variant="primary" onClick={() => startChallenge(selectedChallenge, challengeCode)}>
                 Try Again
               </Button>
               <Button variant="secondary" onClick={() => {
@@ -265,10 +310,15 @@ export function ChallengeMode() {
     const progress = ((idx + 1) / items.length) * 100;
     const isCorrect = lastAnswer === item.correctAnswer;
 
+    let challengeTitle = '';
+    if (selectedChallenge === 'speed') challengeTitle = 'Speed Challenge';
+    else if (selectedChallenge === 'accuracy') challengeTitle = 'Accuracy Challenge';
+    else challengeTitle = `Challenge: ${challengeCode}`;
+
     return (
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <Header
-          title={`${selectedChallenge === 'speed' ? 'Speed' : 'Accuracy'} Challenge`}
+          title={challengeTitle}
           currentItem={idx + 1}
           totalItems={items.length}
           progress={progress}
@@ -277,10 +327,13 @@ export function ChallengeMode() {
         {/* Challenge Info Bar */}
         <div className="bg-white border-b border-gray-200 px-6 py-3">
           <div className="flex items-center justify-between">
-            <span className={`inline-block ${
-              selectedChallenge === 'speed' ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'
-            } text-sm font-bold px-4 py-2 rounded-full`}>
-              {selectedChallenge === 'speed' ? '⚡ Speed Challenge' : '🎯 Accuracy Challenge'}
+            <span className={`inline-block ${selectedChallenge === 'speed' ? 'bg-blue-100 text-blue-800' :
+              selectedChallenge === 'accuracy' ? 'bg-green-100 text-green-800' :
+                'bg-purple-100 text-purple-800'
+              } text-sm font-bold px-4 py-2 rounded-full`}>
+              {selectedChallenge === 'speed' ? '⚡ Speed' :
+                selectedChallenge === 'accuracy' ? '🎯 Accuracy' :
+                  `🔑 Code: ${challengeCode}`}
             </span>
             {selectedChallenge === 'speed' && (
               <div className={`text-xl font-bold ${timeRemaining < 30 ? 'text-red-600' : 'text-gray-900'}`}>
@@ -333,7 +386,7 @@ export function ChallengeMode() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/30 dark:to-red-900/30 border-l-4 border-orange-500 dark:border-orange-400 rounded-xl p-6 mb-6"
+          className="bg-gradient-to-r from-blue-50 to-red-50 dark:from-blue-900/30 dark:to-red-900/30 border-l-4 border-blue-500 dark:border-blue-400 rounded-xl p-6 mb-6"
         >
           <div className="flex items-start gap-3">
             <div className="text-4xl">⚡</div>
@@ -349,7 +402,7 @@ export function ChallengeMode() {
         </motion.div>
 
         {/* Challenge Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-8">
           {/* Speed Challenge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -371,11 +424,6 @@ export function ChallengeMode() {
                   {stats.speedBestTime ? formatTime(stats.speedBestTime) : '--:--'}
                 </div>
                 <div className="text-xs text-blue-700 dark:text-blue-300">Best Time</div>
-              </div>
-              <div className="text-center mt-2">
-                <div className="text-sm text-blue-800 dark:text-blue-200">
-                  {stats.speedCompletions} completions
-                </div>
               </div>
             </div>
 
@@ -406,54 +454,71 @@ export function ChallengeMode() {
                 </div>
                 <div className="text-xs text-green-700 dark:text-green-300">Best Streak</div>
               </div>
-              <div className="text-center mt-2">
-                <div className="text-sm text-green-800 dark:text-green-200">
-                  {stats.accuracyCompletions} completions
-                </div>
-              </div>
             </div>
 
             <Button variant="success" onClick={() => startChallenge('accuracy')} fullWidth={true}>
               Start Challenge
             </Button>
           </motion.div>
+        </div>
 
-          {/* Daily Streak */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-t-4 border-purple-500"
-          >
-            <div className="text-5xl mb-4">🔥</div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-              Daily Streak
-            </h3>
-            <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
-              Practice every day to build your streak
-            </p>
-
-            <div className="bg-purple-50 dark:bg-purple-900/20 rounded-lg p-4 mb-4">
-              <div className="text-center mb-3">
-                <div className="text-3xl font-bold text-purple-900 dark:text-purple-100 mb-1">
-                  {stats.currentDailyStreak} 🔥
-                </div>
-                <div className="text-xs text-purple-700 dark:text-purple-300">Current Streak</div>
-              </div>
-              <div className="text-center">
-                <div className="text-sm text-purple-800 dark:text-purple-200">
-                  Longest: {stats.longestDailyStreak} days
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-purple-100 dark:bg-purple-900/30 rounded-lg p-3 text-center">
-              <p className="text-xs text-purple-800 dark:text-purple-200">
-                Practice today to keep your streak alive!
+        {/* Offline Challenge Codes */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-t-4 border-purple-500"
+        >
+          <div className="flex items-center gap-4 mb-6">
+            <div className="text-5xl">🔑</div>
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                Offline Challenge Codes
+              </h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
+                Play the same questions as your friends!
               </p>
             </div>
-          </motion.div>
-        </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Create Code */}
+            <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-6">
+              <h4 className="font-bold text-purple-900 dark:text-purple-100 mb-2">Create a Challenge</h4>
+              <p className="text-sm text-purple-700 dark:text-purple-300 mb-4">
+                Generate a unique code. Share it with friends to compete on the exact same questions.
+              </p>
+              <Button variant="primary" onClick={handleCreateCodeChallenge} fullWidth={true}>
+                Generate Code & Play
+              </Button>
+            </div>
+
+            {/* Join Code */}
+            <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-6">
+              <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Join a Challenge</h4>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                Enter a code from a friend to play their challenge.
+              </p>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  placeholder="CODE"
+                  maxLength={4}
+                  value={inputCode}
+                  onChange={(e) => setInputCode(e.target.value.toUpperCase())}
+                  className="flex-1 border-2 border-gray-300 rounded-xl px-4 py-3 font-mono text-lg uppercase focus:border-purple-500 focus:outline-none"
+                />
+                <Button
+                  variant="secondary"
+                  onClick={handleJoinCodeChallenge}
+                  disabled={inputCode.length < 4}
+                >
+                  Play
+                </Button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </main>
     </div>
   );

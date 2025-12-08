@@ -1,265 +1,86 @@
 {
   "id": "prepositions",
   "name": "Prepositions",
-  "category": "prepositions",
-  "moduleIntroduction": "Welcome to the module on Prepositions! Prepositions are small but very important words like in, on, at, to, and from. They show the relationship between things, telling us where something is, when something happens, or where it is going.\n\nThis is a big challenge for Francophone students because French often uses one word where English uses many. For example, the French word 'à' can mean at, on, or in depending on the situation (\"à Yaoundé\", \"à 8h00\"). You cannot just translate \"à\" to \"at\". English has different rules. For example, we say \"in Yaoundé\" but \"at the market\". This module will teach you the English patterns for time, place, and movement so you can choose the correct preposition with confidence.",
-  "contrastiveExplanation": "The main problem with prepositions is direct translation. French à, en, dans, and sur do not map perfectly to English at, in, and on. You must learn the English logic.\n\nPrepositions of Time (IN / ON / AT):\n\nIN is for long periods (like a container of time):\nExamples: in 2024, in August, in the morning, in two weeks.\nFrench: \"en 2024\", \"au mois d'août\", \"dans la matinée\".\n\nON is for specific days and dates (like a date on a calendar page):\nExamples: on Monday, on my birthday, on October 1st.\nFrench: \"lundi\" (no preposition), \"le 1er octobre\". This is a big difference! English needs 'on'.\n\nAT is for specific times (like a point on a clock):\nExamples: at 8:00 PM, at noon, at night.\nFrench: \"à 8h00\", \"à midi\". This is similar, but 'at night' is different from \"la nuit\".\n\nTip: Think of a pyramid. IN is the big base (months, years). ON is in the middle (days, dates). AT is the small point (clock time).\n\nPrepositions of Place (IN / ON / AT):\n\nIN is for inside a container or a large area:\nExamples: in the classroom, in Cameroon, in Yaoundé.\nFrench: \"dans la classe\", \"au Cameroun\", \"à Yaoundé\". French uses 'à' for cities, but English always uses 'in'.\n\nON is for a surface:\nExamples: on the table, on the floor, on the wall.\nFrench: \"sur la table\". This is often similar.\n\nAT is for a specific point or location:\nExamples: at the bus stop, at school, at the market.\nFrench: \"à l'arrêt de bus\", \"à l'école\", \"au marché\".\n\nPrepositions of Movement (TO / FROM / INTO):\n\nTO shows direction towards a destination.\nExample: \"I am going to Douala.\"\nFrench: \"Je vais à Douala.\" (Using 'à').\n\nFROM shows the origin.\nExample: \"He is coming from the village.\"\nFrench: \"Il vient du village.\" (Using 'de').\n\nThe error comes when translating \"at\" for \"to\".\n❌ \"I am going at the market.\" (French \"Je vais au marché\" (à+le)).\n✅ \"I am going to the market.\"",
-  "commonErrors": [
-    {
-      "number": 1,
-      "wrong": "My father lives at Yaoundé.",
-      "correct": "My father lives in Yaoundé.",
-      "frenchConnection": "French uses \"à\" for cities (\"à Yaoundé\"). Students translate \"à\" directly to \"at\". English must use \"in\" for cities and countries."
-    },
-    {
-      "number": 2,
-      "wrong": "The meeting is on Monday, at the morning.",
-      "correct": "The meeting is on Monday, in the morning.",
-      "frenchConnection": "French \"dans la matinée\" or \"le matin\" is confusing. English always uses \"in the morning\", \"in the afternoon\", and \"in the evening\". (But \"at night\"!)"
-    },
-    {
-      "number": 3,
-      "wrong": "We have our exam in Friday.",
-      "correct": "We have our exam on Friday.",
-      "frenchConnection": "French often uses no preposition for days (\"Nous avons l'examen vendredi\"). Students guess 'in'. English must use \"on\" for days of the week."
-    },
-    {
-      "number": 4,
-      "wrong": "I will see you at 8:00 PM in the night.",
-      "correct": "I will see you at 8:00 PM at night.",
-      "frenchConnection": "\"Dans la nuit\" (in the night) is correct in French, but the English fixed expression is \"at night\"."
-    },
-    {
-      "number": 5,
-      "wrong": "Ngono is going at school.",
-      "correct": "Ngono is going to school.",
-      "frenchConnection": "French \"Elle va à l'école\". \"À\" (to) is confused with \"at\" (location). For movement/direction, English uses \"to\"."
-    },
-    {
-      "number": 6,
-      "wrong": "The students are in the school compound.",
-      "correct": "The students are at the school compound.",
-      "frenchConnection": "French \"dans\" (in) is common. \"At\" is used for a general location or area. Use \"in\" only if you mean inside an enclosed space."
-    },
-    {
-      "number": 7,
-      "wrong": "He is coming at Douala.",
-      "correct": "He is coming to Douala.",
-      "frenchConnection": "Another \"à\" (to) vs. \"at\" (location) error. Movement towards a place uses \"to\"."
-    },
-    {
-      "number": 8,
-      "wrong": "I was born in 1990, in October 5th.",
-      "correct": "I was born in 1990, on October 5th.",
-      "frenchConnection": "You use \"in\" for the year (in 1990), but \"on\" for a specific date (on October 5th)."
-    },
-    {
-      "number": 9,
-      "wrong": "She is afraid from dogs.",
-      "correct": "She is afraid of dogs.",
-      "frenchConnection": "This is a dependent preposition error. French \"avoir peur de\". \"De\" is translated to \"from\", but the correct English phrase is \"afraid of\"."
-    },
-    {
-      "number": 10,
-      "wrong": "He is married with a woman from Bafoussam.",
-      "correct": "He is married to a woman from Bafoussam.",
-      "frenchConnection": "French \"marié avec...\". \"Avec\" is \"with\". The correct English phrase is \"married to\"."
-    },
-    {
-      "number": 11,
-      "wrong": "I must listen at the teacher.",
-      "correct": "I must listen to the teacher.",
-      "frenchConnection": "French \"écouter le professeur\" (no preposition). Students add the wrong one. The English verb 'listen' must be followed by \"to\"."
-    },
-    {
-      "number": 12,
-      "wrong": "It depends of the price.",
-      "correct": "It depends on the price.",
-      "frenchConnection": "French \"dépend de...\". \"De\" is translated as \"of\". The correct English phrase is \"depend on\"."
-    },
-    {
-      "number": 13,
-      "wrong": "He arrived to the motor park.",
-      "correct": "He arrived at the motor park.",
-      "frenchConnection": "You \"go to\" a place, but you \"arrive at\" a specific location. French \"Il est arrivé au (à+le) parc...\" causes the confusion."
-    },
-    {
-      "number": 14,
-      "wrong": "Different of my brother, I like music.",
-      "correct": "Different from my brother, I like music.",
-      "frenchConnection": "French \"différent de\". \"De\" is translated to \"of\". The correct English phrase is \"different from\" (or \"different to\" in British English)."
-    },
-    {
-      "number": 15,
-      "wrong": "We participate of the competition.",
-      "correct": "We participate in the competition.",
-      "frenchConnection": "French \"participer à\". Students may translate to \"of\". The correct English phrase is \"participate in\"."
-    }
-  ],
+  "category": "grammar",
   "schema_version": "1",
   "module_version": "1.0.0",
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Prepositions module! Small words, big headaches.",
+    "theProblem": "Prepositions are the hardest part of English because they often have no logic. In French, the single word \"à\" can translate to *at, to, in,* or *on* depending on the context. If you translate directly from French, you will be wrong 50% of the time.",
+    "thePromise": "By the end of this lesson, you will stop guessing. You will learn the 'Time Funnel' and the 'Movement Arrow' so you can know exactly which preposition to use for Time and Place."
+  },
+  "contrastiveExplanation": "### Concept 1: The Time Funnel (At / On / In)\n\n**The Rule:**\nEnglish organizes time by size.\n* **IN (Big Time):** Years, Months, Seasons, Centuries. (e.g., *In 2023, In May*).\n* **ON (Medium Time):** Days and Dates. (e.g., *On Monday, On Christmas Day*).\n* **AT (Tiny Time):** Exact clock time or specific moments. (e.g., *At 8:00 PM, At night*).\n\n**The French Trap:**\nFrench uses different logic. You say \"**En** 2020\" (In) but \"**Le** Lundi\" (The Monday) and \"**À** 8h\" (At).\n\n**The Fix:**\nVisualize specific shapes for time.\n\n**Visual Metaphor:**\nThink of a **Funnel** 🔽.\n* Top (Wide): **IN** 2023 (Big space).\n* Middle (Narrower): **ON** Monday.\n* Bottom (Point): **AT** 2:00 PM.\n\n**Examples:**\n* 🇫🇷 *Je suis né en Mai.* (Month)\n    * ❌ I was born on May.\n    * ✅ I was born **in** May.\n* 🇫🇷 *Je te verrai Lundi.* (Day)\n    * ❌ I will see you in Monday.\n    * ✅ I will see you **on** Monday.\n* 🇫🇷 *Le cours commence à 8h.* (Clock)\n    * ✅ The class starts **at** 8 AM.\n\n---\n\n### Concept 2: Movement vs. Position (To vs. At/In)\n\n**The Rule:**\n* **TO:** Use only for **movement** or direction towards a destination. (Go, come, walk, drive).\n* **AT / IN:** Use for **position** (where you are right now). Static verbs (Stay, be, live, work).\n\n**The French Trap:**\nFrench uses \"à\" for BOTH movement and position.\n* *Je vais **à** l'école.* (Movement)\n* *Je suis **à** l'école.* (Position)\nBecause of this, Francophones often say: \"I am going **at** the market.\"\n\n**The Fix:**\nLook at the verb. Is it moving? Use **TO**. Is it staying? Use **AT/IN**.\n\n**Visual Metaphor:**\n* **TO** is an **Arrow** ➔ (It flies towards a target).\n* **AT** is a **Pin** 📍 (It sticks in one spot).\n\n**Examples:**\n* 🇫🇷 *Je vais au marché.* (Movement)\n    * ❌ I go **at** the market.\n    * ✅ I go **to** the market.\n* 🇫🇷 *Il est à la banque.* (Position)\n    * ❌ He is **to** the bank.\n    * ✅ He is **at** the bank.\n\n---\n\n### Concept 3: The \"Sticky\" Verbs (Dependent Prepositions)\n\n**The Rule:**\nCertain verbs and adjectives are \"married\" to specific prepositions. You cannot change them. Logic does not apply here; you must memorize the pair.\n\n**The French Trap:**\nTranslation is your enemy here.\n* *Marié **avec*** (with) ➡️ English: Married **to**.\n* *Discuter **de*** (of/about) ➡️ English: Discuss **Ø** (No preposition).\n* *Bon **en*** (in) ➡️ English: Good **at**.\n\n**The Fix:**\nDon't learn the word alone. Learn the \"chunk.\"\n\n**Visual Metaphor:**\nThink of **Superglue**. The word \"Listen\" has glue on it, and it sticks only to \"To\". If you say \"Listen me\", the sentence falls apart.\n\n**Examples:**\n* 🇫🇷 *J'écoute la musique.*\n    * ❌ I listen music.\n    * ✅ I listen **to** music.\n* 🇫🇷 *Ça dépend de toi.*\n    * ❌ It depends **of** you.\n    * ✅ It depends **on** you.\n* 🇫🇷 *J'ai demandé à mon père.*\n    * ❌ I asked **to** my father.\n    * ✅ I asked **Ø** my father.",
+  "commonErrors": [
+    {
+      "subTopic": "Movement vs Position",
+      "wrong": "I am going at school.",
+      "correct": "I am going to school.",
+      "frenchConnection": "French uses 'à' (at) for destination. English requires 'to' for movement verbs like 'go'."
+    },
+    {
+      "subTopic": "Days of the Week",
+      "wrong": "I will travel in Tuesday.",
+      "correct": "I will travel on Tuesday.",
+      "frenchConnection": "Confusion between 'In' (months) and 'On' (days). Days always take 'On'."
+    },
+    {
+      "subTopic": "Verbs (No Preposition)",
+      "wrong": "We discussed about politics.",
+      "correct": "We discussed politics.",
+      "frenchConnection": "French 'discuter de'. In English, 'discuss' is transitive and takes NO preposition."
+    },
+    {
+      "subTopic": "Verbs (To)",
+      "wrong": "I asked to the teacher.",
+      "correct": "I asked the teacher.",
+      "frenchConnection": "French 'demander à'. In English, 'ask' usually takes no preposition before the person."
+    },
+    {
+      "subTopic": "Dependent Prepositions (Marriage)",
+      "wrong": "She is married with a doctor.",
+      "correct": "She is married to a doctor.",
+      "frenchConnection": "Direct translation of 'marié avec'. In English, you are married TO someone."
+    },
+    {
+      "subTopic": "Adjectives (Skills)",
+      "wrong": "Muna is good in football.",
+      "correct": "Muna is good at football.",
+      "frenchConnection": "French 'bon en'. For skills and abilities, English uses 'Good at' or 'Bad at'."
+    }
+  ],
   "items": [
     {
-      "id": "prepositions-1-A",
+      "id": "prep-e01-A",
       "moduleId": "prepositions",
-      "questionText": "My birthday is ___ August.",
+      "difficulty": "easy",
+      "questionText": "I wake up ___ 6:00 AM.",
       "type": "multiple_choice",
       "options": [
+        "in",
         "on",
-        "at",
-        "in"
-      ],
-      "correctAnswer": "in",
-      "feedback": "Correct! We use IN for long periods of time, including months (in August), years (in 2025), and seasons (in the dry season).",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Time Prepositions",
-      "frenchComparison": {
-        "frenchStructure": "\"Mon anniversaire est en août.\"\n(French uses \"en\" for months, which is a common equivalent for \"in\".)",
-        "englishStructure": "\"My birthday is in August.\"\n(English uses \"in\" for long periods like months, seasons, and years.)",
-        "whyDifficult": "This is not the hardest error, as \"en\" often maps to \"in\". The confusion arises when students mix this up with \"on\" (for days) and \"at\" (for times). The French \"au mois d'août\" (in the month of August) can also add confusion.",
-        "visualHighlighting": {
-          "incorrect": "My birthday is *on* August",
-          "correct": "My birthday is *in* August"
-        }
-      }
-    },
-    {
-      "id": "prepositions-2-A",
-      "moduleId": "prepositions",
-      "questionText": "The school re-opens ___ September 15th.",
-      "type": "multiple_choice",
-      "options": [
-        "on",
-        "at",
-        "in"
-      ],
-      "correctAnswer": "on",
-      "feedback": "Excellent! We use ON for specific days and dates. Because this is a full date (September 15th), we must use 'on'.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Time Prepositions",
-      "frenchComparison": {
-        "frenchStructure": "\"L'école rouvre le 15 septembre.\"\n(French uses the definite article \"le\" (the) before a specific date.)",
-        "englishStructure": "\"The school re-opens on September 15th.\"\n(English *must* use the preposition \"on\" for all specific days and dates.)",
-        "whyDifficult": "French does not use a preposition like \"on\" in this case (\"le 15\"). Students translating this logic either use \"the\" (a direct translation of \"le\") or no preposition at all. They must learn the English rule: **Day/Date = ON**.",
-        "visualHighlighting": {
-          "incorrect": "...re-opens *the* September 15th.",
-          "correct": "...re-opens *on* September 15th."
-        }
-      }
-    },
-    {
-      "id": "prepositions-3-A",
-      "moduleId": "prepositions",
-      "questionText": "Our first class starts ___ 7:30 AM.",
-      "type": "multiple_choice",
-      "options": [
-        "on",
-        "at",
-        "in"
+        "at"
       ],
       "correctAnswer": "at",
-      "feedback": "That's right! We use AT for specific clock times (at 7:30 AM, at noon, at midnight).",
+      "feedback": "Correct! We use 'at' for specific clock times.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
-    },
-    {
-      "id": "prepositions-4-A",
-      "moduleId": "prepositions",
-      "questionText": "I always study ___ the evening after dinner.",
-      "type": "multiple_choice",
-      "options": [
-        "at",
-        "on",
-        "in"
-      ],
-      "correctAnswer": "in",
-      "feedback": "Perfect! We use IN for parts of the day: in the morning, in the afternoon, in the evening. (Exception: at night!)",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
-    },
-    {
-      "id": "prepositions-5-A",
-      "moduleId": "prepositions",
-      "questionText": "Find the error: \"Muna always brushes his teeth in the morning, but he forgets in night.\"",
-      "type": "error_correction",
-      "options": [
-        "in the morning",
-        "he forgets",
-        "in night",
-        "No error"
-      ],
-      "correctAnswer": "in night",
-      "feedback": "You found it! We say \"IN the morning\", \"IN the afternoon\", and \"IN the evening\", but the expression for night is different: \"AT night\".",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "at night",
-      "subTopic": "Time Prepositions",
+      "subTopic": "Time (Clock)",
       "frenchComparison": {
-        "frenchStructure": "\"Il oublie la nuit\" or \"dans la nuit\".\n(French can use \"la nuit\" (the night) or \"dans la nuit\" (in the night) depending on the context.)",
-        "englishStructure": "\"He forgets at night.\"\n(English uses fixed expressions: \"in the morning\", \"in the afternoon\", \"in the evening\", but it *must* be \"at night\".)",
-        "whyDifficult": "Students learn \"in the morning/afternoon\" and logically apply it, saying \"in the night\". This is a direct translation of \"dans la nuit\" and seems to follow the pattern, but \"at night\" is a fixed, idiomatic exception.",
+        "frenchStructure": "Je me réveille à 6h...",
+        "englishStructure": "I wake up at 6:00 AM...",
+        "whyDifficult": "Direct translation works here ('à' = 'at'), but learners confuse it with 'in' or 'on'.",
         "visualHighlighting": {
-          "incorrect": "He forgets *in the night*.",
-          "correct": "He forgets *at night*."
+          "incorrect": "in",
+          "correct": "at"
         }
       }
     },
     {
-      "id": "prepositions-6-A",
+      "id": "prep-e02-A",
       "moduleId": "prepositions",
-      "questionText": "I live ___ a small neighborhood ___ Yaoundé.",
-      "type": "multiple_choice",
-      "options": [
-        "at / in",
-        "in / at",
-        "in / in"
-      ],
-      "correctAnswer": "in / in",
-      "feedback": "Perfect! We use IN for cities (in Yaoundé) and also for enclosed areas like a neighborhood (in a neighborhood). French uses \"à Yaoundé\", which is why this is tricky.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Place Prepositions",
-      "frenchComparison": {
-        "frenchStructure": "\"J'habite dans un petit quartier à Yaoundé.\"\n(French uses \"dans\" (in) for an enclosed area, but \"à\" for a city.)",
-        "englishStructure": "\"I live in a small neighborhood in Yaoundé.\"\n(English uses \"in\" for both the enclosed area (neighborhood) and the large area (city, country).)",
-        "whyDifficult": "This is a major, high-frequency error. French *always* uses \"à\" before a city name (\"à Yaoundé\", \"à Douala\"). Students translate \"à\" directly to \"at\". They *must* learn the English rule: **Cities & Countries = IN**.",
-        "visualHighlighting": {
-          "incorrect": "I live *at* Yaoundé.",
-          "correct": "I live *in* Yaoundé."
-        }
-      }
-    },
-    {
-      "id": "prepositions-7-A",
-      "moduleId": "prepositions",
-      "questionText": "Please wait for me ___ the motor park entrance.",
-      "type": "multiple_choice",
-      "options": [
-        "at",
-        "on",
-        "in"
-      ],
-      "correctAnswer": "at",
-      "feedback": "Correct! We use AT to talk about a specific point or location (at the entrance, at the bus stop, at the market).",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-8-A",
-      "moduleId": "prepositions",
-      "questionText": "Don't write ___ the wall of the classroom!",
+      "difficulty": "easy",
+      "questionText": "My birthday is ___ Monday.",
       "type": "multiple_choice",
       "options": [
         "in",
@@ -267,130 +88,566 @@
         "at"
       ],
       "correctAnswer": "on",
-      "feedback": "That's right. A wall is a surface. We write or put things ON a surface (on the wall, on the table, on the floor).",
+      "feedback": "Correct! We use 'on' for days of the week.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-9-A",
-      "moduleId": "prepositions",
-      "questionText": "Find the error: \"The teacher is standing in the front of the class.\"",
-      "type": "error_correction",
-      "options": [
-        "is standing",
-        "in the front of",
-        "the class",
-        "No error"
-      ],
-      "correctAnswer": "in the front of",
-      "feedback": "Good catch! The correct expression is \"at the front of\" (meaning \"à l'avant de\"). \"In the front of\" is not correct in this context.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "at the front of",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-10-A",
-      "moduleId": "prepositions",
-      "questionText": "We are travelling ___ Bamenda tomorrow.",
-      "type": "multiple_choice",
-      "options": [
-        "to",
-        "at",
-        "in"
-      ],
-      "correctAnswer": "to",
-      "feedback": "Yes! When we talk about movement towards a destination, we use TO. French \"aller à...\" often causes students to use 'at' by mistake.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Movement Prepositions",
+      "subTopic": "Time (Days)",
       "frenchComparison": {
-        "frenchStructure": "\"Nous voyageons à Bamenda demain.\"\n(French uses \"à\" to show direction/destination.)",
-        "englishStructure": "\"We are travelling to Bamenda tomorrow.\"\n(English *must* use \"to\" to show movement or direction towards a destination.)",
-        "whyDifficult": "This is the *other* \"à\" problem. Students confuse the French \"à\" (destination) with the English \"at\" (location). They mean \"to\" but say \"at\". (e.g., \"I go *at* school\" instead of \"I go *to* school\").",
+        "frenchStructure": "Mon anniversaire est Lundi...",
+        "englishStructure": "My birthday is on Monday...",
+        "whyDifficult": "French uses no preposition (or 'le'). English requires 'on'.",
         "visualHighlighting": {
-          "incorrect": "We are travelling *at* Bamenda.",
-          "correct": "We are travelling *to* Bamenda."
+          "incorrect": "in",
+          "correct": "on"
         }
       }
     },
     {
-      "id": "prepositions-11-A",
+      "id": "prep-e03-A",
       "moduleId": "prepositions",
-      "questionText": "The bus is coming ___ Bafoussam.",
+      "difficulty": "easy",
+      "questionText": "School starts ___ September.",
       "type": "multiple_choice",
       "options": [
-        "from",
+        "on",
         "at",
-        "to"
+        "in"
       ],
-      "correctAnswer": "from",
-      "feedback": "Correct! We use FROM to show the origin or starting point (like French \"de\" or \"du\").",
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for months, years, and seasons.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Movement Prepositions"
+      "subTopic": "Time (Months)",
+      "frenchComparison": {
+        "frenchStructure": "L'école commence en Septembre...",
+        "englishStructure": "School starts in September...",
+        "whyDifficult": "French uses 'en'. English uses 'in'. Very similar.",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
     },
     {
-      "id": "prepositions-12-A",
+      "id": "prep-e04-A",
       "moduleId": "prepositions",
-      "questionText": "My father arrived ___ the village late last night.",
+      "difficulty": "easy",
+      "questionText": "I live ___ Yaoundé.",
       "type": "multiple_choice",
       "options": [
-        "to",
         "at",
+        "on",
         "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for cities, countries, and towns.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (City)",
+      "frenchComparison": {
+        "frenchStructure": "J'habite à Yaoundé...",
+        "englishStructure": "I live in Yaoundé...",
+        "whyDifficult": "French uses 'à' for cities. English uses 'in' (enclosed space/area).",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e05-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "The book is ___ the table.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We use 'on' for surfaces.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Surface)",
+      "frenchComparison": {
+        "frenchStructure": "Le livre est sur la table...",
+        "englishStructure": "The book is on the table...",
+        "whyDifficult": "Direct translation works ('sur' = 'on').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-e06-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I am going ___ the market.",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We use 'to' for movement or direction (go to, come to).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (To)",
+      "frenchComparison": {
+        "frenchStructure": "Je vais au marché...",
+        "englishStructure": "I am going to the market...",
+        "whyDifficult": "French uses 'à' (au). English requires 'to' for movement.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-e07-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "He is waiting ___ the bus stop.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
       ],
       "correctAnswer": "at",
-      "feedback": "Excellent! This is tricky. We say \"go TO\" a place, but \"arrive AT\" a place. This is a fixed English pattern you must memorize.",
+      "feedback": "Correct! We use 'at' for a specific point or location.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions",
+      "subTopic": "Place (Point)",
       "frenchComparison": {
-        "frenchStructure": "\"Mon père est arrivé au village (à + le) tard hier soir.\"\n(French uses \"à\" (in its 'au' form) for \"arriver\".)",
-        "englishStructure": "\"My father arrived at the village...\"\n(English uses \"arrive at\" for a specific point/location and \"arrive in\" for a large area (city/country). We do *not* use \"arrive to\".)",
-        "whyDifficult": "Because \"go to\", \"travel to\", and \"come to\" are correct, students assume \"arrive to\" is also correct. This is reinforced by the French \"arriver à\". They must learn that \"arrive\" is a special verb that takes \"at\" or \"in\".",
+        "frenchStructure": "Il attend à l'arrêt de bus...",
+        "englishStructure": "He is waiting at the bus stop...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
         "visualHighlighting": {
-          "incorrect": "My father arrived *to* the village...",
-          "correct": "My father arrived *at* the village..."
+          "incorrect": "in",
+          "correct": "at"
         }
       }
     },
     {
-      "id": "prepositions-13-A",
+      "id": "prep-e08-A",
       "moduleId": "prepositions",
-      "questionText": "Please listen ___ your parents. They have good advice.",
+      "difficulty": "easy",
+      "questionText": "Look ___ that bird!",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We always say 'look at' something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Look)",
+      "frenchComparison": {
+        "frenchStructure": "Regarde cet oiseau...",
+        "englishStructure": "Look at that bird...",
+        "whyDifficult": "French 'Regarder' takes no preposition. English 'Look' needs 'at'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-e09-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "My phone is ___ my bag.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for enclosed spaces (inside).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Inside)",
+      "frenchComparison": {
+        "frenchStructure": "Mon téléphone est dans mon sac...",
+        "englishStructure": "My phone is in my bag...",
+        "whyDifficult": "Direct translation works ('dans' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e10-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I will see you ___ the afternoon.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We say 'in the morning', 'in the afternoon', 'in the evening'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Parts of Day)",
+      "frenchComparison": {
+        "frenchStructure": "Je te verrai dans l'après-midi...",
+        "englishStructure": "I will see you in the afternoon...",
+        "whyDifficult": "Direct translation works ('dans' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e11-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Cameroon is ___ Africa.",
       "type": "multiple_choice",
       "options": [
         "at",
-        "to",
-        "-"
+        "on",
+        "in"
       ],
-      "correctAnswer": "to",
-      "feedback": "That's right! The verb 'listen' must be followed by the preposition 'to'. We say \"listen to someone\". French says \"écouter quelqu'un\" (no preposition), which causes this error.",
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for continents and countries.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions",
+      "subTopic": "Place (Continent)",
       "frenchComparison": {
-        "frenchStructure": "\"Tu dois écouter tes parents.\"\n(The French verb \"écouter\" (to listen to) is a transitive verb and does not require a preposition. It directly takes an object.)",
-        "englishStructure": "\"You must listen to your parents.\"\n(The English verb \"listen\" is intransitive in this context and *must* be followed by the preposition \"to\" before its object.)",
-        "whyDifficult": "This is a \"verb + preposition\" (phrasal verb) error. Students translate \"écouter\" directly to \"listen\" and omit the \"to\" because it's not needed in French.",
+        "frenchStructure": "Le Cameroun est en Afrique...",
+        "englishStructure": "Cameroon is in Africa...",
+        "whyDifficult": "Direct translation works ('en' = 'in').",
         "visualHighlighting": {
-          "incorrect": "You must *listen your parents*.",
-          "correct": "You must *listen to your parents*."
+          "incorrect": "at",
+          "correct": "in"
         }
       }
     },
     {
-      "id": "prepositions-14-A",
+      "id": "prep-e12-A",
       "moduleId": "prepositions",
-      "questionText": "Njoya is married ___ a teacher from Douala.",
+      "difficulty": "easy",
+      "questionText": "Please listen ___ me.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We always say 'listen to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Listen)",
+      "frenchComparison": {
+        "frenchStructure": "Écoute-moi...",
+        "englishStructure": "Listen to me...",
+        "whyDifficult": "French 'Écouter' takes no preposition. English 'Listen' needs 'to'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-e13-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "The cat is ___ the chair (down).",
+      "type": "multiple_choice",
+      "options": [
+        "over",
+        "under",
+        "in"
+      ],
+      "correctAnswer": "under",
+      "feedback": "Correct! 'Under' means below or beneath something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Under)",
+      "frenchComparison": {
+        "frenchStructure": "Le chat est sous la chaise...",
+        "englishStructure": "The cat is under the chair...",
+        "whyDifficult": "Direct translation works ('sous' = 'under').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "under"
+        }
+      }
+    },
+    {
+      "id": "prep-e14-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I was born ___ 2005.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for years.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Years)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis né en 2005...",
+        "englishStructure": "I was born in 2005...",
+        "whyDifficult": "Direct translation works ('en' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e15-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "She is talking ___ her mother.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We say 'talk to' (or 'speak to') someone.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Talk)",
+      "frenchComparison": {
+        "frenchStructure": "Elle parle à sa mère...",
+        "englishStructure": "She is talking to her mother...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-e16-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "We usually eat dinner ___ 8 PM.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! 'At' is used for specific times.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Clock)",
+      "frenchComparison": {
+        "frenchStructure": "Nous dînons à 20h...",
+        "englishStructure": "We eat dinner at 8 PM...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-e17-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "There is a picture ___ the wall.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! A wall is a surface, so we use 'on'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Surface)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a une photo au mur...",
+        "englishStructure": "There is a picture on the wall...",
+        "whyDifficult": "French uses 'au' (at the). English sees the wall as a surface (on).",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-e18-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I am waiting ___ my friend.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We always say 'wait for' someone/something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Wait)",
+      "frenchComparison": {
+        "frenchStructure": "J'attends mon ami...",
+        "englishStructure": "I am waiting for my friend...",
+        "whyDifficult": "French 'attendre' takes no preposition. English 'wait' needs 'for'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-e19-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "She is sitting ___ me (beside).",
+      "type": "multiple_choice",
+      "options": [
+        "next to",
+        "next",
+        "between"
+      ],
+      "correctAnswer": "next to",
+      "feedback": "Correct! 'Next to' means beside.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Relative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est assise à côté de moi...",
+        "englishStructure": "She is sitting next to me...",
+        "whyDifficult": "Direct translation works ('à côté de' = 'next to').",
+        "visualHighlighting": {
+          "incorrect": "next",
+          "correct": "next to"
+        }
+      }
+    },
+    {
+      "id": "prep-e20-A",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "We don't go to school ___ Sundays.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We use 'on' for days of the week.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Days)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'allons pas à l'école le dimanche...",
+        "englishStructure": "We don't go to school on Sundays...",
+        "whyDifficult": "French uses 'le'. English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m01-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Muna is good ___ mathematics.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! With skills, we use 'good at' or 'bad at'. (Not 'in').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Good at)",
+      "frenchComparison": {
+        "frenchStructure": "Muna est bonne en maths...",
+        "englishStructure": "Muna is good at mathematics...",
+        "whyDifficult": "French uses 'en' (in). English uses 'at' for skills.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m02-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I am interested ___ learning English.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "about",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We always say 'interested in'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Interested in)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis intéressé par...",
+        "englishStructure": "I am interested in...",
+        "whyDifficult": "French uses 'par' (by) or 'à' (at). English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-m03-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "She is married ___ a teacher.",
       "type": "multiple_choice",
       "options": [
         "with",
@@ -398,70 +655,1056 @@
         "for"
       ],
       "correctAnswer": "to",
-      "feedback": "Correct! This is a common error. French says \"marié avec\" (\"with\"), but the correct English phrase is \"married TO\".",
+      "feedback": "Correct! In English, you are married 'to' someone (not 'with').",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions",
+      "subTopic": "Adjective + Preposition (Married to)",
       "frenchComparison": {
-        "frenchStructure": "\"Mon frère est marié avec une enseignante.\"\n(French uses the preposition \"avec\" (with) for this expression.)",
-        "englishStructure": "\"My brother is married to a teacher.\"\n(English *must* use the fixed expression \"be married to\".)",
-        "whyDifficult": "This is a direct translation error of a fixed expression. \"Avec\" = \"with\", so students say \"married with\". This is a very common and noticeable mistake.",
+        "frenchStructure": "Elle est mariée avec...",
+        "englishStructure": "She is married to...",
+        "whyDifficult": "French uses 'avec' (with). English uses 'to'.",
         "visualHighlighting": {
-          "incorrect": "My brother is married *with* a teacher.",
-          "correct": "My brother is married *to* a teacher."
+          "incorrect": "with",
+          "correct": "to"
         }
       }
     },
     {
-      "id": "prepositions-15-A",
+      "id": "prep-m04-A",
       "moduleId": "prepositions",
-      "questionText": "Find the error: \"This lesson depends of the teacher.\"",
-      "type": "error_correction",
-      "options": [
-        "This lesson",
-        "depends of",
-        "the teacher",
-        "No error"
-      ],
-      "correctAnswer": "depends of",
-      "feedback": "You found it! French says \"dépend de\" (\"of\"), but the correct English verb phrase is \"to depend ON\".",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "depends on",
-      "subTopic": "Dependent/Fixed Prepositions",
-      "frenchComparison": {
-        "frenchStructure": "\"Cette leçon dépend du (de + le) professeur.\"\n(French uses the preposition \"de\" (of/from) in the expression \"dépendre de\".)",
-        "englishStructure": "\"This lesson depends on the teacher.\"\n(English *must* use the fixed expression \"to depend on\".)",
-        "whyDifficult": "Another direct translation of a fixed \"verb + preposition\" phrase. \"De\" = \"of\", so students say \"depends of\".",
-        "visualHighlighting": {
-          "incorrect": "This lesson depends *of* the teacher.",
-          "correct": "This lesson depends *on* the teacher."
-        }
-      }
-    },
-    {
-      "id": "prepositions-1-B",
-      "moduleId": "prepositions",
-      "questionText": "The rainy season in Limbe starts ___ March.",
+      "difficulty": "medium",
+      "questionText": "I usually go to work ___ bus.",
       "type": "multiple_choice",
       "options": [
+        "in",
         "on",
+        "by"
+      ],
+      "correctAnswer": "by",
+      "feedback": "Correct! We use 'by' for general modes of transport (by bus, by car, by plane).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Transport (General)",
+      "frenchComparison": {
+        "frenchStructure": "Je vais au travail en bus...",
+        "englishStructure": "I go to work by bus...",
+        "whyDifficult": "French uses 'en' (in). English uses 'by' for the mode of transport.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "by"
+        }
+      }
+    },
+    {
+      "id": "prep-m05-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "But today, I am ___ the bus now.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "by"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! When you are inside a large vehicle (bus, train, plane) where you can stand up, we use 'on'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Transport (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis dans le bus...",
+        "englishStructure": "I am on the bus...",
+        "whyDifficult": "French uses 'dans' (in). English uses 'on' for large public transport.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m06-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "My father is ___ work.",
+      "type": "multiple_choice",
+      "options": [
         "at",
+        "in",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'at work', 'at home', 'at school' (as a general location).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Fixed Expressions)",
+      "frenchComparison": {
+        "frenchStructure": "Mon père est au travail...",
+        "englishStructure": "My father is at work...",
+        "whyDifficult": "Direct translation works ('au' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m07-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I am afraid ___ dogs.",
+      "type": "multiple_choice",
+      "options": [
+        "from",
+        "of",
+        "by"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We always say 'afraid of' (or scared of).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Afraid of)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai peur des chiens...",
+        "englishStructure": "I am afraid of dogs...",
+        "whyDifficult": "French uses 'de' (of/from). English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "from",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-m08-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "It depends ___ the weather.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "from",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We always say 'depend on'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Depend on)",
+      "frenchComparison": {
+        "frenchStructure": "Ça dépend du temps...",
+        "englishStructure": "It depends on the weather...",
+        "whyDifficult": "French uses 'de' (of). English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m09-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "When did you arrive ___ Cameroon?",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
         "in"
       ],
       "correctAnswer": "in",
-      "feedback": "Correct! We use IN for long periods of time, including months (in March), years, and seasons.",
+      "feedback": "Correct! We say 'arrive in' a city or country.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Arrive In)",
+      "frenchComparison": {
+        "frenchStructure": "Quand es-tu arrivé au Cameroun...",
+        "englishStructure": "When did you arrive in Cameroon...",
+        "whyDifficult": "French uses 'au' (at/to). English uses 'in' for countries.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-m10-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "When did you arrive ___ the airport?",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'arrive at' a building, station, or specific place.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Arrive At)",
+      "frenchComparison": {
+        "frenchStructure": "Quand es-tu arrivé à l'aéroport...",
+        "englishStructure": "When did you arrive at the airport...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m11-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "He jumped ___ the river.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "into",
+        "to"
+      ],
+      "correctAnswer": "into",
+      "feedback": "Correct! 'Into' shows movement from outside to inside.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (Into)",
+      "frenchComparison": {
+        "frenchStructure": "Il a sauté dans la rivière...",
+        "englishStructure": "He jumped into the river...",
+        "whyDifficult": "French uses 'dans' (in). English uses 'into' for movement.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "into"
+        }
+      }
+    },
+    {
+      "id": "prep-m12-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "This bag belongs ___ me.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We always say 'belong to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Belong to)",
+      "frenchComparison": {
+        "frenchStructure": "Ce sac est à moi...",
+        "englishStructure": "This bag belongs to me...",
+        "whyDifficult": "French uses 'à' (to). English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-m13-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I agree ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "with",
+        "on"
+      ],
+      "correctAnswer": "with",
+      "feedback": "Correct! You agree 'with' a person.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Agree with)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis d'accord avec toi...",
+        "englishStructure": "I agree with you...",
+        "whyDifficult": "Direct translation works ('avec' = 'with').",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "with"
+        }
+      }
+    },
+    {
+      "id": "prep-m14-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "My car is parked ___ the bank and the post office.",
+      "type": "multiple_choice",
+      "options": [
+        "among",
+        "between",
+        "next"
+      ],
+      "correctAnswer": "between",
+      "feedback": "Correct! 'Between' is used for two things.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Relative)",
+      "frenchComparison": {
+        "frenchStructure": "Ma voiture est garée entre...",
+        "englishStructure": "My car is parked between...",
+        "whyDifficult": "Direct translation works ('entre' = 'between').",
+        "visualHighlighting": {
+          "incorrect": "among",
+          "correct": "between"
+        }
+      }
+    },
+    {
+      "id": "prep-m15-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I didn't watch the match. I was ___ holiday.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We say 'on holiday', 'on vacation', 'on a trip'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (On holiday)",
+      "frenchComparison": {
+        "frenchStructure": "J'étais en vacances...",
+        "englishStructure": "I was on holiday...",
+        "whyDifficult": "French uses 'en' (in). English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m16-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Please take your feet ___ the table!",
+      "type": "multiple_choice",
+      "options": [
+        "out",
+        "of",
+        "off"
+      ],
+      "correctAnswer": "off",
+      "feedback": "Correct! 'Off' means 'away from a surface'. It is the opposite of 'on'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (Off)",
+      "frenchComparison": {
+        "frenchStructure": "Enlève tes pieds de la table...",
+        "englishStructure": "Take your feet off the table...",
+        "whyDifficult": "French uses 'de' (from). English uses 'off' (off surface).",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "off"
+        }
+      }
+    },
+    {
+      "id": "prep-m17-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Cameroon is famous ___ its football team.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "by"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We always say 'famous for' something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Famous for)",
+      "frenchComparison": {
+        "frenchStructure": "Le Cameroun est célèbre pour...",
+        "englishStructure": "Cameroon is famous for...",
+        "whyDifficult": "Direct translation works ('pour' = 'for').",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-m18-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I am worried ___ my exams.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "about",
+        "on"
+      ],
+      "correctAnswer": "about",
+      "feedback": "Correct! We say 'worried about' something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Worried about)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis inquiet pour...",
+        "englishStructure": "I am worried about...",
+        "whyDifficult": "French uses 'pour' (for). English uses 'about'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "about"
+        }
+      }
+    },
+    {
+      "id": "prep-m19-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Can I pay ___ credit card?",
+      "type": "multiple_choice",
+      "options": [
+        "with",
+        "by",
+        "in"
+      ],
+      "correctAnswer": "by",
+      "feedback": "Correct! We say 'by credit card' or 'by check', BUT 'in cash'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Payment)",
+      "frenchComparison": {
+        "frenchStructure": "Puis-je payer par carte...",
+        "englishStructure": "Can I pay by credit card...",
+        "whyDifficult": "Direct translation works ('par' = 'by').",
+        "visualHighlighting": {
+          "incorrect": "with",
+          "correct": "by"
+        }
+      }
+    },
+    {
+      "id": "prep-m20-A",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Don't laugh ___ him!",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'laugh at' someone.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Laugh)",
+      "frenchComparison": {
+        "frenchStructure": "Ne te moque pas de lui...",
+        "englishStructure": "Don't laugh at him...",
+        "whyDifficult": "French uses 'de' (of). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-h01-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"We need to discuss about the project.\"",
+      "type": "error_correction",
+      "options": [
+        "discuss",
+        "about",
+        "the project",
+        "No error"
+      ],
+      "correctAnswer": "about",
+      "feedback": "Correct! 'Discuss' is a transitive verb. It does NOT take a preposition. Say 'Discuss the project'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "Delete 'about'",
+      "subTopic": "No Preposition (Discuss)",
+      "frenchComparison": {
+        "frenchStructure": "Discuter de...",
+        "englishStructure": "Discuss Ø...",
+        "whyDifficult": "French uses 'de' (about). English uses no preposition.",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "Ø"
+        }
+      }
+    },
+    {
+      "id": "prep-h02-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "The train leaves in 5 minutes. We are just ___ time.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! 'In time' means 'early enough' (before it's too late). 'On time' means 'at the scheduled time'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "In time vs On time",
+      "frenchComparison": {
+        "frenchStructure": "Juste à temps...",
+        "englishStructure": "Just in time...",
+        "whyDifficult": "French uses 'à' (at). English uses 'in' for 'early enough'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-h03-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"I entered into the room.\"",
+      "type": "error_correction",
+      "options": [
+        "entered",
+        "into",
+        "the room",
+        "No error"
+      ],
+      "correctAnswer": "into",
+      "feedback": "Correct! When entering a physical place, we use 'enter' without a preposition. 'Enter into' is used for agreements/contracts.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "Delete 'into'",
+      "subTopic": "No Preposition (Enter)",
+      "frenchComparison": {
+        "frenchStructure": "Entrer dans...",
+        "englishStructure": "Enter Ø...",
+        "whyDifficult": "French uses 'dans' (in/into). English uses no preposition for places.",
+        "visualHighlighting": {
+          "incorrect": "into",
+          "correct": "Ø"
+        }
+      }
+    },
+    {
+      "id": "prep-h04-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He was accused ___ stealing the money.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "with"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! The verb pattern is 'accuse someone OF doing something'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Accuse)",
+      "frenchComparison": {
+        "frenchStructure": "Accusé de...",
+        "englishStructure": "Accused of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h05-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "The rain prevented us ___ playing football.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "from",
+        "for"
+      ],
+      "correctAnswer": "from",
+      "feedback": "Correct! The pattern is 'prevent someone FROM doing something'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Prevent)",
+      "frenchComparison": {
+        "frenchStructure": "Empêcher de...",
+        "englishStructure": "Prevent from...",
+        "whyDifficult": "French uses 'de' (of/from). English uses 'from'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "from"
+        }
+      }
+    },
+    {
+      "id": "prep-h06-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "We walked ___ the forest.",
+      "type": "multiple_choice",
+      "options": [
+        "across",
+        "through",
+        "over"
+      ],
+      "correctAnswer": "through",
+      "feedback": "Correct! 'Through' is used for 3D spaces (forests, tunnels, crowds). 'Across' is for flat surfaces.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (Through vs Across)",
+      "frenchComparison": {
+        "frenchStructure": "Traverser la forêt...",
+        "englishStructure": "Walk through the forest...",
+        "whyDifficult": "French uses transitive verb 'traverser'. English uses 'walk through'.",
+        "visualHighlighting": {
+          "incorrect": "across",
+          "correct": "through"
+        }
+      }
+    },
+    {
+      "id": "prep-h07-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "This table is made ___ wood.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "from",
+        "by"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We use 'made OF' when the material doesn't change form (you can still see the wood). We use 'made FROM' when the material changes (Paper is made from wood).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Made of vs Made from",
+      "frenchComparison": {
+        "frenchStructure": "Fait en bois...",
+        "englishStructure": "Made of wood...",
+        "whyDifficult": "French uses 'en' (in). English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "from",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h08-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I dream ___ becoming a doctor one day.",
+      "type": "multiple_choice",
+      "options": [
+        "about",
+        "of",
+        "on"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! 'Dream OF' usually means an ambition or deep desire. 'Dream ABOUT' usually refers to dreams while sleeping.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dream of vs Dream about",
+      "frenchComparison": {
+        "frenchStructure": "Rêver de...",
+        "englishStructure": "Dream of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h09-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I object ___ being treated like this!",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "against"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! The pattern is 'object TO doing something'. 'To' is a preposition here, so it is followed by the gerund (-ing).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Object to)",
+      "frenchComparison": {
+        "frenchStructure": "S'opposer à...",
+        "englishStructure": "Object to...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "against",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h10-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "___ the end, we decided to stay home.",
+      "type": "multiple_choice",
+      "options": [
+        "At",
+        "In",
+        "On"
+      ],
+      "correctAnswer": "In",
+      "feedback": "Correct! 'In the end' means 'finally' or 'after a long time'. 'At the end' refers to a specific point (At the end of the book).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "In the end vs At the end",
+      "frenchComparison": {
+        "frenchStructure": "À la fin...",
+        "englishStructure": "In the end...",
+        "whyDifficult": "French uses 'à' (at). English uses 'in' for 'finally'.",
+        "visualHighlighting": {
+          "incorrect": "At",
+          "correct": "In"
+        }
+      }
+    },
+    {
+      "id": "prep-h11-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He suffers ___ asthma.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "from",
+        "with"
+      ],
+      "correctAnswer": "from",
+      "feedback": "Correct! We say 'suffer FROM' a disease.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Suffer)",
+      "frenchComparison": {
+        "frenchStructure": "Souffrir de...",
+        "englishStructure": "Suffer from...",
+        "whyDifficult": "French uses 'de' (of/from). English uses 'from'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "from"
+        }
+      }
+    },
+    {
+      "id": "prep-h12-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Please refrain ___ smoking here.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "from",
+        "of"
+      ],
+      "correctAnswer": "from",
+      "feedback": "Correct! 'Refrain FROM' means to stop yourself from doing something.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Refrain)",
+      "frenchComparison": {
+        "frenchStructure": "S'abstenir de...",
+        "englishStructure": "Refrain from...",
+        "whyDifficult": "French uses 'de' (of/from). English uses 'from'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "from"
+        }
+      }
+    },
+    {
+      "id": "prep-h13-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "She is not capable ___ doing the job.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "of",
+        "for"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We say 'capable OF' (adjective + preposition). But we say 'able TO' (adjective + infinitive).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Capable)",
+      "frenchComparison": {
+        "frenchStructure": "Capable de...",
+        "englishStructure": "Capable of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h14-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He threw the ball ___ me (to catch it).",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! You throw 'TO' someone if you want them to catch it. You throw 'AT' someone if you want to hit/hurt them.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Throw to vs Throw at",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a lancé la balle...",
+        "englishStructure": "He threw the ball to me...",
+        "whyDifficult": "French uses indirect object pronoun. English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h15-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "This song reminds me ___ my childhood.",
+      "type": "multiple_choice",
+      "options": [
+        "about",
+        "of",
+        "for"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! 'Remind of' means something makes you remember the past. 'Remind about' means to tell someone not to forget a task.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Remind)",
+      "frenchComparison": {
+        "frenchStructure": "Me rappelle mon enfance...",
+        "englishStructure": "Reminds me of my childhood...",
+        "whyDifficult": "French uses direct object. English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h16-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I congratulate you ___ your success.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "on",
+        "about"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We say 'congratulate someone ON' something.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Congratulate)",
+      "frenchComparison": {
+        "frenchStructure": "Féliciter pour...",
+        "englishStructure": "Congratulate on...",
+        "whyDifficult": "French uses 'pour' (for). English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-h17-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Why are you angry ___ him?",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "with",
+        "against"
+      ],
+      "correctAnswer": "with",
+      "feedback": "Correct! You are angry WITH a person, but angry ABOUT a situation.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Angry)",
+      "frenchComparison": {
+        "frenchStructure": "Fâché contre...",
+        "englishStructure": "Angry with...",
+        "whyDifficult": "French uses 'contre' (against). English uses 'with'.",
+        "visualHighlighting": {
+          "incorrect": "against",
+          "correct": "with"
+        }
+      }
+    },
+    {
+      "id": "prep-h18-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "The manager is responsible ___ the staff.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "for",
+        "to"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! You are 'responsible FOR' something/someone.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Responsible)",
+      "frenchComparison": {
+        "frenchStructure": "Responsable de...",
+        "englishStructure": "Responsible for...",
+        "whyDifficult": "French uses 'de' (of). English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-h19-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Do you believe ___ ghosts?",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! 'Believe IN' means to believe something exists or is good. 'Believe' (no preposition) means to think something is true.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Believe)",
+      "frenchComparison": {
+        "frenchStructure": "Croire aux fantômes...",
+        "englishStructure": "Believe in ghosts...",
+        "whyDifficult": "French uses 'à' (at/to). English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-h20-A",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I did it ___ mistake.",
+      "type": "multiple_choice",
+      "options": [
+        "by",
+        "with",
+        "in"
+      ],
+      "correctAnswer": "by",
+      "feedback": "Correct! 'By mistake' is a fixed expression. Similarly: 'By accident'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (By mistake)",
+      "frenchComparison": {
+        "frenchStructure": "Par erreur...",
+        "englishStructure": "By mistake...",
+        "whyDifficult": "Direct translation works ('par' = 'by').",
+        "visualHighlighting": {
+          "incorrect": "with",
+          "correct": "by"
+        }
+      }
+    },
+    {
+      "id": "prep-e01-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "The meeting is ___ 2:00 PM.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We use 'at' for specific clock times.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
+      "subTopic": "Time (Clock)",
+      "frenchComparison": {
+        "frenchStructure": "À 14h00...",
+        "englishStructure": "At 2:00 PM...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
     },
     {
-      "id": "prepositions-2-B",
+      "id": "prep-e02-B",
       "moduleId": "prepositions",
-      "questionText": "The national holiday is ___ May 20th.",
+      "difficulty": "easy",
+      "questionText": "I don't work ___ Saturdays.",
       "type": "multiple_choice",
       "options": [
         "in",
@@ -469,33 +1712,53 @@
         "at"
       ],
       "correctAnswer": "on",
-      "feedback": "Excellent! We use ON for specific days and dates. Because this is a full date (May 20th), we must use 'on'.",
+      "feedback": "Correct! We use 'on' for days of the week.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
+      "subTopic": "Time (Days)",
+      "frenchComparison": {
+        "frenchStructure": "Le samedi...",
+        "englishStructure": "On Saturdays...",
+        "whyDifficult": "French uses definite article 'le'. English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
     },
     {
-      "id": "prepositions-3-B",
+      "id": "prep-e03-B",
       "moduleId": "prepositions",
-      "questionText": "The school assembly begins ___ 7:00 AM sharp.",
+      "difficulty": "easy",
+      "questionText": "My holiday is ___ August.",
       "type": "multiple_choice",
       "options": [
-        "at",
         "on",
+        "at",
         "in"
       ],
-      "correctAnswer": "at",
-      "feedback": "That's right! We use AT for specific clock times (at 7:00 AM, at noon, at midnight).",
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for months.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
+      "subTopic": "Time (Months)",
+      "frenchComparison": {
+        "frenchStructure": "En août...",
+        "englishStructure": "In August...",
+        "whyDifficult": "Direct translation works ('en' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
     },
     {
-      "id": "prepositions-4-B",
+      "id": "prep-e04-B",
       "moduleId": "prepositions",
-      "questionText": "I do my homework ___ the afternoon before dinner.",
+      "difficulty": "easy",
+      "questionText": "My uncle lives ___ Douala.",
       "type": "multiple_choice",
       "options": [
         "at",
@@ -503,104 +1766,53 @@
         "in"
       ],
       "correctAnswer": "in",
-      "feedback": "Perfect! We use IN for parts of the day: in the morning, in the afternoon, in the evening.",
+      "feedback": "Correct! We use 'in' for cities.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Time Prepositions"
+      "subTopic": "Place (City)",
+      "frenchComparison": {
+        "frenchStructure": "À Douala...",
+        "englishStructure": "In Douala...",
+        "whyDifficult": "French uses 'à' (at). English uses 'in' for cities.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
     },
     {
-      "id": "prepositions-5-B",
+      "id": "prep-e05-B",
       "moduleId": "prepositions",
-      "questionText": "Find the error: \"I will call you on the afternoon.\"",
-      "type": "error_correction",
-      "options": [
-        "I will call you",
-        "on the afternoon",
-        "No error"
-      ],
-      "correctAnswer": "on the afternoon",
-      "feedback": "You found it! We use IN for parts of the day: in the morning, in the afternoon, in the evening. We don't use \"on\" for these expressions.",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "in the afternoon",
-      "subTopic": "Time Prepositions"
-    },
-    {
-      "id": "prepositions-6-B",
-      "moduleId": "prepositions",
-      "questionText": "My aunt works ___ an office ___ Douala.",
-      "type": "multiple_choice",
-      "options": [
-        "in / in",
-        "at / at",
-        "on / in"
-      ],
-      "correctAnswer": "in / in",
-      "feedback": "Perfect! We use IN for enclosed spaces (in an office) and also for cities (in Douala).",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-7-B",
-      "moduleId": "prepositions",
-      "questionText": "I will meet you ___ the carrefour (crossroads).",
+      "difficulty": "easy",
+      "questionText": "Don't sit ___ the floor.",
       "type": "multiple_choice",
       "options": [
         "in",
         "on",
-        "at"
-      ],
-      "correctAnswer": "at",
-      "feedback": "Correct! We use AT to talk about a specific point or location (at the carrefour, at the corner, at the junction).",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-8-B",
-      "moduleId": "prepositions",
-      "questionText": "Put the chalk ___ the teacher's desk, not on the floor.",
-      "type": "multiple_choice",
-      "options": [
-        "on",
-        "in",
         "at"
       ],
       "correctAnswer": "on",
-      "feedback": "That's right! A desk is a surface. We put things ON a surface (on the desk, on the table, on the floor).",
+      "feedback": "Correct! The floor is a surface, so we use 'on'.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Place Prepositions"
+      "subTopic": "Place (Surface)",
+      "frenchComparison": {
+        "frenchStructure": "Sur le sol...",
+        "englishStructure": "On the floor...",
+        "whyDifficult": "Direct translation works ('sur' = 'on').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
     },
     {
-      "id": "prepositions-9-B",
+      "id": "prep-e06-B",
       "moduleId": "prepositions",
-      "questionText": "Find the error: \"There is a map in the back of the book.\"",
-      "type": "error_correction",
-      "options": [
-        "There is",
-        "a map",
-        "in the back of",
-        "No error"
-      ],
-      "correctAnswer": "in the back of",
-      "feedback": "Good catch! The correct expression is \"at the back of\" (meaning \"à l'arrière de\"). \"In the back of\" is not correct in this context.",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "at the back of",
-      "subTopic": "Place Prepositions"
-    },
-    {
-      "id": "prepositions-10-B",
-      "moduleId": "prepositions",
-      "questionText": "Ekane is going ___ the market to buy plantains.",
+      "difficulty": "easy",
+      "questionText": "Come ___ my house.",
       "type": "multiple_choice",
       "options": [
         "at",
@@ -608,50 +1820,1349 @@
         "in"
       ],
       "correctAnswer": "to",
-      "feedback": "Yes! When we talk about movement towards a destination, we use TO. French \"aller à...\" often causes students to use 'at' by mistake.",
+      "feedback": "Correct! We use 'to' for movement towards a place.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Movement Prepositions"
+      "subTopic": "Movement (To)",
+      "frenchComparison": {
+        "frenchStructure": "Viens chez moi / à ma maison...",
+        "englishStructure": "Come to my house...",
+        "whyDifficult": "French uses 'chez' or 'à'. English uses 'to' for movement.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
     },
     {
-      "id": "prepositions-11-B",
+      "id": "prep-e07-B",
       "moduleId": "prepositions",
-      "questionText": "My cousin is coming ___ Kribi for the holidays.",
+      "difficulty": "easy",
+      "questionText": "I met him ___ the entrance.",
       "type": "multiple_choice",
       "options": [
-        "at",
-        "from",
-        "to"
+        "in",
+        "on",
+        "at"
       ],
-      "correctAnswer": "from",
-      "feedback": "Correct! We use FROM to show the origin or starting point (like French \"de\" or \"du\").",
+      "correctAnswer": "at",
+      "feedback": "Correct! We use 'at' for a specific point.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Movement Prepositions"
+      "subTopic": "Place (Point)",
+      "frenchComparison": {
+        "frenchStructure": "À l'entrée...",
+        "englishStructure": "At the entrance...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
     },
     {
-      "id": "prepositions-12-B",
+      "id": "prep-e08-B",
       "moduleId": "prepositions",
-      "questionText": "What time did you arrive ___ home yesterday?",
+      "difficulty": "easy",
+      "questionText": "Look ___ the board, please.",
       "type": "multiple_choice",
       "options": [
         "to",
         "at",
-        "- (no preposition)"
+        "on"
       ],
-      "correctAnswer": "- (no preposition)",
-      "feedback": "Excellent! This is very tricky. We say \"arrive AT the village\" or \"arrive AT school\", but with 'home', we use NO preposition. We just say \"arrive home\".",
+      "correctAnswer": "at",
+      "feedback": "Correct! We always say 'look at'.",
       "formType": "B",
-      "transferType": "far",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions"
+      "subTopic": "Verb + Preposition (Look)",
+      "frenchComparison": {
+        "frenchStructure": "Regarde le tableau...",
+        "englishStructure": "Look at the board...",
+        "whyDifficult": "French uses direct object (no preposition). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
     },
     {
-      "id": "prepositions-13-B",
+      "id": "prep-e09-B",
       "moduleId": "prepositions",
-      "questionText": "Please look ___ me when I am speaking.",
+      "difficulty": "easy",
+      "questionText": "The money is ___ my pocket.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! A pocket is an enclosed space, so we use 'in'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Inside)",
+      "frenchComparison": {
+        "frenchStructure": "Dans ma poche...",
+        "englishStructure": "In my pocket...",
+        "whyDifficult": "Direct translation works ('dans' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e10-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I like to run ___ the morning.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We say 'in the morning'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Parts of Day)",
+      "frenchComparison": {
+        "frenchStructure": "Le matin...",
+        "englishStructure": "In the morning...",
+        "whyDifficult": "French uses definite article 'le'. English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e11-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Paris is ___ France.",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for countries.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Continent/Country)",
+      "frenchComparison": {
+        "frenchStructure": "En France...",
+        "englishStructure": "In France...",
+        "whyDifficult": "Direct translation works ('en' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e12-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "He never listens ___ the teacher.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We always say 'listen to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Listen)",
+      "frenchComparison": {
+        "frenchStructure": "Écoute le professeur...",
+        "englishStructure": "Listens to the teacher...",
+        "whyDifficult": "French uses direct object (no preposition). English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-e13-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Your shoes are ___ the bed.",
+      "type": "multiple_choice",
+      "options": [
+        "under",
+        "over",
+        "in"
+      ],
+      "correctAnswer": "under",
+      "feedback": "Correct! 'Under' means below.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Under)",
+      "frenchComparison": {
+        "frenchStructure": "Sous le lit...",
+        "englishStructure": "Under the bed...",
+        "whyDifficult": "Direct translation works ('sous' = 'under').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "under"
+        }
+      }
+    },
+    {
+      "id": "prep-e14-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Cameroon became independent ___ 1960.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We use 'in' for years.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Years)",
+      "frenchComparison": {
+        "frenchStructure": "En 1960...",
+        "englishStructure": "In 1960...",
+        "whyDifficult": "Direct translation works ('en' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-e15-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Can I speak ___ the manager?",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We say 'speak to' (or 'talk to') someone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Talk)",
+      "frenchComparison": {
+        "frenchStructure": "Parler au directeur...",
+        "englishStructure": "Speak to the manager...",
+        "whyDifficult": "Direct translation works ('au' = 'to the').",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-e16-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "The film starts ___ 9:30.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! 'At' is used for specific clock times.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Clock)",
+      "frenchComparison": {
+        "frenchStructure": "À 9h30...",
+        "englishStructure": "At 9:30...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-e17-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "There is a fly ___ the ceiling.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! A ceiling is a surface, so we use 'on'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Surface)",
+      "frenchComparison": {
+        "frenchStructure": "Au plafond...",
+        "englishStructure": "On the ceiling...",
+        "whyDifficult": "French uses 'au' (at the). English uses 'on' (surface).",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-e18-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "Who are you waiting ___?",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We always say 'wait for'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Wait)",
+      "frenchComparison": {
+        "frenchStructure": "Qui attends-tu ?",
+        "englishStructure": "Who are you waiting for?",
+        "whyDifficult": "French uses direct object (no preposition). English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-e19-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "The bank is ___ the post office.",
+      "type": "multiple_choice",
+      "options": [
+        "next to",
+        "next",
+        "between"
+      ],
+      "correctAnswer": "next to",
+      "feedback": "Correct! 'Next to' means beside.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Relative)",
+      "frenchComparison": {
+        "frenchStructure": "À côté de...",
+        "englishStructure": "Next to...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "next",
+          "correct": "next to"
+        }
+      }
+    },
+    {
+      "id": "prep-e20-B",
+      "moduleId": "prepositions",
+      "difficulty": "easy",
+      "questionText": "I was born ___ May 5th.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We use 'on' for specific dates (Month + Day).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (Dates)",
+      "frenchComparison": {
+        "frenchStructure": "Le 5 mai...",
+        "englishStructure": "On May 5th...",
+        "whyDifficult": "French uses definite article 'le'. English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m01-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "He is very bad ___ cooking.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! With skills, we use 'bad at' or 'good at'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Good at)",
+      "frenchComparison": {
+        "frenchStructure": "Mauvais en...",
+        "englishStructure": "Bad at...",
+        "whyDifficult": "French uses 'en' (in). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m02-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Are you interested ___ politics?",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "about",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We always say 'interested in'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Interested in)",
+      "frenchComparison": {
+        "frenchStructure": "Intéressé par...",
+        "englishStructure": "Interested in...",
+        "whyDifficult": "French uses 'par' (by). English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-m03-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "My sister is married ___ a musician.",
+      "type": "multiple_choice",
+      "options": [
+        "with",
+        "to",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! In English, you are married 'to' someone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Married to)",
+      "frenchComparison": {
+        "frenchStructure": "Marié avec...",
+        "englishStructure": "Married to...",
+        "whyDifficult": "French uses 'avec' (with). English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "with",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-m04-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "We went to Kribi ___ car.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "by"
+      ],
+      "correctAnswer": "by",
+      "feedback": "Correct! We use 'by' for general modes of transport (by car).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Transport (General)",
+      "frenchComparison": {
+        "frenchStructure": "En voiture...",
+        "englishStructure": "By car...",
+        "whyDifficult": "French uses 'en' (in). English uses 'by'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "by"
+        }
+      }
+    },
+    {
+      "id": "prep-m05-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I am ___ the taxi now. I will arrive soon.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "on",
+        "by"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! For small vehicles (car, taxi) where you must sit down, we use 'in'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Transport (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Dans le taxi...",
+        "englishStructure": "In the taxi...",
+        "whyDifficult": "Direct translation works ('dans' = 'in').",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-m06-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I stayed ___ home yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'at home' (as a general location).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Fixed Expressions)",
+      "frenchComparison": {
+        "frenchStructure": "À la maison...",
+        "englishStructure": "At home...",
+        "whyDifficult": "Direct translation works ('à' = 'at').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m07-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "She is afraid ___ spiders.",
+      "type": "multiple_choice",
+      "options": [
+        "from",
+        "of",
+        "by"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We always say 'afraid of'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Afraid of)",
+      "frenchComparison": {
+        "frenchStructure": "Peur de...",
+        "englishStructure": "Afraid of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "from",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-m08-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Success depends ___ hard work.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "from",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We always say 'depend on'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Depend on)",
+      "frenchComparison": {
+        "frenchStructure": "Dépend de...",
+        "englishStructure": "Depends on...",
+        "whyDifficult": "French uses 'de' (of). English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m09-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "The President arrived ___ France yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We say 'arrive in' a country.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Arrive In)",
+      "frenchComparison": {
+        "frenchStructure": "Célèbre pour...",
+        "englishStructure": "Famous for...",
+        "whyDifficult": "Direct translation works ('pour' = 'for').",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-m10-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "We arrived ___ the station late.",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'arrive at' a specific point or building (station).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Arrive At)",
+      "frenchComparison": {
+        "frenchStructure": "Bon en...",
+        "englishStructure": "Good at...",
+        "whyDifficult": "French uses 'en' (in). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m11-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "The teacher came ___ the classroom.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "into",
+        "to"
+      ],
+      "correctAnswer": "into",
+      "feedback": "Correct! 'Into' shows movement from outside to inside.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (Into)",
+      "frenchComparison": {
+        "frenchStructure": "Similaire à...",
+        "englishStructure": "Similar to...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "with",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-m12-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Does this pen belong ___ you?",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We always say 'belong to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Belong to)",
+      "frenchComparison": {
+        "frenchStructure": "Différent de...",
+        "englishStructure": "Different from...",
+        "whyDifficult": "Direct translation works ('de' = 'from').",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "from"
+        }
+      }
+    },
+    {
+      "id": "prep-m13-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I don't agree ___ his opinion.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "with",
+        "on"
+      ],
+      "correctAnswer": "with",
+      "feedback": "Correct! You agree 'with' an opinion or a person.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Agree with)",
+      "frenchComparison": {
+        "frenchStructure": "J'attends le bus...",
+        "englishStructure": "I am waiting for the bus...",
+        "whyDifficult": "French uses direct object. English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-m14-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "I am sitting ___ Muna and Ngono.",
+      "type": "multiple_choice",
+      "options": [
+        "among",
+        "between",
+        "next"
+      ],
+      "correctAnswer": "between",
+      "feedback": "Correct! 'Between' is used for two people.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Relative)",
+      "frenchComparison": {
+        "frenchStructure": "Arriver à...",
+        "englishStructure": "Arrive at...",
+        "whyDifficult": "French uses 'à' (at/to). English uses 'at' for places.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-m15-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "He is not here. He is away ___ business.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We say 'on business' (work trip).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (On holiday)",
+      "frenchComparison": {
+        "frenchStructure": "Arriver à Londres...",
+        "englishStructure": "Arrive in London...",
+        "whyDifficult": "French uses 'à' (at/to). English uses 'in' for cities.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-m16-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "The glass fell ___ the table.",
+      "type": "multiple_choice",
+      "options": [
+        "out",
+        "of",
+        "off"
+      ],
+      "correctAnswer": "off",
+      "feedback": "Correct! 'Off' means falling away from a surface.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Movement (Off)",
+      "frenchComparison": {
+        "frenchStructure": "Dépenser pour...",
+        "englishStructure": "Spend on...",
+        "whyDifficult": "French uses 'pour' (for) or 'dans'. English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-m17-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "France is famous ___ its cheese.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "by"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We always say 'famous for' something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Famous for)",
+      "frenchComparison": {
+        "frenchStructure": "Payer le dîner...",
+        "englishStructure": "Pay for the dinner...",
+        "whyDifficult": "French uses direct object. English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-m18-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Don't worry ___ the money. I will pay.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "about",
+        "on"
+      ],
+      "correctAnswer": "about",
+      "feedback": "Correct! We say 'worry about' something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition (Worried about)",
+      "frenchComparison": {
+        "frenchStructure": "Une photo de...",
+        "englishStructure": "A photo of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "from",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-m19-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "You must pay ___ cash.",
+      "type": "multiple_choice",
+      "options": [
+        "with",
+        "by",
+        "in"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We say 'in cash'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Payment)",
+      "frenchComparison": {
+        "frenchStructure": "La raison de...",
+        "englishStructure": "The reason for...",
+        "whyDifficult": "French uses 'de' (of). English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-m20-B",
+      "moduleId": "prepositions",
+      "difficulty": "medium",
+      "questionText": "Everyone laughed ___ the joke.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'laugh at' something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Laugh)",
+      "frenchComparison": {
+        "frenchStructure": "Une augmentation de...",
+        "englishStructure": "An increase in...",
+        "whyDifficult": "French uses 'de' (of). English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-h01-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He was accused ___ theft.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "with"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We say 'accuse someone OF' a crime.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Accuse)",
+      "frenchComparison": {
+        "frenchStructure": "Accusé de...",
+        "englishStructure": "Accused of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h02-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I apologize ___ being late.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "to"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We apologize 'for' a mistake.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Apologize)",
+      "frenchComparison": {
+        "frenchStructure": "S'excuser pour...",
+        "englishStructure": "Apologize for...",
+        "whyDifficult": "Direct translation works ('pour' = 'for').",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-h03-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I applied ___ a new job.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We apply 'for' a job. We apply 'to' a company.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Apply)",
+      "frenchComparison": {
+        "frenchStructure": "Postuler pour...",
+        "englishStructure": "Apply for...",
+        "whyDifficult": "Direct translation works ('pour' = 'for').",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-h04-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "My parents don't approve ___ my boyfriend.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "on",
+        "with"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We say 'approve of' something/someone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Approve)",
+      "frenchComparison": {
+        "frenchStructure": "Approuver (direct object)...",
+        "englishStructure": "Approve of...",
+        "whyDifficult": "French uses direct object. English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h05-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Do you believe ___ magic?",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "in",
+      "feedback": "Correct! We say 'believe in' something (existence).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Believe)",
+      "frenchComparison": {
+        "frenchStructure": "Croire à...",
+        "englishStructure": "Believe in...",
+        "whyDifficult": "French uses 'à' (at/to). English uses 'in'.",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "in"
+        }
+      }
+    },
+    {
+      "id": "prep-h06-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "This book belongs ___ me.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We say 'belong to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Belong)",
+      "frenchComparison": {
+        "frenchStructure": "Appartient à...",
+        "englishStructure": "Belongs to...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h07-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Don't blame me ___ the accident.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "on"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We blame someone 'for' something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Blame)",
+      "frenchComparison": {
+        "frenchStructure": "Blâmer pour...",
+        "englishStructure": "Blame for...",
+        "whyDifficult": "Direct translation works ('pour' = 'for').",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-h08-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He doesn't care ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "about",
+        "for",
+        "of"
+      ],
+      "correctAnswer": "about",
+      "feedback": "Correct! 'Care about' means it is important to you.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Care)",
+      "frenchComparison": {
+        "frenchStructure": "Se soucier de...",
+        "englishStructure": "Care about...",
+        "whyDifficult": "French uses 'de' (of). English uses 'about'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "about"
+        }
+      }
+    },
+    {
+      "id": "prep-h09-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "The team consists ___ five people.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "in",
+        "from"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We say 'consist of'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Consist)",
+      "frenchComparison": {
+        "frenchStructure": "Consiste en...",
+        "englishStructure": "Consists of...",
+        "whyDifficult": "French uses 'en' (in). English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h10-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I need to concentrate ___ my work.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We say 'concentrate on'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Concentrate)",
+      "frenchComparison": {
+        "frenchStructure": "Se concentrer sur...",
+        "englishStructure": "Concentrate on...",
+        "whyDifficult": "Direct translation works ('sur' = 'on').",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-h11-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "The car crashed ___ a tree.",
+      "type": "multiple_choice",
+      "options": [
+        "into",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "into",
+      "feedback": "Correct! We say 'crash into'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Crash)",
+      "frenchComparison": {
+        "frenchStructure": "S'écraser contre...",
+        "englishStructure": "Crash into...",
+        "whyDifficult": "French uses 'contre' (against). English uses 'into'.",
+        "visualHighlighting": {
+          "incorrect": "on",
+          "correct": "into"
+        }
+      }
+    },
+    {
+      "id": "prep-h12-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "I dream ___ becoming a pilot.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "to",
+        "for"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! We say 'dream of' doing something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Dream)",
+      "frenchComparison": {
+        "frenchStructure": "Rêver de...",
+        "englishStructure": "Dream of...",
+        "whyDifficult": "Direct translation works ('de' = 'of').",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h13-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Can you explain this ___ me?",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We explain something 'to' someone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Explain)",
+      "frenchComparison": {
+        "frenchStructure": "Expliquer à...",
+        "englishStructure": "Explain to...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h14-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "What happened ___ your car?",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "with",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We say 'happen to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Happen)",
+      "frenchComparison": {
+        "frenchStructure": "Arrivé à...",
+        "englishStructure": "Happened to...",
+        "whyDifficult": "Direct translation works ('à' = 'to').",
+        "visualHighlighting": {
+          "incorrect": "with",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h15-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "He insisted ___ paying.",
+      "type": "multiple_choice",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "on",
+      "feedback": "Correct! We say 'insist on'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Insist)",
+      "frenchComparison": {
+        "frenchStructure": "Insister pour...",
+        "englishStructure": "Insist on...",
+        "whyDifficult": "French uses 'pour' (for). English uses 'on'.",
+        "visualHighlighting": {
+          "incorrect": "in",
+          "correct": "on"
+        }
+      }
+    },
+    {
+      "id": "prep-h16-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Don't laugh ___ me!",
       "type": "multiple_choice",
       "options": [
         "at",
@@ -659,47 +3170,128 @@
         "on"
       ],
       "correctAnswer": "at",
-      "feedback": "That's right! The verb 'look' is followed by 'at' when you mean to direct your eyes toward someone. We say \"look at someone\".",
-      "formType": "B",
-      "transferType": "far",
-      "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions"
-    },
-    {
-      "id": "prepositions-14-B",
-      "moduleId": "prepositions",
-      "questionText": "Foncha is not related ___ the headmaster.",
-      "type": "multiple_choice",
-      "options": [
-        "with",
-        "to",
-        "of"
-      ],
-      "correctAnswer": "to",
-      "feedback": "Correct! The correct English phrase is \"related TO\". French uses \"lié à\" or \"apparenté à\", so the preposition 'to' is similar.",
-      "formType": "B",
-      "transferType": "far",
-      "item_version": "1.0.0",
-      "subTopic": "Dependent/Fixed Prepositions"
-    },
-    {
-      "id": "prepositions-15-B",
-      "moduleId": "prepositions",
-      "questionText": "Find the error: \"Your success depends of your hard work.\"",
-      "type": "error_correction",
-      "options": [
-        "Your success",
-        "depends of",
-        "your hard work",
-        "No error"
-      ],
-      "correctAnswer": "depends of",
-      "feedback": "You found it! French says \"dépend de\" (\"of\"), but the correct English verb phrase is \"to depend ON\".",
+      "feedback": "Correct! We say 'laugh at' someone.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "correction": "depends on",
-      "subTopic": "Dependent/Fixed Prepositions"
+      "subTopic": "Verb + Preposition (Laugh)",
+      "frenchComparison": {
+        "frenchStructure": "Se moquer de...",
+        "englishStructure": "Laugh at...",
+        "whyDifficult": "French uses 'de' (of). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
+    },
+    {
+      "id": "prep-h17-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Listen ___ this song.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! We say 'listen to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Listen)",
+      "frenchComparison": {
+        "frenchStructure": "Écoute cette chanson...",
+        "englishStructure": "Listen to this song...",
+        "whyDifficult": "French uses direct object. English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "prep-h18-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Who paid ___ the tickets?",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "of",
+        "to"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! We pay 'for' something.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Pay)",
+      "frenchComparison": {
+        "frenchStructure": "Payer les billets...",
+        "englishStructure": "Paid for the tickets...",
+        "whyDifficult": "French uses direct object. English uses 'for'.",
+        "visualHighlighting": {
+          "incorrect": "of",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "prep-h19-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "You remind me ___ my brother.",
+      "type": "multiple_choice",
+      "options": [
+        "of",
+        "about",
+        "to"
+      ],
+      "correctAnswer": "of",
+      "feedback": "Correct! 'Remind of' means you look like him.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Remind)",
+      "frenchComparison": {
+        "frenchStructure": "Me rappelle mon frère...",
+        "englishStructure": "Remind me of my brother...",
+        "whyDifficult": "French uses direct object. English uses 'of'.",
+        "visualHighlighting": {
+          "incorrect": "about",
+          "correct": "of"
+        }
+      }
+    },
+    {
+      "id": "prep-h20-B",
+      "moduleId": "prepositions",
+      "difficulty": "hard",
+      "questionText": "Why are you smiling ___ me?",
+      "type": "multiple_choice",
+      "options": [
+        "at",
+        "to",
+        "with"
+      ],
+      "correctAnswer": "at",
+      "feedback": "Correct! We say 'smile at' someone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Preposition (Smile)",
+      "frenchComparison": {
+        "frenchStructure": "Sourire à...",
+        "englishStructure": "Smiling at...",
+        "whyDifficult": "French uses 'à' (at/to). English uses 'at'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "at"
+        }
+      }
     }
   ]
 }

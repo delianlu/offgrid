@@ -7,22 +7,32 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate:content": "tsx scripts/validateContent.ts"
+    "validate:content": "tsx scripts/validateContent.ts",
+    "test": "vitest"
   },
   "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/uuid": "^10.0.0",
+    "bcryptjs": "^3.0.3",
     "canvas-confetti": "^1.9.4",
     "dexie": "^4.2.1",
     "framer-motion": "^12.23.24",
+    "html5-qrcode": "^2.3.8",
     "i18next": "^25.6.0",
+    "lucide-react": "^0.555.0",
+    "qrcode.react": "^4.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-i18next": "^16.2.4",
     "react-router-dom": "^7.9.4",
     "recharts": "^3.3.0",
+    "uuid": "^13.0.0",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
@@ -33,12 +43,14 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "glob": "^11.0.3",
     "globals": "^16.4.0",
+    "jsdom": "^27.2.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
     "tsx": "^4.20.6",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
     "vite": "^5.4.21",
-    "vite-plugin-pwa": "^1.0.3"
+    "vite-plugin-pwa": "^1.0.3",
+    "vitest": "^4.0.14"
   }
 }

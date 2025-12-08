@@ -20,11 +20,12 @@ export const AnswerOption: React.FC<AnswerOptionProps> = ({
       onClick={onClick}
       disabled={disabled}
       className={`
-        w-full rounded-xl p-4 text-left transition-all duration-200
+        relative z-10 w-full rounded-xl p-4 text-left transition-all duration-200
         focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none
+        active:scale-[0.99]
         ${selected
-          ? 'bg-blue-50 border-2 border-blue-500'
-          : 'bg-white border-2 border-gray-300 hover:border-blue-500 hover:bg-blue-50'
+          ? 'bg-blue-50 border-2 border-blue-500 shadow-sm'
+          : 'bg-white border-2 border-gray-300 hover:border-blue-500 hover:bg-blue-50 hover:shadow-md'
         }
         ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
       `}

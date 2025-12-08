@@ -1,0 +1,40 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Word Order module! This is the blueprint of the language.",
+    "theProblem": "English and French are both 'Subject-Verb-Object' languages, so basic sentences look the same. But as soon as you add details—like colors, time, or questions—the rules flip! In French, you say \"une voiture rouge\" (car red), but in English, that is 100% wrong. Also, English requires special helper words to ask questions that French doesn't need.",
+    "thePromise": "By the end of this lesson, you will stop thinking in French order. You will learn exactly where to 'slot in' your adjectives and adverbs to build sentences that flow naturally."
+  },
+  "contrastiveExplanation": "### Concept 1: The Adjective Reversal\n\n**The Rule:**\nIn English, the **Adjective** (the describing word) ALWAYS comes **BEFORE** the **Noun** (the thing).\n* *A **red** car.*\n* *A **delicious** meal.*\n\n**The French Trap:**\nIn French, most adjectives go *after* the noun.\n* *Une voiture **rouge**.*\n* *Un repas **délicieux**.*\n\n**The Fix:**\nThink of the adjective as the **Paint** and the noun as the **House**. You must paint the wall *before* the house is finished.\n\n**Visual Metaphor:**\nEnglish is a **\"Backward\"** language for descriptions. You must describe the thing before you name the thing.\n\n**Examples:**\n* 🇫🇷 *J'ai une chemise verte.*\n    * ❌ I have a shirt green.\n    * ✅ I have a **green shirt**.\n* 🇫🇷 *C'est un problème difficile.*\n    * ❌ It is a problem difficult.\n    * ✅ It is a **difficult problem**.\n\n---\n\n### Concept 2: The Adverb Sandwich\n\n**The Rule:**\nAdverbs of frequency (always, usually, often, never) go **BEFORE the Main Verb**.\n* *I **always** eat fufu.*\n* *He **never** listens.*\n*(Exception: They go AFTER the verb 'To Be' -> He **is** always late).*\n\n**The French Trap:**\nIn French, the adverb goes *after* the verb.\n* *Je mange **toujours** du fufu.*\n* *Il n'écoute **jamais**.*\n\n**The Fix:**\nMake a sandwich. The **Subject** is the top bread, the **Verb** is the bottom bread, and the **Adverb** is the meat in the middle.\n\n**Examples:**\n* 🇫🇷 *Je vais souvent au marché.*\n    * ❌ I go often to the market.\n    * ✅ I **often go** to the market.\n* 🇫🇷 *Il oublie toujours.*\n    * ❌ He forgets always.\n    * ✅ He **always forgets**.\n\n---\n\n### Concept 3: The Question Engine (Auxiliary Inversion)\n\n**The Rule:**\nTo ask a question, English usually needs a Helper Verb (Do/Does/Did/Is/Are) at the **very front**.\n* Pattern: **Auxiliary** + **Subject** + **Verb**?\n* *\"**Do** you **like** mangoes?\"*\n\n**The French Trap:**\nFrench often uses **Intonation** (just raising your voice) or puts the subject first.\n* *\"Tu aimes les mangues ?\"* (You like mangoes?)\n* *\"Il est là ?\"* (He is here?)\n\n**The Fix:**\nImagine you need a **Key** to start the Question Engine. The Key is **Do/Does/Did**. You cannot start the car without the key!\n\n**Examples:**\n* 🇫🇷 *Tu habites à Douala ?*\n    * ❌ You live in Douala?\n    * ✅ **Do** you live in Douala?\n* 🇫🇷 *Elle travaille ici ?*\n    * ❌ She works here?\n    * ✅ **Does** she work here?",
+  "commonErrors": [
+    {
+      "subTopic": "Adjective Placement",
+      "wrong": "She is wearing a dress blue.",
+      "correct": "She is wearing a blue dress.",
+      "frenchConnection": "Direct translation of \"une robe bleue\". English puts the color before the object."
+    },
+    {
+      "subTopic": "Adverb Placement (Action Verbs)",
+      "wrong": "I watch sometimes TV.",
+      "correct": "I sometimes watch TV.",
+      "frenchConnection": "French \"Je regarde parfois...\" places the adverb after the verb. English places it before."
+    },
+    {
+      "subTopic": "Adverb Placement (To Be)",
+      "wrong": "He always is late.",
+      "correct": "He is always late.",
+      "frenchConnection": "Over-correction. While adverbs go before normal verbs, they must go AFTER 'am/is/are'."
+    },
+    {
+      "subTopic": "Question Formation",
+      "wrong": "You play football?",
+      "correct": "Do you play football?",
+      "frenchConnection": "French intonation question (\"Tu joues au foot?\"). English requires the auxiliary 'Do' at the start."
+    },
+    {
+      "subTopic": "Enough + Noun vs Adjective",
+      "wrong": "He is not enough tall.",
+      "correct": "He is not tall enough.",
+      "frenchConnection": "French \"pas assez grand\". In English, 'enough' comes AFTER the adjective (tall enough), but BEFORE a noun (enough money)."
+    }
+  ]
+}

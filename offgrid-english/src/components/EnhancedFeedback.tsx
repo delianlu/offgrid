@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import { ComparisonBox, ExplanationBox } from './common/FeedbackBox';
 import type { ContrastiveAnalysis } from '../types/schemas';
 import { celebrate } from '../services/celebrations';
@@ -40,6 +40,9 @@ export function EnhancedFeedback({
   contrastiveAnalysis,
   onContinue
 }: EnhancedFeedbackProps) {
+  console.log('EnhancedFeedback rendered. contrastiveAnalysis:', contrastiveAnalysis);
+  const [showContrastive, setShowContrastive] = useState(false);
+
   // Randomly select a message
   const messages = isCorrect ? SUCCESS_MESSAGES : ERROR_MESSAGES;
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
@@ -110,17 +113,6 @@ export function EnhancedFeedback({
           </motion.div>
         )}
 
-        {/* French vs English Comparison */}
-        {contrastiveAnalysis && (
-          <motion.div variants={itemVariants}>
-            <ComparisonBox
-              frenchText={contrastiveAnalysis.french || ''}
-              englishText={contrastiveAnalysis.english || ''}
-              highlightEnglish={contrastiveAnalysis.highlight}
-            />
-          </motion.div>
-        )}
-
         {/* Continue Button */}
         <motion.button
           variants={itemVariants}
@@ -144,7 +136,7 @@ export function EnhancedFeedback({
       {/* Error Message */}
       <motion.div
         variants={itemVariants}
-        className="bg-gradient-to-r from-orange-100 to-amber-100 border-l-4 border-orange-500 rounded-xl p-6 shadow-lg"
+        className="bg-gradient-to-r from-red-100 to-pink-100 border-l-4 border-red-500 rounded-xl p-6 shadow-lg"
       >
         <div className="flex items-start gap-4">
           <motion.div
@@ -156,10 +148,10 @@ export function EnhancedFeedback({
             💭
           </motion.div>
           <div>
-            <h3 className="text-2xl font-bold text-orange-900 mb-2">
+            <h3 className="text-2xl font-bold text-red-900 mb-2">
               {randomMessage.title}
             </h3>
-            <p className="text-orange-800 text-lg">
+            <p className="text-red-800 text-lg">
               {randomMessage.message}
             </p>
           </div>
@@ -192,7 +184,7 @@ export function EnhancedFeedback({
         <motion.div variants={itemVariants}>
           <div className="bg-white rounded-xl p-5 shadow-md">
             <p className="text-sm font-bold text-gray-900 mb-3">
-              📚 Why this is correct:
+              📚 Why the correct answer is right:
             </p>
             <p className="text-sm text-gray-700 leading-relaxed">
               {explanation}
@@ -201,19 +193,42 @@ export function EnhancedFeedback({
         </motion.div>
       )}
 
-      {/* French vs English Comparison */}
+      {/* French vs English Comparison (Expandable) */}
       {contrastiveAnalysis && (
-        <motion.div variants={itemVariants}>
-          <div className="bg-gray-50 rounded-xl p-5">
-            <p className="text-sm font-bold text-gray-900 mb-3">
-              🇫🇷 French vs 🇬🇧 English
-            </p>
-            <ComparisonBox
-              frenchText={contrastiveAnalysis.french || ''}
-              englishText={contrastiveAnalysis.english || ''}
-              highlightEnglish={contrastiveAnalysis.highlight}
-            />
-          </div>
+        <motion.div variants={itemVariants} className="space-y-2">
+          <button
+            onClick={() => setShowContrastive(!showContrastive)}
+            className="w-full flex items-center justify-between bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold py-3 px-5 rounded-xl transition-colors border-2 border-indigo-100"
+          >
+            <span className="flex items-center gap-2">
+              <span className="text-xl">🤔</span>
+              Why did I make this mistake?
+            </span>
+            <span className={`transform transition-transform duration-300 ${showContrastive ? 'rotate-180' : ''}`}>
+              ▼
+            </span>
+          </button>
+
+          <AnimatePresence>
+            {showContrastive && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="overflow-hidden"
+              >
+                <div className="pt-2">
+                  <ComparisonBox
+                    frenchText={contrastiveAnalysis.frenchStructure || ''}
+                    englishText={contrastiveAnalysis.englishStructure || ''}
+                    highlightEnglish={contrastiveAnalysis.visualHighlighting?.correct}
+                    whyDifficult={contrastiveAnalysis.whyDifficult}
+                  />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </motion.div>
       )}
 
@@ -221,7 +236,7 @@ export function EnhancedFeedback({
       <motion.button
         variants={itemVariants}
         onClick={onContinue}
-        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 rounded-xl shadow-lg transition-all hover:shadow-xl active:scale-95"
+        className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-xl shadow-lg transition-all hover:shadow-xl active:scale-95"
       >
         Continue →
       </motion.button>

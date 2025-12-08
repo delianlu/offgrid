@@ -1,183 +1,275 @@
 {
   "id": "articles",
   "name": "Articles",
-  "category": "articles",
-  "moduleIntroduction": "Hello! This module is about Articles. Articles are the small words 'a', 'an', 'the', or sometimes no article at all (which we call the \"zero article\"). These words seem small, but they change the meaning of a noun.\n\nWhy is this difficult? Because French uses articles all the time, but English sometimes leaves them out. The biggest error is using 'the' for general concepts. In French, you say \"Le riz est bon\" (Rice is good, in general). In English, you must remove the article: \"Rice is good.\" You cannot say \"The rice is good\" unless you mean specific rice (e.g., \"The rice on my plate\"). Also, French \"un/une\" (a/an) and \"des\" (some) have different rules. We will practice when to use an article and when not to.",
-  "contrastiveExplanation": "The main problem is that French and English use articles to show \"general\" vs. \"specific\" in opposite ways.\n\nA / AN (Indefinite Articles):\n\nThe Rule: Use 'a' or 'an' for a single, countable, non-specific noun. It means 'one of many'.\n\nExamples: \"I need a pen.\" (Any pen, not a specific one). \"He is a teacher.\" (His job).\n\n'A' vs. 'An': The rule is about sound, not spelling.\n\n• Use 'a' before a consonant sound: a book, a university (starts with 'y' sound), a European, a uniform.\n• Use 'an' before a vowel sound: an apple, an hour (h is silent), an honest man, an MBA (starts with 'em' sound).\n\nFrench Connection: This is similar to \"un / une\" (\"un stylo\", \"un professeur\"). The main error is forgetting it, especially with jobs (❌ \"He is teacher\" ➡️ ✅ \"He is a teacher\").\n\nTHE (Definite Article):\n\nThe Rule: Use 'the' when the noun is specific. The listener/reader knows which one you are talking about.\n\nExamples: \"The teacher (our teacher) is here.\" \"The rice in this bowl is hot.\"\n\nFrench Connection: This is similar to \"le / la / les\". The error is not here, but in the next section.\n\nZERO ARTICLE (Ø) (No Article):\n\nThe Rule: This is the most difficult rule. We use no article when speaking about:\n\n• General Plural Nouns: \"I like Ø dogs.\" (Dogs in general).\n• General Uncountable Nouns: \"I drink Ø water.\" (Water in general). \"We need Ø information.\"\n• General Abstract Nouns: \"Ø Life is short.\" \"Ø Education is important.\"\n\nFrench Connection: This is the opposite of French! French requires a definite article for general concepts:\n\n• \"J'aime les chiens.\" (I like dogs) ➡️ ❌ \"I like the dogs.\" ➡️ ✅ \"I like Ø dogs.\"\n• \"J'aime l'eau.\" (I like water) ➡️ ❌ \"I like the water.\" ➡️ ✅ \"I like Ø water.\"\n• \"La vie est courte.\" (Life is short) ➡️ ❌ \"The life is short.\" ➡️ ✅ \"Ø Life is short.\"\n\nThe Error: Students translate \"le / la / les\" directly to 'the' when talking about general things. You must remember to use zero article for general plurals and uncountables.",
-  "commonErrors": [
-    {
-      "number": 1,
-      "subTopic": "Zero article (General)",
-      "wrong": "I like the fufu.",
-      "correct": "I like Ø fufu.",
-      "frenchConnection": "\"J'aime le fufu.\" French uses \"le\" for a general preference. English must use the zero article (Ø) for general uncountable nouns."
-    },
-    {
-      "number": 2,
-      "subTopic": "Zero article (General)",
-      "wrong": "The education is important in Cameroon.",
-      "correct": "Ø Education is important in Cameroon.",
-      "frenchConnection": "\"L'éducation est importante...\" French uses \"l'\" for the general, abstract concept. English must use the zero article."
-    },
-    {
-      "number": 3,
-      "subTopic": "A/an usage (Professions)",
-      "wrong": "My father is teacher.",
-      "correct": "My father is a teacher.",
-      "frenchConnection": "\"Mon père est professeur.\" French does not use an article for professions after \"être\". English must use \"a/an\" for professions."
-    },
-    {
-      "number": 4,
-      "subTopic": "A/an usage (Professions)",
-      "wrong": "Ngono wants to be doctor.",
-      "correct": "Ngono wants to be a doctor.",
-      "frenchConnection": "\"Elle veut être médecin.\" English requires the article \"a\" before professions."
-    },
-    {
-      "number": 5,
-      "subTopic": "A/an usage (Sound rule)",
-      "wrong": "I saw an beautiful kaba (dress) at the market.",
-      "correct": "I saw a beautiful kaba at the market.",
-      "frenchConnection": "The choice of 'a'/'an' depends on the next sound. 'Beautiful' starts with a 'b' sound (consonant), so we use 'a'."
-    },
-    {
-      "number": 6,
-      "subTopic": "A/an usage (Sound rule)",
-      "wrong": "It takes one hour to go to Douala.",
-      "correct": "It takes an hour to go to Douala.",
-      "frenchConnection": "The 'h' in 'hour' is silent, so the word starts with a vowel sound ('our'). We must use 'an'."
-    },
-    {
-      "number": 7,
-      "subTopic": "Uncountable nouns",
-      "wrong": "I need a new information.",
-      "correct": "I need some new information. (Or \"a piece of...\")",
-      "frenchConnection": "\"J'ai besoin d'une information.\" French treats 'information' as countable. English 'information' is uncountable and cannot use 'a/an'."
-    },
-    {
-      "number": 8,
-      "subTopic": "Zero article (General)",
-      "wrong": "The students must wear uniforms.",
-      "correct": "Ø Students must wear uniforms.",
-      "frenchConnection": "\"Les étudiants doivent...\" French \"Les\" is used for the general plural (students in general, as a category). English must use the zero article when speaking generally."
-    },
-    {
-      "number": 9,
-      "subTopic": "Uncountable nouns",
-      "wrong": "I bought a rice from the market.",
-      "correct": "I bought some rice from the market. (Or \"a bag of rice\")",
-      "frenchConnection": "\"J'ai acheté du riz...\" (partitive). 'Rice' is uncountable, so you cannot use 'a'. You must use 'some' or a counter (\"a bag\")."
-    },
-    {
-      "number": 10,
-      "subTopic": "Zero article (Institutions)",
-      "wrong": "My brother goes to the school every day.",
-      "correct": "My brother goes to Ø school every day.",
-      "frenchConnection": "\"Mon frère va à l'école...\" When talking about going to an institution (school, church, hospital, university) for its main purpose (to learn, to worship, to receive treatment), English uses the zero article (Ø)."
-    }
-  ],
+  "category": "grammar",
   "schema_version": "1",
   "module_version": "1.0.0",
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Articles module! These are the small words (a, an, the) that cause big confusion.",
+    "theProblem": "In French, you use articles almost all the time (*Le* riz, *La* France, *Un* médecin). In English, we often delete them completely! The biggest mistake Francophones make is over-using the word 'The'.",
+    "thePromise": "By the end of this lesson, you will know exactly when to use 'A', when to use 'The', and most importantly, when to use **Zero Article** (nothing at all)."
+  },
+  "contrastiveExplanation": "### Concept 1: The Generalization Trap (Zero Article)\n\n**The Rule:**\nWhen talking about plural nouns or uncountable things **in general** (all of them, everywhere), English uses **Zero Article (Ø)**.\n* *I like **Ø** bananas.* (All bananas).\n* ***Ø** Life is hard.* (Life in general).\n\n**The French Trap:**\nFrench *requires* the definite article (*le, la, les*) for general concepts.\n* *J'aime **les** bananes.*\n* * **La** vie est dure.*\nBecause of this, students usually say: \"I like **the** bananas.\"\n\n**The Fix:**\nIf you mean \"in general,\" **kill the 'The'**.\n\n**Visual Metaphor:**\nThink of **'The'** as a **Spotlight** 🔦. It points at one specific thing. If you are talking about *everything* (the whole world, all bananas), you don't need a spotlight. You need **Daylight** (Zero Article).\n\n**Examples:**\n* 🇫🇷 *Le riz est populaire au Cameroun.*\n    * ❌ **The** rice is popular.\n    * ✅ **Ø Rice** is popular.\n* 🇫🇷 *Les chiens aboient.* (Dogs in general)\n    * ❌ **The** dogs bark.\n    * ✅ **Ø Dogs** bark.\n\n---\n\n### Concept 2: The Profession Badge (A / An)\n\n**The Rule:**\nIn English, when stating someone's job, you MUST use **a** or **an**.\n* *He is **a** teacher.*\n* *She is **an** engineer.*\n\n**The French Trap:**\nFrench treats professions like adjectives after 'être'.\n* *Il est **Ø** professeur.*\n* *Elle est **Ø** ingénieur.*\n\n**The Fix:**\nIn English, a job is a \"thing\" you count. Imagine every worker wears a **Badge**. You must say \"He is (one) teacher.\"\n\n**Examples:**\n* 🇫🇷 *Mon père est docteur.*\n    * ❌ My father is doctor.\n    * ✅ My father is **a doctor**.\n* 🇫🇷 *Je veux être infirmière.*\n    * ❌ I want to be nurse.\n    * ✅ I want to be **a nurse**.\n\n---\n\n### Concept 3: The Sound Rule (A vs. An)\n\n**The Rule:**\n* Use **A** before a **Consonant Sound** (a book, a car, a university).\n* Use **AN** before a **Vowel Sound** (an apple, an egg, an hour).\n\n**The French Trap:**\nIn French, 'H' is usually silent, but in English, 'H' is usually pronounced (House, Home). HOWEVER, words from French roots (Hour, Honest, Honor) keep the silent H.\nAlso, words starting with 'U' (University) often sound like 'You' (Y is a consonant sound).\n\n**The Fix:**\nListen to the **Sound**, not the spelling. \n* *Hour* sounds like *Our* ➡️ **An**.\n* *University* sounds like *You-niversity* ➡️ **A**.\n\n**Examples:**\n* 🇫🇷 *C'est un honneur.*\n    * ❌ It is **a** honour.\n    * ✅ It is **an** honour. (Silent H)\n* 🇫🇷 *C'est une université.*\n    * ❌ It is **an** university.\n    * ✅ It is **a** university. ('Y' sound)",
+  "commonErrors": [
+    {
+      "subTopic": "General Plurals",
+      "wrong": "I like the mangoes.",
+      "correct": "I like mangoes.",
+      "frenchConnection": "Direct translation of \"J'aime les mangues\". For general preference, drop 'the'."
+    },
+    {
+      "subTopic": "General Uncountable",
+      "wrong": "The money is important.",
+      "correct": "Money is important.",
+      "frenchConnection": "Direct translation of \"L'argent est important\". General concepts take Zero Article."
+    },
+    {
+      "subTopic": "Professions",
+      "wrong": "He is taxi driver.",
+      "correct": "He is a taxi driver.",
+      "frenchConnection": "French omits the article (\"Il est chauffeur de taxi\"). English requires 'a/an'."
+    },
+    {
+      "subTopic": "Silent H",
+      "wrong": "I waited for a hour.",
+      "correct": "I waited for an hour.",
+      "frenchConnection": "Students see the letter 'h' and use 'a', but the sound is 'our' (vowel), so it needs 'an'."
+    },
+    {
+      "subTopic": "Institutions (School/Church)",
+      "wrong": "My son goes to the school.",
+      "correct": "My son goes to school.",
+      "frenchConnection": "French uses \"à l'école\". English uses Zero Article when referring to the institution's purpose (learning)."
+    },
+    {
+      "subTopic": "Abstract Nouns",
+      "wrong": "The love is blind.",
+      "correct": "Love is blind.",
+      "frenchConnection": "\"L'amour rend aveugle.\" Abstract nouns in general use Zero Article."
+    }
+  ],
   "items": [
     {
-      "id": "articles-1-A",
+      "id": "art-e01-A",
       "moduleId": "articles",
-      "questionText": "In general, ___ plantains are expensive in the dry season.",
+      "difficulty": "easy",
+      "questionText": "I saw ___ elephant at the zoo.",
       "type": "multiple_choice",
       "options": [
-        "the",
         "a",
-        "Ø (no article)"
+        "an",
+        "two"
       ],
-      "correctAnswer": "Ø (no article)",
-      "feedback": "Correct! We are talking about 'plantains' in general, not specific plantains. In French, you say \"Les bananes...\", but in English, we use the zero article (Ø) for general plural nouns.",
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Elephant' starts with a vowel sound, so we use 'an'.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Zero article (General)",
+      "subTopic": "A/an usage (Vowel Sound)",
       "frenchComparison": {
-        "frenchStructure": "\"En général, les plantains coûtent cher...\"\n(French *must* use the definite article \"les\" (the) when making a general statement about a plural noun.)",
-        "englishStructure": "\"In general, plantains are expensive...\"\n(English *must* use the \"zero article\" (no article) when making a general statement about a plural noun.)",
-        "whyDifficult": "This is a core, opposite rule. French speakers are trained to use \"les\" for general plurals (\"J'aime les chiens\"), so they translate this directly and say \"I like the dogs\" or \"The plantains are expensive\".",
+        "frenchStructure": "Un éléphant...",
+        "englishStructure": "An elephant...",
+        "whyDifficult": "French uses 'un' for both. English distinguishes 'a' vs 'an' based on sound.",
         "visualHighlighting": {
-          "incorrect": "In general, *the plantains* are expensive...",
-          "correct": "In general, *plantains* are expensive..."
+          "incorrect": "a",
+          "correct": "an"
         }
       }
     },
     {
-      "id": "articles-2-A",
+      "id": "art-e02-A",
       "moduleId": "articles",
-      "questionText": "___ life in Yaoundé is very fast.",
-      "type": "multiple_choice",
-      "options": [
-        "The",
-        "A",
-        "Ø (no article)"
-      ],
-      "correctAnswer": "Ø (no article)",
-      "feedback": "That's right. We are talking about 'life' as a general, abstract concept. French says \"La vie...\", but English must use the zero article (Ø).",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Zero article (General)",
-      "frenchComparison": {
-        "frenchStructure": "\"La vie à Yaoundé est très rapide.\"\n(French *must* use the definite article \"la\" (the) when making a general statement about an abstract noun like 'life'.)",
-        "englishStructure": "\"Life in Yaoundé is very fast.\"\n(English *must* use the \"zero article\" (no article) for abstract nouns used in a general sense.)",
-        "whyDifficult": "This is the same error as the one above, but for abstract nouns. French \"La vie est belle\" or \"L'éducation est importante\" is translated directly to \"The life is beautiful\" or \"The education is important\", which is incorrect in English.",
-        "visualHighlighting": {
-          "incorrect": "*The life* in Yaoundé...",
-          "correct": "*Life* in Yaoundé..."
-        }
-      }
-    },
-    {
-      "id": "articles-3-A",
-      "moduleId": "articles",
-      "questionText": "My aunt is ___ nurse.",
-      "type": "multiple_choice",
-      "options": [
-        "Ø (no article)",
-        "a",
-        "an"
-      ],
-      "correctAnswer": "a",
-      "feedback": "Excellent! In English, we must use 'a' or 'an' before a singular job or profession. In French, you say \"Elle est infirmière\" (no article), but this is a mistake in English.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "A/an usage (Professions)",
-      "frenchComparison": {
-        "frenchStructure": "\"Ma tante est infirmière.\"\n(French does *not* use an article (\"un\" or \"une\") after the verb \"être\" (to be) when stating a profession.)",
-        "englishStructure": "\"My aunt is a nurse.\"\n(English *requires* the article \"a\" or \"an\" before a singular, countable noun like a profession.)",
-        "whyDifficult": "This is another opposite rule. Students directly translate the French \"est infirmière\" (\"is nurse\") and omit the article \"a\".",
-        "visualHighlighting": {
-          "incorrect": "My aunt is *nurse*.",
-          "correct": "My aunt is *a nurse*."
-        }
-      }
-    },
-    {
-      "id": "articles-4-A",
-      "moduleId": "articles",
-      "questionText": "Mr. Njoya is ___ honest man.",
+      "difficulty": "easy",
+      "questionText": "My mother is ___ doctor.",
       "type": "multiple_choice",
       "options": [
         "a",
         "an",
         "Ø (no article)"
       ],
-      "correctAnswer": "an",
-      "feedback": "Perfect! The 'h' in 'honest' is silent, so the word starts with a vowel sound ('o'). Therefore, we must use 'an'.",
+      "correctAnswer": "a",
+      "feedback": "Correct! With professions, we must use 'a' or 'an'.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "A/an usage (Sound rule)"
+      "subTopic": "A/an usage (Professions)",
+      "frenchComparison": {
+        "frenchStructure": "Ma mère est médecin...",
+        "englishStructure": "My mother is a doctor...",
+        "whyDifficult": "French omits the article for professions. English requires it.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "a"
+        }
+      }
     },
     {
-      "id": "articles-5-A",
+      "id": "art-e03-A",
       "moduleId": "articles",
-      "questionText": "I want to go to ___ university in Buea.",
+      "difficulty": "easy",
+      "questionText": "Please give me ___ pen.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "a",
+        "two"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Pen' starts with a consonant sound, so we use 'a'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un stylo...",
+        "englishStructure": "A pen...",
+        "whyDifficult": "Basic article usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e04-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Look at ___ moon!",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! There is only one moon, so it is specific. We use 'the'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Unique)",
+      "frenchComparison": {
+        "frenchStructure": "Regarde la lune !",
+        "englishStructure": "Look at the moon!",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-e05-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "He is eating ___ orange.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Orange' starts with a vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une orange...",
+        "englishStructure": "An orange...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e06-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Ngono is ___ honest girl.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! The 'h' in 'honest' is silent. It starts with an 'o' sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Une fille honnête...",
+        "englishStructure": "An honest girl...",
+        "whyDifficult": "Silent 'h' makes it a vowel sound.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e07-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I need ___ new phone.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'New' starts with a consonant sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un nouveau téléphone...",
+        "englishStructure": "A new phone...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e08-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Open ___ door, please.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We both know which door (the specific one in this room).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Ouvre la porte...",
+        "englishStructure": "Open the door...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-e09-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Douala is ___ big city.",
       "type": "multiple_choice",
       "options": [
         "a",
@@ -185,189 +277,1621 @@
         "the"
       ],
       "correctAnswer": "a",
-      "feedback": "Good job. This is tricky! 'University' starts with the letter 'u', but it makes a 'y' sound (like 'you-niversity'), which is a consonant sound. So, we use 'a'. (Other examples: a uniform, a European.)",
+      "feedback": "Correct! It is one of many big cities.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "A/an usage (Sound rule)"
+      "subTopic": "A/an usage (General)",
+      "frenchComparison": {
+        "frenchStructure": "Une grande ville...",
+        "englishStructure": "A big city...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "a"
+        }
+      }
     },
     {
-      "id": "articles-6-A",
+      "id": "art-e10-A",
       "moduleId": "articles",
-      "questionText": "Can you give me ___ advice?",
+      "difficulty": "easy",
+      "questionText": "She is ___ nurse.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Professions take 'a' or 'an'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Professions)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est infirmière...",
+        "englishStructure": "She is a nurse...",
+        "whyDifficult": "French omits article for professions.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e11-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I have ___ umbrella.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Umbrella' starts with a vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un parapluie...",
+        "englishStructure": "An umbrella...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e12-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "This is ___ old car.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Old' starts with a vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une vieille voiture...",
+        "englishStructure": "An old car...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e13-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Can I ask ___ question?",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Question' starts with a consonant sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une question...",
+        "englishStructure": "A question...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e14-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Where is ___ teacher?",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We mean our specific teacher.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Où est le professeur ?",
+        "englishStructure": "Where is the teacher?",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-e15-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "It is ___ ugly dog.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Ugly' starts with a vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un chien laid...",
+        "englishStructure": "An ugly dog...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e16-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "He wants to buy ___ moto.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Moto' starts with a consonant sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une moto...",
+        "englishStructure": "A moto...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e17-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "The sun is hot today. ___ sun is very bright.",
+      "type": "multiple_choice",
+      "options": [
+        "A",
+        "An",
+        "The"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! There is only one sun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Unique)",
+      "frenchComparison": {
+        "frenchStructure": "Le soleil...",
+        "englishStructure": "The sun...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-e18-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "She is ___ good student.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Good' starts with a consonant sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une bonne élève...",
+        "englishStructure": "A good student...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e19-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I saw ___ bird in the tree.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Bird' starts with a consonant sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un oiseau...",
+        "englishStructure": "A bird...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e20-A",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Paul Biya is ___ President of Cameroon.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! There is only one President, so he is specific.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Titles)",
+      "frenchComparison": {
+        "frenchStructure": "Le Président...",
+        "englishStructure": "The President...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-m01-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I like ___ bananas.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! General plural nouns do not take 'the'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime les bananes...",
+        "englishStructure": "I like bananas...",
+        "whyDifficult": "French uses 'les' for general preference. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m02-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ water is essential for life.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! General uncountable nouns do not take 'the'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Uncountable)",
+      "frenchComparison": {
+        "frenchStructure": "L'eau est essentielle...",
+        "englishStructure": "Water is essential...",
+        "whyDifficult": "French uses 'l'' (definite article). English uses Zero Article for general concepts.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m03-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "He goes to ___ university in Buea.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'University' starts with a 'y' sound (consonant).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Une université...",
+        "englishStructure": "A university...",
+        "whyDifficult": "'U' sounds like 'You' (consonant sound).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m04-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "It takes ___ hour to cook this.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Hour' starts with a silent 'h' (vowel sound).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Une heure...",
+        "englishStructure": "An hour...",
+        "whyDifficult": "Silent 'h' makes it a vowel sound.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m05-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ life is complicated.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Abstract nouns (Life) in general do not take 'the'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Abstract)",
+      "frenchComparison": {
+        "frenchStructure": "La vie...",
+        "englishStructure": "Life...",
+        "whyDifficult": "French uses 'la'. English uses Zero Article for abstract concepts.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m06-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "She has ___ MBA degree.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'MBA' starts with the sound 'em' (vowel).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un MBA...",
+        "englishStructure": "An MBA...",
+        "whyDifficult": "Acronym starts with 'em' sound (vowel).",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m07-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "Can you give me ___ information?",
       "type": "multiple_choice",
       "options": [
         "an",
         "some",
+        "a"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! 'Information' is uncountable. Never use 'a' or 'an'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Une information...",
+        "englishStructure": "Some information...",
+        "whyDifficult": "French counts 'information'. English does not.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "art-m08-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I bought ___ rice.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
         "the"
       ],
       "correctAnswer": "some",
-      "feedback": "Correct! 'Advice' is uncountable in English (different from French \"des conseils\"). We cannot use 'a' or 'an'. We use 'some' (or 'a piece of'). (Remember: information, advice, furniture, luggage are all uncountable.)",
+      "feedback": "Correct! 'Rice' is uncountable.",
       "formType": "A",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Uncountable nouns",
+      "subTopic": "Uncountable Nouns",
       "frenchComparison": {
-        "frenchStructure": "\"Peux-tu me donner un conseil ?\"\n(French treats \"un conseil\" (a piece of advice) as a countable noun. It has a plural form, \"des conseils\".)",
-        "englishStructure": "\"Can you give me some advice?\"\n(English treats \"advice\" as *uncountable*. It cannot be plural (no \"advices\") and cannot be used with \"a\" or \"an\".)",
-        "whyDifficult": "Students directly translate the countable \"un conseil\" to \"an advice\". This error also applies to \"information\" (\"une information\" -> \"an information\") and \"luggage\" (\"un bagage\" -> \"a luggage\").",
+        "frenchStructure": "Du riz...",
+        "englishStructure": "Some rice...",
+        "whyDifficult": "Direct translation works, but 'a rice' is a common error.",
         "visualHighlighting": {
-          "incorrect": "Can you give me *an advice*?",
-          "correct": "Can you give me *some advice*?"
+          "incorrect": "a",
+          "correct": "some"
         }
       }
     },
     {
-      "id": "articles-7-A",
+      "id": "art-m09-A",
       "moduleId": "articles",
-      "questionText": "I ate an orange. ___ orange was very sweet.",
+      "difficulty": "medium",
+      "questionText": "___ children like to play.",
       "type": "multiple_choice",
       "options": [
-        "An",
         "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Children in general.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les enfants...",
+        "englishStructure": "Children...",
+        "whyDifficult": "French uses 'les'. English uses Zero Article for general plural.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m10-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "He is ___ European.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'European' starts with a 'y' sound (consonant).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un Européen...",
+        "englishStructure": "A European...",
+        "whyDifficult": "'Eu' sounds like 'You' (consonant sound).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m11-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I play ___ football every Sunday.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! We do not use articles with sports.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Sports)",
+      "frenchComparison": {
+        "frenchStructure": "Je joue au football...",
+        "englishStructure": "I play football...",
+        "whyDifficult": "French uses 'au' (à + le). English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m12-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ Gold is found in the East region.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Materials (Gold, Wood) in general do not take articles.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Materials)",
+      "frenchComparison": {
+        "frenchStructure": "L'or...",
+        "englishStructure": "Gold...",
+        "whyDifficult": "French uses 'l''. English uses Zero Article for materials.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m13-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I need to buy ___ furniture.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! 'Furniture' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Des meubles...",
+        "englishStructure": "Some furniture...",
+        "whyDifficult": "French uses plural. English uses uncountable singular.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "art-m14-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ women live longer than men.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Women in general.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les femmes...",
+        "englishStructure": "Women...",
+        "whyDifficult": "French uses 'les'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m15-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "Do you like ___ coffee?",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Coffee (the drink) in general.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Le café...",
+        "englishStructure": "Coffee...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for drinks/mass nouns.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m16-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "The train leaves in ___ hour.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Silent 'h'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Une heure...",
+        "englishStructure": "An hour...",
+        "whyDifficult": "Silent 'h'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m17-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "Find the error: \"I have a good news.\"",
+      "type": "error_correction",
+      "options": [
+        "I have",
+        "a good news",
+        "No error",
+        "good news"
+      ],
+      "correctAnswer": "a good news",
+      "feedback": "Correct! 'News' is uncountable. Say 'some good news' or just 'good news'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "some good news",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Une bonne nouvelle...",
+        "englishStructure": "Some good news...",
+        "whyDifficult": "French counts 'nouvelle'. English 'news' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a good news",
+          "correct": "some good news"
+        }
+      }
+    },
+    {
+      "id": "art-m18-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ love is blind.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Abstract noun (Love) in general.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Abstract)",
+      "frenchComparison": {
+        "frenchStructure": "L'amour...",
+        "englishStructure": "Love...",
+        "whyDifficult": "French uses 'l''. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m19-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I saw ___ one-eyed man.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'One' starts with a 'w' sound (consonant).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un homme borgne...",
+        "englishStructure": "A one-eyed man...",
+        "whyDifficult": "'One' starts with 'w' sound (consonant).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m20-A",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ English is spoken here.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "An",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Languages do not take 'the'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Languages)",
+      "frenchComparison": {
+        "frenchStructure": "L'anglais...",
+        "englishStructure": "English...",
+        "whyDifficult": "French uses 'l''. English uses Zero Article for languages.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h01-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "Muna goes to ___ school every morning (as a student).",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! When going for the main purpose (studying), we use zero article.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Institutions)",
+      "frenchComparison": {
+        "frenchStructure": "Muna va à l'école...",
+        "englishStructure": "Muna goes to school...",
+        "whyDifficult": "French uses 'l'école'. English uses Zero Article for the institution's purpose.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h02-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "His mother went to ___ school to pay the fees.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! She is going as a visitor to the specific building, not as a student. We use 'the'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Institutions)",
+      "frenchComparison": {
+        "frenchStructure": "Sa mère est allée à l'école...",
+        "englishStructure": "His mother went to the school...",
+        "whyDifficult": "Here English uses 'the' because it refers to the specific building, not the purpose.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h03-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "They climbed ___ Mount Cameroon.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Individual mountains do not take 'the'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Le Mont Cameroun...",
+        "englishStructure": "Mount Cameroon...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for single mountains.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h04-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "We visited ___ Alps in Europe.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Mountain ranges (plural) take 'the'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Les Alpes...",
+        "englishStructure": "The Alps...",
+        "whyDifficult": "Direct translation works (plural mountains).",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h05-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He is in ___ prison (as a prisoner).",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Main purpose (prisoner) = zero article.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Institutions)",
+      "frenchComparison": {
+        "frenchStructure": "Il est en prison...",
+        "englishStructure": "He is in prison...",
+        "whyDifficult": "Similar to French 'en prison' (no article), but different from 'at the hospital'.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h06-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I work ___ at night.",
+      "type": "multiple_choice",
+      "options": [
+        "in",
+        "at the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Fixed expression: 'At night'. (But 'In the morning').",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "La nuit...",
+        "englishStructure": "At night...",
+        "whyDifficult": "French uses 'la'. English uses Zero Article in this phrase.",
+        "visualHighlighting": {
+          "incorrect": "at the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h07-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ rich should help ___ poor.",
+      "type": "multiple_choice",
+      "options": [
+        "The / the",
+        "Rich / poor",
+        "The / a"
+      ],
+      "correctAnswer": "The / the",
+      "feedback": "Correct! 'The' + adjective refers to a group of people (Rich people / Poor people).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The + Adjective",
+      "frenchComparison": {
+        "frenchStructure": "Les riches... les pauvres...",
+        "englishStructure": "The rich... the poor...",
+        "whyDifficult": "French uses plural 'les'. English uses 'the' + adjective (singular form, plural meaning).",
+        "visualHighlighting": {
+          "incorrect": "Rich / poor",
+          "correct": "The / the"
+        }
+      }
+    },
+    {
+      "id": "art-h08-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He plays ___ piano very well.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We use 'the' with musical instruments.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Instruments)",
+      "frenchComparison": {
+        "frenchStructure": "Il joue du piano...",
+        "englishStructure": "He plays the piano...",
+        "whyDifficult": "French uses 'du' (de + le). English uses 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h09-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Lake Chad is shrinking.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Lakes usually use zero article.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Le Lac Tchad...",
+        "englishStructure": "Lake Chad...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for lakes.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h10-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ River Wouri crosses Douala.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
         "Ø (no article)"
       ],
       "correctAnswer": "The",
-      "feedback": "That's it! The first time, you say \"an orange\" (general). The second time, we know which orange you mean (the one you just mentioned), so it is specific. We must use 'the'.",
+      "feedback": "Correct! Rivers take 'the'.",
       "formType": "A",
-      "transferType": "near",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "The vs a/an (Specific vs. General)"
-    },
-    {
-      "id": "articles-8-A",
-      "moduleId": "articles",
-      "questionText": "Find the error: \"I need to buy a bread.\"",
-      "type": "error_correction",
-      "options": [
-        "I need",
-        "to buy",
-        "a bread",
-        "No error"
-      ],
-      "correctAnswer": "a bread",
-      "feedback": "You found it! 'Bread' (le pain) is uncountable. You cannot use 'a' with it. You must say \"some bread\" or \"a loaf of bread\".",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "some bread (or a loaf of bread)",
-      "subTopic": "Uncountable nouns"
-    },
-    {
-      "id": "articles-9-A",
-      "moduleId": "articles",
-      "questionText": "Muna is sick. He is in ___ hospital.",
-      "type": "multiple_choice",
-      "options": [
-        "Ø (no article)",
-        "the",
-        "a"
-      ],
-      "correctAnswer": "Ø (no article)",
-      "feedback": "Correct! When we talk about going to an institution (like hospital, school, church, prison) for its main purpose (to be a patient, to learn, to worship), we use the zero article (Ø). (Note: In American English, people say \"in the hospital\", but in British/Cameroonian English, we use zero article.)",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Zero article (Institutions)",
+      "subTopic": "The (Geography)",
       "frenchComparison": {
-        "frenchStructure": "\"Muna est malade. Il est à l'hôpital.\" (à + le)\n(French uses the definite article \"l'hôpital\" (the hospital) when talking about being at this institution.)",
-        "englishStructure": "\"Muna is sick. He is in hospital.\"\n(English uses the \"zero article\" (no article) for institutions like 'hospital', 'school', 'church', and 'prison' when referring to their *purpose* (being a patient, student, etc.) rather than the specific building.)",
-        "whyDifficult": "Students translate the French \"à l'hôpital\" (\"at the hospital\") or \"à l'école\" (\"at the school\") directly and include \"the\". (Saying \"He is in *the* hospital\" is not wrong, but it means he is *physically inside the building*, perhaps just visiting. \"In hospital\" means he is a patient.)",
+        "frenchStructure": "Le fleuve Wouri...",
+        "englishStructure": "The River Wouri...",
+        "whyDifficult": "Direct translation works.",
         "visualHighlighting": {
-          "incorrect": "He is in *the hospital*.",
-          "correct": "He is *in hospital*."
+          "incorrect": "Ø (no article)",
+          "correct": "The"
         }
       }
     },
     {
-      "id": "articles-10-A",
+      "id": "art-h11-A",
       "moduleId": "articles",
-      "questionText": "___ President of Cameroon is visiting Garoua.",
+      "difficulty": "hard",
+      "questionText": "___ sooner, ___ better.",
       "type": "multiple_choice",
       "options": [
-        "Ø (no article)",
+        "The / the",
+        "A / a",
+        "Ø / Ø"
+      ],
+      "correctAnswer": "The / the",
+      "feedback": "Correct! Double comparative structure.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Double Comparative)",
+      "frenchComparison": {
+        "frenchStructure": "Plus tôt, mieux c'est...",
+        "englishStructure": "The sooner, the better...",
+        "whyDifficult": "French doesn't use articles here. English requires 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø / Ø",
+          "correct": "The / the"
+        }
+      }
+    },
+    {
+      "id": "art-h12-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I will see you in ___ morning.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Fixed expression: 'In the morning'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Le matin...",
+        "englishStructure": "In the morning...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h13-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "She was elected ___ President.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! After verbs like elect, appoint, become, we often drop the article for a unique title.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Unique Roles)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a été élue Présidente...",
+        "englishStructure": "She was elected President...",
+        "whyDifficult": "Similar to French (no article).",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h14-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He goes to work by ___ car.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Transport phrases with 'by' use zero article (by car, by bus).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Transport)",
+      "frenchComparison": {
+        "frenchStructure": "En voiture...",
+        "englishStructure": "By car...",
+        "whyDifficult": "French uses 'en' (no article). English uses 'by' + Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h15-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I sat on ___ bed (the specific furniture).",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! You are referring to the object, not the purpose of sleeping.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The vs Zero (Bed)",
+      "frenchComparison": {
+        "frenchStructure": "Sur le lit...",
+        "englishStructure": "On the bed...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h16-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Cameroon of the 1960s was different.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
         "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Usually countries are Zero, but when qualified (The Cameroon *of the 1960s*), we use 'The'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Qualified Proper Nouns)",
+      "frenchComparison": {
+        "frenchStructure": "Le Cameroun des années 60...",
+        "englishStructure": "The Cameroon of the 1960s...",
+        "whyDifficult": "French always uses 'Le'. English usually doesn't, but does here.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h17-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He has ___ cold (illness).",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! We say 'have a cold', 'have a headache'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Illness)",
+      "frenchComparison": {
+        "frenchStructure": "Il a un rhume...",
+        "englishStructure": "He has a cold...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-h18-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He has ___ flu.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We typically say 'the flu' or 'the measles'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Illness)",
+      "frenchComparison": {
+        "frenchStructure": "Il a la grippe...",
+        "englishStructure": "He has the flu...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h19-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ USA is a big country.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Countries with 'United' or 'Republic' take 'The'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The (Countries)",
+      "frenchComparison": {
+        "frenchStructure": "Les États-Unis...",
+        "englishStructure": "The USA...",
+        "whyDifficult": "French uses 'les'. English uses 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h20-A",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ French are known for their wine.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! 'The French' means the French people as a nation.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The + Adjective (Nationality)",
+      "frenchComparison": {
+        "frenchStructure": "Les Français...",
+        "englishStructure": "The French...",
+        "whyDifficult": "French uses 'les'. English uses 'the' + adjective.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-e01-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "He ate ___ egg.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Egg' starts with a vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un œuf...",
+        "englishStructure": "An egg...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e02-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "My sister is ___ engineer.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Engineer' starts with a vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Professions)",
+      "frenchComparison": {
+        "frenchStructure": "Ma sœur est ingénieur...",
+        "englishStructure": "My sister is an engineer...",
+        "whyDifficult": "French omits article for professions.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e03-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I have ___ book in my bag.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "a",
+        "two"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Book' starts with a consonant sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un livre...",
+        "englishStructure": "A book...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e04-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "___ sky is blue.",
+      "type": "multiple_choice",
+      "options": [
+        "A",
+        "An",
         "The"
       ],
       "correctAnswer": "The",
-      "feedback": "Yes! There is only one 'President of Cameroon'. This makes him specific and unique, so we must use 'the'.",
-      "formType": "A",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "The (Specific)"
-    },
-    {
-      "id": "articles-1-B",
-      "moduleId": "articles",
-      "questionText": "In my family, we think ___ children should obey their parents.",
-      "type": "multiple_choice",
-      "options": [
-        "the",
-        "a",
-        "Ø (no article)"
-      ],
-      "correctAnswer": "Ø (no article)",
-      "feedback": "Correct! We are talking about 'children' in general (as a category), not specific children. In French, you say \"Les enfants...\", but in English, we use the zero article (Ø) for general plural nouns.",
+      "feedback": "Correct! There is only one sky, so it is specific.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Zero article (General)"
+      "subTopic": "The (Unique)",
+      "frenchComparison": {
+        "frenchStructure": "Le ciel...",
+        "englishStructure": "The sky...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "The"
+        }
+      }
     },
     {
-      "id": "articles-2-B",
+      "id": "art-e05-B",
       "moduleId": "articles",
-      "questionText": "___ honesty is a very important quality.",
+      "difficulty": "easy",
+      "questionText": "I want ___ apple.",
       "type": "multiple_choice",
       "options": [
-        "The",
-        "An",
-        "Ø (no article)"
-      ],
-      "correctAnswer": "Ø (no article)",
-      "feedback": "That's right. We are talking about 'honesty' as a general, abstract concept. French says \"L'honnêteté...\", but English must use the zero article (Ø).",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "subTopic": "Zero article (General)"
-    },
-    {
-      "id": "articles-3-B",
-      "moduleId": "articles",
-      "questionText": "My cousin is ___ engineer.",
-      "type": "multiple_choice",
-      "options": [
-        "Ø (no article)",
         "a",
-        "an"
+        "an",
+        "the"
       ],
       "correctAnswer": "an",
-      "feedback": "Excellent! In English, we must use 'a' or 'an' before a singular job or profession. 'Engineer' starts with a vowel sound, so we use 'an'.",
+      "feedback": "Correct! 'Apple' starts with a vowel sound.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "A/an usage (Professions)"
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une pomme...",
+        "englishStructure": "An apple...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
     },
     {
-      "id": "articles-4-B",
+      "id": "art-e06-B",
       "moduleId": "articles",
+      "difficulty": "easy",
       "questionText": "It is ___ honour to meet you.",
       "type": "multiple_choice",
       "options": [
         "a",
         "an",
-        "Ø (no article)"
+        "the"
       ],
       "correctAnswer": "an",
-      "feedback": "Perfect! The 'h' in 'honour' is silent (in British/Cameroonian English), so the word starts with a vowel sound ('o'). Therefore, we must use 'an'.",
+      "feedback": "Correct! The 'h' in 'honour' is silent.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "A/an usage (Sound rule)"
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un honneur...",
+        "englishStructure": "An honour...",
+        "whyDifficult": "Silent 'h' makes it a vowel sound.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
     },
     {
-      "id": "articles-5-B",
+      "id": "art-e07-B",
       "moduleId": "articles",
-      "questionText": "He is ___ European, but he lives in Cameroon.",
+      "difficulty": "easy",
+      "questionText": "She wants ___ new dress.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'New' starts with a consonant sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une nouvelle robe...",
+        "englishStructure": "A new dress...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e08-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Close ___ window.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We know which window (the specific one here).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Ferme la fenêtre...",
+        "englishStructure": "Close the window...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-e09-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Yaoundé is ___ beautiful city.",
       "type": "multiple_choice",
       "options": [
         "a",
@@ -375,35 +1899,215 @@
         "the"
       ],
       "correctAnswer": "a",
-      "feedback": "Good job! This is tricky! 'European' starts with the letter 'E', but it makes a 'y' sound (like 'you-ropean'), which is a consonant sound. So, we use 'a'.",
+      "feedback": "Correct! It is one of many beautiful cities.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "A/an usage (Sound rule)"
+      "subTopic": "A/an usage (General)",
+      "frenchComparison": {
+        "frenchStructure": "Une belle ville...",
+        "englishStructure": "A beautiful city...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "a"
+        }
+      }
     },
     {
-      "id": "articles-6-B",
+      "id": "art-e10-B",
       "moduleId": "articles",
-      "questionText": "Find the error: \"Do you have an information for me?\"",
-      "type": "error_correction",
+      "difficulty": "easy",
+      "questionText": "My uncle is ___ driver.",
+      "type": "multiple_choice",
       "options": [
-        "Do you have",
-        "an information",
-        "for me",
-        "No error"
+        "a",
+        "an",
+        "Ø (no article)"
       ],
-      "correctAnswer": "an information",
-      "feedback": "You found it! 'Information' is uncountable in English. We cannot use 'a' or 'an' with it. We use 'any' (in questions) or 'some'.",
+      "correctAnswer": "a",
+      "feedback": "Correct! Professions take 'a' or 'an'.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "correction": "any information (or some information)",
-      "subTopic": "Uncountable nouns"
+      "subTopic": "A/an usage (Professions)",
+      "frenchComparison": {
+        "frenchStructure": "Mon oncle est chauffeur...",
+        "englishStructure": "My uncle is a driver...",
+        "whyDifficult": "French omits article for professions.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "a"
+        }
+      }
     },
     {
-      "id": "articles-7-B",
+      "id": "art-e11-B",
       "moduleId": "articles",
-      "questionText": "I bought a new phone. ___ phone has a good camera.",
+      "difficulty": "easy",
+      "questionText": "He saw ___ insect.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Insect' starts with a vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un insecte...",
+        "englishStructure": "An insect...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e12-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "She is ___ old woman.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Old' starts with a vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une vieille femme...",
+        "englishStructure": "An old woman...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e13-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I have ___ problem.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Problem' starts with a consonant sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un problème...",
+        "englishStructure": "A problem...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e14-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "Where is ___ principal?",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! We mean our specific principal.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Où est le proviseur ?",
+        "englishStructure": "Where is the principal?",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-e15-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "It is ___ interesting book.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Interesting' starts with a vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Vowel Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un livre intéressant...",
+        "englishStructure": "An interesting book...",
+        "whyDifficult": "Vowel sound rule.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-e16-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "She bought ___ car.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Car' starts with a consonant sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Une voiture...",
+        "englishStructure": "A car...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e17-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "___ President is speaking tonight.",
       "type": "multiple_choice",
       "options": [
         "A",
@@ -411,65 +2115,1183 @@
         "The"
       ],
       "correctAnswer": "The",
-      "feedback": "That's it! The first time, you say \"a new phone\" (general). The second time, we know which phone you mean (the one you just bought), so it is specific. We must use 'the'.",
+      "feedback": "Correct! A unique title.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "The vs a/an (Specific vs. General)"
+      "subTopic": "The (Unique)",
+      "frenchComparison": {
+        "frenchStructure": "Le Président...",
+        "englishStructure": "The President...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "The"
+        }
+      }
     },
     {
-      "id": "articles-8-B",
+      "id": "art-e18-B",
       "moduleId": "articles",
-      "questionText": "Find the error: \"My mother bought a furniture.\"",
-      "type": "error_correction",
-      "options": [
-        "My mother bought",
-        "a furniture",
-        "No error"
-      ],
-      "correctAnswer": "a furniture",
-      "feedback": "You spotted it! 'Furniture' is uncountable in English (different from French \"des meubles\"). You cannot use 'a' with it. You must say \"some furniture\" or \"a piece of furniture\".",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "some furniture (or a piece of furniture)",
-      "subTopic": "Uncountable nouns"
-    },
-    {
-      "id": "articles-9-B",
-      "moduleId": "articles",
-      "questionText": "Find the error: \"My sister goes to the university in Bamenda.\"",
-      "type": "error_correction",
-      "options": [
-        "My sister goes",
-        "to the university",
-        "in Bamenda",
-        "No error"
-      ],
-      "correctAnswer": "to the university",
-      "feedback": "Good catch! When we talk about going to an institution (university, school, church, hospital) for its main purpose (to study, to learn), we use the zero article (Ø). We say \"goes to university\" not \"goes to the university\".",
-      "formType": "B",
-      "transferType": "near",
-      "item_version": "1.0.0",
-      "correction": "to Ø university",
-      "subTopic": "Zero article (Institutions)"
-    },
-    {
-      "id": "articles-10-B",
-      "moduleId": "articles",
-      "questionText": "What is ___ capital of the North-West region?",
+      "difficulty": "easy",
+      "questionText": "He is ___ bad boy.",
       "type": "multiple_choice",
       "options": [
-        "Ø (no article)",
         "a",
-        "the"
+        "an",
+        "Ø (no article)"
       ],
-      "correctAnswer": "the",
-      "feedback": "Yes! There is only one capital of the North-West region. This makes it specific and unique, so we must use 'the'.",
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Bad' starts with a consonant sound.",
       "formType": "B",
       "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "The (Specific)"
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un mauvais garçon...",
+        "englishStructure": "A bad boy...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e19-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "I see ___ cat.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "two"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Cat' starts with a consonant sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Consonant Sound)",
+      "frenchComparison": {
+        "frenchStructure": "Un chat...",
+        "englishStructure": "A cat...",
+        "whyDifficult": "Basic usage.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-e20-B",
+      "moduleId": "articles",
+      "difficulty": "easy",
+      "questionText": "___ Governor of the region is here.",
+      "type": "multiple_choice",
+      "options": [
+        "A",
+        "An",
+        "The"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! The Governor is a unique role in this context.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Titles)",
+      "frenchComparison": {
+        "frenchStructure": "Le Gouverneur...",
+        "englishStructure": "The Governor...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-m01-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ cats are clean animals.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Cats in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les chats...",
+        "englishStructure": "Cats...",
+        "whyDifficult": "French uses 'les' for general preference. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m02-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ rice is popular in Cameroon.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! General uncountable noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Uncountable)",
+      "frenchComparison": {
+        "frenchStructure": "Le riz...",
+        "englishStructure": "Rice...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for general concepts.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m03-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "She wears ___ uniform.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Uniform' starts with a 'y' sound (consonant).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un uniforme...",
+        "englishStructure": "A uniform...",
+        "whyDifficult": "'U' sounds like 'You' (consonant sound).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m04-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "He is ___ honest man.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Silent 'h'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un homme honnête...",
+        "englishStructure": "An honest man...",
+        "whyDifficult": "Silent 'h' makes it a vowel sound.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m05-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ education is important.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Education in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Abstract)",
+      "frenchComparison": {
+        "frenchStructure": "L'éducation...",
+        "englishStructure": "Education...",
+        "whyDifficult": "French uses 'l''. English uses Zero Article for abstract concepts.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m06-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I sent ___ SMS.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'SMS' starts with 'es' sound (vowel).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un SMS...",
+        "englishStructure": "An SMS...",
+        "whyDifficult": "Acronym starts with 'es' sound (vowel).",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m07-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I need ___ advice.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "some",
+        "a"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! 'Advice' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Un conseil...",
+        "englishStructure": "Some advice...",
+        "whyDifficult": "Countable in French, uncountable in English.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "art-m08-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "She drank ___ water.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "the"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! 'Water' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "De l'eau...",
+        "englishStructure": "Some water...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "art-m09-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ cars are dangerous.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Cars in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les voitures...",
+        "englishStructure": "Cars...",
+        "whyDifficult": "French uses 'les'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m10-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "This is ___ useful book.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'Useful' starts with 'y' sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un livre utile...",
+        "englishStructure": "A useful book...",
+        "whyDifficult": "'U' sounds like 'You' (consonant sound).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m11-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "Do you play ___ tennis?",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! No articles with sports.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Sports)",
+      "frenchComparison": {
+        "frenchStructure": "Tu joues au tennis ?",
+        "englishStructure": "Do you play tennis?",
+        "whyDifficult": "French uses 'au' (à le). English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m12-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ Plastic pollutes the ocean.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Materials in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Materials)",
+      "frenchComparison": {
+        "frenchStructure": "Le plastique...",
+        "englishStructure": "Plastic...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m13-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I have ___ luggage.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! 'Luggage' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Des bagages...",
+        "englishStructure": "Some luggage...",
+        "whyDifficult": "Countable in French, uncountable in English.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "art-m14-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ men are strong.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Men in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (General Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les hommes...",
+        "englishStructure": "Men...",
+        "whyDifficult": "French uses 'les'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m15-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "I prefer ___ tea.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Tea in general.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Le thé...",
+        "englishStructure": "Tea...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m16-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "He is ___ heir to the throne.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! 'Heir' has a silent h.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Un héritier...",
+        "englishStructure": "An heir...",
+        "whyDifficult": "Silent 'h' makes it a vowel sound.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "art-m17-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "Find the error: \"I need a paper to write.\"",
+      "type": "error_correction",
+      "options": [
+        "I need",
+        "a paper",
+        "to write",
+        "No error"
+      ],
+      "correctAnswer": "a paper",
+      "feedback": "Correct! 'Paper' (material) is uncountable. Say 'some paper' or 'a piece of paper'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "some paper",
+      "subTopic": "Uncountable Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Une feuille de papier...",
+        "englishStructure": "A piece of paper...",
+        "whyDifficult": "Countable in French, uncountable in English.",
+        "visualHighlighting": {
+          "incorrect": "a paper",
+          "correct": "some paper"
+        }
+      }
+    },
+    {
+      "id": "art-m18-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ time is money.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Abstract noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Abstract)",
+      "frenchComparison": {
+        "frenchStructure": "Le temps, c'est de l'argent...",
+        "englishStructure": "Time is money...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-m19-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "It was ___ one-way street.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! 'One' starts with 'w' sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "A/an usage (Sound rule)",
+      "frenchComparison": {
+        "frenchStructure": "Une rue à sens unique...",
+        "englishStructure": "A one-way street...",
+        "whyDifficult": "'O' sounds like 'Won' (consonant sound).",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-m20-B",
+      "moduleId": "articles",
+      "difficulty": "medium",
+      "questionText": "___ French is a difficult language.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "An",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Languages use zero article.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Languages)",
+      "frenchComparison": {
+        "frenchStructure": "Le français...",
+        "englishStructure": "French...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h01-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Lake Victoria is huge.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Lakes usually use zero article.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Le Lac Victoria...",
+        "englishStructure": "Lake Victoria...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for lakes.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h02-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ River Nile is long.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Rivers take 'the'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Le Nil...",
+        "englishStructure": "The River Nile...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h03-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ more you eat, ___ less you want.",
+      "type": "multiple_choice",
+      "options": [
+        "The / the",
+        "A / a",
+        "Ø / Ø"
+      ],
+      "correctAnswer": "The / the",
+      "feedback": "Correct! Double comparative structure.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Double Comparative)",
+      "frenchComparison": {
+        "frenchStructure": "Plus tu manges, moins tu veux...",
+        "englishStructure": "The more you eat, the less you want...",
+        "whyDifficult": "French doesn't use articles here. English requires 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø / Ø",
+          "correct": "The / the"
+        }
+      }
+    },
+    {
+      "id": "art-h04-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I will see you in ___ afternoon.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Fixed expression: 'In the afternoon'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "L'après-midi...",
+        "englishStructure": "In the afternoon...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h05-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He was appointed ___ Chairman.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Unique role after 'appoint'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Unique Roles)",
+      "frenchComparison": {
+        "frenchStructure": "Il a été nommé Président...",
+        "englishStructure": "He was appointed Chairman...",
+        "whyDifficult": "Similar to French (no article).",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h06-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "She goes to school by ___ bus.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Transport phrases use zero article.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Transport)",
+      "frenchComparison": {
+        "frenchStructure": "En bus...",
+        "englishStructure": "By bus...",
+        "whyDifficult": "French uses 'en' (no article). English uses 'by' + Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h07-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "Put it on ___ table.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Specific table.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Sur la table...",
+        "englishStructure": "On the table...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h08-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Paris of the 1920s was exciting.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Qualified proper noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Qualified Proper Nouns)",
+      "frenchComparison": {
+        "frenchStructure": "Le Paris des années 20...",
+        "englishStructure": "The Paris of the 1920s...",
+        "whyDifficult": "French always uses 'Le'. English usually doesn't, but does here.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h09-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I have ___ headache.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Fixed expression.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Illness)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai mal à la tête...",
+        "englishStructure": "I have a headache...",
+        "whyDifficult": "French uses 'la'. English uses 'a'.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "art-h10-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "She has ___ measles.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "the",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Some illnesses take 'the'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions (Illness)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a la rougeole...",
+        "englishStructure": "She has the measles...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h11-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ UK is an island nation.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Countries with 'United' take 'The'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Countries)",
+      "frenchComparison": {
+        "frenchStructure": "Le Royaume-Uni...",
+        "englishStructure": "The UK...",
+        "whyDifficult": "French uses 'le'. English uses 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h12-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ rich should help the poor.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! 'The rich' means rich people as a group.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The + Adjective (Group)",
+      "frenchComparison": {
+        "frenchStructure": "Les riches...",
+        "englishStructure": "The rich...",
+        "whyDifficult": "French uses 'les'. English uses 'the' + adjective.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h13-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Mount Everest is the highest.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Single mountains use zero article.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "Le Mont Everest...",
+        "englishStructure": "Mount Everest...",
+        "whyDifficult": "French uses 'le'. English uses Zero Article for single mountains.",
+        "visualHighlighting": {
+          "incorrect": "The",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h14-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ Atlantic Ocean is vast.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Oceans take 'the'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Geography)",
+      "frenchComparison": {
+        "frenchStructure": "L'Océan Atlantique...",
+        "englishStructure": "The Atlantic Ocean...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
+    },
+    {
+      "id": "art-h15-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ bigger, ___ better.",
+      "type": "multiple_choice",
+      "options": [
+        "The / the",
+        "A / a",
+        "Ø / Ø"
+      ],
+      "correctAnswer": "The / the",
+      "feedback": "Correct! Double comparative.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Double Comparative)",
+      "frenchComparison": {
+        "frenchStructure": "Plus c'est grand, mieux c'est...",
+        "englishStructure": "The bigger, the better...",
+        "whyDifficult": "French doesn't use articles here. English requires 'the'.",
+        "visualHighlighting": {
+          "incorrect": "Ø / Ø",
+          "correct": "The / the"
+        }
+      }
+    },
+    {
+      "id": "art-h16-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "I sleep well at ___ night.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Fixed expression: 'At night'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "La nuit...",
+        "englishStructure": "At night...",
+        "whyDifficult": "French uses 'la'. English uses Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h17-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "He was elected ___ Captain.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Unique role after 'elect'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Unique Roles)",
+      "frenchComparison": {
+        "frenchStructure": "Il a été élu Capitaine...",
+        "englishStructure": "He was elected Captain...",
+        "whyDifficult": "Similar to French (no article).",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h18-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "We travel by ___ train.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "Ø (no article)",
+      "feedback": "Correct! Transport phrases use zero article.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Article (Transport)",
+      "frenchComparison": {
+        "frenchStructure": "En train...",
+        "englishStructure": "By train...",
+        "whyDifficult": "French uses 'en' (no article). English uses 'by' + Zero Article.",
+        "visualHighlighting": {
+          "incorrect": "the",
+          "correct": "Ø (no article)"
+        }
+      }
+    },
+    {
+      "id": "art-h19-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "She is in ___ kitchen.",
+      "type": "multiple_choice",
+      "options": [
+        "the",
+        "a",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "the",
+      "feedback": "Correct! Specific room.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Specific)",
+      "frenchComparison": {
+        "frenchStructure": "Dans la cuisine...",
+        "englishStructure": "In the kitchen...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "the"
+        }
+      }
+    },
+    {
+      "id": "art-h20-B",
+      "moduleId": "articles",
+      "difficulty": "hard",
+      "questionText": "___ London of today is busy.",
+      "type": "multiple_choice",
+      "options": [
+        "The",
+        "A",
+        "Ø (no article)"
+      ],
+      "correctAnswer": "The",
+      "feedback": "Correct! Qualified proper noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The (Qualified Proper Nouns)",
+      "frenchComparison": {
+        "frenchStructure": "Le Londres d'aujourd'hui...",
+        "englishStructure": "The London of today...",
+        "whyDifficult": "French always uses 'Le'. English usually doesn't, but does here.",
+        "visualHighlighting": {
+          "incorrect": "Ø (no article)",
+          "correct": "The"
+        }
+      }
     }
   ]
 }

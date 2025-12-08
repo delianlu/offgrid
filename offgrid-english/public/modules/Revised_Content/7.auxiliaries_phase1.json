@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Auxiliaries module! These are the 'helper verbs' (Do, Does, Did, Have) that make English work.",
+    "theProblem": "In French, you can ask a question just by changing your voice (*Tu aimes ?*) or make a negative by adding 'pas' (*Je ne sais pas*). In English, this is impossible! You cannot say \"I know not\" or \"You like?\". You need a special helper word to carry the grammar.",
+    "thePromise": "By the end of this lesson, you will stop making 'French-style' questions and negatives. You will learn exactly when to use **Do**, **Does**, and **Did** to speak accurate English."
+  },
+  "contrastiveExplanation": "### Concept 1: The Question Key (Do / Does / Did)\n\n**The Rule:**\nTo ask a Yes/No question with a normal verb (like eat, go, want), you MUST start with an **Auxiliary**.\n* **Do** / **Does** (Present)\n* **Did** (Past)\n* Pattern: **Auxiliary** + **Subject** + **Verb**?\n\n**The French Trap:**\nFrench often uses **Intonation** (rising voice) or \"Est-ce que\".\n* *\"Tu aimes le fufu ?\"* (Intonation)\n* *\"Est-ce que tu aimes le fufu ?\"*\nDirect translation leads to: ❌ *\"You like fufu?\"* (This is incorrect grammar in English).\n\n**The Fix:**\nImagine the sentence is a **Car**. You cannot start the car without the **Key**. \n* **Do/Does/Did** is the key. Put it in the ignition (the start of the sentence)!\n\n**Examples:**\n* 🇫🇷 *Tu parles anglais ?*\n    * ❌ You speak English?\n    * ✅ **Do** you speak English?\n* 🇫🇷 *Il habite à Yaoundé ?*\n    * ❌ He lives in Yaoundé?\n    * ✅ **Does** he live in Yaoundé?\n\n---\n\n### Concept 2: The Negative Bodyguard (Do not / Did not)\n\n**The Rule:**\nEnglish verbs are weak. They cannot hold the word \"**not**\" by themselves. They need a helper (Bodyguard) to hold it for them.\n* *I **do** not know.*\n* *She **did** not go.*\n\n**The French Trap:**\nIn French, the verb stands alone with \"ne...pas\".\n* *Je (ne) **sais** pas.*\n* *Il (ne) **veut** pas.*\nSo students say: ❌ *\"I know not\"* or ❌ *\"He wants not\"*.\n\n**The Fix:**\nNever put \"not\" directly after a main verb (except 'to be'). Call the Bodyguard (**Do/Does/Did**) to hold the negative.\n\n**Visual Metaphor:**\nThink of the main verb (like 'Go') as a **VIP**. The VIP doesn't carry heavy bags. The word **\"Not\"** is a heavy bag. The **Bodyguard (Do)** carries it.\n\n**Examples:**\n* 🇫🇷 *Je ne mange pas de porc.*\n    * ❌ I eat **not** pork.\n    * ✅ I **do not** eat pork.\n* 🇫🇷 *Elle n'est pas venue.*\n    * ❌ She came **not**.\n    * ✅ She **did not** come.\n\n---\n\n### Concept 3: The \"Have\" Identity Crisis\n\n**The Rule:**\n* When **Have** helps another verb (Present Perfect), it is an **Auxiliary** (*I have eaten*).\n* When **Have** means \"to own\" (Possession), it is a **Main Verb**. It needs 'Do' to help it!\n\n**The French Trap:**\nIn French, *Avoir* works the same way for both.\n* *Je n'ai pas mangé.* (Auxiliary)\n* *Je n'ai pas de voiture.* (Possession)\nEnglish treats them differently. You cannot say \"I have not a car.\"\n\n**The Fix:**\nIf \"Have\" is followed by an object (a car, a pen), treat it like \"Eat\" or \"Play\". Use **Don't/Doesn't**.\n\n**Visual Metaphor:**\n**Have (Possession)** is a King sitting on a throne. He needs a servant (**Do**) to handle the negative.\n\n**Examples:**\n* 🇫🇷 *Je n'ai pas d'argent.* (Possession)\n    * ❌ I **have not** money.\n    * ✅ I **do not have** money.\n* 🇫🇷 *As-tu un stylo ?* (Possession)\n    * ❌ **Have** you a pen?\n    * ✅ **Do** you **have** a pen?",
+  "commonErrors": [
+    {
+      "subTopic": "Negative Formation",
+      "wrong": "I know not where he is.",
+      "correct": "I do not know where he is.",
+      "frenchConnection": "Direct translation of \"Je ne sais pas\". English verbs need 'do' to support 'not'."
+    },
+    {
+      "subTopic": "Question Intonation",
+      "wrong": "You like the food?",
+      "correct": "Do you like the food?",
+      "frenchConnection": "Using French rising intonation instead of the auxiliary 'Do'."
+    },
+    {
+      "subTopic": "Past Negatives",
+      "wrong": "I didn't went to school.",
+      "correct": "I didn't go to school.",
+      "frenchConnection": "Double past tense. The auxiliary 'Did' already ate the past tense, so the main verb must be bare (go), not past (went)."
+    },
+    {
+      "subTopic": "Have (Possession)",
+      "wrong": "I haven't a sister.",
+      "correct": "I don't have a sister.",
+      "frenchConnection": "Treating possessive 'have' as an auxiliary. In modern English, we use 'don't have'."
+    },
+    {
+      "subTopic": "Third Person Agreement",
+      "wrong": "She don't like it.",
+      "correct": "She doesn't like it.",
+      "frenchConnection": "Using the default 'do' instead of the singular 'does' for She/He/It."
+    },
+    {
+      "subTopic": "To Be Confusion",
+      "wrong": "Do you be hungry?",
+      "correct": "Are you hungry?",
+      "frenchConnection": "Applying the 'Do' rule to the verb 'To Be'. 'To Be' is the only verb strong enough to not need 'Do'."
+    }
+  ]
+}

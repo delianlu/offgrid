@@ -1,0 +1,3292 @@
+{
+  "id": "countable-uncountable",
+  "name": "Countable vs. Uncountable",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Countable vs. Uncountable module! This is where we learn how to measure the world. In French, you can count almost anything (*des pains, des meubles*). In English, many of these things are viewed as a 'mass' that cannot be counted directly. This leads to confusion with words like 'Much' vs. 'Many'.",
+  "contrastiveExplanation": "Countable (Unit):\nEnglish: Can count 1, 2, 3. Takes 'Many', 'Few'. (Book, Car).\nFrench: Similar logic for objects.\n\nUncountable (Mass):\nEnglish: Cannot count. Takes 'Much', 'Little'. Always Singular. (Water, Money, Rice).\nFrench: Often counts these (Un pain, Des meubles).\n\nPartitives (Containers):\nEnglish: A loaf of bread, A piece of advice.\nFrench: Un pain, Un conseil.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Money",
+      "wrong": "How many money do you have?",
+      "correct": "How much money do you have?",
+      "frenchConnection": "French 'Combien de' covers both. Money is uncountable."
+    },
+    {
+      "number": 2,
+      "subTopic": "Bread",
+      "wrong": "I bought a bread.",
+      "correct": "I bought a loaf of bread.",
+      "frenchConnection": "French 'un pain'. Bread is a substance in English."
+    },
+    {
+      "number": 3,
+      "subTopic": "Advice",
+      "wrong": "He gave me an advice.",
+      "correct": "He gave me a piece of advice.",
+      "frenchConnection": "French 'un conseil'. Advice is uncountable."
+    },
+    {
+      "number": 4,
+      "subTopic": "Few vs Little",
+      "wrong": "I have little friends.",
+      "correct": "I have few friends.",
+      "frenchConnection": "Translating 'peu de'. 'Little' is for uncountable, 'Few' for countable."
+    },
+    {
+      "number": 5,
+      "subTopic": "Furniture",
+      "wrong": "The furnitures are nice.",
+      "correct": "The furniture is nice.",
+      "frenchConnection": "French 'les meubles' (plural). Furniture is singular/uncountable."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "cu-e01-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I have ___ apple.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Apple is countable and starts with a vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai une pomme...",
+        "englishStructure": "I have an apple...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e02-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She drinks ___ water.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "two"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Water is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Elle boit de l'eau...",
+        "englishStructure": "She drinks some water...",
+        "whyDifficult": "Uncountable nouns take 'Some', not 'A'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e03-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I have three ___.",
+      "type": "multiple_choice",
+      "options": [
+        "book",
+        "books",
+        "book's"
+      ],
+      "correctAnswer": "books",
+      "feedback": "Correct! Countable plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai trois livres...",
+        "englishStructure": "I have three books...",
+        "whyDifficult": "Plural marker 's' required.",
+        "visualHighlighting": {
+          "incorrect": "book",
+          "correct": "books"
+        }
+      }
+    },
+    {
+      "id": "cu-e04-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Do you like ___?",
+      "type": "multiple_choice",
+      "options": [
+        "rice",
+        "rices",
+        "a rice"
+      ],
+      "correctAnswer": "rice",
+      "feedback": "Correct! Rice is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Aimes-tu le riz...",
+        "englishStructure": "Do you like rice...",
+        "whyDifficult": "Uncountable nouns are singular and don't take 'A'.",
+        "visualHighlighting": {
+          "incorrect": "rices",
+          "correct": "rice"
+        }
+      }
+    },
+    {
+      "id": "cu-e05-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "He has ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "no",
+        "none",
+        "not"
+      ],
+      "correctAnswer": "no",
+      "feedback": "Correct! 'No money'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'a pas d'argent...",
+        "englishStructure": "He has no money...",
+        "whyDifficult": "'No' + noun.",
+        "visualHighlighting": {
+          "incorrect": "none",
+          "correct": "no"
+        }
+      }
+    },
+    {
+      "id": "cu-e06-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "There is ___ egg on the table.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Countable vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un œuf...",
+        "englishStructure": "There is an egg...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e07-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "We need ___ sugar.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "two"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Sugar is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons besoin de sucre...",
+        "englishStructure": "We need some sugar...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e08-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She bought two ___.",
+      "type": "multiple_choice",
+      "options": [
+        "pen",
+        "pens",
+        "pense"
+      ],
+      "correctAnswer": "pens",
+      "feedback": "Correct! Countable plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a acheté deux stylos...",
+        "englishStructure": "She bought two pens...",
+        "whyDifficult": "Plural marker 's'.",
+        "visualHighlighting": {
+          "incorrect": "pen",
+          "correct": "pens"
+        }
+      }
+    },
+    {
+      "id": "cu-e09-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I drink ___ every morning.",
+      "type": "multiple_choice",
+      "options": [
+        "coffee",
+        "coffees",
+        "a coffee"
+      ],
+      "correctAnswer": "coffee",
+      "feedback": "Correct! The liquid is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Je bois du café...",
+        "englishStructure": "I drink coffee...",
+        "whyDifficult": "Uncountable (liquid).",
+        "visualHighlighting": {
+          "incorrect": "a coffee",
+          "correct": "coffee"
+        }
+      }
+    },
+    {
+      "id": "cu-e10-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "This is ___ orange.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Countable vowel sound.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "C'est une orange...",
+        "englishStructure": "This is an orange...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e11-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Do you have ___ questions?",
+      "type": "multiple_choice",
+      "options": [
+        "any",
+        "much",
+        "a"
+      ],
+      "correctAnswer": "any",
+      "feedback": "Correct! Plural countable in question.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Any)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu des questions...",
+        "englishStructure": "Do you have any questions...",
+        "whyDifficult": "'Any' used in questions.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "any"
+        }
+      }
+    },
+    {
+      "id": "cu-e12-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I don't have ___ time.",
+      "type": "multiple_choice",
+      "options": [
+        "any",
+        "many",
+        "a"
+      ],
+      "correctAnswer": "any",
+      "feedback": "Correct! Uncountable negative.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Any)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas de temps...",
+        "englishStructure": "I don't have any time...",
+        "whyDifficult": "'Any' used in negative sentences.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "any"
+        }
+      }
+    },
+    {
+      "id": "cu-e13-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "There is ___ dog outside.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Countable singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un chien...",
+        "englishStructure": "There is a dog...",
+        "whyDifficult": "Consonant sound requires 'A'.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "cu-e14-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Please give me ___ salt.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "some",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Salt is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Donne-moi du sel...",
+        "englishStructure": "Please give me some salt...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e15-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I see many ___.",
+      "type": "multiple_choice",
+      "options": [
+        "car",
+        "cars",
+        "car's"
+      ],
+      "correctAnswer": "cars",
+      "feedback": "Correct! Countable plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Je vois beaucoup de voitures...",
+        "englishStructure": "I see many cars...",
+        "whyDifficult": "Plural marker 's'.",
+        "visualHighlighting": {
+          "incorrect": "car",
+          "correct": "cars"
+        }
+      }
+    },
+    {
+      "id": "cu-e16-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "___ milk is white.",
+      "type": "multiple_choice",
+      "options": [
+        "A",
+        "An",
+        "Ø (No article)"
+      ],
+      "correctAnswer": "Ø (No article)",
+      "feedback": "Correct! General uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (General)",
+      "frenchComparison": {
+        "frenchStructure": "Le lait est blanc...",
+        "englishStructure": "Milk is white...",
+        "whyDifficult": "General statements with uncountables take no article.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "Ø (No article)"
+        }
+      }
+    },
+    {
+      "id": "cu-e17-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "He is ___ teacher.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Profession (Countable).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Profession)",
+      "frenchComparison": {
+        "frenchStructure": "Il est professeur...",
+        "englishStructure": "He is a teacher...",
+        "whyDifficult": "English requires article for professions.",
+        "visualHighlighting": {
+          "incorrect": "some",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "cu-e18-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "There are ___ boys.",
+      "type": "multiple_choice",
+      "options": [
+        "five",
+        "much",
+        "a"
+      ],
+      "correctAnswer": "five",
+      "feedback": "Correct! Specific number for countable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Number)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a cinq garçons...",
+        "englishStructure": "There are five boys...",
+        "whyDifficult": "Countable nouns can be counted.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "five"
+        }
+      }
+    },
+    {
+      "id": "cu-e19-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I ate ___ fufu.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Uncountable food.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai mangé du fufu...",
+        "englishStructure": "I ate some fufu...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e20-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She has a new ___.",
+      "type": "multiple_choice",
+      "options": [
+        "bag",
+        "bags",
+        "luggage"
+      ],
+      "correctAnswer": "bag",
+      "feedback": "Correct! 'Bag' is countable. 'Luggage' cannot take 'a'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a un nouveau sac...",
+        "englishStructure": "She has a new bag...",
+        "whyDifficult": "'Bag' is countable, 'Luggage' is not.",
+        "visualHighlighting": {
+          "incorrect": "luggage",
+          "correct": "bag"
+        }
+      }
+    },
+    {
+      "id": "cu-m01-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "How ___ water do you drink?",
+      "type": "multiple_choice",
+      "options": [
+        "many",
+        "much",
+        "a lot"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Water is uncountable -> Much.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Combien d'eau...",
+        "englishStructure": "How much water...",
+        "whyDifficult": "French uses 'Combien de' for both. English distinguishes Much/Many.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m02-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "How ___ students are there?",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "a lot"
+      ],
+      "correctAnswer": "many",
+      "feedback": "Correct! Students are countable -> Many.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Combien d'étudiants...",
+        "englishStructure": "How many students...",
+        "whyDifficult": "French uses 'Combien de' for both. English distinguishes Much/Many.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "many"
+        }
+      }
+    },
+    {
+      "id": "cu-m03-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I have ___ friends.",
+      "type": "multiple_choice",
+      "options": [
+        "a few",
+        "a little",
+        "much"
+      ],
+      "correctAnswer": "a few",
+      "feedback": "Correct! Friends are countable -> A few.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few vs Little)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai quelques amis...",
+        "englishStructure": "I have a few friends...",
+        "whyDifficult": "'A few' for countable, 'A little' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a little",
+          "correct": "a few"
+        }
+      }
+    },
+    {
+      "id": "cu-m04-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There is ___ hope left.",
+      "type": "multiple_choice",
+      "options": [
+        "a few",
+        "a little",
+        "many"
+      ],
+      "correctAnswer": "a little",
+      "feedback": "Correct! Hope is uncountable -> A little.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few vs Little)",
+      "frenchComparison": {
+        "frenchStructure": "Il reste un peu d'espoir...",
+        "englishStructure": "There is a little hope left...",
+        "whyDifficult": "'A little' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a few",
+          "correct": "a little"
+        }
+      }
+    },
+    {
+      "id": "cu-m05-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Can I have a ___ of bread?",
+      "type": "multiple_choice",
+      "options": [
+        "loaf",
+        "bar",
+        "tube"
+      ],
+      "correctAnswer": "loaf",
+      "feedback": "Correct! Loaf of bread.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Bread)",
+      "frenchComparison": {
+        "frenchStructure": "Un pain...",
+        "englishStructure": "A loaf of bread...",
+        "whyDifficult": "Specific partitive for bread.",
+        "visualHighlighting": {
+          "incorrect": "bar",
+          "correct": "loaf"
+        }
+      }
+    },
+    {
+      "id": "cu-m06-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "He gave me some good ___.",
+      "type": "multiple_choice",
+      "options": [
+        "advice",
+        "advices",
+        "advise"
+      ],
+      "correctAnswer": "advice",
+      "feedback": "Correct! Advice is uncountable (never plural).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "Des conseils...",
+        "englishStructure": "Some good advice...",
+        "whyDifficult": "French 'conseils' is countable. English 'advice' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "advices",
+          "correct": "advice"
+        }
+      }
+    },
+    {
+      "id": "cu-m07-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I need a ___ of soap.",
+      "type": "multiple_choice",
+      "options": [
+        "bar",
+        "loaf",
+        "slice"
+      ],
+      "correctAnswer": "bar",
+      "feedback": "Correct! Bar of soap.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Soap)",
+      "frenchComparison": {
+        "frenchStructure": "Une savonnette...",
+        "englishStructure": "A bar of soap...",
+        "whyDifficult": "Specific partitive.",
+        "visualHighlighting": {
+          "incorrect": "loaf",
+          "correct": "bar"
+        }
+      }
+    },
+    {
+      "id": "cu-m08-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "How ___ money do you have?",
+      "type": "multiple_choice",
+      "options": [
+        "many",
+        "much",
+        "a lot"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Money is uncountable -> Much.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Money)",
+      "frenchComparison": {
+        "frenchStructure": "Combien d'argent...",
+        "englishStructure": "How much money...",
+        "whyDifficult": "Money is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m09-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There isn't ___ traffic today.",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "some"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Traffic is uncountable -> Much.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Traffic)",
+      "frenchComparison": {
+        "frenchStructure": "Pas beaucoup de circulation...",
+        "englishStructure": "Not much traffic...",
+        "whyDifficult": "Traffic is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m10-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I bought a ___ of water.",
+      "type": "multiple_choice",
+      "options": [
+        "bottle",
+        "piece",
+        "bar"
+      ],
+      "correctAnswer": "bottle",
+      "feedback": "Correct! Bottle of water.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Water)",
+      "frenchComparison": {
+        "frenchStructure": "Une bouteille d'eau...",
+        "englishStructure": "A bottle of water...",
+        "whyDifficult": "Partitive for liquids.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "bottle"
+        }
+      }
+    },
+    {
+      "id": "cu-m11-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "She has a lot of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "work",
+        "works",
+        "job"
+      ],
+      "correctAnswer": "work",
+      "feedback": "Correct! Work (tasks) is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Work)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup de travail...",
+        "englishStructure": "A lot of work...",
+        "whyDifficult": "'Work' is uncountable. 'Job' is countable.",
+        "visualHighlighting": {
+          "incorrect": "works",
+          "correct": "work"
+        }
+      }
+    },
+    {
+      "id": "cu-m12-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "We have ___ furniture.",
+      "type": "multiple_choice",
+      "options": [
+        "some",
+        "a",
+        "many"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Furniture is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Des meubles...",
+        "englishStructure": "Some furniture...",
+        "whyDifficult": "French 'meubles' is plural. English 'furniture' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-m13-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I drink ___ coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "too much",
+        "too many",
+        "a few"
+      ],
+      "correctAnswer": "too much",
+      "feedback": "Correct! Coffee is uncountable -> Too much.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Too much)",
+      "frenchComparison": {
+        "frenchStructure": "Trop de café...",
+        "englishStructure": "Too much coffee...",
+        "whyDifficult": "Uncountable -> Much.",
+        "visualHighlighting": {
+          "incorrect": "too many",
+          "correct": "too much"
+        }
+      }
+    },
+    {
+      "id": "cu-m14-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There are ___ people.",
+      "type": "multiple_choice",
+      "options": [
+        "too many",
+        "too much",
+        "a little"
+      ],
+      "correctAnswer": "too many",
+      "feedback": "Correct! People is countable -> Too many.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Too many)",
+      "frenchComparison": {
+        "frenchStructure": "Trop de gens...",
+        "englishStructure": "Too many people...",
+        "whyDifficult": "People is countable plural.",
+        "visualHighlighting": {
+          "incorrect": "too much",
+          "correct": "too many"
+        }
+      }
+    },
+    {
+      "id": "cu-m15-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Can I have a ___ of cake?",
+      "type": "multiple_choice",
+      "options": [
+        "piece",
+        "bottle",
+        "grain"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! Piece of cake.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Cake)",
+      "frenchComparison": {
+        "frenchStructure": "Un morceau de gâteau...",
+        "englishStructure": "A piece of cake...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "grain",
+          "correct": "piece"
+        }
+      }
+    },
+    {
+      "id": "cu-m16-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "This information ___ useful.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Information is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Information)",
+      "frenchComparison": {
+        "frenchStructure": "Ces informations sont...",
+        "englishStructure": "This information is...",
+        "whyDifficult": "French often uses plural 'informations'. English is always singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-m17-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I ate a ___ of chocolate.",
+      "type": "multiple_choice",
+      "options": [
+        "bar",
+        "bottle",
+        "loaf"
+      ],
+      "correctAnswer": "bar",
+      "feedback": "Correct! Bar of chocolate.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Chocolate)",
+      "frenchComparison": {
+        "frenchStructure": "Une barre de chocolat...",
+        "englishStructure": "A bar of chocolate...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "loaf",
+          "correct": "bar"
+        }
+      }
+    },
+    {
+      "id": "cu-m18-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "He has ___ hair.",
+      "type": "multiple_choice",
+      "options": [
+        "long",
+        "a long",
+        "many long"
+      ],
+      "correctAnswer": "long",
+      "feedback": "Correct! Hair (on head) is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Hair)",
+      "frenchComparison": {
+        "frenchStructure": "Il a les cheveux longs...",
+        "englishStructure": "He has long hair...",
+        "whyDifficult": "Hair is uncountable in English when referring to the whole head.",
+        "visualHighlighting": {
+          "incorrect": "a long",
+          "correct": "long"
+        }
+      }
+    },
+    {
+      "id": "cu-m19-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "We have a lot of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "luggage",
+        "luggages",
+        "baggages"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! Luggage is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup de bagages...",
+        "englishStructure": "A lot of luggage...",
+        "whyDifficult": "French 'bagages' is plural. English 'luggage' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "luggages",
+          "correct": "luggage"
+        }
+      }
+    },
+    {
+      "id": "cu-m20-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Would you like a ___ of tea?",
+      "type": "multiple_choice",
+      "options": [
+        "cup",
+        "piece",
+        "bar"
+      ],
+      "correctAnswer": "cup",
+      "feedback": "Correct! Cup of tea.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Une tasse de thé...",
+        "englishStructure": "A cup of tea...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "cup"
+        }
+      }
+    },
+    {
+      "id": "cu-h01-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The furniture ___ old.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Furniture' is uncountable (Singular).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Les meubles sont vieux...",
+        "englishStructure": "The furniture is old...",
+        "whyDifficult": "French 'meubles' is plural. English 'furniture' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h02-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "I need a ___ of information.",
+      "type": "multiple_choice",
+      "options": [
+        "piece",
+        "part",
+        "slice"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! A piece of information.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Information)",
+      "frenchComparison": {
+        "frenchStructure": "Une information...",
+        "englishStructure": "A piece of information...",
+        "whyDifficult": "Information is uncountable, needs 'piece' to be counted.",
+        "visualHighlighting": {
+          "incorrect": "part",
+          "correct": "piece"
+        }
+      }
+    },
+    {
+      "id": "cu-h03-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "She has very ___ patience.",
+      "type": "multiple_choice",
+      "options": [
+        "little",
+        "few",
+        "a few"
+      ],
+      "correctAnswer": "little",
+      "feedback": "Correct! Patience is uncountable. 'Little' (negative meaning).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Très peu de patience...",
+        "englishStructure": "Very little patience...",
+        "whyDifficult": "'Little' for uncountable nouns.",
+        "visualHighlighting": {
+          "incorrect": "few",
+          "correct": "little"
+        }
+      }
+    },
+    {
+      "id": "cu-h04-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The news ___ good.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'News' is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les nouvelles sont bonnes...",
+        "englishStructure": "The news is good...",
+        "whyDifficult": "French 'nouvelles' is plural. English 'news' is singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h05-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "How much ___ do you have?",
+      "type": "multiple_choice",
+      "options": [
+        "luggage",
+        "luggages",
+        "suitcase"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! 'Luggage' is uncountable. 'Suitcase' would be 'How many suitcases'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "Combien de bagages...",
+        "englishStructure": "How much luggage...",
+        "whyDifficult": "French 'bagages' is plural. English 'luggage' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "luggages",
+          "correct": "luggage"
+        }
+      }
+    },
+    {
+      "id": "cu-h06-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "I have ___ friends in this city.",
+      "type": "multiple_choice",
+      "options": [
+        "few",
+        "little",
+        "a little"
+      ],
+      "correctAnswer": "few",
+      "feedback": "Correct! 'Few' (negative meaning) with countable friends.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai peu d'amis...",
+        "englishStructure": "I have few friends...",
+        "whyDifficult": "'Few' for countable nouns.",
+        "visualHighlighting": {
+          "incorrect": "little",
+          "correct": "few"
+        }
+      }
+    },
+    {
+      "id": "cu-h07-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of lightning.",
+      "type": "multiple_choice",
+      "options": [
+        "bolt",
+        "piece",
+        "slice"
+      ],
+      "correctAnswer": "bolt",
+      "feedback": "Correct! Specific partitive: A bolt of lightning.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Weather)",
+      "frenchComparison": {
+        "frenchStructure": "Un éclair...",
+        "englishStructure": "A bolt of lightning...",
+        "whyDifficult": "Specific partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "bolt"
+        }
+      }
+    },
+    {
+      "id": "cu-h08-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The police ___ coming.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Police' is a collective plural noun.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police arrive...",
+        "englishStructure": "The police are coming...",
+        "whyDifficult": "French 'police' is singular. English 'police' is plural.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "are"
+        }
+      }
+    },
+    {
+      "id": "cu-h09-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "I found a ___ of grass.",
+      "type": "multiple_choice",
+      "options": [
+        "blade",
+        "leaf",
+        "piece"
+      ],
+      "correctAnswer": "blade",
+      "feedback": "Correct! Specific partitive: A blade of grass.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Nature)",
+      "frenchComparison": {
+        "frenchStructure": "Un brin d'herbe...",
+        "englishStructure": "A blade of grass...",
+        "whyDifficult": "Specific partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "blade"
+        }
+      }
+    },
+    {
+      "id": "cu-h10-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Mathematics ___ difficult.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Mathematics' is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les mathématiques sont...",
+        "englishStructure": "Mathematics is...",
+        "whyDifficult": "French uses plural. English uses singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h11-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "She bought two ___ of toothpaste.",
+      "type": "multiple_choice",
+      "options": [
+        "tubes",
+        "bars",
+        "pieces"
+      ],
+      "correctAnswer": "tubes",
+      "feedback": "Correct! Tubes of toothpaste.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Household)",
+      "frenchComparison": {
+        "frenchStructure": "Deux tubes de dentifrice...",
+        "englishStructure": "Two tubes of toothpaste...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "pieces",
+          "correct": "tubes"
+        }
+      }
+    },
+    {
+      "id": "cu-h12-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "He has ___ knowledge about this.",
+      "type": "multiple_choice",
+      "options": [
+        "little",
+        "few",
+        "many"
+      ],
+      "correctAnswer": "little",
+      "feedback": "Correct! Knowledge is uncountable -> Little.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Peu de connaissances...",
+        "englishStructure": "Little knowledge...",
+        "whyDifficult": "Knowledge is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "few",
+          "correct": "little"
+        }
+      }
+    },
+    {
+      "id": "cu-h13-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Three ___ of cattle.",
+      "type": "multiple_choice",
+      "options": [
+        "head",
+        "heads",
+        "pieces"
+      ],
+      "correctAnswer": "head",
+      "feedback": "Correct! 'Head of cattle' (plural is often 'head' in this specific context).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Animals)",
+      "frenchComparison": {
+        "frenchStructure": "Trois têtes de bétail...",
+        "englishStructure": "Three head of cattle...",
+        "whyDifficult": "Irregular plural in this context.",
+        "visualHighlighting": {
+          "incorrect": "heads",
+          "correct": "head"
+        }
+      }
+    },
+    {
+      "id": "cu-h14-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"The machineries are broken.\"",
+      "type": "error_correction",
+      "options": [
+        "The",
+        "machineries",
+        "are broken",
+        "No error"
+      ],
+      "correctAnswer": "machineries",
+      "feedback": "Correct! 'Machinery' is uncountable. It should be 'The machinery is broken'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "machinery",
+      "subTopic": "Uncountable Nouns (Machinery)",
+      "frenchComparison": {
+        "frenchStructure": "Les machines sont cassées...",
+        "englishStructure": "The machinery is broken...",
+        "whyDifficult": "Machinery is uncountable singular.",
+        "visualHighlighting": {
+          "incorrect": "machineries",
+          "correct": "machinery"
+        }
+      }
+    },
+    {
+      "id": "cu-h15-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A large ___ of money.",
+      "type": "multiple_choice",
+      "options": [
+        "amount",
+        "number",
+        "many"
+      ],
+      "correctAnswer": "amount",
+      "feedback": "Correct! 'Amount' for uncountable.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Une grande somme d'argent...",
+        "englishStructure": "A large amount of money...",
+        "whyDifficult": "'Amount' for uncountable nouns.",
+        "visualHighlighting": {
+          "incorrect": "number",
+          "correct": "amount"
+        }
+      }
+    },
+    {
+      "id": "cu-h16-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A large ___ of people.",
+      "type": "multiple_choice",
+      "options": [
+        "number",
+        "amount",
+        "much"
+      ],
+      "correctAnswer": "number",
+      "feedback": "Correct! 'Number' for countable.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Un grand nombre de gens...",
+        "englishStructure": "A large number of people...",
+        "whyDifficult": "'Number' for countable, 'Amount' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "amount",
+          "correct": "number"
+        }
+      }
+    },
+    {
+      "id": "cu-h17-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "We have ___ liters of petrol.",
+      "type": "multiple_choice",
+      "options": [
+        "fewer",
+        "less",
+        "little"
+      ],
+      "correctAnswer": "fewer",
+      "feedback": "Correct! 'Liters' is countable, so use 'fewer'. (Though 'less' is common in speech, 'fewer' is grammatically strict).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Less vs Fewer)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons moins de litres...",
+        "englishStructure": "We have fewer liters...",
+        "whyDifficult": "'Fewer' for countable nouns.",
+        "visualHighlighting": {
+          "incorrect": "less",
+          "correct": "fewer"
+        }
+      }
+    },
+    {
+      "id": "cu-h18-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The crew ___ tired.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Collective noun as a unit -> Singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "L'équipage est...",
+        "englishStructure": "The crew is...",
+        "whyDifficult": "Collective noun treated as singular unit here.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h19-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of dust.",
+      "type": "multiple_choice",
+      "options": [
+        "speck",
+        "slice",
+        "bar"
+      ],
+      "correctAnswer": "speck",
+      "feedback": "Correct! A speck of dust.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Small)",
+      "frenchComparison": {
+        "frenchStructure": "Un grain de poussière...",
+        "englishStructure": "A speck of dust...",
+        "whyDifficult": "Specific partitive for dust.",
+        "visualHighlighting": {
+          "incorrect": "slice",
+          "correct": "speck"
+        }
+      }
+    },
+    {
+      "id": "cu-h20-A",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "All the equipment ___ sold.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "have been"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Equipment is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Equipment)",
+      "frenchComparison": {
+        "frenchStructure": "Tout l'équipement a été...",
+        "englishStructure": "All the equipment was...",
+        "whyDifficult": "Equipment is uncountable singular.",
+        "visualHighlighting": {
+          "incorrect": "were",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "cu-e01-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I want ___ orange.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "a",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Countable vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "Je veux une orange...",
+        "englishStructure": "I want an orange...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e02-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "He needs ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "some",
+        "a",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Money is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Il a besoin d'argent...",
+        "englishStructure": "He needs some money...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e03-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She has two ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cats",
+        "cat",
+        "cat's"
+      ],
+      "correctAnswer": "cats",
+      "feedback": "Correct! Countable plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a deux chats...",
+        "englishStructure": "She has two cats...",
+        "whyDifficult": "Plural marker 's'.",
+        "visualHighlighting": {
+          "incorrect": "cat",
+          "correct": "cats"
+        }
+      }
+    },
+    {
+      "id": "cu-e04-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I like ___ soup.",
+      "type": "multiple_choice",
+      "options": [
+        "soup",
+        "soups",
+        "a soup"
+      ],
+      "correctAnswer": "soup",
+      "feedback": "Correct! Soup is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Food)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime la soupe...",
+        "englishStructure": "I like soup...",
+        "whyDifficult": "Uncountable nouns are singular and don't take 'A'.",
+        "visualHighlighting": {
+          "incorrect": "soups",
+          "correct": "soup"
+        }
+      }
+    },
+    {
+      "id": "cu-e05-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "There is ___ milk.",
+      "type": "multiple_choice",
+      "options": [
+        "no",
+        "none",
+        "not"
+      ],
+      "correctAnswer": "no",
+      "feedback": "Correct! 'No milk'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'y a pas de lait...",
+        "englishStructure": "There is no milk...",
+        "whyDifficult": "'No' + noun.",
+        "visualHighlighting": {
+          "incorrect": "none",
+          "correct": "no"
+        }
+      }
+    },
+    {
+      "id": "cu-e06-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I saw ___ umbrella.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "a",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai vu un parapluie...",
+        "englishStructure": "I saw an umbrella...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e07-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "We have ___ salt.",
+      "type": "multiple_choice",
+      "options": [
+        "some",
+        "a",
+        "two"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Salt is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons du sel...",
+        "englishStructure": "We have some salt...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e08-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Three ___ are on the desk.",
+      "type": "multiple_choice",
+      "options": [
+        "pencils",
+        "pencil",
+        "penciles"
+      ],
+      "correctAnswer": "pencils",
+      "feedback": "Correct! Countable plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Trois crayons...",
+        "englishStructure": "Three pencils...",
+        "whyDifficult": "Plural marker 's'.",
+        "visualHighlighting": {
+          "incorrect": "pencil",
+          "correct": "pencils"
+        }
+      }
+    },
+    {
+      "id": "cu-e09-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She drinks ___ tea.",
+      "type": "multiple_choice",
+      "options": [
+        "tea",
+        "teas",
+        "a tea"
+      ],
+      "correctAnswer": "tea",
+      "feedback": "Correct! Uncountable drink.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Elle boit du thé...",
+        "englishStructure": "She drinks tea...",
+        "whyDifficult": "Uncountable (liquid).",
+        "visualHighlighting": {
+          "incorrect": "a tea",
+          "correct": "tea"
+        }
+      }
+    },
+    {
+      "id": "cu-e10-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "He wants ___ egg.",
+      "type": "multiple_choice",
+      "options": [
+        "an",
+        "a",
+        "some"
+      ],
+      "correctAnswer": "an",
+      "feedback": "Correct! Vowel sound.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "Il veut un œuf...",
+        "englishStructure": "He wants an egg...",
+        "whyDifficult": "Vowel sound requires 'An'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "an"
+        }
+      }
+    },
+    {
+      "id": "cu-e11-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Do you have ___ sisters?",
+      "type": "multiple_choice",
+      "options": [
+        "any",
+        "much",
+        "a"
+      ],
+      "correctAnswer": "any",
+      "feedback": "Correct! Countable question.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Any)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu des sœurs...",
+        "englishStructure": "Do you have any sisters...",
+        "whyDifficult": "'Any' used in questions.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "any"
+        }
+      }
+    },
+    {
+      "id": "cu-e12-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I don't need ___ help.",
+      "type": "multiple_choice",
+      "options": [
+        "any",
+        "many",
+        "a"
+      ],
+      "correctAnswer": "any",
+      "feedback": "Correct! Uncountable negative.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Any)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas besoin d'aide...",
+        "englishStructure": "I don't need any help...",
+        "whyDifficult": "'Any' used in negative sentences.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "any"
+        }
+      }
+    },
+    {
+      "id": "cu-e13-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I bought ___ house.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Countable consonant.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (A/An)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai acheté une maison...",
+        "englishStructure": "I bought a house...",
+        "whyDifficult": "Consonant sound requires 'A'.",
+        "visualHighlighting": {
+          "incorrect": "an",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "cu-e14-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "Add ___ oil.",
+      "type": "multiple_choice",
+      "options": [
+        "some",
+        "a",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Oil is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Ajoute de l'huile...",
+        "englishStructure": "Add some oil...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e15-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I have two ___.",
+      "type": "multiple_choice",
+      "options": [
+        "phones",
+        "phone",
+        "phone's"
+      ],
+      "correctAnswer": "phones",
+      "feedback": "Correct! Countable plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai deux téléphones...",
+        "englishStructure": "I have two phones...",
+        "whyDifficult": "Plural marker 's'.",
+        "visualHighlighting": {
+          "incorrect": "phone",
+          "correct": "phones"
+        }
+      }
+    },
+    {
+      "id": "cu-e16-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "___ gold is expensive.",
+      "type": "multiple_choice",
+      "options": [
+        "Ø (No article)",
+        "A",
+        "An"
+      ],
+      "correctAnswer": "Ø (No article)",
+      "feedback": "Correct! General uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (General)",
+      "frenchComparison": {
+        "frenchStructure": "L'or est cher...",
+        "englishStructure": "Gold is expensive...",
+        "whyDifficult": "General statements with uncountables take no article.",
+        "visualHighlighting": {
+          "incorrect": "A",
+          "correct": "Ø (No article)"
+        }
+      }
+    },
+    {
+      "id": "cu-e17-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "She is ___ doctor.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correctAnswer": "a",
+      "feedback": "Correct! Countable profession.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Profession)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est médecin...",
+        "englishStructure": "She is a doctor...",
+        "whyDifficult": "English requires article for professions.",
+        "visualHighlighting": {
+          "incorrect": "some",
+          "correct": "a"
+        }
+      }
+    },
+    {
+      "id": "cu-e18-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "There are ___ chairs.",
+      "type": "multiple_choice",
+      "options": [
+        "ten",
+        "much",
+        "a"
+      ],
+      "correctAnswer": "ten",
+      "feedback": "Correct! Specific number.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Number)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a dix chaises...",
+        "englishStructure": "There are ten chairs...",
+        "whyDifficult": "Countable nouns can be counted.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "ten"
+        }
+      }
+    },
+    {
+      "id": "cu-e19-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "He ate ___ cheese.",
+      "type": "multiple_choice",
+      "options": [
+        "some",
+        "a",
+        "an"
+      ],
+      "correctAnswer": "some",
+      "feedback": "Correct! Uncountable food.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable (Some)",
+      "frenchComparison": {
+        "frenchStructure": "Il a mangé du fromage...",
+        "englishStructure": "He ate some cheese...",
+        "whyDifficult": "Uncountable nouns take 'Some'.",
+        "visualHighlighting": {
+          "incorrect": "a",
+          "correct": "some"
+        }
+      }
+    },
+    {
+      "id": "cu-e20-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "easy",
+      "questionText": "I need a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "pen",
+        "pens",
+        "ink"
+      ],
+      "correctAnswer": "pen",
+      "feedback": "Correct! 'Pen' is countable. 'Ink' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Countable (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin d'un stylo...",
+        "englishStructure": "I need a pen...",
+        "whyDifficult": "'Pen' is countable.",
+        "visualHighlighting": {
+          "incorrect": "ink",
+          "correct": "pen"
+        }
+      }
+    },
+    {
+      "id": "cu-m01-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "How ___ sugar do you want?",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "a lot"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Sugar is uncountable -> Much.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Combien de sucre...",
+        "englishStructure": "How much sugar...",
+        "whyDifficult": "French uses 'Combien de' for both. English distinguishes Much/Many.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m02-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "How ___ books do you have?",
+      "type": "multiple_choice",
+      "options": [
+        "many",
+        "much",
+        "a lot"
+      ],
+      "correctAnswer": "many",
+      "feedback": "Correct! Books are countable -> Many.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Combien de livres...",
+        "englishStructure": "How many books...",
+        "whyDifficult": "French uses 'Combien de' for both. English distinguishes Much/Many.",
+        "visualHighlighting": {
+          "incorrect": "much",
+          "correct": "many"
+        }
+      }
+    },
+    {
+      "id": "cu-m03-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "I have ___ questions.",
+      "type": "multiple_choice",
+      "options": [
+        "a few",
+        "a little",
+        "much"
+      ],
+      "correctAnswer": "a few",
+      "feedback": "Correct! Questions are countable -> A few.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few vs Little)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai quelques questions...",
+        "englishStructure": "I have a few questions...",
+        "whyDifficult": "'A few' for countable, 'A little' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a little",
+          "correct": "a few"
+        }
+      }
+    },
+    {
+      "id": "cu-m04-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There is ___ milk left.",
+      "type": "multiple_choice",
+      "options": [
+        "a little",
+        "a few",
+        "many"
+      ],
+      "correctAnswer": "a little",
+      "feedback": "Correct! Milk is uncountable -> A little.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Few vs Little)",
+      "frenchComparison": {
+        "frenchStructure": "Il reste un peu de lait...",
+        "englishStructure": "There is a little milk left...",
+        "whyDifficult": "'A little' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a few",
+          "correct": "a little"
+        }
+      }
+    },
+    {
+      "id": "cu-m05-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Buy two ___ of bread.",
+      "type": "multiple_choice",
+      "options": [
+        "loaves",
+        "bars",
+        "tubes"
+      ],
+      "correctAnswer": "loaves",
+      "feedback": "Correct! Loaves of bread.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Bread)",
+      "frenchComparison": {
+        "frenchStructure": "Deux pains...",
+        "englishStructure": "Two loaves of bread...",
+        "whyDifficult": "Specific partitive for bread.",
+        "visualHighlighting": {
+          "incorrect": "bars",
+          "correct": "loaves"
+        }
+      }
+    },
+    {
+      "id": "cu-m06-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "That is good ___.",
+      "type": "multiple_choice",
+      "options": [
+        "advice",
+        "advices",
+        "advise"
+      ],
+      "correctAnswer": "advice",
+      "feedback": "Correct! Advice is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "Ce sont de bons conseils...",
+        "englishStructure": "That is good advice...",
+        "whyDifficult": "French 'conseils' is countable. English 'advice' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "advices",
+          "correct": "advice"
+        }
+      }
+    },
+    {
+      "id": "cu-m07-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "A ___ of chocolate.",
+      "type": "multiple_choice",
+      "options": [
+        "bar",
+        "loaf",
+        "slice"
+      ],
+      "correctAnswer": "bar",
+      "feedback": "Correct! Bar of chocolate.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Chocolate)",
+      "frenchComparison": {
+        "frenchStructure": "Une barre de chocolat...",
+        "englishStructure": "A bar of chocolate...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "loaf",
+          "correct": "bar"
+        }
+      }
+    },
+    {
+      "id": "cu-m08-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "He doesn't have ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "some"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Money is uncountable -> Much.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Money)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'a pas beaucoup d'argent...",
+        "englishStructure": "He doesn't have much money...",
+        "whyDifficult": "Money is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m09-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There was ___ traffic.",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "a few"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! Traffic is uncountable -> Much.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Traffic)",
+      "frenchComparison": {
+        "frenchStructure": "Il y avait beaucoup de circulation...",
+        "englishStructure": "There was much traffic...",
+        "whyDifficult": "Traffic is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many",
+          "correct": "much"
+        }
+      }
+    },
+    {
+      "id": "cu-m10-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Two ___ of water.",
+      "type": "multiple_choice",
+      "options": [
+        "bottles",
+        "pieces",
+        "bars"
+      ],
+      "correctAnswer": "bottles",
+      "feedback": "Correct! Bottles of water.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Water)",
+      "frenchComparison": {
+        "frenchStructure": "Deux bouteilles d'eau...",
+        "englishStructure": "Two bottles of water...",
+        "whyDifficult": "Partitive for liquids.",
+        "visualHighlighting": {
+          "incorrect": "pieces",
+          "correct": "bottles"
+        }
+      }
+    },
+    {
+      "id": "cu-m11-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There is so much ___ to do.",
+      "type": "multiple_choice",
+      "options": [
+        "work",
+        "works",
+        "job"
+      ],
+      "correctAnswer": "work",
+      "feedback": "Correct! Work is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Work)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a tant de travail...",
+        "englishStructure": "There is so much work...",
+        "whyDifficult": "'Work' is uncountable. 'Job' is countable.",
+        "visualHighlighting": {
+          "incorrect": "works",
+          "correct": "work"
+        }
+      }
+    },
+    {
+      "id": "cu-m12-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "My room has old ___.",
+      "type": "multiple_choice",
+      "options": [
+        "furniture",
+        "furnitures",
+        "piece of furniture"
+      ],
+      "correctAnswer": "furniture",
+      "feedback": "Correct! Furniture is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Ma chambre a de vieux meubles...",
+        "englishStructure": "My room has old furniture...",
+        "whyDifficult": "French 'meubles' is plural. English 'furniture' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "furnitures",
+          "correct": "furniture"
+        }
+      }
+    },
+    {
+      "id": "cu-m13-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Don't eat ___ salt.",
+      "type": "multiple_choice",
+      "options": [
+        "too much",
+        "too many",
+        "a few"
+      ],
+      "correctAnswer": "too much",
+      "feedback": "Correct! Salt is uncountable -> Too much.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Too much)",
+      "frenchComparison": {
+        "frenchStructure": "Ne mange pas trop de sel...",
+        "englishStructure": "Don't eat too much salt...",
+        "whyDifficult": "Uncountable -> Much.",
+        "visualHighlighting": {
+          "incorrect": "too many",
+          "correct": "too much"
+        }
+      }
+    },
+    {
+      "id": "cu-m14-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "There are ___ chairs.",
+      "type": "multiple_choice",
+      "options": [
+        "too many",
+        "too much",
+        "a little"
+      ],
+      "correctAnswer": "too many",
+      "feedback": "Correct! Chairs are countable -> Too many.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Too many)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a trop de chaises...",
+        "englishStructure": "There are too many chairs...",
+        "whyDifficult": "Chairs are countable plural.",
+        "visualHighlighting": {
+          "incorrect": "too much",
+          "correct": "too many"
+        }
+      }
+    },
+    {
+      "id": "cu-m15-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "A ___ of cheese.",
+      "type": "multiple_choice",
+      "options": [
+        "slice",
+        "bottle",
+        "grain"
+      ],
+      "correctAnswer": "slice",
+      "feedback": "Correct! Slice of cheese.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Une tranche de fromage...",
+        "englishStructure": "A slice of cheese...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "grain",
+          "correct": "slice"
+        }
+      }
+    },
+    {
+      "id": "cu-m16-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "This information ___ wrong.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Information is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Information)",
+      "frenchComparison": {
+        "frenchStructure": "Ces informations sont...",
+        "englishStructure": "This information is...",
+        "whyDifficult": "French often uses plural 'informations'. English is always singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-m17-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "Two ___ of chocolate.",
+      "type": "multiple_choice",
+      "options": [
+        "bars",
+        "bottles",
+        "loaves"
+      ],
+      "correctAnswer": "bars",
+      "feedback": "Correct! Bars of chocolate.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Chocolate)",
+      "frenchComparison": {
+        "frenchStructure": "Deux barres de chocolat...",
+        "englishStructure": "Two bars of chocolate...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "bottles",
+          "correct": "bars"
+        }
+      }
+    },
+    {
+      "id": "cu-m18-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "She has beautiful ___.",
+      "type": "multiple_choice",
+      "options": [
+        "hair",
+        "hairs",
+        "hair's"
+      ],
+      "correctAnswer": "hair",
+      "feedback": "Correct! Hair is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Hair)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a de beaux cheveux...",
+        "englishStructure": "She has beautiful hair...",
+        "whyDifficult": "Hair is uncountable in English when referring to the whole head.",
+        "visualHighlighting": {
+          "incorrect": "hairs",
+          "correct": "hair"
+        }
+      }
+    },
+    {
+      "id": "cu-m19-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "He carried my ___.",
+      "type": "multiple_choice",
+      "options": [
+        "luggage",
+        "luggages",
+        "baggages"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! Luggage is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "Il a porté mes bagages...",
+        "englishStructure": "He carried my luggage...",
+        "whyDifficult": "French 'bagages' is plural. English 'luggage' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "luggages",
+          "correct": "luggage"
+        }
+      }
+    },
+    {
+      "id": "cu-m20-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "medium",
+      "questionText": "A ___ of coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "cup",
+        "piece",
+        "bar"
+      ],
+      "correctAnswer": "cup",
+      "feedback": "Correct! Cup of coffee.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Drinks)",
+      "frenchComparison": {
+        "frenchStructure": "Une tasse de café...",
+        "englishStructure": "A cup of coffee...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "cup"
+        }
+      }
+    },
+    {
+      "id": "cu-h01-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The furniture ___ expensive.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Furniture is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Les meubles sont chers...",
+        "englishStructure": "The furniture is expensive...",
+        "whyDifficult": "French 'meubles' is plural. English 'furniture' is singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h02-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Give me two ___ of information.",
+      "type": "multiple_choice",
+      "options": [
+        "pieces",
+        "parts",
+        "slices"
+      ],
+      "correctAnswer": "pieces",
+      "feedback": "Correct! Pieces of information.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Information)",
+      "frenchComparison": {
+        "frenchStructure": "Donne-moi deux informations...",
+        "englishStructure": "Give me two pieces of information...",
+        "whyDifficult": "Information is uncountable, needs 'pieces' to be counted.",
+        "visualHighlighting": {
+          "incorrect": "parts",
+          "correct": "pieces"
+        }
+      }
+    },
+    {
+      "id": "cu-h03-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "We have ___ time left.",
+      "type": "multiple_choice",
+      "options": [
+        "little",
+        "few",
+        "a few"
+      ],
+      "correctAnswer": "little",
+      "feedback": "Correct! Time is uncountable -> Little (negative).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons peu de temps...",
+        "englishStructure": "We have little time...",
+        "whyDifficult": "Time is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "few",
+          "correct": "little"
+        }
+      }
+    },
+    {
+      "id": "cu-h04-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The news ___ shocking.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! News is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les nouvelles étaient...",
+        "englishStructure": "The news was...",
+        "whyDifficult": "Ends in 's' but is singular.",
+        "visualHighlighting": {
+          "incorrect": "were",
+          "correct": "was"
+        }
+      }
+    },
+    {
+      "id": "cu-h05-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Too much ___.",
+      "type": "multiple_choice",
+      "options": [
+        "luggage",
+        "luggages",
+        "suitcase"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! Luggage is uncountable.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "Trop de bagages...",
+        "englishStructure": "Too much luggage...",
+        "whyDifficult": "Luggage is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "luggages",
+          "correct": "luggage"
+        }
+      }
+    },
+    {
+      "id": "cu-h06-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "___ students passed.",
+      "type": "multiple_choice",
+      "options": [
+        "Few",
+        "Little",
+        "A little"
+      ],
+      "correctAnswer": "Few",
+      "feedback": "Correct! Students are countable -> Few.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Peu d'étudiants...",
+        "englishStructure": "Few students...",
+        "whyDifficult": "Students are countable.",
+        "visualHighlighting": {
+          "incorrect": "Little",
+          "correct": "Few"
+        }
+      }
+    },
+    {
+      "id": "cu-h07-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of thunder.",
+      "type": "multiple_choice",
+      "options": [
+        "clap",
+        "piece",
+        "slice"
+      ],
+      "correctAnswer": "clap",
+      "feedback": "Correct! Clap of thunder.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Weather)",
+      "frenchComparison": {
+        "frenchStructure": "Un coup de tonnerre...",
+        "englishStructure": "A clap of thunder...",
+        "whyDifficult": "Specific partitive for thunder.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "clap"
+        }
+      }
+    },
+    {
+      "id": "cu-h08-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The police ___ investigating.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! Police is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police enquête...",
+        "englishStructure": "The police are investigating...",
+        "whyDifficult": "Police is always plural.",
+        "visualHighlighting": {
+          "incorrect": "is",
+          "correct": "are"
+        }
+      }
+    },
+    {
+      "id": "cu-h09-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of dust.",
+      "type": "multiple_choice",
+      "options": [
+        "speck",
+        "leaf",
+        "piece"
+      ],
+      "correctAnswer": "speck",
+      "feedback": "Correct! Speck of dust.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Small)",
+      "frenchComparison": {
+        "frenchStructure": "Un grain de poussière...",
+        "englishStructure": "A speck of dust...",
+        "whyDifficult": "Specific partitive for dust.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "speck"
+        }
+      }
+    },
+    {
+      "id": "cu-h10-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Physics ___ my favorite subject.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Physics is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "La physique est...",
+        "englishStructure": "Physics is...",
+        "whyDifficult": "Ends in 's' but is singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h11-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of toothpaste.",
+      "type": "multiple_choice",
+      "options": [
+        "tube",
+        "bar",
+        "piece"
+      ],
+      "correctAnswer": "tube",
+      "feedback": "Correct! Tube of toothpaste.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Household)",
+      "frenchComparison": {
+        "frenchStructure": "Un tube de dentifrice...",
+        "englishStructure": "A tube of toothpaste...",
+        "whyDifficult": "Partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "tube"
+        }
+      }
+    },
+    {
+      "id": "cu-h12-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "___ hope remains.",
+      "type": "multiple_choice",
+      "options": [
+        "Little",
+        "Few",
+        "Many"
+      ],
+      "correctAnswer": "Little",
+      "feedback": "Correct! Hope is uncountable -> Little.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Peu d'espoir...",
+        "englishStructure": "Little hope...",
+        "whyDifficult": "Hope is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "Few",
+          "correct": "Little"
+        }
+      }
+    },
+    {
+      "id": "cu-h13-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Ten ___ of cattle.",
+      "type": "multiple_choice",
+      "options": [
+        "head",
+        "heads",
+        "pieces"
+      ],
+      "correctAnswer": "head",
+      "feedback": "Correct! Head of cattle.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Animals)",
+      "frenchComparison": {
+        "frenchStructure": "Dix têtes de bétail...",
+        "englishStructure": "Ten head of cattle...",
+        "whyDifficult": "Plural is 'head' in this context.",
+        "visualHighlighting": {
+          "incorrect": "heads",
+          "correct": "head"
+        }
+      }
+    },
+    {
+      "id": "cu-h14-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"The equipments are new.\"",
+      "type": "error_correction",
+      "options": [
+        "The",
+        "equipments",
+        "are new",
+        "No error"
+      ],
+      "correctAnswer": "equipments",
+      "feedback": "Correct! 'Equipment' is uncountable. It should be 'The equipment is new'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "equipment",
+      "subTopic": "Uncountable Nouns (Equipment)",
+      "frenchComparison": {
+        "frenchStructure": "L'équipement est...",
+        "englishStructure": "The equipment is...",
+        "whyDifficult": "Equipment is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "equipments",
+          "correct": "equipment"
+        }
+      }
+    },
+    {
+      "id": "cu-h15-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A small ___ of money.",
+      "type": "multiple_choice",
+      "options": [
+        "amount",
+        "number",
+        "many"
+      ],
+      "correctAnswer": "amount",
+      "feedback": "Correct! Amount for money.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Une petite quantité d'argent...",
+        "englishStructure": "A small amount of money...",
+        "whyDifficult": "'Amount' for uncountable.",
+        "visualHighlighting": {
+          "incorrect": "number",
+          "correct": "amount"
+        }
+      }
+    },
+    {
+      "id": "cu-h16-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A small ___ of cars.",
+      "type": "multiple_choice",
+      "options": [
+        "number",
+        "amount",
+        "much"
+      ],
+      "correctAnswer": "number",
+      "feedback": "Correct! Number for cars.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Un petit nombre de voitures...",
+        "englishStructure": "A small number of cars...",
+        "whyDifficult": "'Number' for countable.",
+        "visualHighlighting": {
+          "incorrect": "amount",
+          "correct": "number"
+        }
+      }
+    },
+    {
+      "id": "cu-h17-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "There are ___ opportunities now.",
+      "type": "multiple_choice",
+      "options": [
+        "fewer",
+        "less",
+        "little"
+      ],
+      "correctAnswer": "fewer",
+      "feedback": "Correct! Opportunities are countable -> Fewer.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Less vs Fewer)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a moins d'opportunités...",
+        "englishStructure": "There are fewer opportunities...",
+        "whyDifficult": "'Fewer' for countable.",
+        "visualHighlighting": {
+          "incorrect": "less",
+          "correct": "fewer"
+        }
+      }
+    },
+    {
+      "id": "cu-h18-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The team ___ playing well.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Team (unit) -> Singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "L'équipe joue bien...",
+        "englishStructure": "The team is playing well...",
+        "whyDifficult": "Collective noun singular.",
+        "visualHighlighting": {
+          "incorrect": "are",
+          "correct": "is"
+        }
+      }
+    },
+    {
+      "id": "cu-h19-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "A ___ of corn.",
+      "type": "multiple_choice",
+      "options": [
+        "grain",
+        "ear",
+        "piece"
+      ],
+      "correctAnswer": "ear",
+      "feedback": "Correct! An ear of corn.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Un épi de maïs...",
+        "englishStructure": "An ear of corn...",
+        "whyDifficult": "Specific partitive.",
+        "visualHighlighting": {
+          "incorrect": "piece",
+          "correct": "ear"
+        }
+      }
+    },
+    {
+      "id": "cu-h20-B",
+      "moduleId": "countable-uncountable",
+      "difficulty": "hard",
+      "questionText": "The machinery ___ rusty.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "have been"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! Machinery is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Machinery)",
+      "frenchComparison": {
+        "frenchStructure": "La machinerie était...",
+        "englishStructure": "The machinery was...",
+        "whyDifficult": "Machinery is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "were",
+          "correct": "was"
+        }
+      }
+    }
+  ]
+}

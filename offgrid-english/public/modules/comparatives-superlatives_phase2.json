@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "cs-e21-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "He is ___ than me.",
+        "type": "multiple_choice",
+        "options": [
+            "tall",
+            "taller",
+            "more tall"
+        ],
+        "correctAnswer": "taller",
+        "feedback": "Correct! Short adjectives take -er.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Short Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Il est plus grand que moi",
+            "englishStructure": "He is taller than me",
+            "whyDifficult": "French uses 'plus' (more) for everything. English uses -er for short words.",
+            "visualHighlighting": {
+                "incorrect": "more tall",
+                "correct": "taller"
+            }
+        }
+    },
+    {
+        "id": "cs-e22-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "This car is ___ expensive than that one.",
+        "type": "multiple_choice",
+        "options": [
+            "more",
+            "most",
+            "much"
+        ],
+        "correctAnswer": "more",
+        "feedback": "Correct! Long adjectives take 'more'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Long Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus cher",
+            "englishStructure": "More expensive",
+            "whyDifficult": "Direct translation works for long adjectives.",
+            "visualHighlighting": {
+                "incorrect": "expensiver",
+                "correct": "more expensive"
+            }
+        }
+    },
+    {
+        "id": "cs-e23-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "This pizza is ___ than that one.",
+        "type": "multiple_choice",
+        "options": [
+            "gooder",
+            "better",
+            "more good"
+        ],
+        "correctAnswer": "better",
+        "feedback": "Correct! 'Good' is irregular. Comparative is 'better'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Good)",
+        "frenchComparison": {
+            "frenchStructure": "Meilleure",
+            "englishStructure": "Better",
+            "whyDifficult": "Irregular form.",
+            "visualHighlighting": {
+                "incorrect": "gooder",
+                "correct": "better"
+            }
+        }
+    },
+    {
+        "id": "cs-e24-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "It is the ___ house in the village.",
+        "type": "multiple_choice",
+        "options": [
+            "big",
+            "bigger",
+            "biggest"
+        ],
+        "correctAnswer": "biggest",
+        "feedback": "Correct! Superlative for short adjectives takes -est.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative (Short)",
+        "frenchComparison": {
+            "frenchStructure": "La plus grande maison",
+            "englishStructure": "The biggest house",
+            "whyDifficult": "French uses 'le plus'. English uses -est.",
+            "visualHighlighting": {
+                "incorrect": "the most big",
+                "correct": "the biggest"
+            }
+        }
+    },
+    {
+        "id": "cs-e25-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "She is the ___ beautiful girl.",
+        "type": "multiple_choice",
+        "options": [
+            "most",
+            "more",
+            "much"
+        ],
+        "correctAnswer": "most",
+        "feedback": "Correct! Superlative for long adjectives uses 'most'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative (Long)",
+        "frenchComparison": {
+            "frenchStructure": "La plus belle",
+            "englishStructure": "The most beautiful",
+            "whyDifficult": "Direct translation works.",
+            "visualHighlighting": {
+                "incorrect": "beautifullest",
+                "correct": "most beautiful"
+            }
+        }
+    },
+    {
+        "id": "cs-e26-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "He is ___ tall as his father.",
+        "type": "multiple_choice",
+        "options": [
+            "as",
+            "so",
+            "than"
+        ],
+        "correctAnswer": "as",
+        "feedback": "Correct! Equality uses 'as...as'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Equality",
+        "frenchComparison": {
+            "frenchStructure": "Aussi grand que",
+            "englishStructure": "As tall as",
+            "whyDifficult": "French uses 'aussi...que'.",
+            "visualHighlighting": {
+                "incorrect": "so tall as",
+                "correct": "as tall as"
+            }
+        }
+    },
+    {
+        "id": "cs-e27-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "A cheetah is ___ than a lion.",
+        "type": "multiple_choice",
+        "options": [
+            "fast",
+            "faster",
+            "more fast"
+        ],
+        "correctAnswer": "faster",
+        "feedback": "Correct! Short adjective 'fast' becomes 'faster'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Short Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus rapide",
+            "englishStructure": "Faster",
+            "whyDifficult": "English uses -er.",
+            "visualHighlighting": {
+                "incorrect": "more fast",
+                "correct": "faster"
+            }
+        }
+    },
+    {
+        "id": "cs-e28-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "This book is ___ interesting than that one.",
+        "type": "multiple_choice",
+        "options": [
+            "more",
+            "most",
+            "many"
+        ],
+        "correctAnswer": "more",
+        "feedback": "Correct! 'Interesting' is a long adjective.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Long Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus intéressant",
+            "englishStructure": "More interesting",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "interestinger",
+                "correct": "more interesting"
+            }
+        }
+    },
+    {
+        "id": "cs-e29-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "The weather today is ___ than yesterday.",
+        "type": "multiple_choice",
+        "options": [
+            "badder",
+            "worse",
+            "bad"
+        ],
+        "correctAnswer": "worse",
+        "feedback": "Correct! 'Bad' is irregular. Comparative is 'worse'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Bad)",
+        "frenchComparison": {
+            "frenchStructure": "Pire",
+            "englishStructure": "Worse",
+            "whyDifficult": "Irregular form.",
+            "visualHighlighting": {
+                "incorrect": "badder",
+                "correct": "worse"
+            }
+        }
+    },
+    {
+        "id": "cs-e30-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "He is the ___ player on the team.",
+        "type": "multiple_choice",
+        "options": [
+            "goodest",
+            "best",
+            "better"
+        ],
+        "correctAnswer": "best",
+        "feedback": "Correct! Superlative of 'good' is 'best'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Good)",
+        "frenchComparison": {
+            "frenchStructure": "Le meilleur",
+            "englishStructure": "The best",
+            "whyDifficult": "Irregular form.",
+            "visualHighlighting": {
+                "incorrect": "goodest",
+                "correct": "best"
+            }
+        }
+    },
+    {
+        "id": "cs-e21-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "My brother is ___ than me.",
+        "type": "multiple_choice",
+        "options": [
+            "old",
+            "older",
+            "more old"
+        ],
+        "correctAnswer": "older",
+        "feedback": "Correct! Short adjective 'old' takes -er.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Short Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus vieux",
+            "englishStructure": "Older",
+            "whyDifficult": "English uses -er.",
+            "visualHighlighting": {
+                "incorrect": "more old",
+                "correct": "older"
+            }
+        }
+    },
+    {
+        "id": "cs-e22-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "English is ___ difficult than Math.",
+        "type": "multiple_choice",
+        "options": [
+            "more",
+            "most",
+            "much"
+        ],
+        "correctAnswer": "more",
+        "feedback": "Correct! Long adjective 'difficult'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Long Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus difficile",
+            "englishStructure": "More difficult",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "difficulter",
+                "correct": "more difficult"
+            }
+        }
+    },
+    {
+        "id": "cs-e23-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "Your idea is ___ than mine.",
+        "type": "multiple_choice",
+        "options": [
+            "better",
+            "gooder",
+            "best"
+        ],
+        "correctAnswer": "better",
+        "feedback": "Correct! Comparative of 'good'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Good)",
+        "frenchComparison": {
+            "frenchStructure": "Meilleure",
+            "englishStructure": "Better",
+            "whyDifficult": "Irregular.",
+            "visualHighlighting": {
+                "incorrect": "gooder",
+                "correct": "better"
+            }
+        }
+    },
+    {
+        "id": "cs-e24-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "Mount Cameroon is the ___ mountain here.",
+        "type": "multiple_choice",
+        "options": [
+            "high",
+            "higher",
+            "highest"
+        ],
+        "correctAnswer": "highest",
+        "feedback": "Correct! Superlative of 'high'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative (Short)",
+        "frenchComparison": {
+            "frenchStructure": "La plus haute",
+            "englishStructure": "The highest",
+            "whyDifficult": "English uses -est.",
+            "visualHighlighting": {
+                "incorrect": "most high",
+                "correct": "highest"
+            }
+        }
+    },
+    {
+        "id": "cs-e25-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "This is the ___ expensive hotel.",
+        "type": "multiple_choice",
+        "options": [
+            "most",
+            "more",
+            "much"
+        ],
+        "correctAnswer": "most",
+        "feedback": "Correct! Superlative of 'expensive'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative (Long)",
+        "frenchComparison": {
+            "frenchStructure": "Le plus cher",
+            "englishStructure": "The most expensive",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "expensivest",
+                "correct": "most expensive"
+            }
+        }
+    },
+    {
+        "id": "cs-e26-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "I am not ___ rich as Bill Gates.",
+        "type": "multiple_choice",
+        "options": [
+            "as",
+            "than",
+            "more"
+        ],
+        "correctAnswer": "as",
+        "feedback": "Correct! Negative equality: not as...as.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Equality",
+        "frenchComparison": {
+            "frenchStructure": "Pas aussi riche que",
+            "englishStructure": "Not as rich as",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "not so rich than",
+                "correct": "not as rich as"
+            }
+        }
+    },
+    {
+        "id": "cs-e27-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "Summer is ___ than winter.",
+        "type": "multiple_choice",
+        "options": [
+            "hot",
+            "hotter",
+            "more hot"
+        ],
+        "correctAnswer": "hotter",
+        "feedback": "Correct! Short adjective 'hot' (double t).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Short Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus chaud",
+            "englishStructure": "Hotter",
+            "whyDifficult": "Spelling rule (double consonant).",
+            "visualHighlighting": {
+                "incorrect": "more hot",
+                "correct": "hotter"
+            }
+        }
+    },
+    {
+        "id": "cs-e28-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "Physics is ___ complicated than Biology.",
+        "type": "multiple_choice",
+        "options": [
+            "more",
+            "most",
+            "much"
+        ],
+        "correctAnswer": "more",
+        "feedback": "Correct! Long adjective.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Long Adjectives",
+        "frenchComparison": {
+            "frenchStructure": "Plus compliqué",
+            "englishStructure": "More complicated",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "complicateder",
+                "correct": "more complicated"
+            }
+        }
+    },
+    {
+        "id": "cs-e29-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "My headache is ___ today.",
+        "type": "multiple_choice",
+        "options": [
+            "worse",
+            "badder",
+            "worst"
+        ],
+        "correctAnswer": "worse",
+        "feedback": "Correct! Comparative of 'bad'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Bad)",
+        "frenchComparison": {
+            "frenchStructure": "Pire",
+            "englishStructure": "Worse",
+            "whyDifficult": "Irregular.",
+            "visualHighlighting": {
+                "incorrect": "badder",
+                "correct": "worse"
+            }
+        }
+    },
+    {
+        "id": "cs-e30-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "easy",
+        "questionText": "This is the ___ day of my life.",
+        "type": "multiple_choice",
+        "options": [
+            "best",
+            "goodest",
+            "better"
+        ],
+        "correctAnswer": "best",
+        "feedback": "Correct! Superlative of 'good'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Good)",
+        "frenchComparison": {
+            "frenchStructure": "Le meilleur jour",
+            "englishStructure": "The best day",
+            "whyDifficult": "Irregular.",
+            "visualHighlighting": {
+                "incorrect": "goodest",
+                "correct": "best"
+            }
+        }
+    },
+    {
+        "id": "cs-m21-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "This house is ___ bigger than mine.",
+        "type": "multiple_choice",
+        "options": [
+            "much",
+            "more",
+            "very"
+        ],
+        "correctAnswer": "much",
+        "feedback": "Correct! Use 'much' to modify comparatives.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modifiers",
+        "frenchComparison": {
+            "frenchStructure": "Beaucoup plus grand",
+            "englishStructure": "Much bigger",
+            "whyDifficult": "French uses 'beaucoup plus'. English uses 'much' + comparative.",
+            "visualHighlighting": {
+                "incorrect": "very bigger",
+                "correct": "much bigger"
+            }
+        }
+    },
+    {
+        "id": "cs-m22-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "He is ___ older than me.",
+        "type": "multiple_choice",
+        "options": [
+            "a bit",
+            "more",
+            "very"
+        ],
+        "correctAnswer": "a bit",
+        "feedback": "Correct! 'A bit' modifies comparatives.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modifiers",
+        "frenchComparison": {
+            "frenchStructure": "Un peu plus vieux",
+            "englishStructure": "A bit older",
+            "whyDifficult": "Modifier usage.",
+            "visualHighlighting": {
+                "incorrect": "very older",
+                "correct": "a bit older"
+            }
+        }
+    },
+    {
+        "id": "cs-m23-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "This phone is ___ expensive than that one.",
+        "type": "multiple_choice",
+        "options": [
+            "less",
+            "least",
+            "little"
+        ],
+        "correctAnswer": "less",
+        "feedback": "Correct! 'Less' is the opposite of 'more'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Less...than",
+        "frenchComparison": {
+            "frenchStructure": "Moins cher",
+            "englishStructure": "Less expensive",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "least expensive",
+                "correct": "less expensive"
+            }
+        }
+    },
+    {
+        "id": "cs-m24-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "This is the ___ interesting book I have read.",
+        "type": "multiple_choice",
+        "options": [
+            "least",
+            "less",
+            "little"
+        ],
+        "correctAnswer": "least",
+        "feedback": "Correct! 'The least' is the opposite of 'the most'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "The least...",
+        "frenchComparison": {
+            "frenchStructure": "Le moins intéressant",
+            "englishStructure": "The least interesting",
+            "whyDifficult": "Superlative of inferiority.",
+            "visualHighlighting": {
+                "incorrect": "less interesting",
+                "correct": "least interesting"
+            }
+        }
+    },
+    {
+        "id": "cs-m25-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "It is getting ___ and ___.",
+        "type": "multiple_choice",
+        "options": [
+            "hotter / hotter",
+            "more hot / more hot",
+            "hot / hot"
+        ],
+        "correctAnswer": "hotter / hotter",
+        "feedback": "Correct! Double comparative for changing situations.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Double Comparative",
+        "frenchComparison": {
+            "frenchStructure": "De plus en plus chaud",
+            "englishStructure": "Hotter and hotter",
+            "whyDifficult": "French uses 'de plus en plus'. English repeats the comparative.",
+            "visualHighlighting": {
+                "incorrect": "more and more hot",
+                "correct": "hotter and hotter"
+            }
+        }
+    },
+    {
+        "id": "cs-m26-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "The ___ , the better.",
+        "type": "multiple_choice",
+        "options": [
+            "sooner",
+            "soon",
+            "soonest"
+        ],
+        "correctAnswer": "sooner",
+        "feedback": "Correct! The + Comparative, The + Comparative.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "The... the...",
+        "frenchComparison": {
+            "frenchStructure": "Plus tôt sera le mieux",
+            "englishStructure": "The sooner, the better",
+            "whyDifficult": "Specific structure.",
+            "visualHighlighting": {
+                "incorrect": "The soon",
+                "correct": "The sooner"
+            }
+        }
+    },
+    {
+        "id": "cs-m27-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "Douala is ___ than Yaoundé.",
+        "type": "multiple_choice",
+        "options": [
+            "farther",
+            "more far",
+            "farest"
+        ],
+        "correctAnswer": "farther",
+        "feedback": "Correct! 'Far' becomes 'farther' or 'further'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Irregular (Far)",
+        "frenchComparison": {
+            "frenchStructure": "Plus loin",
+            "englishStructure": "Farther",
+            "whyDifficult": "Irregular form.",
+            "visualHighlighting": {
+                "incorrect": "more far",
+                "correct": "farther"
+            }
+        }
+    },
+    {
+        "id": "cs-m28-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "He is one of the ___ famous singers.",
+        "type": "multiple_choice",
+        "options": [
+            "most",
+            "more",
+            "much"
+        ],
+        "correctAnswer": "most",
+        "feedback": "Correct! One of the + Superlative.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "One of the...",
+        "frenchComparison": {
+            "frenchStructure": "L'un des plus célèbres",
+            "englishStructure": "One of the most famous",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "One of the more",
+                "correct": "One of the most"
+            }
+        }
+    },
+    {
+        "id": "cs-m29-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "He runs ___ than me.",
+        "type": "multiple_choice",
+        "options": [
+            "faster",
+            "more fast",
+            "fastly"
+        ],
+        "correctAnswer": "faster",
+        "feedback": "Correct! Comparative of adverb 'fast' is 'faster'.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Comparative Adverbs",
+        "frenchComparison": {
+            "frenchStructure": "Il court plus vite",
+            "englishStructure": "He runs faster",
+            "whyDifficult": "Adverbs usually take 'more', but 'fast' takes -er.",
+            "visualHighlighting": {
+                "incorrect": "more fast",
+                "correct": "faster"
+            }
+        }
+    },
+    {
+        "id": "cs-m30-A",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "This is the best movie I ___ seen.",
+        "type": "multiple_choice",
+        "options": [
+            "have ever",
+            "did ever",
+            "ever"
+        ],
+        "correctAnswer": "have ever",
+        "feedback": "Correct! Superlative + Present Perfect.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative + Present Perfect",
+        "frenchComparison": {
+            "frenchStructure": "Le meilleur film que j'aie jamais vu",
+            "englishStructure": "The best movie I have ever seen",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "I ever saw",
+                "correct": "I have ever seen"
+            }
+        }
+    },
+    {
+        "id": "cs-m21-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "She is ___ smarter than him.",
+        "type": "multiple_choice",
+        "options": [
+            "much",
+            "very",
+            "many"
+        ],
+        "correctAnswer": "much",
+        "feedback": "Correct! 'Much' modifies comparatives.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modifiers",
+        "frenchComparison": {
+            "frenchStructure": "Beaucoup plus intelligente",
+            "englishStructure": "Much smarter",
+            "whyDifficult": "Modifier usage.",
+            "visualHighlighting": {
+                "incorrect": "very smarter",
+                "correct": "much smarter"
+            }
+        }
+    },
+    {
+        "id": "cs-m22-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "It is ___ colder today.",
+        "type": "multiple_choice",
+        "options": [
+            "a little",
+            "more",
+            "very"
+        ],
+        "correctAnswer": "a little",
+        "feedback": "Correct! 'A little' modifies comparatives.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modifiers",
+        "frenchComparison": {
+            "frenchStructure": "Un peu plus froid",
+            "englishStructure": "A little colder",
+            "whyDifficult": "Modifier usage.",
+            "visualHighlighting": {
+                "incorrect": "very colder",
+                "correct": "a little colder"
+            }
+        }
+    },
+    {
+        "id": "cs-m23-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "This test was ___ difficult than the last one.",
+        "type": "multiple_choice",
+        "options": [
+            "less",
+            "least",
+            "little"
+        ],
+        "correctAnswer": "less",
+        "feedback": "Correct! Inferiority.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Less...than",
+        "frenchComparison": {
+            "frenchStructure": "Moins difficile",
+            "englishStructure": "Less difficult",
+            "whyDifficult": "Direct translation.",
+            "visualHighlighting": {
+                "incorrect": "least difficult",
+                "correct": "less difficult"
+            }
+        }
+    },
+    {
+        "id": "cs-m24-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "He is the ___ hardworking student.",
+        "type": "multiple_choice",
+        "options": [
+            "least",
+            "less",
+            "little"
+        ],
+        "correctAnswer": "least",
+        "feedback": "Correct! Superlative of inferiority.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "The least...",
+        "frenchComparison": {
+            "frenchStructure": "Le moins travailleur",
+            "englishStructure": "The least hardworking",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "less hardworking",
+                "correct": "least hardworking"
+            }
+        }
+    },
+    {
+        "id": "cs-m25-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "English is becoming ___ and ___ important.",
+        "type": "multiple_choice",
+        "options": [
+            "more / more",
+            "most / most",
+            "much / much"
+        ],
+        "correctAnswer": "more / more",
+        "feedback": "Correct! Double comparative with long adjectives.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Double Comparative",
+        "frenchComparison": {
+            "frenchStructure": "De plus en plus important",
+            "englishStructure": "More and more important",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "more important and more important",
+                "correct": "more and more important"
+            }
+        }
+    },
+    {
+        "id": "cs-m26-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "The ___ you study, the ___ you learn.",
+        "type": "multiple_choice",
+        "options": [
+            "more / more",
+            "most / most",
+            "much / much"
+        ],
+        "correctAnswer": "more / more",
+        "feedback": "Correct! The more... the more...",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "The... the...",
+        "frenchComparison": {
+            "frenchStructure": "Plus tu étudies, plus tu apprends",
+            "englishStructure": "The more you study, the more you learn",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "More you study",
+                "correct": "The more you study"
+            }
+        }
+    },
+    {
+        "id": "cs-m27-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "Do you have any ___ questions?",
+        "type": "multiple_choice",
+        "options": [
+            "further",
+            "farther",
+            "farthest"
+        ],
+        "correctAnswer": "further",
+        "feedback": "Correct! 'Further' means 'additional'. 'Farther' is for distance.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Further vs Farther",
+        "frenchComparison": {
+            "frenchStructure": "D'autres questions",
+            "englishStructure": "Further questions",
+            "whyDifficult": "Distinction between further/farther.",
+            "visualHighlighting": {
+                "incorrect": "farther",
+                "correct": "further"
+            }
+        }
+    },
+    {
+        "id": "cs-m28-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "It is one of the ___ places.",
+        "type": "multiple_choice",
+        "options": [
+            "best",
+            "goodest",
+            "better"
+        ],
+        "correctAnswer": "best",
+        "feedback": "Correct! One of the + Superlative.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "One of the...",
+        "frenchComparison": {
+            "frenchStructure": "L'un des meilleurs endroits",
+            "englishStructure": "One of the best places",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "One of the better",
+                "correct": "One of the best"
+            }
+        }
+    },
+    {
+        "id": "cs-m29-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "Please speak ___.",
+        "type": "multiple_choice",
+        "options": [
+            "more slowly",
+            "slowlier",
+            "slowly"
+        ],
+        "correctAnswer": "more slowly",
+        "feedback": "Correct! Adverbs ending in -ly take 'more'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Comparative Adverbs",
+        "frenchComparison": {
+            "frenchStructure": "Plus lentement",
+            "englishStructure": "More slowly",
+            "whyDifficult": "-ly adverbs use 'more'.",
+            "visualHighlighting": {
+                "incorrect": "slowlier",
+                "correct": "more slowly"
+            }
+        }
+    },
+    {
+        "id": "cs-m30-B",
+        "moduleId": "comparatives-superlatives",
+        "difficulty": "medium",
+        "questionText": "That is the worst joke I ___ heard.",
+        "type": "multiple_choice",
+        "options": [
+            "have ever",
+            "did ever",
+            "ever"
+        ],
+        "correctAnswer": "have ever",
+        "feedback": "Correct! Superlative + Present Perfect.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Superlative + Present Perfect",
+        "frenchComparison": {
+            "frenchStructure": "La pire blague que j'aie jamais entendue",
+            "englishStructure": "The worst joke I have ever heard",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "I ever heard",
+                "correct": "I have ever heard"
+            }
+        }
+    }
+]

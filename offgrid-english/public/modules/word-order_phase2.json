@@ -1,0 +1,1622 @@
+[
+    {
+        "id": "wo-e21-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: apples / eat / I",
+        "type": "scramble",
+        "options": [
+            "I eat apples",
+            "Apples eat I",
+            "Eat I apples"
+        ],
+        "correctAnswer": "I eat apples",
+        "feedback": "Correct! Subject (I) + Verb (eat) + Object (apples).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "SVO Structure",
+        "frenchComparison": {
+            "frenchStructure": "Je mange des pommes",
+            "englishStructure": "I eat apples",
+            "whyDifficult": "Basic structure is similar.",
+            "visualHighlighting": {
+                "incorrect": "Apples eat I",
+                "correct": "I eat apples"
+            }
+        }
+    },
+    {
+        "id": "wo-e22-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: car / red / a",
+        "type": "scramble",
+        "options": [
+            "a red car",
+            "a car red",
+            "red a car"
+        ],
+        "correctAnswer": "a red car",
+        "feedback": "Correct! Adjective (red) comes before Noun (car).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adjective-Noun",
+        "frenchComparison": {
+            "frenchStructure": "Une voiture rouge",
+            "englishStructure": "A red car",
+            "whyDifficult": "French places adjectives after nouns. English places them before.",
+            "visualHighlighting": {
+                "incorrect": "a car red",
+                "correct": "a red car"
+            }
+        }
+    },
+    {
+        "id": "wo-e23-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: always / sleep / I",
+        "type": "scramble",
+        "options": [
+            "I always sleep",
+            "I sleep always",
+            "Always I sleep"
+        ],
+        "correctAnswer": "I always sleep",
+        "feedback": "Correct! Adverbs of frequency go before the main verb.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adverb of Frequency",
+        "frenchComparison": {
+            "frenchStructure": "Je dors toujours",
+            "englishStructure": "I always sleep",
+            "whyDifficult": "French places adverbs after the verb. English places them before.",
+            "visualHighlighting": {
+                "incorrect": "I sleep always",
+                "correct": "I always sleep"
+            }
+        }
+    },
+    {
+        "id": "wo-e24-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: like / you / it / do",
+        "type": "scramble",
+        "options": [
+            "Do you like it",
+            "Like you it",
+            "You like it do"
+        ],
+        "correctAnswer": "Do you like it",
+        "feedback": "Correct! Questions start with Auxiliary (Do) + Subject (you).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Question Formation (Do)",
+        "frenchComparison": {
+            "frenchStructure": "Est-ce que tu aimes ça ?",
+            "englishStructure": "Do you like it?",
+            "whyDifficult": "English requires 'Do' support for questions.",
+            "visualHighlighting": {
+                "incorrect": "Like you it",
+                "correct": "Do you like it"
+            }
+        }
+    },
+    {
+        "id": "wo-e25-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: happy / he / is",
+        "type": "scramble",
+        "options": [
+            "Is he happy",
+            "He is happy",
+            "Happy is he"
+        ],
+        "correctAnswer": "Is he happy",
+        "feedback": "Correct! Question with 'be': Verb (Is) + Subject (he).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Question Formation (Be)",
+        "frenchComparison": {
+            "frenchStructure": "Est-il heureux ?",
+            "englishStructure": "Is he happy?",
+            "whyDifficult": "Inversion of subject and verb.",
+            "visualHighlighting": {
+                "incorrect": "He is happy?",
+                "correct": "Is he happy?"
+            }
+        }
+    },
+    {
+        "id": "wo-e26-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: house / mother's / my",
+        "type": "scramble",
+        "options": [
+            "my mother's house",
+            "the house of my mother",
+            "my house mother's"
+        ],
+        "correctAnswer": "my mother's house",
+        "feedback": "Correct! Possessive 's goes before the noun.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Possessive 's",
+        "frenchComparison": {
+            "frenchStructure": "La maison de ma mère",
+            "englishStructure": "My mother's house",
+            "whyDifficult": "French uses 'of'. English uses 's.",
+            "visualHighlighting": {
+                "incorrect": "the house of my mother",
+                "correct": "my mother's house"
+            }
+        }
+    },
+    {
+        "id": "wo-e27-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: table / on / the / is / book / the",
+        "type": "scramble",
+        "options": [
+            "The book is on the table",
+            "On the table is the book",
+            "The book on the table is"
+        ],
+        "correctAnswer": "The book is on the table",
+        "feedback": "Correct! SVO + Prepositional Phrase.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Prepositional Phrase",
+        "frenchComparison": {
+            "frenchStructure": "Le livre est sur la table",
+            "englishStructure": "The book is on the table",
+            "whyDifficult": "Basic structure.",
+            "visualHighlighting": {
+                "incorrect": "The table is on the book",
+                "correct": "The book is on the table"
+            }
+        }
+    },
+    {
+        "id": "wo-e28-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: yesterday / him / saw / I",
+        "type": "scramble",
+        "options": [
+            "I saw him yesterday",
+            "Yesterday I saw him",
+            "I him saw yesterday"
+        ],
+        "correctAnswer": "I saw him yesterday",
+        "feedback": "Correct! Time expressions usually go at the end.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time Expressions",
+        "frenchComparison": {
+            "frenchStructure": "Je l'ai vu hier",
+            "englishStructure": "I saw him yesterday",
+            "whyDifficult": "Object pronoun position (before verb in French, after in English).",
+            "visualHighlighting": {
+                "incorrect": "I him saw",
+                "correct": "I saw him"
+            }
+        }
+    },
+    {
+        "id": "wo-e29-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: know / not / do / I",
+        "type": "scramble",
+        "options": [
+            "I do not know",
+            "I know not",
+            "I not know"
+        ],
+        "correctAnswer": "I do not know",
+        "feedback": "Correct! Negative requires 'do not' before the verb.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Negative Sentence",
+        "frenchComparison": {
+            "frenchStructure": "Je ne sais pas",
+            "englishStructure": "I do not know",
+            "whyDifficult": "English requires auxiliary 'do' for negation.",
+            "visualHighlighting": {
+                "incorrect": "I know not",
+                "correct": "I do not know"
+            }
+        }
+    },
+    {
+        "id": "wo-e30-A",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: book / me / the / give",
+        "type": "scramble",
+        "options": [
+            "Give me the book",
+            "Give the book me",
+            "Me give the book"
+        ],
+        "correctAnswer": "Give me the book",
+        "feedback": "Correct! Verb + Indirect Object + Direct Object.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Double Object",
+        "frenchComparison": {
+            "frenchStructure": "Donne-moi le livre",
+            "englishStructure": "Give me the book",
+            "whyDifficult": "Word order with pronouns.",
+            "visualHighlighting": {
+                "incorrect": "Give the book me",
+                "correct": "Give me the book"
+            }
+        }
+    },
+    {
+        "id": "wo-e21-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: football / play / we",
+        "type": "scramble",
+        "options": [
+            "We play football",
+            "Football play we",
+            "Play we football"
+        ],
+        "correctAnswer": "We play football",
+        "feedback": "Correct! SVO structure.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "SVO Structure",
+        "frenchComparison": {
+            "frenchStructure": "Nous jouons au football",
+            "englishStructure": "We play football",
+            "whyDifficult": "Basic structure.",
+            "visualHighlighting": {
+                "incorrect": "Play we",
+                "correct": "We play"
+            }
+        }
+    },
+    {
+        "id": "wo-e22-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: house / big / a",
+        "type": "scramble",
+        "options": [
+            "a big house",
+            "a house big",
+            "big a house"
+        ],
+        "correctAnswer": "a big house",
+        "feedback": "Correct! Adjective before Noun.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adjective-Noun",
+        "frenchComparison": {
+            "frenchStructure": "Une grande maison",
+            "englishStructure": "A big house",
+            "whyDifficult": "Some French adjectives go before, but many go after.",
+            "visualHighlighting": {
+                "incorrect": "a house big",
+                "correct": "a big house"
+            }
+        }
+    },
+    {
+        "id": "wo-e23-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: never / eats / she / meat",
+        "type": "scramble",
+        "options": [
+            "She never eats meat",
+            "She eats never meat",
+            "Never she eats meat"
+        ],
+        "correctAnswer": "She never eats meat",
+        "feedback": "Correct! Adverb of frequency before the verb.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adverb of Frequency",
+        "frenchComparison": {
+            "frenchStructure": "Elle ne mange jamais de viande",
+            "englishStructure": "She never eats meat",
+            "whyDifficult": "Adverb placement.",
+            "visualHighlighting": {
+                "incorrect": "She eats never",
+                "correct": "She never eats"
+            }
+        }
+    },
+    {
+        "id": "wo-e24-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: work / they / here / do",
+        "type": "scramble",
+        "options": [
+            "Do they work here",
+            "Work they here",
+            "They work here do"
+        ],
+        "correctAnswer": "Do they work here",
+        "feedback": "Correct! Question with 'Do'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Question Formation (Do)",
+        "frenchComparison": {
+            "frenchStructure": "Travaillent-ils ici ?",
+            "englishStructure": "Do they work here?",
+            "whyDifficult": "Do support.",
+            "visualHighlighting": {
+                "incorrect": "Work they here",
+                "correct": "Do they work here"
+            }
+        }
+    },
+    {
+        "id": "wo-e25-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: tired / are / you",
+        "type": "scramble",
+        "options": [
+            "Are you tired",
+            "You are tired",
+            "Tired are you"
+        ],
+        "correctAnswer": "Are you tired",
+        "feedback": "Correct! Question with 'Be'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Question Formation (Be)",
+        "frenchComparison": {
+            "frenchStructure": "Es-tu fatigué ?",
+            "englishStructure": "Are you tired?",
+            "whyDifficult": "Inversion.",
+            "visualHighlighting": {
+                "incorrect": "You are tired?",
+                "correct": "Are you tired?"
+            }
+        }
+    },
+    {
+        "id": "wo-e26-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: car / John's / is / this",
+        "type": "scramble",
+        "options": [
+            "This is John's car",
+            "This is the car of John",
+            "John's car is this"
+        ],
+        "correctAnswer": "This is John's car",
+        "feedback": "Correct! Possessive 's.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Possessive 's",
+        "frenchComparison": {
+            "frenchStructure": "C'est la voiture de John",
+            "englishStructure": "This is John's car",
+            "whyDifficult": "Possessive structure.",
+            "visualHighlighting": {
+                "incorrect": "the car of John",
+                "correct": "John's car"
+            }
+        }
+    },
+    {
+        "id": "wo-e27-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: in / lives / Douala / she",
+        "type": "scramble",
+        "options": [
+            "She lives in Douala",
+            "In Douala she lives",
+            "She in Douala lives"
+        ],
+        "correctAnswer": "She lives in Douala",
+        "feedback": "Correct! SVO + Place.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Prepositional Phrase",
+        "frenchComparison": {
+            "frenchStructure": "Elle vit à Douala",
+            "englishStructure": "She lives in Douala",
+            "whyDifficult": "Basic structure.",
+            "visualHighlighting": {
+                "incorrect": "She in Douala lives",
+                "correct": "She lives in Douala"
+            }
+        }
+    },
+    {
+        "id": "wo-e28-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: tomorrow / will / come / he",
+        "type": "scramble",
+        "options": [
+            "He will come tomorrow",
+            "Tomorrow he will come",
+            "He tomorrow will come"
+        ],
+        "correctAnswer": "He will come tomorrow",
+        "feedback": "Correct! Time expression at the end.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time Expressions",
+        "frenchComparison": {
+            "frenchStructure": "Il viendra demain",
+            "englishStructure": "He will come tomorrow",
+            "whyDifficult": "Adverb placement.",
+            "visualHighlighting": {
+                "incorrect": "He tomorrow will come",
+                "correct": "He will come tomorrow"
+            }
+        }
+    },
+    {
+        "id": "wo-e29-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: like / not / does / he / it",
+        "type": "scramble",
+        "options": [
+            "He does not like it",
+            "He not likes it",
+            "He likes not it"
+        ],
+        "correctAnswer": "He does not like it",
+        "feedback": "Correct! Negative with 'does not'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Negative Sentence",
+        "frenchComparison": {
+            "frenchStructure": "Il n'aime pas ça",
+            "englishStructure": "He does not like it",
+            "whyDifficult": "Auxiliary 'does' required.",
+            "visualHighlighting": {
+                "incorrect": "He not likes",
+                "correct": "He does not like"
+            }
+        }
+    },
+    {
+        "id": "wo-e30-B",
+        "moduleId": "word-order",
+        "difficulty": "easy",
+        "questionText": "Arrange: him / tell / the / truth",
+        "type": "scramble",
+        "options": [
+            "Tell him the truth",
+            "Tell the truth him",
+            "Him tell the truth"
+        ],
+        "correctAnswer": "Tell him the truth",
+        "feedback": "Correct! Verb + Indirect Object + Direct Object.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Double Object",
+        "frenchComparison": {
+            "frenchStructure": "Dis-lui la vérité",
+            "englishStructure": "Tell him the truth",
+            "whyDifficult": "Pronoun order.",
+            "visualHighlighting": {
+                "incorrect": "Tell the truth him",
+                "correct": "Tell him the truth"
+            }
+        }
+    },
+    {
+        "id": "wo-m21-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: ball / red / big / a",
+        "type": "scramble",
+        "options": [
+            "a big red ball",
+            "a red big ball",
+            "a ball big red"
+        ],
+        "correctAnswer": "a big red ball",
+        "feedback": "Correct! Size (big) comes before Color (red).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adjective Order (Size-Color)",
+        "frenchComparison": {
+            "frenchStructure": "Une grosse balle rouge",
+            "englishStructure": "A big red ball",
+            "whyDifficult": "Adjective order rules (OSASCOMP).",
+            "visualHighlighting": {
+                "incorrect": "a red big ball",
+                "correct": "a big red ball"
+            }
+        }
+    },
+    {
+        "id": "wo-m22-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: quickly / runs / he",
+        "type": "scramble",
+        "options": [
+            "He runs quickly",
+            "He quickly runs",
+            "Quickly he runs"
+        ],
+        "correctAnswer": "He runs quickly",
+        "feedback": "Correct! Adverbs of manner usually go after the verb.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adverb of Manner",
+        "frenchComparison": {
+            "frenchStructure": "Il court vite",
+            "englishStructure": "He runs quickly",
+            "whyDifficult": "Adverb placement.",
+            "visualHighlighting": {
+                "incorrect": "He quickly runs",
+                "correct": "He runs quickly"
+            }
+        }
+    },
+    {
+        "id": "wo-m23-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: gift / him / gave / she / a",
+        "type": "scramble",
+        "options": [
+            "She gave him a gift",
+            "She gave a gift him",
+            "She him gave a gift"
+        ],
+        "correctAnswer": "She gave him a gift",
+        "feedback": "Correct! Verb + Indirect Object + Direct Object.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Indirect Object",
+        "frenchComparison": {
+            "frenchStructure": "Elle lui a donné un cadeau",
+            "englishStructure": "She gave him a gift",
+            "whyDifficult": "Pronoun position.",
+            "visualHighlighting": {
+                "incorrect": "She gave a gift him",
+                "correct": "She gave him a gift"
+            }
+        }
+    },
+    {
+        "id": "wo-m24-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: live / where / you / do",
+        "type": "scramble",
+        "options": [
+            "Where do you live",
+            "Where you live",
+            "Where live you"
+        ],
+        "correctAnswer": "Where do you live",
+        "feedback": "Correct! Wh-word + Auxiliary + Subject + Verb.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Wh- Questions",
+        "frenchComparison": {
+            "frenchStructure": "Où habites-tu ?",
+            "englishStructure": "Where do you live?",
+            "whyDifficult": "Do support in questions.",
+            "visualHighlighting": {
+                "incorrect": "Where you live",
+                "correct": "Where do you live"
+            }
+        }
+    },
+    {
+        "id": "wo-m25-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: on / it / turn",
+        "type": "scramble",
+        "options": [
+            "Turn it on",
+            "Turn on it",
+            "It turn on"
+        ],
+        "correctAnswer": "Turn it on",
+        "feedback": "Correct! With pronouns, the particle goes after the object.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Phrasal Verbs",
+        "frenchComparison": {
+            "frenchStructure": "Allume-le",
+            "englishStructure": "Turn it on",
+            "whyDifficult": "Phrasal verb separability with pronouns.",
+            "visualHighlighting": {
+                "incorrect": "Turn on it",
+                "correct": "Turn it on"
+            }
+        }
+    },
+    {
+        "id": "wo-m26-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: tall / is / enough / he",
+        "type": "scramble",
+        "options": [
+            "He is tall enough",
+            "He is enough tall",
+            "He enough is tall"
+        ],
+        "correctAnswer": "He is tall enough",
+        "feedback": "Correct! 'Enough' goes AFTER the adjective.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Enough",
+        "frenchComparison": {
+            "frenchStructure": "Il est assez grand",
+            "englishStructure": "He is tall enough",
+            "whyDifficult": "French 'assez' goes before. English 'enough' goes after adjectives.",
+            "visualHighlighting": {
+                "incorrect": "enough tall",
+                "correct": "tall enough"
+            }
+        }
+    },
+    {
+        "id": "wo-m27-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: hot / too / is / it",
+        "type": "scramble",
+        "options": [
+            "It is too hot",
+            "It is hot too",
+            "Too hot is it"
+        ],
+        "correctAnswer": "It is too hot",
+        "feedback": "Correct! 'Too' goes BEFORE the adjective.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Too",
+        "frenchComparison": {
+            "frenchStructure": "Il fait trop chaud",
+            "englishStructure": "It is too hot",
+            "whyDifficult": "Similar structure.",
+            "visualHighlighting": {
+                "incorrect": "hot too",
+                "correct": "too hot"
+            }
+        }
+    },
+    {
+        "id": "wo-m28-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: yesterday / there / went / I",
+        "type": "scramble",
+        "options": [
+            "I went there yesterday",
+            "I went yesterday there",
+            "Yesterday there I went"
+        ],
+        "correctAnswer": "I went there yesterday",
+        "feedback": "Correct! Place (there) before Time (yesterday).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Place before Time",
+        "frenchComparison": {
+            "frenchStructure": "J'y suis allé hier",
+            "englishStructure": "I went there yesterday",
+            "whyDifficult": "Order of adverbs (Place before Time).",
+            "visualHighlighting": {
+                "incorrect": "yesterday there",
+                "correct": "there yesterday"
+            }
+        }
+    },
+    {
+        "id": "wo-m29-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: finished / haven't / yet / I",
+        "type": "scramble",
+        "options": [
+            "I haven't finished yet",
+            "I haven't yet finished",
+            "Yet I haven't finished"
+        ],
+        "correctAnswer": "I haven't finished yet",
+        "feedback": "Correct! 'Yet' usually goes at the end of negative sentences.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Yet",
+        "frenchComparison": {
+            "frenchStructure": "Je n'ai pas encore fini",
+            "englishStructure": "I haven't finished yet",
+            "whyDifficult": "Placement of 'yet'.",
+            "visualHighlighting": {
+                "incorrect": "haven't yet finished",
+                "correct": "haven't finished yet"
+            }
+        }
+    },
+    {
+        "id": "wo-m30-A",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: is / where / he / know / I",
+        "type": "scramble",
+        "options": [
+            "I know where he is",
+            "I know where is he",
+            "Where he is I know"
+        ],
+        "correctAnswer": "I know where he is",
+        "feedback": "Correct! Embedded question uses statement order (Subject + Verb).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Embedded Questions",
+        "frenchComparison": {
+            "frenchStructure": "Je sais où il est",
+            "englishStructure": "I know where he is",
+            "whyDifficult": "No inversion in embedded questions.",
+            "visualHighlighting": {
+                "incorrect": "where is he",
+                "correct": "where he is"
+            }
+        }
+    },
+    {
+        "id": "wo-m21-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: table / wooden / old / an",
+        "type": "scramble",
+        "options": [
+            "an old wooden table",
+            "a wooden old table",
+            "an old table wooden"
+        ],
+        "correctAnswer": "an old wooden table",
+        "feedback": "Correct! Age (old) before Material (wooden).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adjective Order",
+        "frenchComparison": {
+            "frenchStructure": "Une vieille table en bois",
+            "englishStructure": "An old wooden table",
+            "whyDifficult": "Adjective order.",
+            "visualHighlighting": {
+                "incorrect": "wooden old",
+                "correct": "old wooden"
+            }
+        }
+    },
+    {
+        "id": "wo-m22-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: well / speaks / she / English",
+        "type": "scramble",
+        "options": [
+            "She speaks English well",
+            "She speaks well English",
+            "Well she speaks English"
+        ],
+        "correctAnswer": "She speaks English well",
+        "feedback": "Correct! Adverb of manner goes after the object.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Adverb of Manner",
+        "frenchComparison": {
+            "frenchStructure": "Elle parle bien anglais",
+            "englishStructure": "She speaks English well",
+            "whyDifficult": "French places adverb between verb and object. English does not.",
+            "visualHighlighting": {
+                "incorrect": "speaks well English",
+                "correct": "speaks English well"
+            }
+        }
+    },
+    {
+        "id": "wo-m23-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: sent / letter / a / me / he",
+        "type": "scramble",
+        "options": [
+            "He sent me a letter",
+            "He sent a letter me",
+            "He me sent a letter"
+        ],
+        "correctAnswer": "He sent me a letter",
+        "feedback": "Correct! Verb + Indirect + Direct.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Indirect Object",
+        "frenchComparison": {
+            "frenchStructure": "Il m'a envoyé une lettre",
+            "englishStructure": "He sent me a letter",
+            "whyDifficult": "Pronoun position.",
+            "visualHighlighting": {
+                "incorrect": "sent a letter me",
+                "correct": "sent me a letter"
+            }
+        }
+    },
+    {
+        "id": "wo-m24-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: want / what / you / do",
+        "type": "scramble",
+        "options": [
+            "What do you want",
+            "What you want",
+            "What want you"
+        ],
+        "correctAnswer": "What do you want",
+        "feedback": "Correct! Wh- + Do + Subject + Verb.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Wh- Questions",
+        "frenchComparison": {
+            "frenchStructure": "Qu'est-ce que tu veux ?",
+            "englishStructure": "What do you want?",
+            "whyDifficult": "Do support.",
+            "visualHighlighting": {
+                "incorrect": "What you want",
+                "correct": "What do you want"
+            }
+        }
+    },
+    {
+        "id": "wo-m25-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: off / take / it",
+        "type": "scramble",
+        "options": [
+            "Take it off",
+            "Take off it",
+            "It take off"
+        ],
+        "correctAnswer": "Take it off",
+        "feedback": "Correct! Pronoun object goes between verb and particle.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Phrasal Verbs",
+        "frenchComparison": {
+            "frenchStructure": "Enlève-le",
+            "englishStructure": "Take it off",
+            "whyDifficult": "Separable phrasal verbs.",
+            "visualHighlighting": {
+                "incorrect": "Take off it",
+                "correct": "Take it off"
+            }
+        }
+    },
+    {
+        "id": "wo-m26-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: old / enough / not / is / he",
+        "type": "scramble",
+        "options": [
+            "He is not old enough",
+            "He is not enough old",
+            "He not is old enough"
+        ],
+        "correctAnswer": "He is not old enough",
+        "feedback": "Correct! 'Enough' after adjective.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Enough",
+        "frenchComparison": {
+            "frenchStructure": "Il n'est pas assez vieux",
+            "englishStructure": "He is not old enough",
+            "whyDifficult": "Position of 'enough'.",
+            "visualHighlighting": {
+                "incorrect": "enough old",
+                "correct": "old enough"
+            }
+        }
+    },
+    {
+        "id": "wo-m27-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: expensive / too / is / it",
+        "type": "scramble",
+        "options": [
+            "It is too expensive",
+            "It is expensive too",
+            "Too expensive is it"
+        ],
+        "correctAnswer": "It is too expensive",
+        "feedback": "Correct! 'Too' before adjective.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Too",
+        "frenchComparison": {
+            "frenchStructure": "C'est trop cher",
+            "englishStructure": "It is too expensive",
+            "whyDifficult": "Basic structure.",
+            "visualHighlighting": {
+                "incorrect": "expensive too",
+                "correct": "too expensive"
+            }
+        }
+    },
+    {
+        "id": "wo-m28-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: to school / walked / yesterday / we",
+        "type": "scramble",
+        "options": [
+            "We walked to school yesterday",
+            "We walked yesterday to school",
+            "Yesterday to school we walked"
+        ],
+        "correctAnswer": "We walked to school yesterday",
+        "feedback": "Correct! Place (to school) before Time (yesterday).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Place before Time",
+        "frenchComparison": {
+            "frenchStructure": "Nous avons marché à l'école hier",
+            "englishStructure": "We walked to school yesterday",
+            "whyDifficult": "Adverb order.",
+            "visualHighlighting": {
+                "incorrect": "yesterday to school",
+                "correct": "to school yesterday"
+            }
+        }
+    },
+    {
+        "id": "wo-m29-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: still / waiting / am / I",
+        "type": "scramble",
+        "options": [
+            "I am still waiting",
+            "I still am waiting",
+            "Still I am waiting"
+        ],
+        "correctAnswer": "I am still waiting",
+        "feedback": "Correct! 'Still' goes after 'be'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Still",
+        "frenchComparison": {
+            "frenchStructure": "J'attends toujours",
+            "englishStructure": "I am still waiting",
+            "whyDifficult": "Adverb placement with 'be'.",
+            "visualHighlighting": {
+                "incorrect": "I still am",
+                "correct": "I am still"
+            }
+        }
+    },
+    {
+        "id": "wo-m30-B",
+        "moduleId": "word-order",
+        "difficulty": "medium",
+        "questionText": "Arrange: time / is / what / it / wonder / I",
+        "type": "scramble",
+        "options": [
+            "I wonder what time it is",
+            "I wonder what time is it",
+            "What time is it I wonder"
+        ],
+        "correctAnswer": "I wonder what time it is",
+        "feedback": "Correct! Embedded question order.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Embedded Questions",
+        "frenchComparison": {
+            "frenchStructure": "Je me demande quelle heure il est",
+            "englishStructure": "I wonder what time it is",
+            "whyDifficult": "No inversion.",
+            "visualHighlighting": {
+                "incorrect": "what time is it",
+                "correct": "what time it is"
+            }
+        }
+    },
+    {
+        "id": "wo-h21-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: table / wooden / beautiful / old / a",
+        "type": "scramble",
+        "options": [
+            "a beautiful old wooden table",
+            "a wooden old beautiful table",
+            "an old beautiful wooden table"
+        ],
+        "correctAnswer": "a beautiful old wooden table",
+        "feedback": "Correct! Opinion (beautiful) -> Age (old) -> Material (wooden).",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Complex Adjective Order",
+        "frenchComparison": {
+            "frenchStructure": "Une belle vieille table en bois",
+            "englishStructure": "A beautiful old wooden table",
+            "whyDifficult": "Strict adjective order in English.",
+            "visualHighlighting": {
+                "incorrect": "wooden old beautiful",
+                "correct": "beautiful old wooden"
+            }
+        }
+    },
+    {
+        "id": "wo-h22-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: see / I / rarely / do / him",
+        "type": "scramble",
+        "options": [
+            "Rarely do I see him",
+            "Rarely I see him",
+            "I see rarely him"
+        ],
+        "correctAnswer": "Rarely do I see him",
+        "feedback": "Correct! Negative inversion: Adverb + Auxiliary + Subject.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Negative Inversion",
+        "frenchComparison": {
+            "frenchStructure": "Je le vois rarement",
+            "englishStructure": "Rarely do I see him",
+            "whyDifficult": "Inversion after negative adverb.",
+            "visualHighlighting": {
+                "incorrect": "Rarely I see",
+                "correct": "Rarely do I see"
+            }
+        }
+    },
+    {
+        "id": "wo-h23-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: is / time / what / me / tell / could / you / it",
+        "type": "scramble",
+        "options": [
+            "Could you tell me what time it is",
+            "Could you tell me what time is it",
+            "What time is it could you tell me"
+        ],
+        "correctAnswer": "Could you tell me what time it is",
+        "feedback": "Correct! Indirect question uses statement order.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Indirect Questions",
+        "frenchComparison": {
+            "frenchStructure": "Pourriez-vous me dire quelle heure il est ?",
+            "englishStructure": "Could you tell me what time it is?",
+            "whyDifficult": "No inversion in the second part.",
+            "visualHighlighting": {
+                "incorrect": "what time is it",
+                "correct": "what time it is"
+            }
+        }
+    },
+    {
+        "id": "wo-h24-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: John / was / called / who / it",
+        "type": "scramble",
+        "options": [
+            "It was John who called",
+            "John it was who called",
+            "Who called was John"
+        ],
+        "correctAnswer": "It was John who called",
+        "feedback": "Correct! Cleft sentence structure.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Cleft Sentences",
+        "frenchComparison": {
+            "frenchStructure": "C'est John qui a appelé",
+            "englishStructure": "It was John who called",
+            "whyDifficult": "Emphasis structure.",
+            "visualHighlighting": {
+                "incorrect": "John it was",
+                "correct": "It was John"
+            }
+        }
+    },
+    {
+        "id": "wo-h25-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: street / the / walking / down / him / saw / I",
+        "type": "scramble",
+        "options": [
+            "Walking down the street I saw him",
+            "I saw him walking down the street",
+            "Both are correct"
+        ],
+        "correctAnswer": "Both are correct",
+        "feedback": "Correct! Participle clause can go at the beginning or end.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Participle Clause Position",
+        "frenchComparison": {
+            "frenchStructure": "En marchant dans la rue...",
+            "englishStructure": "Walking down the street...",
+            "whyDifficult": "Flexibility of participle clauses.",
+            "visualHighlighting": {
+                "incorrect": "Saw I him",
+                "correct": "I saw him"
+            }
+        }
+    },
+    {
+        "id": "wo-h26-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: won / surprisingly / he",
+        "type": "scramble",
+        "options": [
+            "Surprisingly he won",
+            "He won surprisingly",
+            "He surprisingly won"
+        ],
+        "correctAnswer": "Surprisingly he won",
+        "feedback": "Correct! Comment adverbs often go at the start.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Comment Adverbs",
+        "frenchComparison": {
+            "frenchStructure": "Étonnamment, il a gagné",
+            "englishStructure": "Surprisingly, he won",
+            "whyDifficult": "Adverb placement.",
+            "visualHighlighting": {
+                "incorrect": "He won surprisingly",
+                "correct": "Surprisingly he won"
+            }
+        }
+    },
+    {
+        "id": "wo-h27-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: bus / comes / the / here",
+        "type": "scramble",
+        "options": [
+            "Here comes the bus",
+            "Here the bus comes",
+            "The bus comes here"
+        ],
+        "correctAnswer": "Here comes the bus",
+        "feedback": "Correct! Fronting with 'Here' causes inversion with noun subject.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Fronting",
+        "frenchComparison": {
+            "frenchStructure": "Voici le bus",
+            "englishStructure": "Here comes the bus",
+            "whyDifficult": "Inversion after 'Here'.",
+            "visualHighlighting": {
+                "incorrect": "Here the bus comes",
+                "correct": "Here comes the bus"
+            }
+        }
+    },
+    {
+        "id": "wo-h28-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: win / did / only / he / not / but / record / a / broke / also / he",
+        "type": "scramble",
+        "options": [
+            "Not only did he win but he also broke a record",
+            "He not only won but broke a record",
+            "Not only he won but he also broke a record"
+        ],
+        "correctAnswer": "Not only did he win but he also broke a record",
+        "feedback": "Correct! 'Not only' at the start requires inversion.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Not only... but also",
+        "frenchComparison": {
+            "frenchStructure": "Non seulement il a gagné...",
+            "englishStructure": "Not only did he win...",
+            "whyDifficult": "Inversion required.",
+            "visualHighlighting": {
+                "incorrect": "Not only he won",
+                "correct": "Not only did he win"
+            }
+        }
+    },
+    {
+        "id": "wo-h29-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: movie / good / a / such / was / it",
+        "type": "scramble",
+        "options": [
+            "It was such a good movie",
+            "It was a such good movie",
+            "Such a good movie was it"
+        ],
+        "correctAnswer": "It was such a good movie",
+        "feedback": "Correct! Such + a/an + Adjective + Noun.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Such",
+        "frenchComparison": {
+            "frenchStructure": "C'était un si bon film",
+            "englishStructure": "It was such a good movie",
+            "whyDifficult": "Word order with 'such'.",
+            "visualHighlighting": {
+                "incorrect": "a such good movie",
+                "correct": "such a good movie"
+            }
+        }
+    },
+    {
+        "id": "wo-h30-A",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: rich / be / to / said / is / he",
+        "type": "scramble",
+        "options": [
+            "He is said to be rich",
+            "He is said be rich",
+            "It is said he to be rich"
+        ],
+        "correctAnswer": "He is said to be rich",
+        "feedback": "Correct! Passive reporting structure.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Reporting",
+        "frenchComparison": {
+            "frenchStructure": "On dit qu'il est riche",
+            "englishStructure": "He is said to be rich",
+            "whyDifficult": "Personal passive structure.",
+            "visualHighlighting": {
+                "incorrect": "He is said be",
+                "correct": "He is said to be"
+            }
+        }
+    },
+    {
+        "id": "wo-h21-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: vase / glass / blue / small / a",
+        "type": "scramble",
+        "options": [
+            "a small blue glass vase",
+            "a blue small glass vase",
+            "a glass small blue vase"
+        ],
+        "correctAnswer": "a small blue glass vase",
+        "feedback": "Correct! Size (small) -> Color (blue) -> Material (glass).",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Complex Adjective Order",
+        "frenchComparison": {
+            "frenchStructure": "Un petit vase bleu en verre",
+            "englishStructure": "A small blue glass vase",
+            "whyDifficult": "Adjective order.",
+            "visualHighlighting": {
+                "incorrect": "blue small",
+                "correct": "small blue"
+            }
+        }
+    },
+    {
+        "id": "wo-h22-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: have / never / been / I / there",
+        "type": "scramble",
+        "options": [
+            "Never have I been there",
+            "I have never been there",
+            "Both are correct"
+        ],
+        "correctAnswer": "Both are correct",
+        "feedback": "Correct! 'I have never...' is standard. 'Never have I...' is emphatic inversion.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Negative Inversion",
+        "frenchComparison": {
+            "frenchStructure": "Je n'y suis jamais allé",
+            "englishStructure": "Never have I been there",
+            "whyDifficult": "Inversion for emphasis.",
+            "visualHighlighting": {
+                "incorrect": "Never I have been",
+                "correct": "Never have I been"
+            }
+        }
+    },
+    {
+        "id": "wo-h23-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: know / you / do / who / is / she",
+        "type": "scramble",
+        "options": [
+            "Do you know who she is",
+            "Do you know who is she",
+            "Who is she do you know"
+        ],
+        "correctAnswer": "Do you know who she is",
+        "feedback": "Correct! Indirect question.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Indirect Questions",
+        "frenchComparison": {
+            "frenchStructure": "Sais-tu qui elle est ?",
+            "englishStructure": "Do you know who she is?",
+            "whyDifficult": "No inversion.",
+            "visualHighlighting": {
+                "incorrect": "who is she",
+                "correct": "who she is"
+            }
+        }
+    },
+    {
+        "id": "wo-h24-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: money / that / the / is / it / matters",
+        "type": "scramble",
+        "options": [
+            "It is the money that matters",
+            "The money it is that matters",
+            "That matters is the money"
+        ],
+        "correctAnswer": "It is the money that matters",
+        "feedback": "Correct! Cleft sentence.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Cleft Sentences",
+        "frenchComparison": {
+            "frenchStructure": "C'est l'argent qui compte",
+            "englishStructure": "It is the money that matters",
+            "whyDifficult": "Emphasis.",
+            "visualHighlighting": {
+                "incorrect": "The money it is",
+                "correct": "It is the money"
+            }
+        }
+    },
+    {
+        "id": "wo-h25-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: tired / being / bed / to / went / he",
+        "type": "scramble",
+        "options": [
+            "Being tired he went to bed",
+            "He went to bed being tired",
+            "Both are correct"
+        ],
+        "correctAnswer": "Being tired he went to bed",
+        "feedback": "Correct! Participle clause of reason.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Participle Clauses",
+        "frenchComparison": {
+            "frenchStructure": "Étant fatigué...",
+            "englishStructure": "Being tired...",
+            "whyDifficult": "Participle clause.",
+            "visualHighlighting": {
+                "incorrect": "He being tired",
+                "correct": "Being tired he"
+            }
+        }
+    },
+    {
+        "id": "wo-h26-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: frankly / care / don't / I",
+        "type": "scramble",
+        "options": [
+            "Frankly I don't care",
+            "I don't care frankly",
+            "I frankly don't care"
+        ],
+        "correctAnswer": "Frankly I don't care",
+        "feedback": "Correct! Comment adverb at the start.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Comment Adverbs",
+        "frenchComparison": {
+            "frenchStructure": "Franchement, je m'en fiche",
+            "englishStructure": "Frankly I don't care",
+            "whyDifficult": "Adverb placement.",
+            "visualHighlighting": {
+                "incorrect": "I don't care frankly",
+                "correct": "Frankly I don't care"
+            }
+        }
+    },
+    {
+        "id": "wo-h27-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: goes / there / bus / the",
+        "type": "scramble",
+        "options": [
+            "There goes the bus",
+            "There the bus goes",
+            "The bus goes there"
+        ],
+        "correctAnswer": "There goes the bus",
+        "feedback": "Correct! Fronting with 'There'.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Fronting",
+        "frenchComparison": {
+            "frenchStructure": "Voilà le bus",
+            "englishStructure": "There goes the bus",
+            "whyDifficult": "Inversion.",
+            "visualHighlighting": {
+                "incorrect": "There the bus goes",
+                "correct": "There goes the bus"
+            }
+        }
+    },
+    {
+        "id": "wo-h28-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: no / under / circumstances / open / should / you / door / the",
+        "type": "scramble",
+        "options": [
+            "Under no circumstances should you open the door",
+            "You should open the door under no circumstances",
+            "Under no circumstances you should open the door"
+        ],
+        "correctAnswer": "Under no circumstances should you open the door",
+        "feedback": "Correct! Negative inversion phrase.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Negative Inversion",
+        "frenchComparison": {
+            "frenchStructure": "En aucun cas tu ne dois...",
+            "englishStructure": "Under no circumstances should you...",
+            "whyDifficult": "Inversion required.",
+            "visualHighlighting": {
+                "incorrect": "you should",
+                "correct": "should you"
+            }
+        }
+    },
+    {
+        "id": "wo-h29-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: so / was / it / cold",
+        "type": "scramble",
+        "options": [
+            "It was so cold",
+            "So cold it was",
+            "It was cold so"
+        ],
+        "correctAnswer": "It was so cold",
+        "feedback": "Correct! So + Adjective.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "So",
+        "frenchComparison": {
+            "frenchStructure": "Il faisait si froid",
+            "englishStructure": "It was so cold",
+            "whyDifficult": "Basic structure.",
+            "visualHighlighting": {
+                "incorrect": "so cold it was",
+                "correct": "it was so cold"
+            }
+        }
+    },
+    {
+        "id": "wo-h30-B",
+        "moduleId": "word-order",
+        "difficulty": "hard",
+        "questionText": "Arrange: believed / to / be / is / he / innocent",
+        "type": "scramble",
+        "options": [
+            "He is believed to be innocent",
+            "He is believed be innocent",
+            "It is believed he is innocent"
+        ],
+        "correctAnswer": "He is believed to be innocent",
+        "feedback": "Correct! Passive reporting.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Reporting",
+        "frenchComparison": {
+            "frenchStructure": "On croit qu'il est innocent",
+            "englishStructure": "He is believed to be innocent",
+            "whyDifficult": "Passive structure.",
+            "visualHighlighting": {
+                "incorrect": "believed be",
+                "correct": "believed to be"
+            }
+        }
+    }
+]

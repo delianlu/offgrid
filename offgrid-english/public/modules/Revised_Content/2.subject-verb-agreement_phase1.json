@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Subject-Verb Agreement module! This is the secret to sounding 'correct' and educated in English.",
+    "theProblem": "In French, you often don't *hear* the difference between singular and plural verbs (e.g., \"il mange\" and \"ils mangent\" sound exactly the same). In English, the difference is heard clearly because of the letter 's'. Also, words like \"People\", \"Police\", and \"News\" follow opposite rules in English compared to French.",
+    "thePromise": "By the end of this lesson, you will master the 'S-rule' and know exactly which 'tricky words' are singular or plural, so you never make a basic agreement mistake again."
+  },
+  "contrastiveExplanation": "### Concept 1: The \"S\" Paradox\n\n**The Rule:**\nIn the Present Simple, the verb needs an **'s'** ONLY if the subject is **He, She, or It** (Singular).\n* One boy **plays**.\n* Two boys **play**.\n\n**The French Trap:**\nIn French, 's' usually marks the *plural* (les chiens). In English verbs, 's' marks the *singular* (the dog eats). Also, French speakers are used to silent endings (\"je chante\" / \"tu chantes\"), so they forget to pronounce the English 's'.\n\n**The Fix:**\nUse the **See-Saw Rule**: If the Subject has an 'S' (plural), the Verb has no 'S'. If the Subject has no 'S' (singular), the Verb needs an 'S'. (Note: This applies to regular nouns).\n\n**Visual Metaphor:**\nThink of the 'S' as a weight on a **Balance Scale** ⚖️. You can't have the 'S' on both sides. \n* **Subject(s)** ... **Verb** ✅\n* **Subject** ... **Verb(s)** ✅\n\n**Examples:**\n* 🇫🇷 *Mon frère travaille.* \n    * ❌ My brother work.\n    * ✅ My brother **works**.\n* 🇫🇷 *Mes sœurs travaillent.* (Same sound in French)\n    * ❌ My sisters works.\n    * ✅ My sisters **work**.\n\n---\n\n### Concept 2: The \"People\" vs. \"Everyone\" Trap\n\n**The Rule:**\n* **People** = Plural (Think \"They\"). Always use *are, have, do*.\n* **Everyone / Everybody** = Singular (Think \"He/She\"). Always use *is, has, does*.\n\n**The French Trap:**\n* \"Les gens\" is plural ➡️ \"People\" (Correct, but often misused as singular).\n* \"Tout le monde\" is singular (grammatically) ➡️ \"Everyone\".\n* The confusion comes because \"Tout le monde\" implies a large group, so students want to use \"are\".\n\n**The Fix:**\n* **People** has no 's', but it is **PLURAL**. (People are).\n* **Everyone** implies many people, but grammatically it counts them **ONE BY ONE**. (Everyone is).\n\n**Examples:**\n* 🇫🇷 *Les gens sont gentils.* \n    * ❌ The people is nice.\n    * ✅ The people **are** nice.\n* 🇫🇷 *Tout le monde est ici.* \n    * ❌ Everyone are here.\n    * ✅ Everyone **is** here.\n\n---\n\n### Concept 3: False Friends (Police & News)\n\n**The Rule:**\n* **The Police** = Plural (They). \n* **The News** = Singular (It).\n\n**The French Trap:**\n* French says \"La police\" (Singular) ➡️ English says \"The police are\" (Plural).\n* French says \"Les nouvelles\" (Plural) ➡️ English says \"The news is\" (Singular).\n\n**The Fix:**\nMemorize these two exceptions specifically. The police are a group of officers. The news is a block of information.\n\n**Examples:**\n* 🇫🇷 *La police arrive.* \n    * ❌ The police is coming.\n    * ✅ The police **are** coming.\n* 🇫🇷 *Les nouvelles sont mauvaises.* \n    * ❌ The news are bad.\n    * ✅ The news **is** bad.",
+  "commonErrors": [
+    {
+      "subTopic": "Third Person Singular",
+      "wrong": "My father work in a bank.",
+      "correct": "My father works in a bank.",
+      "frenchConnection": "In French, \"travailler\" sounds the same for \"je\" and \"il\" (travaille). English requires the audible 's' sound for he/she/it."
+    },
+    {
+      "subTopic": "The word 'People'",
+      "wrong": "The people in Cameroon is very friendly.",
+      "correct": "The people in Cameroon are very friendly.",
+      "frenchConnection": "Translating the singular look of the word. 'People' corresponds to 'les gens' (plural), so it must take 'are'."
+    },
+    {
+      "subTopic": "The word 'Everyone'",
+      "wrong": "Everyone have a phone today.",
+      "correct": "Everyone has a phone today.",
+      "frenchConnection": "Logical error based on \"Tout le monde\" (meaning many people). In English, 'Everyone' is treated as a single unit (singular)."
+    },
+    {
+      "subTopic": "The word 'Police'",
+      "wrong": "The police is investigating.",
+      "correct": "The police are investigating.",
+      "frenchConnection": "Direct translation of \"La police\" (singular feminine). In English, 'Police' is a collective plural noun (like 'they')."
+    },
+    {
+      "subTopic": "The word 'News'",
+      "wrong": "The news are good.",
+      "correct": "The news is good.",
+      "frenchConnection": "Direct translation of \"Les nouvelles\" (plural). In English, 'News' is an uncountable singular noun."
+    },
+    {
+      "subTopic": "Intervening Phrases (Distance)",
+      "wrong": "The box of chocolates are empty.",
+      "correct": "The box of chocolates is empty.",
+      "frenchConnection": "Proximity error. The ear hears \"chocolates\" (plural) and wants to put \"are\". You must agree with the main subject: \"The box\" (singular)."
+    }
+  ]
+}

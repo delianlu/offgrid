@@ -4,6 +4,7 @@ import { db } from '../db/database';
 import type { Module, CommonError } from '../types/schemas';
 import { Header } from '../components/common/Header';
 import { Button } from '../components/common/Button';
+import { AudioButton } from '../components/common/AudioButton';
 import { APP_VERSION } from '../App';
 
 export function ModuleLearning() {
@@ -11,6 +12,7 @@ export function ModuleLearning() {
   const navigate = useNavigate();
   const [module, setModule] = useState<Module | null>(null);
   const [errors, setErrors] = useState<CommonError[]>([]);
+  const [hasProgress, setHasProgress] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -37,6 +39,13 @@ export function ModuleLearning() {
         } else {
           console.error(`Module not found: ${moduleId}`);
         }
+
+        // Check progress
+        const { calculateModuleProgress } = await import('../services/progressTracking');
+        const progress = await calculateModuleProgress(moduleId);
+        if (progress && progress.overallCompletion > 0) {
+          setHasProgress(true);
+        }
       } catch (error) {
         console.error('Error loading module:', error);
       }
@@ -45,7 +54,7 @@ export function ModuleLearning() {
 
   if (!module) {
     return (
-      <div className="min-h-screen bg-amber-50 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce-gentle">📚</div>
           <p className="text-lg text-gray-700 font-medium">Loading module...</p>
@@ -59,7 +68,7 @@ export function ModuleLearning() {
   }
 
   return (
-    <div className="min-h-screen bg-amber-50 flex flex-col">
+    <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
       <Header title={module.name} />
 
@@ -67,17 +76,27 @@ export function ModuleLearning() {
       <main className="flex-1 max-w-5xl mx-auto" style={{ paddingLeft: '80px', paddingRight: '80px', paddingTop: '24px', paddingBottom: '80px', width: 'calc(100% - 160px)' }}>
         {/* Phase Badge */}
         <div className="mb-6">
-          <span className="inline-block bg-orange-100 text-orange-800 text-sm font-bold px-4 py-2 rounded-full shadow-sm">
+          <span className="inline-block bg-blue-100 text-blue-800 text-sm font-bold px-4 py-2 rounded-full shadow-sm">
             📖 Phase 1: LEARN
           </span>
         </div>
 
-        {/* Module Title */}
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            {module.name}
-          </h1>
-          <div className="h-1 w-24 bg-orange-500 rounded-full"></div>
+        {/* Module Title & Action */}
+        <div className="mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">
+              {module.name}
+            </h1>
+            <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+          </div>
+
+          <Button
+            variant="primary"
+            onClick={startPractice}
+            className="shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all"
+          >
+            {hasProgress ? 'Continue Practice 🚀' : 'Start Practice 🚀'}
+          </Button>
         </div>
 
         {/* Module Introduction */}
@@ -88,14 +107,46 @@ export function ModuleLearning() {
               <h2 className="text-2xl font-bold text-gray-900">Welcome!</h2>
             </div>
             <div className="prose prose-sm max-w-none">
-              {module.moduleIntroduction.split('\n\n').map((para, idx) => (
-                <p key={idx} className="text-gray-700 leading-relaxed mb-3 ml-1">
-                  {para}
-                </p>
-              ))}
+              {typeof module.moduleIntroduction === 'string' ? (
+                module.moduleIntroduction.split('\n\n').map((para, idx) => (
+                  <p key={idx} className="text-gray-700 leading-relaxed mb-3 ml-1">
+                    {para}
+                  </p>
+                ))
+              ) : (
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Welcome</h3>
+                    <p className="text-gray-700 leading-relaxed">{module.moduleIntroduction.welcome}</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">The Problem</h3>
+                    <p className="text-gray-700 leading-relaxed">{module.moduleIntroduction.theProblem}</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">The Promise</h3>
+                    <p className="text-gray-700 leading-relaxed">{module.moduleIntroduction.thePromise}</p>
+                  </div>
+                </div>
+              )}
             </div>
           </section>
         )}
+
+        {/* Cultural Context Highlight */}
+        <section className="bg-amber-50 border-l-4 border-amber-500 rounded-2xl shadow-sm p-6 mb-6">
+          <div className="flex items-start gap-3">
+            <div className="text-3xl">🇨🇲</div>
+            <div>
+              <h2 className="text-xl font-bold text-amber-900 mb-2">
+                Context for Cameroon
+              </h2>
+              <p className="text-amber-800 leading-relaxed">
+                This module uses examples from daily life in Cameroon, including market scenes, family gatherings, and school situations. We've designed these scenarios to help you practice English in situations you encounter every day.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Contrastive Explanation */}
         {module.contrastiveExplanation && (
@@ -133,14 +184,14 @@ export function ModuleLearning() {
               {errors.map((error) => (
                 <div
                   key={error.number}
-                  className="border-l-4 border-orange-500 bg-orange-50 rounded-lg p-4"
+                  className="border-l-4 border-purple-500 bg-purple-50 rounded-lg p-4"
                 >
                   {/* Error Number and Topic */}
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded">
+                    <span className="bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded">
                       #{error.number}
                     </span>
-                    <span className="text-xs font-semibold text-orange-800">
+                    <span className="text-xs font-semibold text-purple-800">
                       {error.subTopic}
                     </span>
                   </div>
@@ -158,9 +209,13 @@ export function ModuleLearning() {
                     {/* Correct */}
                     <div className="bg-green-50 border-2 border-green-200 rounded-lg p-3">
                       <p className="text-xs font-bold text-green-700 mb-2">✓ Correct:</p>
-                      <p className="text-sm text-gray-900 font-medium">
-                        {error.correct}
-                      </p>
+                      <div className="flex items-start gap-2">
+                        <p className="text-sm text-gray-900 font-medium flex-1">
+                          {error.correct}
+                        </p>
+                        {/* Audio Button for All Modules */}
+                        <AudioButton text={error.correct} size="sm" />
+                      </div>
                     </div>
                   </div>
 
@@ -180,7 +235,7 @@ export function ModuleLearning() {
         )}
 
         {/* Ready to Practice */}
-        <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-l-4 border-orange-500 rounded-xl p-6 mb-6 shadow-md">
+        <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-l-4 border-blue-500 rounded-xl p-6 mb-6 shadow-md">
           <div className="flex items-start gap-3">
             <div className="text-4xl">🎯</div>
             <div className="flex-1">

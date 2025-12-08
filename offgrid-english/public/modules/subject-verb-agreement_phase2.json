@@ -1,0 +1,3288 @@
+{
+  "id": "subject-verb-agreement",
+  "name": "Subject-Verb Agreement",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome! This module is about Subject-Verb Agreement. This is the rule that says a verb must 'agree' with its subject in number. If the subject is singular (one), the verb must be singular. If the subject is plural (many), the verb must be plural.\n\nWhy is this difficult? In French, you often hear the difference in the verb ending (parle vs parlent sound similar, but est vs sont sound different). In English, the tricky part is usually the '-s'. For nouns, '-s' means Plural (Boys). But for verbs, '-s' means Singular (He plays). This is the opposite! Also, complex sentences with words like 'everyone', 'team', or 'neither/nor' have special rules that can be confusing. We will master them together!",
+  "contrastiveExplanation": "Let's look at the main differences between French and English agreement.\n\nThe Third Person '-s':\nIn English Present Simple, he/she/it takes an '-s' on the verb. I play, You play, We play... but He plays.\nError: \"My brother like football.\" ❌ -> \"My brother likes football.\" ✅\n\nIntervening Phrases:\nSometimes words come between the subject and the verb. You must ignore them.\nExample: \"The box of chocolates is heavy.\" (The subject is BOX, not chocolates).\nFrench speakers sometimes agree with the closest noun.\n\n'People' and 'Police':\nIn French, 'le monde' is singular. In English, 'people' is plural.\nFrench: \"Les gens sont...\" (Plural) / \"Tout le monde est...\" (Singular).\nEnglish: \"People are...\" (Always plural).\n\n'News' and 'Information':\n'News' ends in 's' but is singular. 'Information' has no 's' and is singular.\nFrench: \"Les nouvelles sont bonnes.\" (Plural).\nEnglish: \"The news is good.\" (Singular).",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Third Person Singular",
+      "wrong": "My father work in a bank.",
+      "correct": "My father works in a bank.",
+      "frenchConnection": "Forgetting the '-s' for he/she/it is the most common error."
+    },
+    {
+      "number": 2,
+      "subTopic": "Irregular Plurals (People)",
+      "wrong": "The people in this room is happy.",
+      "correct": "The people in this room are happy.",
+      "frenchConnection": "'People' translates to 'gens' (plural) but learners often treat it as singular because it looks singular."
+    },
+    {
+      "number": 3,
+      "subTopic": "Exceptions (News)",
+      "wrong": "The news are bad today.",
+      "correct": "The news is bad today.",
+      "frenchConnection": "\"Les nouvelles\" is plural in French. In English, 'news' is an uncountable singular noun."
+    },
+    {
+      "number": 4,
+      "subTopic": "Indefinite Pronouns",
+      "wrong": "Everyone have a pen.",
+      "correct": "Everyone has a pen.",
+      "frenchConnection": "\"Tout le monde\" implies many people, but grammatically it is singular in both languages. English 'Everyone' takes a singular verb."
+    },
+    {
+      "number": 5,
+      "subTopic": "Police",
+      "wrong": "The police is coming.",
+      "correct": "The police are coming.",
+      "frenchConnection": "\"La police\" is singular in French. In English, 'police' is a collective plural noun."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "sva-e01-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My sister ___ to the market every Saturday.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctAnswer": "goes",
+      "feedback": "Correct! 'My sister' is singular (she), so we add '-es' to the verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Ma soeur va...",
+        "englishStructure": "My sister goes...",
+        "whyDifficult": "French verbs change endings for every person. English only changes for he/she/it.",
+        "visualHighlighting": {
+          "incorrect": "My sister go",
+          "correct": "My sister goes"
+        }
+      }
+    },
+    {
+      "id": "sva-e02-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The students ___ in the classroom.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Students' is plural, so we use 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les élèves sont...",
+        "englishStructure": "The students are...",
+        "whyDifficult": "Direct translation works here (sont -> are).",
+        "visualHighlighting": {
+          "incorrect": "The students is",
+          "correct": "The students are"
+        }
+      }
+    },
+    {
+      "id": "sva-e03-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "He ___ not like pepper.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! For he/she/it, we use the auxiliary 'does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliary Do/Does",
+      "frenchComparison": {
+        "frenchStructure": "Il n'aime pas...",
+        "englishStructure": "He does not like...",
+        "whyDifficult": "French uses 'ne...pas'. English requires the auxiliary 'does' for negation.",
+        "visualHighlighting": {
+          "incorrect": "He do not like",
+          "correct": "He does not like"
+        }
+      }
+    },
+    {
+      "id": "sva-e04-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Ngono and Muna ___ good friends.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Ngono and Muna' are two people (they), so the subject is plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Subject (And)",
+      "frenchComparison": {
+        "frenchStructure": "Ngono et Muna sont...",
+        "englishStructure": "Ngono and Muna are...",
+        "whyDifficult": "Two singular nouns joined by 'and' make a plural subject.",
+        "visualHighlighting": {
+          "incorrect": "Ngono and Muna is",
+          "correct": "Ngono and Muna are"
+        }
+      }
+    },
+    {
+      "id": "sva-e05-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The dog ___ loudly at night.",
+      "type": "multiple_choice",
+      "options": [
+        "bark",
+        "barks",
+        "barking"
+      ],
+      "correctAnswer": "barks",
+      "feedback": "Correct! The subject 'dog' is singular, so the verb needs an '-s'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Le chien aboie...",
+        "englishStructure": "The dog barks...",
+        "whyDifficult": "Learners forget the '-s' for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "The dog bark",
+          "correct": "The dog barks"
+        }
+      }
+    },
+    {
+      "id": "sva-e06-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "I ___ a student at the university.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! The subject 'I' always goes with 'am'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (First Person)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis...",
+        "englishStructure": "I am...",
+        "whyDifficult": "Unique verb form for 'I' (am).",
+        "visualHighlighting": {
+          "incorrect": "I is",
+          "correct": "I am"
+        }
+      }
+    },
+    {
+      "id": "sva-e07-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My parents ___ in Yaoundé.",
+      "type": "multiple_choice",
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ],
+      "correctAnswer": "live",
+      "feedback": "Correct! 'Parents' is plural (they), so we use the base verb 'live'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Mes parents vivent...",
+        "englishStructure": "My parents live...",
+        "whyDifficult": "Plural subjects take the base verb (no 's').",
+        "visualHighlighting": {
+          "incorrect": "My parents lives",
+          "correct": "My parents live"
+        }
+      }
+    },
+    {
+      "id": "sva-e08-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "___ your brother play football?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! The subject is 'brother' (he), so we start the question with 'Does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question Formation",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce que ton frère joue...?",
+        "englishStructure": "Does your brother play...?",
+        "whyDifficult": "French uses 'Est-ce que'. English uses 'Does' for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "Do your brother",
+          "correct": "Does your brother"
+        }
+      }
+    },
+    {
+      "id": "sva-e09-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "That car ___ very fast.",
+      "type": "multiple_choice",
+      "options": [
+        "move",
+        "moves",
+        "is move"
+      ],
+      "correctAnswer": "moves",
+      "feedback": "Correct! 'That car' is singular (it), so the verb needs an '-s'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Cette voiture roule...",
+        "englishStructure": "That car moves...",
+        "whyDifficult": "Singular subject requires '-s' on the verb.",
+        "visualHighlighting": {
+          "incorrect": "That car move",
+          "correct": "That car moves"
+        }
+      }
+    },
+    {
+      "id": "sva-e10-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "We ___ a big family.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "have",
+        "haves"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! The subject 'We' takes 'have'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons...",
+        "englishStructure": "We have...",
+        "whyDifficult": "Direct translation works here (avons -> have).",
+        "visualHighlighting": {
+          "incorrect": "We has",
+          "correct": "We have"
+        }
+      }
+    },
+    {
+      "id": "sva-e11-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The baby ___ when he is hungry.",
+      "type": "multiple_choice",
+      "options": [
+        "cry",
+        "crys",
+        "cries"
+      ],
+      "correctAnswer": "cries",
+      "feedback": "Correct! 'Baby' is singular. Verbs ending in 'y' change to 'ies'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (y -> ies)",
+      "frenchComparison": {
+        "frenchStructure": "Le bébé pleure...",
+        "englishStructure": "The baby cries...",
+        "whyDifficult": "Spelling change: y -> ies for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "The baby cry",
+          "correct": "The baby cries"
+        }
+      }
+    },
+    {
+      "id": "sva-e12-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "You ___ my best friend.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'You' always takes 'are', even if it is one person.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Second Person)",
+      "frenchComparison": {
+        "frenchStructure": "Tu es...",
+        "englishStructure": "You are...",
+        "whyDifficult": "Even singular 'You' takes plural verb form 'are'.",
+        "visualHighlighting": {
+          "incorrect": "You is",
+          "correct": "You are"
+        }
+      }
+    },
+    {
+      "id": "sva-e13-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "It ___ heavily in the rainy season.",
+      "type": "multiple_choice",
+      "options": [
+        "rain",
+        "rains",
+        "raining"
+      ],
+      "correctAnswer": "rains",
+      "feedback": "Correct! The subject 'It' is singular, so we add '-s'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Il pleut...",
+        "englishStructure": "It rains...",
+        "whyDifficult": "Impersonal 'It' requires singular verb.",
+        "visualHighlighting": {
+          "incorrect": "It rain",
+          "correct": "It rains"
+        }
+      }
+    },
+    {
+      "id": "sva-e14-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The teachers ___ in the staff room.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Teachers' is plural, so we use 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les enseignants sont...",
+        "englishStructure": "The teachers are...",
+        "whyDifficult": "Plural subject requires 'are'.",
+        "visualHighlighting": {
+          "incorrect": "The teachers is",
+          "correct": "The teachers are"
+        }
+      }
+    },
+    {
+      "id": "sva-e15-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "She ___ her clothes every Sunday.",
+      "type": "multiple_choice",
+      "options": [
+        "wash",
+        "washs",
+        "washes"
+      ],
+      "correctAnswer": "washes",
+      "feedback": "Correct! 'She' is singular. Verbs ending in 'sh' take '-es'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Elle lave...",
+        "englishStructure": "She washes...",
+        "whyDifficult": "Spelling rule: add '-es' after 'sh', 'ch', 'x', 's'.",
+        "visualHighlighting": {
+          "incorrect": "She wash",
+          "correct": "She washes"
+        }
+      }
+    },
+    {
+      "id": "sva-e16-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Many cars ___ on this road.",
+      "type": "multiple_choice",
+      "options": [
+        "pass",
+        "passes",
+        "passing"
+      ],
+      "correctAnswer": "pass",
+      "feedback": "Correct! 'Cars' is plural, so we use the base verb 'pass'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup de voitures passent...",
+        "englishStructure": "Many cars pass...",
+        "whyDifficult": "Plural subject takes base verb.",
+        "visualHighlighting": {
+          "incorrect": "Many cars passes",
+          "correct": "Many cars pass"
+        }
+      }
+    },
+    {
+      "id": "sva-e17-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My uncle ___ a new moto.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Uncle' is singular (he), so we use 'has'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has",
+      "frenchComparison": {
+        "frenchStructure": "Mon oncle a...",
+        "englishStructure": "My uncle has...",
+        "whyDifficult": "Irregular form 'has' for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "My uncle have",
+          "correct": "My uncle has"
+        }
+      }
+    },
+    {
+      "id": "sva-e18-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Birds ___ in the sky.",
+      "type": "multiple_choice",
+      "options": [
+        "fly",
+        "flies",
+        "flying"
+      ],
+      "correctAnswer": "fly",
+      "feedback": "Correct! 'Birds' is plural, so we use the base verb 'fly'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les oiseaux volent...",
+        "englishStructure": "Birds fly...",
+        "whyDifficult": "Plural subject takes base verb.",
+        "visualHighlighting": {
+          "incorrect": "Birds flies",
+          "correct": "Birds fly"
+        }
+      }
+    },
+    {
+      "id": "sva-e19-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The sun ___ in the East.",
+      "type": "multiple_choice",
+      "options": [
+        "rise",
+        "rises",
+        "rising"
+      ],
+      "correctAnswer": "rises",
+      "feedback": "Correct! The sun is singular, so we add '-s'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Le soleil se lève...",
+        "englishStructure": "The sun rises...",
+        "whyDifficult": "Singular subject requires '-s'.",
+        "visualHighlighting": {
+          "incorrect": "The sun rise",
+          "correct": "The sun rises"
+        }
+      }
+    },
+    {
+      "id": "sva-e20-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "They ___ homework every day.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "doing"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! The subject 'They' takes 'do'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does",
+      "frenchComparison": {
+        "frenchStructure": "Ils font...",
+        "englishStructure": "They do...",
+        "whyDifficult": "Plural subject takes 'do'.",
+        "visualHighlighting": {
+          "incorrect": "They does",
+          "correct": "They do"
+        }
+      }
+    },
+    {
+      "id": "sva-m01-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The box of chocolates ___ on the table.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'The box' (singular). 'Of chocolates' is just extra information.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Intervening Phrases",
+      "frenchComparison": {
+        "frenchStructure": "La boîte de chocolats est...",
+        "englishStructure": "The box of chocolates is...",
+        "whyDifficult": "Learners might agree with 'chocolates' (plural) instead of 'box' (singular).",
+        "visualHighlighting": {
+          "incorrect": "The box of chocolates are",
+          "correct": "The box of chocolates is"
+        }
+      }
+    },
+    {
+      "id": "sva-m02-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Everyone ___ happy today.",
+      "type": "multiple_choice",
+      "options": [
+        "seem",
+        "seems",
+        "seeming"
+      ],
+      "correctAnswer": "seems",
+      "feedback": "Correct! Indefinite pronouns like 'Everyone', 'Everyone', and 'Nobody' are singular in English.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Tout le monde semble...",
+        "englishStructure": "Everyone seems...",
+        "whyDifficult": "'Everyone' implies many people, but is grammatically singular.",
+        "visualHighlighting": {
+          "incorrect": "Everyone seem",
+          "correct": "Everyone seems"
+        }
+      }
+    },
+    {
+      "id": "sva-m03-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "There ___ many people at the market.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! With 'There is/are', we look at the word AFTER the verb. 'People' is plural, so we use 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There is/There are",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de gens...",
+        "englishStructure": "There are many people...",
+        "whyDifficult": "French uses 'Il y a' (singular form) for both singular and plural. English distinguishes 'There is' vs 'There are'.",
+        "visualHighlighting": {
+          "incorrect": "There is many people",
+          "correct": "There are many people"
+        }
+      }
+    },
+    {
+      "id": "sva-m04-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "One of my friends ___ a doctor.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'One' (singular), not 'friends'. One is a doctor.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "One of the...",
+      "frenchComparison": {
+        "frenchStructure": "Un de mes amis est...",
+        "englishStructure": "One of my friends is...",
+        "whyDifficult": "Learners might agree with 'friends' (plural) instead of 'One' (singular).",
+        "visualHighlighting": {
+          "incorrect": "One of my friends are",
+          "correct": "One of my friends is"
+        }
+      }
+    },
+    {
+      "id": "sva-m05-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Bread and butter ___ my favourite breakfast.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Bread and butter' is considered one single meal/idea, so it is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Subject (Unit)",
+      "frenchComparison": {
+        "frenchStructure": "Le pain et le beurre, c'est...",
+        "englishStructure": "Bread and butter is...",
+        "whyDifficult": "Two nouns usually make a plural, but here they form a single unit.",
+        "visualHighlighting": {
+          "incorrect": "Bread and butter are",
+          "correct": "Bread and butter is"
+        }
+      }
+    },
+    {
+      "id": "sva-m06-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The police ___ searching for the thief.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Police' is a collective noun that is always plural in English.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police cherche...",
+        "englishStructure": "The police are searching...",
+        "whyDifficult": "'Police' is singular in French (la police) but plural in English.",
+        "visualHighlighting": {
+          "incorrect": "The police is",
+          "correct": "The police are"
+        }
+      }
+    },
+    {
+      "id": "sva-m07-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Ten kilometers ___ a long distance to walk.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Distances, money, and time periods are treated as singular units.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Distance/Time/Money",
+      "frenchComparison": {
+        "frenchStructure": "Dix kilomètres, c'est...",
+        "englishStructure": "Ten kilometers is...",
+        "whyDifficult": "Plural noun (kilometers) treated as a singular unit of distance.",
+        "visualHighlighting": {
+          "incorrect": "Ten kilometers are",
+          "correct": "Ten kilometers is"
+        }
+      }
+    },
+    {
+      "id": "sva-m08-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Neither the teacher nor the students ___ here.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! With 'Neither...nor', the verb agrees with the noun closest to it. 'Students' is plural, so we use 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Neither/Nor)",
+      "frenchComparison": {
+        "frenchStructure": "Ni le prof ni les élèves ne sont...",
+        "englishStructure": "Neither the teacher nor the students are...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (students).",
+        "visualHighlighting": {
+          "incorrect": "Neither the teacher nor the students is",
+          "correct": "Neither the teacher nor the students are"
+        }
+      }
+    },
+    {
+      "id": "sva-m09-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The news ___ good today.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'News' ends in 's', but it is an uncountable singular noun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les nouvelles sont bonnes...",
+        "englishStructure": "The news is good...",
+        "whyDifficult": "'News' looks plural and is plural in French (les nouvelles), but singular in English.",
+        "visualHighlighting": {
+          "incorrect": "The news are",
+          "correct": "The news is"
+        }
+      }
+    },
+    {
+      "id": "sva-m10-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Someone ___ left their bag behind.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "have",
+        "are"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Someone' is an indefinite pronoun and is always singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Quelqu'un a laissé...",
+        "englishStructure": "Someone has left...",
+        "whyDifficult": "Indefinite pronouns are singular.",
+        "visualHighlighting": {
+          "incorrect": "Someone have",
+          "correct": "Someone has"
+        }
+      }
+    },
+    {
+      "id": "sva-m11-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Where ___ my shoes?",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! The subject is 'shoes' (plural). In questions, the verb comes first, but it must still agree with the subject.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Questions (Inversion)",
+      "frenchComparison": {
+        "frenchStructure": "Où sont mes chaussures?",
+        "englishStructure": "Where are my shoes?",
+        "whyDifficult": "Subject follows the verb in questions.",
+        "visualHighlighting": {
+          "incorrect": "Where is my shoes",
+          "correct": "Where are my shoes"
+        }
+      }
+    },
+    {
+      "id": "sva-m12-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "All of the water ___ dirty.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Water' is uncountable. With 'All of...', we look at the noun. Uncountable nouns take singular verbs.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Uncountable)",
+      "frenchComparison": {
+        "frenchStructure": "Toute l'eau est...",
+        "englishStructure": "All of the water is...",
+        "whyDifficult": "Uncountable nouns (water) take singular verbs.",
+        "visualHighlighting": {
+          "incorrect": "All of the water are",
+          "correct": "All of the water is"
+        }
+      }
+    },
+    {
+      "id": "sva-m13-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Making friends ___ easy for him.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is the action 'Making' (gerund), which is singular. 'Friends' is the object, not the subject.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund Subjects",
+      "frenchComparison": {
+        "frenchStructure": "Se faire des amis est...",
+        "englishStructure": "Making friends is...",
+        "whyDifficult": "Subject is the gerund 'Making' (singular), not 'friends' (plural).",
+        "visualHighlighting": {
+          "incorrect": "Making friends are",
+          "correct": "Making friends is"
+        }
+      }
+    },
+    {
+      "id": "sva-m14-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Mathematics ___ a difficult subject.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "seem"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Subject names ending in 's' (Mathematics, Physics, Economics) are singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les mathématiques sont...",
+        "englishStructure": "Mathematics is...",
+        "whyDifficult": "'Mathematics' ends in 's' and is plural in French (les maths), but singular in English.",
+        "visualHighlighting": {
+          "incorrect": "Mathematics are",
+          "correct": "Mathematics is"
+        }
+      }
+    },
+    {
+      "id": "sva-m15-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The people in my village ___ very friendly.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'People' is always plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (People)",
+      "frenchComparison": {
+        "frenchStructure": "Les gens sont...",
+        "englishStructure": "The people are...",
+        "whyDifficult": "'People' looks singular but is plural.",
+        "visualHighlighting": {
+          "incorrect": "The people is",
+          "correct": "The people are"
+        }
+      }
+    },
+    {
+      "id": "sva-m16-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Either the pen or the book ___ on the desk.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! With 'Either...or', we agree with the closest noun. 'Book' is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Either/Or)",
+      "frenchComparison": {
+        "frenchStructure": "Soit le stylo soit le livre est...",
+        "englishStructure": "Either the pen or the book is...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (book).",
+        "visualHighlighting": {
+          "incorrect": "Either the pen or the book are",
+          "correct": "Either the pen or the book is"
+        }
+      }
+    },
+    {
+      "id": "sva-m17-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Here ___ the bus!",
+      "type": "multiple_choice",
+      "options": [
+        "come",
+        "comes",
+        "coming"
+      ],
+      "correctAnswer": "comes",
+      "feedback": "Correct! In sentences starting with 'Here' or 'There', the subject comes after the verb. 'The bus' is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion (Here/There)",
+      "frenchComparison": {
+        "frenchStructure": "Voici le bus...",
+        "englishStructure": "Here comes the bus...",
+        "whyDifficult": "Subject (bus) follows the verb.",
+        "visualHighlighting": {
+          "incorrect": "Here come the bus",
+          "correct": "Here comes the bus"
+        }
+      }
+    },
+    {
+      "id": "sva-m18-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "A lot of students ___ absent today.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! With 'A lot of', we look at the noun. 'Students' is countable and plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Countable)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup d'élèves sont...",
+        "englishStructure": "A lot of students are...",
+        "whyDifficult": "'A lot of' + plural noun = plural verb.",
+        "visualHighlighting": {
+          "incorrect": "A lot of students is",
+          "correct": "A lot of students are"
+        }
+      }
+    },
+    {
+      "id": "sva-m19-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The team ___ winning the game.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Collective nouns (team, family, class) are usually singular when acting as one group.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "L'équipe gagne...",
+        "englishStructure": "The team is winning...",
+        "whyDifficult": "Collective nouns are usually singular in American English.",
+        "visualHighlighting": {
+          "incorrect": "The team are",
+          "correct": "The team is"
+        }
+      }
+    },
+    {
+      "id": "sva-m20-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The quality of the mangoes ___ poor.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'Quality' (singular), not 'mangoes'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Intervening Phrases",
+      "frenchComparison": {
+        "frenchStructure": "La qualité des mangues est...",
+        "englishStructure": "The quality of the mangoes is...",
+        "whyDifficult": "Subject is 'quality' (singular), not 'mangoes' (plural).",
+        "visualHighlighting": {
+          "incorrect": "The quality of the mangoes are",
+          "correct": "The quality of the mangoes is"
+        }
+      }
+    },
+    {
+      "id": "sva-h01-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The number of accidents ___ increasing.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'The number' refers to a specific statistic/figure, so it is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The number vs A number",
+      "frenchComparison": {
+        "frenchStructure": "Le nombre d'accidents augmente...",
+        "englishStructure": "The number of accidents is increasing...",
+        "whyDifficult": "'The number' is singular. 'A number of' is plural.",
+        "visualHighlighting": {
+          "incorrect": "The number of accidents are",
+          "correct": "The number of accidents is"
+        }
+      }
+    },
+    {
+      "id": "sva-h02-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "A number of students ___ failing.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'A number of' means 'many' or 'several', so it is plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The number vs A number",
+      "frenchComparison": {
+        "frenchStructure": "Un certain nombre d'élèves échouent...",
+        "englishStructure": "A number of students are failing...",
+        "whyDifficult": "'A number of' acts like 'Many' (plural).",
+        "visualHighlighting": {
+          "incorrect": "A number of students is",
+          "correct": "A number of students are"
+        }
+      }
+    },
+    {
+      "id": "sva-h03-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Neither the students nor the teacher ___ happy about the exam.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Proximity rule: We agree with 'the teacher' (singular) because it is closer to the verb.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Neither/Nor)",
+      "frenchComparison": {
+        "frenchStructure": "Ni les élèves ni le prof ne sont...",
+        "englishStructure": "Neither the students nor the teacher is...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (teacher).",
+        "visualHighlighting": {
+          "incorrect": "Neither the students nor the teacher are",
+          "correct": "Neither the students nor the teacher is"
+        }
+      }
+    },
+    {
+      "id": "sva-h04-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The poor ___ help from the government.",
+      "type": "multiple_choice",
+      "options": [
+        "needs",
+        "need",
+        "needing"
+      ],
+      "correctAnswer": "need",
+      "feedback": "Correct! Adjectives used as nouns (The poor, The rich, The blind) refer to a group of people and are always plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjectives as Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les pauvres ont besoin...",
+        "englishStructure": "The poor need...",
+        "whyDifficult": "Adjectives as nouns (The poor) are plural.",
+        "visualHighlighting": {
+          "incorrect": "The poor needs",
+          "correct": "The poor need"
+        }
+      }
+    },
+    {
+      "id": "sva-h05-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Each of the girls ___ a prize.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Each' is distributive and singular. Ignore 'of the girls'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Each of...",
+      "frenchComparison": {
+        "frenchStructure": "Chacune des filles a...",
+        "englishStructure": "Each of the girls has...",
+        "whyDifficult": "'Each' is always singular.",
+        "visualHighlighting": {
+          "incorrect": "Each of the girls have",
+          "correct": "Each of the girls has"
+        }
+      }
+    },
+    {
+      "id": "sva-h06-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Ten thousand francs ___ too much for that shirt.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Amounts of money are treated as a singular unit.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Distance/Time/Money",
+      "frenchComparison": {
+        "frenchStructure": "Dix mille francs, c'est...",
+        "englishStructure": "Ten thousand francs is...",
+        "whyDifficult": "Money amounts are singular units.",
+        "visualHighlighting": {
+          "incorrect": "Ten thousand francs are",
+          "correct": "Ten thousand francs is"
+        }
+      }
+    },
+    {
+      "id": "sva-h07-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The scissors ___ on the table.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! Tools with two parts (scissors, glasses, trousers) are plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Nouns (Tools)",
+      "frenchComparison": {
+        "frenchStructure": "Les ciseaux sont...",
+        "englishStructure": "The scissors are...",
+        "whyDifficult": "'Scissors' is always plural.",
+        "visualHighlighting": {
+          "incorrect": "The scissors is",
+          "correct": "The scissors are"
+        }
+      }
+    },
+    {
+      "id": "sva-h08-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "A pair of scissors ___ on the table.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Here the subject is 'A pair' (singular), not 'scissors'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pair of...",
+      "frenchComparison": {
+        "frenchStructure": "Une paire de ciseaux est...",
+        "englishStructure": "A pair of scissors is...",
+        "whyDifficult": "Subject is 'A pair' (singular).",
+        "visualHighlighting": {
+          "incorrect": "A pair of scissors are",
+          "correct": "A pair of scissors is"
+        }
+      }
+    },
+    {
+      "id": "sva-h09-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Measles ___ a dangerous disease.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Diseases ending in 's' (Measles, Mumps, Diabetes) are singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "La rougeole est...",
+        "englishStructure": "Measles is...",
+        "whyDifficult": "Disease names ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Measles are",
+          "correct": "Measles is"
+        }
+      }
+    },
+    {
+      "id": "sva-h10-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Not only the students but also the teacher ___ tired.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! With 'Not only... but also', the verb agrees with the closest subject (the teacher).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Correlative Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement les élèves mais aussi le prof est...",
+        "englishStructure": "Not only the students but also the teacher is...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (teacher).",
+        "visualHighlighting": {
+          "incorrect": "Not only the students but also the teacher are",
+          "correct": "Not only the students but also the teacher is"
+        }
+      }
+    },
+    {
+      "id": "sva-h11-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Half of the mangoes ___ rotten.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! With fractions/percentages, we look at the noun. 'Mangoes' is plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fractions",
+      "frenchComparison": {
+        "frenchStructure": "La moitié des mangues sont...",
+        "englishStructure": "Half of the mangoes are...",
+        "whyDifficult": "Fraction of plural noun = plural verb.",
+        "visualHighlighting": {
+          "incorrect": "Half of the mangoes is",
+          "correct": "Half of the mangoes are"
+        }
+      }
+    },
+    {
+      "id": "sva-h12-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Half of the population ___ in cities.",
+      "type": "multiple_choice",
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ],
+      "correctAnswer": "lives",
+      "feedback": "Correct! 'Population' is a collective singular noun. Half of a singular whole is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fractions",
+      "frenchComparison": {
+        "frenchStructure": "La moitié de la population vit...",
+        "englishStructure": "Half of the population lives...",
+        "whyDifficult": "Fraction of singular noun = singular verb.",
+        "visualHighlighting": {
+          "incorrect": "Half of the population live",
+          "correct": "Half of the population lives"
+        }
+      }
+    },
+    {
+      "id": "sva-h13-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Either you or I ___ going to drive.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! Proximity rule. The verb agrees with 'I'. It sounds strange, but 'or I am' is correct.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (First Person)",
+      "frenchComparison": {
+        "frenchStructure": "Soit toi soit moi allons...",
+        "englishStructure": "Either you or I am...",
+        "whyDifficult": "Proximity rule with 'I' sounds awkward but is correct.",
+        "visualHighlighting": {
+          "incorrect": "Either you or I are",
+          "correct": "Either you or I am"
+        }
+      }
+    },
+    {
+      "id": "sva-h14-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Cattle ___ grazing in the field.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Cattle' looks singular but is always plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Cattle)",
+      "frenchComparison": {
+        "frenchStructure": "Le bétail broute...",
+        "englishStructure": "Cattle are grazing...",
+        "whyDifficult": "'Cattle' is singular in French (le bétail) but plural in English.",
+        "visualHighlighting": {
+          "incorrect": "Cattle is",
+          "correct": "Cattle are"
+        }
+      }
+    },
+    {
+      "id": "sva-h15-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Many a student ___ this mistake.",
+      "type": "multiple_choice",
+      "options": [
+        "make",
+        "makes",
+        "making"
+      ],
+      "correctAnswer": "makes",
+      "feedback": "Correct! The expression 'Many a...' is followed by a singular noun and singular verb. It means 'many', but structurally it is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Idiom (Many a)",
+      "frenchComparison": {
+        "frenchStructure": "Plus d'un étudiant fait...",
+        "englishStructure": "Many a student makes...",
+        "whyDifficult": "'Many a' takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "Many a student make",
+          "correct": "Many a student makes"
+        }
+      }
+    },
+    {
+      "id": "sva-h16-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The committee ___ divided on the issue.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "correctAnswer": "were",
+      "feedback": "Correct! Usually collective nouns are singular, but when the members disagree or act individually, we use the plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Divided)",
+      "frenchComparison": {
+        "frenchStructure": "Le comité est divisé...",
+        "englishStructure": "The committee are divided...",
+        "whyDifficult": "Collective nouns can be plural if members act individually.",
+        "visualHighlighting": {
+          "incorrect": "The committee is divided",
+          "correct": "The committee are divided"
+        }
+      }
+    },
+    {
+      "id": "sva-h17-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "More than one person ___ complained.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "are"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'More than one' is followed by a singular noun and singular verb.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Idiom (More than one)",
+      "frenchComparison": {
+        "frenchStructure": "Plus d'une personne s'est plainte...",
+        "englishStructure": "More than one person has complained...",
+        "whyDifficult": "'More than one' takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "More than one person have",
+          "correct": "More than one person has"
+        }
+      }
+    },
+    {
+      "id": "sva-h18-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Identifying the errors in these sentences ___ difficult.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is the gerund phrase 'Identifying the errors'. The phrase acts as a singular 'It'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund Phrase",
+      "frenchComparison": {
+        "frenchStructure": "Identifier les erreurs est...",
+        "englishStructure": "Identifying the errors is...",
+        "whyDifficult": "Gerund phrases as subjects are singular.",
+        "visualHighlighting": {
+          "incorrect": "Identifying the errors are",
+          "correct": "Identifying the errors is"
+        }
+      }
+    },
+    {
+      "id": "sva-h19-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "What we need ___ more books.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Clauses starting with 'What' are typically singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Clausal Subject",
+      "frenchComparison": {
+        "frenchStructure": "Ce dont nous avons besoin est...",
+        "englishStructure": "What we need is...",
+        "whyDifficult": "Clauses as subjects are singular.",
+        "visualHighlighting": {
+          "incorrect": "What we need are",
+          "correct": "What we need is"
+        }
+      }
+    },
+    {
+      "id": "sva-h20-A",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "There ___ a pen and two books on the desk.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! When 'There' is followed by a list, the verb agrees with the *first* item in the list (a pen).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "There is (List)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un stylo et deux livres...",
+        "englishStructure": "There is a pen and two books...",
+        "whyDifficult": "Verb agrees with the first item in the list.",
+        "visualHighlighting": {
+          "incorrect": "There are a pen and two books",
+          "correct": "There is a pen and two books"
+        }
+      }
+    },
+    {
+      "id": "sva-e01-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My brother ___ football every day.",
+      "type": "multiple_choice",
+      "options": [
+        "cook",
+        "cooks",
+        "cooking"
+      ],
+      "correctAnswer": "plays",
+      "feedback": "Correct! 'My brother' is singular (he), so we add '-s' to the verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Mon frère joue...",
+        "englishStructure": "My brother plays...",
+        "whyDifficult": "Singular subject requires '-s'.",
+        "visualHighlighting": {
+          "incorrect": "My brother play",
+          "correct": "My brother plays"
+        }
+      }
+    },
+    {
+      "id": "sva-e02-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The children ___ in the park.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Children' is plural, so we use 'are'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les enfants sont...",
+        "englishStructure": "The children are...",
+        "whyDifficult": "Plural subject requires 'are'.",
+        "visualHighlighting": {
+          "incorrect": "The children is",
+          "correct": "The children are"
+        }
+      }
+    },
+    {
+      "id": "sva-e03-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "She ___ not eat meat.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! For he/she/it, we use the auxiliary 'does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Auxiliary Do/Does",
+      "frenchComparison": {
+        "frenchStructure": "Elle ne mange pas...",
+        "englishStructure": "She does not eat...",
+        "whyDifficult": "French uses 'ne...pas'. English requires 'does' for negation.",
+        "visualHighlighting": {
+          "incorrect": "She do not eat",
+          "correct": "She does not eat"
+        }
+      }
+    },
+    {
+      "id": "sva-e04-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Tom and Jerry ___ cartoons.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Tom and Jerry' are two characters (they), so the subject is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Subject (And)",
+      "frenchComparison": {
+        "frenchStructure": "Tom et Jerry sont...",
+        "englishStructure": "Tom and Jerry are...",
+        "whyDifficult": "Two singular nouns joined by 'and' make a plural subject.",
+        "visualHighlighting": {
+          "incorrect": "Tom and Jerry is",
+          "correct": "Tom and Jerry are"
+        }
+      }
+    },
+    {
+      "id": "sva-e05-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The cat ___ on the mat.",
+      "type": "multiple_choice",
+      "options": [
+        "drink",
+        "drinks",
+        "drinking"
+      ],
+      "correctAnswer": "sleeps",
+      "feedback": "Correct! The subject 'cat' is singular, so the verb needs an '-s'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Le chat dort...",
+        "englishStructure": "The cat sleeps...",
+        "whyDifficult": "Singular subject requires '-s'.",
+        "visualHighlighting": {
+          "incorrect": "The cat sleep",
+          "correct": "The cat sleeps"
+        }
+      }
+    },
+    {
+      "id": "sva-e06-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "I ___ happy to see you.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! The subject 'I' always goes with 'am'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (First Person)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis...",
+        "englishStructure": "I am...",
+        "whyDifficult": "Unique verb form for 'I' (am).",
+        "visualHighlighting": {
+          "incorrect": "I is",
+          "correct": "I am"
+        }
+      }
+    },
+    {
+      "id": "sva-e07-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My friends ___ to music.",
+      "type": "multiple_choice",
+      "options": [
+        "visit",
+        "visits",
+        "visiting"
+      ],
+      "correctAnswer": "listen",
+      "feedback": "Correct! 'Friends' is plural (they), so we use the base verb 'listen'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Mes amis écoutent...",
+        "englishStructure": "My friends listen...",
+        "whyDifficult": "Plural subject takes base verb.",
+        "visualHighlighting": {
+          "incorrect": "My friends listens",
+          "correct": "My friends listen"
+        }
+      }
+    },
+    {
+      "id": "sva-e08-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "___ she speak English?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! The subject is 'she', so we start the question with 'Does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Question Formation",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce qu'elle parle...?",
+        "englishStructure": "Does she speak...?",
+        "whyDifficult": "French uses 'Est-ce que'. English uses 'Does' for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "Do she speak",
+          "correct": "Does she speak"
+        }
+      }
+    },
+    {
+      "id": "sva-e09-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "That boy ___ very fast.",
+      "type": "multiple_choice",
+      "options": [
+        "flow",
+        "flows",
+        "flowing"
+      ],
+      "correctAnswer": "runs",
+      "feedback": "Correct! 'That boy' is singular (he), so the verb needs an '-s'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Ce garçon court...",
+        "englishStructure": "That boy runs...",
+        "whyDifficult": "Singular subject requires '-s'.",
+        "visualHighlighting": {
+          "incorrect": "That boy run",
+          "correct": "That boy runs"
+        }
+      }
+    },
+    {
+      "id": "sva-e10-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "They ___ a new house.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "have",
+        "haves"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! The subject 'They' takes 'have'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont...",
+        "englishStructure": "They have...",
+        "whyDifficult": "Direct translation works here (ont -> have).",
+        "visualHighlighting": {
+          "incorrect": "They has",
+          "correct": "They have"
+        }
+      }
+    },
+    {
+      "id": "sva-e11-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "He ___ hard for his exams.",
+      "type": "multiple_choice",
+      "options": [
+        "worry",
+        "worrys",
+        "worries"
+      ],
+      "correctAnswer": "studies",
+      "feedback": "Correct! 'He' is singular. Verbs ending in 'y' change to 'ies'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (y -> ies)",
+      "frenchComparison": {
+        "frenchStructure": "Il étudie...",
+        "englishStructure": "He studies...",
+        "whyDifficult": "Spelling change: y -> ies for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "He study",
+          "correct": "He studies"
+        }
+      }
+    },
+    {
+      "id": "sva-e12-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "You ___ late again.",
+      "type": "multiple_choice",
+      "options": [
+        "look",
+        "looks",
+        "looking"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'You' always takes 'are'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Second Person)",
+      "frenchComparison": {
+        "frenchStructure": "Tu es...",
+        "englishStructure": "You are...",
+        "whyDifficult": "Even singular 'You' takes plural verb form 'are'.",
+        "visualHighlighting": {
+          "incorrect": "You is",
+          "correct": "You are"
+        }
+      }
+    },
+    {
+      "id": "sva-e13-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "It ___ very hot today.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "have",
+        "having"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject 'It' is singular, so we use 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Il fait...",
+        "englishStructure": "It is...",
+        "whyDifficult": "Impersonal 'It' requires singular verb.",
+        "visualHighlighting": {
+          "incorrect": "It are",
+          "correct": "It is"
+        }
+      }
+    },
+    {
+      "id": "sva-e14-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The books ___ on the shelf.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Books' is plural, so we use 'are'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les livres sont...",
+        "englishStructure": "The books are...",
+        "whyDifficult": "Plural subject requires 'are'.",
+        "visualHighlighting": {
+          "incorrect": "The books is",
+          "correct": "The books are"
+        }
+      }
+    },
+    {
+      "id": "sva-e15-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "He ___ TV in the evening.",
+      "type": "multiple_choice",
+      "options": [
+        "watch",
+        "watches",
+        "watchs"
+      ],
+      "correctAnswer": "watches",
+      "feedback": "Correct! 'He' is singular. Verbs ending in 'ch' take '-es'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Il regarde...",
+        "englishStructure": "He watches...",
+        "whyDifficult": "Spelling rule: add '-es' after 'ch'.",
+        "visualHighlighting": {
+          "incorrect": "He watch",
+          "correct": "He watches"
+        }
+      }
+    },
+    {
+      "id": "sva-e16-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Most people ___ this food.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "like",
+      "feedback": "Correct! 'People' is plural, so we use the base verb 'like'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "La plupart des gens aiment...",
+        "englishStructure": "Most people like...",
+        "whyDifficult": "Plural subject takes base verb.",
+        "visualHighlighting": {
+          "incorrect": "Most people likes",
+          "correct": "Most people like"
+        }
+      }
+    },
+    {
+      "id": "sva-e17-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "My aunt ___ three children.",
+      "type": "multiple_choice",
+      "options": [
+        "run",
+        "runs",
+        "running"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Aunt' is singular (she), so we use 'has'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has",
+      "frenchComparison": {
+        "frenchStructure": "Ma tante a...",
+        "englishStructure": "My aunt has...",
+        "whyDifficult": "Irregular form 'has' for singular subjects.",
+        "visualHighlighting": {
+          "incorrect": "My aunt have",
+          "correct": "My aunt has"
+        }
+      }
+    },
+    {
+      "id": "sva-e18-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "Fish ___ in water.",
+      "type": "multiple_choice",
+      "options": [
+        "play",
+        "plays",
+        "playing"
+      ],
+      "correctAnswer": "live",
+      "feedback": "Correct! 'Fish' can be plural (meaning many fish), so we use 'live'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Les poissons vivent...",
+        "englishStructure": "Fish live...",
+        "whyDifficult": "Plural subject takes base verb.",
+        "visualHighlighting": {
+          "incorrect": "Fish lives",
+          "correct": "Fish live"
+        }
+      }
+    },
+    {
+      "id": "sva-e19-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "The moon ___ at night.",
+      "type": "multiple_choice",
+      "options": [
+        "shine",
+        "shines",
+        "shining"
+      ],
+      "correctAnswer": "shines",
+      "feedback": "Correct! The moon is singular, so we add '-s'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Agreement (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "La lune brille...",
+        "englishStructure": "The moon shines...",
+        "whyDifficult": "Singular subject requires '-s'.",
+        "visualHighlighting": {
+          "incorrect": "The moon shine",
+          "correct": "The moon shines"
+        }
+      }
+    },
+    {
+      "id": "sva-e20-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "easy",
+      "questionText": "We ___ our homework.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "doing"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! The subject 'We' takes 'do'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does",
+      "frenchComparison": {
+        "frenchStructure": "Nous faisons...",
+        "englishStructure": "We do...",
+        "whyDifficult": "Plural subject takes 'do'.",
+        "visualHighlighting": {
+          "incorrect": "We does",
+          "correct": "We do"
+        }
+      }
+    },
+    {
+      "id": "sva-m01-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The bag of apples ___ heavy.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'The bag' (singular), not 'apples'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Intervening Phrases",
+      "frenchComparison": {
+        "frenchStructure": "Le sac de pommes est...",
+        "englishStructure": "The bag of apples is...",
+        "whyDifficult": "Learners might agree with 'apples' (plural) instead of 'bag' (singular).",
+        "visualHighlighting": {
+          "incorrect": "The bag of apples are",
+          "correct": "The bag of apples is"
+        }
+      }
+    },
+    {
+      "id": "sva-m02-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Nobody ___ the answer.",
+      "type": "multiple_choice",
+      "options": [
+        "know",
+        "knows",
+        "knowing"
+      ],
+      "correctAnswer": "knows",
+      "feedback": "Correct! 'Nobody' is an indefinite pronoun and is always singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Personne ne connaît...",
+        "englishStructure": "Nobody knows...",
+        "whyDifficult": "Indefinite pronouns are singular.",
+        "visualHighlighting": {
+          "incorrect": "Nobody know",
+          "correct": "Nobody knows"
+        }
+      }
+    },
+    {
+      "id": "sva-m03-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "There ___ a cat under the table.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'A cat' is singular, so we use 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There is/There are",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un chat...",
+        "englishStructure": "There is a cat...",
+        "whyDifficult": "French uses 'Il y a' (singular form) for both singular and plural. English distinguishes 'There is' vs 'There are'.",
+        "visualHighlighting": {
+          "incorrect": "There are a cat",
+          "correct": "There is a cat"
+        }
+      }
+    },
+    {
+      "id": "sva-m04-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "One of the boys ___ my cousin.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'One' (singular).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "One of the...",
+      "frenchComparison": {
+        "frenchStructure": "Un des garçons est...",
+        "englishStructure": "One of the boys is...",
+        "whyDifficult": "Learners might agree with 'boys' (plural) instead of 'One' (singular).",
+        "visualHighlighting": {
+          "incorrect": "One of the boys are",
+          "correct": "One of the boys is"
+        }
+      }
+    },
+    {
+      "id": "sva-m05-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Rice and beans ___ a popular dish.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Rice and beans' is the name of one dish, so it is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Subject (Unit)",
+      "frenchComparison": {
+        "frenchStructure": "Le riz et les haricots, c'est...",
+        "englishStructure": "Rice and beans is...",
+        "whyDifficult": "Two nouns forming a single unit take a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "Rice and beans are",
+          "correct": "Rice and beans is"
+        }
+      }
+    },
+    {
+      "id": "sva-m06-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The police ___ coming.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Police' is always plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police arrive...",
+        "englishStructure": "The police are coming...",
+        "whyDifficult": "'Police' is singular in French (la police) but plural in English.",
+        "visualHighlighting": {
+          "incorrect": "The police is",
+          "correct": "The police are"
+        }
+      }
+    },
+    {
+      "id": "sva-m07-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Five thousand francs ___ enough.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Money amounts are singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Distance/Time/Money",
+      "frenchComparison": {
+        "frenchStructure": "Cinq mille francs, c'est...",
+        "englishStructure": "Five thousand francs is...",
+        "whyDifficult": "Money amounts are singular units.",
+        "visualHighlighting": {
+          "incorrect": "Five thousand francs are",
+          "correct": "Five thousand francs is"
+        }
+      }
+    },
+    {
+      "id": "sva-m08-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Neither my sister nor my brothers ___ going.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! Proximity rule: 'brothers' is plural and closer to the verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Neither/Nor)",
+      "frenchComparison": {
+        "frenchStructure": "Ni ma soeur ni mes frères ne vont...",
+        "englishStructure": "Neither my sister nor my brothers are...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (brothers).",
+        "visualHighlighting": {
+          "incorrect": "Neither my sister nor my brothers is",
+          "correct": "Neither my sister nor my brothers are"
+        }
+      }
+    },
+    {
+      "id": "sva-m09-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The news ___ shocking.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'News' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les nouvelles sont...",
+        "englishStructure": "The news is...",
+        "whyDifficult": "'News' looks plural and is plural in French (les nouvelles), but singular in English.",
+        "visualHighlighting": {
+          "incorrect": "The news are",
+          "correct": "The news is"
+        }
+      }
+    },
+    {
+      "id": "sva-m10-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Everybody ___ music.",
+      "type": "multiple_choice",
+      "options": [
+        "like",
+        "likes",
+        "liking"
+      ],
+      "correctAnswer": "likes",
+      "feedback": "Correct! 'Everybody' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Tout le monde aime...",
+        "englishStructure": "Everybody likes...",
+        "whyDifficult": "Indefinite pronouns are singular.",
+        "visualHighlighting": {
+          "incorrect": "Everybody like",
+          "correct": "Everybody likes"
+        }
+      }
+    },
+    {
+      "id": "sva-m11-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "When ___ the exams start?",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'Exams' is plural, so we use 'do'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Questions (Inversion)",
+      "frenchComparison": {
+        "frenchStructure": "Quand commencent les examens?",
+        "englishStructure": "When do the exams start?",
+        "whyDifficult": "Subject follows the auxiliary in questions.",
+        "visualHighlighting": {
+          "incorrect": "When does the exams start",
+          "correct": "When do the exams start"
+        }
+      }
+    },
+    {
+      "id": "sva-m12-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "All of the cake ___ eaten.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Cake' is singular here (one cake), so 'All of it' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Singular)",
+      "frenchComparison": {
+        "frenchStructure": "Tout le gâteau a été...",
+        "englishStructure": "All of the cake was...",
+        "whyDifficult": "Singular noun (cake) takes singular verb.",
+        "visualHighlighting": {
+          "incorrect": "All of the cake were",
+          "correct": "All of the cake was"
+        }
+      }
+    },
+    {
+      "id": "sva-m13-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Reading books ___ good for you.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'Reading' (gerund), which is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund Subjects",
+      "frenchComparison": {
+        "frenchStructure": "Lire des livres est...",
+        "englishStructure": "Reading books is...",
+        "whyDifficult": "Subject is the gerund 'Reading' (singular), not 'books' (plural).",
+        "visualHighlighting": {
+          "incorrect": "Reading books are",
+          "correct": "Reading books is"
+        }
+      }
+    },
+    {
+      "id": "sva-m14-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Economics ___ interesting.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Economics' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "L'économie est...",
+        "englishStructure": "Economics is...",
+        "whyDifficult": "Ends in 's' but is singular.",
+        "visualHighlighting": {
+          "incorrect": "Economics are",
+          "correct": "Economics is"
+        }
+      }
+    },
+    {
+      "id": "sva-m15-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Young people ___ energetic.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'People' is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (People)",
+      "frenchComparison": {
+        "frenchStructure": "Les jeunes sont...",
+        "englishStructure": "Young people are...",
+        "whyDifficult": "'People' looks singular but is plural.",
+        "visualHighlighting": {
+          "incorrect": "Young people is",
+          "correct": "Young people are"
+        }
+      }
+    },
+    {
+      "id": "sva-m16-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "Either the teacher or the students ___ wrong.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! Proximity rule: 'students' is plural and closer.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Either/Or)",
+      "frenchComparison": {
+        "frenchStructure": "Soit le prof soit les élèves ont tort...",
+        "englishStructure": "Either the teacher or the students are...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (students).",
+        "visualHighlighting": {
+          "incorrect": "Either the teacher or the students is",
+          "correct": "Either the teacher or the students are"
+        }
+      }
+    },
+    {
+      "id": "sva-m17-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "There ___ two dogs in the yard.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Two dogs' is plural, so we use 'are'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "There is/There are",
+      "frenchComparison": {
+        "frenchStructure": "Il y a deux chiens...",
+        "englishStructure": "There are two dogs...",
+        "whyDifficult": "French uses 'Il y a' (singular form) for both singular and plural. English distinguishes 'There is' vs 'There are'.",
+        "visualHighlighting": {
+          "incorrect": "There is two dogs",
+          "correct": "There are two dogs"
+        }
+      }
+    },
+    {
+      "id": "sva-m18-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "A lot of money ___ spent.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'Money' is uncountable (singular).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Uncountable)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup d'argent a été...",
+        "englishStructure": "A lot of money was...",
+        "whyDifficult": "'A lot of' + uncountable noun = singular verb.",
+        "visualHighlighting": {
+          "incorrect": "A lot of money were",
+          "correct": "A lot of money was"
+        }
+      }
+    },
+    {
+      "id": "sva-m19-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "My family ___ in Douala.",
+      "type": "multiple_choice",
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ],
+      "correctAnswer": "lives",
+      "feedback": "Correct! 'Family' is a collective noun, usually singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Ma famille vit...",
+        "englishStructure": "My family lives...",
+        "whyDifficult": "Collective nouns are usually singular in American English.",
+        "visualHighlighting": {
+          "incorrect": "My family live",
+          "correct": "My family lives"
+        }
+      }
+    },
+    {
+      "id": "sva-m20-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "medium",
+      "questionText": "The color of the flowers ___ beautiful.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The subject is 'color' (singular).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Intervening Phrases",
+      "frenchComparison": {
+        "frenchStructure": "La couleur des fleurs est...",
+        "englishStructure": "The color of the flowers is...",
+        "whyDifficult": "Subject is 'color' (singular), not 'flowers' (plural).",
+        "visualHighlighting": {
+          "incorrect": "The color of the flowers are",
+          "correct": "The color of the flowers is"
+        }
+      }
+    },
+    {
+      "id": "sva-h01-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The number of people ___ increasing.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'The number' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The number vs A number",
+      "frenchComparison": {
+        "frenchStructure": "Le nombre de gens augmente...",
+        "englishStructure": "The number of people is increasing...",
+        "whyDifficult": "'The number' is singular. 'A number of' is plural.",
+        "visualHighlighting": {
+          "incorrect": "The number of people are",
+          "correct": "The number of people is"
+        }
+      }
+    },
+    {
+      "id": "sva-h02-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "A number of cars ___ parked outside.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'A number of' means 'many', so it is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "The number vs A number",
+      "frenchComparison": {
+        "frenchStructure": "Un certain nombre de voitures sont...",
+        "englishStructure": "A number of cars are...",
+        "whyDifficult": "'A number of' acts like 'Many' (plural).",
+        "visualHighlighting": {
+          "incorrect": "A number of cars is",
+          "correct": "A number of cars are"
+        }
+      }
+    },
+    {
+      "id": "sva-h03-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Neither the players nor the coach ___ happy.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Proximity rule: 'coach' is singular and closest to the verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (Neither/Nor)",
+      "frenchComparison": {
+        "frenchStructure": "Ni les joueurs ni l'entraîneur ne sont...",
+        "englishStructure": "Neither the players nor the coach is...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (coach).",
+        "visualHighlighting": {
+          "incorrect": "Neither the players nor the coach are",
+          "correct": "Neither the players nor the coach is"
+        }
+      }
+    },
+    {
+      "id": "sva-h04-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The rich ___ not always happy.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'The rich' refers to rich people as a group, so it is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjectives as Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les riches ne sont pas...",
+        "englishStructure": "The rich are not...",
+        "whyDifficult": "Adjectives as nouns (The rich) are plural.",
+        "visualHighlighting": {
+          "incorrect": "The rich is",
+          "correct": "The rich are"
+        }
+      }
+    },
+    {
+      "id": "sva-h05-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Each of the boys ___ a book.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Each' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Each of...",
+      "frenchComparison": {
+        "frenchStructure": "Chacun des garçons a...",
+        "englishStructure": "Each of the boys has...",
+        "whyDifficult": "'Each' is always singular.",
+        "visualHighlighting": {
+          "incorrect": "Each of the boys have",
+          "correct": "Each of the boys has"
+        }
+      }
+    },
+    {
+      "id": "sva-h06-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Two million dollars ___ a lot of money.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Money amounts are singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Distance/Time/Money",
+      "frenchComparison": {
+        "frenchStructure": "Deux millions de dollars, c'est...",
+        "englishStructure": "Two million dollars is...",
+        "whyDifficult": "Money amounts are singular units.",
+        "visualHighlighting": {
+          "incorrect": "Two million dollars are",
+          "correct": "Two million dollars is"
+        }
+      }
+    },
+    {
+      "id": "sva-h07-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "My glasses ___ broken.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Glasses' is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Nouns (Tools)",
+      "frenchComparison": {
+        "frenchStructure": "Mes lunettes sont...",
+        "englishStructure": "My glasses are...",
+        "whyDifficult": "'Glasses' is always plural.",
+        "visualHighlighting": {
+          "incorrect": "My glasses is",
+          "correct": "My glasses are"
+        }
+      }
+    },
+    {
+      "id": "sva-h08-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "A pair of glasses ___ expensive.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Subject is 'A pair' (singular).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pair of...",
+      "frenchComparison": {
+        "frenchStructure": "Une paire de lunettes est...",
+        "englishStructure": "A pair of glasses is...",
+        "whyDifficult": "Subject is 'A pair' (singular).",
+        "visualHighlighting": {
+          "incorrect": "A pair of glasses are",
+          "correct": "A pair of glasses is"
+        }
+      }
+    },
+    {
+      "id": "sva-h09-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Diabetes ___ common nowadays.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Diabetes' is a disease name, so it is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Le diabète est...",
+        "englishStructure": "Diabetes is...",
+        "whyDifficult": "Disease names ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Diabetes are",
+          "correct": "Diabetes is"
+        }
+      }
+    },
+    {
+      "id": "sva-h10-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Not only the players but also the coach ___ responsible.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Agree with 'coach' (singular).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Correlative Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement les joueurs mais aussi l'entraîneur est...",
+        "englishStructure": "Not only the players but also the coach is...",
+        "whyDifficult": "Proximity rule: agree with the closest noun (coach).",
+        "visualHighlighting": {
+          "incorrect": "Not only the players but also the coach are",
+          "correct": "Not only the players but also the coach is"
+        }
+      }
+    },
+    {
+      "id": "sva-h11-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "One third of the students ___ absent.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Students' is plural, so the fraction is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fractions",
+      "frenchComparison": {
+        "frenchStructure": "Un tiers des élèves sont...",
+        "englishStructure": "One third of the students are...",
+        "whyDifficult": "Fraction of plural noun = plural verb.",
+        "visualHighlighting": {
+          "incorrect": "One third of the students is",
+          "correct": "One third of the students are"
+        }
+      }
+    },
+    {
+      "id": "sva-h12-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "One third of the land ___ fertile.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Land' is singular, so the fraction is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fractions",
+      "frenchComparison": {
+        "frenchStructure": "Un tiers de la terre est...",
+        "englishStructure": "One third of the land is...",
+        "whyDifficult": "Fraction of singular noun = singular verb.",
+        "visualHighlighting": {
+          "incorrect": "One third of the land are",
+          "correct": "One third of the land is"
+        }
+      }
+    },
+    {
+      "id": "sva-h13-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Either she or I ___ to blame.",
+      "type": "multiple_choice",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! Proximity rule: agree with 'I'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Proximity Rule (First Person)",
+      "frenchComparison": {
+        "frenchStructure": "Soit elle soit moi sommes...",
+        "englishStructure": "Either she or I am...",
+        "whyDifficult": "Proximity rule with 'I' sounds awkward but is correct.",
+        "visualHighlighting": {
+          "incorrect": "Either she or I are",
+          "correct": "Either she or I am"
+        }
+      }
+    },
+    {
+      "id": "sva-h14-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The cattle ___ in the barn.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Cattle' is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Cattle)",
+      "frenchComparison": {
+        "frenchStructure": "Le bétail est...",
+        "englishStructure": "The cattle are...",
+        "whyDifficult": "'Cattle' is singular in French (le bétail) but plural in English.",
+        "visualHighlighting": {
+          "incorrect": "The cattle is",
+          "correct": "The cattle are"
+        }
+      }
+    },
+    {
+      "id": "sva-h15-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Many a man ___ tried.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! 'Many a' is followed by a singular noun and verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Idiom (Many a)",
+      "frenchComparison": {
+        "frenchStructure": "Plus d'un homme a essayé...",
+        "englishStructure": "Many a man has tried...",
+        "whyDifficult": "'Many a' takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "Many a man have",
+          "correct": "Many a man has"
+        }
+      }
+    },
+    {
+      "id": "sva-h16-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "The jury ___ arguing among themselves.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! They are arguing, so they are acting as individuals (plural).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Divided)",
+      "frenchComparison": {
+        "frenchStructure": "Le jury se dispute...",
+        "englishStructure": "The jury are arguing...",
+        "whyDifficult": "Collective nouns can be plural if members act individually.",
+        "visualHighlighting": {
+          "incorrect": "The jury is arguing",
+          "correct": "The jury are arguing"
+        }
+      }
+    },
+    {
+      "id": "sva-h17-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "More than one car ___ stolen.",
+      "type": "multiple_choice",
+      "options": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correctAnswer": "was",
+      "feedback": "Correct! 'More than one' takes a singular verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Idiom (More than one)",
+      "frenchComparison": {
+        "frenchStructure": "Plus d'une voiture a été...",
+        "englishStructure": "More than one car was...",
+        "whyDifficult": "'More than one' takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "More than one car were",
+          "correct": "More than one car was"
+        }
+      }
+    },
+    {
+      "id": "sva-h18-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "Swimming in the ocean ___ dangerous.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Subject is the gerund phrase 'Swimming in the ocean' (singular).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund Phrase",
+      "frenchComparison": {
+        "frenchStructure": "Nager dans l'océan est...",
+        "englishStructure": "Swimming in the ocean is...",
+        "whyDifficult": "Gerund phrases as subjects are singular.",
+        "visualHighlighting": {
+          "incorrect": "Swimming in the ocean are",
+          "correct": "Swimming in the ocean is"
+        }
+      }
+    },
+    {
+      "id": "sva-h19-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "What he says ___ true.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! The clause 'What he says' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Clausal Subject",
+      "frenchComparison": {
+        "frenchStructure": "Ce qu'il dit est...",
+        "englishStructure": "What he says is...",
+        "whyDifficult": "Clauses as subjects are singular.",
+        "visualHighlighting": {
+          "incorrect": "What he says are",
+          "correct": "What he says is"
+        }
+      }
+    },
+    {
+      "id": "sva-h20-B",
+      "moduleId": "subject-verb-agreement",
+      "difficulty": "hard",
+      "questionText": "There ___ a book and a pen.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Agree with the first item 'a book' (singular).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "There is (List)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a un livre et un stylo...",
+        "englishStructure": "There is a book and a pen...",
+        "whyDifficult": "Verb agrees with the first item in the list.",
+        "visualHighlighting": {
+          "incorrect": "There are a book and a pen",
+          "correct": "There is a book and a pen"
+        }
+      }
+    }
+  ]
+}

@@ -1,53 +1,599 @@
 {
   "id": "false-cognates",
-  "name": "False Cognates (French-English)",
+  "name": "False Cognates",
   "category": "vocabulary",
-  "moduleIntroduction": "Welcome! This module helps you avoid common mistakes with **false cognates** - words that look similar in French and English but have different meanings.\n\nFalse cognates (or 'faux amis' in French) can cause embarrassing misunderstandings. For example, the French word 'actuellement' looks like the English 'actually', but they mean very different things!\n\nIn this module, you'll learn 50+ false cognate pairs that commonly confuse Francophone learners. Each lesson provides:\n• The English word and its real meaning\n• The French word it resembles\n• Common mistakes and how to avoid them\n• Memory tricks to help you remember\n\nMastering these false cognates will make your English more accurate and prevent common errors in professional and academic situations.",
-  "contrastiveExplanation": "False cognates are words that look or sound similar in two languages but have different meanings. They're especially tricky for French speakers learning English because:\n\n**1. Actually vs. Actuellement**\n• French 'actuellement' = currently, at present\n• English 'actually' = in fact, really\n• Error: 'I am actually working' (meaning 'currently') ❌\n• Correct: 'I am currently working' ✅\n\n**2. Assist vs. Assister**\n• French 'assister à' = to attend\n• English 'assist' = to help\n• Error: 'I will assist the meeting' ❌\n• Correct: 'I will attend the meeting' ✅\n\n**3. Library vs. Librairie**\n• French 'librairie' = bookstore (buy books)\n• English 'library' = bibliothèque (borrow books)\n• Error: 'I bought books at the library' ❌\n• Correct: 'I bought books at the bookstore' ✅\n\n**4. Demand vs. Demander**\n• French 'demander' = to ask (polite)\n• English 'demand' = to insist strongly (forceful)\n• Error: 'Can I demand you a question?' ❌\n• Correct: 'Can I ask you a question?' ✅\n\n**5. Sensible vs. Sensible**\n• French 'sensible' = sensitive (emotional)\n• English 'sensible' = practical, reasonable\n• Error: 'He is very sensible to criticism' ❌\n• Correct: 'He is very sensitive to criticism' ✅\n\nThese false cognates span all areas of life - work, school, health, shopping, and daily conversation. Learning them will significantly improve your English accuracy.",
-  "commonErrors": [
-    {
-      "number": 1,
-      "subTopic": "Actually/Actuellement",
-      "wrong": "I am actually working at the ministry.",
-      "correct": "I am currently working at the ministry.",
-      "frenchConnection": "'Actuellement' means 'currently', not 'actually'. Use 'currently' for 'actuellement' and 'actually' for 'en fait'."
-    },
-    {
-      "number": 2,
-      "subTopic": "Assist/Assister",
-      "wrong": "I will assist the meeting tomorrow.",
-      "correct": "I will attend the meeting tomorrow.",
-      "frenchConnection": "'Assister à' means 'to attend'. Use 'assist' only when you mean 'to help someone'."
-    },
-    {
-      "number": 3,
-      "subTopic": "Library/Librairie",
-      "wrong": "I bought my textbooks at the library.",
-      "correct": "I bought my textbooks at the bookstore.",
-      "frenchConnection": "'Librairie' is where you buy books. 'Library' is 'bibliothèque' where you borrow books for free."
-    },
-    {
-      "number": 4,
-      "subTopic": "Demand/Demander",
-      "wrong": "Can I demand you a question?",
-      "correct": "Can I ask you a question?",
-      "frenchConnection": "'Demander' is to ask politely. 'Demand' is forceful and strong, like 'exiger'."
-    },
-    {
-      "number": 5,
-      "subTopic": "Eventually/Éventuellement",
-      "wrong": "I will eventually come to the party.",
-      "correct": "I will possibly come to the party.",
-      "frenchConnection": "'Éventuellement' means 'possibly'. 'Eventually' means 'finally, in the end' (finalement)."
-    }
-  ],
   "schema_version": "1",
   "module_version": "1.0.0",
+  "moduleIntroduction": {
+    "welcome": "Welcome to the False Cognates module! These are the 'Faux Amis' (False Friends) that trick Francophones.",
+    "theProblem": "Many words in English look exactly like French words (*Actuellement* vs. *Actually*, *Librairie* vs. *Library*). But be careful! They often have completely different meanings. Using them wrong can make your sentence mean the opposite of what you intend.",
+    "thePromise": "By the end of this lesson, you will uncover the disguises of these 'False Friends' and learn the correct English words to express exactly what you mean."
+  },
+  "contrastiveExplanation": "### Concept 1: The Time Trap (Actually vs. Currently)\n\n**The Rule:**\n* **Currently:** Means *now*, *at this moment*, or *these days*.\n* **Actually:** Means *in fact*, *really*, or *to tell the truth*.\n\n**The French Trap:**\nFrench uses *Actuellement* to mean \"now\". The English word *Actually* looks just like it, so students say: \"I am **actually** in Yaoundé\" (meaning *now*).\n\n**The Fix:**\n* If you mean **Maintenant** ➡️ Use **Currently**.\n* If you mean **En fait** ➡️ Use **Actually**.\n\n**Visual Metaphor:**\nThink of **Actually** as a finger pointing up saying **\"Matter of fact!\"** ☝️. Think of **Currently** as a **Clock** ⏰.\n\n**Examples:**\n* 🇫🇷 *Je travaille ici actuellement.*\n    * ❌ I work here **actually**.\n    * ✅ I am **currently** working here.\n* 🇫🇷 *En fait, je ne sais pas.*\n    * ❌ **Currently**, I don't know.\n    * ✅ **Actually**, I don't know.\n\n---\n\n### Concept 2: The Meeting Mix-up (Assist vs. Attend)\n\n**The Rule:**\n* **Attend:** To be present at an event (go to a meeting, go to school).\n* **Assist:** To help someone do a task.\n\n**The French Trap:**\nFrench uses *Assister à* (to be present). This looks like *Assist*. \n* *\"J'ai assisté à la réunion\"* ➡️ ❌ *\"I assisted the meeting.\"* (This implies you were the helper/secretary, not just a participant).\n\n**The Fix:**\n* **Attend** = **A**u revoir (You go there).\n* **Assist** = **S**upport (You help).\n\n**Examples:**\n* 🇫🇷 *Je vais assister au mariage.*\n    * ❌ I will **assist** the wedding.\n    * ✅ I will **attend** the wedding.\n* 🇫🇷 *Il m'a aidé.*\n    * ✅ He **assisted** me.\n\n---\n\n### Concept 3: The Book Confusion (Library vs. Bookstore)\n\n**The Rule:**\n* **Library:** A place where you **borrow** books for free (Bibliothèque).\n* **Bookstore / Bookshop:** A place where you **buy** books (Librairie).\n\n**The French Trap:**\n* *Librairie* sounds like *Library*. But they are opposites!\n* *Bibliothèque* has no obvious English twin, so students grab the word *Library* for the wrong place.\n\n**The Fix:**\nLook at the word **LIB**rary. Connect it to **LIB**erty (Free). You get books for free (borrow) at the Library.\n\n**Examples:**\n* 🇫🇷 *Je vais à la librairie acheter un livre.*\n    * ❌ I am going to the **library** to buy a book.\n    * ✅ I am going to the **bookstore**.\n* 🇫🇷 *J'étudie à la bibliothèque.*\n    * ✅ I am studying at the **library**.",
+  "commonErrors": [
+    {
+      "subTopic": "Actuellement vs Actually",
+      "wrong": "I am actually living in Douala.",
+      "correct": "I am currently living in Douala.",
+      "frenchConnection": "'Actuellement' = Currently. 'Actually' = In fact/Really."
+    },
+    {
+      "subTopic": "Assister vs Attend",
+      "wrong": "I assist school every day.",
+      "correct": "I attend school every day.",
+      "frenchConnection": "'Assister à' = Attend. 'Assist' = Help."
+    },
+    {
+      "subTopic": "Passer vs Take (Exams)",
+      "wrong": "I will pass my exam tomorrow.",
+      "correct": "I will take my exam tomorrow.",
+      "frenchConnection": "French 'Passer un examen' means to sit for it. In English, 'Pass' means you succeeded (you didn't fail). You 'Take' it first, then you 'Pass' or 'Fail'."
+    },
+    {
+      "subTopic": "Journée vs Journey",
+      "wrong": "Have a nice journey!",
+      "correct": "Have a nice day!",
+      "frenchConnection": "French 'Journée' = Day. English 'Journey' = A long trip (Voyage)."
+    },
+    {
+      "subTopic": "Sensible vs Sensitive",
+      "wrong": "He is very sensible to cold.",
+      "correct": "He is very sensitive to cold.",
+      "frenchConnection": "French 'Sensible' (emotional/physical feeling) = English 'Sensitive'. English 'Sensible' means 'Reasonable/Logical' (Raisonnable)."
+    },
+    {
+      "subTopic": "Déranger vs Derange",
+      "wrong": "Sorry to derange you.",
+      "correct": "Sorry to disturb you.",
+      "frenchConnection": "French 'Déranger' = Disturb. English 'Derange' means to make someone crazy/insane."
+    }
+  ],
   "items": [
     {
-      "id": "false-cog-1-A",
+      "id": "fc-e01-A",
       "moduleId": "false-cognates",
-      "questionText": "\"Where do you work?\" \"I ___ work at the Ministry of Education.\"",
+      "difficulty": "easy",
+      "questionText": "I want to buy a novel. Where is the ___?",
+      "type": "multiple_choice",
+      "options": [
+        "library",
+        "bookstore",
+        "bibliotheque"
+      ],
+      "correctAnswer": "bookstore",
+      "feedback": "Correct! A 'bookstore' (librairie) is where you buy books. A 'library' is where you borrow them.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Library vs Bookstore",
+      "frenchComparison": {
+        "frenchStructure": "Je vais à la librairie...",
+        "englishStructure": "I am going to the bookstore...",
+        "whyDifficult": "French 'Librairie' looks like 'Library'. But 'Library' = Bibliothèque.",
+        "visualHighlighting": {
+          "incorrect": "library",
+          "correct": "bookstore"
+        }
+      }
+    },
+    {
+      "id": "fc-e02-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I will ___ the meeting at 10 AM.",
+      "type": "multiple_choice",
+      "options": [
+        "assist",
+        "attend",
+        "assist at"
+      ],
+      "correctAnswer": "attend",
+      "feedback": "Correct! 'Attend' means to be present (assister à). 'Assist' means to help.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Assist vs Attend",
+      "frenchComparison": {
+        "frenchStructure": "J'assisterai à la réunion...",
+        "englishStructure": "I will attend the meeting...",
+        "whyDifficult": "French 'Assister à' looks like 'Assist'. But 'Assist' = Help.",
+        "visualHighlighting": {
+          "incorrect": "assist",
+          "correct": "attend"
+        }
+      }
+    },
+    {
+      "id": "fc-e03-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Can I ___ you a question?",
+      "type": "multiple_choice",
+      "options": [
+        "demand",
+        "ask",
+        "question"
+      ],
+      "correctAnswer": "ask",
+      "feedback": "Correct! 'Demander' usually translates to 'Ask'. 'Demand' means 'Exiger'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Demand vs Ask",
+      "frenchComparison": {
+        "frenchStructure": "Puis-je te demander...",
+        "englishStructure": "Can I ask you...",
+        "whyDifficult": "French 'Demander' looks like 'Demand'. But 'Demand' = Exiger.",
+        "visualHighlighting": {
+          "incorrect": "demand",
+          "correct": "ask"
+        }
+      }
+    },
+    {
+      "id": "fc-e04-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I am tired. I want to ___ at home.",
+      "type": "multiple_choice",
+      "options": [
+        "rest",
+        "stay",
+        "remainder"
+      ],
+      "correctAnswer": "stay",
+      "feedback": "Correct! 'Rester' translates to 'Stay'. 'Rest' means 'Se reposer'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Rest vs Stay",
+      "frenchComparison": {
+        "frenchStructure": "Je veux rester à la maison...",
+        "englishStructure": "I want to stay at home...",
+        "whyDifficult": "French 'Rester' looks like 'Rest'. But 'Rest' = Se reposer.",
+        "visualHighlighting": {
+          "incorrect": "rest",
+          "correct": "stay"
+        }
+      }
+    },
+    {
+      "id": "fc-e05-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "My arm hurts. I ___ myself playing football.",
+      "type": "multiple_choice",
+      "options": [
+        "blessed",
+        "hurt",
+        "injured"
+      ],
+      "correctAnswer": "hurt",
+      "feedback": "Correct! 'Blesser' means 'to hurt' or 'injure'. 'Bless' means 'Bénir'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Bless vs Hurt",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis blessé...",
+        "englishStructure": "I hurt myself...",
+        "whyDifficult": "French 'Blesser' looks like 'Bless'. But 'Bless' = Bénir.",
+        "visualHighlighting": {
+          "incorrect": "blessed",
+          "correct": "hurt"
+        }
+      }
+    },
+    {
+      "id": "fc-e06-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Do you have any ___? I need to buy water.",
+      "type": "multiple_choice",
+      "options": [
+        "money",
+        "change",
+        "coin"
+      ],
+      "correctAnswer": "change",
+      "feedback": "Correct! 'Monnaie' (small money) is 'change'. 'Money' is 'Argent'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Money vs Change",
+      "frenchComparison": {
+        "frenchStructure": "As-tu de la monnaie...",
+        "englishStructure": "Do you have any change...",
+        "whyDifficult": "French 'Monnaie' looks like 'Money'. But 'Money' = Argent.",
+        "visualHighlighting": {
+          "incorrect": "money",
+          "correct": "change"
+        }
+      }
+    },
+    {
+      "id": "fc-e07-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Have a nice ___!",
+      "type": "multiple_choice",
+      "options": [
+        "journey",
+        "day",
+        "travel"
+      ],
+      "correctAnswer": "day",
+      "feedback": "Correct! 'Journée' translates to 'Day'. 'Journey' means 'Voyage'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Journey vs Day",
+      "frenchComparison": {
+        "frenchStructure": "Bonne journée...",
+        "englishStructure": "Have a nice day...",
+        "whyDifficult": "French 'Journée' looks like 'Journey'. But 'Journey' = Voyage.",
+        "visualHighlighting": {
+          "incorrect": "journey",
+          "correct": "day"
+        }
+      }
+    },
+    {
+      "id": "fc-e08-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Put the chair in the ___ of the room.",
+      "type": "multiple_choice",
+      "options": [
+        "coin",
+        "corner",
+        "angle"
+      ],
+      "correctAnswer": "corner",
+      "feedback": "Correct! 'Coin' (of a room) is 'Corner'. A 'Coin' in English is a metal piece of money (pièce).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Coin vs Corner",
+      "frenchComparison": {
+        "frenchStructure": "Mets la chaise dans le coin...",
+        "englishStructure": "Put the chair in the corner...",
+        "whyDifficult": "French 'Coin' looks like 'Coin'. But 'Coin' = Pièce de monnaie.",
+        "visualHighlighting": {
+          "incorrect": "coin",
+          "correct": "corner"
+        }
+      }
+    },
+    {
+      "id": "fc-e09-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I will ___ my exam tomorrow.",
+      "type": "multiple_choice",
+      "options": [
+        "pass",
+        "take",
+        "success"
+      ],
+      "correctAnswer": "take",
+      "feedback": "Correct! 'Passer un examen' is 'Take an exam'. In English, 'Pass' means you succeeded (réussir).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pass vs Take",
+      "frenchComparison": {
+        "frenchStructure": "Je vais passer mon examen...",
+        "englishStructure": "I will take my exam...",
+        "whyDifficult": "French 'Passer' looks like 'Pass'. But 'Pass' = Réussir.",
+        "visualHighlighting": {
+          "incorrect": "pass",
+          "correct": "take"
+        }
+      }
+    },
+    {
+      "id": "fc-e10-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "She likes eating ___.",
+      "type": "multiple_choice",
+      "options": [
+        "grapes",
+        "raisins",
+        "grappes"
+      ],
+      "correctAnswer": "grapes",
+      "feedback": "Correct! The fresh fruit (raisin) is 'grape'. 'Raisin' in English is a dried grape (raisin sec).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Grape vs Raisin",
+      "frenchComparison": {
+        "frenchStructure": "Elle aime manger du raisin...",
+        "englishStructure": "She likes eating grapes...",
+        "whyDifficult": "French 'Raisin' looks like 'Raisin'. But 'Raisin' = Raisin sec.",
+        "visualHighlighting": {
+          "incorrect": "raisins",
+          "correct": "grapes"
+        }
+      }
+    },
+    {
+      "id": "fc-e11-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Don't ___! Speak quietly.",
+      "type": "multiple_choice",
+      "options": [
+        "cry",
+        "shout",
+        "scream"
+      ],
+      "correctAnswer": "shout",
+      "feedback": "Correct! 'Crier' usually means 'shout'. 'Cry' means 'Pleurer'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Cry vs Shout",
+      "frenchComparison": {
+        "frenchStructure": "Ne crie pas...",
+        "englishStructure": "Don't shout...",
+        "whyDifficult": "French 'Crier' looks like 'Cry'. But 'Cry' = Pleurer.",
+        "visualHighlighting": {
+          "incorrect": "cry",
+          "correct": "shout"
+        }
+      }
+    },
+    {
+      "id": "fc-e12-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I broke my ___.",
+      "type": "multiple_choice",
+      "options": [
+        "bra",
+        "arm",
+        "member"
+      ],
+      "correctAnswer": "arm",
+      "feedback": "Correct! 'Bras' is 'Arm'. 'Bra' is women's underwear (soutien-gorge).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Bra vs Arm",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis cassé le bras...",
+        "englishStructure": "I broke my arm...",
+        "whyDifficult": "French 'Bras' looks like 'Bra'. But 'Bra' = Soutien-gorge.",
+        "visualHighlighting": {
+          "incorrect": "bra",
+          "correct": "arm"
+        }
+      }
+    },
+    {
+      "id": "fc-e13-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "He is going to the ___ to buy food.",
+      "type": "multiple_choice",
+      "options": [
+        "store",
+        "blind",
+        "curtain"
+      ],
+      "correctAnswer": "store",
+      "feedback": "Correct! A 'store' is a shop (magasin). 'Store' (French) is a 'blind' or 'shade' for a window.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Store vs Shop",
+      "frenchComparison": {
+        "frenchStructure": "Il va au magasin...",
+        "englishStructure": "He is going to the store...",
+        "whyDifficult": "French 'Store' means 'Blind'. English 'Store' = Magasin.",
+        "visualHighlighting": {
+          "incorrect": "blind",
+          "correct": "store"
+        }
+      }
+    },
+    {
+      "id": "fc-e14-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Put on your ___ it is cold.",
+      "type": "multiple_choice",
+      "options": [
+        "vest",
+        "jacket",
+        "coat"
+      ],
+      "correctAnswer": "jacket",
+      "feedback": "Correct! 'Veste' is usually 'Jacket'. A 'Vest' in English is a 'gilet' (sleeveless).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Vest vs Jacket",
+      "frenchComparison": {
+        "frenchStructure": "Mets ta veste...",
+        "englishStructure": "Put on your jacket...",
+        "whyDifficult": "French 'Veste' looks like 'Vest'. But 'Vest' = Gilet.",
+        "visualHighlighting": {
+          "incorrect": "vest",
+          "correct": "jacket"
+        }
+      }
+    },
+    {
+      "id": "fc-e15-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "The teacher is in the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "class",
+        "classroom",
+        "course"
+      ],
+      "correctAnswer": "classroom",
+      "feedback": "Correct! The room (la salle de classe) is 'classroom'. 'Class' is the group of students or the lesson.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Class vs Classroom",
+      "frenchComparison": {
+        "frenchStructure": "Le professeur est dans la classe...",
+        "englishStructure": "The teacher is in the classroom...",
+        "whyDifficult": "French 'Classe' can mean room. English 'Classroom' is the room.",
+        "visualHighlighting": {
+          "incorrect": "class",
+          "correct": "classroom"
+        }
+      }
+    },
+    {
+      "id": "fc-e16-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I waited for two ___.",
+      "type": "multiple_choice",
+      "options": [
+        "days",
+        "journeys",
+        "travels"
+      ],
+      "correctAnswer": "days",
+      "feedback": "Correct! 'Jours' = Days.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Journey vs Day",
+      "frenchComparison": {
+        "frenchStructure": "J'ai attendu deux jours...",
+        "englishStructure": "I waited for two days...",
+        "whyDifficult": "French 'Journée' looks like 'Journey'.",
+        "visualHighlighting": {
+          "incorrect": "journeys",
+          "correct": "days"
+        }
+      }
+    },
+    {
+      "id": "fc-e17-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "This bag is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "large",
+        "wide",
+        "broad"
+      ],
+      "correctAnswer": "large",
+      "feedback": "Correct! 'Large' means 'Big' (Grand). 'Large' (French) usually translates to 'Wide'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Large vs Big",
+      "frenchComparison": {
+        "frenchStructure": "Ce sac est très grand...",
+        "englishStructure": "This bag is very large...",
+        "whyDifficult": "French 'Large' means 'Wide'. English 'Large' means 'Big'.",
+        "visualHighlighting": {
+          "incorrect": "wide",
+          "correct": "large"
+        }
+      }
+    },
+    {
+      "id": "fc-e18-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Before eating, take a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "plate",
+        "plat",
+        "dish"
+      ],
+      "correctAnswer": "plate",
+      "feedback": "Correct! The object (assiette) is a 'plate'. 'Plat' (French) refers to the food served (Dish).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Plate vs Dish",
+      "frenchComparison": {
+        "frenchStructure": "Prends une assiette...",
+        "englishStructure": "Take a plate...",
+        "whyDifficult": "French 'Plat' looks like 'Plate'. But 'Plate' = Assiette.",
+        "visualHighlighting": {
+          "incorrect": "plat",
+          "correct": "plate"
+        }
+      }
+    },
+    {
+      "id": "fc-e19-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "My daughter is at ___ (secondary school).",
+      "type": "multiple_choice",
+      "options": [
+        "college",
+        "secondary school",
+        "university"
+      ],
+      "correctAnswer": "secondary school",
+      "feedback": "Correct! 'Collège' is 'Secondary school' or 'Middle school'. 'College' in English is usually University.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "College vs School",
+      "frenchComparison": {
+        "frenchStructure": "Ma fille est au collège...",
+        "englishStructure": "My daughter is at secondary school...",
+        "whyDifficult": "French 'Collège' looks like 'College'. But 'College' = Université.",
+        "visualHighlighting": {
+          "incorrect": "college",
+          "correct": "secondary school"
+        }
+      }
+    },
+    {
+      "id": "fc-e20-A",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Don't walk on the ___ (grass).",
+      "type": "multiple_choice",
+      "options": [
+        "gazon",
+        "lawn",
+        "grass"
+      ],
+      "correctAnswer": "grass",
+      "feedback": "Correct! 'Gazon' is 'Grass' or 'Lawn'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Grass vs Lawn",
+      "frenchComparison": {
+        "frenchStructure": "Ne marche pas sur le gazon...",
+        "englishStructure": "Don't walk on the grass...",
+        "whyDifficult": "Vocabulary difference.",
+        "visualHighlighting": {
+          "incorrect": "gazon",
+          "correct": "grass"
+        }
+      }
+    },
+    {
+      "id": "fc-m01-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I am ___ working as a teacher.",
       "type": "multiple_choice",
       "options": [
         "actually",
@@ -55,174 +601,26 @@
         "presently"
       ],
       "correctAnswer": "currently",
-      "feedback": "Correct! To express 'actuellement' in French (meaning 'at present'), use 'currently' in English. 'Actually' means 'en fait' (in fact), used to correct or emphasize truth. Example: 'Actually, I prefer tea, not coffee.'",
+      "feedback": "Correct! 'Actuellement' translates to 'Currently'. 'Actually' means 'In fact'.",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Actually/Actuellement",
-      "falseCognate": {
-        "englishWord": "actually",
-        "frenchWord": "actuellement",
-        "frenchMeaning": "currently, at present (right now)",
-        "englishMeaning": "in fact, really (used to correct or emphasize)",
-        "commonMistake": "Saying 'I am actually working' when you mean 'I am currently working'",
-        "memoryTrick": "Actually = En fait (In fact) | Currently = Actuellement (At present)"
+      "subTopic": "Actually vs Currently",
+      "frenchComparison": {
+        "frenchStructure": "Je travaille actuellement...",
+        "englishStructure": "I am currently working...",
+        "whyDifficult": "French 'Actuellement' looks like 'Actually'. But 'Actually' = En fait.",
+        "visualHighlighting": {
+          "incorrect": "actually",
+          "correct": "currently"
+        }
       }
     },
     {
-      "id": "false-cog-2-A",
+      "id": "fc-m02-A",
       "moduleId": "false-cognates",
-      "questionText": "\"Will you ___ the conference at the university tomorrow?\"",
-      "type": "multiple_choice",
-      "options": [
-        "assist",
-        "attend",
-        "help"
-      ],
-      "correctAnswer": "attend",
-      "feedback": "Perfect! To be present at a meeting or event, use 'attend' (assister à). 'Assist' means 'to help someone' (aider). Example: 'The nurse will assist the doctor' (help), but 'I will attend the meeting' (be present).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Assist/Assister",
-      "falseCognate": {
-        "englishWord": "assist",
-        "frenchWord": "assister",
-        "frenchMeaning": "to attend, be present at",
-        "englishMeaning": "to help, give support to",
-        "commonMistake": "Saying 'I will assist the meeting' when you mean 'attend'",
-        "memoryTrick": "Assist = Aider (to help) | Attend = Assister à (to be present)"
-      }
-    },
-    {
-      "id": "false-cog-3-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I am ___ for my friend at the motor park.\"",
-      "type": "multiple_choice",
-      "options": [
-        "attending",
-        "waiting",
-        "expecting"
-      ],
-      "correctAnswer": "waiting",
-      "feedback": "Correct! The verb 'attendre' in French means 'to wait (for)' in English. 'Attend' means 'to be present at' (assister à). Example: 'I attend school' (I go to school), but 'I am waiting for my friend' (j'attends mon ami).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Attend/Attendre",
-      "falseCognate": {
-        "englishWord": "attend",
-        "frenchWord": "attendre",
-        "frenchMeaning": "to wait, to wait for",
-        "englishMeaning": "to be present at, to go to",
-        "commonMistake": "Saying 'I am attending my friend' when you mean 'waiting for'",
-        "memoryTrick": "Attend = Assister à (be present) | Wait for = Attendre"
-      }
-    },
-    {
-      "id": "false-cog-4-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I need to go to the ___ to buy my textbooks for school.\"",
-      "type": "multiple_choice",
-      "options": [
-        "library",
-        "bookstore",
-        "librarian"
-      ],
-      "correctAnswer": "bookstore",
-      "feedback": "Excellent! A 'librairie' in French is a 'bookstore' in English (where you BUY books). A 'library' is a 'bibliothèque' where you BORROW books for free. Memory trick: Library = Borrow, Bookstore = Buy.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Library/Librairie",
-      "falseCognate": {
-        "englishWord": "library",
-        "frenchWord": "librairie",
-        "frenchMeaning": "bookstore (a shop where you buy books)",
-        "englishMeaning": "bibliothèque (a place to borrow books for free)",
-        "commonMistake": "Saying 'I bought books at the library' when you mean 'bookstore'",
-        "memoryTrick": "Library = Bibliothèque (Borrow) | Bookstore = Librairie (Buy)"
-      }
-    },
-    {
-      "id": "false-cog-5-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"The conference will have over 200 teachers from across Cameroon.\" What is being described?",
-      "type": "multiple_choice",
-      "options": [
-        "A single lecture by one professor",
-        "A large multi-day event with many speakers",
-        "A press conference"
-      ],
-      "correctAnswer": "A large multi-day event with many speakers",
-      "feedback": "Correct! A 'conference' in English is a large, multi-day event with many speakers (un congrès or colloque). A single academic talk is a 'lecture' or 'presentation'. 'Conférence' in French often means a single lecture.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Conference/Conférence",
-      "falseCognate": {
-        "englishWord": "conference",
-        "frenchWord": "conférence",
-        "frenchMeaning": "a lecture, academic talk, or press conference",
-        "englishMeaning": "a large, multi-day meeting with many speakers",
-        "commonMistake": "Saying 'I am going to the conference hall' when you mean a single lecture",
-        "memoryTrick": "Conference = Big multi-day event (congrès) | Lecture = Single talk (conférence)"
-      }
-    },
-    {
-      "id": "false-cog-6-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Please let me ___ you to the Headmaster, Mr. Njoya.\"",
-      "type": "multiple_choice",
-      "options": [
-        "introduce",
-        "insert",
-        "present"
-      ],
-      "correctAnswer": "introduce",
-      "feedback": "Perfect! Use 'introduce' when presenting one person to another (présenter). 'Introduire' in French means 'to insert' or 'to put inside'. Example: 'He inserted the key' (Il a introduit la clé), but 'Let me introduce you' (présenter).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Introduce/Introduire",
-      "falseCognate": {
-        "englishWord": "introduce",
-        "frenchWord": "introduire",
-        "frenchMeaning": "to insert, to put inside, to bring in",
-        "englishMeaning": "to present one person to another",
-        "commonMistake": "Saying 'He introduced the USB key' when you mean 'inserted'",
-        "memoryTrick": "Introduce = Présenter (people) | Insert = Introduire (objects)"
-      }
-    },
-    {
-      "id": "false-cog-7-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I ___ go to Kribi this weekend, but I'm not sure yet.\"",
-      "type": "multiple_choice",
-      "options": [
-        "eventually",
-        "possibly",
-        "finally"
-      ],
-      "correctAnswer": "possibly",
-      "feedback": "Correct! 'Éventuellement' means 'possibly' or 'perhaps'. 'Eventually' means 'finally' or 'in the end' after a long time. Example: 'If you study hard, you will eventually pass' (finalement).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Eventually/Éventuellement",
-      "falseCognate": {
-        "englishWord": "eventually",
-        "frenchWord": "éventuellement",
-        "frenchMeaning": "possibly, perhaps",
-        "englishMeaning": "in the end, finally (after a long time)",
-        "commonMistake": "Saying 'I will eventually come' when you mean 'possibly'",
-        "memoryTrick": "Eventually = Finalement (Finally) | Possibly = Éventuellement"
-      }
-    },
-    {
-      "id": "false-cog-8-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Be careful what you say to him; he is very ___ to criticism.\"",
+      "difficulty": "medium",
+      "questionText": "Be careful what you say to him. He is very ___.",
       "type": "multiple_choice",
       "options": [
         "sensible",
@@ -230,1068 +628,2665 @@
         "sensing"
       ],
       "correctAnswer": "sensitive",
-      "feedback": "Perfect! 'Sensible' in French means 'sensitive' (emotional). But in English, 'sensible' means 'practical' or 'reasonable' (raisonnable). Use 'sensitive' for emotions. Example: 'It is sensible to save money' (practical).",
+      "feedback": "Correct! 'Sensible' (French) means 'Sensitive' (emotional). English 'Sensible' means 'Reasonable' (Raisonnable).",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Sensible/Sensible",
-      "falseCognate": {
-        "englishWord": "sensible",
-        "frenchWord": "sensible",
-        "frenchMeaning": "sensitive (easily affected by emotions)",
-        "englishMeaning": "practical, reasonable (having good judgment)",
-        "commonMistake": "Saying 'He is very sensible' when you mean 'sensitive'",
-        "memoryTrick": "Sensible = Raisonnable (Practical) | Sensitive = Sensible (Emotional)"
+      "subTopic": "Sensible vs Sensitive",
+      "frenchComparison": {
+        "frenchStructure": "Il est très sensible...",
+        "englishStructure": "He is very sensitive...",
+        "whyDifficult": "French 'Sensible' looks like 'Sensible'. But 'Sensible' = Raisonnable.",
+        "visualHighlighting": {
+          "incorrect": "sensible",
+          "correct": "sensitive"
+        }
       }
     },
     {
-      "id": "false-cog-9-A",
+      "id": "fc-m03-A",
       "moduleId": "false-cognates",
-      "questionText": "\"My bad exam results ___ my parents very much.\"",
-      "type": "multiple_choice",
-      "options": [
-        "deceived",
-        "disappointed",
-        "tricked"
-      ],
-      "correctAnswer": "disappointed",
-      "feedback": "That's right! 'Décevoir' means 'to disappoint'. 'Deceive' means 'to trick' or 'to lie to' (tromper). Example: 'The seller deceived me' (he tricked me), but 'I disappointed my teacher' (I let them down).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Deceive/Décevoir",
-      "falseCognate": {
-        "englishWord": "deceive",
-        "frenchWord": "décevoir",
-        "frenchMeaning": "to disappoint",
-        "englishMeaning": "to trick, to lie to",
-        "commonMistake": "Saying 'I deceived my teacher' when you mean 'disappointed'",
-        "memoryTrick": "Deceive = Tromper (to trick) | Disappoint = Décevoir"
-      }
-    },
-    {
-      "id": "false-cog-10-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Excuse me, may I ___ you a question about the assignment?\"",
-      "type": "multiple_choice",
-      "options": [
-        "demand",
-        "ask",
-        "request"
-      ],
-      "correctAnswer": "ask",
-      "feedback": "That's right! Use 'ask' for polite requests (demander). 'Demand' is very strong and forceful (exiger), like when workers demand higher pay. 'Ask' is polite, 'demand' is aggressive.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Demand/Demander",
-      "falseCognate": {
-        "englishWord": "demand",
-        "frenchWord": "demander",
-        "frenchMeaning": "to ask (polite request)",
-        "englishMeaning": "to insist strongly (forceful, often impolite)",
-        "commonMistake": "Saying 'Can I demand you something?' when you mean 'ask'",
-        "memoryTrick": "Demand = Exiger (to insist) | Ask = Demander (polite)"
-      }
-    },
-    {
-      "id": "false-cog-11-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"The ___ from Yaoundé to Bamenda takes many hours by bus.\"",
-      "type": "multiple_choice",
-      "options": [
-        "journey",
-        "day",
-        "date"
-      ],
-      "correctAnswer": "journey",
-      "feedback": "Excellent! A 'journey' is a trip (voyage). 'Journée' in French means 'day'. Example: 'Bonne journée!' = 'Have a good day!' (not 'good journey'). 'Journey' is for travel.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Journey/Journée",
-      "falseCognate": {
-        "englishWord": "journey",
-        "frenchWord": "journée",
-        "frenchMeaning": "day (the duration of the day)",
-        "englishMeaning": "a trip (the act of traveling)",
-        "commonMistake": "Saying 'I had a long journey' when you mean 'a long day'",
-        "memoryTrick": "Journey = Voyage (a trip) | Day = Journée (the time)"
-      }
-    },
-    {
-      "id": "false-cog-12-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"The professor's ___ on Cameroonian history was very interesting.\"",
-      "type": "multiple_choice",
-      "options": [
-        "reading",
-        "lecture",
-        "book"
-      ],
-      "correctAnswer": "lecture",
-      "feedback": "Correct! A 'lecture' is an academic talk by a professor (un cours magistral or conférence). 'Lecture' in French means 'reading' (the activity). Example: 'I like reading' = 'J'aime la lecture'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Lecture/Lecture",
-      "falseCognate": {
-        "englishWord": "lecture",
-        "frenchWord": "lecture",
-        "frenchMeaning": "reading (the activity)",
-        "englishMeaning": "academic talk by a professor",
-        "commonMistake": "Saying 'I did a lot of lecture' when you mean 'reading'",
-        "memoryTrick": "Lecture = Cours magistral (Professor's talk) | Reading = Lecture"
-      }
-    },
-    {
-      "id": "false-cog-13-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Can you send me your ___ on WhatsApp? I want to know where you are.\"",
-      "type": "multiple_choice",
-      "options": [
-        "rental",
-        "location",
-        "house"
-      ],
-      "correctAnswer": "location",
-      "feedback": "Perfect! 'Location' in English means 'a place' or 'position' (endroit/emplacement). 'Location' in French means 'rental' (renting a car or house). Example: 'This is a good location for a shop' (place).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Location/Location",
-      "falseCognate": {
-        "englishWord": "location",
-        "frenchWord": "location",
-        "frenchMeaning": "rental (renting a car, house, etc.)",
-        "englishMeaning": "a place or position",
-        "commonMistake": "Saying 'I am looking for a location' when you mean 'a rental apartment'",
-        "memoryTrick": "Location = Endroit/Emplacement (a place) | Rental = Location"
-      }
-    },
-    {
-      "id": "false-cog-14-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"A wedding is a very happy ___. Everyone dresses up.\"",
-      "type": "multiple_choice",
-      "options": [
-        "bargain",
-        "occasion",
-        "deal"
-      ],
-      "correctAnswer": "occasion",
-      "feedback": "Excellent! 'Occasion' in English means 'a special event' (événement). 'Occasion' in French often means 'second-hand' or 'a bargain'. Example: 'J'ai acheté cette voiture d'occasion' = 'I bought this car second-hand'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Occasion/Occasion",
-      "falseCognate": {
-        "englishWord": "occasion",
-        "frenchWord": "occasion",
-        "frenchMeaning": "second-hand, a bargain, a deal",
-        "englishMeaning": "a special event or particular time",
-        "commonMistake": "Saying 'I bought this for a good occasion' when you mean 'for a good price'",
-        "memoryTrick": "Occasion = Événement (an event) | Bargain/Second-hand = Occasion"
-      }
-    },
-    {
-      "id": "false-cog-15-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Please send your ___ and cover letter to apply for this job.\"",
-      "type": "multiple_choice",
-      "options": [
-        "summary",
-        "resume",
-        "review"
-      ],
-      "correctAnswer": "resume",
-      "feedback": "Correct! 'Resume' (or résumé) in English means a CV for job applications. 'Résumer' in French is a verb meaning 'to summarize', and 'un résumé' means 'a summary'. Use 'summary' for book summaries.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Resume/Résumer",
-      "falseCognate": {
-        "englishWord": "resume",
-        "frenchWord": "résumer",
-        "frenchMeaning": "to summarize (verb); un résumé = a summary",
-        "englishMeaning": "a CV (for job applications)",
-        "commonMistake": "Saying 'The teacher asked for a resume of the book' when you mean 'summary'",
-        "memoryTrick": "Resume (CV) = CV (for a job) | Summary = Résumé (short version)"
-      }
-    },
-    {
-      "id": "false-cog-16-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I am going to ___ at my friend's house for the weekend.\"",
-      "type": "multiple_choice",
-      "options": [
-        "rest",
-        "stay",
-        "sleep"
-      ],
-      "correctAnswer": "stay",
-      "feedback": "Perfect! 'Rester' in French means 'to stay' or 'to remain'. 'Rest' in English means 'to relax' or 'sleep' (se reposer). Example: 'You are sick; you need to rest' (relax), but 'I will stay at home' (remain).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Rest/Rester",
-      "falseCognate": {
-        "englishWord": "rest",
-        "frenchWord": "rester",
-        "frenchMeaning": "to stay or to remain",
-        "englishMeaning": "to relax, sleep, or take a break",
-        "commonMistake": "Saying 'I am going to rest at my friend's house' when you mean 'stay'",
-        "memoryTrick": "Rest = Se reposer (to relax) | Stay = Rester (to remain)"
-      }
-    },
-    {
-      "id": "false-cog-17-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"If you work hard and study well, you will ___ in your exams.\"",
-      "type": "multiple_choice",
-      "options": [
-        "follow",
-        "succeed",
-        "come after"
-      ],
-      "correctAnswer": "succeed",
-      "feedback": "Excellent! 'Succeed' in English means 'to be successful' (réussir). 'Succéder' in French means 'to follow' or 'to come after'. Example: 'The Prince will succeed the King' (follow in sequence), but 'I hope you succeed' (be successful).",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Succeed/Succéder",
-      "falseCognate": {
-        "englishWord": "succeed",
-        "frenchWord": "succéder",
-        "frenchMeaning": "to follow, to come after (in a sequence)",
-        "englishMeaning": "to be successful, to achieve a goal",
-        "commonMistake": "Saying 'The sunshine succeeded the rain' when you mean 'followed'",
-        "memoryTrick": "Succeed = Réussir (to be successful) | Follow = Succéder"
-      }
-    },
-    {
-      "id": "false-cog-18-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"My parents ___ my decision to study medicine at the university.\"",
-      "type": "multiple_choice",
-      "options": [
-        "tolerate",
-        "support",
-        "endure"
-      ],
-      "correctAnswer": "support",
-      "feedback": "Correct! 'Support' in English means 'to help' or 'to encourage' (soutenir/aider). 'Supporter' in French means 'to tolerate' or 'to endure' something bad. Example: 'Je ne peux pas supporter ce bruit' = 'I cannot tolerate this noise'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Support/Supporter",
-      "falseCognate": {
-        "englishWord": "support",
-        "frenchWord": "supporter",
-        "frenchMeaning": "to tolerate, to endure, to put up with",
-        "englishMeaning": "to help, to assist, to encourage",
-        "commonMistake": "Saying 'I cannot support my neighbor' when you mean 'tolerate'",
-        "memoryTrick": "Support = Soutenir/Aider (to help) | Tolerate = Supporter (to endure)"
-      }
-    },
-    {
-      "id": "false-cog-19-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"When I failed my exam, my teacher was very ___ and gave me encouragement.\"",
+      "difficulty": "medium",
+      "questionText": "She is a very ___ person; everyone likes her.",
       "type": "multiple_choice",
       "options": [
         "sympathetic",
         "nice",
-        "friendly"
+        "kind"
       ],
-      "correctAnswer": "sympathetic",
-      "feedback": "Perfect! 'Sympathetic' in English means 'showing compassion or pity' (compatissant). 'Sympathique' in French means 'nice' or 'friendly'. Example: 'Your friend is very nice' = 'Ton ami est très sympathique'.",
+      "correctAnswer": "nice",
+      "feedback": "Correct! 'Sympathique' translates to 'Nice' or 'Friendly'. 'Sympathetic' means 'Compassionate' (compatissant).",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Sympathetic/Sympathique",
-      "falseCognate": {
-        "englishWord": "sympathetic",
-        "frenchWord": "sympathique",
-        "frenchMeaning": "nice, likeable, friendly",
-        "englishMeaning": "showing compassion or pity for suffering",
-        "commonMistake": "Saying 'My boss is very sympathetic' when you mean 'nice'",
-        "memoryTrick": "Sympathetic = Compatissant (showing pity) | Nice = Sympathique"
+      "subTopic": "Sympathetic vs Nice",
+      "frenchComparison": {
+        "frenchStructure": "Elle est très sympathique...",
+        "englishStructure": "She is very nice...",
+        "whyDifficult": "French 'Sympathique' looks like 'Sympathetic'. But 'Sympathetic' = Compatissant.",
+        "visualHighlighting": {
+          "incorrect": "sympathetic",
+          "correct": "nice"
+        }
       }
     },
     {
-      "id": "false-cog-20-A",
+      "id": "fc-m04-A",
       "moduleId": "false-cognates",
-      "questionText": "\"This actor is very ___; he can do comedy, drama, and action films.\"",
+      "difficulty": "medium",
+      "questionText": "The movie was bad. It was a big ___.",
       "type": "multiple_choice",
       "options": [
-        "unstable",
-        "versatile",
-        "changeable"
+        "deception",
+        "disappointment",
+        "trick"
       ],
-      "correctAnswer": "versatile",
-      "feedback": "Excellent! 'Versatile' in English is positive, meaning 'adaptable' or 'able to do many things' (polyvalent). 'Versatile' in French is negative, meaning 'changeable' or 'fickle' (inconstant). Big difference in meaning!",
+      "correctAnswer": "disappointment",
+      "feedback": "Correct! 'Déception' is 'Disappointment'. 'Deception' means 'tromperie' (tricking someone).",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Versatile/Versatile",
-      "falseCognate": {
-        "englishWord": "versatile",
-        "frenchWord": "versatile",
-        "frenchMeaning": "changeable, unstable, fickle (negative)",
-        "englishMeaning": "adaptable, able to do many things (positive)",
-        "commonMistake": "Saying 'He is too versatile' when you mean 'unstable' or 'fickle'",
-        "memoryTrick": "Versatile (English) = Polyvalent (Positive) | Versatile (French) = Inconstant (Negative)"
+      "subTopic": "Deception vs Disappointment",
+      "frenchComparison": {
+        "frenchStructure": "C'était une grande déception...",
+        "englishStructure": "It was a big disappointment...",
+        "whyDifficult": "French 'Déception' looks like 'Deception'. But 'Deception' = Tromperie.",
+        "visualHighlighting": {
+          "incorrect": "deception",
+          "correct": "disappointment"
+        }
       }
     },
     {
-      "id": "false-cog-21-A",
+      "id": "fc-m05-A",
       "moduleId": "false-cognates",
-      "questionText": "\"That manager is cruel; he ___ his employees by shouting at them.\"",
+      "difficulty": "medium",
+      "questionText": "Please ___ the text in two sentences.",
       "type": "multiple_choice",
       "options": [
-        "wastes time of",
-        "abuses",
-        "takes advantage of"
+        "resume",
+        "summarize",
+        "sum up"
       ],
-      "correctAnswer": "abuses",
-      "feedback": "Correct! 'Abuse' in English is a strong, negative word meaning 'to harm' or 'to mistreat' (maltraiter). 'Abuser de' in French means 'to take advantage of' or 'to overuse'. Example: 'You are wasting my time' not 'abusing my time'.",
+      "correctAnswer": "summarize",
+      "feedback": "Correct! 'Résumer' is 'Summarize'. 'Resume' means 'to start again' (reprendre).",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Abuse/Abuser",
-      "falseCognate": {
-        "englishWord": "abuse",
-        "frenchWord": "abuser",
-        "frenchMeaning": "to overuse, to exploit, to take advantage of",
-        "englishMeaning": "to misuse, to harm, to treat cruelly",
-        "commonMistake": "Saying 'You are abusing my time' when you mean 'wasting'",
-        "memoryTrick": "Abuse = Maltraiter/Nuire (to harm) | Take advantage = Abuser de"
+      "subTopic": "Resume vs Summarize",
+      "frenchComparison": {
+        "frenchStructure": "Veuillez résumer le texte...",
+        "englishStructure": "Please summarize the text...",
+        "whyDifficult": "French 'Résumer' looks like 'Resume'. But 'Resume' = Reprendre.",
+        "visualHighlighting": {
+          "incorrect": "resume",
+          "correct": "summarize"
+        }
       }
     },
     {
-      "id": "false-cog-22-A",
+      "id": "fc-m06-A",
       "moduleId": "false-cognates",
-      "questionText": "\"She worked hard to ___ her goal of becoming a doctor.\"",
+      "difficulty": "medium",
+      "questionText": "We are looking for a ___ for our holiday.",
       "type": "multiple_choice",
       "options": [
-        "finish",
-        "achieve",
-        "complete"
+        "location",
+        "rental",
+        "renting"
       ],
-      "correctAnswer": "achieve",
-      "feedback": "Perfect! 'Achieve' means 'to accomplish' or 'succeed in doing' something (réussir/accomplir). 'Achever' in French means 'to finish' or 'to complete'. Example: 'I finished my homework' not 'I achieved my homework'.",
+      "correctAnswer": "rental",
+      "feedback": "Correct! 'Location' (French) is 'Rental'. English 'Location' is 'Emplacement' or 'Lieu'.",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Achieve/Achever",
-      "falseCognate": {
-        "englishWord": "achieve",
-        "frenchWord": "achever",
-        "frenchMeaning": "to finish, to complete",
-        "englishMeaning": "to accomplish, to succeed in doing something",
-        "commonMistake": "Saying 'I achieved my homework' when you mean 'finished'",
-        "memoryTrick": "Achieve = Réussir/Accomplir (to accomplish) | Finish = Achever"
+      "subTopic": "Location vs Rental",
+      "frenchComparison": {
+        "frenchStructure": "Nous cherchons une location...",
+        "englishStructure": "We are looking for a rental...",
+        "whyDifficult": "French 'Location' looks like 'Location'. But 'Location' = Emplacement.",
+        "visualHighlighting": {
+          "incorrect": "location",
+          "correct": "rental"
+        }
       }
     },
     {
-      "id": "false-cog-23-A",
+      "id": "fc-m07-A",
       "moduleId": "false-cognates",
-      "questionText": "\"The photo looks good, but the ___ room is very small.\"",
+      "difficulty": "medium",
+      "questionText": "Where is the ___? I need to leave.",
       "type": "multiple_choice",
       "options": [
-        "current",
-        "actual",
-        "present"
+        "issue",
+        "exit",
+        "way out"
       ],
-      "correctAnswer": "actual",
-      "feedback": "Excellent! 'Actual' in English means 'real' or 'true' (réel/vrai). 'Actuel' in French means 'current' or 'present-day'. Example: 'What is your current address?' not 'actual address' (unless emphasizing it's the real one).",
+      "correctAnswer": "exit",
+      "feedback": "Correct! 'Issue' (French) is 'Exit'. English 'Issue' is 'Problem' or 'Topic'.",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Actual/Actuel",
-      "falseCognate": {
-        "englishWord": "actual",
-        "frenchWord": "actuel",
-        "frenchMeaning": "current or present-day",
-        "englishMeaning": "real or true (not imaginary)",
-        "commonMistake": "Saying 'What is your actual address?' when you mean 'current'",
-        "memoryTrick": "Actual = Réel/Vrai (Real) | Current = Actuel (Present)"
+      "subTopic": "Issue vs Exit",
+      "frenchComparison": {
+        "frenchStructure": "Où est l'issue...",
+        "englishStructure": "Where is the exit...",
+        "whyDifficult": "French 'Issue' looks like 'Issue'. But 'Issue' = Problème.",
+        "visualHighlighting": {
+          "incorrect": "issue",
+          "correct": "exit"
+        }
       }
     },
     {
-      "id": "false-cog-24-A",
+      "id": "fc-m08-A",
       "moduleId": "false-cognates",
-      "questionText": "\"I have a lot of ___ to do at the office today.\"",
+      "difficulty": "medium",
+      "questionText": "He has a difficult ___.",
       "type": "multiple_choice",
       "options": [
-        "affairs",
-        "work",
-        "romances"
+        "character",
+        "temper",
+        "personality"
       ],
-      "correctAnswer": "work",
-      "feedback": "Correct! 'Affaire' in French means 'business', 'deal', or 'things to do'. 'Affair' in English most commonly means a secret romantic relationship (liaison). Use 'work', 'business', or 'things' instead.",
+      "correctAnswer": "temper",
+      "feedback": "Correct! 'Mauvais caractère' is 'Bad temper'. 'Character' refers to moral strength or a person in a book.",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Affair/Affaire",
-      "falseCognate": {
-        "englishWord": "affair",
-        "frenchWord": "affaire",
-        "frenchMeaning": "business, deal, thing, or matter",
-        "englishMeaning": "a secret romantic relationship (cheating)",
-        "commonMistake": "Saying 'I have many affairs to do' when you mean 'tasks' or 'work'",
-        "memoryTrick": "Affair = Liaison (secret relationship) | Business/Things = Affaires"
+      "subTopic": "Character vs Temper",
+      "frenchComparison": {
+        "frenchStructure": "Il a un caractère difficile...",
+        "englishStructure": "He has a difficult temper...",
+        "whyDifficult": "French 'Caractère' looks like 'Character'. But 'Character' = Personnage/Moral.",
+        "visualHighlighting": {
+          "incorrect": "character",
+          "correct": "temper"
+        }
       }
     },
     {
-      "id": "false-cog-25-A",
+      "id": "fc-m09-A",
       "moduleId": "false-cognates",
-      "questionText": "\"What is the first item on the ___ for today's meeting?\"",
-      "type": "multiple_choice",
-      "options": [
-        "planner",
-        "agenda",
-        "diary"
-      ],
-      "correctAnswer": "agenda",
-      "feedback": "Perfect! 'Agenda' in English means a list of topics for a meeting (ordre du jour). 'Agenda' in French means a diary or planner (for appointments). Example: 'I need to check my planner' not 'my agenda'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Agenda/Agenda",
-      "falseCognate": {
-        "englishWord": "agenda",
-        "frenchWord": "agenda",
-        "frenchMeaning": "a diary, planner, or appointment book",
-        "englishMeaning": "a list of topics to discuss at a meeting",
-        "commonMistake": "Saying 'I need to check my agenda' when you mean 'planner' or 'diary'",
-        "memoryTrick": "Agenda = Ordre du jour (meeting list) | Planner/Diary = Agenda"
-      }
-    },
-    {
-      "id": "false-cog-26-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Please don't ___ with me about this decision. It is final.\"",
-      "type": "multiple_choice",
-      "options": [
-        "claim",
-        "argue",
-        "maintain"
-      ],
-      "correctAnswer": "argue",
-      "feedback": "Correct! 'Argue' in English commonly means 'to disagree angrily' (se disputer). 'Arguer' in French is formal, meaning 'to claim' or 'to make a point'. Use 'make the point that' for formal arguments.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Argue/Arguer",
-      "falseCognate": {
-        "englishWord": "argue",
-        "frenchWord": "arguer",
-        "frenchMeaning": "to claim, to argue a point (formal)",
-        "englishMeaning": "to disagree angrily, to fight with words",
-        "commonMistake": "Saying 'I would like to argue that' when you mean 'make the point that'",
-        "memoryTrick": "Argue = Se disputer (disagree angrily) | Claim = Arguer (formal)"
-      }
-    },
-    {
-      "id": "false-cog-27-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I used my phone's ___ to take a photo of the sunset.\"",
-      "type": "multiple_choice",
-      "options": [
-        "video camera",
-        "camera",
-        "recorder"
-      ],
-      "correctAnswer": "camera",
-      "feedback": "Perfect! 'Camera' in English is general, but most often means a photo camera (appareil photo). 'Caméra' in French specifically means a video camera (for moving pictures). Specify 'video camera' for filming.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Camera/Caméra",
-      "falseCognate": {
-        "englishWord": "camera",
-        "frenchWord": "caméra",
-        "frenchMeaning": "video camera (for moving pictures)",
-        "englishMeaning": "photo camera (for still pictures)",
-        "commonMistake": "Confusing photo camera with video camera",
-        "memoryTrick": "Camera = Appareil photo (for photos) | Video camera = Caméra"
-      }
-    },
-    {
-      "id": "false-cog-28-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I am late ___ the traffic was very bad this morning.\"",
-      "type": "multiple_choice",
-      "options": [
-        "car",
-        "because",
-        "for"
-      ],
-      "correctAnswer": "because",
-      "feedback": "Correct! 'Car' in French is a conjunction meaning 'because'. 'Car' in English is a noun meaning 'automobile' (voiture). Use 'because' for the conjunction, not 'car'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Car/Car",
-      "falseCognate": {
-        "englishWord": "car",
-        "frenchWord": "car",
-        "frenchMeaning": "because or for (conjunction)",
-        "englishMeaning": "an automobile (voiture)",
-        "commonMistake": "Saying 'I am late car the traffic was bad' instead of 'because'",
-        "memoryTrick": "Car = Voiture (automobile) | Because = Car/Parce que"
-      }
-    },
-    {
-      "id": "false-cog-29-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I keep my tools in the ___ under the house.\"",
-      "type": "multiple_choice",
-      "options": [
-        "cave",
-        "basement",
-        "mountain"
-      ],
-      "correctAnswer": "basement",
-      "feedback": "Excellent! 'Cave' in French means 'cellar' or 'basement' (under a house). 'Cave' in English means a large natural underground chamber (une grotte) in mountains. Use 'basement' or 'cellar' for under houses.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Cave/Cave",
-      "falseCognate": {
-        "englishWord": "cave",
-        "frenchWord": "cave",
-        "frenchMeaning": "cellar, basement, or wine cellar",
-        "englishMeaning": "large natural underground chamber (grotte)",
-        "commonMistake": "Saying 'in the cave' when you mean 'in the basement'",
-        "memoryTrick": "Cave = Grotte (natural, in mountain) | Cellar/Basement = Cave"
-      }
-    },
-    {
-      "id": "false-cog-30-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"Please take a ___ and make yourself comfortable.\"",
-      "type": "multiple_choice",
-      "options": [
-        "professorship",
-        "chair",
-        "position"
-      ],
-      "correctAnswer": "chair",
-      "feedback": "Perfect! 'Chair' in English means a piece of furniture to sit on (une chaise). 'Chaire' in French means a pulpit (in church) or professorship (at university). This is a common confusion!",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Chair/Chaire",
-      "falseCognate": {
-        "englishWord": "chair",
-        "frenchWord": "chaire",
-        "frenchMeaning": "pulpit (in church) or professorship",
-        "englishMeaning": "piece of furniture to sit on (chaise)",
-        "commonMistake": "Confusing furniture with professorship",
-        "memoryTrick": "Chair = Chaise (furniture) | Professorship = Chaire"
-      }
-    },
-    {
-      "id": "false-cog-31-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"In the USA, students go to ___ after finishing high school.\"",
-      "type": "multiple_choice",
-      "options": [
-        "middle school",
-        "college",
-        "primary school"
-      ],
-      "correctAnswer": "college",
-      "feedback": "Correct! 'College' in English (especially American English) means 'university' (higher education). 'Collège' in French means 'middle school' (ages 11-15). Example: 'I finished middle school when I was 15'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "College/Collège",
-      "falseCognate": {
-        "englishWord": "college",
-        "frenchWord": "collège",
-        "frenchMeaning": "middle school or junior high (ages 11-15)",
-        "englishMeaning": "university (higher education after secondary school)",
-        "commonMistake": "Saying 'I finished college at 15' when you mean 'middle school'",
-        "memoryTrick": "College (English) = Université | Collège (French) = Middle School"
-      }
-    },
-    {
-      "id": "false-cog-32-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I am ready to ___ my food now. Can I see the menu?\"",
-      "type": "multiple_choice",
-      "options": [
-        "command",
-        "order",
-        "give orders"
-      ],
-      "correctAnswer": "order",
-      "feedback": "Perfect! Use 'order' for food in restaurants (commander). 'Command' is a strong verb meaning 'to give an order' in military or official contexts (donner un ordre). 'Order' is for food, 'command' is for authority.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Command/Commander",
-      "falseCognate": {
-        "englishWord": "command",
-        "frenchWord": "commander",
-        "frenchMeaning": "to order (food in restaurant or goods)",
-        "englishMeaning": "to give an order (military/official, strong)",
-        "commonMistake": "Saying 'I am ready to command my food' instead of 'order'",
-        "memoryTrick": "Command = Donner un ordre (strong order) | Order = Commander (food/goods)"
-      }
-    },
-    {
-      "id": "false-cog-33-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"I cannot enter the bus; it is ___.\"",
-      "type": "multiple_choice",
-      "options": [
-        "complete",
-        "full",
-        "finished"
-      ],
-      "correctAnswer": "full",
-      "feedback": "Excellent! 'Complet' in French means 'full' (no more space). 'Complete' in English means 'finished' or 'having all parts' (fini/achevé). Example: 'My homework is complete' (finished), but 'The bus is full'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Complete/Complet",
-      "falseCognate": {
-        "englishWord": "complete",
-        "frenchWord": "complet",
-        "frenchMeaning": "full (no more space) or booked",
-        "englishMeaning": "finished or having all parts",
-        "commonMistake": "Saying 'The bus is complete' when you mean 'full'",
-        "memoryTrick": "Complete = Fini/Achevé (finished) | Full = Complet/Plein"
-      }
-    },
-    {
-      "id": "false-cog-34-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"You must be ___ with your studies and work hard every day.\"",
-      "type": "multiple_choice",
-      "options": [
-        "thick",
-        "consistent",
-        "heavy"
-      ],
-      "correctAnswer": "consistent",
-      "feedback": "Correct! 'Consistent' in English means 'regular' or 'steady' (régulier/constant). 'Consistant' in French means 'thick' or 'solid' for food (épais). Example: 'This sauce is very thick' not 'consistent'.",
-      "formType": "A",
-      "transferType": "negative",
-      "item_version": "1.0.0",
-      "subTopic": "Consistent/Consistant",
-      "falseCognate": {
-        "englishWord": "consistent",
-        "frenchWord": "consistant",
-        "frenchMeaning": "thick, solid, or heavy (for food)",
-        "englishMeaning": "regular, steady, or unchanging",
-        "commonMistake": "Saying 'The fufu is very consistent' when you mean 'thick'",
-        "memoryTrick": "Consistent = Régulier/Constant (steady) | Thick = Consistant/Épais"
-      }
-    },
-    {
-      "id": "false-cog-35-A",
-      "moduleId": "false-cognates",
-      "questionText": "\"What is the ___ for submitting this project? I need to know when to finish.\"",
+      "difficulty": "medium",
+      "questionText": "The ___ for the application is Friday.",
       "type": "multiple_choice",
       "options": [
         "delay",
         "deadline",
-        "postponement"
+        "time"
       ],
       "correctAnswer": "deadline",
-      "feedback": "Perfect! 'Délai' in French means 'deadline' or 'time limit' (date limite). 'Delay' in English means 'postponement' or 'something being late' (retard). Example: 'I'm sorry for the delay' (being late).",
+      "feedback": "Correct! 'Délai' (limit) is 'Deadline'. 'Delay' is 'Retard'.",
       "formType": "A",
-      "transferType": "negative",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Delay/Délai",
-      "falseCognate": {
-        "englishWord": "delay",
-        "frenchWord": "délai",
-        "frenchMeaning": "deadline or time limit",
-        "englishMeaning": "postponement or being late",
-        "commonMistake": "Saying 'What is the delay for this project?' when you mean 'deadline'",
-        "memoryTrick": "Delay = Retard (late) | Deadline = Délai/Date limite"
+      "subTopic": "Delay vs Deadline",
+      "frenchComparison": {
+        "frenchStructure": "Le délai est vendredi...",
+        "englishStructure": "The deadline is Friday...",
+        "whyDifficult": "French 'Délai' looks like 'Delay'. But 'Delay' = Retard.",
+        "visualHighlighting": {
+          "incorrect": "delay",
+          "correct": "deadline"
+        }
       }
     },
     {
-      "id": "false-cog-36-A",
+      "id": "fc-m10-A",
       "moduleId": "false-cognates",
-      "questionText": "\"Can you ___ this package to my office tomorrow?\"",
+      "difficulty": "medium",
+      "questionText": "Are you on ___?",
+      "type": "multiple_choice",
+      "options": [
+        "vacancy",
+        "vacation",
+        "holiday"
+      ],
+      "correctAnswer": "vacation",
+      "feedback": "Correct! 'Vacances' is 'Vacation' or 'Holiday'. 'Vacancy' means an empty room or job opening (poste vacant).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Vacancy vs Vacation",
+      "frenchComparison": {
+        "frenchStructure": "Es-tu en vacances...",
+        "englishStructure": "Are you on vacation...",
+        "whyDifficult": "French 'Vacances' looks like 'Vacancy'. But 'Vacancy' = Poste vacant.",
+        "visualHighlighting": {
+          "incorrect": "vacancy",
+          "correct": "vacation"
+        }
+      }
+    },
+    {
+      "id": "fc-m11-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I ___ to see you soon.",
+      "type": "multiple_choice",
+      "options": [
+        "wait",
+        "expect",
+        "hope"
+      ],
+      "correctAnswer": "hope",
+      "feedback": "Correct! 'Espérer' is 'Hope'. 'Wait' is 'Attendre'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Wait vs Hope",
+      "frenchComparison": {
+        "frenchStructure": "J'espère te voir...",
+        "englishStructure": "I hope to see you...",
+        "whyDifficult": "French 'Espérer' is 'Hope'. 'Wait' is 'Attendre'.",
+        "visualHighlighting": {
+          "incorrect": "wait",
+          "correct": "hope"
+        }
+      }
+    },
+    {
+      "id": "fc-m12-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "She is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "formidable",
+        "great",
+        "wonderful"
+      ],
+      "correctAnswer": "great",
+      "feedback": "Correct! 'Formidable' (French) is 'Great' or 'Wonderful'. English 'Formidable' means 'Scary' or 'Impressive' (fearful).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Formidable vs Great",
+      "frenchComparison": {
+        "frenchStructure": "Elle est formidable...",
+        "englishStructure": "She is very great...",
+        "whyDifficult": "French 'Formidable' looks like 'Formidable'. But 'Formidable' = Redoutable.",
+        "visualHighlighting": {
+          "incorrect": "formidable",
+          "correct": "great"
+        }
+      }
+    },
+    {
+      "id": "fc-m13-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I did a computer ___.",
+      "type": "multiple_choice",
+      "options": [
+        "formation",
+        "training",
+        "course"
+      ],
+      "correctAnswer": "training",
+      "feedback": "Correct! 'Formation' is 'Training'. English 'Formation' refers to the shape or structure of something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Formation vs Training",
+      "frenchComparison": {
+        "frenchStructure": "J'ai fait une formation...",
+        "englishStructure": "I did a computer training...",
+        "whyDifficult": "French 'Formation' looks like 'Formation'. But 'Formation' = Structure.",
+        "visualHighlighting": {
+          "incorrect": "formation",
+          "correct": "training"
+        }
+      }
+    },
+    {
+      "id": "fc-m14-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "This is a good ___.",
+      "type": "multiple_choice",
+      "options": [
+        "opportunity",
+        "occasion",
+        "chance"
+      ],
+      "correctAnswer": "opportunity",
+      "feedback": "Correct! 'Une bonne occasion' is often an 'Opportunity'. 'Occasion' in English usually means a specific event.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Occasion vs Opportunity",
+      "frenchComparison": {
+        "frenchStructure": "C'est une bonne occasion...",
+        "englishStructure": "This is a good opportunity...",
+        "whyDifficult": "French 'Occasion' looks like 'Occasion'. But 'Occasion' = Événement.",
+        "visualHighlighting": {
+          "incorrect": "occasion",
+          "correct": "opportunity"
+        }
+      }
+    },
+    {
+      "id": "fc-m15-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I visited my parents during the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "holidays",
+        "vacations",
+        "break"
+      ],
+      "correctAnswer": "holidays",
+      "feedback": "Correct! 'Vacances' is 'Holidays' or 'Vacation'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Holidays vs Vacation",
+      "frenchComparison": {
+        "frenchStructure": "Pendant les vacances...",
+        "englishStructure": "During the holidays...",
+        "whyDifficult": "French 'Vacances' looks like 'Vacation'.",
+        "visualHighlighting": {
+          "incorrect": "vacations",
+          "correct": "holidays"
+        }
+      }
+    },
+    {
+      "id": "fc-m16-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "He ___ my order.",
+      "type": "multiple_choice",
+      "options": [
+        "ignored",
+        "didn't know",
+        "neglected"
+      ],
+      "correctAnswer": "ignored",
+      "feedback": "Correct! To 'ignore' means to pay no attention. 'Ignorer' (French) usually means 'not to know'. This is a tricky one as meanings overlap.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Ignore vs Not Know",
+      "frenchComparison": {
+        "frenchStructure": "Il a ignoré ma commande...",
+        "englishStructure": "He ignored my order...",
+        "whyDifficult": "French 'Ignorer' means 'Not to know'. English 'Ignore' means 'Pay no attention'.",
+        "visualHighlighting": {
+          "incorrect": "didn't know",
+          "correct": "ignored"
+        }
+      }
+    },
+    {
+      "id": "fc-m17-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "She ___ the traffic.",
+      "type": "multiple_choice",
+      "options": [
+        "supported",
+        "tolerated",
+        "bore"
+      ],
+      "correctAnswer": "tolerated",
+      "feedback": "Correct! 'Supporter' (endure) is 'Tolerate' or 'Stand'. 'Support' means to help or encourage.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Support vs Tolerate",
+      "frenchComparison": {
+        "frenchStructure": "Elle a supporté la circulation...",
+        "englishStructure": "She tolerated the traffic...",
+        "whyDifficult": "French 'Supporter' looks like 'Support'. But 'Support' = Soutenir.",
+        "visualHighlighting": {
+          "incorrect": "supported",
+          "correct": "tolerated"
+        }
+      }
+    },
+    {
+      "id": "fc-m18-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I ___ my friend to the airport.",
+      "type": "multiple_choice",
+      "options": [
+        "accompanied",
+        "escorted",
+        "took"
+      ],
+      "correctAnswer": "took",
+      "feedback": "Correct! 'Accompagner' is often 'Take'. 'Accompany' is more formal.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Accompany vs Take",
+      "frenchComparison": {
+        "frenchStructure": "J'ai accompagné mon ami...",
+        "englishStructure": "I took my friend...",
+        "whyDifficult": "French 'Accompagner' looks like 'Accompany'.",
+        "visualHighlighting": {
+          "incorrect": "accompanied",
+          "correct": "took"
+        }
+      }
+    },
+    {
+      "id": "fc-m19-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "The ___ was delicious.",
+      "type": "multiple_choice",
+      "options": [
+        "menu",
+        "meal",
+        "food"
+      ],
+      "correctAnswer": "meal",
+      "feedback": "Correct! 'Menu' (repas) is 'Meal'. A 'Menu' in English is the list of food.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Menu vs Meal",
+      "frenchComparison": {
+        "frenchStructure": "Le menu était délicieux...",
+        "englishStructure": "The meal was delicious...",
+        "whyDifficult": "French 'Menu' looks like 'Menu'. But 'Menu' = Carte.",
+        "visualHighlighting": {
+          "incorrect": "menu",
+          "correct": "meal"
+        }
+      }
+    },
+    {
+      "id": "fc-m20-A",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I have no ___ to go.",
+      "type": "multiple_choice",
+      "options": [
+        "envy",
+        "desire",
+        "wish"
+      ],
+      "correctAnswer": "desire",
+      "feedback": "Correct! 'Envie' is 'Desire' or 'Wish'. 'Envy' means 'Jalousie'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Envy vs Desire",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai aucune envie...",
+        "englishStructure": "I have no desire...",
+        "whyDifficult": "French 'Envie' looks like 'Envy'. But 'Envy' = Jalousie.",
+        "visualHighlighting": {
+          "incorrect": "envy",
+          "correct": "desire"
+        }
+      }
+    },
+    {
+      "id": "fc-h01-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He will ___ come to the party.",
+      "type": "multiple_choice",
+      "options": [
+        "eventually",
+        "possibly",
+        "finally"
+      ],
+      "correctAnswer": "possibly",
+      "feedback": "Correct! 'Éventuellement' is 'Possibly'. 'Eventually' means 'Finally' or 'In the end'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Eventually vs Possibly",
+      "frenchComparison": {
+        "frenchStructure": "Il viendra éventuellement...",
+        "englishStructure": "He will possibly come...",
+        "whyDifficult": "French 'Éventuellement' looks like 'Eventually'. But 'Eventually' = Finalement.",
+        "visualHighlighting": {
+          "incorrect": "eventually",
+          "correct": "possibly"
+        }
+      }
+    },
+    {
+      "id": "fc-h02-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "My boss is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "comprehensive",
+        "understanding",
+        "full"
+      ],
+      "correctAnswer": "understanding",
+      "feedback": "Correct! 'Compréhensif' is 'Understanding'. 'Comprehensive' means 'Complete' or 'Detailed'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Comprehensive vs Understanding",
+      "frenchComparison": {
+        "frenchStructure": "Mon patron est très compréhensif...",
+        "englishStructure": "My boss is very understanding...",
+        "whyDifficult": "French 'Compréhensif' looks like 'Comprehensive'. But 'Comprehensive' = Complet.",
+        "visualHighlighting": {
+          "incorrect": "comprehensive",
+          "correct": "understanding"
+        }
+      }
+    },
+    {
+      "id": "fc-h03-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He ___ to be a doctor.",
+      "type": "multiple_choice",
+      "options": [
+        "pretends",
+        "claims",
+        "fakes"
+      ],
+      "correctAnswer": "claims",
+      "feedback": "Correct! 'Prétendre' is 'Claim'. 'Pretend' means 'Faire semblant'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pretend vs Claim",
+      "frenchComparison": {
+        "frenchStructure": "Il prétend être médecin...",
+        "englishStructure": "He claims to be a doctor...",
+        "whyDifficult": "French 'Prétendre' looks like 'Pretend'. But 'Pretend' = Faire semblant.",
+        "visualHighlighting": {
+          "incorrect": "pretends",
+          "correct": "claims"
+        }
+      }
+    },
+    {
+      "id": "fc-h04-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "She ___ her dream.",
+      "type": "multiple_choice",
+      "options": [
+        "realized",
+        "achieved",
+        "noticed"
+      ],
+      "correctAnswer": "achieved",
+      "feedback": "Correct! 'Réaliser' (make happen) is 'Achieve'. 'Realize' usually means 'to notice' or 'understand'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Realize vs Achieve",
+      "frenchComparison": {
+        "frenchStructure": "Elle a réalisé son rêve...",
+        "englishStructure": "She achieved her dream...",
+        "whyDifficult": "French 'Réaliser' looks like 'Realize'. But 'Realize' = Se rendre compte.",
+        "visualHighlighting": {
+          "incorrect": "realized",
+          "correct": "achieved"
+        }
+      }
+    },
+    {
+      "id": "fc-h05-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "The food was spoiled and he was ___.",
+      "type": "multiple_choice",
+      "options": [
+        "intoxicated",
+        "poisoned",
+        "drunk"
+      ],
+      "correctAnswer": "poisoned",
+      "feedback": "Correct! 'Intoxiqué' (food) is 'Poisoned'. 'Intoxicated' means 'Drunk' (alcohol/drugs).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Intoxicated vs Poisoned",
+      "frenchComparison": {
+        "frenchStructure": "Il a été intoxiqué...",
+        "englishStructure": "He was poisoned...",
+        "whyDifficult": "French 'Intoxiqué' looks like 'Intoxicated'. But 'Intoxicated' = Ivre.",
+        "visualHighlighting": {
+          "incorrect": "intoxicated",
+          "correct": "poisoned"
+        }
+      }
+    },
+    {
+      "id": "fc-h06-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "I am going to see a ___ about my back pain.",
+      "type": "multiple_choice",
+      "options": [
+        "physician",
+        "physicist",
+        "physic"
+      ],
+      "correctAnswer": "physician",
+      "feedback": "Correct! A doctor is a 'Physician'. A 'Physicist' is a scientist (physicien).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Physician vs Physicist",
+      "frenchComparison": {
+        "frenchStructure": "Je vais voir un médecin...",
+        "englishStructure": "I am going to see a physician...",
+        "whyDifficult": "French 'Physicien' looks like 'Physician'. But 'Physician' = Médecin.",
+        "visualHighlighting": {
+          "incorrect": "physicist",
+          "correct": "physician"
+        }
+      }
+    },
+    {
+      "id": "fc-h07-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "It happened by ___.",
+      "type": "multiple_choice",
+      "options": [
+        "hazard",
+        "chance",
+        "danger"
+      ],
+      "correctAnswer": "chance",
+      "feedback": "Correct! 'Par hasard' is 'By chance'. 'Hazard' means 'Danger' or 'Risk'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Hazard vs Chance",
+      "frenchComparison": {
+        "frenchStructure": "C'est arrivé par hasard...",
+        "englishStructure": "It happened by chance...",
+        "whyDifficult": "French 'Hasard' looks like 'Hazard'. But 'Hazard' = Danger.",
+        "visualHighlighting": {
+          "incorrect": "hazard",
+          "correct": "chance"
+        }
+      }
+    },
+    {
+      "id": "fc-h08-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "I ___ his phone number.",
+      "type": "multiple_choice",
+      "options": [
+        "ignore",
+        "don't know",
+        "neglect"
+      ],
+      "correctAnswer": "don't know",
+      "feedback": "Correct! 'Ignorer' (not know) translates to 'Don't know'. 'Ignore' means 'refuse to listen'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Ignore vs Not Know",
+      "frenchComparison": {
+        "frenchStructure": "J'ignore son numéro...",
+        "englishStructure": "I don't know his phone number...",
+        "whyDifficult": "French 'Ignorer' means 'Not to know'. English 'Ignore' means 'Pay no attention'.",
+        "visualHighlighting": {
+          "incorrect": "ignore",
+          "correct": "don't know"
+        }
+      }
+    },
+    {
+      "id": "fc-h09-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "They built a new ___ in the industrial zone.",
+      "type": "multiple_choice",
+      "options": [
+        "fabric",
+        "factory",
+        "material"
+      ],
+      "correctAnswer": "factory",
+      "feedback": "Correct! 'Fabrique' (usine) is 'Factory'. 'Fabric' is 'Tissu'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fabric vs Factory",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont construit une nouvelle fabrique...",
+        "englishStructure": "They built a new factory...",
+        "whyDifficult": "French 'Fabrique' looks like 'Fabric'. But 'Fabric' = Tissu.",
+        "visualHighlighting": {
+          "incorrect": "fabric",
+          "correct": "factory"
+        }
+      }
+    },
+    {
+      "id": "fc-h10-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "Can you give me your ___ on this?",
+      "type": "multiple_choice",
+      "options": [
+        "advice",
+        "notice",
+        "opinion"
+      ],
+      "correctAnswer": "opinion",
+      "feedback": "Correct! 'Avis' is 'Opinion'. 'Notice' is a written announcement.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Notice vs Opinion",
+      "frenchComparison": {
+        "frenchStructure": "Peux-tu me donner ton avis...",
+        "englishStructure": "Can you give me your opinion...",
+        "whyDifficult": "French 'Notice' looks like 'Notice'. But 'Notice' = Avis (written).",
+        "visualHighlighting": {
+          "incorrect": "notice",
+          "correct": "opinion"
+        }
+      }
+    },
+    {
+      "id": "fc-h11-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "This soil is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "fertile",
+        "fertilizer",
+        "fertile"
+      ],
+      "correctAnswer": "fertile",
+      "feedback": "Correct! This one is a true cognate!",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Cognates (Trick)",
+      "frenchComparison": {
+        "frenchStructure": "Ce sol est très fertile...",
+        "englishStructure": "This soil is very fertile...",
+        "whyDifficult": "True cognate.",
+        "visualHighlighting": {
+          "incorrect": "fertilizer",
+          "correct": "fertile"
+        }
+      }
+    },
+    {
+      "id": "fc-h12-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He is the ___ of the story.",
+      "type": "multiple_choice",
+      "options": [
+        "author",
+        "actor",
+        "protagonist"
+      ],
+      "correctAnswer": "author",
+      "feedback": "Correct! 'Auteur' is 'Author'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "True Cognates",
+      "frenchComparison": {
+        "frenchStructure": "Il est l'auteur...",
+        "englishStructure": "He is the author...",
+        "whyDifficult": "True cognate.",
+        "visualHighlighting": {
+          "incorrect": "actor",
+          "correct": "author"
+        }
+      }
+    },
+    {
+      "id": "fc-h13-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "The ___ was severe.",
+      "type": "multiple_choice",
+      "options": [
+        "injure",
+        "injury",
+        "insult"
+      ],
+      "correctAnswer": "insult",
+      "feedback": "Correct! 'Injure' (French) is 'Insult'. 'Injury' is a physical wound.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Injury vs Insult",
+      "frenchComparison": {
+        "frenchStructure": "L'injure était grave...",
+        "englishStructure": "The insult was severe...",
+        "whyDifficult": "French 'Injure' looks like 'Injury'. But 'Injury' = Blessure.",
+        "visualHighlighting": {
+          "incorrect": "injury",
+          "correct": "insult"
+        }
+      }
+    },
+    {
+      "id": "fc-h14-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He made a strange ___.",
+      "type": "multiple_choice",
+      "options": [
+        "habit",
+        "clothes",
+        "dress"
+      ],
+      "correctAnswer": "habit",
+      "feedback": "Trick question. 'Habit' in English is a routine. 'Habit' (clothes) is French.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Habit vs Clothes",
+      "frenchComparison": {
+        "frenchStructure": "Il a une étrange habitude...",
+        "englishStructure": "He made a strange habit...",
+        "whyDifficult": "French 'Habit' means 'Clothes'. English 'Habit' means 'Habitude'.",
+        "visualHighlighting": {
+          "incorrect": "clothes",
+          "correct": "habit"
+        }
+      }
+    },
+    {
+      "id": "fc-h15-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "The price was ___.",
+      "type": "multiple_choice",
+      "options": [
+        "interesting",
+        "attractive",
+        "good"
+      ],
+      "correctAnswer": "attractive",
+      "feedback": "Correct! 'Un prix intéressant' is 'An attractive price'. 'Interesting' is for books/ideas.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Interesting vs Attractive",
+      "frenchComparison": {
+        "frenchStructure": "Le prix était intéressant...",
+        "englishStructure": "The price was attractive...",
+        "whyDifficult": "French 'Intéressant' looks like 'Interesting'. But 'Interesting' = Intéressant (ideas).",
+        "visualHighlighting": {
+          "incorrect": "interesting",
+          "correct": "attractive"
+        }
+      }
+    },
+    {
+      "id": "fc-h16-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He has a lot of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "misery",
+        "poverty",
+        "problems"
+      ],
+      "correctAnswer": "problems",
+      "feedback": "Correct! 'Misère' can mean poverty, but often just 'problems/trouble'. 'Misery' means deep unhappiness.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Misery vs Poverty",
+      "frenchComparison": {
+        "frenchStructure": "Il a beaucoup de misères...",
+        "englishStructure": "He has a lot of problems...",
+        "whyDifficult": "French 'Misère' looks like 'Misery'. But 'Misery' = Malheur.",
+        "visualHighlighting": {
+          "incorrect": "misery",
+          "correct": "problems"
+        }
+      }
+    },
+    {
+      "id": "fc-h17-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "The crowd was ___.",
+      "type": "multiple_choice",
+      "options": [
+        "versatile",
+        "fickle",
+        "changeable"
+      ],
+      "correctAnswer": "fickle",
+      "feedback": "Correct! 'Versatile' (French) = Fickle (changing mind). 'Versatile' (English) = Multitalented.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Versatile vs Fickle",
+      "frenchComparison": {
+        "frenchStructure": "La foule était versatile...",
+        "englishStructure": "The crowd was fickle...",
+        "whyDifficult": "French 'Versatile' looks like 'Versatile'. But 'Versatile' = Polyvalent.",
+        "visualHighlighting": {
+          "incorrect": "versatile",
+          "correct": "fickle"
+        }
+      }
+    },
+    {
+      "id": "fc-h18-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "I will ___ my notes.",
+      "type": "multiple_choice",
+      "options": [
+        "revise",
+        "review",
+        "check"
+      ],
+      "correctAnswer": "review",
+      "feedback": "Correct! 'Réviser' is often 'Review'. 'Revise' means to change/edit.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Revise vs Review",
+      "frenchComparison": {
+        "frenchStructure": "Je vais réviser mes notes...",
+        "englishStructure": "I will review my notes...",
+        "whyDifficult": "French 'Réviser' looks like 'Revise'. But 'Revise' = Modifier.",
+        "visualHighlighting": {
+          "incorrect": "revise",
+          "correct": "review"
+        }
+      }
+    },
+    {
+      "id": "fc-h19-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "candid",
+        "naive",
+        "honest"
+      ],
+      "correctAnswer": "naive",
+      "feedback": "Correct! 'Candide' is 'Naive'. 'Candid' means 'Frank/Open'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Candid vs Naive",
+      "frenchComparison": {
+        "frenchStructure": "Il est très candide...",
+        "englishStructure": "He is very naive...",
+        "whyDifficult": "French 'Candide' looks like 'Candid'. But 'Candid' = Franc.",
+        "visualHighlighting": {
+          "incorrect": "candid",
+          "correct": "naive"
+        }
+      }
+    },
+    {
+      "id": "fc-h20-A",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "There was a long ___ at the bank.",
+      "type": "multiple_choice",
+      "options": [
+        "affluence",
+        "crowd",
+        "wealth"
+      ],
+      "correctAnswer": "crowd",
+      "feedback": "Correct! 'Affluence' (French) = Crowd. 'Affluence' (English) = Wealth.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Affluence vs Crowd",
+      "frenchComparison": {
+        "frenchStructure": "Il y avait une grande affluence...",
+        "englishStructure": "There was a large crowd...",
+        "whyDifficult": "French 'Affluence' looks like 'Affluence'. But 'Affluence' = Richesse.",
+        "visualHighlighting": {
+          "incorrect": "affluence",
+          "correct": "crowd"
+        }
+      }
+    },
+    {
+      "id": "fc-e01-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I borrowed a book from the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "library",
+        "bookstore",
+        "librairie"
+      ],
+      "correctAnswer": "library",
+      "feedback": "Correct! 'Library' is where you borrow books.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Library vs Bookstore",
+      "frenchComparison": {
+        "frenchStructure": "J'ai emprunté un livre à la bibliothèque...",
+        "englishStructure": "I borrowed a book from the library...",
+        "whyDifficult": "French 'Bibliothèque' = Library. 'Librairie' = Bookstore.",
+        "visualHighlighting": {
+          "incorrect": "bookstore",
+          "correct": "library"
+        }
+      }
+    },
+    {
+      "id": "fc-e02-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Can you ___ me with this bag?",
+      "type": "multiple_choice",
+      "options": [
+        "assist",
+        "attend",
+        "present"
+      ],
+      "correctAnswer": "assist",
+      "feedback": "Correct! 'Assist' means 'Help'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Assist vs Attend",
+      "frenchComparison": {
+        "frenchStructure": "Peux-tu m'aider...",
+        "englishStructure": "Can you assist me...",
+        "whyDifficult": "French 'Assister' means 'Attend'. English 'Assist' means 'Help'.",
+        "visualHighlighting": {
+          "incorrect": "attend",
+          "correct": "assist"
+        }
+      }
+    },
+    {
+      "id": "fc-e03-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "The teacher ___ the students to be quiet.",
+      "type": "multiple_choice",
+      "options": [
+        "demanded",
+        "asked",
+        "ordered"
+      ],
+      "correctAnswer": "asked",
+      "feedback": "Correct! 'Ask' is polite. 'Demand' is too strong.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Demand vs Ask",
+      "frenchComparison": {
+        "frenchStructure": "Le professeur a demandé...",
+        "englishStructure": "The teacher asked...",
+        "whyDifficult": "French 'Demander' looks like 'Demand'. But 'Demand' = Exiger.",
+        "visualHighlighting": {
+          "incorrect": "demanded",
+          "correct": "asked"
+        }
+      }
+    },
+    {
+      "id": "fc-e04-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "We ___ at a hotel in Kribi.",
+      "type": "multiple_choice",
+      "options": [
+        "rested",
+        "stayed",
+        "remained"
+      ],
+      "correctAnswer": "stayed",
+      "feedback": "Correct! 'Stay' is correct for lodging. 'Rest' is for sleeping/relaxing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Rest vs Stay",
+      "frenchComparison": {
+        "frenchStructure": "Nous sommes restés à l'hôtel...",
+        "englishStructure": "We stayed at a hotel...",
+        "whyDifficult": "French 'Rester' looks like 'Rest'. But 'Rest' = Se reposer.",
+        "visualHighlighting": {
+          "incorrect": "rested",
+          "correct": "stayed"
+        }
+      }
+    },
+    {
+      "id": "fc-e05-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "God ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "bless",
+        "hurt",
+        "injure"
+      ],
+      "correctAnswer": "bless",
+      "feedback": "Correct! 'Bless' means 'Bénir'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Bless vs Hurt",
+      "frenchComparison": {
+        "frenchStructure": "Dieu te bénisse...",
+        "englishStructure": "God bless you...",
+        "whyDifficult": "French 'Blesser' looks like 'Bless'. But 'Bless' = Bénir.",
+        "visualHighlighting": {
+          "incorrect": "hurt",
+          "correct": "bless"
+        }
+      }
+    },
+    {
+      "id": "fc-e06-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Keep the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "change",
+        "money",
+        "coin"
+      ],
+      "correctAnswer": "change",
+      "feedback": "Correct! 'Gardez la monnaie' is 'Keep the change'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Money vs Change",
+      "frenchComparison": {
+        "frenchStructure": "Gardez la monnaie...",
+        "englishStructure": "Keep the change...",
+        "whyDifficult": "French 'Monnaie' looks like 'Money'. But 'Money' = Argent.",
+        "visualHighlighting": {
+          "incorrect": "money",
+          "correct": "change"
+        }
+      }
+    },
+    {
+      "id": "fc-e07-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "It was a long ___ by bus.",
+      "type": "multiple_choice",
+      "options": [
+        "journey",
+        "day",
+        "sojourn"
+      ],
+      "correctAnswer": "journey",
+      "feedback": "Correct! 'Journey' is a trip (voyage).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Journey vs Day",
+      "frenchComparison": {
+        "frenchStructure": "C'était un long voyage...",
+        "englishStructure": "It was a long journey...",
+        "whyDifficult": "French 'Journée' looks like 'Journey'. But 'Journey' = Voyage.",
+        "visualHighlighting": {
+          "incorrect": "day",
+          "correct": "journey"
+        }
+      }
+    },
+    {
+      "id": "fc-e08-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I found a ___ on the ground.",
+      "type": "multiple_choice",
+      "options": [
+        "coin",
+        "corner",
+        "piece"
+      ],
+      "correctAnswer": "coin",
+      "feedback": "Correct! 'Coin' is a piece of metal money.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Coin vs Corner",
+      "frenchComparison": {
+        "frenchStructure": "J'ai trouvé une pièce...",
+        "englishStructure": "I found a coin...",
+        "whyDifficult": "French 'Coin' looks like 'Coin'. But 'Coin' = Pièce.",
+        "visualHighlighting": {
+          "incorrect": "corner",
+          "correct": "coin"
+        }
+      }
+    },
+    {
+      "id": "fc-e09-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Did you ___ your exam?",
+      "type": "multiple_choice",
+      "options": [
+        "pass",
+        "take",
+        "succeed"
+      ],
+      "correctAnswer": "pass",
+      "feedback": "Correct! 'Pass' means you got a good grade (reussir). 'Take' means you sat for it.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Pass vs Take",
+      "frenchComparison": {
+        "frenchStructure": "As-tu réussi ton examen...",
+        "englishStructure": "Did you pass your exam...",
+        "whyDifficult": "French 'Passer' looks like 'Pass'. But 'Pass' = Réussir.",
+        "visualHighlighting": {
+          "incorrect": "take",
+          "correct": "pass"
+        }
+      }
+    },
+    {
+      "id": "fc-e10-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "I put ___ in the cake.",
+      "type": "multiple_choice",
+      "options": [
+        "raisins",
+        "grapes",
+        "grappes"
+      ],
+      "correctAnswer": "raisins",
+      "feedback": "Correct! Dried grapes are 'raisins'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Grape vs Raisin",
+      "frenchComparison": {
+        "frenchStructure": "J'ai mis des raisins secs...",
+        "englishStructure": "I put raisins...",
+        "whyDifficult": "French 'Raisin' looks like 'Raisin'. But 'Raisin' = Raisin sec.",
+        "visualHighlighting": {
+          "incorrect": "grapes",
+          "correct": "raisins"
+        }
+      }
+    },
+    {
+      "id": "fc-e11-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Why is the baby ___?",
+      "type": "multiple_choice",
+      "options": [
+        "crying",
+        "shouting",
+        "screaming"
+      ],
+      "correctAnswer": "crying",
+      "feedback": "Correct! 'Crying' means 'pleurer'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Cry vs Shout",
+      "frenchComparison": {
+        "frenchStructure": "Pourquoi le bébé pleure-t-il...",
+        "englishStructure": "Why is the baby crying...",
+        "whyDifficult": "French 'Crier' looks like 'Cry'. But 'Cry' = Pleurer.",
+        "visualHighlighting": {
+          "incorrect": "shouting",
+          "correct": "crying"
+        }
+      }
+    },
+    {
+      "id": "fc-e12-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "She bought a new ___.",
+      "type": "multiple_choice",
+      "options": [
+        "bra",
+        "arm",
+        "embrace"
+      ],
+      "correctAnswer": "bra",
+      "feedback": "Correct! 'Bra' is clothing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Bra vs Arm",
+      "frenchComparison": {
+        "frenchStructure": "Elle a acheté un nouveau soutien-gorge...",
+        "englishStructure": "She bought a new bra...",
+        "whyDifficult": "French 'Bras' looks like 'Bra'. But 'Bra' = Soutien-gorge.",
+        "visualHighlighting": {
+          "incorrect": "arm",
+          "correct": "bra"
+        }
+      }
+    },
+    {
+      "id": "fc-e13-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "Close the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "blind",
+        "store",
+        "shop"
+      ],
+      "correctAnswer": "blind",
+      "feedback": "Correct! A window covering is a 'blind'. 'Store' is a shop.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Store vs Shop",
+      "frenchComparison": {
+        "frenchStructure": "Ferme le store...",
+        "englishStructure": "Close the blind...",
+        "whyDifficult": "French 'Store' means 'Blind'. English 'Store' = Magasin.",
+        "visualHighlighting": {
+          "incorrect": "store",
+          "correct": "blind"
+        }
+      }
+    },
+    {
+      "id": "fc-e14-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "He is wearing a safety ___.",
+      "type": "multiple_choice",
+      "options": [
+        "vest",
+        "jacket",
+        "coat"
+      ],
+      "correctAnswer": "vest",
+      "feedback": "Correct! A 'vest' has no sleeves (gilet).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Vest vs Jacket",
+      "frenchComparison": {
+        "frenchStructure": "Il porte un gilet de sécurité...",
+        "englishStructure": "He is wearing a safety vest...",
+        "whyDifficult": "French 'Veste' looks like 'Vest'. But 'Vest' = Gilet.",
+        "visualHighlighting": {
+          "incorrect": "jacket",
+          "correct": "vest"
+        }
+      }
+    },
+    {
+      "id": "fc-e15-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "My English ___ starts at 8:00.",
+      "type": "multiple_choice",
+      "options": [
+        "class",
+        "classroom",
+        "room"
+      ],
+      "correctAnswer": "class",
+      "feedback": "Correct! The lesson is the 'class'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Class vs Classroom",
+      "frenchComparison": {
+        "frenchStructure": "Mon cours d'anglais...",
+        "englishStructure": "My English class...",
+        "whyDifficult": "French 'Classe' can mean room. English 'Class' is the lesson.",
+        "visualHighlighting": {
+          "incorrect": "classroom",
+          "correct": "class"
+        }
+      }
+    },
+    {
+      "id": "fc-e16-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "We spent the ___ at the beach.",
+      "type": "multiple_choice",
+      "options": [
+        "day",
+        "journey",
+        "travel"
+      ],
+      "correctAnswer": "day",
+      "feedback": "Correct! 'Journée' = Day.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Journey vs Day",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons passé la journée...",
+        "englishStructure": "We spent the day...",
+        "whyDifficult": "French 'Journée' looks like 'Journey'. But 'Journey' = Voyage.",
+        "visualHighlighting": {
+          "incorrect": "journey",
+          "correct": "day"
+        }
+      }
+    },
+    {
+      "id": "fc-e17-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "The river is very ___.",
+      "type": "multiple_choice",
+      "options": [
+        "wide",
+        "large",
+        "grand"
+      ],
+      "correctAnswer": "wide",
+      "feedback": "Correct! 'Large' (French) for width is 'Wide'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Large vs Big",
+      "frenchComparison": {
+        "frenchStructure": "La rivière est très large...",
+        "englishStructure": "The river is very wide...",
+        "whyDifficult": "French 'Large' means 'Wide'. English 'Large' means 'Big'.",
+        "visualHighlighting": {
+          "incorrect": "large",
+          "correct": "wide"
+        }
+      }
+    },
+    {
+      "id": "fc-e18-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "My favourite ___ is Ndolé.",
+      "type": "multiple_choice",
+      "options": [
+        "dish",
+        "plate",
+        "flat"
+      ],
+      "correctAnswer": "dish",
+      "feedback": "Correct! The food recipe is a 'dish'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Plate vs Dish",
+      "frenchComparison": {
+        "frenchStructure": "Mon plat préféré...",
+        "englishStructure": "My favourite dish...",
+        "whyDifficult": "French 'Plat' looks like 'Plate'. But 'Plate' = Assiette.",
+        "visualHighlighting": {
+          "incorrect": "plate",
+          "correct": "dish"
+        }
+      }
+    },
+    {
+      "id": "fc-e19-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "My brother studies at the ___ (University).",
+      "type": "multiple_choice",
+      "options": [
+        "university",
+        "college",
+        "school"
+      ],
+      "correctAnswer": "university",
+      "feedback": "Correct! 'University' is for higher education. 'College' in US English is also University.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "College vs School",
+      "frenchComparison": {
+        "frenchStructure": "Mon frère étudie à l'université...",
+        "englishStructure": "My brother studies at the university...",
+        "whyDifficult": "French 'Collège' looks like 'College'. But 'College' = Université.",
+        "visualHighlighting": {
+          "incorrect": "college",
+          "correct": "university"
+        }
+      }
+    },
+    {
+      "id": "fc-e20-B",
+      "moduleId": "false-cognates",
+      "difficulty": "easy",
+      "questionText": "The car is parked on the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "grass",
+        "gazon",
+        "lawn"
+      ],
+      "correctAnswer": "grass",
+      "feedback": "Correct! 'Grass' is the plant.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Grass vs Lawn",
+      "frenchComparison": {
+        "frenchStructure": "La voiture est garée sur le gazon...",
+        "englishStructure": "The car is parked on the grass...",
+        "whyDifficult": "Vocabulary difference.",
+        "visualHighlighting": {
+          "incorrect": "gazon",
+          "correct": "grass"
+        }
+      }
+    },
+    {
+      "id": "fc-m01-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "He ___ speaks three languages.",
+      "type": "multiple_choice",
+      "options": [
+        "actually",
+        "currently",
+        "presently"
+      ],
+      "correctAnswer": "actually",
+      "feedback": "Correct! 'Actually' means 'in fact' or 'really'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Actually vs Currently",
+      "frenchComparison": {
+        "frenchStructure": "Il parle en fait...",
+        "englishStructure": "He actually speaks...",
+        "whyDifficult": "French 'Actuellement' = Currently. 'Actually' = En fait.",
+        "visualHighlighting": {
+          "incorrect": "currently",
+          "correct": "actually"
+        }
+      }
+    },
+    {
+      "id": "fc-m02-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "It was a ___ decision.",
+      "type": "multiple_choice",
+      "options": [
+        "sensible",
+        "sensitive",
+        "sensing"
+      ],
+      "correctAnswer": "sensible",
+      "feedback": "Correct! 'Sensible' means reasonable (raisonnable).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sensible vs Sensitive",
+      "frenchComparison": {
+        "frenchStructure": "C'était une décision raisonnable...",
+        "englishStructure": "It was a sensible decision...",
+        "whyDifficult": "French 'Sensible' = Sensitive. 'Sensible' = Raisonnable.",
+        "visualHighlighting": {
+          "incorrect": "sensitive",
+          "correct": "sensible"
+        }
+      }
+    },
+    {
+      "id": "fc-m03-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I was ___ to her problems.",
+      "type": "multiple_choice",
+      "options": [
+        "sympathetic",
+        "nice",
+        "kind"
+      ],
+      "correctAnswer": "sympathetic",
+      "feedback": "Correct! 'Sympathetic' means understanding feelings (compatissant).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sympathetic vs Nice",
+      "frenchComparison": {
+        "frenchStructure": "J'étais compatissant...",
+        "englishStructure": "I was sympathetic...",
+        "whyDifficult": "French 'Sympathique' = Nice. 'Sympathetic' = Compatissant.",
+        "visualHighlighting": {
+          "incorrect": "nice",
+          "correct": "sympathetic"
+        }
+      }
+    },
+    {
+      "id": "fc-m04-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "The magician used ___.",
+      "type": "multiple_choice",
+      "options": [
+        "deception",
+        "disappointment",
+        "regret"
+      ],
+      "correctAnswer": "deception",
+      "feedback": "Correct! 'Deception' is trickery.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Deception vs Disappointment",
+      "frenchComparison": {
+        "frenchStructure": "Le magicien a utilisé la tromperie...",
+        "englishStructure": "The magician used deception...",
+        "whyDifficult": "French 'Déception' = Disappointment. 'Deception' = Tromperie.",
+        "visualHighlighting": {
+          "incorrect": "disappointment",
+          "correct": "deception"
+        }
+      }
+    },
+    {
+      "id": "fc-m05-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "We will ___ the meeting after lunch.",
+      "type": "multiple_choice",
+      "options": [
+        "resume",
+        "summarize",
+        "sum up"
+      ],
+      "correctAnswer": "resume",
+      "feedback": "Correct! 'Resume' means 'start again' (reprendre).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Resume vs Summarize",
+      "frenchComparison": {
+        "frenchStructure": "Nous reprendrons la réunion...",
+        "englishStructure": "We will resume the meeting...",
+        "whyDifficult": "French 'Résumer' = Summarize. 'Resume' = Reprendre.",
+        "visualHighlighting": {
+          "incorrect": "summarize",
+          "correct": "resume"
+        }
+      }
+    },
+    {
+      "id": "fc-m06-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "What is your current ___?",
+      "type": "multiple_choice",
+      "options": [
+        "location",
+        "rental",
+        "rent"
+      ],
+      "correctAnswer": "location",
+      "feedback": "Correct! 'Location' is 'Position/Place'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Location vs Rental",
+      "frenchComparison": {
+        "frenchStructure": "Quelle est votre position...",
+        "englishStructure": "What is your current location...",
+        "whyDifficult": "French 'Location' = Rental. 'Location' = Emplacement.",
+        "visualHighlighting": {
+          "incorrect": "rental",
+          "correct": "location"
+        }
+      }
+    },
+    {
+      "id": "fc-m07-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "This is a serious ___.",
       "type": "multiple_choice",
       "options": [
         "issue",
-        "deliver",
-        "liberate"
+        "exit",
+        "out"
       ],
-      "correctAnswer": "deliver",
-      "feedback": "Excellent! 'Deliver' means 'to bring or hand over' goods (livrer). 'Délivrer' in French means 'to set free', 'to liberate', or 'to issue' a document. Example: 'The government issued my ID card' not 'delivered'.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "issue",
+      "feedback": "Correct! 'Issue' is a problem or topic.",
+      "formType": "B",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Deliver/Délivrer",
-      "falseCognate": {
-        "englishWord": "deliver",
-        "frenchWord": "délivrer",
-        "frenchMeaning": "to set free, to liberate, or to issue (document)",
-        "englishMeaning": "to bring or hand over goods",
-        "commonMistake": "Saying 'The government delivered my ID' when you mean 'issued'",
-        "memoryTrick": "Deliver = Livrer (bring goods) | Issue/Set free = Délivrer"
+      "subTopic": "Issue vs Exit",
+      "frenchComparison": {
+        "frenchStructure": "C'est un problème sérieux...",
+        "englishStructure": "This is a serious issue...",
+        "whyDifficult": "French 'Issue' = Exit. 'Issue' = Problème.",
+        "visualHighlighting": {
+          "incorrect": "exit",
+          "correct": "issue"
+        }
       }
     },
     {
-      "id": "false-cog-37-A",
+      "id": "fc-m08-B",
       "moduleId": "false-cognates",
-      "questionText": "\"The football match had a ___ ending in the last minute with a surprise goal!\"",
+      "difficulty": "medium",
+      "questionText": "He is a man of good ___.",
       "type": "multiple_choice",
       "options": [
-        "tragic",
-        "dramatic",
-        "sad"
+        "character",
+        "temper",
+        "mood"
       ],
-      "correctAnswer": "dramatic",
-      "feedback": "Correct! 'Dramatic' in English means 'exciting' or 'sudden and surprising' (spectaculaire). 'Dramatique' in French means 'tragic' or 'very sad' (tragique). Example: 'It was a tragic accident' not 'dramatic accident'.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "character",
+      "feedback": "Correct! 'Character' means moral strength.",
+      "formType": "B",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Dramatic/Dramatique",
-      "falseCognate": {
-        "englishWord": "dramatic",
-        "frenchWord": "dramatique",
-        "frenchMeaning": "tragic or related to tragedy (very sad)",
-        "englishMeaning": "exciting, theatrical, or sudden and surprising",
-        "commonMistake": "Saying 'His death was dramatic' when you mean 'tragic'",
-        "memoryTrick": "Dramatic = Spectaculaire/Soudain (exciting) | Tragic = Dramatique"
+      "subTopic": "Character vs Temper",
+      "frenchComparison": {
+        "frenchStructure": "C'est un homme de bonne moralité...",
+        "englishStructure": "He is a man of good character...",
+        "whyDifficult": "French 'Caractère' often = Temper. 'Character' = Moralité.",
+        "visualHighlighting": {
+          "incorrect": "temper",
+          "correct": "character"
+        }
       }
     },
     {
-      "id": "false-cog-38-A",
+      "id": "fc-m09-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I cannot talk right now, I am ___ with an important task.\"",
+      "difficulty": "medium",
+      "questionText": "Sorry for the ___.",
       "type": "multiple_choice",
       "options": [
-        "engaged",
-        "busy",
-        "committed"
+        "delay",
+        "deadline",
+        "limit"
       ],
-      "correctAnswer": "busy",
-      "feedback": "Perfect! Use 'busy' for 'occupé'. 'Engaged' in English most commonly means 'promised to be married' (fiancé). 'Engagé' in French means 'committed' to a cause or 'hired'. Avoid 'engaged' for 'busy' to prevent confusion!",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "delay",
+      "feedback": "Correct! 'Delay' is 'Retard'.",
+      "formType": "B",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Engaged/Engagé",
-      "falseCognate": {
-        "englishWord": "engaged",
-        "frenchWord": "engagé",
-        "frenchMeaning": "committed (to a cause), hired, or involved",
-        "englishMeaning": "promised to be married, or busy/occupied",
-        "commonMistake": "Saying 'I am engaged' when you mean 'busy' (sounds like marriage!)",
-        "memoryTrick": "Engaged = Fiancé (to be married) | Busy = Occupé | Committed = Engagé"
+      "subTopic": "Delay vs Deadline",
+      "frenchComparison": {
+        "frenchStructure": "Désolé pour le retard...",
+        "englishStructure": "Sorry for the delay...",
+        "whyDifficult": "French 'Délai' = Deadline/Time limit. 'Delay' = Retard.",
+        "visualHighlighting": {
+          "incorrect": "deadline",
+          "correct": "delay"
+        }
       }
     },
     {
-      "id": "false-cog-39-A",
+      "id": "fc-m10-B",
       "moduleId": "false-cognates",
-      "questionText": "\"We must prepare for a ___ power cut tomorrow. It might happen.\"",
+      "difficulty": "medium",
+      "questionText": "There is a ___ at the hotel.",
       "type": "multiple_choice",
       "options": [
-        "eventual",
-        "possible",
-        "final"
+        "vacancy",
+        "vacation",
+        "rest"
       ],
-      "correctAnswer": "possible",
-      "feedback": "Correct! 'Éventuel' in French means 'possible' or 'potential'. 'Eventual' in English means 'final' or 'ultimate' (happening at the end). Example: 'The eventual winner was from Bamenda' (the final winner).",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "vacancy",
+      "feedback": "Correct! 'Vacancy' is an available room.",
+      "formType": "B",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Eventual/Éventuel",
-      "falseCognate": {
-        "englishWord": "eventual",
-        "frenchWord": "éventuel",
-        "frenchMeaning": "possible or potential",
-        "englishMeaning": "final or ultimate (at the end of a process)",
-        "commonMistake": "Saying 'an eventual problem' when you mean 'a possible problem'",
-        "memoryTrick": "Eventual = Final (at the end) | Possible = Éventuel"
+      "subTopic": "Vacancy vs Vacation",
+      "frenchComparison": {
+        "frenchStructure": "Il y a une chambre libre...",
+        "englishStructure": "There is a vacancy...",
+        "whyDifficult": "French 'Vacances' = Vacation. 'Vacancy' = Chambre libre.",
+        "visualHighlighting": {
+          "incorrect": "vacation",
+          "correct": "vacancy"
+        }
       }
     },
     {
-      "id": "false-cog-40-A",
+      "id": "fc-m11-B",
       "moduleId": "false-cognates",
-      "questionText": "\"In our science class today, we did an ___ with chemicals.\"",
+      "difficulty": "medium",
+      "questionText": "Please ___ for me here.",
       "type": "multiple_choice",
       "options": [
-        "experience",
-        "experiment",
-        "life event"
+        "wait",
+        "expect",
+        "hope"
       ],
-      "correctAnswer": "experiment",
-      "feedback": "Excellent! 'Expérience' in French can mean 'experience' OR 'experiment'. In English, they're different words! Use 'experiment' for scientific tests and 'experience' for life knowledge. Example: 'Visiting Waza Park was an amazing experience'.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "wait",
+      "feedback": "Correct! 'Wait' is 'Attendre'.",
+      "formType": "B",
+      "transferType": "near",
       "item_version": "1.0.0",
-      "subTopic": "Experience/Expérience",
-      "falseCognate": {
-        "englishWord": "experience",
-        "frenchWord": "expérience",
-        "frenchMeaning": "experience (from life) OR experiment (in science)",
-        "englishMeaning": "knowledge or skill from doing something",
-        "commonMistake": "Saying 'We did an experience' when you mean 'experiment'",
-        "memoryTrick": "Experience = Expérience vécue (life) | Experiment = Expérience scientifique"
+      "subTopic": "Wait vs Hope",
+      "frenchComparison": {
+        "frenchStructure": "Attends-moi ici...",
+        "englishStructure": "Please wait for me here...",
+        "whyDifficult": "French 'Attendre' = Wait. 'Expect' = S'attendre à.",
+        "visualHighlighting": {
+          "incorrect": "expect",
+          "correct": "wait"
+        }
       }
     },
     {
-      "id": "false-cog-41-A",
+      "id": "fc-m12-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I am sick with a bad cough. I need to see a ___.\"",
+      "difficulty": "medium",
+      "questionText": "The enemy was ___.",
+      "type": "multiple_choice",
+      "options": [
+        "formidable",
+        "great",
+        "nice"
+      ],
+      "correctAnswer": "formidable",
+      "feedback": "Correct! 'Formidable' in English means 'Scary' or 'Difficult to beat'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Formidable vs Great",
+      "frenchComparison": {
+        "frenchStructure": "L'ennemi était redoutable...",
+        "englishStructure": "The enemy was formidable...",
+        "whyDifficult": "French 'Formidable' = Great. 'Formidable' = Redoutable.",
+        "visualHighlighting": {
+          "incorrect": "great",
+          "correct": "formidable"
+        }
+      }
+    },
+    {
+      "id": "fc-m13-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "The rocks have a strange ___.",
+      "type": "multiple_choice",
+      "options": [
+        "formation",
+        "training",
+        "teaching"
+      ],
+      "correctAnswer": "formation",
+      "feedback": "Correct! 'Formation' is 'Shape/Structure'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Formation vs Training",
+      "frenchComparison": {
+        "frenchStructure": "Les rochers ont une formation étrange...",
+        "englishStructure": "The rocks have a strange formation...",
+        "whyDifficult": "French 'Formation' (education) = Training. 'Formation' (shape) = Formation.",
+        "visualHighlighting": {
+          "incorrect": "training",
+          "correct": "formation"
+        }
+      }
+    },
+    {
+      "id": "fc-m14-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "We met on a sad ___.",
+      "type": "multiple_choice",
+      "options": [
+        "occasion",
+        "opportunity",
+        "chance"
+      ],
+      "correctAnswer": "occasion",
+      "feedback": "Correct! 'Occasion' is a specific event or time.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Occasion vs Opportunity",
+      "frenchComparison": {
+        "frenchStructure": "Nous nous sommes rencontrés à une triste occasion...",
+        "englishStructure": "We met on a sad occasion...",
+        "whyDifficult": "French 'Occasion' (chance) = Opportunity. 'Occasion' (event) = Occasion.",
+        "visualHighlighting": {
+          "incorrect": "opportunity",
+          "correct": "occasion"
+        }
+      }
+    },
+    {
+      "id": "fc-m15-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "Christmas is a ___.",
+      "type": "multiple_choice",
+      "options": [
+        "holiday",
+        "vacation",
+        "break"
+      ],
+      "correctAnswer": "holiday",
+      "feedback": "Correct! 'Holiday' is a specific day of celebration.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Holidays vs Vacation",
+      "frenchComparison": {
+        "frenchStructure": "Noël est un jour férié...",
+        "englishStructure": "Christmas is a holiday...",
+        "whyDifficult": "Vocabulary difference.",
+        "visualHighlighting": {
+          "incorrect": "vacation",
+          "correct": "holiday"
+        }
+      }
+    },
+    {
+      "id": "fc-m16-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "Don't ___ the rules.",
+      "type": "multiple_choice",
+      "options": [
+        "ignore",
+        "not know",
+        "forget"
+      ],
+      "correctAnswer": "ignore",
+      "feedback": "Correct! 'Ignore' means to not follow or pay attention to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Ignore vs Not Know",
+      "frenchComparison": {
+        "frenchStructure": "N'ignore pas les règles...",
+        "englishStructure": "Don't ignore the rules...",
+        "whyDifficult": "French 'Ignorer' = Not know. 'Ignore' = Disregard.",
+        "visualHighlighting": {
+          "incorrect": "not know",
+          "correct": "ignore"
+        }
+      }
+    },
+    {
+      "id": "fc-m17-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I ___ my team.",
+      "type": "multiple_choice",
+      "options": [
+        "support",
+        "tolerate",
+        "bear"
+      ],
+      "correctAnswer": "support",
+      "feedback": "Correct! 'Support' means 'encourage' or 'help'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Support vs Tolerate",
+      "frenchComparison": {
+        "frenchStructure": "Je soutiens mon équipe...",
+        "englishStructure": "I support my team...",
+        "whyDifficult": "French 'Supporter' = Tolerate. 'Support' = Soutenir.",
+        "visualHighlighting": {
+          "incorrect": "tolerate",
+          "correct": "support"
+        }
+      }
+    },
+    {
+      "id": "fc-m18-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "He ___ me on the piano.",
+      "type": "multiple_choice",
+      "options": [
+        "accompanied",
+        "took",
+        "led"
+      ],
+      "correctAnswer": "accompanied",
+      "feedback": "Correct! 'Accompany' is correct for music.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Accompany vs Take",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a accompagné au piano...",
+        "englishStructure": "He accompanied me on the piano...",
+        "whyDifficult": "True cognate in this context.",
+        "visualHighlighting": {
+          "incorrect": "took",
+          "correct": "accompanied"
+        }
+      }
+    },
+    {
+      "id": "fc-m19-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "Can I see the ___?",
+      "type": "multiple_choice",
+      "options": [
+        "menu",
+        "meal",
+        "dish"
+      ],
+      "correctAnswer": "menu",
+      "feedback": "Correct! The list of food is the 'menu'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Menu vs Meal",
+      "frenchComparison": {
+        "frenchStructure": "Puis-je voir le menu...",
+        "englishStructure": "Can I see the menu...",
+        "whyDifficult": "French 'Menu' (meal) = Meal. 'Menu' (list) = Menu.",
+        "visualHighlighting": {
+          "incorrect": "meal",
+          "correct": "menu"
+        }
+      }
+    },
+    {
+      "id": "fc-m20-B",
+      "moduleId": "false-cognates",
+      "difficulty": "medium",
+      "questionText": "I ___ his success.",
+      "type": "multiple_choice",
+      "options": [
+        "envy",
+        "desire",
+        "want"
+      ],
+      "correctAnswer": "envy",
+      "feedback": "Correct! 'Envy' is jealousy.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Envy vs Desire",
+      "frenchComparison": {
+        "frenchStructure": "J'envie son succès...",
+        "englishStructure": "I envy his success...",
+        "whyDifficult": "French 'Envie' = Desire/Wish. 'Envy' = Jalousie/Envie (jealousy).",
+        "visualHighlighting": {
+          "incorrect": "desire",
+          "correct": "envy"
+        }
+      }
+    },
+    {
+      "id": "fc-h01-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "We will ___ find a solution.",
+      "type": "multiple_choice",
+      "options": [
+        "eventually",
+        "possibly",
+        "maybe"
+      ],
+      "correctAnswer": "eventually",
+      "feedback": "Correct! 'Eventually' means 'In the end' or 'Finally'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Eventually vs Possibly",
+      "frenchComparison": {
+        "frenchStructure": "Nous finirons par trouver...",
+        "englishStructure": "We will eventually find...",
+        "whyDifficult": "French 'Éventuellement' = Possibly. 'Eventually' = Finalement.",
+        "visualHighlighting": {
+          "incorrect": "possibly",
+          "correct": "eventually"
+        }
+      }
+    },
+    {
+      "id": "fc-h02-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "This is a ___ list of items.",
+      "type": "multiple_choice",
+      "options": [
+        "comprehensive",
+        "understanding",
+        "sympathetic"
+      ],
+      "correctAnswer": "comprehensive",
+      "feedback": "Correct! 'Comprehensive' means 'Complete'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Comprehensive vs Understanding",
+      "frenchComparison": {
+        "frenchStructure": "C'est une liste complète...",
+        "englishStructure": "This is a comprehensive list...",
+        "whyDifficult": "French 'Compréhensif' = Understanding. 'Comprehensive' = Complet.",
+        "visualHighlighting": {
+          "incorrect": "understanding",
+          "correct": "comprehensive"
+        }
+      }
+    },
+    {
+      "id": "fc-h03-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He ___ to be sick.",
+      "type": "multiple_choice",
+      "options": [
+        "pretended",
+        "claimed",
+        "demanded"
+      ],
+      "correctAnswer": "pretended",
+      "feedback": "Correct! 'Pretend' means 'fake'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pretend vs Claim",
+      "frenchComparison": {
+        "frenchStructure": "Il a fait semblant d'être malade...",
+        "englishStructure": "He pretended to be sick...",
+        "whyDifficult": "French 'Prétendre' = Claim. 'Pretend' = Faire semblant.",
+        "visualHighlighting": {
+          "incorrect": "claimed",
+          "correct": "pretended"
+        }
+      }
+    },
+    {
+      "id": "fc-h04-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "I didn't ___ he was there.",
+      "type": "multiple_choice",
+      "options": [
+        "realize",
+        "achieve",
+        "succeed"
+      ],
+      "correctAnswer": "realize",
+      "feedback": "Correct! 'Realize' means 'notice' or 'become aware'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Realize vs Achieve",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas réalisé...",
+        "englishStructure": "I didn't realize...",
+        "whyDifficult": "French 'Réaliser' (achieve) = Achieve. 'Realize' (notice) = Se rendre compte.",
+        "visualHighlighting": {
+          "incorrect": "achieve",
+          "correct": "realize"
+        }
+      }
+    },
+    {
+      "id": "fc-h05-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He was arrested for driving while ___.",
+      "type": "multiple_choice",
+      "options": [
+        "intoxicated",
+        "poisoned",
+        "sick"
+      ],
+      "correctAnswer": "intoxicated",
+      "feedback": "Correct! 'Intoxicated' means 'Drunk'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Intoxicated vs Poisoned",
+      "frenchComparison": {
+        "frenchStructure": "Il a été arrêté pour conduite en état d'ivresse...",
+        "englishStructure": "He was arrested for driving while intoxicated...",
+        "whyDifficult": "French 'Intoxiqué' = Poisoned. 'Intoxicated' = Ivre.",
+        "visualHighlighting": {
+          "incorrect": "poisoned",
+          "correct": "intoxicated"
+        }
+      }
+    },
+    {
+      "id": "fc-h06-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "Einstein was a famous ___.",
       "type": "multiple_choice",
       "options": [
         "physicist",
-        "doctor",
-        "scientist"
+        "physician",
+        "doctor"
       ],
-      "correctAnswer": "doctor",
-      "feedback": "Perfect! 'Physician' in English means 'medical doctor' (médecin). 'Physicien' in French means 'physicist' (a scientist who studies physics). Example: 'Albert Einstein was a great physicist'. Use 'doctor' to avoid confusion!",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "physicist",
+      "feedback": "Correct! 'Physicist' studies physics.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Physician/Physicien",
-      "falseCognate": {
-        "englishWord": "physician",
-        "frenchWord": "physicien",
-        "frenchMeaning": "physicist (a scientist who studies physics)",
-        "englishMeaning": "medical doctor (médecin)",
-        "commonMistake": "Confusing medical doctor with physics scientist",
-        "memoryTrick": "Physician = Médecin (Medical Doctor) | Physicist = Physicien"
+      "subTopic": "Physician vs Physicist",
+      "frenchComparison": {
+        "frenchStructure": "Einstein était un physicien célèbre...",
+        "englishStructure": "Einstein was a famous physicist...",
+        "whyDifficult": "French 'Physicien' = Physicist. 'Physician' = Médecin.",
+        "visualHighlighting": {
+          "incorrect": "physician",
+          "correct": "physicist"
+        }
       }
     },
     {
-      "id": "false-cog-42-A",
+      "id": "fc-h07-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I have a sharp ___ in my back. It hurts a lot.\"",
+      "difficulty": "hard",
+      "questionText": "Smoking is a health ___.",
       "type": "multiple_choice",
       "options": [
-        "bread",
-        "pain",
-        "food"
+        "hazard",
+        "chance",
+        "accident"
       ],
-      "correctAnswer": "pain",
-      "feedback": "Correct! 'Pain' in English means 'suffering' or 'hurt' (douleur). 'Pain' in French means 'bread'. Example: 'I am going to buy some bread' = 'Je vais acheter du pain'. Very different meanings!",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "hazard",
+      "feedback": "Correct! 'Hazard' is a danger.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Pain/Pain",
-      "falseCognate": {
-        "englishWord": "pain",
-        "frenchWord": "pain",
-        "frenchMeaning": "bread",
-        "englishMeaning": "suffering or the feeling of being hurt (douleur)",
-        "commonMistake": "Saying 'I'm going to buy some pain' when you mean 'bread'",
-        "memoryTrick": "Pain (English) = Douleur (Hurt) | Pain (French) = Bread"
+      "subTopic": "Hazard vs Chance",
+      "frenchComparison": {
+        "frenchStructure": "Fumer est un danger pour la santé...",
+        "englishStructure": "Smoking is a health hazard...",
+        "whyDifficult": "French 'Hasard' = Chance/Luck. 'Hazard' = Danger.",
+        "visualHighlighting": {
+          "incorrect": "chance",
+          "correct": "hazard"
+        }
       }
     },
     {
-      "id": "false-cog-43-A",
+      "id": "fc-h08-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I am sick. I need to see a ___ to get treatment.\"",
+      "difficulty": "hard",
+      "questionText": "___ is bliss.",
       "type": "multiple_choice",
       "options": [
-        "medicine",
-        "doctor",
-        "medication"
+        "Ignorance",
+        "Ignoring",
+        "Not knowing"
       ],
-      "correctAnswer": "doctor",
-      "feedback": "Perfect! 'Médecin' in French means 'doctor' (the person). 'Medicine' in English means 'medication' or 'drug' (le médicament). Example: 'Take this medicine three times a day' (the drug), not 'see a medicine'.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "Ignorance",
+      "feedback": "Correct! 'Ignorance' means lack of knowledge.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Medicine/Médecin",
-      "falseCognate": {
-        "englishWord": "medicine",
-        "frenchWord": "médecin",
-        "frenchMeaning": "medical doctor (the person)",
-        "englishMeaning": "a drug or medication (le médicament)",
-        "commonMistake": "Saying 'I need to see a medicine' when you mean 'doctor'",
-        "memoryTrick": "Medicine = Médicament (The drug) | Doctor = Médecin (The person)"
+      "subTopic": "Ignore vs Not Know",
+      "frenchComparison": {
+        "frenchStructure": "L'ignorance est une bénédiction...",
+        "englishStructure": "Ignorance is bliss...",
+        "whyDifficult": "French 'Ignorance' = Ignorance. 'Ignore' = Disregard.",
+        "visualHighlighting": {
+          "incorrect": "not knowing",
+          "correct": "ignorance"
+        }
       }
     },
     {
-      "id": "false-cog-44-A",
+      "id": "fc-h09-B",
       "moduleId": "false-cognates",
-      "questionText": "\"The doctor gave me ___ for my headache.\"",
+      "difficulty": "hard",
+      "questionText": "Cotton is a natural ___.",
       "type": "multiple_choice",
       "options": [
-        "drugs",
-        "medicine",
-        "illegal substances"
+        "fabric",
+        "factory",
+        "plant"
       ],
-      "correctAnswer": "medicine",
-      "feedback": "Excellent! Use 'medicine' or 'medication' for médicament. 'Drug' can mean medicine, but also illegal drugs. 'Drogue' in French almost always means illegal drugs. Say 'medicine' to be clear and avoid confusion!",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "fabric",
+      "feedback": "Correct! 'Fabric' is material/cloth.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Drug/Drogue",
-      "falseCognate": {
-        "englishWord": "drug",
-        "frenchWord": "drogue",
-        "frenchMeaning": "illegal drugs (almost always)",
-        "englishMeaning": "medicine/medication OR illegal drugs",
-        "commonMistake": "Saying 'The doctor gave me drugs' (sounds like illegal substances)",
-        "memoryTrick": "Drug (English) = Médicament OR Drogue | Drogue (French) = Illegal | Use 'medicine' for médicament"
+      "subTopic": "Fabric vs Factory",
+      "frenchComparison": {
+        "frenchStructure": "Le coton est un tissu naturel...",
+        "englishStructure": "Cotton is a natural fabric...",
+        "whyDifficult": "French 'Fabrique' = Factory. 'Fabric' = Tissu.",
+        "visualHighlighting": {
+          "incorrect": "factory",
+          "correct": "fabric"
+        }
       }
     },
     {
-      "id": "false-cog-45-A",
+      "id": "fc-h10-B",
       "moduleId": "false-cognates",
-      "questionText": "\"This food contains no artificial ___ to keep it fresh.\"",
+      "difficulty": "hard",
+      "questionText": "I saw a ___ on the board.",
       "type": "multiple_choice",
       "options": [
-        "condoms",
-        "preservatives",
-        "protection"
+        "notice",
+        "advice",
+        "opinion"
       ],
-      "correctAnswer": "preservatives",
-      "feedback": "Correct! 'Preservative' in English means a food chemical (conservateur). 'Préservatif' in French means 'condom'. This is a very embarrassing false cognate! Always say 'preservatives' for food, never 'préservatifs'.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "notice",
+      "feedback": "Correct! 'Notice' is an announcement.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Preservative/Préservatif",
-      "falseCognate": {
-        "englishWord": "preservative",
-        "frenchWord": "préservatif",
-        "frenchMeaning": "condom",
-        "englishMeaning": "chemical added to food to keep it fresh (conservateur)",
-        "commonMistake": "Very embarrassing confusion between food chemicals and condoms!",
-        "memoryTrick": "Preservative = Conservateur (Food chemical) | Condom = Préservatif"
+      "subTopic": "Notice vs Opinion",
+      "frenchComparison": {
+        "frenchStructure": "J'ai vu une annonce...",
+        "englishStructure": "I saw a notice...",
+        "whyDifficult": "French 'Notice' = Instructions. 'Notice' = Annonce.",
+        "visualHighlighting": {
+          "incorrect": "advice",
+          "correct": "notice"
+        }
       }
     },
     {
-      "id": "false-cog-46-A",
+      "id": "fc-h11-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I am waiting in the ___ for the bus at the motor park.\"",
+      "difficulty": "hard",
+      "questionText": "Plants need ___ soil.",
       "type": "multiple_choice",
       "options": [
-        "file",
-        "line",
-        "document"
+        "fertile",
+        "fertility",
+        "fertilizer"
       ],
-      "correctAnswer": "line",
-      "feedback": "Perfect! 'File' in French means 'line' or 'queue' of people. 'File' in English means 'a folder' (dossier) or 'computer file' (fichier). Example: 'Please save the file on your USB' (document), but 'waiting in line' (queue).",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "fertile",
+      "feedback": "Correct! 'Fertile' is the adjective.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "File/File",
-      "falseCognate": {
-        "englishWord": "file",
-        "frenchWord": "file",
-        "frenchMeaning": "line or queue of people",
-        "englishMeaning": "folder for documents (dossier) or computer file (fichier)",
-        "commonMistake": "Saying 'waiting in the file' when you mean 'line' or 'queue'",
-        "memoryTrick": "File = Dossier/Fichier (Document) | Line/Queue = File (People waiting)"
+      "subTopic": "Cognates (Trick)",
+      "frenchComparison": {
+        "frenchStructure": "Les plantes ont besoin d'un sol fertile...",
+        "englishStructure": "Plants need fertile soil...",
+        "whyDifficult": "True cognate.",
+        "visualHighlighting": {
+          "incorrect": "fertilizer",
+          "correct": "fertile"
+        }
       }
     },
     {
-      "id": "false-cog-47-A",
+      "id": "fc-h12-B",
       "moduleId": "false-cognates",
-      "questionText": "\"I studied hard and got a good ___ in mathematics this term.\"",
+      "difficulty": "hard",
+      "questionText": "He is a good ___.",
       "type": "multiple_choice",
       "options": [
-        "note",
-        "grade",
-        "message"
+        "actor",
+        "author",
+        "writer"
       ],
-      "correctAnswer": "grade",
-      "feedback": "Excellent! 'Note' in French means 'grade' or 'mark' in school. 'Note' in English means a short piece of writing (un mot). Example: 'The teacher wrote a note to my parents' (message), but 'I got a good grade' (school result).",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "actor",
+      "feedback": "Correct! 'Acteur' is 'Actor'.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Note/Note",
-      "falseCognate": {
-        "englishWord": "note",
-        "frenchWord": "note",
-        "frenchMeaning": "grade or mark in school",
-        "englishMeaning": "short piece of writing (un mot) or to write down",
-        "commonMistake": "Saying 'I got a good note' when you mean 'grade' or 'mark'",
-        "memoryTrick": "Note = Mot/Billet (A message) | Grade/Mark = Note (School result)"
+      "subTopic": "True Cognates",
+      "frenchComparison": {
+        "frenchStructure": "C'est un bon acteur...",
+        "englishStructure": "He is a good actor...",
+        "whyDifficult": "True cognate.",
+        "visualHighlighting": {
+          "incorrect": "author",
+          "correct": "actor"
+        }
       }
     },
     {
-      "id": "false-cog-48-A",
+      "id": "fc-h13-B",
       "moduleId": "false-cognates",
-      "questionText": "\"He is in court for his criminal ___.\"",
+      "difficulty": "hard",
+      "questionText": "He had a serious leg ___.",
       "type": "multiple_choice",
       "options": [
-        "process",
-        "trial",
-        "method"
+        "injury",
+        "injure",
+        "insult"
       ],
-      "correctAnswer": "trial",
-      "feedback": "Correct! 'Procès' in French means a court 'trial'. 'Process' in English means a 'method' or 'series of steps' (processus/méthode). Example: 'Sending mobile money is a simple process' (method), but 'trial' for court cases.",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "injury",
+      "feedback": "Correct! 'Injury' is a wound.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Process/Procès",
-      "falseCognate": {
-        "englishWord": "process",
-        "frenchWord": "procès",
-        "frenchMeaning": "trial (in a court of law)",
-        "englishMeaning": "method or series of steps",
-        "commonMistake": "Saying 'He is in court for his process' when you mean 'trial'",
-        "memoryTrick": "Process = Processus/Méthode (A method) | Trial = Procès (In court)"
+      "subTopic": "Injury vs Insult",
+      "frenchComparison": {
+        "frenchStructure": "Il a eu une grave blessure...",
+        "englishStructure": "He had a serious leg injury...",
+        "whyDifficult": "French 'Injure' = Insult. 'Injury' = Blessure.",
+        "visualHighlighting": {
+          "incorrect": "insult",
+          "correct": "injury"
+        }
       }
     },
     {
-      "id": "false-cog-49-A",
+      "id": "fc-h14-B",
       "moduleId": "false-cognates",
-      "questionText": "\"Please ___ the meeting on your phone so we can listen to it later.\"",
+      "difficulty": "hard",
+      "questionText": "Smoking is a bad ___.",
       "type": "multiple_choice",
       "options": [
-        "set a record",
-        "record",
-        "break a record"
+        "habit",
+        "custom",
+        "practice"
       ],
-      "correctAnswer": "record",
-      "feedback": "Perfect! 'Record' (verb: re-CORD) means 'to write down' or 'to film/audio record' (enregistrer). 'Record' (noun: RE-cord) means a sports achievement OR a file of information. 'Record' in French means sports record. Use 'record' (verb) for filming!",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "habit",
+      "feedback": "Correct! 'Habit' is a routine.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Record/Record",
-      "falseCognate": {
-        "englishWord": "record",
-        "frenchWord": "record",
-        "frenchMeaning": "record in sports or best achievement",
-        "englishMeaning": "a file of information OR to write down/film (enregistrer)",
-        "commonMistake": "Confusing the verb 'to record' with sports records",
-        "memoryTrick": "Record (noun) = Dossier/Enregistrement | Record (verb) = Enregistrer | Record (achievement) = Record (same!)"
+      "subTopic": "Habit vs Clothes",
+      "frenchComparison": {
+        "frenchStructure": "Fumer est une mauvaise habitude...",
+        "englishStructure": "Smoking is a bad habit...",
+        "whyDifficult": "French 'Habit' = Clothes. 'Habit' = Habitude.",
+        "visualHighlighting": {
+          "incorrect": "custom",
+          "correct": "habit"
+        }
       }
     },
     {
-      "id": "false-cog-50-A",
+      "id": "fc-h15-B",
       "moduleId": "false-cognates",
-      "questionText": "\"Please fill out this registration ___ and return it to the office.\"",
+      "difficulty": "hard",
+      "questionText": "That is an ___ book.",
       "type": "multiple_choice",
       "options": [
-        "shape",
-        "form",
-        "fitness"
+        "interesting",
+        "attractive",
+        "interest"
       ],
-      "correctAnswer": "form",
-      "feedback": "Excellent! 'Form' in English means 'a paper to fill out' (formulaire) or 'a type/kind'. 'Forme' in French means 'shape' or 'physical fitness'. Example: 'I am not in good shape today' (fitness), but 'fill out this form' (paper).",
-      "formType": "A",
-      "transferType": "negative",
+      "correctAnswer": "interesting",
+      "feedback": "Correct! 'Interesting' fits 'book'.",
+      "formType": "B",
+      "transferType": "far",
       "item_version": "1.0.0",
-      "subTopic": "Form/Forme",
-      "falseCognate": {
-        "englishWord": "form",
-        "frenchWord": "forme",
-        "frenchMeaning": "shape or physical condition/fitness",
-        "englishMeaning": "a type/kind or a paper to fill out (formulaire)",
-        "commonMistake": "Saying 'I am not in good form' when you mean 'shape' or 'fitness'",
-        "memoryTrick": "Form = Formulaire (A paper) | Shape/Fitness = Forme (Physical condition)"
+      "subTopic": "Interesting vs Attractive",
+      "frenchComparison": {
+        "frenchStructure": "C'est un livre intéressant...",
+        "englishStructure": "That is an interesting book...",
+        "whyDifficult": "French 'Intéressant' = Interesting. 'Attractive' = Séduisant.",
+        "visualHighlighting": {
+          "incorrect": "attractive",
+          "correct": "interesting"
+        }
+      }
+    },
+    {
+      "id": "fc-h16-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "They live in ___.",
+      "type": "multiple_choice",
+      "options": [
+        "poverty",
+        "misery",
+        "poor"
+      ],
+      "correctAnswer": "poverty",
+      "feedback": "Correct! 'Poverty' is the state of being poor. 'Misery' is suffering.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Misery vs Poverty",
+      "frenchComparison": {
+        "frenchStructure": "Ils vivent dans la pauvreté...",
+        "englishStructure": "They live in poverty...",
+        "whyDifficult": "French 'Misère' = Poverty/Misery. 'Misery' = Malheur.",
+        "visualHighlighting": {
+          "incorrect": "misery",
+          "correct": "poverty"
+        }
+      }
+    },
+    {
+      "id": "fc-h17-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He can do many things; he is ___.",
+      "type": "multiple_choice",
+      "options": [
+        "versatile",
+        "fickle",
+        "changeable"
+      ],
+      "correctAnswer": "versatile",
+      "feedback": "Correct! 'Versatile' (English) = Multitalented.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Versatile vs Fickle",
+      "frenchComparison": {
+        "frenchStructure": "Il est polyvalent...",
+        "englishStructure": "He is versatile...",
+        "whyDifficult": "French 'Versatile' = Fickle. 'Versatile' = Polyvalent.",
+        "visualHighlighting": {
+          "incorrect": "fickle",
+          "correct": "versatile"
+        }
+      }
+    },
+    {
+      "id": "fc-h18-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "We must ___ the plan.",
+      "type": "multiple_choice",
+      "options": [
+        "revise",
+        "review",
+        "see"
+      ],
+      "correctAnswer": "revise",
+      "feedback": "Correct! 'Revise' means to change or update.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Revise vs Review",
+      "frenchComparison": {
+        "frenchStructure": "Nous devons réviser le plan...",
+        "englishStructure": "We must revise the plan...",
+        "whyDifficult": "French 'Réviser' = Review/Revise. 'Revise' = Modifier.",
+        "visualHighlighting": {
+          "incorrect": "review",
+          "correct": "revise"
+        }
+      }
+    },
+    {
+      "id": "fc-h19-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "Be ___ with me.",
+      "type": "multiple_choice",
+      "options": [
+        "candid",
+        "naive",
+        "simple"
+      ],
+      "correctAnswer": "candid",
+      "feedback": "Correct! 'Candid' means honest/frank.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Candid vs Naive",
+      "frenchComparison": {
+        "frenchStructure": "Sois franc avec moi...",
+        "englishStructure": "Be candid with me...",
+        "whyDifficult": "French 'Candide' = Naive. 'Candid' = Franc.",
+        "visualHighlighting": {
+          "incorrect": "naive",
+          "correct": "candid"
+        }
+      }
+    },
+    {
+      "id": "fc-h20-B",
+      "moduleId": "false-cognates",
+      "difficulty": "hard",
+      "questionText": "He has great ___.",
+      "type": "multiple_choice",
+      "options": [
+        "wealth",
+        "affluence",
+        "rich"
+      ],
+      "correctAnswer": "wealth",
+      "feedback": "Correct! 'Wealth' is riches.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Affluence vs Crowd",
+      "frenchComparison": {
+        "frenchStructure": "Il a une grande richesse...",
+        "englishStructure": "He has great wealth...",
+        "whyDifficult": "French 'Affluence' = Crowd. 'Affluence' = Richesse.",
+        "visualHighlighting": {
+          "incorrect": "affluence",
+          "correct": "wealth"
+        }
       }
     }
   ]

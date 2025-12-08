@@ -33,7 +33,7 @@ export function AchievementToast({ achievement, onClose }: AchievementToastProps
             stiffness: 300,
             damping: 20
           }}
-          className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 max-w-md"
+          className="fixed bottom-6 right-6 z-50 max-w-md"
         >
           <div className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 rounded-2xl shadow-2xl p-1">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-5">

@@ -27,12 +27,17 @@ body {
   /* Support for safe area insets (notched devices) */
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
+
+  /* Subtle Texture for Depth */
+  background-color: #EFEBE9;
+  /* earth-50 */
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23795548' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Optimize tap highlight color for mobile */
 * {
-  -webkit-tap-highlight-color: rgba(37, 99, 235, 0.2);
-  tap-highlight-color: rgba(37, 99, 235, 0.2);
+  -webkit-tap-highlight-color: rgba(76, 175, 80, 0.2);
+  /* palm-500 */
 }
 
 /* Ensure minimum touch target size (44x44px per Apple HIG) */
@@ -71,9 +76,103 @@ span:not(button span) {
 
 /* Mobile-specific utilities */
 @media (max-width: 640px) {
+
   /* Reduce large padding on mobile */
   .mobile-reduce-padding {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Custom Animations */
+  @keyframes bounce-subtle {
+
+    0%,
+    100% {
+      transform: translateY(-5%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-150%) skewX(-12deg);
+    }
+
+    100% {
+      transform: translateX(150%) skewX(-12deg);
+    }
+  }
+
+  @keyframes pulse-soft {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s infinite;
+  }
+
+  .animate-pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* Glassmorphism Utilities */
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Card hover lift effect */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(62, 39, 35, 0.12);
+  /* earth-900 shadow */
 }

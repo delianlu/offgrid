@@ -1,0 +1,3292 @@
+{
+  "id": "sentence-connectors",
+  "name": "Sentence Connectors",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Sentence Connectors module! These are the 'glue' words that hold your ideas together. In French, you can often use the same connector logic (like *pour* or *malgré*), but English is strict! Some connectors demand a Noun (*Because of*), while others demand a Verb (*Because*).",
+  "contrastiveExplanation": "Although vs. Despite:\nEnglish: 'Although' + Sentence. 'Despite' + Noun.\nFrench: 'Bien que' and 'Malgré' logic is similar, but 'Despite that...' is wrong.\n\nBecause vs. Because of:\nEnglish: 'Because' + Verb. 'Because of' + Noun.\nFrench: 'Parce que' vs 'À cause de'.\n\nDuring vs. While:\nEnglish: 'During' + Noun. 'While' + Sentence.\nFrench: 'Pendant' covers both.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Despite vs Although",
+      "wrong": "Despite he is rich, he is sad.",
+      "correct": "Although he is rich, he is sad.",
+      "frenchConnection": "Translating the logic of 'Bien qu'il soit'. 'Despite' cannot touch a subject pronoun (he)."
+    },
+    {
+      "number": 2,
+      "subTopic": "Purpose (Pour)",
+      "wrong": "I came for see you.",
+      "correct": "I came to see you.",
+      "frenchConnection": "Translating 'Pour' (for) + Infinitive. Use 'To' for purpose with verbs."
+    },
+    {
+      "number": 3,
+      "subTopic": "Because vs Because of",
+      "wrong": "I didn't come because of I was sick.",
+      "correct": "I didn't come because I was sick.",
+      "frenchConnection": "Using 'Because of' before a full sentence."
+    },
+    {
+      "number": 4,
+      "subTopic": "During vs While",
+      "wrong": "I slept during the film was playing.",
+      "correct": "I slept while the film was playing.",
+      "frenchConnection": "French 'Pendant' covers both. 'During' needs a noun, 'While' needs a verb."
+    },
+    {
+      "number": 5,
+      "subTopic": "Also position",
+      "wrong": "I speak English also.",
+      "correct": "I also speak English.",
+      "frenchConnection": "Putting 'also' at the end like French 'aussi'. 'Also' goes before the verb."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "sc-e01-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I like rice ___ beans.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Adding two things together.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime le riz et les haricots...",
+        "englishStructure": "I like rice and beans...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e02-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He is rich, ___ he is not happy.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! 'But' shows contrast.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Il est riche, mais...",
+        "englishStructure": "He is rich, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e03-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I was tired, ___ I went to bed.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! 'So' shows the result.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "J'étais fatigué, donc...",
+        "englishStructure": "I was tired, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e04-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I stayed home ___ it was raining.",
+      "type": "multiple_choice",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "correctAnswer": "because",
+      "feedback": "Correct! 'Because' introduces the reason.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis resté parce que...",
+        "englishStructure": "I stayed because...",
+        "whyDifficult": "Direct translation (parce que = because).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "because"
+        }
+      }
+    },
+    {
+      "id": "sc-e05-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "Do you want tea ___ coffee?",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "but"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! 'Or' is for choice.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Or)",
+      "frenchComparison": {
+        "frenchStructure": "Thé ou café...",
+        "englishStructure": "Tea or coffee...",
+        "whyDifficult": "Direct translation (ou = or).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-e06-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He speaks French. He ___ speaks English.",
+      "type": "multiple_choice",
+      "options": [
+        "also",
+        "too",
+        "so"
+      ],
+      "correctAnswer": "also",
+      "feedback": "Correct! 'Also' goes before the verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "Il parle aussi anglais...",
+        "englishStructure": "He also speaks English...",
+        "whyDifficult": "'Also' goes before the main verb.",
+        "visualHighlighting": {
+          "incorrect": "too",
+          "correct": "also"
+        }
+      }
+    },
+    {
+      "id": "sc-e07-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I like mangoes ___.",
+      "type": "multiple_choice",
+      "options": [
+        "too",
+        "also",
+        "so"
+      ],
+      "correctAnswer": "too",
+      "feedback": "Correct! 'Too' goes at the end.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "J'aime les mangues aussi...",
+        "englishStructure": "I like mangoes too...",
+        "whyDifficult": "'Too' goes at the end of the sentence.",
+        "visualHighlighting": {
+          "incorrect": "also",
+          "correct": "too"
+        }
+      }
+    },
+    {
+      "id": "sc-e08-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "It was cold, ___ I wore a jacket.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "or"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! Result.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "Il faisait froid, donc...",
+        "englishStructure": "It was cold, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e09-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I studied hard, ___ I failed.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "so",
+        "and"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai étudié, mais...",
+        "englishStructure": "I studied, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e10-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "First, I wake up. ___, I brush my teeth.",
+      "type": "multiple_choice",
+      "options": [
+        "Then",
+        "So",
+        "But"
+      ],
+      "correctAnswer": "Then",
+      "feedback": "Correct! Sequencing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sequencing",
+      "frenchComparison": {
+        "frenchStructure": "Ensuite, je me brosse...",
+        "englishStructure": "Then, I brush...",
+        "whyDifficult": "Direct translation (ensuite/puis = then).",
+        "visualHighlighting": {
+          "incorrect": "So",
+          "correct": "Then"
+        }
+      }
+    },
+    {
+      "id": "sc-e11-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He is tall ___ strong.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Adding information.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "Il est grand et fort...",
+        "englishStructure": "He is tall and strong...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e12-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I didn't go ___ I was sick.",
+      "type": "multiple_choice",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "correctAnswer": "because",
+      "feedback": "Correct! Reason.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'y suis pas allé parce que...",
+        "englishStructure": "I didn't go because...",
+        "whyDifficult": "Direct translation (parce que = because).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "because"
+        }
+      }
+    },
+    {
+      "id": "sc-e13-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I want to go, ___ I have no money.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "so",
+        "because"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Je veux y aller, mais...",
+        "englishStructure": "I want to go, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e14-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "___ I was hungry, I ate.",
+      "type": "multiple_choice",
+      "options": [
+        "As",
+        "So",
+        "But"
+      ],
+      "correctAnswer": "As",
+      "feedback": "Correct! 'As' works like 'Because' here.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (As)",
+      "frenchComparison": {
+        "frenchStructure": "Comme j'avais faim...",
+        "englishStructure": "As I was hungry...",
+        "whyDifficult": "As = Comme (Reason).",
+        "visualHighlighting": {
+          "incorrect": "So",
+          "correct": "As"
+        }
+      }
+    },
+    {
+      "id": "sc-e15-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I play football. I ___ play basketball.",
+      "type": "multiple_choice",
+      "options": [
+        "also",
+        "too",
+        "and"
+      ],
+      "correctAnswer": "also",
+      "feedback": "Correct! Mid-sentence position.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "Je joue aussi au basket...",
+        "englishStructure": "I also play basketball...",
+        "whyDifficult": "'Also' goes before the main verb.",
+        "visualHighlighting": {
+          "incorrect": "too",
+          "correct": "also"
+        }
+      }
+    },
+    {
+      "id": "sc-e16-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "Is he Cameroonian ___ Nigerian?",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "but"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! Choice.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Or)",
+      "frenchComparison": {
+        "frenchStructure": "Camerounais ou Nigérian...",
+        "englishStructure": "Cameroonian or Nigerian...",
+        "whyDifficult": "Direct translation (ou = or).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-e17-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "It is raining, ___ take an umbrella.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! Result/Consequence.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "Il pleut, donc...",
+        "englishStructure": "It is raining, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e18-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I like dogs, ___ I don't like cats.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime les chiens, mais...",
+        "englishStructure": "I like dogs, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e19-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He is smart ___ funny.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Addition.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "Il est intelligent et drôle...",
+        "englishStructure": "He is smart and funny...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e20-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "___, we went home.",
+      "type": "multiple_choice",
+      "options": [
+        "Finally",
+        "So",
+        "But"
+      ],
+      "correctAnswer": "Finally",
+      "feedback": "Correct! Sequence/Ending.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sequencing",
+      "frenchComparison": {
+        "frenchStructure": "Finalement, nous sommes rentrés...",
+        "englishStructure": "Finally, we went home...",
+        "whyDifficult": "Direct translation (finalement = finally).",
+        "visualHighlighting": {
+          "incorrect": "So",
+          "correct": "Finally"
+        }
+      }
+    },
+    {
+      "id": "sc-m01-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "We didn't go ___ the rain.",
+      "type": "multiple_choice",
+      "options": [
+        "because of",
+        "because",
+        "due"
+      ],
+      "correctAnswer": "because of",
+      "feedback": "Correct! 'The rain' is a noun, so we need 'because of'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "À cause de la pluie...",
+        "englishStructure": "Because of the rain...",
+        "whyDifficult": "French 'à cause de' = Because of (preposition).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "because of"
+        }
+      }
+    },
+    {
+      "id": "sc-m02-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ he was tired, he kept working.",
+      "type": "multiple_choice",
+      "options": [
+        "Although",
+        "Despite",
+        "However"
+      ],
+      "correctAnswer": "Although",
+      "feedback": "Correct! Followed by a subject+verb (he was).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Bien qu'il était fatigué...",
+        "englishStructure": "Although he was tired...",
+        "whyDifficult": "Although + Clause (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "Despite",
+          "correct": "Although"
+        }
+      }
+    },
+    {
+      "id": "sc-m03-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He kept working ___ his illness.",
+      "type": "multiple_choice",
+      "options": [
+        "despite",
+        "although",
+        "even though"
+      ],
+      "correctAnswer": "despite",
+      "feedback": "Correct! Followed by a noun (illness).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré sa maladie...",
+        "englishStructure": "Despite his illness...",
+        "whyDifficult": "Despite + Noun. French 'Malgré' works similarly.",
+        "visualHighlighting": {
+          "incorrect": "although",
+          "correct": "despite"
+        }
+      }
+    },
+    {
+      "id": "sc-m04-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I fell asleep ___ the film.",
+      "type": "multiple_choice",
+      "options": [
+        "during",
+        "while",
+        "when"
+      ],
+      "correctAnswer": "during",
+      "feedback": "Correct! 'The film' is a noun. Use 'during'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "During vs While",
+      "frenchComparison": {
+        "frenchStructure": "Pendant le film...",
+        "englishStructure": "During the film...",
+        "whyDifficult": "French 'Pendant' is used for both During and While.",
+        "visualHighlighting": {
+          "incorrect": "while",
+          "correct": "during"
+        }
+      }
+    },
+    {
+      "id": "sc-m05-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I fell asleep ___ I was watching the film.",
+      "type": "multiple_choice",
+      "options": [
+        "while",
+        "during",
+        "for"
+      ],
+      "correctAnswer": "while",
+      "feedback": "Correct! Followed by a clause (I was watching).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "During vs While",
+      "frenchComparison": {
+        "frenchStructure": "Pendant que je regardais...",
+        "englishStructure": "While I was watching...",
+        "whyDifficult": "French 'Pendant que' = While (conjunction).",
+        "visualHighlighting": {
+          "incorrect": "during",
+          "correct": "while"
+        }
+      }
+    },
+    {
+      "id": "sc-m06-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "It was ___ a hot day that we went swimming.",
+      "type": "multiple_choice",
+      "options": [
+        "such",
+        "so",
+        "very"
+      ],
+      "correctAnswer": "such",
+      "feedback": "Correct! 'Such' + (adjective) + noun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "So vs Such",
+      "frenchComparison": {
+        "frenchStructure": "C'était une journée si chaude...",
+        "englishStructure": "It was such a hot day...",
+        "whyDifficult": "Such + Noun Phrase. French uses 'si' or 'tellement'.",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "such"
+        }
+      }
+    },
+    {
+      "id": "sc-m07-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "The day was ___ hot that we went swimming.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "such",
+        "very"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! 'So' + adjective.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "So vs Such",
+      "frenchComparison": {
+        "frenchStructure": "La journée était si chaude...",
+        "englishStructure": "The day was so hot...",
+        "whyDifficult": "So + Adjective. French uses 'si' or 'tellement'.",
+        "visualHighlighting": {
+          "incorrect": "such",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-m08-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ the traffic, I arrived on time.",
+      "type": "multiple_choice",
+      "options": [
+        "In spite of",
+        "Although",
+        "Even though"
+      ],
+      "correctAnswer": "In spite of",
+      "feedback": "Correct! 'In spite of' + noun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré la circulation...",
+        "englishStructure": "In spite of the traffic...",
+        "whyDifficult": "In spite of = Despite + Noun.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "In spite of"
+        }
+      }
+    },
+    {
+      "id": "sc-m09-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He is studying ___ pass the exam.",
+      "type": "multiple_choice",
+      "options": [
+        "in order to",
+        "for",
+        "so that"
+      ],
+      "correctAnswer": "in order to",
+      "feedback": "Correct! Purpose + verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Il étudie pour réussir...",
+        "englishStructure": "He is studying in order to pass...",
+        "whyDifficult": "In order to + Verb. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "in order to"
+        }
+      }
+    },
+    {
+      "id": "sc-m10-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He is studying ___ he can pass.",
+      "type": "multiple_choice",
+      "options": [
+        "so that",
+        "in order to",
+        "for"
+      ],
+      "correctAnswer": "so that",
+      "feedback": "Correct! 'So that' + subject + can/will.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (So that)",
+      "frenchComparison": {
+        "frenchStructure": "Il étudie pour qu'il puisse...",
+        "englishStructure": "He is studying so that he can...",
+        "whyDifficult": "So that + Clause. French uses 'pour que'.",
+        "visualHighlighting": {
+          "incorrect": "in order to",
+          "correct": "so that"
+        }
+      }
+    },
+    {
+      "id": "sc-m11-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ it rained, we played football.",
+      "type": "multiple_choice",
+      "options": [
+        "Even though",
+        "Despite",
+        "In spite of"
+      ],
+      "correctAnswer": "Even though",
+      "feedback": "Correct! 'Even though' + clause.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Même s'il pleuvait...",
+        "englishStructure": "Even though it rained...",
+        "whyDifficult": "Even though + Clause. French 'Même si'.",
+        "visualHighlighting": {
+          "incorrect": "Despite",
+          "correct": "Even though"
+        }
+      }
+    },
+    {
+      "id": "sc-m12-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I didn't buy it ___ it was expensive.",
+      "type": "multiple_choice",
+      "options": [
+        "since",
+        "due to",
+        "because of"
+      ],
+      "correctAnswer": "since",
+      "feedback": "Correct! 'Since' can mean 'Because'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "Puisque c'était cher...",
+        "englishStructure": "Since it was expensive...",
+        "whyDifficult": "Since = Puisque/Car (Reason).",
+        "visualHighlighting": {
+          "incorrect": "due to",
+          "correct": "since"
+        }
+      }
+    },
+    {
+      "id": "sc-m13-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "The flight was cancelled ___ the storm.",
+      "type": "multiple_choice",
+      "options": [
+        "due to",
+        "because",
+        "since"
+      ],
+      "correctAnswer": "due to",
+      "feedback": "Correct! 'Due to' + noun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "À cause de la tempête...",
+        "englishStructure": "Due to the storm...",
+        "whyDifficult": "Due to + Noun. Similar to Because of.",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "due to"
+        }
+      }
+    },
+    {
+      "id": "sc-m14-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I went to the market ___ buy fish.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "so that"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! 'To' + verb for purpose.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis allé... pour acheter...",
+        "englishStructure": "I went... to buy...",
+        "whyDifficult": "To + Verb. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "sc-m15-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I went to the market ___ fish.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "to",
+        "so that"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! 'For' + noun for purpose.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (For)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis allé... pour du poisson...",
+        "englishStructure": "I went... for fish...",
+        "whyDifficult": "For + Noun. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "sc-m16-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ you study, you will pass.",
+      "type": "multiple_choice",
+      "options": [
+        "If",
+        "Unless",
+        "Despite"
+      ],
+      "correctAnswer": "If",
+      "feedback": "Correct! Positive condition.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Conditionals",
+      "frenchComparison": {
+        "frenchStructure": "Si tu étudies...",
+        "englishStructure": "If you study...",
+        "whyDifficult": "Direct translation (si = if).",
+        "visualHighlighting": {
+          "incorrect": "Unless",
+          "correct": "If"
+        }
+      }
+    },
+    {
+      "id": "sc-m17-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I will wait ___ you come.",
+      "type": "multiple_choice",
+      "options": [
+        "until",
+        "during",
+        "for"
+      ],
+      "correctAnswer": "until",
+      "feedback": "Correct! 'Until' + clause.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time Connectors",
+      "frenchComparison": {
+        "frenchStructure": "J'attendrai jusqu'à ce que...",
+        "englishStructure": "I will wait until...",
+        "whyDifficult": "Until + Clause. French 'jusqu'à ce que'.",
+        "visualHighlighting": {
+          "incorrect": "during",
+          "correct": "until"
+        }
+      }
+    },
+    {
+      "id": "sc-m18-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He is rich; ___, he is unhappy.",
+      "type": "multiple_choice",
+      "options": [
+        "however",
+        "although",
+        "despite"
+      ],
+      "correctAnswer": "however",
+      "feedback": "Correct! Connector at start of new clause.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (However)",
+      "frenchComparison": {
+        "frenchStructure": "Cependant, il est malheureux...",
+        "englishStructure": "However, he is unhappy...",
+        "whyDifficult": "However starts a new sentence/clause.",
+        "visualHighlighting": {
+          "incorrect": "although",
+          "correct": "however"
+        }
+      }
+    },
+    {
+      "id": "sc-m19-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "Both Muna ___ Ngono are here.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "or",
+        "but"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! 'Both... and'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Muna et Ngono sont tous deux...",
+        "englishStructure": "Both Muna and Ngono...",
+        "whyDifficult": "Both... and structure.",
+        "visualHighlighting": {
+          "incorrect": "or",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-m20-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "Either you ___ I must go.",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "nor"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! 'Either... or'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Soit toi ou moi...",
+        "englishStructure": "Either you or I...",
+        "whyDifficult": "Either... or structure.",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-h01-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ being tired, he went to work.",
+      "type": "multiple_choice",
+      "options": [
+        "Despite",
+        "Although",
+        "Even though"
+      ],
+      "correctAnswer": "Despite",
+      "feedback": "Correct! 'Despite' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré le fait d'être fatigué...",
+        "englishStructure": "Despite being tired...",
+        "whyDifficult": "Despite + Gerund (-ing). French 'Malgré' + Noun.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "Despite"
+        }
+      }
+    },
+    {
+      "id": "sc-h02-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "In spite of ___ late, he finished the job.",
+      "type": "multiple_choice",
+      "options": [
+        "starting",
+        "start",
+        "he started"
+      ],
+      "correctAnswer": "starting",
+      "feedback": "Correct! 'In spite of' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré avoir commencé...",
+        "englishStructure": "In spite of starting...",
+        "whyDifficult": "In spite of + Gerund (-ing).",
+        "visualHighlighting": {
+          "incorrect": "start",
+          "correct": "starting"
+        }
+      }
+    },
+    {
+      "id": "sc-h03-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "I like football, ___ my brother prefers tennis.",
+      "type": "multiple_choice",
+      "options": [
+        "whereas",
+        "despite",
+        "unlike"
+      ],
+      "correctAnswer": "whereas",
+      "feedback": "Correct! 'Whereas' shows contrast between two clauses.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Whereas)",
+      "frenchComparison": {
+        "frenchStructure": "Tandis que mon frère...",
+        "englishStructure": "Whereas my brother...",
+        "whyDifficult": "Whereas + Clause. French 'Tandis que'.",
+        "visualHighlighting": {
+          "incorrect": "unlike",
+          "correct": "whereas"
+        }
+      }
+    },
+    {
+      "id": "sc-h04-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ my brother, I don't like tennis.",
+      "type": "multiple_choice",
+      "options": [
+        "Unlike",
+        "Whereas",
+        "While"
+      ],
+      "correctAnswer": "Unlike",
+      "feedback": "Correct! 'Unlike' + Noun (Contrast).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Unlike)",
+      "frenchComparison": {
+        "frenchStructure": "Contrairement à mon frère...",
+        "englishStructure": "Unlike my brother...",
+        "whyDifficult": "Unlike + Noun. French 'Contrairement à'.",
+        "visualHighlighting": {
+          "incorrect": "Whereas",
+          "correct": "Unlike"
+        }
+      }
+    },
+    {
+      "id": "sc-h05-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Not only is he rich, ___ he is also famous.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! 'Not only... but (also)'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement... mais...",
+        "englishStructure": "Not only... but...",
+        "whyDifficult": "Not only... but structure.",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-h06-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Despite that he is sick, he works.\"",
+      "type": "error_correction",
+      "options": [
+        "Despite that",
+        "he works",
+        "is sick",
+        "No error"
+      ],
+      "correctAnswer": "Despite that",
+      "feedback": "Correct! 'Despite that' is wrong. Use 'Although he is sick' or 'Despite being sick'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "Although",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré qu'il soit malade (often heard but incorrect)...",
+        "englishStructure": "Although he is sick...",
+        "whyDifficult": "'Despite that' is incorrect English. Use 'Although'.",
+        "visualHighlighting": {
+          "incorrect": "Despite that",
+          "correct": "Although"
+        }
+      }
+    },
+    {
+      "id": "sc-h07-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "We must study; ___, we will fail.",
+      "type": "multiple_choice",
+      "options": [
+        "otherwise",
+        "unless",
+        "so"
+      ],
+      "correctAnswer": "otherwise",
+      "feedback": "Correct! 'Otherwise' = if not.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Condition (Otherwise)",
+      "frenchComparison": {
+        "frenchStructure": "Sinon, nous échouerons...",
+        "englishStructure": "Otherwise, we will fail...",
+        "whyDifficult": "Direct translation (sinon = otherwise).",
+        "visualHighlighting": {
+          "incorrect": "unless",
+          "correct": "otherwise"
+        }
+      }
+    },
+    {
+      "id": "sc-h08-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "You can go ___ you come back early.",
+      "type": "multiple_choice",
+      "options": [
+        "provided that",
+        "unless",
+        "despite"
+      ],
+      "correctAnswer": "provided that",
+      "feedback": "Correct! 'Provided that' = Only if.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Condition (Provided that)",
+      "frenchComparison": {
+        "frenchStructure": "À condition que...",
+        "englishStructure": "Provided that...",
+        "whyDifficult": "Provided that + Clause. French 'À condition que'.",
+        "visualHighlighting": {
+          "incorrect": "unless",
+          "correct": "provided that"
+        }
+      }
+    },
+    {
+      "id": "sc-h09-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ had I arrived when the phone rang.",
+      "type": "multiple_choice",
+      "options": [
+        "Hardly",
+        "No sooner",
+        "As soon as"
+      ],
+      "correctAnswer": "Hardly",
+      "feedback": "Correct! 'Hardly... when'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Time Inversion",
+      "frenchComparison": {
+        "frenchStructure": "À peine étais-je arrivé...",
+        "englishStructure": "Hardly had I arrived...",
+        "whyDifficult": "Inversion with 'Hardly'. French 'À peine'.",
+        "visualHighlighting": {
+          "incorrect": "No sooner",
+          "correct": "Hardly"
+        }
+      }
+    },
+    {
+      "id": "sc-h10-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "No sooner had I left ___ it started raining.",
+      "type": "multiple_choice",
+      "options": [
+        "than",
+        "when",
+        "that"
+      ],
+      "correctAnswer": "than",
+      "feedback": "Correct! 'No sooner... than'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Time Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Pas plus tôt... que...",
+        "englishStructure": "No sooner... than...",
+        "whyDifficult": "No sooner... than structure.",
+        "visualHighlighting": {
+          "incorrect": "when",
+          "correct": "than"
+        }
+      }
+    },
+    {
+      "id": "sc-h11-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "He has no money. ___, he is happy.",
+      "type": "multiple_choice",
+      "options": [
+        "Nevertheless",
+        "Although",
+        "Despite"
+      ],
+      "correctAnswer": "Nevertheless",
+      "feedback": "Correct! Formal contrast.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Nevertheless)",
+      "frenchComparison": {
+        "frenchStructure": "Néanmoins, il est heureux...",
+        "englishStructure": "Nevertheless, he is happy...",
+        "whyDifficult": "Formal connector. French 'Néanmoins'.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "Nevertheless"
+        }
+      }
+    },
+    {
+      "id": "sc-h12-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ the fact that he is old, he runs fast.",
+      "type": "multiple_choice",
+      "options": [
+        "Despite",
+        "Although",
+        "Even"
+      ],
+      "correctAnswer": "Despite",
+      "feedback": "Correct! 'Despite the fact that' + clause.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré le fait qu'il...",
+        "englishStructure": "Despite the fact that he...",
+        "whyDifficult": "Despite + the fact that + Clause.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "Despite"
+        }
+      }
+    },
+    {
+      "id": "sc-h13-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ I agree with you, I can't help you.",
+      "type": "multiple_choice",
+      "options": [
+        "While",
+        "Since",
+        "Despite"
+      ],
+      "correctAnswer": "While",
+      "feedback": "Correct! 'While' can mean 'Although' at the start of a sentence.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (While)",
+      "frenchComparison": {
+        "frenchStructure": "Bien que je sois d'accord...",
+        "englishStructure": "While I agree...",
+        "whyDifficult": "While can mean Although. French 'Bien que'.",
+        "visualHighlighting": {
+          "incorrect": "Since",
+          "correct": "While"
+        }
+      }
+    },
+    {
+      "id": "sc-h14-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "I like him ___ he is annoying.",
+      "type": "multiple_choice",
+      "options": [
+        "even though",
+        "despite",
+        "in spite of"
+      ],
+      "correctAnswer": "even though",
+      "feedback": "Correct! 'Even though' + clause.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Même s'il est...",
+        "englishStructure": "Even though he is...",
+        "whyDifficult": "Even though + Clause. French 'Même si'.",
+        "visualHighlighting": {
+          "incorrect": "despite",
+          "correct": "even though"
+        }
+      }
+    },
+    {
+      "id": "sc-h15-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "On the one hand, it's cheap. ___ hand, it's ugly.",
+      "type": "multiple_choice",
+      "options": [
+        "On the other",
+        "In the other",
+        "At the other"
+      ],
+      "correctAnswer": "On the other",
+      "feedback": "Correct! 'On the other hand'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "D'autre part...",
+        "englishStructure": "On the other hand...",
+        "whyDifficult": "Fixed expression. French 'D'autre part'.",
+        "visualHighlighting": {
+          "incorrect": "In the other",
+          "correct": "On the other"
+        }
+      }
+    },
+    {
+      "id": "sc-h16-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "He didn't study. ___, he failed.",
+      "type": "multiple_choice",
+      "options": [
+        "Consequently",
+        "However",
+        "Although"
+      ],
+      "correctAnswer": "Consequently",
+      "feedback": "Correct! Formal result.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Result (Formal)",
+      "frenchComparison": {
+        "frenchStructure": "Par conséquent...",
+        "englishStructure": "Consequently...",
+        "whyDifficult": "Formal connector. French 'Par conséquent'.",
+        "visualHighlighting": {
+          "incorrect": "However",
+          "correct": "Consequently"
+        }
+      }
+    },
+    {
+      "id": "sc-h17-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "He didn't come ___ his illness.",
+      "type": "multiple_choice",
+      "options": [
+        "owing to",
+        "because",
+        "since"
+      ],
+      "correctAnswer": "owing to",
+      "feedback": "Correct! 'Owing to' + noun (like due to).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "En raison de sa maladie...",
+        "englishStructure": "Owing to his illness...",
+        "whyDifficult": "Owing to + Noun. French 'En raison de'.",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "owing to"
+        }
+      }
+    },
+    {
+      "id": "sc-h18-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ you study, you won't pass.",
+      "type": "multiple_choice",
+      "options": [
+        "Unless",
+        "If",
+        "Provided"
+      ],
+      "correctAnswer": "Unless",
+      "feedback": "Correct! Unless = If not.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Unless",
+      "frenchComparison": {
+        "frenchStructure": "À moins que tu étudies...",
+        "englishStructure": "Unless you study...",
+        "whyDifficult": "Unless = If not. French 'À moins que'.",
+        "visualHighlighting": {
+          "incorrect": "If",
+          "correct": "Unless"
+        }
+      }
+    },
+    {
+      "id": "sc-h19-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Neither John ___ Paul came.",
+      "type": "multiple_choice",
+      "options": [
+        "nor",
+        "or",
+        "and"
+      ],
+      "correctAnswer": "nor",
+      "feedback": "Correct! Neither... nor.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Ni John ni Paul...",
+        "englishStructure": "Neither John nor Paul...",
+        "whyDifficult": "Neither... nor structure.",
+        "visualHighlighting": {
+          "incorrect": "or",
+          "correct": "nor"
+        }
+      }
+    },
+    {
+      "id": "sc-h20-A",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "As a ___ of the rain, we stayed home.",
+      "type": "multiple_choice",
+      "options": [
+        "result",
+        "consequence",
+        "cause"
+      ],
+      "correctAnswer": "result",
+      "feedback": "Correct! 'As a result of'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "En conséquence de...",
+        "englishStructure": "As a result of...",
+        "whyDifficult": "Fixed expression. French 'En conséquence de'.",
+        "visualHighlighting": {
+          "incorrect": "consequence",
+          "correct": "result"
+        }
+      }
+    },
+    {
+      "id": "sc-e01-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I am hungry ___ tired.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Addition.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai faim et je suis fatigué...",
+        "englishStructure": "I am hungry and tired...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e02-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He tried hard, ___ he failed.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Il a essayé, mais...",
+        "englishStructure": "He tried, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e03-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I was sick, ___ I didn't go.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! Result.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "J'étais malade, donc...",
+        "englishStructure": "I was sick, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e04-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I am happy ___ I passed.",
+      "type": "multiple_choice",
+      "options": [
+        "because",
+        "so",
+        "and"
+      ],
+      "correctAnswer": "because",
+      "feedback": "Correct! Reason.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis heureux parce que...",
+        "englishStructure": "I am happy because...",
+        "whyDifficult": "Direct translation (parce que = because).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "because"
+        }
+      }
+    },
+    {
+      "id": "sc-e05-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "Is it big ___ small?",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "but"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! Choice.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Or)",
+      "frenchComparison": {
+        "frenchStructure": "Grand ou petit...",
+        "englishStructure": "Big or small...",
+        "whyDifficult": "Direct translation (ou = or).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-e06-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "She sings. She ___ dances.",
+      "type": "multiple_choice",
+      "options": [
+        "also",
+        "too",
+        "and"
+      ],
+      "correctAnswer": "also",
+      "feedback": "Correct! Before verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "Elle danse aussi...",
+        "englishStructure": "She also dances...",
+        "whyDifficult": "'Also' goes before the main verb.",
+        "visualHighlighting": {
+          "incorrect": "too",
+          "correct": "also"
+        }
+      }
+    },
+    {
+      "id": "sc-e07-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I am coming ___.",
+      "type": "multiple_choice",
+      "options": [
+        "too",
+        "also",
+        "so"
+      ],
+      "correctAnswer": "too",
+      "feedback": "Correct! At end.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "Je viens aussi...",
+        "englishStructure": "I am coming too...",
+        "whyDifficult": "'Too' goes at the end of the sentence.",
+        "visualHighlighting": {
+          "incorrect": "also",
+          "correct": "too"
+        }
+      }
+    },
+    {
+      "id": "sc-e08-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "It was late, ___ we ran.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! Result.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "Il était tard, donc...",
+        "englishStructure": "It was late, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e09-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I wanted to buy it, ___ it was expensive.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "so",
+        "and"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Je voulais l'acheter, mais...",
+        "englishStructure": "I wanted to buy it, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e10-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I washed the plates. ___, I swept the floor.",
+      "type": "multiple_choice",
+      "options": [
+        "Then",
+        "So",
+        "But"
+      ],
+      "correctAnswer": "Then",
+      "feedback": "Correct! Sequence.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sequencing",
+      "frenchComparison": {
+        "frenchStructure": "Ensuite, j'ai balayé...",
+        "englishStructure": "Then, I swept...",
+        "whyDifficult": "Direct translation (ensuite/puis = then).",
+        "visualHighlighting": {
+          "incorrect": "So",
+          "correct": "Then"
+        }
+      }
+    },
+    {
+      "id": "sc-e11-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He is rich ___ famous.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Addition.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "Il est riche et célèbre...",
+        "englishStructure": "He is rich and famous...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e12-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I laughed ___ it was funny.",
+      "type": "multiple_choice",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "correctAnswer": "because",
+      "feedback": "Correct! Reason.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai ri parce que...",
+        "englishStructure": "I laughed because...",
+        "whyDifficult": "Direct translation (parce que = because).",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "because"
+        }
+      }
+    },
+    {
+      "id": "sc-e13-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "She likes fish, ___ she hates meat.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Elle aime le poisson, mais...",
+        "englishStructure": "She likes fish, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e14-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "___ I was tired, I slept.",
+      "type": "multiple_choice",
+      "options": [
+        "As",
+        "But",
+        "Or"
+      ],
+      "correctAnswer": "As",
+      "feedback": "Correct! 'As' = Because.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (As)",
+      "frenchComparison": {
+        "frenchStructure": "Comme j'étais fatigué...",
+        "englishStructure": "As I was tired...",
+        "whyDifficult": "As = Comme (Reason).",
+        "visualHighlighting": {
+          "incorrect": "But",
+          "correct": "As"
+        }
+      }
+    },
+    {
+      "id": "sc-e15-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He eats meat. He ___ eats fish.",
+      "type": "multiple_choice",
+      "options": [
+        "also",
+        "too",
+        "so"
+      ],
+      "correctAnswer": "also",
+      "feedback": "Correct! Before verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Also vs Too",
+      "frenchComparison": {
+        "frenchStructure": "Il mange aussi du poisson...",
+        "englishStructure": "He also eats fish...",
+        "whyDifficult": "'Also' goes before the main verb.",
+        "visualHighlighting": {
+          "incorrect": "too",
+          "correct": "also"
+        }
+      }
+    },
+    {
+      "id": "sc-e16-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "Do you live in Douala ___ Yaoundé?",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "but"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! Choice.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Or)",
+      "frenchComparison": {
+        "frenchStructure": "Douala ou Yaoundé...",
+        "englishStructure": "Douala or Yaoundé...",
+        "whyDifficult": "Direct translation (ou = or).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-e17-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I lost my phone, ___ I bought a new one.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! Result.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (So)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai perdu mon téléphone, donc...",
+        "englishStructure": "I lost my phone, so...",
+        "whyDifficult": "Direct translation (donc = so).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-e18-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "He is smart, ___ he is lazy.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "so",
+        "and"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! Contrast.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (But)",
+      "frenchComparison": {
+        "frenchStructure": "Il est intelligent, mais...",
+        "englishStructure": "He is smart, but...",
+        "whyDifficult": "Direct translation (mais = but).",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-e19-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "We have bread ___ butter.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Addition.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (And)",
+      "frenchComparison": {
+        "frenchStructure": "Du pain et du beurre...",
+        "englishStructure": "Bread and butter...",
+        "whyDifficult": "Direct translation (et = and).",
+        "visualHighlighting": {
+          "incorrect": "but",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-e20-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "easy",
+      "questionText": "I arrived. ___, I ate.",
+      "type": "multiple_choice",
+      "options": [
+        "Then",
+        "But",
+        "Or"
+      ],
+      "correctAnswer": "Then",
+      "feedback": "Correct! Sequence.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Sequencing",
+      "frenchComparison": {
+        "frenchStructure": "Ensuite, j'ai mangé...",
+        "englishStructure": "Then, I ate...",
+        "whyDifficult": "Direct translation (ensuite/puis = then).",
+        "visualHighlighting": {
+          "incorrect": "But",
+          "correct": "Then"
+        }
+      }
+    },
+    {
+      "id": "sc-m01-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He succeeded ___ his hard work.",
+      "type": "multiple_choice",
+      "options": [
+        "because of",
+        "because",
+        "as"
+      ],
+      "correctAnswer": "because of",
+      "feedback": "Correct! 'Hard work' is a noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "À cause de son travail...",
+        "englishStructure": "Because of his work...",
+        "whyDifficult": "French 'à cause de' = Because of (preposition).",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "because of"
+        }
+      }
+    },
+    {
+      "id": "sc-m02-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ it was cold, we swam.",
+      "type": "multiple_choice",
+      "options": [
+        "Although",
+        "Despite",
+        "However"
+      ],
+      "correctAnswer": "Although",
+      "feedback": "Correct! Subject + Verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Bien qu'il faisait froid...",
+        "englishStructure": "Although it was cold...",
+        "whyDifficult": "Although + Clause (Subject + Verb).",
+        "visualHighlighting": {
+          "incorrect": "Despite",
+          "correct": "Although"
+        }
+      }
+    },
+    {
+      "id": "sc-m03-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "We went out ___ the rain.",
+      "type": "multiple_choice",
+      "options": [
+        "despite",
+        "although",
+        "even though"
+      ],
+      "correctAnswer": "despite",
+      "feedback": "Correct! Noun phrase.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré la pluie...",
+        "englishStructure": "Despite the rain...",
+        "whyDifficult": "Despite + Noun. French 'Malgré' works similarly.",
+        "visualHighlighting": {
+          "incorrect": "although",
+          "correct": "despite"
+        }
+      }
+    },
+    {
+      "id": "sc-m04-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He slept ___ the lesson.",
+      "type": "multiple_choice",
+      "options": [
+        "during",
+        "while",
+        "when"
+      ],
+      "correctAnswer": "during",
+      "feedback": "Correct! 'Lesson' is a noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "During vs While",
+      "frenchComparison": {
+        "frenchStructure": "Pendant la leçon...",
+        "englishStructure": "During the lesson...",
+        "whyDifficult": "French 'Pendant' is used for both During and While.",
+        "visualHighlighting": {
+          "incorrect": "while",
+          "correct": "during"
+        }
+      }
+    },
+    {
+      "id": "sc-m05-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He slept ___ the teacher was talking.",
+      "type": "multiple_choice",
+      "options": [
+        "while",
+        "during",
+        "for"
+      ],
+      "correctAnswer": "while",
+      "feedback": "Correct! Full clause.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "During vs While",
+      "frenchComparison": {
+        "frenchStructure": "Pendant que le professeur...",
+        "englishStructure": "While the teacher...",
+        "whyDifficult": "French 'Pendant que' = While (conjunction).",
+        "visualHighlighting": {
+          "incorrect": "during",
+          "correct": "while"
+        }
+      }
+    },
+    {
+      "id": "sc-m06-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "It was ___ a long journey.",
+      "type": "multiple_choice",
+      "options": [
+        "such",
+        "so",
+        "very"
+      ],
+      "correctAnswer": "such",
+      "feedback": "Correct! 'Such' + noun phrase.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "So vs Such",
+      "frenchComparison": {
+        "frenchStructure": "C'était un si long voyage...",
+        "englishStructure": "It was such a long journey...",
+        "whyDifficult": "Such + Noun Phrase. French uses 'si' or 'tellement'.",
+        "visualHighlighting": {
+          "incorrect": "so",
+          "correct": "such"
+        }
+      }
+    },
+    {
+      "id": "sc-m07-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "The journey was ___ long.",
+      "type": "multiple_choice",
+      "options": [
+        "so",
+        "such",
+        "much"
+      ],
+      "correctAnswer": "so",
+      "feedback": "Correct! 'So' + adjective.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "So vs Such",
+      "frenchComparison": {
+        "frenchStructure": "Le voyage était si long...",
+        "englishStructure": "The journey was so long...",
+        "whyDifficult": "So + Adjective. French uses 'si' or 'tellement'.",
+        "visualHighlighting": {
+          "incorrect": "such",
+          "correct": "so"
+        }
+      }
+    },
+    {
+      "id": "sc-m08-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ his age, he runs fast.",
+      "type": "multiple_choice",
+      "options": [
+        "In spite of",
+        "Although",
+        "Even though"
+      ],
+      "correctAnswer": "In spite of",
+      "feedback": "Correct! 'In spite of' + noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré son âge...",
+        "englishStructure": "In spite of his age...",
+        "whyDifficult": "In spite of = Despite + Noun.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "In spite of"
+        }
+      }
+    },
+    {
+      "id": "sc-m09-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I practice ___ improve.",
+      "type": "multiple_choice",
+      "options": [
+        "in order to",
+        "for",
+        "so that"
+      ],
+      "correctAnswer": "in order to",
+      "feedback": "Correct! Purpose + verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Je m'entraîne pour m'améliorer...",
+        "englishStructure": "I practice in order to improve...",
+        "whyDifficult": "In order to + Verb. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "in order to"
+        }
+      }
+    },
+    {
+      "id": "sc-m10-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I practice ___ I can improve.",
+      "type": "multiple_choice",
+      "options": [
+        "so that",
+        "in order to",
+        "to"
+      ],
+      "correctAnswer": "so that",
+      "feedback": "Correct! 'So that' + clause.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (So that)",
+      "frenchComparison": {
+        "frenchStructure": "Je m'entraîne pour que je puisse...",
+        "englishStructure": "I practice so that I can...",
+        "whyDifficult": "So that + Clause. French uses 'pour que'.",
+        "visualHighlighting": {
+          "incorrect": "in order to",
+          "correct": "so that"
+        }
+      }
+    },
+    {
+      "id": "sc-m11-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ he is poor, he is happy.",
+      "type": "multiple_choice",
+      "options": [
+        "Even though",
+        "Despite",
+        "However"
+      ],
+      "correctAnswer": "Even though",
+      "feedback": "Correct! 'Even though' + clause.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Même s'il est pauvre...",
+        "englishStructure": "Even though he is poor...",
+        "whyDifficult": "Even though + Clause. French 'Même si'.",
+        "visualHighlighting": {
+          "incorrect": "Despite",
+          "correct": "Even though"
+        }
+      }
+    },
+    {
+      "id": "sc-m12-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "___ you are here, let's start.",
+      "type": "multiple_choice",
+      "options": [
+        "Since",
+        "Due to",
+        "Because of"
+      ],
+      "correctAnswer": "Since",
+      "feedback": "Correct! 'Since' (Because).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Because)",
+      "frenchComparison": {
+        "frenchStructure": "Puisque tu es là...",
+        "englishStructure": "Since you are here...",
+        "whyDifficult": "Since = Puisque/Car (Reason).",
+        "visualHighlighting": {
+          "incorrect": "due to",
+          "correct": "since"
+        }
+      }
+    },
+    {
+      "id": "sc-m13-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He crashed ___ speed.",
+      "type": "multiple_choice",
+      "options": [
+        "due to",
+        "because",
+        "as"
+      ],
+      "correctAnswer": "due to",
+      "feedback": "Correct! 'Due to' + noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "À cause de la vitesse...",
+        "englishStructure": "Due to speed...",
+        "whyDifficult": "Due to + Noun. Similar to Because of.",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "due to"
+        }
+      }
+    },
+    {
+      "id": "sc-m14-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He came ___ help me.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "so that"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! 'To' + verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Il est venu pour m'aider...",
+        "englishStructure": "He came to help me...",
+        "whyDifficult": "To + Verb. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "sc-m15-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "This money is ___ lunch.",
+      "type": "multiple_choice",
+      "options": [
+        "for",
+        "to",
+        "so that"
+      ],
+      "correctAnswer": "for",
+      "feedback": "Correct! 'For' + noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (For)",
+      "frenchComparison": {
+        "frenchStructure": "C'est pour le déjeuner...",
+        "englishStructure": "This money is for lunch...",
+        "whyDifficult": "For + Noun. French uses 'pour'.",
+        "visualHighlighting": {
+          "incorrect": "to",
+          "correct": "for"
+        }
+      }
+    },
+    {
+      "id": "sc-m16-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "You will fail ___ you work.",
+      "type": "multiple_choice",
+      "options": [
+        "unless",
+        "if",
+        "when"
+      ],
+      "correctAnswer": "unless",
+      "feedback": "Correct! Negative condition.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Unless",
+      "frenchComparison": {
+        "frenchStructure": "À moins que tu travailles...",
+        "englishStructure": "Unless you work...",
+        "whyDifficult": "Unless = If not. French 'À moins que'.",
+        "visualHighlighting": {
+          "incorrect": "if",
+          "correct": "unless"
+        }
+      }
+    },
+    {
+      "id": "sc-m17-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "I worked ___ the night.",
+      "type": "multiple_choice",
+      "options": [
+        "during",
+        "while",
+        "when"
+      ],
+      "correctAnswer": "during",
+      "feedback": "Correct! 'During' + noun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "During vs While",
+      "frenchComparison": {
+        "frenchStructure": "Pendant la nuit...",
+        "englishStructure": "During the night...",
+        "whyDifficult": "French 'Pendant' is used for both During and While.",
+        "visualHighlighting": {
+          "incorrect": "while",
+          "correct": "during"
+        }
+      }
+    },
+    {
+      "id": "sc-m18-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "He is old. ___, he is strong.",
+      "type": "multiple_choice",
+      "options": [
+        "However",
+        "Although",
+        "But"
+      ],
+      "correctAnswer": "However",
+      "feedback": "Correct! Connector.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (However)",
+      "frenchComparison": {
+        "frenchStructure": "Cependant, il est fort...",
+        "englishStructure": "However, he is strong...",
+        "whyDifficult": "However starts a new sentence/clause.",
+        "visualHighlighting": {
+          "incorrect": "although",
+          "correct": "however"
+        }
+      }
+    },
+    {
+      "id": "sc-m19-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "Both red ___ blue are colors.",
+      "type": "multiple_choice",
+      "options": [
+        "and",
+        "or",
+        "nor"
+      ],
+      "correctAnswer": "and",
+      "feedback": "Correct! Both... and.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Le rouge et le bleu...",
+        "englishStructure": "Both red and blue...",
+        "whyDifficult": "Both... and structure.",
+        "visualHighlighting": {
+          "incorrect": "or",
+          "correct": "and"
+        }
+      }
+    },
+    {
+      "id": "sc-m20-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "medium",
+      "questionText": "You can have tea ___ coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "or",
+        "nor",
+        "neither"
+      ],
+      "correctAnswer": "or",
+      "feedback": "Correct! Choice.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Basic Conjunctions (Or)",
+      "frenchComparison": {
+        "frenchStructure": "Thé ou café...",
+        "englishStructure": "Tea or coffee...",
+        "whyDifficult": "Direct translation (ou = or).",
+        "visualHighlighting": {
+          "incorrect": "nor",
+          "correct": "or"
+        }
+      }
+    },
+    {
+      "id": "sc-h01-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ being sick, he came.",
+      "type": "multiple_choice",
+      "options": [
+        "In spite of",
+        "Although",
+        "Even though"
+      ],
+      "correctAnswer": "In spite of",
+      "feedback": "Correct! 'In spite of' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré le fait d'être malade...",
+        "englishStructure": "In spite of being sick...",
+        "whyDifficult": "In spite of + Gerund (-ing).",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "In spite of"
+        }
+      }
+    },
+    {
+      "id": "sc-h02-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Despite ___ late, he finished.",
+      "type": "multiple_choice",
+      "options": [
+        "starting",
+        "start",
+        "he started"
+      ],
+      "correctAnswer": "starting",
+      "feedback": "Correct! 'Despite' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré avoir commencé...",
+        "englishStructure": "Despite starting...",
+        "whyDifficult": "Despite + Gerund (-ing).",
+        "visualHighlighting": {
+          "incorrect": "start",
+          "correct": "starting"
+        }
+      }
+    },
+    {
+      "id": "sc-h03-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "I like tea, ___ she prefers coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "whereas",
+        "despite",
+        "unlike"
+      ],
+      "correctAnswer": "whereas",
+      "feedback": "Correct! Contrast between clauses.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Whereas)",
+      "frenchComparison": {
+        "frenchStructure": "Tandis qu'elle préfère...",
+        "englishStructure": "Whereas she prefers...",
+        "whyDifficult": "Whereas + Clause. French 'Tandis que'.",
+        "visualHighlighting": {
+          "incorrect": "unlike",
+          "correct": "whereas"
+        }
+      }
+    },
+    {
+      "id": "sc-h04-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ my sister, I am tall.",
+      "type": "multiple_choice",
+      "options": [
+        "Unlike",
+        "Whereas",
+        "While"
+      ],
+      "correctAnswer": "Unlike",
+      "feedback": "Correct! 'Unlike' + Noun.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Unlike)",
+      "frenchComparison": {
+        "frenchStructure": "Contrairement à ma soeur...",
+        "englishStructure": "Unlike my sister...",
+        "whyDifficult": "Unlike + Noun. French 'Contrairement à'.",
+        "visualHighlighting": {
+          "incorrect": "Whereas",
+          "correct": "Unlike"
+        }
+      }
+    },
+    {
+      "id": "sc-h05-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Not only did he win, ___ he broke the record.",
+      "type": "multiple_choice",
+      "options": [
+        "but",
+        "and",
+        "so"
+      ],
+      "correctAnswer": "but",
+      "feedback": "Correct! 'Not only... but (also)'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement... mais...",
+        "englishStructure": "Not only... but...",
+        "whyDifficult": "Not only... but structure.",
+        "visualHighlighting": {
+          "incorrect": "and",
+          "correct": "but"
+        }
+      }
+    },
+    {
+      "id": "sc-h06-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Despite that it rained, we played.\"",
+      "type": "error_correction",
+      "options": [
+        "Despite that",
+        "it rained",
+        "we played",
+        "No error"
+      ],
+      "correctAnswer": "Despite that",
+      "feedback": "Correct! 'Despite that' is wrong. Use 'Although it rained' or 'Despite the rain'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "Although",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré qu'il pleuvait (incorrect)...",
+        "englishStructure": "Although it rained...",
+        "whyDifficult": "'Despite that' is incorrect English. Use 'Although'.",
+        "visualHighlighting": {
+          "incorrect": "Despite that",
+          "correct": "Although"
+        }
+      }
+    },
+    {
+      "id": "sc-h07-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Run fast; ___, you will be late.",
+      "type": "multiple_choice",
+      "options": [
+        "otherwise",
+        "unless",
+        "so"
+      ],
+      "correctAnswer": "otherwise",
+      "feedback": "Correct! 'Otherwise' = if not.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Condition (Otherwise)",
+      "frenchComparison": {
+        "frenchStructure": "Sinon, tu seras en retard...",
+        "englishStructure": "Otherwise, you will be late...",
+        "whyDifficult": "Direct translation (sinon = otherwise).",
+        "visualHighlighting": {
+          "incorrect": "unless",
+          "correct": "otherwise"
+        }
+      }
+    },
+    {
+      "id": "sc-h08-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "I will pay ___ you do the work.",
+      "type": "multiple_choice",
+      "options": [
+        "provided that",
+        "unless",
+        "despite"
+      ],
+      "correctAnswer": "provided that",
+      "feedback": "Correct! 'Provided that' = Only if.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Condition (Provided that)",
+      "frenchComparison": {
+        "frenchStructure": "À condition que...",
+        "englishStructure": "Provided that...",
+        "whyDifficult": "Provided that + Clause. French 'À condition que'.",
+        "visualHighlighting": {
+          "incorrect": "unless",
+          "correct": "provided that"
+        }
+      }
+    },
+    {
+      "id": "sc-h09-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ had I spoken when he left.",
+      "type": "multiple_choice",
+      "options": [
+        "Hardly",
+        "No sooner",
+        "As soon as"
+      ],
+      "correctAnswer": "Hardly",
+      "feedback": "Correct! 'Hardly... when'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Time Inversion",
+      "frenchComparison": {
+        "frenchStructure": "À peine avais-je parlé...",
+        "englishStructure": "Hardly had I spoken...",
+        "whyDifficult": "Inversion with 'Hardly'. French 'À peine'.",
+        "visualHighlighting": {
+          "incorrect": "No sooner",
+          "correct": "Hardly"
+        }
+      }
+    },
+    {
+      "id": "sc-h10-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "No sooner had I arrived ___ he called.",
+      "type": "multiple_choice",
+      "options": [
+        "than",
+        "when",
+        "that"
+      ],
+      "correctAnswer": "than",
+      "feedback": "Correct! 'No sooner... than'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Time Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Pas plus tôt... que...",
+        "englishStructure": "No sooner... than...",
+        "whyDifficult": "No sooner... than structure.",
+        "visualHighlighting": {
+          "incorrect": "when",
+          "correct": "than"
+        }
+      }
+    },
+    {
+      "id": "sc-h11-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "It was hard. ___, we finished.",
+      "type": "multiple_choice",
+      "options": [
+        "Nevertheless",
+        "Although",
+        "Despite"
+      ],
+      "correctAnswer": "Nevertheless",
+      "feedback": "Correct! Formal contrast.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (Nevertheless)",
+      "frenchComparison": {
+        "frenchStructure": "Néanmoins, nous avons fini...",
+        "englishStructure": "Nevertheless, we finished...",
+        "whyDifficult": "Formal connector. French 'Néanmoins'.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "Nevertheless"
+        }
+      }
+    },
+    {
+      "id": "sc-h12-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ the fact that it rained, we played.",
+      "type": "multiple_choice",
+      "options": [
+        "Despite",
+        "Although",
+        "Even"
+      ],
+      "correctAnswer": "Despite",
+      "feedback": "Correct! 'Despite the fact that' + clause.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Malgré le fait qu'il...",
+        "englishStructure": "Despite the fact that it...",
+        "whyDifficult": "Despite + the fact that + Clause.",
+        "visualHighlighting": {
+          "incorrect": "Although",
+          "correct": "Despite"
+        }
+      }
+    },
+    {
+      "id": "sc-h13-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ I like it, I won't buy it.",
+      "type": "multiple_choice",
+      "options": [
+        "While",
+        "Since",
+        "Despite"
+      ],
+      "correctAnswer": "While",
+      "feedback": "Correct! 'While' (Although).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Contrast (While)",
+      "frenchComparison": {
+        "frenchStructure": "Bien que je l'aime...",
+        "englishStructure": "While I like it...",
+        "whyDifficult": "While can mean Although. French 'Bien que'.",
+        "visualHighlighting": {
+          "incorrect": "Since",
+          "correct": "While"
+        }
+      }
+    },
+    {
+      "id": "sc-h14-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "I went ___ I was tired.",
+      "type": "multiple_choice",
+      "options": [
+        "even though",
+        "despite",
+        "in spite of"
+      ],
+      "correctAnswer": "even though",
+      "feedback": "Correct! 'Even though' + clause.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Although vs Despite",
+      "frenchComparison": {
+        "frenchStructure": "Même si j'étais fatigué...",
+        "englishStructure": "Even though I was tired...",
+        "whyDifficult": "Even though + Clause. French 'Même si'.",
+        "visualHighlighting": {
+          "incorrect": "despite",
+          "correct": "even though"
+        }
+      }
+    },
+    {
+      "id": "sc-h15-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "On the one hand, he is smart. ___ hand, he is lazy.",
+      "type": "multiple_choice",
+      "options": [
+        "On the other",
+        "In the other",
+        "At the other"
+      ],
+      "correctAnswer": "On the other",
+      "feedback": "Correct! 'On the other hand'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "D'autre part...",
+        "englishStructure": "On the other hand...",
+        "whyDifficult": "Fixed expression. French 'D'autre part'.",
+        "visualHighlighting": {
+          "incorrect": "In the other",
+          "correct": "On the other"
+        }
+      }
+    },
+    {
+      "id": "sc-h16-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "It rained. ___, we stayed home.",
+      "type": "multiple_choice",
+      "options": [
+        "Consequently",
+        "However",
+        "Although"
+      ],
+      "correctAnswer": "Consequently",
+      "feedback": "Correct! Formal result.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Result (Formal)",
+      "frenchComparison": {
+        "frenchStructure": "Par conséquent...",
+        "englishStructure": "Consequently...",
+        "whyDifficult": "Formal connector. French 'Par conséquent'.",
+        "visualHighlighting": {
+          "incorrect": "However",
+          "correct": "Consequently"
+        }
+      }
+    },
+    {
+      "id": "sc-h17-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "He failed ___ his laziness.",
+      "type": "multiple_choice",
+      "options": [
+        "owing to",
+        "because",
+        "since"
+      ],
+      "correctAnswer": "owing to",
+      "feedback": "Correct! 'Owing to' + noun.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Because vs Because of",
+      "frenchComparison": {
+        "frenchStructure": "En raison de sa paresse...",
+        "englishStructure": "Owing to his laziness...",
+        "whyDifficult": "Owing to + Noun. French 'En raison de'.",
+        "visualHighlighting": {
+          "incorrect": "because",
+          "correct": "owing to"
+        }
+      }
+    },
+    {
+      "id": "sc-h18-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "___ you run, you will miss the bus.",
+      "type": "multiple_choice",
+      "options": [
+        "Unless",
+        "If",
+        "Provided"
+      ],
+      "correctAnswer": "Unless",
+      "feedback": "Correct! Unless = If not.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Unless",
+      "frenchComparison": {
+        "frenchStructure": "À moins que tu coures...",
+        "englishStructure": "Unless you run...",
+        "whyDifficult": "Unless = If not. French 'À moins que'.",
+        "visualHighlighting": {
+          "incorrect": "If",
+          "correct": "Unless"
+        }
+      }
+    },
+    {
+      "id": "sc-h19-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "Neither he ___ she knew.",
+      "type": "multiple_choice",
+      "options": [
+        "nor",
+        "or",
+        "and"
+      ],
+      "correctAnswer": "nor",
+      "feedback": "Correct! Neither... nor.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Paired Conjunctions",
+      "frenchComparison": {
+        "frenchStructure": "Ni lui ni elle...",
+        "englishStructure": "Neither he nor she...",
+        "whyDifficult": "Neither... nor structure.",
+        "visualHighlighting": {
+          "incorrect": "or",
+          "correct": "nor"
+        }
+      }
+    },
+    {
+      "id": "sc-h20-B",
+      "moduleId": "sentence-connectors",
+      "difficulty": "hard",
+      "questionText": "As a ___ of the fire, the house was destroyed.",
+      "type": "multiple_choice",
+      "options": [
+        "result",
+        "consequence",
+        "cause"
+      ],
+      "correctAnswer": "result",
+      "feedback": "Correct! 'As a result of'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "En conséquence de...",
+        "englishStructure": "As a result of...",
+        "whyDifficult": "Fixed expression. French 'En conséquence de'.",
+        "visualHighlighting": {
+          "incorrect": "consequence",
+          "correct": "result"
+        }
+      }
+    }
+  ]
+}

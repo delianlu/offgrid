@@ -1,0 +1,1622 @@
+[
+    {
+        "id": "sc-e21-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I like tea, ___ I don't like coffee.",
+        "type": "multiple_choice",
+        "options": [
+            "but",
+            "and",
+            "so"
+        ],
+        "correctAnswer": "but",
+        "feedback": "Correct! 'But' introduces contrast.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (But)",
+        "frenchComparison": {
+            "frenchStructure": "J'aime le thé, mais je n'aime pas le café",
+            "englishStructure": "I like tea, but I don't like coffee",
+            "whyDifficult": "Basic contrast.",
+            "visualHighlighting": {
+                "incorrect": "and I don't",
+                "correct": "but I don't"
+            }
+        }
+    },
+    {
+        "id": "sc-e22-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "It was raining, ___ we stayed home.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "but"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! 'So' introduces a result.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "Il pleuvait, donc nous sommes restés",
+            "englishStructure": "It was raining, so we stayed",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because we stayed",
+                "correct": "so we stayed"
+            }
+        }
+    },
+    {
+        "id": "sc-e23-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I stayed home ___ it was raining.",
+        "type": "multiple_choice",
+        "options": [
+            "because",
+            "so",
+            "and"
+        ],
+        "correctAnswer": "because",
+        "feedback": "Correct! 'Because' introduces a reason.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because)",
+        "frenchComparison": {
+            "frenchStructure": "Je suis resté parce qu'il pleuvait",
+            "englishStructure": "I stayed home because it was raining",
+            "whyDifficult": "Reason.",
+            "visualHighlighting": {
+                "incorrect": "so it was",
+                "correct": "because it was"
+            }
+        }
+    },
+    {
+        "id": "sc-e24-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "He is tall ___ handsome.",
+        "type": "multiple_choice",
+        "options": [
+            "and",
+            "but",
+            "or"
+        ],
+        "correctAnswer": "and",
+        "feedback": "Correct! 'And' adds information.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Addition (And)",
+        "frenchComparison": {
+            "frenchStructure": "Il est grand et beau",
+            "englishStructure": "He is tall and handsome",
+            "whyDifficult": "Addition.",
+            "visualHighlighting": {
+                "incorrect": "but handsome",
+                "correct": "and handsome"
+            }
+        }
+    },
+    {
+        "id": "sc-e25-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "Do you want tea ___ coffee?",
+        "type": "multiple_choice",
+        "options": [
+            "or",
+            "and",
+            "but"
+        ],
+        "correctAnswer": "or",
+        "feedback": "Correct! 'Or' introduces a choice.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Choice (Or)",
+        "frenchComparison": {
+            "frenchStructure": "Veux-tu du thé ou du café ?",
+            "englishStructure": "Do you want tea or coffee?",
+            "whyDifficult": "Choice.",
+            "visualHighlighting": {
+                "incorrect": "and coffee",
+                "correct": "or coffee"
+            }
+        }
+    },
+    {
+        "id": "sc-e26-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I was tired, ___ I went to bed.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "or"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! Result.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "J'étais fatigué, alors je suis allé au lit",
+            "englishStructure": "I was tired, so I went to bed",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because I went",
+                "correct": "so I went"
+            }
+        }
+    },
+    {
+        "id": "sc-e27-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "She is smart, ___ she is lazy.",
+        "type": "multiple_choice",
+        "options": [
+            "but",
+            "and",
+            "so"
+        ],
+        "correctAnswer": "but",
+        "feedback": "Correct! Contrast.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (But)",
+        "frenchComparison": {
+            "frenchStructure": "Elle est intelligente, mais elle est paresseuse",
+            "englishStructure": "She is smart, but she is lazy",
+            "whyDifficult": "Contrast.",
+            "visualHighlighting": {
+                "incorrect": "and she is",
+                "correct": "but she is"
+            }
+        }
+    },
+    {
+        "id": "sc-e28-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "First I shower, ___ I eat.",
+        "type": "multiple_choice",
+        "options": [
+            "then",
+            "so",
+            "because"
+        ],
+        "correctAnswer": "then",
+        "feedback": "Correct! Sequence.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Sequence (Then)",
+        "frenchComparison": {
+            "frenchStructure": "D'abord je me douche, ensuite je mange",
+            "englishStructure": "First I shower, then I eat",
+            "whyDifficult": "Sequence.",
+            "visualHighlighting": {
+                "incorrect": "so I eat",
+                "correct": "then I eat"
+            }
+        }
+    },
+    {
+        "id": "sc-e29-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I study hard ___ I want to pass.",
+        "type": "multiple_choice",
+        "options": [
+            "because",
+            "so",
+            "but"
+        ],
+        "correctAnswer": "because",
+        "feedback": "Correct! Reason.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because)",
+        "frenchComparison": {
+            "frenchStructure": "J'étudie dur parce que je veux réussir",
+            "englishStructure": "I study hard because I want to pass",
+            "whyDifficult": "Reason.",
+            "visualHighlighting": {
+                "incorrect": "so I want",
+                "correct": "because I want"
+            }
+        }
+    },
+    {
+        "id": "sc-e30-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "He didn't study, ___ he failed.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "or"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! Result.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "Il n'a pas étudié, donc il a échoué",
+            "englishStructure": "He didn't study, so he failed",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because he failed",
+                "correct": "so he failed"
+            }
+        }
+    },
+    {
+        "id": "sc-e21-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "It is hot, ___ I am swimming.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "but"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! Result.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "Il fait chaud, donc je nage",
+            "englishStructure": "It is hot, so I am swimming",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because I am",
+                "correct": "so I am"
+            }
+        }
+    },
+    {
+        "id": "sc-e22-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I am hungry, ___ I have no food.",
+        "type": "multiple_choice",
+        "options": [
+            "but",
+            "so",
+            "because"
+        ],
+        "correctAnswer": "but",
+        "feedback": "Correct! Contrast.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (But)",
+        "frenchComparison": {
+            "frenchStructure": "J'ai faim, mais je n'ai pas de nourriture",
+            "englishStructure": "I am hungry, but I have no food",
+            "whyDifficult": "Contrast.",
+            "visualHighlighting": {
+                "incorrect": "so I have",
+                "correct": "but I have"
+            }
+        }
+    },
+    {
+        "id": "sc-e23-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I like him ___ he is funny.",
+        "type": "multiple_choice",
+        "options": [
+            "because",
+            "so",
+            "but"
+        ],
+        "correctAnswer": "because",
+        "feedback": "Correct! Reason.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because)",
+        "frenchComparison": {
+            "frenchStructure": "Je l'aime bien parce qu'il est drôle",
+            "englishStructure": "I like him because he is funny",
+            "whyDifficult": "Reason.",
+            "visualHighlighting": {
+                "incorrect": "so he is",
+                "correct": "because he is"
+            }
+        }
+    },
+    {
+        "id": "sc-e24-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "You can walk ___ take the bus.",
+        "type": "multiple_choice",
+        "options": [
+            "or",
+            "and",
+            "but"
+        ],
+        "correctAnswer": "or",
+        "feedback": "Correct! Choice.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Choice (Or)",
+        "frenchComparison": {
+            "frenchStructure": "Tu peux marcher ou prendre le bus",
+            "englishStructure": "You can walk or take the bus",
+            "whyDifficult": "Choice.",
+            "visualHighlighting": {
+                "incorrect": "and take",
+                "correct": "or take"
+            }
+        }
+    },
+    {
+        "id": "sc-e25-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "She cooked ___ cleaned.",
+        "type": "multiple_choice",
+        "options": [
+            "and",
+            "but",
+            "or"
+        ],
+        "correctAnswer": "and",
+        "feedback": "Correct! Addition.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Addition (And)",
+        "frenchComparison": {
+            "frenchStructure": "Elle a cuisiné et nettoyé",
+            "englishStructure": "She cooked and cleaned",
+            "whyDifficult": "Addition.",
+            "visualHighlighting": {
+                "incorrect": "but cleaned",
+                "correct": "and cleaned"
+            }
+        }
+    },
+    {
+        "id": "sc-e26-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I was late, ___ I ran.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "but"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! Result.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "J'étais en retard, donc j'ai couru",
+            "englishStructure": "I was late, so I ran",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because I ran",
+                "correct": "so I ran"
+            }
+        }
+    },
+    {
+        "id": "sc-e27-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "He is rich, ___ he is unhappy.",
+        "type": "multiple_choice",
+        "options": [
+            "but",
+            "and",
+            "so"
+        ],
+        "correctAnswer": "but",
+        "feedback": "Correct! Contrast.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (But)",
+        "frenchComparison": {
+            "frenchStructure": "Il est riche, mais il est malheureux",
+            "englishStructure": "He is rich, but he is unhappy",
+            "whyDifficult": "Contrast.",
+            "visualHighlighting": {
+                "incorrect": "so he is",
+                "correct": "but he is"
+            }
+        }
+    },
+    {
+        "id": "sc-e28-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "I woke up, ___ I got dressed.",
+        "type": "multiple_choice",
+        "options": [
+            "then",
+            "so",
+            "because"
+        ],
+        "correctAnswer": "then",
+        "feedback": "Correct! Sequence.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Sequence (Then)",
+        "frenchComparison": {
+            "frenchStructure": "Je me suis réveillé, puis je me suis habillé",
+            "englishStructure": "I woke up, then I got dressed",
+            "whyDifficult": "Sequence.",
+            "visualHighlighting": {
+                "incorrect": "so I got",
+                "correct": "then I got"
+            }
+        }
+    },
+    {
+        "id": "sc-e29-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "We left ___ it was late.",
+        "type": "multiple_choice",
+        "options": [
+            "because",
+            "so",
+            "but"
+        ],
+        "correctAnswer": "because",
+        "feedback": "Correct! Reason.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because)",
+        "frenchComparison": {
+            "frenchStructure": "Nous sommes partis parce qu'il était tard",
+            "englishStructure": "We left because it was late",
+            "whyDifficult": "Reason.",
+            "visualHighlighting": {
+                "incorrect": "so it was",
+                "correct": "because it was"
+            }
+        }
+    },
+    {
+        "id": "sc-e30-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "easy",
+        "questionText": "It was cheap, ___ I bought it.",
+        "type": "multiple_choice",
+        "options": [
+            "so",
+            "because",
+            "but"
+        ],
+        "correctAnswer": "so",
+        "feedback": "Correct! Result.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (So)",
+        "frenchComparison": {
+            "frenchStructure": "C'était pas cher, donc je l'ai acheté",
+            "englishStructure": "It was cheap, so I bought it",
+            "whyDifficult": "Result.",
+            "visualHighlighting": {
+                "incorrect": "because I bought",
+                "correct": "so I bought"
+            }
+        }
+    },
+    {
+        "id": "sc-m21-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ it was raining, we went out.",
+        "type": "multiple_choice",
+        "options": [
+            "Although",
+            "Because",
+            "However"
+        ],
+        "correctAnswer": "Although",
+        "feedback": "Correct! 'Although' introduces a concession clause.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Although)",
+        "frenchComparison": {
+            "frenchStructure": "Bien qu'il pleuve",
+            "englishStructure": "Although it was raining",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "Because it was",
+                "correct": "Although it was"
+            }
+        }
+    },
+    {
+        "id": "sc-m22-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "He is tired; ___, he is working.",
+        "type": "multiple_choice",
+        "options": [
+            "however",
+            "therefore",
+            "although"
+        ],
+        "correctAnswer": "however",
+        "feedback": "Correct! 'However' introduces contrast after a semicolon.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (However)",
+        "frenchComparison": {
+            "frenchStructure": "Cependant",
+            "englishStructure": "However",
+            "whyDifficult": "Punctuation and usage.",
+            "visualHighlighting": {
+                "incorrect": "therefore",
+                "correct": "however"
+            }
+        }
+    },
+    {
+        "id": "sc-m23-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ I was sleeping, the phone rang.",
+        "type": "multiple_choice",
+        "options": [
+            "While",
+            "During",
+            "Because"
+        ],
+        "correctAnswer": "While",
+        "feedback": "Correct! 'While' + Clause (Subject + Verb).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time (While vs During)",
+        "frenchComparison": {
+            "frenchStructure": "Pendant que je dormais",
+            "englishStructure": "While I was sleeping",
+            "whyDifficult": "While + Clause vs During + Noun.",
+            "visualHighlighting": {
+                "incorrect": "During I was",
+                "correct": "While I was"
+            }
+        }
+    },
+    {
+        "id": "sc-m24-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "I stayed home ___ the rain.",
+        "type": "multiple_choice",
+        "options": [
+            "because of",
+            "because",
+            "since"
+        ],
+        "correctAnswer": "because of",
+        "feedback": "Correct! 'Because of' + Noun.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because of)",
+        "frenchComparison": {
+            "frenchStructure": "À cause de la pluie",
+            "englishStructure": "Because of the rain",
+            "whyDifficult": "Prepositional phrase.",
+            "visualHighlighting": {
+                "incorrect": "because the rain",
+                "correct": "because of the rain"
+            }
+        }
+    },
+    {
+        "id": "sc-m25-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ he is rich, he is not happy.",
+        "type": "multiple_choice",
+        "options": [
+            "Even though",
+            "Despite",
+            "However"
+        ],
+        "correctAnswer": "Even though",
+        "feedback": "Correct! 'Even though' + Clause.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Even though)",
+        "frenchComparison": {
+            "frenchStructure": "Même s'il est riche",
+            "englishStructure": "Even though he is rich",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "Despite he is",
+                "correct": "Even though he is"
+            }
+        }
+    },
+    {
+        "id": "sc-m26-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "I will go ___ you go.",
+        "type": "multiple_choice",
+        "options": [
+            "if",
+            "unless",
+            "so"
+        ],
+        "correctAnswer": "if",
+        "feedback": "Correct! Condition.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (If)",
+        "frenchComparison": {
+            "frenchStructure": "J'irai si tu y vas",
+            "englishStructure": "I will go if you go",
+            "whyDifficult": "Condition.",
+            "visualHighlighting": {
+                "incorrect": "unless you go",
+                "correct": "if you go"
+            }
+        }
+    },
+    {
+        "id": "sc-m27-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "He didn't eat ___ he was hungry.",
+        "type": "multiple_choice",
+        "options": [
+            "although",
+            "because",
+            "so"
+        ],
+        "correctAnswer": "although",
+        "feedback": "Correct! Concession.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Although)",
+        "frenchComparison": {
+            "frenchStructure": "Il n'a pas mangé bien qu'il ait faim",
+            "englishStructure": "He didn't eat although he was hungry",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "because he was",
+                "correct": "although he was"
+            }
+        }
+    },
+    {
+        "id": "sc-m28-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ the movie, I slept.",
+        "type": "multiple_choice",
+        "options": [
+            "During",
+            "While",
+            "When"
+        ],
+        "correctAnswer": "During",
+        "feedback": "Correct! 'During' + Noun.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time (During)",
+        "frenchComparison": {
+            "frenchStructure": "Pendant le film",
+            "englishStructure": "During the movie",
+            "whyDifficult": "During + Noun.",
+            "visualHighlighting": {
+                "incorrect": "While the movie",
+                "correct": "During the movie"
+            }
+        }
+    },
+    {
+        "id": "sc-m29-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "He studied hard; ___, he passed.",
+        "type": "multiple_choice",
+        "options": [
+            "therefore",
+            "however",
+            "because"
+        ],
+        "correctAnswer": "therefore",
+        "feedback": "Correct! 'Therefore' introduces result (formal).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (Therefore)",
+        "frenchComparison": {
+            "frenchStructure": "Par conséquent",
+            "englishStructure": "Therefore",
+            "whyDifficult": "Formal result.",
+            "visualHighlighting": {
+                "incorrect": "however",
+                "correct": "therefore"
+            }
+        }
+    },
+    {
+        "id": "sc-m30-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "I won't go ___ you come.",
+        "type": "multiple_choice",
+        "options": [
+            "unless",
+            "if",
+            "because"
+        ],
+        "correctAnswer": "unless",
+        "feedback": "Correct! Unless = If not.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Unless)",
+        "frenchComparison": {
+            "frenchStructure": "Je n'irai pas à moins que tu viennes",
+            "englishStructure": "I won't go unless you come",
+            "whyDifficult": "Negative condition.",
+            "visualHighlighting": {
+                "incorrect": "if you come",
+                "correct": "unless you come"
+            }
+        }
+    },
+    {
+        "id": "sc-m21-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ it was cold, we swam.",
+        "type": "multiple_choice",
+        "options": [
+            "Although",
+            "Because",
+            "So"
+        ],
+        "correctAnswer": "Although",
+        "feedback": "Correct! Concession.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Although)",
+        "frenchComparison": {
+            "frenchStructure": "Bien qu'il fasse froid",
+            "englishStructure": "Although it was cold",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "Because it was",
+                "correct": "Although it was"
+            }
+        }
+    },
+    {
+        "id": "sc-m22-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "It was late; ___, we continued.",
+        "type": "multiple_choice",
+        "options": [
+            "however",
+            "therefore",
+            "so"
+        ],
+        "correctAnswer": "however",
+        "feedback": "Correct! Contrast.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (However)",
+        "frenchComparison": {
+            "frenchStructure": "Cependant",
+            "englishStructure": "However",
+            "whyDifficult": "Contrast.",
+            "visualHighlighting": {
+                "incorrect": "therefore",
+                "correct": "however"
+            }
+        }
+    },
+    {
+        "id": "sc-m23-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ I was walking, I fell.",
+        "type": "multiple_choice",
+        "options": [
+            "While",
+            "During",
+            "Since"
+        ],
+        "correctAnswer": "While",
+        "feedback": "Correct! While + Clause.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time (While)",
+        "frenchComparison": {
+            "frenchStructure": "Pendant que je marchais",
+            "englishStructure": "While I was walking",
+            "whyDifficult": "While + Clause.",
+            "visualHighlighting": {
+                "incorrect": "During I was",
+                "correct": "While I was"
+            }
+        }
+    },
+    {
+        "id": "sc-m24-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "I failed ___ my laziness.",
+        "type": "multiple_choice",
+        "options": [
+            "because of",
+            "because",
+            "since"
+        ],
+        "correctAnswer": "because of",
+        "feedback": "Correct! Because of + Noun.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Because of)",
+        "frenchComparison": {
+            "frenchStructure": "À cause de ma paresse",
+            "englishStructure": "Because of my laziness",
+            "whyDifficult": "Preposition.",
+            "visualHighlighting": {
+                "incorrect": "because my laziness",
+                "correct": "because of my laziness"
+            }
+        }
+    },
+    {
+        "id": "sc-m25-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ he is old, he runs fast.",
+        "type": "multiple_choice",
+        "options": [
+            "Even though",
+            "Despite",
+            "However"
+        ],
+        "correctAnswer": "Even though",
+        "feedback": "Correct! Even though + Clause.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Even though)",
+        "frenchComparison": {
+            "frenchStructure": "Même s'il est vieux",
+            "englishStructure": "Even though he is old",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "Despite he is",
+                "correct": "Even though he is"
+            }
+        }
+    },
+    {
+        "id": "sc-m26-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "Call me ___ you arrive.",
+        "type": "multiple_choice",
+        "options": [
+            "when",
+            "if",
+            "so"
+        ],
+        "correctAnswer": "when",
+        "feedback": "Correct! Time clause.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time (When)",
+        "frenchComparison": {
+            "frenchStructure": "Quand tu arrives",
+            "englishStructure": "When you arrive",
+            "whyDifficult": "Time.",
+            "visualHighlighting": {
+                "incorrect": "if you arrive",
+                "correct": "when you arrive"
+            }
+        }
+    },
+    {
+        "id": "sc-m27-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "He bought it ___ it was expensive.",
+        "type": "multiple_choice",
+        "options": [
+            "although",
+            "because",
+            "so"
+        ],
+        "correctAnswer": "although",
+        "feedback": "Correct! Concession.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Although)",
+        "frenchComparison": {
+            "frenchStructure": "Bien que ce soit cher",
+            "englishStructure": "Although it was expensive",
+            "whyDifficult": "Concession.",
+            "visualHighlighting": {
+                "incorrect": "because it was",
+                "correct": "although it was"
+            }
+        }
+    },
+    {
+        "id": "sc-m28-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "___ the night, it snowed.",
+        "type": "multiple_choice",
+        "options": [
+            "During",
+            "While",
+            "When"
+        ],
+        "correctAnswer": "During",
+        "feedback": "Correct! During + Noun.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Time (During)",
+        "frenchComparison": {
+            "frenchStructure": "Pendant la nuit",
+            "englishStructure": "During the night",
+            "whyDifficult": "During + Noun.",
+            "visualHighlighting": {
+                "incorrect": "While the night",
+                "correct": "During the night"
+            }
+        }
+    },
+    {
+        "id": "sc-m29-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "It rained; ___, we got wet.",
+        "type": "multiple_choice",
+        "options": [
+            "therefore",
+            "however",
+            "but"
+        ],
+        "correctAnswer": "therefore",
+        "feedback": "Correct! Result.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Result (Therefore)",
+        "frenchComparison": {
+            "frenchStructure": "Par conséquent",
+            "englishStructure": "Therefore",
+            "whyDifficult": "Formal result.",
+            "visualHighlighting": {
+                "incorrect": "however",
+                "correct": "therefore"
+            }
+        }
+    },
+    {
+        "id": "sc-m30-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "medium",
+        "questionText": "You can't enter ___ you pay.",
+        "type": "multiple_choice",
+        "options": [
+            "unless",
+            "if",
+            "when"
+        ],
+        "correctAnswer": "unless",
+        "feedback": "Correct! Unless = If not.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Unless)",
+        "frenchComparison": {
+            "frenchStructure": "À moins que tu ne paies",
+            "englishStructure": "Unless you pay",
+            "whyDifficult": "Negative condition.",
+            "visualHighlighting": {
+                "incorrect": "if you pay",
+                "correct": "unless you pay"
+            }
+        }
+    },
+    {
+        "id": "sc-h21-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ the rain, we played soccer.",
+        "type": "multiple_choice",
+        "options": [
+            "Despite",
+            "Although",
+            "Even though"
+        ],
+        "correctAnswer": "Despite",
+        "feedback": "Correct! 'Despite' + Noun.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Despite)",
+        "frenchComparison": {
+            "frenchStructure": "Malgré la pluie",
+            "englishStructure": "Despite the rain",
+            "whyDifficult": "Despite + Noun vs Although + Clause.",
+            "visualHighlighting": {
+                "incorrect": "Although the rain",
+                "correct": "Despite the rain"
+            }
+        }
+    },
+    {
+        "id": "sc-h22-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "He is rich. ___, he is unhappy.",
+        "type": "multiple_choice",
+        "options": [
+            "Nevertheless",
+            "Therefore",
+            "Furthermore"
+        ],
+        "correctAnswer": "Nevertheless",
+        "feedback": "Correct! 'Nevertheless' introduces contrast (formal).",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (Nevertheless)",
+        "frenchComparison": {
+            "frenchStructure": "Néanmoins",
+            "englishStructure": "Nevertheless",
+            "whyDifficult": "Formal vocabulary.",
+            "visualHighlighting": {
+                "incorrect": "Therefore",
+                "correct": "Nevertheless"
+            }
+        }
+    },
+    {
+        "id": "sc-h23-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ being tired, he kept working.",
+        "type": "multiple_choice",
+        "options": [
+            "In spite of",
+            "Although",
+            "Because of"
+        ],
+        "correctAnswer": "In spite of",
+        "feedback": "Correct! 'In spite of' + Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (In spite of)",
+        "frenchComparison": {
+            "frenchStructure": "Malgré le fait d'être fatigué",
+            "englishStructure": "In spite of being tired",
+            "whyDifficult": "Preposition + Gerund.",
+            "visualHighlighting": {
+                "incorrect": "Although being",
+                "correct": "In spite of being"
+            }
+        }
+    },
+    {
+        "id": "sc-h24-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "He likes football. ___, he likes tennis.",
+        "type": "multiple_choice",
+        "options": [
+            "Furthermore",
+            "However",
+            "Therefore"
+        ],
+        "correctAnswer": "Furthermore",
+        "feedback": "Correct! 'Furthermore' adds information (formal).",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Addition (Furthermore)",
+        "frenchComparison": {
+            "frenchStructure": "De plus",
+            "englishStructure": "Furthermore",
+            "whyDifficult": "Formal addition.",
+            "visualHighlighting": {
+                "incorrect": "However",
+                "correct": "Furthermore"
+            }
+        }
+    },
+    {
+        "id": "sc-h25-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ you study, you will fail.",
+        "type": "multiple_choice",
+        "options": [
+            "Unless",
+            "If",
+            "Provided"
+        ],
+        "correctAnswer": "Unless",
+        "feedback": "Correct! Unless = If not.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Unless)",
+        "frenchComparison": {
+            "frenchStructure": "À moins que tu n'étudies",
+            "englishStructure": "Unless you study",
+            "whyDifficult": "Negative condition.",
+            "visualHighlighting": {
+                "incorrect": "If you study",
+                "correct": "Unless you study"
+            }
+        }
+    },
+    {
+        "id": "sc-h26-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "I'll go ___ you go.",
+        "type": "multiple_choice",
+        "options": [
+            "provided",
+            "unless",
+            "although"
+        ],
+        "correctAnswer": "provided",
+        "feedback": "Correct! 'Provided' = If/Only if.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Provided)",
+        "frenchComparison": {
+            "frenchStructure": "Pourvu que",
+            "englishStructure": "Provided you go",
+            "whyDifficult": "Vocabulary.",
+            "visualHighlighting": {
+                "incorrect": "unless",
+                "correct": "provided"
+            }
+        }
+    },
+    {
+        "id": "sc-h27-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ he is smart, he makes mistakes.",
+        "type": "multiple_choice",
+        "options": [
+            "Whereas",
+            "While",
+            "Since"
+        ],
+        "correctAnswer": "While",
+        "feedback": "Correct! 'While' can mean 'Although' in contrast.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (While)",
+        "frenchComparison": {
+            "frenchStructure": "Bien qu'il soit intelligent",
+            "englishStructure": "While he is smart",
+            "whyDifficult": "Dual meaning of While.",
+            "visualHighlighting": {
+                "incorrect": "Since he is",
+                "correct": "While he is"
+            }
+        }
+    },
+    {
+        "id": "sc-h28-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "He didn't come ___ illness.",
+        "type": "multiple_choice",
+        "options": [
+            "due to",
+            "because",
+            "since"
+        ],
+        "correctAnswer": "due to",
+        "feedback": "Correct! 'Due to' + Noun.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Due to)",
+        "frenchComparison": {
+            "frenchStructure": "En raison de",
+            "englishStructure": "Due to illness",
+            "whyDifficult": "Prepositional phrase.",
+            "visualHighlighting": {
+                "incorrect": "because illness",
+                "correct": "due to illness"
+            }
+        }
+    },
+    {
+        "id": "sc-h29-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ I know, he is away.",
+        "type": "multiple_choice",
+        "options": [
+            "As far as",
+            "As long as",
+            "As soon as"
+        ],
+        "correctAnswer": "As far as",
+        "feedback": "Correct! 'As far as I know'.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Limitation (As far as)",
+        "frenchComparison": {
+            "frenchStructure": "Pour autant que je sache",
+            "englishStructure": "As far as I know",
+            "whyDifficult": "Idiom.",
+            "visualHighlighting": {
+                "incorrect": "As long as",
+                "correct": "As far as"
+            }
+        }
+    },
+    {
+        "id": "sc-h30-A",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "Take an umbrella ___ it rains.",
+        "type": "multiple_choice",
+        "options": [
+            "in case",
+            "if",
+            "unless"
+        ],
+        "correctAnswer": "in case",
+        "feedback": "Correct! 'In case' = precaution.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Purpose (In case)",
+        "frenchComparison": {
+            "frenchStructure": "Au cas où",
+            "englishStructure": "In case it rains",
+            "whyDifficult": "Precaution vs Condition.",
+            "visualHighlighting": {
+                "incorrect": "if it rains",
+                "correct": "in case it rains"
+            }
+        }
+    },
+    {
+        "id": "sc-h21-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ his age, he is active.",
+        "type": "multiple_choice",
+        "options": [
+            "Despite",
+            "Although",
+            "Even though"
+        ],
+        "correctAnswer": "Despite",
+        "feedback": "Correct! Despite + Noun.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (Despite)",
+        "frenchComparison": {
+            "frenchStructure": "Malgré son âge",
+            "englishStructure": "Despite his age",
+            "whyDifficult": "Despite + Noun.",
+            "visualHighlighting": {
+                "incorrect": "Although his age",
+                "correct": "Despite his age"
+            }
+        }
+    },
+    {
+        "id": "sc-h22-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "It was cold. ___, we went out.",
+        "type": "multiple_choice",
+        "options": [
+            "Nevertheless",
+            "Therefore",
+            "Moreover"
+        ],
+        "correctAnswer": "Nevertheless",
+        "feedback": "Correct! Contrast.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (Nevertheless)",
+        "frenchComparison": {
+            "frenchStructure": "Néanmoins",
+            "englishStructure": "Nevertheless",
+            "whyDifficult": "Formal contrast.",
+            "visualHighlighting": {
+                "incorrect": "Therefore",
+                "correct": "Nevertheless"
+            }
+        }
+    },
+    {
+        "id": "sc-h23-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ feeling sick, he worked.",
+        "type": "multiple_choice",
+        "options": [
+            "In spite of",
+            "Although",
+            "Because of"
+        ],
+        "correctAnswer": "In spite of",
+        "feedback": "Correct! In spite of + Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Concession (In spite of)",
+        "frenchComparison": {
+            "frenchStructure": "Malgré le fait de se sentir malade",
+            "englishStructure": "In spite of feeling sick",
+            "whyDifficult": "Preposition + Gerund.",
+            "visualHighlighting": {
+                "incorrect": "Although feeling",
+                "correct": "In spite of feeling"
+            }
+        }
+    },
+    {
+        "id": "sc-h24-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "The room is big. ___, it is bright.",
+        "type": "multiple_choice",
+        "options": [
+            "Moreover",
+            "However",
+            "Therefore"
+        ],
+        "correctAnswer": "Moreover",
+        "feedback": "Correct! 'Moreover' adds information.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Addition (Moreover)",
+        "frenchComparison": {
+            "frenchStructure": "De plus",
+            "englishStructure": "Moreover",
+            "whyDifficult": "Formal addition.",
+            "visualHighlighting": {
+                "incorrect": "However",
+                "correct": "Moreover"
+            }
+        }
+    },
+    {
+        "id": "sc-h25-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ you pay, you can't go.",
+        "type": "multiple_choice",
+        "options": [
+            "Unless",
+            "If",
+            "Provided"
+        ],
+        "correctAnswer": "Unless",
+        "feedback": "Correct! Unless = If not.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Unless)",
+        "frenchComparison": {
+            "frenchStructure": "À moins que tu ne paies",
+            "englishStructure": "Unless you pay",
+            "whyDifficult": "Negative condition.",
+            "visualHighlighting": {
+                "incorrect": "If you pay",
+                "correct": "Unless you pay"
+            }
+        }
+    },
+    {
+        "id": "sc-h26-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "You can stay ___ you are quiet.",
+        "type": "multiple_choice",
+        "options": [
+            "provided",
+            "unless",
+            "although"
+        ],
+        "correctAnswer": "provided",
+        "feedback": "Correct! Provided = On condition that.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (Provided)",
+        "frenchComparison": {
+            "frenchStructure": "Pourvu que",
+            "englishStructure": "Provided you are quiet",
+            "whyDifficult": "Vocabulary.",
+            "visualHighlighting": {
+                "incorrect": "unless",
+                "correct": "provided"
+            }
+        }
+    },
+    {
+        "id": "sc-h27-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ I like him, I don't trust him.",
+        "type": "multiple_choice",
+        "options": [
+            "While",
+            "Since",
+            "Because"
+        ],
+        "correctAnswer": "While",
+        "feedback": "Correct! While = Although.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Contrast (While)",
+        "frenchComparison": {
+            "frenchStructure": "Bien que je l'aime bien",
+            "englishStructure": "While I like him",
+            "whyDifficult": "Contrast meaning.",
+            "visualHighlighting": {
+                "incorrect": "Since I like",
+                "correct": "While I like"
+            }
+        }
+    },
+    {
+        "id": "sc-h28-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "The delay was ___ traffic.",
+        "type": "multiple_choice",
+        "options": [
+            "due to",
+            "because",
+            "since"
+        ],
+        "correctAnswer": "due to",
+        "feedback": "Correct! Due to + Noun.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Reason (Due to)",
+        "frenchComparison": {
+            "frenchStructure": "Dû au trafic",
+            "englishStructure": "Due to traffic",
+            "whyDifficult": "Prepositional phrase.",
+            "visualHighlighting": {
+                "incorrect": "because traffic",
+                "correct": "due to traffic"
+            }
+        }
+    },
+    {
+        "id": "sc-h29-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "___ you are happy, I am happy.",
+        "type": "multiple_choice",
+        "options": [
+            "As long as",
+            "As far as",
+            "As soon as"
+        ],
+        "correctAnswer": "As long as",
+        "feedback": "Correct! As long as = Condition.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Condition (As long as)",
+        "frenchComparison": {
+            "frenchStructure": "Tant que tu es heureux",
+            "englishStructure": "As long as you are happy",
+            "whyDifficult": "Idiom.",
+            "visualHighlighting": {
+                "incorrect": "As far as",
+                "correct": "As long as"
+            }
+        }
+    },
+    {
+        "id": "sc-h30-B",
+        "moduleId": "sentence-connectors",
+        "difficulty": "hard",
+        "questionText": "I wrote it down ___ I forget.",
+        "type": "multiple_choice",
+        "options": [
+            "lest",
+            "unless",
+            "if"
+        ],
+        "correctAnswer": "lest",
+        "feedback": "Correct! Lest = for fear that (formal/literary).",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Purpose (Lest)",
+        "frenchComparison": {
+            "frenchStructure": "De peur que j'oublie",
+            "englishStructure": "Lest I forget",
+            "whyDifficult": "Archaic/Formal.",
+            "visualHighlighting": {
+                "incorrect": "unless I forget",
+                "correct": "lest I forget"
+            }
+        }
+    }
+]

@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useAuth } from '../contexts/AuthContext';
 import { Header } from '../components/common/Header';
 import { Button } from '../components/common/Button';
 import {
@@ -17,6 +18,7 @@ function sessionId() {
 }
 
 export function SmartPractice() {
+  const { currentUser } = useAuth();
   const navigate = useNavigate();
   const [masteryData, setMasteryData] = useState<ModuleMastery[]>([]);
   const [loading, setLoading] = useState(true);
@@ -104,6 +106,7 @@ export function SmartPractice() {
       const now = Date.now();
       await db.attempts.add({
         id: attemptId,
+        userId: currentUser?.id, // Add userId
         moduleId: item.moduleId,
         itemId: item.id,
         formType: item.formType,

@@ -1,0 +1,42 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Verb Tense and Form module! This is the engine of your English sentences.",
+    "theProblem": "In French, you often use one tense where English requires a choice between two. For example, \"Je mange\" can mean \"I eat\" (every day) OR \"I am eating\" (right now). Also, the French \"Passé Composé\" (\"J'ai mangé\") is used for almost everything in the past, but English splits this into two very different tenses. This is why Francophones often say things like \"I am knowing\" or \"I have seen him yesterday.\"",
+    "thePromise": "By the end of this lesson, you will stop translating word-for-word. You will master the specific 'triggers' that tell you exactly which tense to use, so you can speak about Time like a native."
+  },
+  "contrastiveExplanation": "### Concept 1: The Present (Habit vs. Action)\n\n**The Rule:**\n* **Present Simple:** Use for habits, routines, and permanent facts. (Keywords: *Every day, usually, always*).\n* **Present Continuous (be + -ing):** Use for actions happening **exactly now** or temporary situations. (Keywords: *Now, look!, at the moment*).\n\n**The French Trap:**\nIn French, you use the *Présent de l'indicatif* for both situations. \"Je travaille\" covers both \"I work\" (it's my job) and \"I am working\" (I am busy right now).\n\n**The Fix:**\nAsk yourself: **Is it a video or a photo?** If it's a routine photo you keep in your wallet, use Simple. If it's a live video happening now, use Continuous (-ing).\n\n**Visual Metaphor:**\nThink of the **Present Simple** as a **Calendar** (marked dates that repeat). Think of the **Present Continuous** as a **Live Webcam** (streaming action right now).\n\n**Examples:**\n* 🇫🇷 *Regarde! Il pleut.* (Now)\n    * ❌ Look! It rains.\n    * ✅ Look! It **is raining**.\n* 🇫🇷 *Je bois du thé le matin.* (Habit)\n    * ❌ I am drinking tea in the morning.\n    * ✅ I **drink** tea in the morning.\n* 🇫🇷 *Je comprends.* (Mental state - never continuous!)\n    * ❌ I am understanding.\n    * ✅ I **understand**.\n\n---\n\n### Concept 2: The Past (Finished vs. Connected)\n\n**The Rule:**\n* **Past Simple:** Use for actions at a **specific, finished time**. The time period is dead. (Keywords: *Yesterday, last year, in 2010, 5 minutes ago*).\n* **Present Perfect (Have + Past Participle):** Use for actions that have a **connection to the present** or general life experience. The specific time doesn't matter.\n\n**The French Trap:**\nFrench uses the *Passé Composé* (\"J'ai fini\", \"Il est allé\") for almost all past events. Because \"J'ai\" translates to \"I have\", students naturally want to use the Present Perfect (\"I have finished\") for everything, even when the time is finished.\n\n**The Fix:**\nLook for the **Time Tag**. If you see a specific past time like \"yesterday\" or \"ago\", you are BANNED from using \"have\". You MUST use the Past Simple.\n\n**Visual Metaphor:**\nThink of the **Past Simple** as a **Cut Rope** ✂️—the action is cut off from today. Think of the **Present Perfect** as a **Bridge** 🌉—the action started in the past but walks over the bridge to affect you now.\n\n**Examples:**\n* 🇫🇷 *J'ai vu Muna hier.* (Specific time)\n    * ❌ I **have seen** Muna yesterday.\n    * ✅ I **saw** Muna yesterday.\n* 🇫🇷 *J'ai perdu mes clés.* (Result: I don't have them now)\n    * ❌ I **lost** my keys. (Acceptable, but less precise if focus is on the result)\n    * ✅ I **have lost** my keys.\n\n---\n\n### Concept 3: The Duration Trap (Since/For)\n\n**The Rule:**\nTo talk about an action that started in the past and is *still happening* today, English uses the **Present Perfect** (often Continuous).\n\n**The French Trap:**\nFrench uses the **Present Tense** + \"Depuis\".\n* *\"Je vis ici depuis 2 ans.\"* (Literally: I live here since 2 years).\nFrench logic says: \"I am still here, so I use the present.\"\nEnglish logic says: \"I started in the past and kept going until now.\"\n\n**The Fix:**\nIf you see \"Since\" (depuis) or \"For\" (pendant/depuis), you must change the verb from \"am/is/are\" to **\"have been / has been\"**.\n\n**Visual Metaphor:**\nThink of a **Tape Measure**. You are measuring the distance from the start point (past) to your feet (now). You need the \"Have been\" tape measure.\n\n**Examples:**\n* 🇫🇷 *Je suis ici depuis le matin.* \n    * ❌ I **am** here since morning.\n    * ✅ I **have been** here since morning.\n* 🇫🇷 *Nous sommes mariés depuis 10 ans.*\n    * ❌ We **are** married for 10 years.\n    * ✅ We **have been** married for 10 years.",
+  "commonErrors": [
+    {
+      "subTopic": "State Verbs (Stative)",
+      "wrong": "I am knowing the answer.",
+      "correct": "I know the answer.",
+      "frenchConnection": "French \"Je sais\" or \"Je suis en train de...\" logic. In English, verbs of the mind (know, like, want, believe) are actions you cannot 'see' happening, so they are almost NEVER used in the continuous (-ing) form."
+    },
+    {
+      "subTopic": "Past Simple vs Present Perfect",
+      "wrong": "I have arrived in Douala yesterday.",
+      "correct": "I arrived in Douala yesterday.",
+      "frenchConnection": "Direct translation of \"Je suis arrivé hier\". The word \"yesterday\" makes the time finished, so you must use Past Simple (arrived), not Present Perfect."
+    },
+    {
+      "subTopic": "Duration (Depuis)",
+      "wrong": "I am waiting for you since 2 hours.",
+      "correct": "I have been waiting for you for 2 hours.",
+      "frenchConnection": "Translating \"Je t'attends\" (Present) + \"depuis\" (since). English requires 'Have been -ing' to show the duration of time leading up to now."
+    },
+    {
+      "subTopic": "Present Continuous triggers",
+      "wrong": "Look! The bus comes.",
+      "correct": "Look! The bus is coming.",
+      "frenchConnection": "French \"Le bus arrive\" uses the simple present. The English trigger word \"Look!\" means the action is live, so you must use the -ing form."
+    },
+    {
+      "subTopic": "Did + Base Form",
+      "wrong": "Did you went to the market?",
+      "correct": "Did you go to the market?",
+      "frenchConnection": "French \"Est-ce que tu es allé?\" uses the past participle (allé). In English, the auxiliary \"Did\" already carries the past tense, so the main verb must be in the base form (go)."
+    }
+  ]
+
+
+}

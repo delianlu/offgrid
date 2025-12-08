@@ -1,60 +1,129 @@
 import { ModuleSchema, ItemSchema, type Item } from '../types/schemas';
+import { z } from 'zod';
 import { db } from '../db/database';
+
+// Increment this version to force re-seeding
+export const CONTENT_VERSION = '1.0.36';
 
 export async function loadModuleFromJSON(filename: string, appVersion: string) {
   try {
     const res = await fetch(`/modules/${filename}?v=${encodeURIComponent(appVersion)}`);
     if (!res.ok) {
-      console.error(`Failed to fetch ${filename}: ${res.status}`);
+      const msg = `Failed to fetch ${filename}: ${res.status}`;
+      console.error(msg);
       return;
     }
     const data = await res.json();
 
+    // Separate items from module metadata
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { items, ...moduleMeta } = data;
+
     const validModule = ModuleSchema.parse(moduleMeta);
     await db.modules.put(validModule);
 
     const parsedItems: Item[] = [];
-    for (const it of items) {
-      const validItem = ItemSchema.parse(it);
-      parsedItems.push(validItem);
+    if (items && Array.isArray(items)) {
+      for (const it of items) {
+        const validItem = ItemSchema.parse(it);
+        parsedItems.push(validItem);
+      }
+      await db.items.bulkPut(parsedItems);
     }
-    await db.items.bulkPut(parsedItems);
-    console.log(`✓ Loaded module: ${filename}`);
   } catch (error) {
-    console.error(`Error loading ${filename}:`, error);
+    if (error instanceof z.ZodError) {
+      console.error(`Validation error for module ${filename}:`, JSON.stringify(error.format(), null, 2));
+    } else {
+      console.error(`Error loading ${filename}:`, error);
+    }
+    throw error;
+  }
+}
+
+export async function loadPhase2Items(baseFilename: string, appVersion: string) {
+  const phase2Filename = baseFilename.replace('.json', '_phase2.json');
+
+  try {
+    const res = await fetch(`/modules/${phase2Filename}?v=${encodeURIComponent(appVersion)}`);
+    if (!res.ok) {
+      // It's expected that some modules might not have phase 2 content yet
+      if (res.status === 404) {
+        return;
+      }
+      console.warn(`Failed to fetch ${phase2Filename}: ${res.status}`);
+      return;
+    }
+
+    const items = await res.json();
+    if (Array.isArray(items)) {
+      const parsedItems: Item[] = [];
+      for (const it of items) {
+        // Phase 2 items are just items, no module meta wrapper
+        const validItem = ItemSchema.parse(it);
+        parsedItems.push(validItem);
+      }
+      if (parsedItems.length > 0) {
+        await db.items.bulkPut(parsedItems);
+      } else {
+        console.warn(`Phase 2 file ${phase2Filename} contained no items`);
+      }
+    } else {
+      console.warn(`Phase 2 file ${phase2Filename} did not contain an array`);
+    }
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      console.error(`Validation error for ${phase2Filename}:`, JSON.stringify(error.format(), null, 2));
+    } else {
+      console.error(`Error loading phase 2 content ${phase2Filename}:`, error);
+    }
   }
 }
 
 export async function ensureSeedContent(appVersion: string) {
   const count = await db.modules.count();
-  console.log(`Database has ${count} modules`);
 
-  // Load all 9 modules if not all are present
-  if (count >= 9) {
-    console.log('All 9 modules already loaded');
+  // Check stored version
+  const storedVersion = localStorage.getItem('content_version');
+
+  // Load all 19 modules if not all are present OR if version changed
+  if (count >= 19 && storedVersion === appVersion) {
     return;
   }
 
-  console.log('Loading all modules...');
+  // Clear existing items if version changed to ensure clean update
+  if (storedVersion !== appVersion) {
+    await db.items.clear();
+    await db.modules.clear();
+  }
 
-  // All 9 grammar modules (329 items total)
+  // All 19 grammar modules
   const files = [
-    'tense-form.json',                 // 50 items
-    'subject-verb-agreement.json',     // 40 items
-    'prepositions.json',               // 30 items
-    'word-order.json',                 // 30 items
-    'plurality.json',                  // 20 items
-    'articles.json',                   // 20 items
-    'auxiliaries.json',                // 20 items
-    'cameroonian-scenarios.json',      // 69 items
-    'false-cognates.json'              // 50 items
+    'tense-form.json',
+    'subject-verb-agreement.json',
+    'prepositions.json',
+    'word-order.json',
+    'plurality.json',
+    'articles.json',
+    'auxiliaries.json',
+    'pronouns-possessives.json',
+    'gerunds-infinitives.json',
+    'comparatives-superlatives.json',
+    'conditionals.json',
+    'sentence-connectors.json',
+    'countable-uncountable.json',
+    'question-tags.json',
+    'relative-clauses.json',
+    'false-cognates.json',
+    'passive-voice.json',
+    'reported-speech.json',
+    'phonology.json'
   ];
 
   for (const f of files) {
     await loadModuleFromJSON(f, appVersion);
+    // Try to load phase 2 content for this module
+    await loadPhase2Items(f, appVersion);
   }
 
-  const finalCount = await db.modules.count();
-  console.log(`Finished loading. Database now has ${finalCount} modules`);
+  localStorage.setItem('content_version', appVersion);
 }

@@ -1,0 +1,3303 @@
+{
+  "id": "auxiliaries",
+  "name": "Auxiliaries",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the final module on Auxiliaries! These are helper verbs like 'do', 'does', 'did', and 'have'. They help main verbs form questions and negative sentences. French speakers often forget these because French uses different patterns (like 'Est-ce que' or 'ne...pas'). We will master the correct English patterns.",
+  "contrastiveExplanation": "Do/Does/Did: Essential for Present and Past Simple questions and negatives. (French: 'Tu aimes?' -> English: 'Do you like?').\n\nHave/Has: Used for Present Perfect ('I have eaten').\n\nBe careful: When 'have' means possession, it needs 'do' ('I don't have a car', NOT 'I have not a car').",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Do/does/did in negatives",
+      "wrong": "I know not.",
+      "correct": "I do not know.",
+      "frenchConnection": "Direct translation of 'Je ne sais pas'."
+    },
+    {
+      "number": 2,
+      "subTopic": "Do/does/did in negatives",
+      "wrong": "She like not fufu.",
+      "correct": "She does not like fufu.",
+      "frenchConnection": "Subject 'She' needs 'does'."
+    },
+    {
+      "number": 3,
+      "subTopic": "Do/does/did in negatives",
+      "wrong": "We went not.",
+      "correct": "We did not go.",
+      "frenchConnection": "Past negative needs 'did not' + base verb."
+    },
+    {
+      "number": 4,
+      "subTopic": "Do/does/did in questions",
+      "wrong": "You live in Yaoundé?",
+      "correct": "Do you live in Yaoundé?",
+      "frenchConnection": "French intonation question."
+    },
+    {
+      "number": 5,
+      "subTopic": "Do/does/did in questions",
+      "wrong": "He speaks English?",
+      "correct": "Does he speak English?",
+      "frenchConnection": "Third person question needs 'Does'."
+    },
+    {
+      "number": 6,
+      "subTopic": "Have as main verb",
+      "wrong": "I have not a car.",
+      "correct": "I do not have a car.",
+      "frenchConnection": "Using 'have' without 'do' for possession."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "aux-e01-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ not like peppers.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'I' takes 'do' for negatives.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'aime pas...",
+        "englishStructure": "I do not like...",
+        "whyDifficult": "French uses 'ne...pas'. English requires auxiliary 'do'.",
+        "visualHighlighting": {
+          "incorrect": "I like not",
+          "correct": "I do not like"
+        }
+      }
+    },
+    {
+      "id": "aux-e02-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "She ___ not speak French.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'She' takes 'does' for negatives.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle ne parle pas...",
+        "englishStructure": "She does not speak...",
+        "whyDifficult": "Third person singular requires 'does', not 'do'.",
+        "visualHighlighting": {
+          "incorrect": "She do not speak",
+          "correct": "She does not speak"
+        }
+      }
+    },
+    {
+      "id": "aux-e03-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ you play football?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'You' takes 'Do' for questions.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce que tu joues... / Joues-tu...",
+        "englishStructure": "Do you play...",
+        "whyDifficult": "English requires auxiliary 'Do' for questions.",
+        "visualHighlighting": {
+          "incorrect": "You play?",
+          "correct": "Do you play?"
+        }
+      }
+    },
+    {
+      "id": "aux-e04-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ he live in Douala?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'He' takes 'Does' for questions.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce qu'il habite...",
+        "englishStructure": "Does he live...",
+        "whyDifficult": "Third person singular requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Do he live?",
+          "correct": "Does he live?"
+        }
+      }
+    },
+    {
+      "id": "aux-e05-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "We ___ not go to school yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "did",
+        "does"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! 'Yesterday' is past, so we use 'did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Nous ne sommes pas allés...",
+        "englishStructure": "We did not go...",
+        "whyDifficult": "Past negative requires 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "We went not",
+          "correct": "We did not go"
+        }
+      }
+    },
+    {
+      "id": "aux-e06-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ you see the match last night?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Did",
+        "Have"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Correct! Past question uses 'Did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Question)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu vu...",
+        "englishStructure": "Did you see...",
+        "whyDifficult": "Past simple question requires 'Did'.",
+        "visualHighlighting": {
+          "incorrect": "You saw?",
+          "correct": "Did you see?"
+        }
+      }
+    },
+    {
+      "id": "aux-e07-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ finished my homework.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! Present Perfect uses 'have' with 'I'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai fini...",
+        "englishStructure": "I have finished...",
+        "whyDifficult": "Auxiliary 'have' corresponds to 'avoir' here.",
+        "visualHighlighting": {
+          "incorrect": "I has finished",
+          "correct": "I have finished"
+        }
+      }
+    },
+    {
+      "id": "aux-e08-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "She ___ visited Paris.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect uses 'has' with 'She'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a visité...",
+        "englishStructure": "She has visited...",
+        "whyDifficult": "Third person singular 'has'.",
+        "visualHighlighting": {
+          "incorrect": "She have visited",
+          "correct": "She has visited"
+        }
+      }
+    },
+    {
+      "id": "aux-e09-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "They ___ not happy.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Happy' is an adjective. Use 'to be' (are).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne sont pas heureux...",
+        "englishStructure": "They are not happy...",
+        "whyDifficult": "Adjectives use 'be', not 'do' or 'have'.",
+        "visualHighlighting": {
+          "incorrect": "They do not happy",
+          "correct": "They are not happy"
+        }
+      }
+    },
+    {
+      "id": "aux-e10-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ you hungry?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "correctAnswer": "Are",
+      "feedback": "Correct! 'Hungry' is an adjective. Use 'Are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu faim ? (Have you hunger?)",
+        "englishStructure": "Are you hungry?",
+        "whyDifficult": "French uses 'avoir' (have hunger), English uses 'be' (be hungry).",
+        "visualHighlighting": {
+          "incorrect": "Have you hungry?",
+          "correct": "Are you hungry?"
+        }
+      }
+    },
+    {
+      "id": "aux-e11-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "He ___ not like bananas.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'He' takes 'does not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'aime pas...",
+        "englishStructure": "He does not like...",
+        "whyDifficult": "Third person singular requires 'does'.",
+        "visualHighlighting": {
+          "incorrect": "He do not like",
+          "correct": "He does not like"
+        }
+      }
+    },
+    {
+      "id": "aux-e12-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ they work here?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'They' takes 'Do'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Travaillent-ils ici...",
+        "englishStructure": "Do they work here...",
+        "whyDifficult": "English requires auxiliary 'Do'.",
+        "visualHighlighting": {
+          "incorrect": "They work here?",
+          "correct": "Do they work here?"
+        }
+      }
+    },
+    {
+      "id": "aux-e13-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "We ___ not tired.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Tired' is an adjective. Use 'are not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Nous ne sommes pas fatigués...",
+        "englishStructure": "We are not tired...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "We do not tired",
+          "correct": "We are not tired"
+        }
+      }
+    },
+    {
+      "id": "aux-e14-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ she a teacher?",
+      "type": "multiple_choice",
+      "options": [
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correctAnswer": "Is",
+      "feedback": "Correct! 'Teacher' is a noun. Use 'Is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-elle enseignante...",
+        "englishStructure": "Is she a teacher...",
+        "whyDifficult": "Noun complement uses 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Does she a teacher?",
+          "correct": "Is she a teacher?"
+        }
+      }
+    },
+    {
+      "id": "aux-e15-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "You ___ not listen to me.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'Listen' is a verb. Use 'do not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne m'écoutes pas...",
+        "englishStructure": "You do not listen...",
+        "whyDifficult": "Verbs require 'do' for negation.",
+        "visualHighlighting": {
+          "incorrect": "You listen not",
+          "correct": "You do not listen"
+        }
+      }
+    },
+    {
+      "id": "aux-e16-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ it rain often?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'It' takes 'Does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Pleut-il souvent...",
+        "englishStructure": "Does it rain often...",
+        "whyDifficult": "Third person singular 'it' takes 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Do it rain?",
+          "correct": "Does it rain?"
+        }
+      }
+    },
+    {
+      "id": "aux-e17-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "They ___ eaten lunch.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! 'They' takes 'have'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont mangé...",
+        "englishStructure": "They have eaten...",
+        "whyDifficult": "Present perfect auxiliary.",
+        "visualHighlighting": {
+          "incorrect": "They has eaten",
+          "correct": "They have eaten"
+        }
+      }
+    },
+    {
+      "id": "aux-e18-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "He ___ not see the car.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "was",
+        "had"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Past negative 'did not see'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'a pas vu...",
+        "englishStructure": "He did not see...",
+        "whyDifficult": "Past negative uses 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "He saw not",
+          "correct": "He did not see"
+        }
+      }
+    },
+    {
+      "id": "aux-e19-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ you sleep well last night?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Did",
+        "Have"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Correct! Past question uses 'Did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Question)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu bien dormi...",
+        "englishStructure": "Did you sleep well...",
+        "whyDifficult": "Past simple question requires 'Did'.",
+        "visualHighlighting": {
+          "incorrect": "You slept well?",
+          "correct": "Did you sleep well?"
+        }
+      }
+    },
+    {
+      "id": "aux-e20-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ not hungry.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "am",
+        "have"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! 'Hungry' is an adjective. Use 'am not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas faim...",
+        "englishStructure": "I am not hungry...",
+        "whyDifficult": "French uses 'have' (avoir faim), English uses 'be' (be hungry).",
+        "visualHighlighting": {
+          "incorrect": "I have not hungry",
+          "correct": "I am not hungry"
+        }
+      }
+    },
+    {
+      "id": "aux-m01-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Where ___ you go yesterday?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "were"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Wh-question in past simple requires 'did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Wh-Question)",
+      "frenchComparison": {
+        "frenchStructure": "Où es-tu allé...",
+        "englishStructure": "Where did you go...",
+        "whyDifficult": "Wh-question in past simple requires 'did'.",
+        "visualHighlighting": {
+          "incorrect": "Where you went?",
+          "correct": "Where did you go?"
+        }
+      }
+    },
+    {
+      "id": "aux-m02-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Why ___ she crying?",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "do"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (crying) needs 'is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Pourquoi pleure-t-elle...",
+        "englishStructure": "Why is she crying...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "Why she crying?",
+          "correct": "Why is she crying?"
+        }
+      }
+    },
+    {
+      "id": "aux-m03-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "What ___ you do for a living?",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'What DO you do?'. First 'do' is auxiliary, second is main verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do (Wh-Question)",
+      "frenchComparison": {
+        "frenchStructure": "Que fais-tu...",
+        "englishStructure": "What do you do...",
+        "whyDifficult": "Using 'do' as both auxiliary and main verb.",
+        "visualHighlighting": {
+          "incorrect": "What you do?",
+          "correct": "What do you do?"
+        }
+      }
+    },
+    {
+      "id": "aux-m04-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "I ___ not have a car.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "do",
+        "am"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! When 'have' means possession, we use 'do not' for negative.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas de voiture...",
+        "englishStructure": "I do not have a car...",
+        "whyDifficult": "French negates 'have' directly. English uses 'do not have'.",
+        "visualHighlighting": {
+          "incorrect": "I have not a car",
+          "correct": "I do not have a car"
+        }
+      }
+    },
+    {
+      "id": "aux-m05-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ you have a pen?",
+      "type": "multiple_choice",
+      "options": [
+        "Have",
+        "Do",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! When 'have' means possession, we use 'Do' for questions.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu un stylo...",
+        "englishStructure": "Do you have a pen...",
+        "whyDifficult": "French inverts 'have'. English uses 'Do... have'.",
+        "visualHighlighting": {
+          "incorrect": "Have you a pen?",
+          "correct": "Do you have a pen?"
+        }
+      }
+    },
+    {
+      "id": "aux-m06-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "She ___ not working today.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (working) needs 'is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Elle ne travaille pas...",
+        "englishStructure": "She is not working...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "She does not working",
+          "correct": "She is not working"
+        }
+      }
+    },
+    {
+      "id": "aux-m07-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ you ever been to Kribi?",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Have",
+        "Were"
+      ],
+      "correctAnswer": "Have",
+      "feedback": "Correct! Present Perfect (been) needs 'Have'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Es-tu déjà allé...",
+        "englishStructure": "Have you ever been...",
+        "whyDifficult": "Present perfect uses 'have', not 'be' or 'did'.",
+        "visualHighlighting": {
+          "incorrect": "Did you ever go?",
+          "correct": "Have you ever been?"
+        }
+      }
+    },
+    {
+      "id": "aux-m08-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "They ___ not come to the party last night.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "have",
+        "were"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Past Simple negative needs 'did'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne sont pas venus...",
+        "englishStructure": "They did not come...",
+        "whyDifficult": "Past negative uses 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "They came not",
+          "correct": "They did not come"
+        }
+      }
+    },
+    {
+      "id": "aux-m09-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Who ___ you waiting for?",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! Continuous (waiting) needs 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Qui attends-tu...",
+        "englishStructure": "Who are you waiting for...",
+        "whyDifficult": "Continuous aspect requires 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Who you waiting?",
+          "correct": "Who are you waiting for?"
+        }
+      }
+    },
+    {
+      "id": "aux-m10-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "He ___ not understand the lesson.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! Present Simple negative needs 'does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il ne comprend pas...",
+        "englishStructure": "He does not understand...",
+        "whyDifficult": "Verbs require 'does' for negation in 3rd person.",
+        "visualHighlighting": {
+          "incorrect": "He understands not",
+          "correct": "He does not understand"
+        }
+      }
+    },
+    {
+      "id": "aux-m11-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ she speak English well?",
+      "type": "multiple_choice",
+      "options": [
+        "Is",
+        "Does",
+        "Has"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! Present Simple question needs 'Does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Parle-t-elle...",
+        "englishStructure": "Does she speak...",
+        "whyDifficult": "3rd person question requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Speaks she?",
+          "correct": "Does she speak?"
+        }
+      }
+    },
+    {
+      "id": "aux-m12-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "We ___ not have time.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "have",
+        "are"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'Have' (possession) needs 'do not'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'avons pas...",
+        "englishStructure": "We do not have...",
+        "whyDifficult": "Negating possession 'have' requires 'do not'.",
+        "visualHighlighting": {
+          "incorrect": "We have not",
+          "correct": "We do not have"
+        }
+      }
+    },
+    {
+      "id": "aux-m13-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ your father have a job?",
+      "type": "multiple_choice",
+      "options": [
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'Have' (possession) question needs 'Does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Ton père a-t-il...",
+        "englishStructure": "Does your father have...",
+        "whyDifficult": "Question with possession 'have' requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Has your father?",
+          "correct": "Does your father have?"
+        }
+      }
+    },
+    {
+      "id": "aux-m14-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "I ___ never seen a lion.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "have",
+        "am"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! Present Perfect (seen) needs 'have'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai jamais vu...",
+        "englishStructure": "I have never seen...",
+        "whyDifficult": "Present perfect auxiliary 'have'.",
+        "visualHighlighting": {
+          "incorrect": "I did never see",
+          "correct": "I have never seen"
+        }
+      }
+    },
+    {
+      "id": "aux-m15-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ they students?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "correctAnswer": "Are",
+      "feedback": "Correct! Noun subject (students) needs 'Are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Sont-ils étudiants...",
+        "englishStructure": "Are they students...",
+        "whyDifficult": "Noun complement uses 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Do they students?",
+          "correct": "Are they students?"
+        }
+      }
+    },
+    {
+      "id": "aux-m16-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "It ___ raining right now.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (raining) needs 'is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il pleut...",
+        "englishStructure": "It is raining...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "It rains now",
+          "correct": "It is raining now"
+        }
+      }
+    },
+    {
+      "id": "aux-m17-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Where ___ he live?",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! Present Simple question needs 'does'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Où habite-t-il...",
+        "englishStructure": "Where does he live...",
+        "whyDifficult": "Wh-question requires 'does' for 3rd person.",
+        "visualHighlighting": {
+          "incorrect": "Where he lives?",
+          "correct": "Where does he live?"
+        }
+      }
+    },
+    {
+      "id": "aux-m18-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "She ___ not finished yet.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "is",
+        "has"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect (finished) needs 'has'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'a pas fini...",
+        "englishStructure": "She has not finished...",
+        "whyDifficult": "Present perfect auxiliary 'has'.",
+        "visualHighlighting": {
+          "incorrect": "She is not finished",
+          "correct": "She has not finished"
+        }
+      }
+    },
+    {
+      "id": "aux-m19-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ you agree with me?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'Agree' is a verb. Use 'Do'. (Not 'Are you agree').",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Es-tu d'accord...",
+        "englishStructure": "Do you agree...",
+        "whyDifficult": "French uses 'be' (être d'accord), English uses 'do' + verb (agree).",
+        "visualHighlighting": {
+          "incorrect": "Are you agree?",
+          "correct": "Do you agree?"
+        }
+      }
+    },
+    {
+      "id": "aux-m20-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Why ___ you late?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "are",
+        "do"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Late' is an adjective. Use 'are'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Pourquoi es-tu en retard...",
+        "englishStructure": "Why are you late...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Why do you late?",
+          "correct": "Why are you late?"
+        }
+      }
+    },
+    {
+      "id": "aux-h01-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "He ___ cut his finger, so he is bleeding.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "is",
+        "did"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect (has cut) shows a past action with a present result.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est coupé le doigt...",
+        "englishStructure": "He has cut his finger...",
+        "whyDifficult": "French uses reflexive 'se couper' with 'être'. English uses 'have'.",
+        "visualHighlighting": {
+          "incorrect": "He is cut",
+          "correct": "He has cut"
+        }
+      }
+    },
+    {
+      "id": "aux-h02-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "By next year, I ___ have finished school.",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "will",
+      "feedback": "Correct! Future Perfect requires 'will have'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Will (Future Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "J'aurai fini...",
+        "englishStructure": "I will have finished...",
+        "whyDifficult": "Future perfect requires 'will have' + past participle.",
+        "visualHighlighting": {
+          "incorrect": "I have finished",
+          "correct": "I will have finished"
+        }
+      }
+    },
+    {
+      "id": "aux-h03-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Not only ___ he rich, but he is also kind.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Inversion after 'Not only'. 'Is he rich'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement il est riche...",
+        "englishStructure": "Not only is he rich...",
+        "whyDifficult": "Inversion (auxiliary before subject) required after negative adverbials.",
+        "visualHighlighting": {
+          "incorrect": "Not only he is",
+          "correct": "Not only is he"
+        }
+      }
+    },
+    {
+      "id": "aux-h04-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ I to leave now, I would miss the bus.",
+      "type": "multiple_choice",
+      "options": [
+        "Were",
+        "Did",
+        "Was"
+      ],
+      "correctAnswer": "Were",
+      "feedback": "Correct! Inverted conditional (Were I to leave = If I left).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "Si je devais partir...",
+        "englishStructure": "Were I to leave...",
+        "whyDifficult": "Formal conditional inversion replaces 'if'.",
+        "visualHighlighting": {
+          "incorrect": "If I was to leave",
+          "correct": "Were I to leave"
+        }
+      }
+    },
+    {
+      "id": "aux-h05-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "You play football, ___ you?",
+      "type": "multiple_choice",
+      "options": [
+        "don't",
+        "aren't",
+        "haven't"
+      ],
+      "correctAnswer": "don't",
+      "feedback": "Correct! Question tag for Present Simple uses 'do/don't'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Tu joues au foot, n'est-ce pas ?",
+        "englishStructure": "You play football, don't you?",
+        "whyDifficult": "Tag questions must match the auxiliary of the main clause.",
+        "visualHighlighting": {
+          "incorrect": "isn't it?",
+          "correct": "don't you?"
+        }
+      }
+    },
+    {
+      "id": "aux-h06-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"She hasn't a car.\"",
+      "type": "error_correction",
+      "options": [
+        "hasn't",
+        "a car",
+        "She",
+        "No error"
+      ],
+      "correctAnswer": "hasn't",
+      "feedback": "Correct! 'Have' as possession needs 'doesn't have'. 'Hasn't' is usually for Present Perfect.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "doesn't have",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'a pas de voiture...",
+        "englishStructure": "She doesn't have a car...",
+        "whyDifficult": "Possessive 'have' requires 'do/does' support in American English.",
+        "visualHighlighting": {
+          "incorrect": "She hasn't a car",
+          "correct": "She doesn't have a car"
+        }
+      }
+    },
+    {
+      "id": "aux-h07-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Hardly ___ we started when it rained.",
+      "type": "multiple_choice",
+      "options": [
+        "had",
+        "did",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! 'Hardly' takes Past Perfect inversion (had we started).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "À peine avions-nous commencé...",
+        "englishStructure": "Hardly had we started...",
+        "whyDifficult": "Inversion required after 'Hardly'.",
+        "visualHighlighting": {
+          "incorrect": "Hardly we had started",
+          "correct": "Hardly had we started"
+        }
+      }
+    },
+    {
+      "id": "aux-h08-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "I ___ do my homework yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "done"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Here 'did' is the MAIN verb in the past simple. (I did it).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Do (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai fait mes devoirs...",
+        "englishStructure": "I did my homework...",
+        "whyDifficult": "'Did' is the past tense of main verb 'do'.",
+        "visualHighlighting": {
+          "incorrect": "I done my homework",
+          "correct": "I did my homework"
+        }
+      }
+    },
+    {
+      "id": "aux-h09-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "You didn't see him, ___ you?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "didn't",
+        "have"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Negative statement -> Positive tag.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Tu ne l'as pas vu, si ?",
+        "englishStructure": "You didn't see him, did you?",
+        "whyDifficult": "Negative statement requires positive tag.",
+        "visualHighlighting": {
+          "incorrect": "didn't you?",
+          "correct": "did you?"
+        }
+      }
+    },
+    {
+      "id": "aux-h10-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ he study harder, he would pass.",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Should",
+        "Does"
+      ],
+      "correctAnswer": "Should",
+      "feedback": "Correct! Inverted conditional (Should he study = If he should study / If he studied).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "S'il étudiait plus...",
+        "englishStructure": "Should he study harder...",
+        "whyDifficult": "'Should' inversion replaces 'If'.",
+        "visualHighlighting": {
+          "incorrect": "If he study",
+          "correct": "Should he study"
+        }
+      }
+    },
+    {
+      "id": "aux-h11-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "I am right, ___ I?",
+      "type": "multiple_choice",
+      "options": [
+        "amn't",
+        "aren't",
+        "am"
+      ],
+      "correctAnswer": "aren't",
+      "feedback": "Correct! The tag for 'I am' is 'aren't I'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags (Exception)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai raison, n'est-ce pas ?",
+        "englishStructure": "I am right, aren't I?",
+        "whyDifficult": "Irregular tag 'aren't I' for 'I am'.",
+        "visualHighlighting": {
+          "incorrect": "amn't I?",
+          "correct": "aren't I?"
+        }
+      }
+    },
+    {
+      "id": "aux-h12-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "He ___ have gone to the market.",
+      "type": "multiple_choice",
+      "options": [
+        "must",
+        "did",
+        "has"
+      ],
+      "correctAnswer": "must",
+      "feedback": "Correct! Modal of deduction about the past (must have gone).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals",
+      "frenchComparison": {
+        "frenchStructure": "Il a dû aller...",
+        "englishStructure": "He must have gone...",
+        "whyDifficult": "Modal perfect 'must have' + participle.",
+        "visualHighlighting": {
+          "incorrect": "He must go (past)",
+          "correct": "He must have gone"
+        }
+      }
+    },
+    {
+      "id": "aux-h13-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Does she has a pen?\"",
+      "type": "error_correction",
+      "options": [
+        "Does",
+        "has",
+        "a pen",
+        "No error"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! After 'Does', use the base verb 'have', not 'has'. Correct: 'Does she have...'",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "have",
+      "subTopic": "Do/Does (Base Verb)",
+      "frenchComparison": {
+        "frenchStructure": "A-t-elle un stylo...",
+        "englishStructure": "Does she have a pen...",
+        "whyDifficult": "Auxiliary 'Does' takes the 's', main verb stays base form.",
+        "visualHighlighting": {
+          "incorrect": "Does she has",
+          "correct": "Does she have"
+        }
+      }
+    },
+    {
+      "id": "aux-h14-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ you to see him, tell him hello.",
+      "type": "multiple_choice",
+      "options": [
+        "Were",
+        "Did",
+        "Had"
+      ],
+      "correctAnswer": "Were",
+      "feedback": "Correct! 'Were you to see him' (If you saw him).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "Si tu le voyais...",
+        "englishStructure": "Were you to see him...",
+        "whyDifficult": "Formal inversion 'Were you to'.",
+        "visualHighlighting": {
+          "incorrect": "If you was to see",
+          "correct": "Were you to see"
+        }
+      }
+    },
+    {
+      "id": "aux-h15-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "She rarely goes out, ___ she?",
+      "type": "multiple_choice",
+      "options": [
+        "doesn't",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'Rarely' is negative, so the tag is positive.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Elle sort rarement, n'est-ce pas ?",
+        "englishStructure": "She rarely goes out, does she?",
+        "whyDifficult": "'Rarely' makes the sentence negative, requiring a positive tag.",
+        "visualHighlighting": {
+          "incorrect": "doesn't she?",
+          "correct": "does she?"
+        }
+      }
+    },
+    {
+      "id": "aux-h16-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Little ___ he know about the surprise.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "does",
+        "had"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Inversion after 'Little'. 'Did he know'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Il ne savait pas grand-chose...",
+        "englishStructure": "Little did he know...",
+        "whyDifficult": "Inversion required after negative adverb 'Little'.",
+        "visualHighlighting": {
+          "incorrect": "Little he knew",
+          "correct": "Little did he know"
+        }
+      }
+    },
+    {
+      "id": "aux-h17-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "I'd rather you ___ not go.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! 'I'd rather' + person + past tense.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subjunctive / Unreal Past",
+      "frenchComparison": {
+        "frenchStructure": "Je préférerais que tu n'y ailles pas...",
+        "englishStructure": "I'd rather you did not go...",
+        "whyDifficult": "'I'd rather' triggers past tense for present/future meaning.",
+        "visualHighlighting": {
+          "incorrect": "I'd rather you do not",
+          "correct": "I'd rather you did not"
+        }
+      }
+    },
+    {
+      "id": "aux-h18-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "It is important that he ___ on time.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "be",
+      "feedback": "Correct! Subjunctive 'be' after 'important that'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subjunctive",
+      "frenchComparison": {
+        "frenchStructure": "Il est important qu'il soit...",
+        "englishStructure": "It is important that he be...",
+        "whyDifficult": "Subjunctive form 'be' (base form) used here.",
+        "visualHighlighting": {
+          "incorrect": "that he is",
+          "correct": "that he be"
+        }
+      }
+    },
+    {
+      "id": "aux-h19-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Had I known, I ___ have helped.",
+      "type": "multiple_choice",
+      "options": [
+        "would",
+        "will",
+        "did"
+      ],
+      "correctAnswer": "would",
+      "feedback": "Correct! Third conditional (Had I known... I would have).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Conditionals",
+      "frenchComparison": {
+        "frenchStructure": "Si j'avais su, j'aurais aidé...",
+        "englishStructure": "Had I known, I would have helped...",
+        "whyDifficult": "Inverted third conditional.",
+        "visualHighlighting": {
+          "incorrect": "I will have helped",
+          "correct": "I would have helped"
+        }
+      }
+    },
+    {
+      "id": "aux-h20-A",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "So ___ I.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "am",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! Agreement with a present simple verb (e.g., 'I like football'). 'So do I'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "So/Neither",
+      "frenchComparison": {
+        "frenchStructure": "Moi aussi...",
+        "englishStructure": "So do I...",
+        "whyDifficult": "Agreement uses 'So' + auxiliary + subject.",
+        "visualHighlighting": {
+          "incorrect": "Me too (informal)",
+          "correct": "So do I"
+        }
+      }
+    },
+    {
+      "id": "aux-e01-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ not want tea.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "do",
+        "am"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'I' takes 'do' for negatives.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne veux pas...",
+        "englishStructure": "I do not want...",
+        "whyDifficult": "French uses 'ne...pas'. English requires auxiliary 'do'.",
+        "visualHighlighting": {
+          "incorrect": "I want not",
+          "correct": "I do not want"
+        }
+      }
+    },
+    {
+      "id": "aux-e02-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "He ___ not play tennis.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'He' takes 'does' for negatives.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il ne joue pas...",
+        "englishStructure": "He does not play...",
+        "whyDifficult": "Third person singular requires 'does'.",
+        "visualHighlighting": {
+          "incorrect": "He do not play",
+          "correct": "He does not play"
+        }
+      }
+    },
+    {
+      "id": "aux-e03-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ they live here?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'They' takes 'Do' for questions.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Habitent-ils ici...",
+        "englishStructure": "Do they live here...",
+        "whyDifficult": "English requires auxiliary 'Do' for questions.",
+        "visualHighlighting": {
+          "incorrect": "They live here?",
+          "correct": "Do they live here?"
+        }
+      }
+    },
+    {
+      "id": "aux-e04-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ she like chocolate?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'She' takes 'Does' for questions.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Aime-t-elle...",
+        "englishStructure": "Does she like...",
+        "whyDifficult": "Third person singular requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Do she like?",
+          "correct": "Does she like?"
+        }
+      }
+    },
+    {
+      "id": "aux-e05-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ not see him yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "did",
+        "does"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! 'Yesterday' is past, so we use 'did'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne l'ai pas vu...",
+        "englishStructure": "I did not see him...",
+        "whyDifficult": "Past negative requires 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "I saw not",
+          "correct": "I did not see"
+        }
+      }
+    },
+    {
+      "id": "aux-e06-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ you go to school yesterday?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Did",
+        "Have"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Correct! Past question uses 'Did'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Es-tu allé...",
+        "englishStructure": "Did you go...",
+        "whyDifficult": "Past simple question requires 'Did'.",
+        "visualHighlighting": {
+          "incorrect": "You went?",
+          "correct": "Did you go?"
+        }
+      }
+    },
+    {
+      "id": "aux-e07-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "We ___ eaten dinner.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! Present Perfect uses 'have' with 'We'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons mangé...",
+        "englishStructure": "We have eaten...",
+        "whyDifficult": "Present perfect auxiliary.",
+        "visualHighlighting": {
+          "incorrect": "We has eaten",
+          "correct": "We have eaten"
+        }
+      }
+    },
+    {
+      "id": "aux-e08-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "He ___ worked hard.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect uses 'has' with 'He'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "Il a travaillé...",
+        "englishStructure": "He has worked...",
+        "whyDifficult": "Third person singular 'has'.",
+        "visualHighlighting": {
+          "incorrect": "He have worked",
+          "correct": "He has worked"
+        }
+      }
+    },
+    {
+      "id": "aux-e09-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "I ___ not sad.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "am",
+        "have"
+      ],
+      "correctAnswer": "am",
+      "feedback": "Correct! 'Sad' is an adjective. Use 'to be' (am).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Je ne suis pas triste...",
+        "englishStructure": "I am not sad...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "I do not sad",
+          "correct": "I am not sad"
+        }
+      }
+    },
+    {
+      "id": "aux-e10-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ she tired?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Is",
+        "Has"
+      ],
+      "correctAnswer": "Is",
+      "feedback": "Correct! 'Tired' is an adjective. Use 'Is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-elle fatiguée...",
+        "englishStructure": "Is she tired...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Does she tired?",
+          "correct": "Is she tired?"
+        }
+      }
+    },
+    {
+      "id": "aux-e11-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "She ___ not know me.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'She' takes 'does not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle ne me connaît pas...",
+        "englishStructure": "She does not know me...",
+        "whyDifficult": "Third person singular requires 'does'.",
+        "visualHighlighting": {
+          "incorrect": "She do not know",
+          "correct": "She does not know"
+        }
+      }
+    },
+    {
+      "id": "aux-e12-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ we have school today?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'We' takes 'Do'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Avons-nous école...",
+        "englishStructure": "Do we have school...",
+        "whyDifficult": "Question with 'have' (possession/obligation) uses 'Do'.",
+        "visualHighlighting": {
+          "incorrect": "Have we school?",
+          "correct": "Do we have school?"
+        }
+      }
+    },
+    {
+      "id": "aux-e13-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "They ___ not angry.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Angry' is an adjective. Use 'are not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ne sont pas en colère...",
+        "englishStructure": "They are not angry...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "They do not angry",
+          "correct": "They are not angry"
+        }
+      }
+    },
+    {
+      "id": "aux-e14-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ he a doctor?",
+      "type": "multiple_choice",
+      "options": [
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correctAnswer": "Is",
+      "feedback": "Correct! 'Doctor' is a noun. Use 'Is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-il médecin...",
+        "englishStructure": "Is he a doctor...",
+        "whyDifficult": "Noun complement uses 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Does he a doctor?",
+          "correct": "Is he a doctor?"
+        }
+      }
+    },
+    {
+      "id": "aux-e15-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "We ___ not understand.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'Understand' is a verb. Use 'do not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Nous ne comprenons pas...",
+        "englishStructure": "We do not understand...",
+        "whyDifficult": "Verbs require 'do' for negation.",
+        "visualHighlighting": {
+          "incorrect": "We understand not",
+          "correct": "We do not understand"
+        }
+      }
+    },
+    {
+      "id": "aux-e16-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ the bus stop here?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'The bus' (it) takes 'Does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Le bus s'arrête-t-il...",
+        "englishStructure": "Does the bus stop...",
+        "whyDifficult": "Third person singular noun takes 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Do the bus stop?",
+          "correct": "Does the bus stop?"
+        }
+      }
+    },
+    {
+      "id": "aux-e17-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "You ___ seen this movie.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "has",
+        "did"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! 'You' takes 'have'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have/Has (Auxiliary)",
+      "frenchComparison": {
+        "frenchStructure": "Tu as vu...",
+        "englishStructure": "You have seen...",
+        "whyDifficult": "Present perfect auxiliary.",
+        "visualHighlighting": {
+          "incorrect": "You has seen",
+          "correct": "You have seen"
+        }
+      }
+    },
+    {
+      "id": "aux-e18-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "She ___ not come yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "was",
+        "had"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Past negative 'did not come'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'est pas venue...",
+        "englishStructure": "She did not come...",
+        "whyDifficult": "Past negative uses 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "She came not",
+          "correct": "She did not come"
+        }
+      }
+    },
+    {
+      "id": "aux-e19-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "___ they finish the work?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Did",
+        "Have"
+      ],
+      "correctAnswer": "Did",
+      "feedback": "Correct! Past question (implied context usually) or Present 'Do'. But here if it's about completion, 'Did' is common. Wait, 'Do they finish' implies habit. 'Did they finish' implies past event. Let's assume past event context or check options. If 'Do' is option, it could be habit. But 'finish the work' sounds like specific event. Let's stick to 'Did' as most likely intended for past completion, or 'Do' for habit. Actually, let's look at options. 'Do', 'Did', 'Have'. 'Have' needs 'finished'. So it's 'Do' or 'Did'. 'Did' is safer for 'finish'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Ont-ils fini...",
+        "englishStructure": "Did they finish...",
+        "whyDifficult": "Past simple question requires 'Did'.",
+        "visualHighlighting": {
+          "incorrect": "Finished they?",
+          "correct": "Did they finish?"
+        }
+      }
+    },
+    {
+      "id": "aux-e20-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "easy",
+      "questionText": "He ___ not thirsty.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "is",
+        "have"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Thirsty' is an adjective. Use 'is not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'a pas soif...",
+        "englishStructure": "He is not thirsty...",
+        "whyDifficult": "French uses 'have' (avoir soif), English uses 'be' (be thirsty).",
+        "visualHighlighting": {
+          "incorrect": "He has not thirsty",
+          "correct": "He is not thirsty"
+        }
+      }
+    },
+    {
+      "id": "aux-m01-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Where ___ you go last week?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "were"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Wh-question in past simple requires 'did'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Wh-Question)",
+      "frenchComparison": {
+        "frenchStructure": "Où es-tu allé...",
+        "englishStructure": "Where did you go...",
+        "whyDifficult": "Wh-question in past simple requires 'did'.",
+        "visualHighlighting": {
+          "incorrect": "Where you went?",
+          "correct": "Where did you go?"
+        }
+      }
+    },
+    {
+      "id": "aux-m02-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Why ___ he crying?",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "do"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (crying) needs 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Pourquoi pleure-t-il...",
+        "englishStructure": "Why is he crying...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "Why he crying?",
+          "correct": "Why is he crying?"
+        }
+      }
+    },
+    {
+      "id": "aux-m03-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "What ___ they do for fun?",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'What DO they do?'. First 'do' is auxiliary, second is main verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do (Wh-Question)",
+      "frenchComparison": {
+        "frenchStructure": "Que font-ils...",
+        "englishStructure": "What do they do...",
+        "whyDifficult": "Using 'do' as both auxiliary and main verb.",
+        "visualHighlighting": {
+          "incorrect": "What they do?",
+          "correct": "What do they do?"
+        }
+      }
+    },
+    {
+      "id": "aux-m04-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "I ___ not have a bike.",
+      "type": "multiple_choice",
+      "options": [
+        "have",
+        "do",
+        "am"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! When 'have' means possession, we use 'do not' for negative.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas de vélo...",
+        "englishStructure": "I do not have a bike...",
+        "whyDifficult": "French negates 'have' directly. English uses 'do not have'.",
+        "visualHighlighting": {
+          "incorrect": "I have not a bike",
+          "correct": "I do not have a bike"
+        }
+      }
+    },
+    {
+      "id": "aux-m05-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ you have a book?",
+      "type": "multiple_choice",
+      "options": [
+        "Have",
+        "Do",
+        "Are"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! When 'have' means possession, we use 'Do' for questions.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu un livre...",
+        "englishStructure": "Do you have a book...",
+        "whyDifficult": "French inverts 'have'. English uses 'Do... have'.",
+        "visualHighlighting": {
+          "incorrect": "Have you a book?",
+          "correct": "Do you have a book?"
+        }
+      }
+    },
+    {
+      "id": "aux-m06-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "He ___ not sleeping now.",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "is",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (sleeping) needs 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il ne dort pas...",
+        "englishStructure": "He is not sleeping...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "He does not sleeping",
+          "correct": "He is not sleeping"
+        }
+      }
+    },
+    {
+      "id": "aux-m07-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ you ever been to Douala?",
+      "type": "multiple_choice",
+      "options": [
+        "Did",
+        "Have",
+        "Were"
+      ],
+      "correctAnswer": "Have",
+      "feedback": "Correct! Present Perfect (been) needs 'Have'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Es-tu déjà allé...",
+        "englishStructure": "Have you ever been...",
+        "whyDifficult": "Present perfect uses 'have', not 'be' or 'did'.",
+        "visualHighlighting": {
+          "incorrect": "Did you ever go?",
+          "correct": "Have you ever been?"
+        }
+      }
+    },
+    {
+      "id": "aux-m08-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "We ___ not see the movie last night.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "have",
+        "were"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Past Simple negative needs 'did'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Did (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'avons pas vu...",
+        "englishStructure": "We did not see...",
+        "whyDifficult": "Past negative uses 'did not' + base verb.",
+        "visualHighlighting": {
+          "incorrect": "We saw not",
+          "correct": "We did not see"
+        }
+      }
+    },
+    {
+      "id": "aux-m09-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Who ___ she talking to?",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "is",
+        "have"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Continuous (talking) needs 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "À qui parle-t-elle...",
+        "englishStructure": "Who is she talking to...",
+        "whyDifficult": "Continuous aspect requires 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Who she talking?",
+          "correct": "Who is she talking to?"
+        }
+      }
+    },
+    {
+      "id": "aux-m10-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "She ___ not like coffee.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! Present Simple negative needs 'does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Negative)",
+      "frenchComparison": {
+        "frenchStructure": "Elle n'aime pas...",
+        "englishStructure": "She does not like...",
+        "whyDifficult": "Verbs require 'does' for negation in 3rd person.",
+        "visualHighlighting": {
+          "incorrect": "She likes not",
+          "correct": "She does not like"
+        }
+      }
+    },
+    {
+      "id": "aux-m11-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ he play guitar well?",
+      "type": "multiple_choice",
+      "options": [
+        "Is",
+        "Does",
+        "Has"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! Present Simple question needs 'Does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Joue-t-il...",
+        "englishStructure": "Does he play...",
+        "whyDifficult": "3rd person question requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Plays he?",
+          "correct": "Does he play?"
+        }
+      }
+    },
+    {
+      "id": "aux-m12-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "They ___ not have money.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "have",
+        "are"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! 'Have' (possession) needs 'do not'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Ils n'ont pas d'argent...",
+        "englishStructure": "They do not have money...",
+        "whyDifficult": "Negating possession 'have' requires 'do not'.",
+        "visualHighlighting": {
+          "incorrect": "They have not money",
+          "correct": "They do not have money"
+        }
+      }
+    },
+    {
+      "id": "aux-m13-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ your mother have a car?",
+      "type": "multiple_choice",
+      "options": [
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correctAnswer": "Does",
+      "feedback": "Correct! 'Have' (possession) question needs 'Does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Ta mère a-t-elle...",
+        "englishStructure": "Does your mother have...",
+        "whyDifficult": "Question with possession 'have' requires 'Does'.",
+        "visualHighlighting": {
+          "incorrect": "Has your mother?",
+          "correct": "Does your mother have?"
+        }
+      }
+    },
+    {
+      "id": "aux-m14-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "We ___ never seen snow.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "have",
+        "am"
+      ],
+      "correctAnswer": "have",
+      "feedback": "Correct! Present Perfect (seen) needs 'have'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'avons jamais vu...",
+        "englishStructure": "We have never seen...",
+        "whyDifficult": "Present perfect auxiliary 'have'.",
+        "visualHighlighting": {
+          "incorrect": "We did never see",
+          "correct": "We have never seen"
+        }
+      }
+    },
+    {
+      "id": "aux-m15-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ she a nurse?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Is",
+        "Have"
+      ],
+      "correctAnswer": "Is",
+      "feedback": "Correct! Noun subject (nurse) needs 'Is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Est-elle infirmière...",
+        "englishStructure": "Is she a nurse...",
+        "whyDifficult": "Noun complement uses 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Does she a nurse?",
+          "correct": "Is she a nurse?"
+        }
+      }
+    },
+    {
+      "id": "aux-m16-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "It ___ snowing today.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Present Continuous (snowing) needs 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Continuous)",
+      "frenchComparison": {
+        "frenchStructure": "Il neige...",
+        "englishStructure": "It is snowing...",
+        "whyDifficult": "Continuous aspect requires 'be' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "It snows today",
+          "correct": "It is snowing today"
+        }
+      }
+    },
+    {
+      "id": "aux-m17-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Where ___ she work?",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! Present Simple question needs 'does'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Où travaille-t-elle...",
+        "englishStructure": "Where does she work...",
+        "whyDifficult": "Wh-question requires 'does' for 3rd person.",
+        "visualHighlighting": {
+          "incorrect": "Where she works?",
+          "correct": "Where does she work?"
+        }
+      }
+    },
+    {
+      "id": "aux-m18-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "He ___ not arrived yet.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "is",
+        "has"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect (arrived) needs 'has'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'est pas encore arrivé...",
+        "englishStructure": "He has not arrived...",
+        "whyDifficult": "Present perfect auxiliary 'has'.",
+        "visualHighlighting": {
+          "incorrect": "He is not arrived",
+          "correct": "He has not arrived"
+        }
+      }
+    },
+    {
+      "id": "aux-m19-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "___ they agree with us?",
+      "type": "multiple_choice",
+      "options": [
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "correctAnswer": "Do",
+      "feedback": "Correct! 'Agree' is a verb. Use 'Do'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Do/Does (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Sont-ils d'accord...",
+        "englishStructure": "Do they agree...",
+        "whyDifficult": "French uses 'be' (être d'accord), English uses 'do' + verb (agree).",
+        "visualHighlighting": {
+          "incorrect": "Are they agree?",
+          "correct": "Do they agree?"
+        }
+      }
+    },
+    {
+      "id": "aux-m20-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "medium",
+      "questionText": "Why ___ he angry?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "is",
+        "do"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Angry' is an adjective. Use 'is'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "To Be (Question)",
+      "frenchComparison": {
+        "frenchStructure": "Pourquoi est-il en colère...",
+        "englishStructure": "Why is he angry...",
+        "whyDifficult": "Adjectives use 'be'.",
+        "visualHighlighting": {
+          "incorrect": "Why do he angry?",
+          "correct": "Why is he angry?"
+        }
+      }
+    },
+    {
+      "id": "aux-h01-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "She ___ broken her leg, so she can't walk.",
+      "type": "multiple_choice",
+      "options": [
+        "has",
+        "is",
+        "did"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! Present Perfect (has broken) shows a past action with a present result.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Have (Present Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Elle s'est cassé la jambe...",
+        "englishStructure": "She has broken her leg...",
+        "whyDifficult": "French uses reflexive 'se casser' with 'être'. English uses 'have'.",
+        "visualHighlighting": {
+          "incorrect": "She is broken",
+          "correct": "She has broken"
+        }
+      }
+    },
+    {
+      "id": "aux-h02-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "By tomorrow, he ___ have arrived.",
+      "type": "multiple_choice",
+      "options": [
+        "will",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "will",
+      "feedback": "Correct! Future Perfect requires 'will have'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Will (Future Perfect)",
+      "frenchComparison": {
+        "frenchStructure": "Il sera arrivé...",
+        "englishStructure": "He will have arrived...",
+        "whyDifficult": "Future perfect requires 'will have' + past participle.",
+        "visualHighlighting": {
+          "incorrect": "He have arrived",
+          "correct": "He will have arrived"
+        }
+      }
+    },
+    {
+      "id": "aux-h03-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Not only ___ she smart, but she is also funny.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "does",
+        "has"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Inversion after 'Not only'. 'Is she smart'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Non seulement elle est intelligente...",
+        "englishStructure": "Not only is she smart...",
+        "whyDifficult": "Inversion (auxiliary before subject) required after negative adverbials.",
+        "visualHighlighting": {
+          "incorrect": "Not only she is",
+          "correct": "Not only is she"
+        }
+      }
+    },
+    {
+      "id": "aux-h04-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ he to ask, I would say yes.",
+      "type": "multiple_choice",
+      "options": [
+        "Were",
+        "Did",
+        "Was"
+      ],
+      "correctAnswer": "Were",
+      "feedback": "Correct! Inverted conditional (Were he to ask = If he asked).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "S'il demandait...",
+        "englishStructure": "Were he to ask...",
+        "whyDifficult": "Formal conditional inversion replaces 'if'.",
+        "visualHighlighting": {
+          "incorrect": "If he was to ask",
+          "correct": "Were he to ask"
+        }
+      }
+    },
+    {
+      "id": "aux-h05-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "They like pizza, ___ they?",
+      "type": "multiple_choice",
+      "options": [
+        "don't",
+        "aren't",
+        "haven't"
+      ],
+      "correctAnswer": "don't",
+      "feedback": "Correct! Question tag for Present Simple uses 'do/don't'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Ils aiment la pizza, n'est-ce pas ?",
+        "englishStructure": "They like pizza, don't they?",
+        "whyDifficult": "Tag questions must match the auxiliary of the main clause.",
+        "visualHighlighting": {
+          "incorrect": "isn't it?",
+          "correct": "don't they?"
+        }
+      }
+    },
+    {
+      "id": "aux-h06-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"He hasn't any money.\"",
+      "type": "error_correction",
+      "options": [
+        "hasn't",
+        "any money",
+        "He",
+        "No error"
+      ],
+      "correctAnswer": "hasn't",
+      "feedback": "Correct! 'Have' as possession needs 'doesn't have'. 'Hasn't' is usually for Present Perfect.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "doesn't have",
+      "subTopic": "Have (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'a pas d'argent...",
+        "englishStructure": "He doesn't have any money...",
+        "whyDifficult": "Possessive 'have' requires 'do/does' support in American English.",
+        "visualHighlighting": {
+          "incorrect": "He hasn't any money",
+          "correct": "He doesn't have any money"
+        }
+      }
+    },
+    {
+      "id": "aux-h07-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Hardly ___ I arrived when the phone rang.",
+      "type": "multiple_choice",
+      "options": [
+        "had",
+        "did",
+        "have"
+      ],
+      "correctAnswer": "had",
+      "feedback": "Correct! 'Hardly' takes Past Perfect inversion (had I arrived).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "À peine étais-je arrivé...",
+        "englishStructure": "Hardly had I arrived...",
+        "whyDifficult": "Inversion required after 'Hardly'.",
+        "visualHighlighting": {
+          "incorrect": "Hardly I had arrived",
+          "correct": "Hardly had I arrived"
+        }
+      }
+    },
+    {
+      "id": "aux-h08-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "She ___ do the dishes yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "done"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Here 'did' is the MAIN verb in the past simple. (She did it).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Do (Main Verb)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a fait la vaisselle...",
+        "englishStructure": "She did the dishes...",
+        "whyDifficult": "'Did' is the past tense of main verb 'do'.",
+        "visualHighlighting": {
+          "incorrect": "She done the dishes",
+          "correct": "She did the dishes"
+        }
+      }
+    },
+    {
+      "id": "aux-h09-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "He didn't go, ___ he?",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "didn't",
+        "have"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Negative statement -> Positive tag.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Il n'y est pas allé, si ?",
+        "englishStructure": "He didn't go, did he?",
+        "whyDifficult": "Negative statement requires positive tag.",
+        "visualHighlighting": {
+          "incorrect": "didn't he?",
+          "correct": "did he?"
+        }
+      }
+    },
+    {
+      "id": "aux-h10-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ you need help, call me.",
+      "type": "multiple_choice",
+      "options": [
+        "Should",
+        "Did",
+        "Does"
+      ],
+      "correctAnswer": "Should",
+      "feedback": "Correct! Inverted conditional (Should you need = If you should need / If you need).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "Si tu as besoin d'aide...",
+        "englishStructure": "Should you need help...",
+        "whyDifficult": "'Should' inversion replaces 'If'.",
+        "visualHighlighting": {
+          "incorrect": "If you need (standard)",
+          "correct": "Should you need (formal)"
+        }
+      }
+    },
+    {
+      "id": "aux-h11-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "I'm late, ___ I?",
+      "type": "multiple_choice",
+      "options": [
+        "aren't",
+        "amn't",
+        "am"
+      ],
+      "correctAnswer": "aren't",
+      "feedback": "Correct! The tag for 'I am' is 'aren't I'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags (Exception)",
+      "frenchComparison": {
+        "frenchStructure": "Je suis en retard, n'est-ce pas ?",
+        "englishStructure": "I'm late, aren't I?",
+        "whyDifficult": "Irregular tag 'aren't I' for 'I am'.",
+        "visualHighlighting": {
+          "incorrect": "amn't I?",
+          "correct": "aren't I?"
+        }
+      }
+    },
+    {
+      "id": "aux-h12-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "They ___ have seen us.",
+      "type": "multiple_choice",
+      "options": [
+        "must",
+        "did",
+        "has"
+      ],
+      "correctAnswer": "must",
+      "feedback": "Correct! Modal of deduction about the past (must have seen).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Modals",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont dû nous voir...",
+        "englishStructure": "They must have seen us...",
+        "whyDifficult": "Modal perfect 'must have' + participle.",
+        "visualHighlighting": {
+          "incorrect": "They must see (past)",
+          "correct": "They must have seen"
+        }
+      }
+    },
+    {
+      "id": "aux-h13-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Does he has a dog?\"",
+      "type": "error_correction",
+      "options": [
+        "Does",
+        "has",
+        "a dog",
+        "No error"
+      ],
+      "correctAnswer": "has",
+      "feedback": "Correct! After 'Does', use the base verb 'have', not 'has'. Correct: 'Does he have...'",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "have",
+      "subTopic": "Do/Does (Base Verb)",
+      "frenchComparison": {
+        "frenchStructure": "A-t-il un chien...",
+        "englishStructure": "Does he have a dog...",
+        "whyDifficult": "Auxiliary 'Does' takes the 's', main verb stays base form.",
+        "visualHighlighting": {
+          "incorrect": "Does he has",
+          "correct": "Does he have"
+        }
+      }
+    },
+    {
+      "id": "aux-h14-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "___ I to win the lottery, I would travel.",
+      "type": "multiple_choice",
+      "options": [
+        "Were",
+        "Did",
+        "Had"
+      ],
+      "correctAnswer": "Were",
+      "feedback": "Correct! 'Were I to win' (If I won).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inverted Conditional",
+      "frenchComparison": {
+        "frenchStructure": "Si je gagnais...",
+        "englishStructure": "Were I to win...",
+        "whyDifficult": "Formal inversion 'Were I to'.",
+        "visualHighlighting": {
+          "incorrect": "If I was to win",
+          "correct": "Were I to win"
+        }
+      }
+    },
+    {
+      "id": "aux-h15-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "He never smokes, ___ he?",
+      "type": "multiple_choice",
+      "options": [
+        "does",
+        "doesn't",
+        "is"
+      ],
+      "correctAnswer": "does",
+      "feedback": "Correct! 'Never' makes the sentence negative, so the tag is positive.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Question Tags",
+      "frenchComparison": {
+        "frenchStructure": "Il ne fume jamais, n'est-ce pas ?",
+        "englishStructure": "He never smokes, does he?",
+        "whyDifficult": "'Never' makes the sentence negative, requiring a positive tag.",
+        "visualHighlighting": {
+          "incorrect": "doesn't he?",
+          "correct": "does he?"
+        }
+      }
+    },
+    {
+      "id": "aux-h16-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Little ___ she expect the news.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "does",
+        "had"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! Inversion after 'Little'. 'Did she expect'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Inversion",
+      "frenchComparison": {
+        "frenchStructure": "Elle ne s'attendait pas du tout...",
+        "englishStructure": "Little did she expect...",
+        "whyDifficult": "Inversion required after negative adverb 'Little'.",
+        "visualHighlighting": {
+          "incorrect": "Little she expected",
+          "correct": "Little did she expect"
+        }
+      }
+    },
+    {
+      "id": "aux-h17-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "I'd rather he ___ stay.",
+      "type": "multiple_choice",
+      "options": [
+        "did",
+        "do",
+        "have"
+      ],
+      "correctAnswer": "did",
+      "feedback": "Correct! 'I'd rather' + person + past tense (did stay/stayed).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subjunctive / Unreal Past",
+      "frenchComparison": {
+        "frenchStructure": "Je préférerais qu'il reste...",
+        "englishStructure": "I'd rather he did stay / stayed...",
+        "whyDifficult": "'I'd rather' triggers past tense for present/future meaning.",
+        "visualHighlighting": {
+          "incorrect": "I'd rather he stays",
+          "correct": "I'd rather he did stay"
+        }
+      }
+    },
+    {
+      "id": "aux-h18-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "It is vital that she ___ informed.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "be",
+      "feedback": "Correct! Subjunctive 'be' after 'vital that'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subjunctive",
+      "frenchComparison": {
+        "frenchStructure": "Il est vital qu'elle soit...",
+        "englishStructure": "It is vital that she be...",
+        "whyDifficult": "Subjunctive form 'be' (base form) used here.",
+        "visualHighlighting": {
+          "incorrect": "that she is",
+          "correct": "that she be"
+        }
+      }
+    },
+    {
+      "id": "aux-h19-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Had they arrived earlier, they ___ seen it.",
+      "type": "multiple_choice",
+      "options": [
+        "would have",
+        "will have",
+        "did have"
+      ],
+      "correctAnswer": "would have",
+      "feedback": "Correct! Third conditional (Had they... they would have).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Conditionals",
+      "frenchComparison": {
+        "frenchStructure": "S'ils étaient arrivés plus tôt...",
+        "englishStructure": "Had they arrived earlier, they would have...",
+        "whyDifficult": "Inverted third conditional.",
+        "visualHighlighting": {
+          "incorrect": "they will have",
+          "correct": "they would have"
+        }
+      }
+    },
+    {
+      "id": "aux-h20-B",
+      "moduleId": "auxiliaries",
+      "difficulty": "hard",
+      "questionText": "Neither ___ I.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "am",
+        "have"
+      ],
+      "correctAnswer": "do",
+      "feedback": "Correct! Agreement with negative statement 'I don't like...' -> 'Neither do I'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "So/Neither",
+      "frenchComparison": {
+        "frenchStructure": "Moi non plus...",
+        "englishStructure": "Neither do I...",
+        "whyDifficult": "Negative agreement uses 'Neither' + auxiliary + subject.",
+        "visualHighlighting": {
+          "incorrect": "Me neither (informal)",
+          "correct": "Neither do I"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1622 @@
+[
+    {
+        "id": "pv-e21-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The car ___ washed every week.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "be"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! Present Simple Passive: am/is/are + Past Participle.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La voiture est lavée",
+            "englishStructure": "The car is washed",
+            "whyDifficult": "Same structure.",
+            "visualHighlighting": {
+                "incorrect": "The car be",
+                "correct": "The car is"
+            }
+        }
+    },
+    {
+        "id": "pv-e22-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The letter ___ written by John.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "is"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive: was/were + Past Participle.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La lettre a été écrite",
+            "englishStructure": "The letter was written",
+            "whyDifficult": "French uses Passé Composé often where English uses Past Simple.",
+            "visualHighlighting": {
+                "incorrect": "The letter is",
+                "correct": "The letter was"
+            }
+        }
+    },
+    {
+        "id": "pv-e23-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "English ___ spoken here.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "has"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! Present Simple Passive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "L'anglais est parlé",
+            "englishStructure": "English is spoken",
+            "whyDifficult": "Same structure.",
+            "visualHighlighting": {
+                "incorrect": "English has",
+                "correct": "English is"
+            }
+        }
+    },
+    {
+        "id": "pv-e24-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The house ___ built in 1990.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "was",
+            "has"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive (specific time).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La maison a été construite",
+            "englishStructure": "The house was built",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "The house is",
+                "correct": "The house was"
+            }
+        }
+    },
+    {
+        "id": "pv-e25-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The cake ___ eaten by the dog.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "did"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le gâteau a été mangé",
+            "englishStructure": "The cake was eaten",
+            "whyDifficult": "Auxiliary choice.",
+            "visualHighlighting": {
+                "incorrect": "The cake did",
+                "correct": "The cake was"
+            }
+        }
+    },
+    {
+        "id": "pv-e26-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "Emails ___ sent every day.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "be"
+        ],
+        "correctAnswer": "are",
+        "feedback": "Correct! Plural subject -> are.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive (Plural)",
+        "frenchComparison": {
+            "frenchStructure": "Les emails sont envoyés",
+            "englishStructure": "Emails are sent",
+            "whyDifficult": "Agreement.",
+            "visualHighlighting": {
+                "incorrect": "Emails is",
+                "correct": "Emails are"
+            }
+        }
+    },
+    {
+        "id": "pv-e27-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The keys ___ found yesterday.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "are"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! Past Simple Passive (Plural).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive (Plural)",
+        "frenchComparison": {
+            "frenchStructure": "Les clés ont été trouvées",
+            "englishStructure": "The keys were found",
+            "whyDifficult": "Agreement.",
+            "visualHighlighting": {
+                "incorrect": "The keys was",
+                "correct": "The keys were"
+            }
+        }
+    },
+    {
+        "id": "pv-e28-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "This book ___ written by Shakespeare.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "was",
+            "has"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past action.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Ce livre a été écrit",
+            "englishStructure": "This book was written",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "This book is",
+                "correct": "This book was"
+            }
+        }
+    },
+    {
+        "id": "pv-e29-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "Football ___ played all over the world.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "was"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! General truth -> Present Simple Passive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le football est joué",
+            "englishStructure": "Football is played",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "Football are",
+                "correct": "Football is"
+            }
+        }
+    },
+    {
+        "id": "pv-e30-A",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The window ___ broken.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "was",
+            "has"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past event.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La fenêtre a été cassée",
+            "englishStructure": "The window was broken",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "The window is",
+                "correct": "The window was"
+            }
+        }
+    },
+    {
+        "id": "pv-e21-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "Dinner ___ served at 8pm.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "be"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! Present Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le dîner est servi",
+            "englishStructure": "Dinner is served",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "Dinner are",
+                "correct": "Dinner is"
+            }
+        }
+    },
+    {
+        "id": "pv-e22-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The thief ___ caught.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "is"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le voleur a été attrapé",
+            "englishStructure": "The thief was caught",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "The thief is",
+                "correct": "The thief was"
+            }
+        }
+    },
+    {
+        "id": "pv-e23-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "These cars ___ made in Japan.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "was"
+        ],
+        "correctAnswer": "are",
+        "feedback": "Correct! Present Simple Passive (Plural).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive (Plural)",
+        "frenchComparison": {
+            "frenchStructure": "Ces voitures sont fabriquées",
+            "englishStructure": "These cars are made",
+            "whyDifficult": "Agreement.",
+            "visualHighlighting": {
+                "incorrect": "These cars is",
+                "correct": "These cars are"
+            }
+        }
+    },
+    {
+        "id": "pv-e24-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The song ___ sung by her.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "is"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La chanson a été chantée",
+            "englishStructure": "The song was sung",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "The song is",
+                "correct": "The song was"
+            }
+        }
+    },
+    {
+        "id": "pv-e25-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The room ___ cleaned yesterday.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "is",
+            "were"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "La chambre a été nettoyée",
+            "englishStructure": "The room was cleaned",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "The room is",
+                "correct": "The room was"
+            }
+        }
+    },
+    {
+        "id": "pv-e26-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "Many photos ___ taken.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "are"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! Past Simple Passive (Plural).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive (Plural)",
+        "frenchComparison": {
+            "frenchStructure": "Beaucoup de photos ont été prises",
+            "englishStructure": "Many photos were taken",
+            "whyDifficult": "Agreement.",
+            "visualHighlighting": {
+                "incorrect": "Many photos was",
+                "correct": "Many photos were"
+            }
+        }
+    },
+    {
+        "id": "pv-e27-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The work ___ finished.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "were"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! Present Simple Passive (State).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le travail est fini",
+            "englishStructure": "The work is finished",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "The work are",
+                "correct": "The work is"
+            }
+        }
+    },
+    {
+        "id": "pv-e28-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "I ___ invited to the party.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "am"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "J'ai été invité",
+            "englishStructure": "I was invited",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "I am invited",
+                "correct": "I was invited"
+            }
+        }
+    },
+    {
+        "id": "pv-e29-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The shops ___ closed.",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "are",
+            "was"
+        ],
+        "correctAnswer": "are",
+        "feedback": "Correct! Present Simple Passive (Plural).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Simple Passive (Plural)",
+        "frenchComparison": {
+            "frenchStructure": "Les magasins sont fermés",
+            "englishStructure": "The shops are closed",
+            "whyDifficult": "Agreement.",
+            "visualHighlighting": {
+                "incorrect": "The shops is",
+                "correct": "The shops are"
+            }
+        }
+    },
+    {
+        "id": "pv-e30-B",
+        "moduleId": "passive-voice",
+        "difficulty": "easy",
+        "questionText": "The phone ___ answered.",
+        "type": "multiple_choice",
+        "options": [
+            "wasn't",
+            "weren't",
+            "isn't"
+        ],
+        "correctAnswer": "wasn't",
+        "feedback": "Correct! Past Simple Passive (Negative).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive (Negative)",
+        "frenchComparison": {
+            "frenchStructure": "Le téléphone n'a pas été répondu",
+            "englishStructure": "The phone wasn't answered",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "The phone isn't",
+                "correct": "The phone wasn't"
+            }
+        }
+    },
+    {
+        "id": "pv-m21-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The car ___ repaired right now.",
+        "type": "multiple_choice",
+        "options": [
+            "is being",
+            "is",
+            "was"
+        ],
+        "correctAnswer": "is being",
+        "feedback": "Correct! Present Continuous Passive: is/are + being + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Continuous Passive",
+        "frenchComparison": {
+            "frenchStructure": "La voiture est en train d'être réparée",
+            "englishStructure": "The car is being repaired",
+            "whyDifficult": "Continuous passive structure.",
+            "visualHighlighting": {
+                "incorrect": "is repaired",
+                "correct": "is being repaired"
+            }
+        }
+    },
+    {
+        "id": "pv-m22-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The work ___ done by tomorrow.",
+        "type": "multiple_choice",
+        "options": [
+            "will be",
+            "will",
+            "is"
+        ],
+        "correctAnswer": "will be",
+        "feedback": "Correct! Future Passive: will be + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Future Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le travail sera fait",
+            "englishStructure": "The work will be done",
+            "whyDifficult": "Future structure.",
+            "visualHighlighting": {
+                "incorrect": "will done",
+                "correct": "will be done"
+            }
+        }
+    },
+    {
+        "id": "pv-m23-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The room ___ cleaned yet.",
+        "type": "multiple_choice",
+        "options": [
+            "hasn't been",
+            "wasn't",
+            "isn't"
+        ],
+        "correctAnswer": "hasn't been",
+        "feedback": "Correct! Present Perfect Passive: has/have + been + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "La chambre n'a pas encore été nettoyée",
+            "englishStructure": "The room hasn't been cleaned yet",
+            "whyDifficult": "Present Perfect Passive structure.",
+            "visualHighlighting": {
+                "incorrect": "wasn't cleaned",
+                "correct": "hasn't been cleaned"
+            }
+        }
+    },
+    {
+        "id": "pv-m24-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "This problem ___ solved.",
+        "type": "multiple_choice",
+        "options": [
+            "can be",
+            "can",
+            "is"
+        ],
+        "correctAnswer": "can be",
+        "feedback": "Correct! Modal Passive: can + be + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Passive (Can)",
+        "frenchComparison": {
+            "frenchStructure": "Ce problème peut être résolu",
+            "englishStructure": "This problem can be solved",
+            "whyDifficult": "Modal structure.",
+            "visualHighlighting": {
+                "incorrect": "can solved",
+                "correct": "can be solved"
+            }
+        }
+    },
+    {
+        "id": "pv-m25-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "I ___ told the news.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "did"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! 'I was told' = Someone told me.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive (Indirect Object)",
+        "frenchComparison": {
+            "frenchStructure": "On m'a dit",
+            "englishStructure": "I was told",
+            "whyDifficult": "French uses active 'On'. English uses passive.",
+            "visualHighlighting": {
+                "incorrect": "I told",
+                "correct": "I was told"
+            }
+        }
+    },
+    {
+        "id": "pv-m26-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The house ___ painted when we arrived.",
+        "type": "multiple_choice",
+        "options": [
+            "was being",
+            "was",
+            "is being"
+        ],
+        "correctAnswer": "was being",
+        "feedback": "Correct! Past Continuous Passive: was/were + being + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Continuous Passive",
+        "frenchComparison": {
+            "frenchStructure": "La maison était en train d'être peinte",
+            "englishStructure": "The house was being painted",
+            "whyDifficult": "Complex structure.",
+            "visualHighlighting": {
+                "incorrect": "was painted",
+                "correct": "was being painted"
+            }
+        }
+    },
+    {
+        "id": "pv-m27-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The tickets ___ sold out.",
+        "type": "multiple_choice",
+        "options": [
+            "have been",
+            "were",
+            "are"
+        ],
+        "correctAnswer": "have been",
+        "feedback": "Correct! Present Perfect Passive (Result).",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "Les billets ont été vendus",
+            "englishStructure": "The tickets have been sold out",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "were sold",
+                "correct": "have been sold"
+            }
+        }
+    },
+    {
+        "id": "pv-m28-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "It ___ said that...",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "has",
+            "does"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! 'It is said that' = People say that.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Impersonal Passive",
+        "frenchComparison": {
+            "frenchStructure": "On dit que...",
+            "englishStructure": "It is said that...",
+            "whyDifficult": "French uses 'On'.",
+            "visualHighlighting": {
+                "incorrect": "It says",
+                "correct": "It is said"
+            }
+        }
+    },
+    {
+        "id": "pv-m29-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The letter must ___ sent.",
+        "type": "multiple_choice",
+        "options": [
+            "be",
+            "been",
+            "is"
+        ],
+        "correctAnswer": "be",
+        "feedback": "Correct! Modal Passive: must + be + PP.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Passive (Must)",
+        "frenchComparison": {
+            "frenchStructure": "La lettre doit être envoyée",
+            "englishStructure": "The letter must be sent",
+            "whyDifficult": "Modal structure.",
+            "visualHighlighting": {
+                "incorrect": "must sent",
+                "correct": "must be sent"
+            }
+        }
+    },
+    {
+        "id": "pv-m30-A",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "We ___ asked to leave.",
+        "type": "multiple_choice",
+        "options": [
+            "were",
+            "was",
+            "did"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "A",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "On nous a demandé de partir",
+            "englishStructure": "We were asked to leave",
+            "whyDifficult": "French uses active 'On'.",
+            "visualHighlighting": {
+                "incorrect": "We asked",
+                "correct": "We were asked"
+            }
+        }
+    },
+    {
+        "id": "pv-m21-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "A new school ___ built.",
+        "type": "multiple_choice",
+        "options": [
+            "is being",
+            "is",
+            "was"
+        ],
+        "correctAnswer": "is being",
+        "feedback": "Correct! Present Continuous Passive (Action in progress).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Continuous Passive",
+        "frenchComparison": {
+            "frenchStructure": "Une nouvelle école est en train d'être construite",
+            "englishStructure": "A new school is being built",
+            "whyDifficult": "Continuous passive.",
+            "visualHighlighting": {
+                "incorrect": "is built",
+                "correct": "is being built"
+            }
+        }
+    },
+    {
+        "id": "pv-m22-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The decision ___ made soon.",
+        "type": "multiple_choice",
+        "options": [
+            "will be",
+            "will",
+            "is"
+        ],
+        "correctAnswer": "will be",
+        "feedback": "Correct! Future Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Future Passive",
+        "frenchComparison": {
+            "frenchStructure": "La décision sera prise",
+            "englishStructure": "The decision will be made",
+            "whyDifficult": "Future structure.",
+            "visualHighlighting": {
+                "incorrect": "will make",
+                "correct": "will be made"
+            }
+        }
+    },
+    {
+        "id": "pv-m23-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "My bike ___ stolen.",
+        "type": "multiple_choice",
+        "options": [
+            "has been",
+            "was",
+            "is"
+        ],
+        "correctAnswer": "has been",
+        "feedback": "Correct! Present Perfect Passive (Recent past/Result).",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "Mon vélo a été volé",
+            "englishStructure": "My bike has been stolen",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "was stolen",
+                "correct": "has been stolen"
+            }
+        }
+    },
+    {
+        "id": "pv-m24-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "It ___ done.",
+        "type": "multiple_choice",
+        "options": [
+            "can be",
+            "can",
+            "is"
+        ],
+        "correctAnswer": "can be",
+        "feedback": "Correct! Modal Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Passive (Can)",
+        "frenchComparison": {
+            "frenchStructure": "Ça peut être fait",
+            "englishStructure": "It can be done",
+            "whyDifficult": "Modal structure.",
+            "visualHighlighting": {
+                "incorrect": "can do",
+                "correct": "can be done"
+            }
+        }
+    },
+    {
+        "id": "pv-m25-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "She ___ given a gift.",
+        "type": "multiple_choice",
+        "options": [
+            "was",
+            "were",
+            "has"
+        ],
+        "correctAnswer": "was",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive (Indirect Object)",
+        "frenchComparison": {
+            "frenchStructure": "On lui a donné un cadeau",
+            "englishStructure": "She was given a gift",
+            "whyDifficult": "French uses active 'On'.",
+            "visualHighlighting": {
+                "incorrect": "She gave",
+                "correct": "She was given"
+            }
+        }
+    },
+    {
+        "id": "pv-m26-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The road ___ repaired when I passed.",
+        "type": "multiple_choice",
+        "options": [
+            "was being",
+            "was",
+            "is being"
+        ],
+        "correctAnswer": "was being",
+        "feedback": "Correct! Past Continuous Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Continuous Passive",
+        "frenchComparison": {
+            "frenchStructure": "La route était en train d'être réparée",
+            "englishStructure": "The road was being repaired",
+            "whyDifficult": "Complex structure.",
+            "visualHighlighting": {
+                "incorrect": "was repaired",
+                "correct": "was being repaired"
+            }
+        }
+    },
+    {
+        "id": "pv-m27-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "The files ___ deleted.",
+        "type": "multiple_choice",
+        "options": [
+            "have been",
+            "were",
+            "are"
+        ],
+        "correctAnswer": "have been",
+        "feedback": "Correct! Present Perfect Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Present Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "Les fichiers ont été supprimés",
+            "englishStructure": "The files have been deleted",
+            "whyDifficult": "Tense usage.",
+            "visualHighlighting": {
+                "incorrect": "were deleted",
+                "correct": "have been deleted"
+            }
+        }
+    },
+    {
+        "id": "pv-m28-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "It ___ believed that...",
+        "type": "multiple_choice",
+        "options": [
+            "is",
+            "has",
+            "does"
+        ],
+        "correctAnswer": "is",
+        "feedback": "Correct! Impersonal Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Impersonal Passive",
+        "frenchComparison": {
+            "frenchStructure": "On croit que...",
+            "englishStructure": "It is believed that...",
+            "whyDifficult": "French uses 'On'.",
+            "visualHighlighting": {
+                "incorrect": "It believes",
+                "correct": "It is believed"
+            }
+        }
+    },
+    {
+        "id": "pv-m29-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "This ___ be true.",
+        "type": "multiple_choice",
+        "options": [
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correctAnswer": "can't",
+        "feedback": "Correct! Modal deduction (not passive, but structure check). Wait, this is active. Let's change to passive: 'This rule must be obeyed'.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Passive (Must)",
+        "frenchComparison": {
+            "frenchStructure": "Cette règle doit être respectée",
+            "englishStructure": "This rule must be obeyed",
+            "whyDifficult": "Modal structure.",
+            "visualHighlighting": {
+                "incorrect": "must obey",
+                "correct": "must be obeyed"
+            }
+        }
+    },
+    {
+        "id": "pv-m30-B",
+        "moduleId": "passive-voice",
+        "difficulty": "medium",
+        "questionText": "They ___ paid yesterday.",
+        "type": "multiple_choice",
+        "options": [
+            "were",
+            "was",
+            "did"
+        ],
+        "correctAnswer": "were",
+        "feedback": "Correct! Past Simple Passive.",
+        "formType": "B",
+        "transferType": "near",
+        "item_version": "1.0.0",
+        "subTopic": "Past Simple Passive",
+        "frenchComparison": {
+            "frenchStructure": "Ils ont été payés",
+            "englishStructure": "They were paid",
+            "whyDifficult": "Tense.",
+            "visualHighlighting": {
+                "incorrect": "They paid",
+                "correct": "They were paid"
+            }
+        }
+    },
+    {
+        "id": "pv-h21-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "He is said ___ rich.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "that he is"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! Personal Passive: Subject + Passive Verb + Infinitive.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Personal Passive Structure",
+        "frenchComparison": {
+            "frenchStructure": "On dit qu'il est riche",
+            "englishStructure": "He is said to be rich",
+            "whyDifficult": "French uses 'On dit que...'. English uses Infinitive structure.",
+            "visualHighlighting": {
+                "incorrect": "He is said that he is",
+                "correct": "He is said to be"
+            }
+        }
+    },
+    {
+        "id": "pv-h22-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "The car needs ___.",
+        "type": "multiple_choice",
+        "options": [
+            "washing",
+            "to wash",
+            "wash"
+        ],
+        "correctAnswer": "washing",
+        "feedback": "Correct! 'Need' + Gerund has a passive meaning.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Need + Gerund (Passive meaning)",
+        "frenchComparison": {
+            "frenchStructure": "La voiture a besoin d'être lavée",
+            "englishStructure": "The car needs washing",
+            "whyDifficult": "Gerund implies passive.",
+            "visualHighlighting": {
+                "incorrect": "needs to wash",
+                "correct": "needs washing"
+            }
+        }
+    },
+    {
+        "id": "pv-h23-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "I had my hair ___.",
+        "type": "multiple_choice",
+        "options": [
+            "cut",
+            "cutting",
+            "to cut"
+        ],
+        "correctAnswer": "cut",
+        "feedback": "Correct! Causative: Have + Object + Past Participle.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Causative (Have)",
+        "frenchComparison": {
+            "frenchStructure": "Je me suis fait couper les cheveux",
+            "englishStructure": "I had my hair cut",
+            "whyDifficult": "Causative structure.",
+            "visualHighlighting": {
+                "incorrect": "had my hair cutting",
+                "correct": "had my hair cut"
+            }
+        }
+    },
+    {
+        "id": "pv-h24-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "He got his car ___.",
+        "type": "multiple_choice",
+        "options": [
+            "repaired",
+            "repairing",
+            "repair"
+        ],
+        "correctAnswer": "repaired",
+        "feedback": "Correct! Causative: Get + Object + Past Participle.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Causative (Get)",
+        "frenchComparison": {
+            "frenchStructure": "Il a fait réparer sa voiture",
+            "englishStructure": "He got his car repaired",
+            "whyDifficult": "Causative structure.",
+            "visualHighlighting": {
+                "incorrect": "got his car repair",
+                "correct": "got his car repaired"
+            }
+        }
+    },
+    {
+        "id": "pv-h25-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "The project should ___ finished by now.",
+        "type": "multiple_choice",
+        "options": [
+            "have been",
+            "be",
+            "been"
+        ],
+        "correctAnswer": "have been",
+        "feedback": "Correct! Modal Perfect Passive: should + have + been + PP.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "Le projet devrait être fini",
+            "englishStructure": "The project should have been finished",
+            "whyDifficult": "Complex modal structure.",
+            "visualHighlighting": {
+                "incorrect": "should be finished",
+                "correct": "should have been finished"
+            }
+        }
+    },
+    {
+        "id": "pv-h26-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "He is believed ___ living in Paris.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "that he is"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! Personal Passive with Continuous Infinitive.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Personal Passive (Continuous)",
+        "frenchComparison": {
+            "frenchStructure": "On croit qu'il vit...",
+            "englishStructure": "He is believed to be living...",
+            "whyDifficult": "Complex infinitive structure.",
+            "visualHighlighting": {
+                "incorrect": "believed that he lives",
+                "correct": "believed to be living"
+            }
+        }
+    },
+    {
+        "id": "pv-h27-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "I don't like ___ told what to do.",
+        "type": "multiple_choice",
+        "options": [
+            "being",
+            "to be",
+            "be"
+        ],
+        "correctAnswer": "being",
+        "feedback": "Correct! Passive Gerund: being + PP.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je n'aime pas qu'on me dise...",
+            "englishStructure": "I don't like being told...",
+            "whyDifficult": "Passive gerund usage.",
+            "visualHighlighting": {
+                "incorrect": "like to be told",
+                "correct": "like being told"
+            }
+        }
+    },
+    {
+        "id": "pv-h28-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "The house seems ___ built recently.",
+        "type": "multiple_choice",
+        "options": [
+            "to have been",
+            "to be",
+            "being"
+        ],
+        "correctAnswer": "to have been",
+        "feedback": "Correct! Passive Perfect Infinitive: to have been + PP.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Perfect Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "La maison semble avoir été construite",
+            "englishStructure": "The house seems to have been built",
+            "whyDifficult": "Perfect infinitive.",
+            "visualHighlighting": {
+                "incorrect": "seems to be built",
+                "correct": "seems to have been built"
+            }
+        }
+    },
+    {
+        "id": "pv-h29-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "He hates ___ kept waiting.",
+        "type": "multiple_choice",
+        "options": [
+            "being",
+            "to be",
+            "be"
+        ],
+        "correctAnswer": "being",
+        "feedback": "Correct! Passive Gerund.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Il déteste qu'on le fasse attendre",
+            "englishStructure": "He hates being kept waiting",
+            "whyDifficult": "Passive gerund.",
+            "visualHighlighting": {
+                "incorrect": "hates to be kept",
+                "correct": "hates being kept"
+            }
+        }
+    },
+    {
+        "id": "pv-h30-A",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "The mystery remains ___ solved.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "been"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! 'Remain to be' + PP.",
+        "formType": "A",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Remain to be",
+        "frenchComparison": {
+            "frenchStructure": "Le mystère reste à résoudre",
+            "englishStructure": "The mystery remains to be solved",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "remains being solved",
+                "correct": "remains to be solved"
+            }
+        }
+    },
+    {
+        "id": "pv-h21-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "She is thought ___ the best.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "that she is"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! Personal Passive.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Personal Passive Structure",
+        "frenchComparison": {
+            "frenchStructure": "On pense qu'elle est la meilleure",
+            "englishStructure": "She is thought to be the best",
+            "whyDifficult": "Infinitive structure.",
+            "visualHighlighting": {
+                "incorrect": "thought that she is",
+                "correct": "thought to be"
+            }
+        }
+    },
+    {
+        "id": "pv-h22-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "The room wants ___.",
+        "type": "multiple_choice",
+        "options": [
+            "cleaning",
+            "to clean",
+            "clean"
+        ],
+        "correctAnswer": "cleaning",
+        "feedback": "Correct! 'Want' + Gerund (British English) = Needs cleaning.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Want + Gerund (Passive meaning)",
+        "frenchComparison": {
+            "frenchStructure": "La chambre a besoin d'être nettoyée",
+            "englishStructure": "The room wants cleaning",
+            "whyDifficult": "Gerund implies passive.",
+            "visualHighlighting": {
+                "incorrect": "wants to clean",
+                "correct": "wants cleaning"
+            }
+        }
+    },
+    {
+        "id": "pv-h23-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "I got my watch ___.",
+        "type": "multiple_choice",
+        "options": [
+            "repaired",
+            "repairing",
+            "repair"
+        ],
+        "correctAnswer": "repaired",
+        "feedback": "Correct! Causative: Get + Object + PP.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Causative (Get)",
+        "frenchComparison": {
+            "frenchStructure": "J'ai fait réparer ma montre",
+            "englishStructure": "I got my watch repaired",
+            "whyDifficult": "Causative.",
+            "visualHighlighting": {
+                "incorrect": "got my watch repair",
+                "correct": "got my watch repaired"
+            }
+        }
+    },
+    {
+        "id": "pv-h24-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "She had her photo ___.",
+        "type": "multiple_choice",
+        "options": [
+            "taken",
+            "taking",
+            "took"
+        ],
+        "correctAnswer": "taken",
+        "feedback": "Correct! Causative: Have + Object + PP.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Causative (Have)",
+        "frenchComparison": {
+            "frenchStructure": "Elle s'est fait prendre en photo",
+            "englishStructure": "She had her photo taken",
+            "whyDifficult": "Causative.",
+            "visualHighlighting": {
+                "incorrect": "had her photo taking",
+                "correct": "had her photo taken"
+            }
+        }
+    },
+    {
+        "id": "pv-h25-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "It might ___ been lost.",
+        "type": "multiple_choice",
+        "options": [
+            "have",
+            "has",
+            "had"
+        ],
+        "correctAnswer": "have",
+        "feedback": "Correct! Modal Perfect Passive: might + have + been + PP.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Modal Perfect Passive",
+        "frenchComparison": {
+            "frenchStructure": "Il se peut qu'il ait été perdu",
+            "englishStructure": "It might have been lost",
+            "whyDifficult": "Modal perfect structure.",
+            "visualHighlighting": {
+                "incorrect": "might has been",
+                "correct": "might have been"
+            }
+        }
+    },
+    {
+        "id": "pv-h26-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "They are known ___ hiding.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "that they are"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! Personal Passive with Continuous Infinitive.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Personal Passive (Continuous)",
+        "frenchComparison": {
+            "frenchStructure": "On sait qu'ils se cachent",
+            "englishStructure": "They are known to be hiding",
+            "whyDifficult": "Infinitive structure.",
+            "visualHighlighting": {
+                "incorrect": "known that they are",
+                "correct": "known to be"
+            }
+        }
+    },
+    {
+        "id": "pv-h27-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "I avoid ___ seen.",
+        "type": "multiple_choice",
+        "options": [
+            "being",
+            "to be",
+            "be"
+        ],
+        "correctAnswer": "being",
+        "feedback": "Correct! Passive Gerund.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Gerund",
+        "frenchComparison": {
+            "frenchStructure": "J'évite d'être vu",
+            "englishStructure": "I avoid being seen",
+            "whyDifficult": "Passive gerund.",
+            "visualHighlighting": {
+                "incorrect": "avoid to be seen",
+                "correct": "avoid being seen"
+            }
+        }
+    },
+    {
+        "id": "pv-h28-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "He claims ___ kidnapped.",
+        "type": "multiple_choice",
+        "options": [
+            "to have been",
+            "to be",
+            "being"
+        ],
+        "correctAnswer": "to have been",
+        "feedback": "Correct! Passive Perfect Infinitive (Past action).",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Perfect Infinitive",
+        "frenchComparison": {
+            "frenchStructure": "Il prétend avoir été kidnappé",
+            "englishStructure": "He claims to have been kidnapped",
+            "whyDifficult": "Perfect infinitive.",
+            "visualHighlighting": {
+                "incorrect": "claims to be kidnapped",
+                "correct": "claims to have been kidnapped"
+            }
+        }
+    },
+    {
+        "id": "pv-h29-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "I remember ___ given the book.",
+        "type": "multiple_choice",
+        "options": [
+            "being",
+            "to be",
+            "be"
+        ],
+        "correctAnswer": "being",
+        "feedback": "Correct! Passive Gerund (Memory).",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Passive Gerund",
+        "frenchComparison": {
+            "frenchStructure": "Je me souviens qu'on m'a donné",
+            "englishStructure": "I remember being given",
+            "whyDifficult": "Passive gerund.",
+            "visualHighlighting": {
+                "incorrect": "remember to be given",
+                "correct": "remember being given"
+            }
+        }
+    },
+    {
+        "id": "pv-h30-B",
+        "moduleId": "passive-voice",
+        "difficulty": "hard",
+        "questionText": "Nothing remains ___ done.",
+        "type": "multiple_choice",
+        "options": [
+            "to be",
+            "being",
+            "been"
+        ],
+        "correctAnswer": "to be",
+        "feedback": "Correct! 'Remain to be' + PP.",
+        "formType": "B",
+        "transferType": "far",
+        "item_version": "1.0.0",
+        "subTopic": "Remain to be",
+        "frenchComparison": {
+            "frenchStructure": "Il ne reste rien à faire",
+            "englishStructure": "Nothing remains to be done",
+            "whyDifficult": "Structure.",
+            "visualHighlighting": {
+                "incorrect": "remains being done",
+                "correct": "remains to be done"
+            }
+        }
+    }
+]

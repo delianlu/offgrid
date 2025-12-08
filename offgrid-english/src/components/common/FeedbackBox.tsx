@@ -1,4 +1,5 @@
 import React from 'react';
+import { AudioButton } from './AudioButton';
 
 interface FeedbackBoxProps {
   type: 'success' | 'error' | 'info';
@@ -70,12 +71,12 @@ export const ExplanationBox: React.FC<ExplanationBoxProps> = ({
   children,
 }) => {
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-l-4 border-blue-500 dark:border-blue-400 rounded-xl p-5 shadow-md dark:shadow-xl">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-xl p-5 shadow-md">
       <div className="flex items-center gap-2 mb-3">
         <span className="text-2xl">💡</span>
-        <p className="text-sm font-bold text-blue-900 dark:text-blue-100">{title}</p>
+        <p className="text-sm font-bold text-blue-900">{title}</p>
       </div>
-      <div className="text-sm text-gray-800 dark:text-slate-200 leading-relaxed pl-8">
+      <div className="text-sm text-gray-800 leading-relaxed pl-8">
         {children}
       </div>
     </div>
@@ -86,12 +87,14 @@ interface ComparisonBoxProps {
   frenchText: string;
   englishText: string;
   highlightEnglish?: string;
+  whyDifficult?: string;
 }
 
 export const ComparisonBox: React.FC<ComparisonBoxProps> = ({
   frenchText,
   englishText,
   highlightEnglish,
+  whyDifficult,
 }) => {
   const renderEnglish = () => {
     if (!highlightEnglish) return englishText;
@@ -102,7 +105,7 @@ export const ComparisonBox: React.FC<ComparisonBoxProps> = ({
     return (
       <>
         {englishText.substring(0, index)}
-        <span className="text-green-600 font-bold">
+        <span className="bg-green-200 text-green-800 px-1 rounded font-bold">
           {englishText.substring(index, index + highlightEnglish.length)}
         </span>
         {englishText.substring(index + highlightEnglish.length)}
@@ -111,23 +114,43 @@ export const ComparisonBox: React.FC<ComparisonBoxProps> = ({
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {/* French (Wrong) */}
-      <div className="bg-gradient-to-br from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/20 border-l-4 border-red-400 dark:border-red-400 rounded-xl p-4 shadow-md dark:shadow-xl">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-lg">❌</span>
-          <p className="text-xs font-bold text-red-700 dark:text-red-300 uppercase tracking-wide">French</p>
+    <div className="space-y-4">
+      {whyDifficult && (
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-xl">
+          <p className="text-sm font-bold text-yellow-800 uppercase mb-1">Why is this difficult?</p>
+          <p className="text-gray-800">{whyDifficult}</p>
         </div>
-        <p className="text-base text-gray-800 dark:text-slate-200 font-medium leading-relaxed">{frenchText}</p>
-      </div>
+      )}
 
-      {/* English (Correct) */}
-      <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-l-4 border-green-500 dark:border-green-400 rounded-xl p-4 shadow-md dark:shadow-xl">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-lg">✓</span>
-          <p className="text-xs font-bold text-green-700 dark:text-green-300 uppercase tracking-wide">English</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* French (Source of Error) */}
+        <div className="relative overflow-hidden bg-white border-2 border-red-100 rounded-xl p-4 shadow-sm">
+          <div className="absolute top-0 right-0 bg-red-100 text-red-600 text-xs font-bold px-2 py-1 rounded-bl-lg">
+            FRENCH PATTERN
+          </div>
+          <div className="flex items-center gap-3 mt-2">
+            <span className="text-2xl">🇫🇷</span>
+            <p className="text-lg text-gray-600 font-medium italic line-through decoration-red-400 decoration-2">
+              {frenchText}
+            </p>
+          </div>
         </div>
-        <p className="text-base text-gray-800 dark:text-slate-200 font-medium leading-relaxed">{renderEnglish()}</p>
+
+        {/* English (Correct Pattern) */}
+        <div className="relative overflow-hidden bg-white border-2 border-green-100 rounded-xl p-4 shadow-sm">
+          <div className="absolute top-0 right-0 bg-green-100 text-green-600 text-xs font-bold px-2 py-1 rounded-bl-lg">
+            ENGLISH PATTERN
+          </div>
+          <div className="flex items-center gap-3 mt-2">
+            <span className="text-2xl">🇬🇧</span>
+            <div className="flex-1">
+              <p className="text-lg text-gray-900 font-bold">
+                {renderEnglish()}
+              </p>
+            </div>
+            <AudioButton text={englishText} size="sm" />
+          </div>
+        </div>
       </div>
     </div>
   );

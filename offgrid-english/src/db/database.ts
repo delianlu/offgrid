@@ -1,5 +1,5 @@
 import Dexie from 'dexie';
-import type { Module, Item, Attempt, ReviewData, Bookmark, MistakeJournalEntry } from '../types/schemas';
+import type { Module, Item, Attempt, ReviewData, Bookmark, MistakeJournalEntry, Flag, UserProfile, Classroom } from '../types/schemas';
 
 export class OffGridDB extends Dexie {
   modules!: Dexie.Table<Module>;
@@ -8,85 +8,44 @@ export class OffGridDB extends Dexie {
   reviewData!: Dexie.Table<ReviewData>;
   bookmarks!: Dexie.Table<Bookmark>;
   mistakes!: Dexie.Table<MistakeJournalEntry>;
+  flags!: Dexie.Table<Flag>;
+  users!: Dexie.Table<UserProfile>;
+  classrooms!: Dexie.Table<Classroom>;
   constructor() {
     super('OffGridEnglishDB');
 
-    // Version 1: Original schema
+    // ... (previous versions)
+
+    // Consolidated Schema (Version 1)
     this.version(1).stores({
       modules: 'id, category, module_version',
       items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp'
+      userProgress: 'id, userId, itemId, status',
+      userState: 'userId',
+      achievements: 'id',
+      reviewData: 'itemId, userId, nextReviewAt, lastReviewedAt',
+      bookmarks: 'itemId, userId, moduleId, bookmarkedAt',
+      mistakes: 'id, userId, itemId, moduleId, timestamp, resolved, lastSeenAt',
+      flags: 'id, userId, itemId, moduleId, status, timestamp',
+      users: 'id, name, role',
+      classrooms: 'id, teacherId, code',
+      attempts: 'id, userId, moduleId, formType, itemId'
     });
 
-    // Version 2: Added learning content fields to modules
+    // Version 2: Add compound index for mistakes table
     this.version(2).stores({
       modules: 'id, category, module_version',
       items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp'
-    }).upgrade(async tx => {
-      // Clear old modules and force reload with new schema
-      await tx.table('modules').clear();
-      await tx.table('items').clear();
-    });
-
-    // Version 3: Force complete reload of all 7 modules
-    this.version(3).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp'
-    }).upgrade(async tx => {
-      // Clear everything to force fresh load
-      await tx.table('modules').clear();
-      await tx.table('items').clear();
-    });
-
-    // Version 4: Updated item schema to support optional fields (type, subTopic, correction)
-    this.version(4).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp'
-    }).upgrade(async tx => {
-      // Clear and reload with updated schema
-      await tx.table('modules').clear();
-      await tx.table('items').clear();
-    });
-
-    // Version 5: Made commonErrors.subTopic optional
-    this.version(5).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp'
-    }).upgrade(async tx => {
-      // Clear and reload with updated schema
-      await tx.table('modules').clear();
-      await tx.table('items').clear();
-    });
-
-    // Version 6: Added reviewData table for spaced repetition
-    this.version(6).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp',
-      reviewData: 'itemId, nextReviewAt, lastReviewedAt'
-    });
-
-    // Version 7: Added bookmarks table
-    this.version(7).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp',
-      reviewData: 'itemId, nextReviewAt, lastReviewedAt',
-      bookmarks: 'itemId, moduleId, bookmarkedAt'
-    });
-
-    // Version 8: Added mistakes table for mistake journal
-    this.version(8).stores({
-      modules: 'id, category, module_version',
-      items: 'id, moduleId, formType, transferType, item_version',
-      attempts: 'id, itemId, moduleId, formType, transferType, timestamp',
-      reviewData: 'itemId, nextReviewAt, lastReviewedAt',
-      bookmarks: 'itemId, moduleId, bookmarkedAt',
-      mistakes: 'id, itemId, moduleId, timestamp, resolved, lastSeenAt'
+      userProgress: 'id, userId, itemId, status',
+      userState: 'userId',
+      achievements: 'id',
+      reviewData: 'itemId, userId, nextReviewAt, lastReviewedAt',
+      bookmarks: 'itemId, userId, moduleId, bookmarkedAt',
+      mistakes: 'id, userId, itemId, moduleId, [itemId+studentAnswer], timestamp, resolved, lastSeenAt',
+      flags: 'id, userId, itemId, moduleId, status, timestamp',
+      users: 'id, name, role',
+      classrooms: 'id, teacherId, code',
+      attempts: 'id, userId, moduleId, formType, itemId'
     });
   }
 }

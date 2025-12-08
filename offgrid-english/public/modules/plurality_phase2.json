@@ -1,0 +1,3323 @@
+{
+  "id": "plurality",
+  "name": "Plurality",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to Plurality! This module is about how to make nouns singular (one) or plural (more than one). In spoken French, the plural 's' is usually silent, but in English, it is almost always pronounced. Also, words like 'information' and 'advice' are uncountable in English—they never take an 's'. We will practice these differences to avoid common mistakes.",
+  "contrastiveExplanation": "Regular Plurals:\nEnglish: Add '-s' and pronounce it (Book -> Books).\nFrench: Add '-s' but it is silent (Livre -> Livres).\n\nIrregular Plurals:\nEnglish: Man -> Men, Person -> People, Child -> Children.\nFrench: Usually regular (Homme -> Hommes).\n\nUncountable Nouns:\nEnglish: Information, Advice, Furniture, Luggage, Homework (Always Singular).\nFrench: Des informations, des conseils, des meubles (Plural).",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Regular plurals",
+      "wrong": "I have three sister.",
+      "correct": "I have three sisters.",
+      "frenchConnection": "In French, the 's' is silent. In English, it must be pronounced."
+    },
+    {
+      "number": 2,
+      "subTopic": "Uncountable nouns",
+      "wrong": "Give me some informations.",
+      "correct": "Give me some information.",
+      "frenchConnection": "French uses 'des informations'. English 'information' is uncountable."
+    },
+    {
+      "number": 3,
+      "subTopic": "Uncountable nouns",
+      "wrong": "Many advices.",
+      "correct": "Much advice (or some advice).",
+      "frenchConnection": "French uses 'des conseils'. English 'advice' never takes an 's'."
+    },
+    {
+      "number": 4,
+      "subTopic": "Uncountable nouns",
+      "wrong": "New furnitures.",
+      "correct": "New furniture.",
+      "frenchConnection": "French uses 'des meubles'. English 'furniture' is singular."
+    },
+    {
+      "number": 5,
+      "subTopic": "Uncountable nouns",
+      "wrong": "How many luggages?",
+      "correct": "How much luggage?",
+      "frenchConnection": "French uses 'des bagages'. English 'luggage' is uncountable."
+    },
+    {
+      "number": 6,
+      "subTopic": "Uncountable nouns",
+      "wrong": "The money are here.",
+      "correct": "The money is here.",
+      "frenchConnection": "'Money' is singular in English."
+    },
+    {
+      "number": 7,
+      "subTopic": "Irregular plurals",
+      "wrong": "People is waiting.",
+      "correct": "People are waiting.",
+      "frenchConnection": "'People' is always plural."
+    },
+    {
+      "number": 8,
+      "subTopic": "Irregular plurals",
+      "wrong": "Many childrens.",
+      "correct": "Many children.",
+      "frenchConnection": "'Children' is already plural. Do not add 's'."
+    },
+    {
+      "number": 9,
+      "subTopic": "Irregular plurals",
+      "wrong": "Two mens.",
+      "correct": "Two men.",
+      "frenchConnection": "'Men' is the plural of 'man'."
+    },
+    {
+      "number": 10,
+      "subTopic": "Uncountable nouns",
+      "wrong": "A lot of works.",
+      "correct": "A lot of work.",
+      "frenchConnection": "'Work' (tasks) is uncountable."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "plu-e01-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "I have two ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sister",
+        "sisters",
+        "sister's"
+      ],
+      "correctAnswer": "sisters",
+      "feedback": "Correct! 'Two' means plural, so we add 's'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "J'ai deux sœurs...",
+        "englishStructure": "I have two sisters...",
+        "whyDifficult": "In French, the plural 's' is silent. In English, it is pronounced.",
+        "visualHighlighting": {
+          "incorrect": "two sister",
+          "correct": "two sisters"
+        }
+      }
+    },
+    {
+      "id": "plu-e02-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "She bought three ___ at the market.",
+      "type": "multiple_choice",
+      "options": [
+        "mangoes",
+        "mango",
+        "mangos"
+      ],
+      "correctAnswer": "mangoes",
+      "feedback": "Correct! Words ending in 'o' often take '-es' for plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a acheté trois mangues...",
+        "englishStructure": "She bought three mangoes...",
+        "whyDifficult": "Spelling rule: Words ending in 'o' often take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "three mango",
+          "correct": "three mangoes"
+        }
+      }
+    },
+    {
+      "id": "plu-e03-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are playing football.",
+      "type": "multiple_choice",
+      "options": [
+        "childs",
+        "children",
+        "childrens"
+      ],
+      "correctAnswer": "children",
+      "feedback": "Correct! 'Children' is the irregular plural of 'child'. No 's'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les enfants jouent...",
+        "englishStructure": "The children are playing...",
+        "whyDifficult": "Irregular plural: Child -> Children (not Childs).",
+        "visualHighlighting": {
+          "incorrect": "The childs",
+          "correct": "The children"
+        }
+      }
+    },
+    {
+      "id": "plu-e04-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "There are two ___ in the car.",
+      "type": "multiple_choice",
+      "options": [
+        "mans",
+        "men",
+        "mens"
+      ],
+      "correctAnswer": "men",
+      "feedback": "Correct! 'Men' is the plural of 'man'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Il y a deux hommes...",
+        "englishStructure": "There are two men...",
+        "whyDifficult": "Irregular plural: Man -> Men (not Mans).",
+        "visualHighlighting": {
+          "incorrect": "two mans",
+          "correct": "two men"
+        }
+      }
+    },
+    {
+      "id": "plu-e05-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Three ___ are talking outside.",
+      "type": "multiple_choice",
+      "options": [
+        "womans",
+        "women",
+        "womens"
+      ],
+      "correctAnswer": "women",
+      "feedback": "Correct! 'Women' is the plural of 'woman'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Trois femmes parlent...",
+        "englishStructure": "Three women are talking...",
+        "whyDifficult": "Irregular plural: Woman -> Women (pronunciation changes).",
+        "visualHighlighting": {
+          "incorrect": "Three womans",
+          "correct": "Three women"
+        }
+      }
+    },
+    {
+      "id": "plu-e06-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are happy.",
+      "type": "multiple_choice",
+      "options": [
+        "peoples",
+        "person",
+        "people"
+      ],
+      "correctAnswer": "people",
+      "feedback": "Correct! 'People' is the plural of 'person'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les gens sont heureux...",
+        "englishStructure": "The people are happy...",
+        "whyDifficult": "Irregular plural: Person -> People.",
+        "visualHighlighting": {
+          "incorrect": "The peoples",
+          "correct": "The people"
+        }
+      }
+    },
+    {
+      "id": "plu-e07-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Where ___ the money?",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Money' is uncountable and singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Money)",
+      "frenchComparison": {
+        "frenchStructure": "Où est l'argent...",
+        "englishStructure": "Where is the money...",
+        "whyDifficult": "'Money' is singular/uncountable in English.",
+        "visualHighlighting": {
+          "incorrect": "Where are the money",
+          "correct": "Where is the money"
+        }
+      }
+    },
+    {
+      "id": "plu-e08-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The water ___ cold.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Water' is a liquid (uncountable), so it is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Liquids)",
+      "frenchComparison": {
+        "frenchStructure": "L'eau est froide...",
+        "englishStructure": "The water is cold...",
+        "whyDifficult": "Liquids are uncountable and singular.",
+        "visualHighlighting": {
+          "incorrect": "The water are",
+          "correct": "The water is"
+        }
+      }
+    },
+    {
+      "id": "plu-e09-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Rice ___ popular in Cameroon.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Rice' is uncountable and singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Le riz est populaire...",
+        "englishStructure": "Rice is popular...",
+        "whyDifficult": "'Rice' is uncountable/singular.",
+        "visualHighlighting": {
+          "incorrect": "Rice are popular",
+          "correct": "Rice is popular"
+        }
+      }
+    },
+    {
+      "id": "plu-e10-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "I need to buy some ___.",
+      "type": "multiple_choice",
+      "options": [
+        "breads",
+        "bread",
+        "a bread"
+      ],
+      "correctAnswer": "bread",
+      "feedback": "Correct! 'Bread' is uncountable. We say 'some bread'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Je dois acheter du pain...",
+        "englishStructure": "I need to buy some bread...",
+        "whyDifficult": "French uses 'du pain'. English 'bread' is uncountable (no 'a' or 's').",
+        "visualHighlighting": {
+          "incorrect": "buy a bread",
+          "correct": "buy some bread"
+        }
+      }
+    },
+    {
+      "id": "plu-e11-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "My ___ hurt after walking.",
+      "type": "multiple_choice",
+      "options": [
+        "foots",
+        "feet",
+        "feets"
+      ],
+      "correctAnswer": "feet",
+      "feedback": "Correct! 'Feet' is the irregular plural of 'foot'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Mes pieds me font mal...",
+        "englishStructure": "My feet hurt...",
+        "whyDifficult": "Irregular plural: Foot -> Feet.",
+        "visualHighlighting": {
+          "incorrect": "My foots hurt",
+          "correct": "My feet hurt"
+        }
+      }
+    },
+    {
+      "id": "plu-e12-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "You should brush your ___.",
+      "type": "multiple_choice",
+      "options": [
+        "tooths",
+        "teeth",
+        "teeths"
+      ],
+      "correctAnswer": "teeth",
+      "feedback": "Correct! 'Teeth' is the irregular plural of 'tooth'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Tu devrais te brosser les dents...",
+        "englishStructure": "You should brush your teeth...",
+        "whyDifficult": "Irregular plural: Tooth -> Teeth.",
+        "visualHighlighting": {
+          "incorrect": "brush your tooths",
+          "correct": "brush your teeth"
+        }
+      }
+    },
+    {
+      "id": "plu-e13-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "There are seven ___ in a week.",
+      "type": "multiple_choice",
+      "options": [
+        "day",
+        "days",
+        "daies"
+      ],
+      "correctAnswer": "days",
+      "feedback": "Correct! Regular plural: add 's'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Il y a sept jours...",
+        "englishStructure": "There are seven days...",
+        "whyDifficult": "Pronounce the 's' in English.",
+        "visualHighlighting": {
+          "incorrect": "seven day",
+          "correct": "seven days"
+        }
+      }
+    },
+    {
+      "id": "plu-e14-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Put the books in the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "boxs",
+        "boxes",
+        "box"
+      ],
+      "correctAnswer": "boxes",
+      "feedback": "Correct! Words ending in 'x' take '-es'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Mets les livres dans les boîtes...",
+        "englishStructure": "Put the books in the boxes...",
+        "whyDifficult": "Spelling rule: Words ending in 'x' take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "in the boxs",
+          "correct": "in the boxes"
+        }
+      }
+    },
+    {
+      "id": "plu-e15-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Two ___ go to my village.",
+      "type": "multiple_choice",
+      "options": [
+        "bus",
+        "buses",
+        "buss"
+      ],
+      "correctAnswer": "buses",
+      "feedback": "Correct! Words ending in 's' take '-es'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Deux bus vont...",
+        "englishStructure": "Two buses go...",
+        "whyDifficult": "Spelling rule: Words ending in 's' take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "Two bus",
+          "correct": "Two buses"
+        }
+      }
+    },
+    {
+      "id": "plu-e16-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Douala and Yaoundé are big ___.",
+      "type": "multiple_choice",
+      "options": [
+        "citys",
+        "cities",
+        "city"
+      ],
+      "correctAnswer": "cities",
+      "feedback": "Correct! Consonant + 'y' changes to 'ies'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ies)",
+      "frenchComparison": {
+        "frenchStructure": "Douala et Yaoundé sont de grandes villes...",
+        "englishStructure": "Douala and Yaoundé are big cities...",
+        "whyDifficult": "Spelling rule: Consonant + 'y' -> 'ies'.",
+        "visualHighlighting": {
+          "incorrect": "big citys",
+          "correct": "big cities"
+        }
+      }
+    },
+    {
+      "id": "plu-e17-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Many ___ live in this compound.",
+      "type": "multiple_choice",
+      "options": [
+        "family",
+        "familys",
+        "families"
+      ],
+      "correctAnswer": "families",
+      "feedback": "Correct! Consonant + 'y' changes to 'ies'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ies)",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup de familles vivent...",
+        "englishStructure": "Many families live...",
+        "whyDifficult": "Spelling rule: Consonant + 'y' -> 'ies'.",
+        "visualHighlighting": {
+          "incorrect": "Many familys",
+          "correct": "Many families"
+        }
+      }
+    },
+    {
+      "id": "plu-e18-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "King Solomon had many ___.",
+      "type": "multiple_choice",
+      "options": [
+        "wifes",
+        "wives",
+        "wife"
+      ],
+      "correctAnswer": "wives",
+      "feedback": "Correct! Words ending in 'fe' often change to 'ves'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "Le roi Salomon avait beaucoup de femmes...",
+        "englishStructure": "King Solomon had many wives...",
+        "whyDifficult": "Spelling rule: 'f/fe' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "many wifes",
+          "correct": "many wives"
+        }
+      }
+    },
+    {
+      "id": "plu-e19-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The tree lost its ___.",
+      "type": "multiple_choice",
+      "options": [
+        "leafs",
+        "leaves",
+        "leaf"
+      ],
+      "correctAnswer": "leaves",
+      "feedback": "Correct! 'Leaf' changes to 'leaves'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "L'arbre a perdu ses feuilles...",
+        "englishStructure": "The tree lost its leaves...",
+        "whyDifficult": "Spelling rule: 'f' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "lost its leafs",
+          "correct": "lost its leaves"
+        }
+      }
+    },
+    {
+      "id": "plu-e20-A",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "We need two ___ to cut the meat.",
+      "type": "multiple_choice",
+      "options": [
+        "knifes",
+        "knives",
+        "knife"
+      ],
+      "correctAnswer": "knives",
+      "feedback": "Correct! 'Knife' changes to 'knives'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons besoin de deux couteaux...",
+        "englishStructure": "We need two knives...",
+        "whyDifficult": "Spelling rule: 'fe' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "two knifes",
+          "correct": "two knives"
+        }
+      }
+    },
+    {
+      "id": "plu-m01-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I need some ___ about the school.",
+      "type": "multiple_choice",
+      "options": [
+        "information",
+        "informations",
+        "an information"
+      ],
+      "correctAnswer": "information",
+      "feedback": "Correct! 'Information' is uncountable. No 's' and no 'an'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Information)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin d'informations...",
+        "englishStructure": "I need some information...",
+        "whyDifficult": "French uses plural 'informations'. English 'information' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "some informations",
+          "correct": "some information"
+        }
+      }
+    },
+    {
+      "id": "plu-m02-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "She gave me good ___.",
+      "type": "multiple_choice",
+      "options": [
+        "advices",
+        "advice",
+        "an advice"
+      ],
+      "correctAnswer": "advice",
+      "feedback": "Correct! 'Advice' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a donné de bons conseils...",
+        "englishStructure": "She gave me good advice...",
+        "whyDifficult": "French uses plural 'conseils'. English 'advice' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "good advices",
+          "correct": "good advice"
+        }
+      }
+    },
+    {
+      "id": "plu-m03-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The ___ in the room is old.",
+      "type": "multiple_choice",
+      "options": [
+        "furnitures",
+        "furniture",
+        "piece of furnitures"
+      ],
+      "correctAnswer": "furniture",
+      "feedback": "Correct! 'Furniture' (meubles) is uncountable and singular in English.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Les meubles sont vieux...",
+        "englishStructure": "The furniture is old...",
+        "whyDifficult": "French uses plural 'meubles'. English 'furniture' is uncountable/singular.",
+        "visualHighlighting": {
+          "incorrect": "The furnitures",
+          "correct": "The furniture"
+        }
+      }
+    },
+    {
+      "id": "plu-m04-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Do you have much ___?",
+      "type": "multiple_choice",
+      "options": [
+        "luggages",
+        "luggage",
+        "bags of luggage"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! 'Luggage' (bagages) is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu beaucoup de bagages...",
+        "englishStructure": "Do you have much luggage...",
+        "whyDifficult": "French uses plural 'bagages'. English 'luggage' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "much luggages",
+          "correct": "much luggage"
+        }
+      }
+    },
+    {
+      "id": "plu-m05-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I have a lot of ___ to do today.",
+      "type": "multiple_choice",
+      "options": [
+        "works",
+        "work",
+        "job"
+      ],
+      "correctAnswer": "work",
+      "feedback": "Correct! 'Work' (effort/tasks) is uncountable. 'Job' is countable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Work)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai beaucoup de travail...",
+        "englishStructure": "I have a lot of work...",
+        "whyDifficult": "'Work' is uncountable. 'Works' means 'factory' or 'art'.",
+        "visualHighlighting": {
+          "incorrect": "a lot of works",
+          "correct": "a lot of work"
+        }
+      }
+    },
+    {
+      "id": "plu-m06-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The news ___ very interesting.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'News' ends in 's' but is singular.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les nouvelles sont intéressantes...",
+        "englishStructure": "The news is very interesting...",
+        "whyDifficult": "'News' looks plural but takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "The news are",
+          "correct": "The news is"
+        }
+      }
+    },
+    {
+      "id": "plu-m07-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The people in the village ___ friendly.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'People' is always plural.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (People)",
+      "frenchComparison": {
+        "frenchStructure": "Les gens sont sympathiques...",
+        "englishStructure": "The people are friendly...",
+        "whyDifficult": "'People' is plural.",
+        "visualHighlighting": {
+          "incorrect": "The people is",
+          "correct": "The people are"
+        }
+      }
+    },
+    {
+      "id": "plu-m08-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The police ___ searching for the thief.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Police' is a collective plural noun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police cherche...",
+        "englishStructure": "The police are searching...",
+        "whyDifficult": "In French, 'la police' is singular. In English, 'police' is plural.",
+        "visualHighlighting": {
+          "incorrect": "The police is",
+          "correct": "The police are"
+        }
+      }
+    },
+    {
+      "id": "plu-m09-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Your ___ is very long.",
+      "type": "multiple_choice",
+      "options": [
+        "hairs",
+        "hair",
+        "hair's"
+      ],
+      "correctAnswer": "hair",
+      "feedback": "Correct! Hair on the head is uncountable. We say 'your hair'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Hair)",
+      "frenchComparison": {
+        "frenchStructure": "Tes cheveux sont longs...",
+        "englishStructure": "Your hair is very long...",
+        "whyDifficult": "French uses plural 'cheveux'. English 'hair' is uncountable/singular.",
+        "visualHighlighting": {
+          "incorrect": "Your hairs are",
+          "correct": "Your hair is"
+        }
+      }
+    },
+    {
+      "id": "plu-m10-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I eat a lot of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "fruit",
+        "fruits",
+        "fruities"
+      ],
+      "correctAnswer": "fruit",
+      "feedback": "Correct! 'Fruit' is usually uncountable when speaking generally.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Fruit)",
+      "frenchComparison": {
+        "frenchStructure": "Je mange beaucoup de fruits...",
+        "englishStructure": "I eat a lot of fruit...",
+        "whyDifficult": "French uses plural 'fruits'. English 'fruit' is often uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a lot of fruits",
+          "correct": "a lot of fruit"
+        }
+      }
+    },
+    {
+      "id": "plu-m11-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "We don't have ___ time.",
+      "type": "multiple_choice",
+      "options": [
+        "many",
+        "much",
+        "a lot"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Time' is uncountable, so we use 'much'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Nous n'avons pas beaucoup de temps...",
+        "englishStructure": "We don't have much time...",
+        "whyDifficult": "'Time' is uncountable -> much.",
+        "visualHighlighting": {
+          "incorrect": "many time",
+          "correct": "much time"
+        }
+      }
+    },
+    {
+      "id": "plu-m12-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I don't have ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "many",
+        "much",
+        "few"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Money' is uncountable, so we use 'much'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Je n'ai pas beaucoup d'argent...",
+        "englishStructure": "I don't have much money...",
+        "whyDifficult": "'Money' is uncountable -> much.",
+        "visualHighlighting": {
+          "incorrect": "many money",
+          "correct": "much money"
+        }
+      }
+    },
+    {
+      "id": "plu-m13-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "She has ___ friends.",
+      "type": "multiple_choice",
+      "options": [
+        "a lot of",
+        "much",
+        "a little"
+      ],
+      "correctAnswer": "a lot of",
+      "feedback": "Correct! 'Friends' is countable. 'A lot of' works for both, but 'much' and 'little' are only for uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (A lot of)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a beaucoup d'amis...",
+        "englishStructure": "She has a lot of friends...",
+        "whyDifficult": "'Friends' is countable. 'Much' is wrong.",
+        "visualHighlighting": {
+          "incorrect": "much friends",
+          "correct": "a lot of friends"
+        }
+      }
+    },
+    {
+      "id": "plu-m14-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "We have ___ water left.",
+      "type": "multiple_choice",
+      "options": [
+        "few",
+        "little",
+        "many"
+      ],
+      "correctAnswer": "little",
+      "feedback": "Correct! 'Water' is uncountable, so we use 'little'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons peu d'eau...",
+        "englishStructure": "We have little water...",
+        "whyDifficult": "'Water' is uncountable -> little. 'Few' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "few water",
+          "correct": "little water"
+        }
+      }
+    },
+    {
+      "id": "plu-m15-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The school bought new ___.",
+      "type": "multiple_choice",
+      "options": [
+        "equipment",
+        "equipments",
+        "equipment's"
+      ],
+      "correctAnswer": "equipment",
+      "feedback": "Correct! 'Equipment' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Equipment)",
+      "frenchComparison": {
+        "frenchStructure": "L'école a acheté de nouveaux équipements...",
+        "englishStructure": "The school bought new equipment...",
+        "whyDifficult": "French uses plural 'équipements'. English 'equipment' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "new equipments",
+          "correct": "new equipment"
+        }
+      }
+    },
+    {
+      "id": "plu-m16-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The teacher gave us ___ homework.",
+      "type": "multiple_choice",
+      "options": [
+        "a",
+        "many",
+        "a lot of"
+      ],
+      "correctAnswer": "a lot of",
+      "feedback": "Correct! 'Homework' is uncountable. We cannot say 'a homework' or 'many homework'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Homework)",
+      "frenchComparison": {
+        "frenchStructure": "Le professeur nous a donné beaucoup de devoirs...",
+        "englishStructure": "The teacher gave us a lot of homework...",
+        "whyDifficult": "French uses plural 'devoirs'. English 'homework' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "many homeworks",
+          "correct": "a lot of homework"
+        }
+      }
+    },
+    {
+      "id": "plu-m17-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "There is too ___ traffic today.",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "few"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Traffic' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Traffic)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a trop de circulation...",
+        "englishStructure": "There is too much traffic...",
+        "whyDifficult": "'Traffic' is uncountable -> much.",
+        "visualHighlighting": {
+          "incorrect": "too many traffic",
+          "correct": "too much traffic"
+        }
+      }
+    },
+    {
+      "id": "plu-m18-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The weather ___ hot.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Weather' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Weather)",
+      "frenchComparison": {
+        "frenchStructure": "Le temps est chaud...",
+        "englishStructure": "The weather is hot...",
+        "whyDifficult": "'Weather' is singular/uncountable.",
+        "visualHighlighting": {
+          "incorrect": "The weather are",
+          "correct": "The weather is"
+        }
+      }
+    },
+    {
+      "id": "plu-m19-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "She likes gold ___.",
+      "type": "multiple_choice",
+      "options": [
+        "jewelry",
+        "jewelries",
+        "jewelrys"
+      ],
+      "correctAnswer": "jewelry",
+      "feedback": "Correct! 'Jewelry' is uncountable.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Jewelry)",
+      "frenchComparison": {
+        "frenchStructure": "Elle aime les bijoux...",
+        "englishStructure": "She likes gold jewelry...",
+        "whyDifficult": "French uses plural 'bijoux'. English 'jewelry' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "gold jewelries",
+          "correct": "gold jewelry"
+        }
+      }
+    },
+    {
+      "id": "plu-m20-A",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I bought a ___ of bread.",
+      "type": "multiple_choice",
+      "options": [
+        "loaf",
+        "slice",
+        "piece"
+      ],
+      "correctAnswer": "loaf",
+      "feedback": "Correct! To count bread, we say 'a loaf'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives",
+      "frenchComparison": {
+        "frenchStructure": "J'ai acheté une miche de pain...",
+        "englishStructure": "I bought a loaf of bread...",
+        "whyDifficult": "To count uncountable 'bread', use 'loaf'.",
+        "visualHighlighting": {
+          "incorrect": "a bread",
+          "correct": "a loaf of bread"
+        }
+      }
+    },
+    {
+      "id": "plu-h01-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Can I give you a ___ of advice?",
+      "type": "multiple_choice",
+      "options": [
+        "piece",
+        "slice",
+        "part"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! To count advice, we say 'a piece of advice'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "Puis-je te donner un conseil...",
+        "englishStructure": "Can I give you a piece of advice...",
+        "whyDifficult": "To count uncountable 'advice', use 'piece'.",
+        "visualHighlighting": {
+          "incorrect": "an advice",
+          "correct": "a piece of advice"
+        }
+      }
+    },
+    {
+      "id": "plu-h02-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I found an interesting ___ of information.",
+      "type": "multiple_choice",
+      "options": [
+        "piece",
+        "item",
+        "block"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! We say 'a piece of information'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Information)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai trouvé une information intéressante...",
+        "englishStructure": "I found an interesting piece of information...",
+        "whyDifficult": "To count uncountable 'information', use 'piece'.",
+        "visualHighlighting": {
+          "incorrect": "an interesting information",
+          "correct": "an interesting piece of information"
+        }
+      }
+    },
+    {
+      "id": "plu-h03-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "These scissors ___ sharp.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Scissors' is always plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Only Nouns (Tools)",
+      "frenchComparison": {
+        "frenchStructure": "Ces ciseaux sont...",
+        "englishStructure": "These scissors are...",
+        "whyDifficult": "'Scissors' is always plural.",
+        "visualHighlighting": {
+          "incorrect": "This scissors is",
+          "correct": "These scissors are"
+        }
+      }
+    },
+    {
+      "id": "plu-h04-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I bought a ___ of trousers.",
+      "type": "multiple_choice",
+      "options": [
+        "pair",
+        "couple",
+        "piece"
+      ],
+      "correctAnswer": "pair",
+      "feedback": "Correct! We say 'a pair of trousers'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Pair)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai acheté un pantalon...",
+        "englishStructure": "I bought a pair of trousers...",
+        "whyDifficult": "Trousers are plural. Use 'pair' to count one item.",
+        "visualHighlighting": {
+          "incorrect": "a trousers",
+          "correct": "a pair of trousers"
+        }
+      }
+    },
+    {
+      "id": "plu-h05-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Where are my ___?",
+      "type": "multiple_choice",
+      "options": [
+        "glass",
+        "glasses",
+        "glass's"
+      ],
+      "correctAnswer": "glasses",
+      "feedback": "Correct! 'Glasses' (for eyes) is plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Only Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Où sont mes lunettes...",
+        "englishStructure": "Where are my glasses...",
+        "whyDifficult": "'Glasses' is plural.",
+        "visualHighlighting": {
+          "incorrect": "Where is my glass",
+          "correct": "Where are my glasses"
+        }
+      }
+    },
+    {
+      "id": "plu-h06-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The cattle ___ grazing in the field.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Cattle' is always plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Cattle)",
+      "frenchComparison": {
+        "frenchStructure": "Le bétail broute...",
+        "englishStructure": "The cattle are grazing...",
+        "whyDifficult": "'Cattle' looks singular but is plural.",
+        "visualHighlighting": {
+          "incorrect": "The cattle is",
+          "correct": "The cattle are"
+        }
+      }
+    },
+    {
+      "id": "plu-h07-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The staff ___ not happy with the decision.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Staff' can be plural when referring to the members.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Le personnel n'est pas content...",
+        "englishStructure": "The staff are not happy...",
+        "whyDifficult": "'Staff' can take a plural verb when referring to people.",
+        "visualHighlighting": {
+          "incorrect": "The staff is",
+          "correct": "The staff are"
+        }
+      }
+    },
+    {
+      "id": "plu-h08-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The poor ___ more help.",
+      "type": "multiple_choice",
+      "options": [
+        "needs",
+        "need",
+        "needing"
+      ],
+      "correctAnswer": "need",
+      "feedback": "Correct! 'The poor' (people) is plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjectives as Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les pauvres ont besoin...",
+        "englishStructure": "The poor need more help...",
+        "whyDifficult": "Adjectives as nouns (the poor) are plural.",
+        "visualHighlighting": {
+          "incorrect": "The poor needs",
+          "correct": "The poor need"
+        }
+      }
+    },
+    {
+      "id": "plu-h09-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Mathematics ___ my favourite subject.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Subjects ending in 's' are singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les mathématiques sont...",
+        "englishStructure": "Mathematics is my favourite...",
+        "whyDifficult": "Subjects ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Mathematics are",
+          "correct": "Mathematics is"
+        }
+      }
+    },
+    {
+      "id": "plu-h10-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "This is a good ___ of transport.",
+      "type": "multiple_choice",
+      "options": [
+        "mean",
+        "means",
+        "meaning"
+      ],
+      "correctAnswer": "means",
+      "feedback": "Correct! 'Means' is the same in singular and plural.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est un bon moyen...",
+        "englishStructure": "This is a good means...",
+        "whyDifficult": "'Means' ends in 's' even in singular.",
+        "visualHighlighting": {
+          "incorrect": "a good mean",
+          "correct": "a good means"
+        }
+      }
+    },
+    {
+      "id": "plu-h11-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I saw two ___ of birds.",
+      "type": "multiple_choice",
+      "options": [
+        "species",
+        "specie",
+        "specieses"
+      ],
+      "correctAnswer": "species",
+      "feedback": "Correct! 'Species' does not change.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "J'ai vu deux espèces...",
+        "englishStructure": "I saw two species...",
+        "whyDifficult": "'Species' is the same in singular and plural.",
+        "visualHighlighting": {
+          "incorrect": "two specieses",
+          "correct": "two species"
+        }
+      }
+    },
+    {
+      "id": "plu-h12-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "There are many ___ in the sea.",
+      "type": "multiple_choice",
+      "options": [
+        "fishes",
+        "fish",
+        "fishs"
+      ],
+      "correctAnswer": "fish",
+      "feedback": "Correct! 'Fish' usually stays 'fish'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de poissons...",
+        "englishStructure": "There are many fish...",
+        "whyDifficult": "'Fish' usually doesn't change in plural.",
+        "visualHighlighting": {
+          "incorrect": "many fishes",
+          "correct": "many fish"
+        }
+      }
+    },
+    {
+      "id": "plu-h13-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "My brothers have wives. They are my ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sister-in-laws",
+        "sisters-in-law",
+        "sisters-in-laws"
+      ],
+      "correctAnswer": "sisters-in-law",
+      "feedback": "Correct! Make the main noun plural (sisters).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Ce sont mes belles-sœurs...",
+        "englishStructure": "They are my sisters-in-law...",
+        "whyDifficult": "Pluralize the main noun (sisters), not the end.",
+        "visualHighlighting": {
+          "incorrect": "sister-in-laws",
+          "correct": "sisters-in-law"
+        }
+      }
+    },
+    {
+      "id": "plu-h14-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The ___ watched the accident.",
+      "type": "multiple_choice",
+      "options": [
+        "passer-bys",
+        "passers-by",
+        "passers-bys"
+      ],
+      "correctAnswer": "passers-by",
+      "feedback": "Correct! Make the person plural (passers).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les passants ont regardé...",
+        "englishStructure": "The passers-by watched...",
+        "whyDifficult": "Pluralize the person (passers), not the preposition.",
+        "visualHighlighting": {
+          "incorrect": "passer-bys",
+          "correct": "passers-by"
+        }
+      }
+    },
+    {
+      "id": "plu-h15-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "He is a ___ boy.",
+      "type": "multiple_choice",
+      "options": [
+        "five-years-old",
+        "five-year-old",
+        "five-years"
+      ],
+      "correctAnswer": "five-year-old",
+      "feedback": "Correct! When a number is an adjective, it is singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "C'est un garçon de cinq ans...",
+        "englishStructure": "He is a five-year-old boy...",
+        "whyDifficult": "Compound adjectives are singular (no 's' on year).",
+        "visualHighlighting": {
+          "incorrect": "five-years-old",
+          "correct": "five-year-old"
+        }
+      }
+    },
+    {
+      "id": "plu-h16-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I found a ___ bill.",
+      "type": "multiple_choice",
+      "options": [
+        "ten-dollars",
+        "ten-dollar",
+        "tens-dollar"
+      ],
+      "correctAnswer": "ten-dollar",
+      "feedback": "Correct! Singular adjective.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "J'ai trouvé un billet de dix dollars...",
+        "englishStructure": "I found a ten-dollar bill...",
+        "whyDifficult": "Adjectives are singular (no 's' on dollar).",
+        "visualHighlighting": {
+          "incorrect": "ten-dollars bill",
+          "correct": "ten-dollar bill"
+        }
+      }
+    },
+    {
+      "id": "plu-h17-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "A large ___ of money was stolen.",
+      "type": "multiple_choice",
+      "options": [
+        "number",
+        "amount",
+        "many"
+      ],
+      "correctAnswer": "amount",
+      "feedback": "Correct! 'Amount' is for uncountable nouns. 'Number' is for countable.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Une grande somme d'argent...",
+        "englishStructure": "A large amount of money...",
+        "whyDifficult": "'Money' is uncountable -> amount. 'Number' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "large number of money",
+          "correct": "large amount of money"
+        }
+      }
+    },
+    {
+      "id": "plu-h18-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I have ___ money than you.",
+      "type": "multiple_choice",
+      "options": [
+        "less",
+        "fewer",
+        "lesser"
+      ],
+      "correctAnswer": "less",
+      "feedback": "Correct! 'Less' is for uncountable. 'Fewer' is for countable.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Less vs Fewer)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai moins d'argent...",
+        "englishStructure": "I have less money...",
+        "whyDifficult": "'Money' is uncountable -> less. 'Fewer' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "fewer money",
+          "correct": "less money"
+        }
+      }
+    },
+    {
+      "id": "plu-h19-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Measles ___ a disease.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Diseases ending in 's' are singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "La rougeole est...",
+        "englishStructure": "Measles is a disease...",
+        "whyDifficult": "Diseases ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Measles are",
+          "correct": "Measles is"
+        }
+      }
+    },
+    {
+      "id": "plu-h20-A",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The data ___ correct.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "datum"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Data' can be plural, but in modern English it is usually treated as uncountable/singular.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Latin Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les données sont...",
+        "englishStructure": "The data is correct...",
+        "whyDifficult": "'Data' is usually treated as singular in modern English.",
+        "visualHighlighting": {
+          "incorrect": "The data are",
+          "correct": "The data is"
+        }
+      }
+    },
+    {
+      "id": "plu-e01-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "My father has three ___.",
+      "type": "multiple_choice",
+      "options": [
+        "brother",
+        "brothers",
+        "brother's"
+      ],
+      "correctAnswer": "brothers",
+      "feedback": "Correct! 'Three' is plural, so we add 's'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Mon père a trois frères...",
+        "englishStructure": "My father has three brothers...",
+        "whyDifficult": "Pronounce the plural 's' in English.",
+        "visualHighlighting": {
+          "incorrect": "three brother",
+          "correct": "three brothers"
+        }
+      }
+    },
+    {
+      "id": "plu-e02-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "I need two ___ for the sauce.",
+      "type": "multiple_choice",
+      "options": [
+        "tomato",
+        "tomatoes",
+        "tomatos"
+      ],
+      "correctAnswer": "tomatoes",
+      "feedback": "Correct! 'Tomato' ends in 'o', so we add '-es'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin de deux tomates...",
+        "englishStructure": "I need two tomatoes...",
+        "whyDifficult": "Spelling rule: Words ending in 'o' often take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "two tomato",
+          "correct": "two tomatoes"
+        }
+      }
+    },
+    {
+      "id": "plu-e03-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "How many ___ do you have?",
+      "type": "multiple_choice",
+      "options": [
+        "children",
+        "childs",
+        "childrens"
+      ],
+      "correctAnswer": "children",
+      "feedback": "Correct! 'Children' is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Combien d'enfants...",
+        "englishStructure": "How many children...",
+        "whyDifficult": "Irregular plural: Child -> Children.",
+        "visualHighlighting": {
+          "incorrect": "How many childs",
+          "correct": "How many children"
+        }
+      }
+    },
+    {
+      "id": "plu-e04-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are working in the field.",
+      "type": "multiple_choice",
+      "options": [
+        "mens",
+        "men",
+        "man"
+      ],
+      "correctAnswer": "men",
+      "feedback": "Correct! 'Men' is the plural of 'man'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les hommes travaillent...",
+        "englishStructure": "The men are working...",
+        "whyDifficult": "Irregular plural: Man -> Men.",
+        "visualHighlighting": {
+          "incorrect": "The mens",
+          "correct": "The men"
+        }
+      }
+    },
+    {
+      "id": "plu-e05-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are dancing.",
+      "type": "multiple_choice",
+      "options": [
+        "women",
+        "womans",
+        "womens"
+      ],
+      "correctAnswer": "women",
+      "feedback": "Correct! 'Women' is the plural of 'woman'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les femmes dansent...",
+        "englishStructure": "The women are dancing...",
+        "whyDifficult": "Irregular plural: Woman -> Women.",
+        "visualHighlighting": {
+          "incorrect": "The womans",
+          "correct": "The women"
+        }
+      }
+    },
+    {
+      "id": "plu-e06-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Many ___ are waiting.",
+      "type": "multiple_choice",
+      "options": [
+        "people",
+        "person",
+        "peoples"
+      ],
+      "correctAnswer": "people",
+      "feedback": "Correct! 'People' is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Beaucoup de gens attendent...",
+        "englishStructure": "Many people are waiting...",
+        "whyDifficult": "'People' is plural.",
+        "visualHighlighting": {
+          "incorrect": "Many peoples",
+          "correct": "Many people"
+        }
+      }
+    },
+    {
+      "id": "plu-e07-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The money ___ on the table.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "were",
+        "is"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Money' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Money)",
+      "frenchComparison": {
+        "frenchStructure": "L'argent est sur la table...",
+        "englishStructure": "The money is on the table...",
+        "whyDifficult": "'Money' is singular/uncountable.",
+        "visualHighlighting": {
+          "incorrect": "The money are",
+          "correct": "The money is"
+        }
+      }
+    },
+    {
+      "id": "plu-e08-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Milk ___ good for you.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Milk' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Liquids)",
+      "frenchComparison": {
+        "frenchStructure": "Le lait est bon...",
+        "englishStructure": "Milk is good...",
+        "whyDifficult": "Liquids are uncountable/singular.",
+        "visualHighlighting": {
+          "incorrect": "Milk are",
+          "correct": "Milk is"
+        }
+      }
+    },
+    {
+      "id": "plu-e09-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Fufu ___ delicious.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Fufu' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Le fufu est délicieux...",
+        "englishStructure": "Fufu is delicious...",
+        "whyDifficult": "Food items like 'fufu' are often uncountable.",
+        "visualHighlighting": {
+          "incorrect": "Fufu are",
+          "correct": "Fufu is"
+        }
+      }
+    },
+    {
+      "id": "plu-e10-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "I eat ___ for breakfast.",
+      "type": "multiple_choice",
+      "options": [
+        "bread",
+        "breads",
+        "a bread"
+      ],
+      "correctAnswer": "bread",
+      "feedback": "Correct! 'Bread' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Food)",
+      "frenchComparison": {
+        "frenchStructure": "Je mange du pain...",
+        "englishStructure": "I eat bread...",
+        "whyDifficult": "'Bread' is uncountable (no 'a' or 's').",
+        "visualHighlighting": {
+          "incorrect": "eat a bread",
+          "correct": "eat bread"
+        }
+      }
+    },
+    {
+      "id": "plu-e11-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "He has big ___.",
+      "type": "multiple_choice",
+      "options": [
+        "feet",
+        "foots",
+        "feets"
+      ],
+      "correctAnswer": "feet",
+      "feedback": "Correct! Plural of 'foot' is 'feet'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Il a de grands pieds...",
+        "englishStructure": "He has big feet...",
+        "whyDifficult": "Irregular plural: Foot -> Feet.",
+        "visualHighlighting": {
+          "incorrect": "big foots",
+          "correct": "big feet"
+        }
+      }
+    },
+    {
+      "id": "plu-e12-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "My ___ are white.",
+      "type": "multiple_choice",
+      "options": [
+        "teeth",
+        "tooths",
+        "tooth"
+      ],
+      "correctAnswer": "teeth",
+      "feedback": "Correct! Plural of 'tooth' is 'teeth'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Mes dents sont blanches...",
+        "englishStructure": "My teeth are white...",
+        "whyDifficult": "Irregular plural: Tooth -> Teeth.",
+        "visualHighlighting": {
+          "incorrect": "My tooths",
+          "correct": "My teeth"
+        }
+      }
+    },
+    {
+      "id": "plu-e13-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "I stayed for five ___.",
+      "type": "multiple_choice",
+      "options": [
+        "days",
+        "day",
+        "daies"
+      ],
+      "correctAnswer": "days",
+      "feedback": "Correct! Add 's'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Je suis resté cinq jours...",
+        "englishStructure": "I stayed for five days...",
+        "whyDifficult": "Pronounce the 's'.",
+        "visualHighlighting": {
+          "incorrect": "five day",
+          "correct": "five days"
+        }
+      }
+    },
+    {
+      "id": "plu-e14-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Open the ___.",
+      "type": "multiple_choice",
+      "options": [
+        "boxes",
+        "boxs",
+        "box"
+      ],
+      "correctAnswer": "boxes",
+      "feedback": "Correct! Add '-es'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Ouvre les boîtes...",
+        "englishStructure": "Open the boxes...",
+        "whyDifficult": "Spelling rule: Words ending in 'x' take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "the boxs",
+          "correct": "the boxes"
+        }
+      }
+    },
+    {
+      "id": "plu-e15-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are full.",
+      "type": "multiple_choice",
+      "options": [
+        "buses",
+        "bus",
+        "buss"
+      ],
+      "correctAnswer": "buses",
+      "feedback": "Correct! Add '-es'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Regular Plurals (-es)",
+      "frenchComparison": {
+        "frenchStructure": "Les bus sont pleins...",
+        "englishStructure": "The buses are full...",
+        "whyDifficult": "Spelling rule: Words ending in 's' take '-es'.",
+        "visualHighlighting": {
+          "incorrect": "The bus",
+          "correct": "The buses"
+        }
+      }
+    },
+    {
+      "id": "plu-e16-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "There are many ___ in Cameroon.",
+      "type": "multiple_choice",
+      "options": [
+        "cities",
+        "citys",
+        "city"
+      ],
+      "correctAnswer": "cities",
+      "feedback": "Correct! 'City' becomes 'cities'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ies)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de villes...",
+        "englishStructure": "There are many cities...",
+        "whyDifficult": "Spelling rule: Consonant + 'y' -> 'ies'.",
+        "visualHighlighting": {
+          "incorrect": "many citys",
+          "correct": "many cities"
+        }
+      }
+    },
+    {
+      "id": "plu-e17-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are eating together.",
+      "type": "multiple_choice",
+      "options": [
+        "families",
+        "familys",
+        "family"
+      ],
+      "correctAnswer": "families",
+      "feedback": "Correct! 'Family' becomes 'families'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ies)",
+      "frenchComparison": {
+        "frenchStructure": "Les familles mangent...",
+        "englishStructure": "The families are eating...",
+        "whyDifficult": "Spelling rule: Consonant + 'y' -> 'ies'.",
+        "visualHighlighting": {
+          "incorrect": "The familys",
+          "correct": "The families"
+        }
+      }
+    },
+    {
+      "id": "plu-e18-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are cooking.",
+      "type": "multiple_choice",
+      "options": [
+        "wives",
+        "wifes",
+        "wive"
+      ],
+      "correctAnswer": "wives",
+      "feedback": "Correct! 'Wife' becomes 'wives'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "Les épouses cuisinent...",
+        "englishStructure": "The wives are cooking...",
+        "whyDifficult": "Spelling rule: 'fe' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "The wifes",
+          "correct": "The wives"
+        }
+      }
+    },
+    {
+      "id": "plu-e19-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "The ___ are green.",
+      "type": "multiple_choice",
+      "options": [
+        "leaves",
+        "leafs",
+        "leaf"
+      ],
+      "correctAnswer": "leaves",
+      "feedback": "Correct! 'Leaf' becomes 'leaves'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "Les feuilles sont vertes...",
+        "englishStructure": "The leaves are green...",
+        "whyDifficult": "Spelling rule: 'f' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "The leafs",
+          "correct": "The leaves"
+        }
+      }
+    },
+    {
+      "id": "plu-e20-B",
+      "moduleId": "plurality",
+      "difficulty": "easy",
+      "questionText": "Where are the ___?",
+      "type": "multiple_choice",
+      "options": [
+        "knives",
+        "knifes",
+        "knive"
+      ],
+      "correctAnswer": "knives",
+      "feedback": "Correct! 'Knife' becomes 'knives'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Spelling Rules (-ves)",
+      "frenchComparison": {
+        "frenchStructure": "Où sont les couteaux...",
+        "englishStructure": "Where are the knives...",
+        "whyDifficult": "Spelling rule: 'fe' -> 'ves'.",
+        "visualHighlighting": {
+          "incorrect": "the knifes",
+          "correct": "the knives"
+        }
+      }
+    },
+    {
+      "id": "plu-m01-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Do you have any ___?",
+      "type": "multiple_choice",
+      "options": [
+        "information",
+        "informations",
+        "an information"
+      ],
+      "correctAnswer": "information",
+      "feedback": "Correct! 'Information' never has an 's'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Information)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu des informations...",
+        "englishStructure": "Do you have any information...",
+        "whyDifficult": "French uses plural 'informations'. English 'information' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "any informations",
+          "correct": "any information"
+        }
+      }
+    },
+    {
+      "id": "plu-m02-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I need some ___.",
+      "type": "multiple_choice",
+      "options": [
+        "advice",
+        "advices",
+        "an advice"
+      ],
+      "correctAnswer": "advice",
+      "feedback": "Correct! 'Advice' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin de conseils...",
+        "englishStructure": "I need some advice...",
+        "whyDifficult": "French uses plural 'conseils'. English 'advice' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "some advices",
+          "correct": "some advice"
+        }
+      }
+    },
+    {
+      "id": "plu-m03-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "We bought some new ___.",
+      "type": "multiple_choice",
+      "options": [
+        "furniture",
+        "furnitures",
+        "furniturs"
+      ],
+      "correctAnswer": "furniture",
+      "feedback": "Correct! 'Furniture' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons acheté de nouveaux meubles...",
+        "englishStructure": "We bought some new furniture...",
+        "whyDifficult": "French uses plural 'meubles'. English 'furniture' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "new furnitures",
+          "correct": "new furniture"
+        }
+      }
+    },
+    {
+      "id": "plu-m04-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Where is my ___?",
+      "type": "multiple_choice",
+      "options": [
+        "luggage",
+        "luggages",
+        "baggages"
+      ],
+      "correctAnswer": "luggage",
+      "feedback": "Correct! 'Luggage' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Luggage)",
+      "frenchComparison": {
+        "frenchStructure": "Où sont mes bagages...",
+        "englishStructure": "Where is my luggage...",
+        "whyDifficult": "French uses plural 'bagages'. English 'luggage' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "Where are my luggages",
+          "correct": "Where is my luggage"
+        }
+      }
+    },
+    {
+      "id": "plu-m05-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I'm busy. I have much ___.",
+      "type": "multiple_choice",
+      "options": [
+        "work",
+        "works",
+        "jobs"
+      ],
+      "correctAnswer": "work",
+      "feedback": "Correct! 'Work' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Work)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai beaucoup de travail...",
+        "englishStructure": "I have much work...",
+        "whyDifficult": "'Work' is uncountable. 'Works' means 'factory' or 'art'.",
+        "visualHighlighting": {
+          "incorrect": "much works",
+          "correct": "much work"
+        }
+      }
+    },
+    {
+      "id": "plu-m06-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "No news ___ good news.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'News' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Pas de nouvelles, bonnes nouvelles...",
+        "englishStructure": "No news is good news...",
+        "whyDifficult": "'News' looks plural but takes a singular verb.",
+        "visualHighlighting": {
+          "incorrect": "No news are",
+          "correct": "No news is"
+        }
+      }
+    },
+    {
+      "id": "plu-m07-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "People ___ laughing.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'People' is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (People)",
+      "frenchComparison": {
+        "frenchStructure": "Les gens rient...",
+        "englishStructure": "People are laughing...",
+        "whyDifficult": "'People' is plural.",
+        "visualHighlighting": {
+          "incorrect": "People is",
+          "correct": "People are"
+        }
+      }
+    },
+    {
+      "id": "plu-m08-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The police ___ coming.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Police' is plural.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns (Police)",
+      "frenchComparison": {
+        "frenchStructure": "La police arrive...",
+        "englishStructure": "The police are coming...",
+        "whyDifficult": "In French, 'la police' is singular. In English, 'police' is plural.",
+        "visualHighlighting": {
+          "incorrect": "The police is",
+          "correct": "The police are"
+        }
+      }
+    },
+    {
+      "id": "plu-m09-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "My ___ is black.",
+      "type": "multiple_choice",
+      "options": [
+        "hair",
+        "hairs",
+        "hair's"
+      ],
+      "correctAnswer": "hair",
+      "feedback": "Correct! 'Hair' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Hair)",
+      "frenchComparison": {
+        "frenchStructure": "Mes cheveux sont noirs...",
+        "englishStructure": "My hair is black...",
+        "whyDifficult": "French uses plural 'cheveux'. English 'hair' is uncountable/singular.",
+        "visualHighlighting": {
+          "incorrect": "My hairs are",
+          "correct": "My hair is"
+        }
+      }
+    },
+    {
+      "id": "plu-m10-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Do you like ___?",
+      "type": "multiple_choice",
+      "options": [
+        "fruit",
+        "fruits",
+        "fruit's"
+      ],
+      "correctAnswer": "fruit",
+      "feedback": "Correct! 'Fruit' is usually uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Fruit)",
+      "frenchComparison": {
+        "frenchStructure": "Aimes-tu les fruits...",
+        "englishStructure": "Do you like fruit...",
+        "whyDifficult": "French uses plural 'fruits'. English 'fruit' is often uncountable.",
+        "visualHighlighting": {
+          "incorrect": "like fruits",
+          "correct": "like fruit"
+        }
+      }
+    },
+    {
+      "id": "plu-m11-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "How ___ time do we have?",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "a lot"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Time' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "Combien de temps...",
+        "englishStructure": "How much time...",
+        "whyDifficult": "'Time' is uncountable -> much.",
+        "visualHighlighting": {
+          "incorrect": "How many time",
+          "correct": "How much time"
+        }
+      }
+    },
+    {
+      "id": "plu-m12-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "How ___ money is it?",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "few"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Money' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Much vs Many)",
+      "frenchComparison": {
+        "frenchStructure": "C'est combien d'argent...",
+        "englishStructure": "How much money is it...",
+        "whyDifficult": "'Money' is uncountable -> much.",
+        "visualHighlighting": {
+          "incorrect": "How many money",
+          "correct": "How much money"
+        }
+      }
+    },
+    {
+      "id": "plu-m13-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "There are ___ people here.",
+      "type": "multiple_choice",
+      "options": [
+        "a lot of",
+        "much",
+        "a little"
+      ],
+      "correctAnswer": "a lot of",
+      "feedback": "Correct! 'People' is countable. 'Much' is for uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (A lot of)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de gens...",
+        "englishStructure": "There are a lot of people...",
+        "whyDifficult": "'People' is countable. 'Much' is wrong.",
+        "visualHighlighting": {
+          "incorrect": "much people",
+          "correct": "a lot of people"
+        }
+      }
+    },
+    {
+      "id": "plu-m14-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "We have ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "little",
+        "few",
+        "many"
+      ],
+      "correctAnswer": "little",
+      "feedback": "Correct! 'Money' is uncountable, so use 'little'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Little vs Few)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons peu d'argent...",
+        "englishStructure": "We have little money...",
+        "whyDifficult": "'Money' is uncountable -> little. 'Few' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "few money",
+          "correct": "little money"
+        }
+      }
+    },
+    {
+      "id": "plu-m15-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "We need more ___ for the hospital.",
+      "type": "multiple_choice",
+      "options": [
+        "equipment",
+        "equipments",
+        "tools"
+      ],
+      "correctAnswer": "equipment",
+      "feedback": "Correct! 'Equipment' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Equipment)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons besoin de plus d'équipements...",
+        "englishStructure": "We need more equipment...",
+        "whyDifficult": "French uses plural 'équipements'. English 'equipment' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "more equipments",
+          "correct": "more equipment"
+        }
+      }
+    },
+    {
+      "id": "plu-m16-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "I have too ___ homework.",
+      "type": "multiple_choice",
+      "options": [
+        "much",
+        "many",
+        "a"
+      ],
+      "correctAnswer": "much",
+      "feedback": "Correct! 'Homework' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Homework)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai trop de devoirs...",
+        "englishStructure": "I have too much homework...",
+        "whyDifficult": "French uses plural 'devoirs'. English 'homework' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "too many homework",
+          "correct": "too much homework"
+        }
+      }
+    },
+    {
+      "id": "plu-m17-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "There is a lot of ___ in Douala.",
+      "type": "multiple_choice",
+      "options": [
+        "traffic",
+        "traffics",
+        "cars"
+      ],
+      "correctAnswer": "traffic",
+      "feedback": "Correct! 'Traffic' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Traffic)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a beaucoup de circulation...",
+        "englishStructure": "There is a lot of traffic...",
+        "whyDifficult": "'Traffic' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a lot of traffics",
+          "correct": "a lot of traffic"
+        }
+      }
+    },
+    {
+      "id": "plu-m18-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "The weather ___ nice today.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! 'Weather' is singular.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Weather)",
+      "frenchComparison": {
+        "frenchStructure": "Le temps est beau...",
+        "englishStructure": "The weather is nice...",
+        "whyDifficult": "'Weather' is singular/uncountable.",
+        "visualHighlighting": {
+          "incorrect": "The weather are",
+          "correct": "The weather is"
+        }
+      }
+    },
+    {
+      "id": "plu-m19-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "She wears a lot of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "jewelry",
+        "jewelries",
+        "jewel"
+      ],
+      "correctAnswer": "jewelry",
+      "feedback": "Correct! 'Jewelry' is uncountable.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Uncountable Nouns (Jewelry)",
+      "frenchComparison": {
+        "frenchStructure": "Elle porte beaucoup de bijoux...",
+        "englishStructure": "She wears a lot of jewelry...",
+        "whyDifficult": "French uses plural 'bijoux'. English 'jewelry' is uncountable.",
+        "visualHighlighting": {
+          "incorrect": "a lot of jewelries",
+          "correct": "a lot of jewelry"
+        }
+      }
+    },
+    {
+      "id": "plu-m20-B",
+      "moduleId": "plurality",
+      "difficulty": "medium",
+      "questionText": "Please buy a ___ of bread.",
+      "type": "multiple_choice",
+      "options": [
+        "loaf",
+        "piece",
+        "bar"
+      ],
+      "correctAnswer": "loaf",
+      "feedback": "Correct! We say 'a loaf of bread'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives",
+      "frenchComparison": {
+        "frenchStructure": "S'il te plaît, achète une miche de pain...",
+        "englishStructure": "Please buy a loaf of bread...",
+        "whyDifficult": "To count uncountable 'bread', use 'loaf'.",
+        "visualHighlighting": {
+          "incorrect": "a bread",
+          "correct": "a loaf of bread"
+        }
+      }
+    },
+    {
+      "id": "plu-h01-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "He gave me a ___ of advice.",
+      "type": "multiple_choice",
+      "options": [
+        "word",
+        "piece",
+        "some"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! We say 'a piece of advice'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Advice)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a donné un conseil...",
+        "englishStructure": "He gave me a piece of advice...",
+        "whyDifficult": "To count uncountable 'advice', use 'piece'.",
+        "visualHighlighting": {
+          "incorrect": "an advice",
+          "correct": "a piece of advice"
+        }
+      }
+    },
+    {
+      "id": "plu-h02-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "This is a useful ___ of information.",
+      "type": "multiple_choice",
+      "options": [
+        "piece",
+        "block",
+        "one"
+      ],
+      "correctAnswer": "piece",
+      "feedback": "Correct! We say 'a piece of information'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Information)",
+      "frenchComparison": {
+        "frenchStructure": "C'est une information utile...",
+        "englishStructure": "This is a useful piece of information...",
+        "whyDifficult": "To count uncountable 'information', use 'piece'.",
+        "visualHighlighting": {
+          "incorrect": "a useful information",
+          "correct": "a useful piece of information"
+        }
+      }
+    },
+    {
+      "id": "plu-h03-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "My scissors ___ lost.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Scissors' is always plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Only Nouns (Tools)",
+      "frenchComparison": {
+        "frenchStructure": "Mes ciseaux sont perdus...",
+        "englishStructure": "My scissors are lost...",
+        "whyDifficult": "'Scissors' is always plural.",
+        "visualHighlighting": {
+          "incorrect": "My scissors is",
+          "correct": "My scissors are"
+        }
+      }
+    },
+    {
+      "id": "plu-h04-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I need a new ___ of jeans.",
+      "type": "multiple_choice",
+      "options": [
+        "pair",
+        "couple",
+        "piece"
+      ],
+      "correctAnswer": "pair",
+      "feedback": "Correct! We say 'a pair of jeans'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Partitives (Pair)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin d'un nouveau jean...",
+        "englishStructure": "I need a new pair of jeans...",
+        "whyDifficult": "Jeans are plural. Use 'pair' to count one item.",
+        "visualHighlighting": {
+          "incorrect": "a new jeans",
+          "correct": "a new pair of jeans"
+        }
+      }
+    },
+    {
+      "id": "plu-h05-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Her glasses ___ broken.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Glasses' is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Plural Only Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Ses lunettes sont cassées...",
+        "englishStructure": "Her glasses are broken...",
+        "whyDifficult": "'Glasses' is plural.",
+        "visualHighlighting": {
+          "incorrect": "Her glasses is",
+          "correct": "Her glasses are"
+        }
+      }
+    },
+    {
+      "id": "plu-h06-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The cattle ___ in the barn.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Cattle' is always plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Irregular Plurals (Cattle)",
+      "frenchComparison": {
+        "frenchStructure": "Le bétail est dans la grange...",
+        "englishStructure": "The cattle are in the barn...",
+        "whyDifficult": "'Cattle' looks singular but is plural.",
+        "visualHighlighting": {
+          "incorrect": "The cattle is",
+          "correct": "The cattle are"
+        }
+      }
+    },
+    {
+      "id": "plu-h07-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The staff ___ working hard.",
+      "type": "multiple_choice",
+      "options": [
+        "are",
+        "is",
+        "was"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Staff' can be plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Collective Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Le personnel travaille dur...",
+        "englishStructure": "The staff are working hard...",
+        "whyDifficult": "'Staff' can take a plural verb when referring to people.",
+        "visualHighlighting": {
+          "incorrect": "The staff is",
+          "correct": "The staff are"
+        }
+      }
+    },
+    {
+      "id": "plu-h08-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The rich ___ help the poor.",
+      "type": "multiple_choice",
+      "options": [
+        "should",
+        "needs",
+        "is"
+      ],
+      "correctAnswer": "should",
+      "feedback": "Correct! 'The rich' is plural.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjectives as Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les riches devraient aider...",
+        "englishStructure": "The rich should help...",
+        "whyDifficult": "Adjectives as nouns (the rich) are plural.",
+        "visualHighlighting": {
+          "incorrect": "The rich needs",
+          "correct": "The rich should"
+        }
+      }
+    },
+    {
+      "id": "plu-h09-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Physics ___ difficult.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Subjects ending in 's' are singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "La physique est difficile...",
+        "englishStructure": "Physics is difficult...",
+        "whyDifficult": "Subjects ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Physics are",
+          "correct": "Physics is"
+        }
+      }
+    },
+    {
+      "id": "plu-h10-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "It is a ___ to an end.",
+      "type": "multiple_choice",
+      "options": [
+        "means",
+        "mean",
+        "meaning"
+      ],
+      "correctAnswer": "means",
+      "feedback": "Correct! 'Means' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est un moyen pour arriver à une fin...",
+        "englishStructure": "It is a means to an end...",
+        "whyDifficult": "'Means' ends in 's' even in singular.",
+        "visualHighlighting": {
+          "incorrect": "a mean",
+          "correct": "a means"
+        }
+      }
+    },
+    {
+      "id": "plu-h11-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "This ___ is rare.",
+      "type": "multiple_choice",
+      "options": [
+        "species",
+        "specie",
+        "specieses"
+      ],
+      "correctAnswer": "species",
+      "feedback": "Correct! 'Species' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Cette espèce est rare...",
+        "englishStructure": "This species is rare...",
+        "whyDifficult": "'Species' is the same in singular and plural.",
+        "visualHighlighting": {
+          "incorrect": "This specie",
+          "correct": "This species"
+        }
+      }
+    },
+    {
+      "id": "plu-h12-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "I caught three ___.",
+      "type": "multiple_choice",
+      "options": [
+        "fish",
+        "fishes",
+        "fishs"
+      ],
+      "correctAnswer": "fish",
+      "feedback": "Correct! 'Fish' stays 'fish'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Zero Plural Nouns",
+      "frenchComparison": {
+        "frenchStructure": "J'ai attrapé trois poissons...",
+        "englishStructure": "I caught three fish...",
+        "whyDifficult": "'Fish' usually doesn't change in plural.",
+        "visualHighlighting": {
+          "incorrect": "three fishes",
+          "correct": "three fish"
+        }
+      }
+    },
+    {
+      "id": "plu-h13-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "My sisters have husbands. They are my ___.",
+      "type": "multiple_choice",
+      "options": [
+        "brothers-in-law",
+        "brother-in-laws",
+        "brothers-in-laws"
+      ],
+      "correctAnswer": "brothers-in-law",
+      "feedback": "Correct! Pluralize 'brother'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Ce sont mes beaux-frères...",
+        "englishStructure": "They are my brothers-in-law...",
+        "whyDifficult": "Pluralize the main noun (brothers), not the end.",
+        "visualHighlighting": {
+          "incorrect": "brother-in-laws",
+          "correct": "brothers-in-law"
+        }
+      }
+    },
+    {
+      "id": "plu-h14-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The ___ ran away.",
+      "type": "multiple_choice",
+      "options": [
+        "lookers-on",
+        "looker-ons",
+        "lookers-ons"
+      ],
+      "correctAnswer": "lookers-on",
+      "feedback": "Correct! Pluralize the person (lookers).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Nouns",
+      "frenchComparison": {
+        "frenchStructure": "Les spectateurs se sont enfuis...",
+        "englishStructure": "The lookers-on ran away...",
+        "whyDifficult": "Pluralize the person (lookers), not the preposition.",
+        "visualHighlighting": {
+          "incorrect": "looker-ons",
+          "correct": "lookers-on"
+        }
+      }
+    },
+    {
+      "id": "plu-h15-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "It was a ___ flight.",
+      "type": "multiple_choice",
+      "options": [
+        "two-hour",
+        "two-hours",
+        "two-hours'"
+      ],
+      "correctAnswer": "two-hour",
+      "feedback": "Correct! Singular adjective.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "C'était un vol de deux heures...",
+        "englishStructure": "It was a two-hour flight...",
+        "whyDifficult": "Compound adjectives are singular (no 's' on hour).",
+        "visualHighlighting": {
+          "incorrect": "two-hours flight",
+          "correct": "two-hour flight"
+        }
+      }
+    },
+    {
+      "id": "plu-h16-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "She has a ___ contract.",
+      "type": "multiple_choice",
+      "options": [
+        "three-year",
+        "three-years",
+        "three-years-old"
+      ],
+      "correctAnswer": "three-year",
+      "feedback": "Correct! Singular adjective.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Compound Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Elle a un contrat de trois ans...",
+        "englishStructure": "She has a three-year contract...",
+        "whyDifficult": "Compound adjectives are singular (no 's' on year).",
+        "visualHighlighting": {
+          "incorrect": "three-years contract",
+          "correct": "three-year contract"
+        }
+      }
+    },
+    {
+      "id": "plu-h17-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "A large ___ of water was wasted.",
+      "type": "multiple_choice",
+      "options": [
+        "amount",
+        "number",
+        "many"
+      ],
+      "correctAnswer": "amount",
+      "feedback": "Correct! 'Water' is uncountable.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Amount vs Number)",
+      "frenchComparison": {
+        "frenchStructure": "Une grande quantité d'eau...",
+        "englishStructure": "A large amount of water...",
+        "whyDifficult": "'Water' is uncountable -> amount. 'Number' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "large number of water",
+          "correct": "large amount of water"
+        }
+      }
+    },
+    {
+      "id": "plu-h18-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "There is ___ traffic today.",
+      "type": "multiple_choice",
+      "options": [
+        "less",
+        "fewer",
+        "lesser"
+      ],
+      "correctAnswer": "less",
+      "feedback": "Correct! 'Traffic' is uncountable.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Less vs Fewer)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a moins de circulation...",
+        "englishStructure": "There is less traffic today...",
+        "whyDifficult": "'Traffic' is uncountable -> less. 'Fewer' is for countable.",
+        "visualHighlighting": {
+          "incorrect": "fewer traffic",
+          "correct": "less traffic"
+        }
+      }
+    },
+    {
+      "id": "plu-h19-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "Mumps ___ an illness.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "is",
+      "feedback": "Correct! Diseases ending in 's' are singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular Nouns ending in S",
+      "frenchComparison": {
+        "frenchStructure": "Les oreillons sont une maladie...",
+        "englishStructure": "Mumps is an illness...",
+        "whyDifficult": "Diseases ending in 's' are singular.",
+        "visualHighlighting": {
+          "incorrect": "Mumps are",
+          "correct": "Mumps is"
+        }
+      }
+    },
+    {
+      "id": "plu-h20-B",
+      "moduleId": "plurality",
+      "difficulty": "hard",
+      "questionText": "The media ___ reporting the news.",
+      "type": "multiple_choice",
+      "options": [
+        "is",
+        "are",
+        "medium"
+      ],
+      "correctAnswer": "are",
+      "feedback": "Correct! 'Media' is plural (of medium), though often treated as singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Latin Plurals",
+      "frenchComparison": {
+        "frenchStructure": "Les médias rapportent...",
+        "englishStructure": "The media are reporting...",
+        "whyDifficult": "'Media' is plural (of medium).",
+        "visualHighlighting": {
+          "incorrect": "The media is",
+          "correct": "The media are"
+        }
+      }
+    }
+  ]
+}

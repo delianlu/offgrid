@@ -1,0 +1,3296 @@
+{
+  "id": "pronouns-possessives",
+  "name": "Pronouns & Possessives",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Pronouns & Possessives module! This is where you learn to claim what is yours. The biggest challenge for French speakers is the 'His vs. Her' rule. In French, you look at the object (sa voiture). In English, you must look at the OWNER (his car). This module will help you master these differences.",
+  "contrastiveExplanation": "Gender Agreement:\nEnglish: Possessives agree with the OWNER. (Tom -> His car).\nFrench: Possessives agree with the OBJECT. (La voiture -> Sa voiture).\n\nObject Pronouns:\nEnglish: Objects are neutral. A book is 'It', not 'He'.\nFrench: Objects have gender. (Le livre -> Il).\n\nPossessive Pronouns:\nEnglish: Mine, Yours, Hers (No noun after).\nFrench: Le mien, Le tien.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "His vs Her",
+      "wrong": "Muna likes her father (talking about Muna/Male).",
+      "correct": "Muna likes his father.",
+      "frenchConnection": "French 'son père'. Student sees 'father' isn't feminine, but English looks at Muna (He)."
+    },
+    {
+      "number": 2,
+      "subTopic": "Gender of Objects",
+      "wrong": "I bought a bag. He is nice.",
+      "correct": "I bought a bag. It is nice.",
+      "frenchConnection": "French 'Il' (le sac). English objects are 'It'."
+    },
+    {
+      "number": 3,
+      "subTopic": "Possessive Adjectives",
+      "wrong": "This is the my book.",
+      "correct": "This is my book.",
+      "frenchConnection": "French 'Le mon livre' (incorrect even in French, but 'Le mien' logic interferes)."
+    },
+    {
+      "number": 4,
+      "subTopic": "Possessive Pronouns",
+      "wrong": "This book is my.",
+      "correct": "This book is mine.",
+      "frenchConnection": "Confusing adjective 'my' with pronoun 'mine'."
+    },
+    {
+      "number": 5,
+      "subTopic": "Its vs It's",
+      "wrong": "The dog ate it's food.",
+      "correct": "The dog ate its food.",
+      "frenchConnection": "Confusion with the contraction 'It is'."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "pp-e01-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Muna is a student. ___ goes to school in Buea.",
+      "type": "multiple_choice",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correctAnswer": "He",
+      "feedback": "Correct! Muna is a male name, so we use 'He'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Il va à l'école...",
+        "englishStructure": "He goes to school...",
+        "whyDifficult": "Basic gender agreement.",
+        "visualHighlighting": {
+          "incorrect": "She",
+          "correct": "He"
+        }
+      }
+    },
+    {
+      "id": "pp-e02-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Ngono is my sister. ___ is very kind.",
+      "type": "multiple_choice",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correctAnswer": "She",
+      "feedback": "Correct! Ngono is a female name, so we use 'She'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Elle est très gentille...",
+        "englishStructure": "She is very kind...",
+        "whyDifficult": "Basic gender agreement.",
+        "visualHighlighting": {
+          "incorrect": "He",
+          "correct": "She"
+        }
+      }
+    },
+    {
+      "id": "pp-e03-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Look at the dog! ___ is running fast.",
+      "type": "multiple_choice",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! For animals (unless we know the name/gender), we use 'It'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns (Animals)",
+      "frenchComparison": {
+        "frenchStructure": "Il court vite...",
+        "englishStructure": "It is running fast...",
+        "whyDifficult": "French uses 'Il' (masculine). English uses 'It' for animals/objects.",
+        "visualHighlighting": {
+          "incorrect": "He",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-e04-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "My parents are in the village. I miss ___.",
+      "type": "multiple_choice",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! After the verb 'miss', we use the object pronoun 'them'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ils me manquent...",
+        "englishStructure": "I miss them...",
+        "whyDifficult": "French structure is reversed (They miss to me). English is SVO (I miss them).",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e05-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "This is my book. Please give it to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "I",
+        "my",
+        "me"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! 'Me' is the object pronoun for 'I'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Donne-le moi...",
+        "englishStructure": "Give it to me...",
+        "whyDifficult": "Basic object pronoun usage.",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-e06-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Do you have ___ phone?",
+      "type": "multiple_choice",
+      "options": [
+        "you",
+        "your",
+        "yours"
+      ],
+      "correctAnswer": "your",
+      "feedback": "Correct! 'Your' is the possessive adjective before the noun 'phone'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Ton téléphone...",
+        "englishStructure": "Your phone...",
+        "whyDifficult": "Basic possessive adjective usage.",
+        "visualHighlighting": {
+          "incorrect": "you",
+          "correct": "your"
+        }
+      }
+    },
+    {
+      "id": "pp-e07-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I dropped my pen. Can you pick ___ up?",
+      "type": "multiple_choice",
+      "options": [
+        "him",
+        "her",
+        "it"
+      ],
+      "correctAnswer": "it",
+      "feedback": "Correct! A pen is an object, so we use 'it'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns (Things)",
+      "frenchComparison": {
+        "frenchStructure": "Ramasse-le...",
+        "englishStructure": "Pick it up...",
+        "whyDifficult": "French uses 'le' (masculine). English uses 'it' for objects.",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "it"
+        }
+      }
+    },
+    {
+      "id": "pp-e08-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "We are students. This is ___ classroom.",
+      "type": "multiple_choice",
+      "options": [
+        "our",
+        "us",
+        "we"
+      ],
+      "correctAnswer": "our",
+      "feedback": "Correct! Possessive for 'We' is 'Our'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Notre classe...",
+        "englishStructure": "Our classroom...",
+        "whyDifficult": "Basic possessive adjective usage.",
+        "visualHighlighting": {
+          "incorrect": "us",
+          "correct": "our"
+        }
+      }
+    },
+    {
+      "id": "pp-e09-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Where is Paul? I want to talk to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correctAnswer": "him",
+      "feedback": "Correct! 'Him' is the object pronoun for 'Paul'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Je veux lui parler...",
+        "englishStructure": "I want to talk to him...",
+        "whyDifficult": "French uses indirect object 'lui'. English uses preposition + object 'to him'.",
+        "visualHighlighting": {
+          "incorrect": "he",
+          "correct": "him"
+        }
+      }
+    },
+    {
+      "id": "pp-e10-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "These are my shoes. I bought ___ yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "them",
+        "they",
+        "it"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! 'Shoes' is plural, so we use 'them'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Je les ai achetées...",
+        "englishStructure": "I bought them...",
+        "whyDifficult": "Basic object pronoun usage.",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e11-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "That is not my bag. Is it ___?",
+      "type": "multiple_choice",
+      "options": [
+        "you",
+        "your",
+        "yours"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! 'Yours' is the possessive pronoun (le tien).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce le tien ?",
+        "englishStructure": "Is it yours?",
+        "whyDifficult": "Distinction between 'your' (adjective) and 'yours' (pronoun).",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-e12-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Muna and I are friends. ___ play football together.",
+      "type": "multiple_choice",
+      "options": [
+        "They",
+        "We",
+        "Us"
+      ],
+      "correctAnswer": "We",
+      "feedback": "Correct! Muna + I = We.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous jouons...",
+        "englishStructure": "We play...",
+        "whyDifficult": "Basic subject pronoun usage.",
+        "visualHighlighting": {
+          "incorrect": "They",
+          "correct": "We"
+        }
+      }
+    },
+    {
+      "id": "pp-e13-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Sarah lost ___ phone.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Sarah is female, so we use 'her'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Son téléphone...",
+        "englishStructure": "Her phone...",
+        "whyDifficult": "French uses 'son' (masculine) because 'téléphone' is masculine. English matches Sarah (Her).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-e14-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Tom broke ___ leg.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "he",
+        "his"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! Tom is male, so we use 'his'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Sa jambe...",
+        "englishStructure": "His leg...",
+        "whyDifficult": "French uses 'sa' (feminine) because 'jambe' is feminine. English matches Tom (His).",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "pp-e15-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "The cat is hungry. Feed ___.",
+      "type": "multiple_choice",
+      "options": [
+        "it",
+        "him",
+        "its"
+      ],
+      "correctAnswer": "it",
+      "feedback": "Correct! Object pronoun for animal is 'it'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nourris-le...",
+        "englishStructure": "Feed it...",
+        "whyDifficult": "French uses 'le' (masculine). English uses 'it'.",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "it"
+        }
+      }
+    },
+    {
+      "id": "pp-e16-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "They live in Douala. ___ house is big.",
+      "type": "multiple_choice",
+      "options": [
+        "There",
+        "Their",
+        "They"
+      ],
+      "correctAnswer": "Their",
+      "feedback": "Correct! Possessive for 'They' is 'Their'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Leur maison...",
+        "englishStructure": "Their house...",
+        "whyDifficult": "Homophone confusion (Their/There).",
+        "visualHighlighting": {
+          "incorrect": "There",
+          "correct": "Their"
+        }
+      }
+    },
+    {
+      "id": "pp-e17-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Please listen to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "I",
+        "my"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Object pronoun after 'listen to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Écoute-moi...",
+        "englishStructure": "Listen to me...",
+        "whyDifficult": "Basic object pronoun usage.",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-e18-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Is this pen ___?",
+      "type": "multiple_choice",
+      "options": [
+        "you",
+        "your",
+        "yours"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! Possessive pronoun at the end of sentence.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce le tien ?",
+        "englishStructure": "Is this pen yours?",
+        "whyDifficult": "Distinction between 'your' and 'yours'.",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-e19-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "The boys are playing. Look at ___.",
+      "type": "multiple_choice",
+      "options": [
+        "they",
+        "them",
+        "their"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! Object pronoun for 'boys' is 'them'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Regarde-les...",
+        "englishStructure": "Look at them...",
+        "whyDifficult": "Basic object pronoun usage.",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e20-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I like ___ job.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "mine",
+        "my"
+      ],
+      "correctAnswer": "my",
+      "feedback": "Correct! Possessive adjective before 'job'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Mon travail...",
+        "englishStructure": "My job...",
+        "whyDifficult": "Basic possessive adjective usage.",
+        "visualHighlighting": {
+          "incorrect": "mine",
+          "correct": "my"
+        }
+      }
+    },
+    {
+      "id": "pp-m01-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Muna loves ___ mother.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "her",
+        "its"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! Muna is male. We use 'his', even though 'mother' is female. (Le possesseur est masculin).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "His vs Her (Gender)",
+      "frenchComparison": {
+        "frenchStructure": "Sa mère...",
+        "englishStructure": "His mother...",
+        "whyDifficult": "French uses 'sa' (feminine) because 'mère' is feminine. English matches Muna (His).",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "pp-m02-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Ngono helps ___ father in the shop.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Ngono is female. We use 'her', even though 'father' is male.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "His vs Her (Gender)",
+      "frenchComparison": {
+        "frenchStructure": "Son père...",
+        "englishStructure": "Her father...",
+        "whyDifficult": "French uses 'son' (masculine) because 'père' is masculine. English matches Ngono (Her).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-m03-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The dog chased ___ tail.",
+      "type": "multiple_choice",
+      "options": [
+        "it's",
+        "its",
+        "his"
+      ],
+      "correctAnswer": "its",
+      "feedback": "Correct! 'Its' is the possessive form. 'It's' means 'It is'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Its vs It's",
+      "frenchComparison": {
+        "frenchStructure": "Sa queue...",
+        "englishStructure": "Its tail...",
+        "whyDifficult": "Confusion between 'Its' (possessive) and 'It's' (It is).",
+        "visualHighlighting": {
+          "incorrect": "it's",
+          "correct": "its"
+        }
+      }
+    },
+    {
+      "id": "pp-m04-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "That car is not ours. It is ___.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "correctAnswer": "theirs",
+      "feedback": "Correct! 'Theirs' is the possessive pronoun (Le leur).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "La leur...",
+        "englishStructure": "Theirs...",
+        "whyDifficult": "Distinction between 'their' (adjective) and 'theirs' (pronoun).",
+        "visualHighlighting": {
+          "incorrect": "their",
+          "correct": "theirs"
+        }
+      }
+    },
+    {
+      "id": "pp-m05-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "I cut ___ while cooking.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "myself",
+        "my"
+      ],
+      "correctAnswer": "myself",
+      "feedback": "Correct! When the subject and object are the same, use reflexive pronouns.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis coupé...",
+        "englishStructure": "I cut myself...",
+        "whyDifficult": "French uses reflexive verb 'se couper'. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "myself"
+        }
+      }
+    },
+    {
+      "id": "pp-m06-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Paul and I did the work by ___.",
+      "type": "multiple_choice",
+      "options": [
+        "ourselves",
+        "us",
+        "ourself"
+      ],
+      "correctAnswer": "ourselves",
+      "feedback": "Correct! 'Paul and I' = 'We'. Reflexive is 'ourselves' (plural).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous-mêmes...",
+        "englishStructure": "Ourselves...",
+        "whyDifficult": "Plural reflexive form 'ourselves' vs 'ourself' (incorrect).",
+        "visualHighlighting": {
+          "incorrect": "ourself",
+          "correct": "ourselves"
+        }
+      }
+    },
+    {
+      "id": "pp-m07-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Whose bag is this? It's ___.",
+      "type": "multiple_choice",
+      "options": [
+        "mine",
+        "my",
+        "me"
+      ],
+      "correctAnswer": "mine",
+      "feedback": "Correct! 'Mine' replaces 'My bag'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est le mien...",
+        "englishStructure": "It's mine...",
+        "whyDifficult": "Distinction between 'my' and 'mine'.",
+        "visualHighlighting": {
+          "incorrect": "my",
+          "correct": "mine"
+        }
+      }
+    },
+    {
+      "id": "pp-m08-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "I saw a bird. ___ wings were blue.",
+      "type": "multiple_choice",
+      "options": [
+        "It's",
+        "Its",
+        "His"
+      ],
+      "correctAnswer": "Its",
+      "feedback": "Correct! 'Its' shows possession for an animal/thing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Its vs It's",
+      "frenchComparison": {
+        "frenchStructure": "Ses ailes...",
+        "englishStructure": "Its wings...",
+        "whyDifficult": "Confusion between 'Its' and 'It's'.",
+        "visualHighlighting": {
+          "incorrect": "It's",
+          "correct": "Its"
+        }
+      }
+    },
+    {
+      "id": "pp-m09-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Is that coffee ___?",
+      "type": "multiple_choice",
+      "options": [
+        "your",
+        "yours",
+        "you"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! 'Yours' replaces 'Your coffee'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Le tien...",
+        "englishStructure": "Yours...",
+        "whyDifficult": "Distinction between 'your' and 'yours'.",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-m10-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The children are washing ___ hands.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "there",
+        "theirs"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! Possessive adjective for 'children' (they) is 'their'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Leurs mains...",
+        "englishStructure": "Their hands...",
+        "whyDifficult": "Homophone confusion (Their/There).",
+        "visualHighlighting": {
+          "incorrect": "there",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-m11-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "She lives by ___.",
+      "type": "multiple_choice",
+      "options": [
+        "herself",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "herself",
+      "feedback": "Correct! 'By herself' means 'alone'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns (Idioms)",
+      "frenchComparison": {
+        "frenchStructure": "Toute seule...",
+        "englishStructure": "By herself...",
+        "whyDifficult": "Idiomatic expression 'by oneself'.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "herself"
+        }
+      }
+    },
+    {
+      "id": "pp-m12-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Find the error: \"This is the mine.\"",
+      "type": "error_correction",
+      "options": [
+        "This is",
+        "the mine",
+        "No error"
+      ],
+      "correctAnswer": "the mine",
+      "feedback": "Correct! In English, we never use 'the' before possessive pronouns. Say 'This is mine'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "correction": "mine",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "C'est le mien...",
+        "englishStructure": "This is mine...",
+        "whyDifficult": "French uses article 'le' before 'mien'. English does not.",
+        "visualHighlighting": {
+          "incorrect": "the mine",
+          "correct": "mine"
+        }
+      }
+    },
+    {
+      "id": "pp-m13-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Every student must bring ___ book.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "his or her",
+        "its"
+      ],
+      "correctAnswer": "his or her",
+      "feedback": "Correct! Traditionally 'his or her' is singular. (Note: 'Their' is common in modern English, but 'his or her' is formally precise for singular).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Son livre...",
+        "englishStructure": "His or her book...",
+        "whyDifficult": "Agreement with singular indefinite subject 'Every student'.",
+        "visualHighlighting": {
+          "incorrect": "their",
+          "correct": "his or her"
+        }
+      }
+    },
+    {
+      "id": "pp-m14-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Look at the baby. ___ is crying.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "He",
+        "She"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! If the gender of a baby is unknown, we often use 'It'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns (Baby)",
+      "frenchComparison": {
+        "frenchStructure": "Il pleure...",
+        "englishStructure": "It is crying...",
+        "whyDifficult": "French uses 'Il' (masculine). English uses 'It' for babies of unknown gender.",
+        "visualHighlighting": {
+          "incorrect": "He",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-m15-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "I saw your car. It is older than ___.",
+      "type": "multiple_choice",
+      "options": [
+        "my",
+        "mine",
+        "me"
+      ],
+      "correctAnswer": "mine",
+      "feedback": "Correct! Comparison: Your car vs My car (Mine).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "La mienne...",
+        "englishStructure": "Mine...",
+        "whyDifficult": "Distinction between 'my' and 'mine'.",
+        "visualHighlighting": {
+          "incorrect": "my",
+          "correct": "mine"
+        }
+      }
+    },
+    {
+      "id": "pp-m16-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Did you enjoy ___ at the party?",
+      "type": "multiple_choice",
+      "options": [
+        "you",
+        "yourselves",
+        "yourself"
+      ],
+      "correctAnswer": "yourself",
+      "feedback": "Correct! 'Enjoy yourself' is a reflexive verb phrase.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "T'es-tu amusé...",
+        "englishStructure": "Did you enjoy yourself...",
+        "whyDifficult": "French uses reflexive verb 's'amuser'. English uses 'enjoy' + reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "you",
+          "correct": "yourself"
+        }
+      }
+    },
+    {
+      "id": "pp-m17-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The company increased ___ profits.",
+      "type": "multiple_choice",
+      "options": [
+        "its",
+        "it's",
+        "their"
+      ],
+      "correctAnswer": "its",
+      "feedback": "Correct! A company is a thing (it), so possessive is 'its'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Its vs It's",
+      "frenchComparison": {
+        "frenchStructure": "Ses profits...",
+        "englishStructure": "Its profits...",
+        "whyDifficult": "Confusion between 'Its' and 'It's'.",
+        "visualHighlighting": {
+          "incorrect": "it's",
+          "correct": "its"
+        }
+      }
+    },
+    {
+      "id": "pp-m18-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Give it to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "she",
+        "hers"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Object pronoun after preposition 'to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Donne-lui...",
+        "englishStructure": "Give it to her...",
+        "whyDifficult": "French uses indirect object 'lui'. English uses preposition + object 'to her'.",
+        "visualHighlighting": {
+          "incorrect": "she",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-m19-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "My parents sold ___ car.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "theirs",
+        "there"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! Possessive adjective.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Leur voiture...",
+        "englishStructure": "Their car...",
+        "whyDifficult": "Homophone confusion (Their/There).",
+        "visualHighlighting": {
+          "incorrect": "there",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-m20-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Is this house ___?",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correctAnswer": "hers",
+      "feedback": "Correct! Possessive pronoun.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "La sienne...",
+        "englishStructure": "Hers...",
+        "whyDifficult": "Distinction between 'her' and 'hers'.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "hers"
+        }
+      }
+    },
+    {
+      "id": "pp-h01-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "One should be careful with ___ money.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "one's",
+        "their"
+      ],
+      "correctAnswer": "one's",
+      "feedback": "Correct! Formal English uses 'one's' to match the subject 'One'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (One)",
+      "frenchComparison": {
+        "frenchStructure": "Son argent...",
+        "englishStructure": "One's money...",
+        "whyDifficult": "French uses 'son' (his). English uses 'one's' in formal contexts.",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "one's"
+        }
+      }
+    },
+    {
+      "id": "pp-h02-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "A friend of ___ called me.",
+      "type": "multiple_choice",
+      "options": [
+        "my",
+        "mine",
+        "me"
+      ],
+      "correctAnswer": "mine",
+      "feedback": "Correct! This is the Double Genitive structure: 'A friend of mine'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Double Genitive",
+      "frenchComparison": {
+        "frenchStructure": "Un de mes amis...",
+        "englishStructure": "A friend of mine...",
+        "whyDifficult": "French structure is 'One of my friends'. English uses 'of mine'.",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "mine"
+        }
+      }
+    },
+    {
+      "id": "pp-h03-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "They looked at ___ (reciprocal).",
+      "type": "multiple_choice",
+      "options": [
+        "themselves",
+        "each other",
+        "them"
+      ],
+      "correctAnswer": "each other",
+      "feedback": "Correct! 'Each other' implies A looked at B, and B looked at A. 'Themselves' means they looked in a mirror.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reciprocal Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ils se sont regardés...",
+        "englishStructure": "They looked at each other...",
+        "whyDifficult": "French uses reflexive 'se' for both reflexive and reciprocal meanings. English distinguishes 'themselves' vs 'each other'.",
+        "visualHighlighting": {
+          "incorrect": "themselves",
+          "correct": "each other"
+        }
+      }
+    },
+    {
+      "id": "pp-h04-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ appears that he is sick.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "He",
+        "There"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! 'It' is the dummy subject for 'appears'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (It vs There)",
+      "frenchComparison": {
+        "frenchStructure": "Il paraît que...",
+        "englishStructure": "It appears that...",
+        "whyDifficult": "Similar to French 'Il'.",
+        "visualHighlighting": {
+          "incorrect": "He",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-h05-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Me and Paul went out.\"",
+      "type": "error_correction",
+      "options": [
+        "Me and Paul",
+        "went out",
+        "No error"
+      ],
+      "correctAnswer": "Me and Paul",
+      "feedback": "Correct! 'Me' is an object pronoun. As a subject, say 'Paul and I'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "Paul and I",
+      "subTopic": "Subject vs Object Case",
+      "frenchComparison": {
+        "frenchStructure": "Paul et moi...",
+        "englishStructure": "Paul and I...",
+        "whyDifficult": "French uses emphatic pronoun 'moi'. English requires subject pronoun 'I'.",
+        "visualHighlighting": {
+          "incorrect": "Me and Paul",
+          "correct": "Paul and I"
+        }
+      }
+    },
+    {
+      "id": "pp-h06-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "If anyone calls, tell ___ I am busy.",
+      "type": "multiple_choice",
+      "options": [
+        "him",
+        "them",
+        "it"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! We often use 'them' as a gender-neutral singular pronoun for 'anyone'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular They",
+      "frenchComparison": {
+        "frenchStructure": "Dis-lui...",
+        "englishStructure": "Tell them...",
+        "whyDifficult": "French uses 'lui' (singular). English uses 'them' (singular they) for indefinite gender.",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-h07-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "It's ___ who did it.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "I",
+        "my"
+      ],
+      "correctAnswer": "I",
+      "feedback": "Correct! In formal English, after 'It is', we use the subject pronoun (It is I). 'It's me' is common informally but less 'correct'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Complement",
+      "frenchComparison": {
+        "frenchStructure": "C'est moi...",
+        "englishStructure": "It is I...",
+        "whyDifficult": "French uses emphatic 'moi'. Formal English uses subject 'I'.",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "I"
+        }
+      }
+    },
+    {
+      "id": "pp-h08-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ is a lot of traffic today.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "This"
+      ],
+      "correctAnswer": "There",
+      "feedback": "Correct! Use 'There' to show existence. 'It' refers to a specific thing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (It vs There)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a...",
+        "englishStructure": "There is...",
+        "whyDifficult": "French uses 'Il'. English uses 'There' for existence.",
+        "visualHighlighting": {
+          "incorrect": "It",
+          "correct": "There"
+        }
+      }
+    },
+    {
+      "id": "pp-h09-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Between you and ___, I don't like him.",
+      "type": "multiple_choice",
+      "options": [
+        "I",
+        "me",
+        "myself"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! 'Between' is a preposition, so it requires the object pronoun 'me'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns after Prepositions",
+      "frenchComparison": {
+        "frenchStructure": "Entre toi et moi...",
+        "englishStructure": "Between you and me...",
+        "whyDifficult": "Confusion between subject 'I' and object 'me'.",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-h10-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "My hair needs cutting. I will do it ___.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "myself",
+        "mine"
+      ],
+      "correctAnswer": "myself",
+      "feedback": "Correct! Reflexive for emphasis.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns (Emphasis)",
+      "frenchComparison": {
+        "frenchStructure": "Moi-même...",
+        "englishStructure": "Myself...",
+        "whyDifficult": "Direct translation works.",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "myself"
+        }
+      }
+    },
+    {
+      "id": "pp-h11-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Neither of the boys did ___ homework.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "his",
+        "its"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! Formally, 'Neither' is singular, so we use 'his'. (Though 'their' is common in speech).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Agreement with Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ses devoirs...",
+        "englishStructure": "His homework...",
+        "whyDifficult": "Agreement with singular 'Neither'.",
+        "visualHighlighting": {
+          "incorrect": "their",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "pp-h12-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "This idea of ___ is brilliant.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "hers",
+        "she"
+      ],
+      "correctAnswer": "hers",
+      "feedback": "Correct! Double Genitive: 'Of hers'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Double Genitive",
+      "frenchComparison": {
+        "frenchStructure": "Son idée...",
+        "englishStructure": "This idea of hers...",
+        "whyDifficult": "Double genitive structure is unique to English.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "hers"
+        }
+      }
+    },
+    {
+      "id": "pp-h13-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "We gave ___ presents.",
+      "type": "multiple_choice",
+      "options": [
+        "each other",
+        "us",
+        "ourselves"
+      ],
+      "correctAnswer": "each other",
+      "feedback": "Correct! Reciprocal action.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reciprocal Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous nous sommes donné...",
+        "englishStructure": "We gave each other...",
+        "whyDifficult": "French uses reflexive 'nous'. English uses 'each other'.",
+        "visualHighlighting": {
+          "incorrect": "ourselves",
+          "correct": "each other"
+        }
+      }
+    },
+    {
+      "id": "pp-h14-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Her and me are going to the market.\"",
+      "type": "error_correction",
+      "options": [
+        "Her and me",
+        "going",
+        "to the",
+        "No error"
+      ],
+      "correctAnswer": "Her and me",
+      "feedback": "Correct! Subject pronouns needed: 'She and I'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "She and I",
+      "subTopic": "Subject vs Object Case",
+      "frenchComparison": {
+        "frenchStructure": "Elle et moi...",
+        "englishStructure": "She and I...",
+        "whyDifficult": "French uses emphatic pronouns. English requires subject pronouns.",
+        "visualHighlighting": {
+          "incorrect": "Her and me",
+          "correct": "She and I"
+        }
+      }
+    },
+    {
+      "id": "pp-h15-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ is a nice park in the city.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "That"
+      ],
+      "correctAnswer": "There",
+      "feedback": "Correct! 'There is' for existence.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (It vs There)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a...",
+        "englishStructure": "There is...",
+        "whyDifficult": "French uses 'Il'. English uses 'There'.",
+        "visualHighlighting": {
+          "incorrect": "It",
+          "correct": "There"
+        }
+      }
+    },
+    {
+      "id": "pp-h16-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "I washed ___ (my body).",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "myself",
+        "Ø (no pronoun)"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! In English, verbs like 'wash', 'shave', 'dress' are usually NOT reflexive unless specific emphasis is needed.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Verbs (French vs English)",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis lavé...",
+        "englishStructure": "I washed...",
+        "whyDifficult": "French uses reflexive. English usually does not for daily actions.",
+        "visualHighlighting": {
+          "incorrect": "myself",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "pp-h17-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Everyone has ___ own problems.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "their",
+        "one's"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! 'Their' is the standard gender-neutral possessive for 'Everyone'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular They",
+      "frenchComparison": {
+        "frenchStructure": "Ses propres problèmes...",
+        "englishStructure": "Their own problems...",
+        "whyDifficult": "Agreement with indefinite 'Everyone'.",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-h18-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "He isn't as tall as ___.",
+      "type": "multiple_choice",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Informally 'me' is standard. Formally 'I' (as I am). 'Me' is safer in general use.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Comparison Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Que moi...",
+        "englishStructure": "As me...",
+        "whyDifficult": "French uses emphatic 'moi'. English uses object 'me' (informal/standard) or subject 'I' (formal).",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-h19-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "They hurt ___ during the game.",
+      "type": "multiple_choice",
+      "options": [
+        "theirselves",
+        "themselves",
+        "them"
+      ],
+      "correctAnswer": "themselves",
+      "feedback": "Correct! 'Theirselves' does not exist.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ils se sont blessés...",
+        "englishStructure": "They hurt themselves...",
+        "whyDifficult": "Irregular reflexive form 'themselves' (not theirselves).",
+        "visualHighlighting": {
+          "incorrect": "theirselves",
+          "correct": "themselves"
+        }
+      }
+    },
+    {
+      "id": "pp-h20-A",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ rained heavily yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "This"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! 'It' is used for weather.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (Weather)",
+      "frenchComparison": {
+        "frenchStructure": "Il a plu...",
+        "englishStructure": "It rained...",
+        "whyDifficult": "Similar to French 'Il'.",
+        "visualHighlighting": {
+          "incorrect": "There",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-e01-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "My father is tall. ___ plays basketball.",
+      "type": "multiple_choice",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correctAnswer": "He",
+      "feedback": "Correct! Father = He.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Il joue...",
+        "englishStructure": "He plays...",
+        "whyDifficult": "Direct translation works ('il' = 'he').",
+        "visualHighlighting": {
+          "incorrect": "She",
+          "correct": "He"
+        }
+      }
+    },
+    {
+      "id": "pp-e02-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "My mother cooks well. ___ is a chef.",
+      "type": "multiple_choice",
+      "options": [
+        "She",
+        "He",
+        "It"
+      ],
+      "correctAnswer": "She",
+      "feedback": "Correct! Mother = She.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Elle est...",
+        "englishStructure": "She is...",
+        "whyDifficult": "Direct translation works ('elle' = 'she').",
+        "visualHighlighting": {
+          "incorrect": "He",
+          "correct": "She"
+        }
+      }
+    },
+    {
+      "id": "pp-e03-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "The car is blue. ___ is new.",
+      "type": "multiple_choice",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! Car = It (Object).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns (Objects)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est neuve (la voiture)...",
+        "englishStructure": "It is new...",
+        "whyDifficult": "French assigns gender to objects (la voiture = elle). English uses 'it'.",
+        "visualHighlighting": {
+          "incorrect": "She",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-e04-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "The children are playing. Watch ___.",
+      "type": "multiple_choice",
+      "options": [
+        "them",
+        "they",
+        "their"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! Object pronoun for children.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Regarde-les...",
+        "englishStructure": "Watch them...",
+        "whyDifficult": "Direct translation works ('les' = 'them').",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e05-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Can you help ___? I am lost.",
+      "type": "multiple_choice",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Object pronoun 'me'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Peux-tu m'aider...",
+        "englishStructure": "Can you help me...",
+        "whyDifficult": "Direct translation works ('me/moi' = 'me').",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-e06-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Where is ___ bag? (talking to you)",
+      "type": "multiple_choice",
+      "options": [
+        "you",
+        "your",
+        "yours"
+      ],
+      "correctAnswer": "your",
+      "feedback": "Correct! Possessive adjective 'Your'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Ton sac...",
+        "englishStructure": "Your bag...",
+        "whyDifficult": "Direct translation works ('ton' = 'your').",
+        "visualHighlighting": {
+          "incorrect": "you",
+          "correct": "your"
+        }
+      }
+    },
+    {
+      "id": "pp-e07-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I like this song. I listen to ___ every day.",
+      "type": "multiple_choice",
+      "options": [
+        "it",
+        "him",
+        "her"
+      ],
+      "correctAnswer": "it",
+      "feedback": "Correct! Song = It.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns (Things)",
+      "frenchComparison": {
+        "frenchStructure": "Je l'écoute (la chanson)...",
+        "englishStructure": "I listen to it...",
+        "whyDifficult": "French uses gendered pronoun (la). English uses 'it'.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "it"
+        }
+      }
+    },
+    {
+      "id": "pp-e08-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "We have a house. It is ___ house.",
+      "type": "multiple_choice",
+      "options": [
+        "our",
+        "us",
+        "we"
+      ],
+      "correctAnswer": "our",
+      "feedback": "Correct! Possessive adjective for 'We'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Notre maison...",
+        "englishStructure": "Our house...",
+        "whyDifficult": "Direct translation works ('notre' = 'our').",
+        "visualHighlighting": {
+          "incorrect": "us",
+          "correct": "our"
+        }
+      }
+    },
+    {
+      "id": "pp-e09-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Did you see Sarah? I saw ___.",
+      "type": "multiple_choice",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Object pronoun for Sarah.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Je l'ai vue...",
+        "englishStructure": "I saw her...",
+        "whyDifficult": "Direct translation works ('la' = 'her').",
+        "visualHighlighting": {
+          "incorrect": "she",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-e10-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I like oranges. I eat ___ every day.",
+      "type": "multiple_choice",
+      "options": [
+        "them",
+        "they",
+        "it"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! Oranges (plural) = them.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns (Plural)",
+      "frenchComparison": {
+        "frenchStructure": "Je les mange...",
+        "englishStructure": "I eat them...",
+        "whyDifficult": "Direct translation works ('les' = 'them').",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e11-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "This is my chair. That one is ___.",
+      "type": "multiple_choice",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! 'Yours' (le tien).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "La tienne...",
+        "englishStructure": "Yours...",
+        "whyDifficult": "Direct translation works ('la tienne' = 'yours').",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-e12-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "You and I are late. ___ must run.",
+      "type": "multiple_choice",
+      "options": [
+        "We",
+        "Us",
+        "They"
+      ],
+      "correctAnswer": "We",
+      "feedback": "Correct! You + I = We.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous devons...",
+        "englishStructure": "We must...",
+        "whyDifficult": "Direct translation works ('nous' = 'we').",
+        "visualHighlighting": {
+          "incorrect": "Us",
+          "correct": "We"
+        }
+      }
+    },
+    {
+      "id": "pp-e13-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Amina is doing ___ homework.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Amina is female -> Her.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Ses devoirs...",
+        "englishStructure": "Her homework...",
+        "whyDifficult": "French possessive agrees with object ('ses' plural). English agrees with owner ('her' female).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-e14-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "John loves ___ wife.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "her",
+        "he"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! John is male -> His.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Sa femme...",
+        "englishStructure": "His wife...",
+        "whyDifficult": "French possessive agrees with object ('sa' female). English agrees with owner ('his' male).",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "pp-e15-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I have a bike. I ride ___.",
+      "type": "multiple_choice",
+      "options": [
+        "it",
+        "him",
+        "her"
+      ],
+      "correctAnswer": "it",
+      "feedback": "Correct! Bike = It.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Je le conduis...",
+        "englishStructure": "I ride it...",
+        "whyDifficult": "Direct translation works ('le' = 'it').",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "it"
+        }
+      }
+    },
+    {
+      "id": "pp-e16-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "The students have books. These are ___ books.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "they",
+        "them"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! Students (They) -> Their.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Leurs livres...",
+        "englishStructure": "Their books...",
+        "whyDifficult": "Direct translation works ('leurs' = 'their').",
+        "visualHighlighting": {
+          "incorrect": "them",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-e17-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "She called ___ yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "my",
+        "I"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Object 'me'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Elle m'a appelé...",
+        "englishStructure": "She called me...",
+        "whyDifficult": "Direct translation works ('me' = 'me').",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-e18-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Is that money ___?",
+      "type": "multiple_choice",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! 'Yours' at the end.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce que c'est le tien ?",
+        "englishStructure": "Is that money yours?",
+        "whyDifficult": "Direct translation works ('le tien' = 'yours').",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-e19-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "I invited my friends. I cooked for ___.",
+      "type": "multiple_choice",
+      "options": [
+        "them",
+        "they",
+        "their"
+      ],
+      "correctAnswer": "them",
+      "feedback": "Correct! Object 'them'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Object Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "J'ai cuisiné pour eux...",
+        "englishStructure": "I cooked for them...",
+        "whyDifficult": "Direct translation works ('eux' = 'them').",
+        "visualHighlighting": {
+          "incorrect": "they",
+          "correct": "them"
+        }
+      }
+    },
+    {
+      "id": "pp-e20-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "easy",
+      "questionText": "Where is ___ father?",
+      "type": "multiple_choice",
+      "options": [
+        "your",
+        "you",
+        "yours"
+      ],
+      "correctAnswer": "your",
+      "feedback": "Correct! Adjective 'Your'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Ton père...",
+        "englishStructure": "Your father...",
+        "whyDifficult": "Direct translation works ('ton' = 'your').",
+        "visualHighlighting": {
+          "incorrect": "yours",
+          "correct": "your"
+        }
+      }
+    },
+    {
+      "id": "pp-m01-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Paul is playing with ___ sister.",
+      "type": "multiple_choice",
+      "options": [
+        "his",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "his",
+      "feedback": "Correct! Paul is male. It is HIS sister.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "His vs Her (Gender)",
+      "frenchComparison": {
+        "frenchStructure": "Sa sœur...",
+        "englishStructure": "His sister...",
+        "whyDifficult": "French possessive agrees with object ('sa' female). English agrees with owner ('his' male).",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "his"
+        }
+      }
+    },
+    {
+      "id": "pp-m02-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The Queen waved to ___ people.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! Queen is female -> Her.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "His vs Her (Gender)",
+      "frenchComparison": {
+        "frenchStructure": "Son peuple...",
+        "englishStructure": "Her people...",
+        "whyDifficult": "French possessive agrees with object ('son' masculine/neutral). English agrees with owner ('her' female).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-m03-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The bird is feeding ___ babies.",
+      "type": "multiple_choice",
+      "options": [
+        "its",
+        "it's",
+        "her"
+      ],
+      "correctAnswer": "its",
+      "feedback": "Correct! 'Its' for animals.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Its vs It's",
+      "frenchComparison": {
+        "frenchStructure": "Ses bébés...",
+        "englishStructure": "Its babies...",
+        "whyDifficult": "Confusion between 'its' (possessive) and 'it's' (it is).",
+        "visualHighlighting": {
+          "incorrect": "it's",
+          "correct": "its"
+        }
+      }
+    },
+    {
+      "id": "pp-m04-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "This problem is not mine. It is ___.",
+      "type": "multiple_choice",
+      "options": [
+        "theirs",
+        "their",
+        "them"
+      ],
+      "correctAnswer": "theirs",
+      "feedback": "Correct! 'Theirs' (Le leur).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Le leur...",
+        "englishStructure": "Theirs...",
+        "whyDifficult": "Direct translation works ('le leur' = 'theirs').",
+        "visualHighlighting": {
+          "incorrect": "their",
+          "correct": "theirs"
+        }
+      }
+    },
+    {
+      "id": "pp-m05-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "He hurt ___ playing football.",
+      "type": "multiple_choice",
+      "options": [
+        "himself",
+        "him",
+        "his"
+      ],
+      "correctAnswer": "himself",
+      "feedback": "Correct! Reflexive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est blessé...",
+        "englishStructure": "He hurt himself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "himself"
+        }
+      }
+    },
+    {
+      "id": "pp-m06-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "They introduced ___ to the teacher.",
+      "type": "multiple_choice",
+      "options": [
+        "themselves",
+        "themself",
+        "them"
+      ],
+      "correctAnswer": "themselves",
+      "feedback": "Correct! Plural reflexive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ils se sont présentés...",
+        "englishStructure": "They introduced themselves...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "them",
+          "correct": "themselves"
+        }
+      }
+    },
+    {
+      "id": "pp-m07-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "I forgot my pen. Can I use ___?",
+      "type": "multiple_choice",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! 'Yours' (the one belonging to you).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Le tien...",
+        "englishStructure": "Yours...",
+        "whyDifficult": "Direct translation works ('le tien' = 'yours').",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-m08-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Cameroon is famous for ___ football team.",
+      "type": "multiple_choice",
+      "options": [
+        "its",
+        "it's",
+        "his"
+      ],
+      "correctAnswer": "its",
+      "feedback": "Correct! A country is 'It' -> 'Its'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Its vs It's",
+      "frenchComparison": {
+        "frenchStructure": "Son équipe...",
+        "englishStructure": "Its team...",
+        "whyDifficult": "Confusion between 'its' (possessive) and 'it's' (it is).",
+        "visualHighlighting": {
+          "incorrect": "it's",
+          "correct": "its"
+        }
+      }
+    },
+    {
+      "id": "pp-m09-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "These shoes are ___.",
+      "type": "multiple_choice",
+      "options": [
+        "hers",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "hers",
+      "feedback": "Correct! 'Hers' (Les siennes).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Les siennes...",
+        "englishStructure": "Hers...",
+        "whyDifficult": "Direct translation works ('les siennes' = 'hers').",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "hers"
+        }
+      }
+    },
+    {
+      "id": "pp-m10-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The students finished ___ exam.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "theirs",
+        "they"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! Possessive adjective 'Their'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Adjectives",
+      "frenchComparison": {
+        "frenchStructure": "Leur examen...",
+        "englishStructure": "Their exam...",
+        "whyDifficult": "Direct translation works ('leur' = 'their').",
+        "visualHighlighting": {
+          "incorrect": "theirs",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-m11-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "You have your book. I have ___.",
+      "type": "multiple_choice",
+      "options": [
+        "mine",
+        "my",
+        "me"
+      ],
+      "correctAnswer": "mine",
+      "feedback": "Correct! 'Mine' (Le mien).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Le mien...",
+        "englishStructure": "Mine...",
+        "whyDifficult": "Direct translation works ('le mien' = 'mine').",
+        "visualHighlighting": {
+          "incorrect": "my",
+          "correct": "mine"
+        }
+      }
+    },
+    {
+      "id": "pp-m12-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "This classroom is ___.",
+      "type": "multiple_choice",
+      "options": [
+        "ours",
+        "our",
+        "us"
+      ],
+      "correctAnswer": "ours",
+      "feedback": "Correct! 'Ours' (La nôtre).",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possessive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "La nôtre...",
+        "englishStructure": "Ours...",
+        "whyDifficult": "Direct translation works ('la nôtre' = 'ours').",
+        "visualHighlighting": {
+          "incorrect": "our",
+          "correct": "ours"
+        }
+      }
+    },
+    {
+      "id": "pp-m13-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "She looked at ___ in the mirror.",
+      "type": "multiple_choice",
+      "options": [
+        "herself",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "herself",
+      "feedback": "Correct! Reflexive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Elle s'est regardée...",
+        "englishStructure": "She looked at herself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "herself"
+        }
+      }
+    },
+    {
+      "id": "pp-m14-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "I bought ___ a new phone.",
+      "type": "multiple_choice",
+      "options": [
+        "myself",
+        "me",
+        "my"
+      ],
+      "correctAnswer": "myself",
+      "feedback": "Correct! I bought it for me -> myself.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis acheté...",
+        "englishStructure": "I bought myself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "me",
+          "correct": "myself"
+        }
+      }
+    },
+    {
+      "id": "pp-m15-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "The door closed by ___.",
+      "type": "multiple_choice",
+      "options": [
+        "itself",
+        "it",
+        "himself"
+      ],
+      "correctAnswer": "itself",
+      "feedback": "Correct! 'By itself' means automatically/alone.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Elle s'est fermée toute seule...",
+        "englishStructure": "Closed by itself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "it",
+          "correct": "itself"
+        }
+      }
+    },
+    {
+      "id": "pp-m16-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "We enjoyed ___ at the party.",
+      "type": "multiple_choice",
+      "options": [
+        "ourselves",
+        "us",
+        "our"
+      ],
+      "correctAnswer": "ourselves",
+      "feedback": "Correct! 'Enjoy oneself' is a reflexive expression.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous nous sommes amusés...",
+        "englishStructure": "We enjoyed ourselves...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "us",
+          "correct": "ourselves"
+        }
+      }
+    },
+    {
+      "id": "pp-m17-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Did you hurt ___? (one person)",
+      "type": "multiple_choice",
+      "options": [
+        "yourself",
+        "yourselves",
+        "you"
+      ],
+      "correctAnswer": "yourself",
+      "feedback": "Correct! Singular reflexive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Tu t'es blessé...",
+        "englishStructure": "Hurt yourself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "you",
+          "correct": "yourself"
+        }
+      }
+    },
+    {
+      "id": "pp-m18-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "Did you enjoy ___? (many people)",
+      "type": "multiple_choice",
+      "options": [
+        "yourselves",
+        "yourself",
+        "you"
+      ],
+      "correctAnswer": "yourselves",
+      "feedback": "Correct! Plural reflexive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Vous vous êtes amusés...",
+        "englishStructure": "Enjoy yourselves...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "yourself",
+          "correct": "yourselves"
+        }
+      }
+    },
+    {
+      "id": "pp-m19-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "One must do ___ best.",
+      "type": "multiple_choice",
+      "options": [
+        "one's",
+        "his",
+        "their"
+      ],
+      "correctAnswer": "one's",
+      "feedback": "Correct! Possessive for 'One' is 'One's'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Son mieux...",
+        "englishStructure": "One's best...",
+        "whyDifficult": "French uses 'son'. English uses 'one's' (formal).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "one's"
+        }
+      }
+    },
+    {
+      "id": "pp-m20-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "medium",
+      "questionText": "___ book is this?",
+      "type": "multiple_choice",
+      "options": [
+        "Whose",
+        "Who's",
+        "Who"
+      ],
+      "correctAnswer": "Whose",
+      "feedback": "Correct! 'Whose' asks about possession.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Relative Pronouns (Possessive)",
+      "frenchComparison": {
+        "frenchStructure": "À qui est ce livre...",
+        "englishStructure": "Whose book is this...",
+        "whyDifficult": "Confusion between 'Whose' (possessive) and 'Who's' (who is).",
+        "visualHighlighting": {
+          "incorrect": "Who's",
+          "correct": "Whose"
+        }
+      }
+    },
+    {
+      "id": "pp-h01-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "One must do ___ duty.",
+      "type": "multiple_choice",
+      "options": [
+        "one's",
+        "his",
+        "their"
+      ],
+      "correctAnswer": "one's",
+      "feedback": "Correct! Formal agreement.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Indefinite Pronouns (One)",
+      "frenchComparison": {
+        "frenchStructure": "Son devoir...",
+        "englishStructure": "One's duty...",
+        "whyDifficult": "French uses 'son'. English uses 'one's' (formal).",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "one's"
+        }
+      }
+    },
+    {
+      "id": "pp-h02-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "She is a cousin of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "hers",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "hers",
+      "feedback": "Correct! Double genitive.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Double Genitive",
+      "frenchComparison": {
+        "frenchStructure": "Une de ses cousines...",
+        "englishStructure": "A cousin of hers...",
+        "whyDifficult": "Double genitive structure is unique to English.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "hers"
+        }
+      }
+    },
+    {
+      "id": "pp-h03-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "We help ___ (reciprocal).",
+      "type": "multiple_choice",
+      "options": [
+        "each other",
+        "ourselves",
+        "us"
+      ],
+      "correctAnswer": "each other",
+      "feedback": "Correct! Reciprocal action.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reciprocal Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Nous nous aidons...",
+        "englishStructure": "We help each other...",
+        "whyDifficult": "French uses reflexive 'nous'. English uses 'each other'.",
+        "visualHighlighting": {
+          "incorrect": "ourselves",
+          "correct": "each other"
+        }
+      }
+    },
+    {
+      "id": "pp-h04-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ seems that you are right.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "That"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! 'It seems' (Dummy subject).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (It vs There)",
+      "frenchComparison": {
+        "frenchStructure": "Il semble...",
+        "englishStructure": "It seems...",
+        "whyDifficult": "Similar to French 'Il'.",
+        "visualHighlighting": {
+          "incorrect": "That",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-h05-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Him and me are friends.\"",
+      "type": "error_correction",
+      "options": [
+        "Him and me",
+        "are",
+        "friends",
+        "No error"
+      ],
+      "correctAnswer": "Him and me",
+      "feedback": "Correct! Subject pronouns needed: 'He and I'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "He and I",
+      "subTopic": "Subject vs Object Case",
+      "frenchComparison": {
+        "frenchStructure": "Lui et moi...",
+        "englishStructure": "He and I...",
+        "whyDifficult": "French uses emphatic pronouns. English requires subject pronouns.",
+        "visualHighlighting": {
+          "incorrect": "Him and me",
+          "correct": "He and I"
+        }
+      }
+    },
+    {
+      "id": "pp-h06-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Every person must sign ___ name.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "his",
+        "its"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! 'Their' is gender-neutral singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular They",
+      "frenchComparison": {
+        "frenchStructure": "Son nom...",
+        "englishStructure": "Their name...",
+        "whyDifficult": "Agreement with indefinite 'Every person'.",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-h07-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "It was ___ who called you.",
+      "type": "multiple_choice",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correctAnswer": "he",
+      "feedback": "Correct! Formal English: 'It was he'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Subject Complement",
+      "frenchComparison": {
+        "frenchStructure": "C'était lui...",
+        "englishStructure": "It was he...",
+        "whyDifficult": "French uses emphatic 'lui'. English uses subject 'he' (formal).",
+        "visualHighlighting": {
+          "incorrect": "him",
+          "correct": "he"
+        }
+      }
+    },
+    {
+      "id": "pp-h08-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ is no sugar left.",
+      "type": "multiple_choice",
+      "options": [
+        "There",
+        "It",
+        "This"
+      ],
+      "correctAnswer": "There",
+      "feedback": "Correct! 'There is' for existence.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (It vs There)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'y a...",
+        "englishStructure": "There is...",
+        "whyDifficult": "French uses 'Il'. English uses 'There'.",
+        "visualHighlighting": {
+          "incorrect": "It",
+          "correct": "There"
+        }
+      }
+    },
+    {
+      "id": "pp-h09-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "This is a secret between you and ___.",
+      "type": "multiple_choice",
+      "options": [
+        "me",
+        "I",
+        "myself"
+      ],
+      "correctAnswer": "me",
+      "feedback": "Correct! Object pronoun after preposition.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Pronouns after Prepositions",
+      "frenchComparison": {
+        "frenchStructure": "Toi et moi...",
+        "englishStructure": "You and me...",
+        "whyDifficult": "Prepositions are followed by object pronouns.",
+        "visualHighlighting": {
+          "incorrect": "I",
+          "correct": "me"
+        }
+      }
+    },
+    {
+      "id": "pp-h10-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "She lives by ___.",
+      "type": "multiple_choice",
+      "options": [
+        "herself",
+        "her",
+        "she"
+      ],
+      "correctAnswer": "herself",
+      "feedback": "Correct! 'By herself' (alone).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns (Idioms)",
+      "frenchComparison": {
+        "frenchStructure": "Toute seule...",
+        "englishStructure": "By herself...",
+        "whyDifficult": "Idiomatic use of reflexive.",
+        "visualHighlighting": {
+          "incorrect": "her",
+          "correct": "herself"
+        }
+      }
+    },
+    {
+      "id": "pp-h11-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Either of the girls can lend you ___ pen.",
+      "type": "multiple_choice",
+      "options": [
+        "her",
+        "their",
+        "its"
+      ],
+      "correctAnswer": "her",
+      "feedback": "Correct! 'Either' is singular.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Agreement with Indefinite Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Son stylo...",
+        "englishStructure": "Her pen...",
+        "whyDifficult": "Agreement with singular 'Either'.",
+        "visualHighlighting": {
+          "incorrect": "their",
+          "correct": "her"
+        }
+      }
+    },
+    {
+      "id": "pp-h12-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "That dog of ___ is barking again.",
+      "type": "multiple_choice",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "correctAnswer": "yours",
+      "feedback": "Correct! Double Genitive.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Double Genitive",
+      "frenchComparison": {
+        "frenchStructure": "Ton chien...",
+        "englishStructure": "That dog of yours...",
+        "whyDifficult": "Double genitive structure is unique to English.",
+        "visualHighlighting": {
+          "incorrect": "your",
+          "correct": "yours"
+        }
+      }
+    },
+    {
+      "id": "pp-h13-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "They talked to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "each other",
+        "themselves",
+        "theirselves"
+      ],
+      "correctAnswer": "each other",
+      "feedback": "Correct! Reciprocal action.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reciprocal Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Ils se sont parlé...",
+        "englishStructure": "They talked to each other...",
+        "whyDifficult": "French uses reflexive 'se'. English uses 'each other'.",
+        "visualHighlighting": {
+          "incorrect": "themselves",
+          "correct": "each other"
+        }
+      }
+    },
+    {
+      "id": "pp-h14-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"Us boys are playing.\"",
+      "type": "error_correction",
+      "options": [
+        "Us boys",
+        "playing",
+        "are",
+        "No error"
+      ],
+      "correctAnswer": "Us boys",
+      "feedback": "Correct! Should be 'We boys' (Subject).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "We boys",
+      "subTopic": "Subject vs Object Case",
+      "frenchComparison": {
+        "frenchStructure": "Nous les garçons...",
+        "englishStructure": "We boys...",
+        "whyDifficult": "Subject case required for subject apposition.",
+        "visualHighlighting": {
+          "incorrect": "Us boys",
+          "correct": "We boys"
+        }
+      }
+    },
+    {
+      "id": "pp-h15-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ is time to go.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "That"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! 'It' for time.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (Time)",
+      "frenchComparison": {
+        "frenchStructure": "Il est l'heure...",
+        "englishStructure": "It is time...",
+        "whyDifficult": "Similar to French 'Il'.",
+        "visualHighlighting": {
+          "incorrect": "There",
+          "correct": "It"
+        }
+      }
+    },
+    {
+      "id": "pp-h16-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "He dressed ___ quickly.",
+      "type": "multiple_choice",
+      "options": [
+        "Ø (no pronoun)",
+        "himself",
+        "him"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! 'Dress' is rarely reflexive in English.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Verbs (French vs English)",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est habillé...",
+        "englishStructure": "He dressed...",
+        "whyDifficult": "French uses reflexive. English usually does not for daily actions.",
+        "visualHighlighting": {
+          "incorrect": "himself",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "pp-h17-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "Nobody should forget ___ passport.",
+      "type": "multiple_choice",
+      "options": [
+        "their",
+        "his",
+        "one's"
+      ],
+      "correctAnswer": "their",
+      "feedback": "Correct! 'Their' is standard for 'Nobody'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Singular They",
+      "frenchComparison": {
+        "frenchStructure": "Son passeport...",
+        "englishStructure": "Their passport...",
+        "whyDifficult": "Agreement with indefinite 'Nobody'.",
+        "visualHighlighting": {
+          "incorrect": "his",
+          "correct": "their"
+        }
+      }
+    },
+    {
+      "id": "pp-h18-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "You are faster than ___.",
+      "type": "multiple_choice",
+      "options": [
+        "him",
+        "he",
+        "his"
+      ],
+      "correctAnswer": "him",
+      "feedback": "Correct! 'Him' is standard.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Comparison Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Que lui...",
+        "englishStructure": "Than him...",
+        "whyDifficult": "French uses emphatic 'lui'. English uses object 'him' (informal/standard).",
+        "visualHighlighting": {
+          "incorrect": "he",
+          "correct": "him"
+        }
+      }
+    },
+    {
+      "id": "pp-h19-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "The cat washed ___.",
+      "type": "multiple_choice",
+      "options": [
+        "itself",
+        "it",
+        "himself"
+      ],
+      "correctAnswer": "itself",
+      "feedback": "Correct! Animal reflexive = itself.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Reflexive Pronouns",
+      "frenchComparison": {
+        "frenchStructure": "Le chat s'est lavé...",
+        "englishStructure": "The cat washed itself...",
+        "whyDifficult": "French uses reflexive verb structure. English uses reflexive pronoun.",
+        "visualHighlighting": {
+          "incorrect": "it",
+          "correct": "itself"
+        }
+      }
+    },
+    {
+      "id": "pp-h20-B",
+      "moduleId": "pronouns-possessives",
+      "difficulty": "hard",
+      "questionText": "___ is far to the village.",
+      "type": "multiple_choice",
+      "options": [
+        "It",
+        "There",
+        "This"
+      ],
+      "correctAnswer": "It",
+      "feedback": "Correct! 'It' for distance.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dummy Subject (Distance)",
+      "frenchComparison": {
+        "frenchStructure": "C'est loin...",
+        "englishStructure": "It is far...",
+        "whyDifficult": "Similar to French 'C'est'.",
+        "visualHighlighting": {
+          "incorrect": "There",
+          "correct": "It"
+        }
+      }
+    }
+  ]
+}

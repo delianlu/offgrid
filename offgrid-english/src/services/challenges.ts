@@ -100,7 +100,7 @@ export async function calculateDailyStreak(): Promise<number> {
 
   // Check if most recent practice was today or yesterday
   if (mostRecentDay.getTime() === today.getTime() ||
-      mostRecentDay.getTime() === yesterday.getTime()) {
+    mostRecentDay.getTime() === yesterday.getTime()) {
 
     // Count consecutive days backwards from most recent
     for (let i = 0; i < sortedDays.length; i++) {
@@ -154,4 +154,68 @@ export function formatTime(seconds: number): string {
   const mins = Math.floor(seconds / 60);
   const secs = seconds % 60;
   return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+/**
+ * Simple Seeded RNG (Linear Congruential Generator)
+ */
+class SeededRNG {
+  private seed: number;
+
+  constructor(seedStr: string) {
+    // Convert string seed to number
+    let h = 0x811c9dc5;
+    for (let i = 0; i < seedStr.length; i++) {
+      h ^= seedStr.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    this.seed = h >>> 0;
+  }
+
+  // Returns a float between 0 and 1
+  next(): number {
+    this.seed = (this.seed * 1664525 + 1013904223) % 4294967296;
+    return this.seed / 4294967296;
+  }
+}
+
+/**
+ * Get challenge items based on a seed code and optional topic
+ */
+export async function getChallengeItemsBySeed(seed: string, count: number = 10, topic?: string, difficulty?: string) {
+  let collection = db.items.where({ formType: 'A' });
+
+  if (topic) {
+    collection = db.items.where({ moduleId: topic, formType: 'A' });
+  }
+
+  let allItems = await collection.toArray();
+
+  // Filter by difficulty if specified
+  if (difficulty) {
+    allItems = allItems.filter(item => item.difficulty === difficulty);
+  }
+
+  const rng = new SeededRNG(seed);
+
+  // Fisher-Yates shuffle using seeded RNG
+  const shuffled = [...allItems];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rng.next() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.slice(0, count);
+}
+
+/**
+ * Generate a random 4-character challenge code
+ */
+export function generateChallengeCode(): string {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // No I, O, 0, 1 to avoid confusion
+  let code = '';
+  for (let i = 0; i < 4; i++) {
+    code += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return code;
 }

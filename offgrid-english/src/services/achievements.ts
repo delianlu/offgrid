@@ -207,10 +207,22 @@ export async function checkAchievements(): Promise<Achievement[]> {
   for (const module of modules) {
     const formAItems = await db.items.where({ moduleId: module.id, formType: 'A' }).toArray();
     const formBItems = await db.items.where({ moduleId: module.id, formType: 'B' }).toArray();
-    const formAAttempts = attempts.filter(a => a.moduleId === module.id && a.formType === 'A');
-    const formBAttempts = attempts.filter(a => a.moduleId === module.id && a.formType === 'B');
 
-    if (formAAttempts.length >= formAItems.length && formBAttempts.length >= formBItems.length) {
+    // Get unique correct answers for Form A and Form B
+    const uniqueCorrectA = new Set(
+      attempts
+        .filter(a => a.moduleId === module.id && a.formType === 'A' && a.isCorrect)
+        .map(a => a.itemId)
+    );
+
+    const uniqueCorrectB = new Set(
+      attempts
+        .filter(a => a.moduleId === module.id && a.formType === 'B' && a.isCorrect)
+        .map(a => a.itemId)
+    );
+
+    if (formAItems.length > 0 && formBItems.length > 0 &&
+      uniqueCorrectA.size >= formAItems.length && uniqueCorrectB.size >= formBItems.length) {
       masteredModules++;
     }
   }

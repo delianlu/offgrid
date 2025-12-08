@@ -96,8 +96,8 @@ export function Diagnostics() {
                 <div className="text-3xl font-bold text-green-700">{stats.items}</div>
                 <div className="text-sm text-gray-600 mt-1">Practice Items</div>
               </div>
-              <div className="bg-orange-50 rounded-xl p-4 text-center border-2 border-orange-200">
-                <div className="text-3xl font-bold text-orange-700">{stats.attempts}</div>
+              <div className="bg-blue-50 rounded-xl p-4 text-center border-2 border-blue-200">
+                <div className="text-3xl font-bold text-blue-700">{stats.attempts}</div>
                 <div className="text-sm text-gray-600 mt-1">Student Attempts</div>
               </div>
             </div>

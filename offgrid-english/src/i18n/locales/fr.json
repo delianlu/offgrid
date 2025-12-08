@@ -3,7 +3,7 @@
     "title": "OffGrid English",
     "version": "Version",
     "offline": "100% Hors ligne",
-    "tagline": "Fait avec ❤️ pour les apprenants camerounais"
+    "tagline": "Apprenez partout, à tout moment"
   },
   "welcome": {
     "title": "Bon retour ! 👋",
@@ -11,28 +11,89 @@
   },
   "stats": {
     "lessons": "Leçons",
-    "dayStreak": "Série de jours",
+    "dayStreak": "Série de Jours",
     "complete": "Complété",
     "streak": "Série",
-    "xp": "XP"
+    "xp": "XP Total",
+    "keepGoing": "Continuez ! 🎯",
+    "lessonsProgress": "{{current}} de {{total}} leçons",
+    "module": "Module"
+  },
+  "common": {
+    "today": "aujourd'hui",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer"
+  },
+  "hero": {
+    "continueJourney": "Continuez Votre Parcours",
+    "lastStudied": "Dernière étude",
+    "hoursAgo": "heures",
+    "lessonsComplete": "de {{total}} leçons complétées",
+    "continuePractice": "Continuer la Pratique"
+  },
+  "quickAccess": {
+    "dailyGoal": {
+      "title": "Objectif Quotidien",
+      "subtitle": "{{percent}}% complété",
+      "progress": "Progrès d'aujourd'hui",
+      "moreToGo": "encore à faire !"
+    },
+    "prediction": {
+      "title": "Prédiction",
+      "subtitle": "Vos prévisions",
+      "description": "Suivez votre trajectoire d'apprentissage",
+      "viewDetails": "Voir Détails"
+    },
+    "mistakes": {
+      "title": "Erreurs",
+      "subtitle": "Réviser les erreurs",
+      "description": "Apprenez de vos erreurs",
+      "reviewNow": "Réviser Maintenant"
+    }
   },
   "modules": {
-    "title": "Sujets de grammaire",
-    "subtitle": "Choisissez-en un pour pratiquer 👇",
-    "tense-form": "Temps et forme du verbe",
-    "subject-verb-agreement": "Accord sujet-verbe",
+    "title": "Votre Parcours d'Apprentissage",
+    "subtitle": "Maîtrisez la grammaire étape par étape 👇",
+    "tense-form": "Temps et Forme du Verbe",
+    "subject-verb-agreement": "Accord Sujet-Verbe",
     "prepositions": "Prépositions",
-    "word-order": "Ordre des mots",
+    "word-order": "Ordre des Mots",
     "plurality": "Pluralité",
     "articles": "Articles",
     "auxiliaries": "Auxiliaires",
-    "cameroonian-scenarios": "Scénarios réels",
-    "false-cognates": "Faux amis",
+    "pronouns-possessives": "Pronoms et Possessifs",
+    "gerunds-infinitives": "Gérondifs et Infinitifs",
+    "comparatives-superlatives": "Comparatifs et Superlatifs",
+    "conditionals": "Conditionnels",
+    "sentence-connectors": "Connecteurs de Phrase",
+    "countable-uncountable": "Dénombrables et Indénombrables",
+    "question-tags": "Question Tags",
+    "relative-clauses": "Propositions Relatives",
+    "false-cognates": "Mots Pièges",
+    "passive-voice": "Voix Passive",
+    "reported-speech": "Discours Rapporté",
     "lessons_count": "{{count}} leçons",
+    "grammarPractice": "Pratique grammaticale",
+    "realWorldScenarios": "Scénarios réels",
+    "yourProgress": "Votre Progrès",
+    "mediumLevel": "Niveau Moyen",
+    "lastPracticed": "Dernière: il y a {{time}} heures",
     "completion": "{{percent}}% terminé",
     "completed": "Terminé !",
     "locked": "Verrouillé",
-    "unlockMessage": "Complétez le précédent pour déverrouiller"
+    "unlockMessage": "Complétez le précédent pour déverrouiller",
+    "almostReady": "Presque prêt !",
+    "completeModuleFirst": "Complétez {{count}} leçons supplémentaires dans le module actuel pour déverrouiller",
+    "completePrevious": "Complétez les modules précédents pour déverrouiller",
+    "continuePractice": "Continuer la Pratique",
+    "startLearning": "Commencer l'apprentissage",
+    "reviewModule": "Réviser le Module"
   },
   "navigation": {
     "home": "Accueil",
@@ -42,7 +103,8 @@
     "challenges": "Défis",
     "achievements": "Réalisations",
     "bookmarks": "Favoris",
-    "analytics": "Analytique"
+    "analytics": "Analytique",
+    "practice": "Pratique"
   },
   "dailyGoals": {
     "title": "Objectifs quotidiens",
@@ -108,21 +170,32 @@
   },
   "settings": {
     "title": "Paramètres",
+    "account": "Compte",
+    "notLoggedIn": "Non connecté",
+    "preferences": "Préférences",
     "language": "Langue",
-    "theme": "Thème",
+    "sound": "Son",
+    "on": "Activé",
+    "off": "Désactivé",
     "notifications": "Notifications",
-    "reset": "Réinitialiser le progrès",
-    "about": "À propos"
-  },
-  "common": {
-    "loading": "Chargement...",
-    "error": "Une erreur s'est produite",
-    "retry": "Réessayer",
+    "enabled": "Activées",
+    "disabled": "Désactivées",
+    "teacherTools": "Outils Enseignant",
+    "teacherDashboard": "Tableau de Bord Enseignant",
+    "analytics": "Tableau de Bord Analytique",
+    "teacherValidation": "Validation du Contenu",
+    "data": "Données et Stockage",
+    "downloadData": "Télécharger les Données",
+    "exportProgress": "Exporter votre progression",
+    "resetApp": "Réinitialiser l'Application",
+    "clearAllData": "Effacer toutes les données",
+    "about": "À propos",
+    "version": "Version",
+    "logout": "Déconnexion",
+    "resetConfirmTitle": "Réinitialiser Toutes les Données?",
+    "resetConfirmMessage": "Êtes-vous sûr de vouloir réinitialiser toutes les données? Cette action ne peut pas être annulée.",
     "cancel": "Annuler",
-    "save": "Enregistrer",
-    "delete": "Supprimer",
-    "edit": "Modifier",
-    "close": "Fermer"
+    "resetConfirm": "Réinitialiser"
   },
   "voice": {
     "answerWithVoice": "Répondre par la voix",

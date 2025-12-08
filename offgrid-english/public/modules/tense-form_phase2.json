@@ -1,0 +1,3222 @@
+[
+  {
+    "id": "tense-form-e11-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "Look! The sun ___.",
+    "type": "multiple_choice",
+    "options": [
+      "rise",
+      "rises",
+      "is rising"
+    ],
+    "correctAnswer": "is rising",
+    "feedback": "Correct! 'Look!' tells us the action is happening right now. We use the Present Continuous.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Regarde! Le soleil se lève...",
+      "englishStructure": "Look! The sun is rising...",
+      "whyDifficult": "French uses Present Simple for actions happening now. English uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "The sun rises",
+        "correct": "The sun is rising"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e12-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "Water ___ at 100 degrees Celsius.",
+    "type": "multiple_choice",
+    "options": [
+      "boil",
+      "boils",
+      "is boiling"
+    ],
+    "correctAnswer": "boils",
+    "feedback": "Correct! This is a scientific fact. We use the Present Simple for facts and general truths.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Fact)",
+    "frenchComparison": {
+      "frenchStructure": "L'eau bout...",
+      "englishStructure": "Water boils...",
+      "whyDifficult": "General truths use Present Simple.",
+      "visualHighlighting": {
+        "incorrect": "Water is boiling",
+        "correct": "Water boils"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e13-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ late for school yesterday.",
+    "type": "multiple_choice",
+    "options": [
+      "was",
+      "were",
+      "am"
+    ],
+    "correctAnswer": "was",
+    "feedback": "Correct! 'Yesterday' is past. The past form of 'be' for 'I' is 'was'.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Simple (To Be)",
+    "frenchComparison": {
+      "frenchStructure": "J'étais...",
+      "englishStructure": "I was...",
+      "whyDifficult": "Past form of 'be' for 'I' is 'was'.",
+      "visualHighlighting": {
+        "incorrect": "I were",
+        "correct": "I was"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e14-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "We ___ watch TV tonight. There is a good film.",
+    "type": "multiple_choice",
+    "options": [
+      "is going to",
+      "are going to",
+      "will to"
+    ],
+    "correctAnswer": "are going to",
+    "feedback": "Correct! We use 'be going to' for plans. We matches with 'are'.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Be going to)",
+    "frenchComparison": {
+      "frenchStructure": "Nous allons regarder...",
+      "englishStructure": "We are going to watch...",
+      "whyDifficult": "Future plans use 'be going to'.",
+      "visualHighlighting": {
+        "incorrect": "We will to watch",
+        "correct": "We are going to watch"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e15-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ I use your pen, please?",
+    "type": "multiple_choice",
+    "options": [
+      "Must",
+      "Have",
+      "Can"
+    ],
+    "correctAnswer": "Can",
+    "feedback": "Correct! We use 'Can' (or May) to ask for permission politely.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Permission)",
+    "frenchComparison": {
+      "frenchStructure": "Puis-je utiliser...",
+      "englishStructure": "Can I use...",
+      "whyDifficult": "Modal 'Can' for permission.",
+      "visualHighlighting": {
+        "incorrect": "Have I use",
+        "correct": "Can I use"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e16-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ play football when she was young.",
+    "type": "multiple_choice",
+    "options": [
+      "used to",
+      "use to",
+      "uses to"
+    ],
+    "correctAnswer": "used to",
+    "feedback": "Correct! We use 'used to' for past habits that are not true now.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Used to (Past Habit)",
+    "frenchComparison": {
+      "frenchStructure": "Elle jouait...",
+      "englishStructure": "She used to play...",
+      "whyDifficult": "French uses Imparfait. English uses 'used to' for past habits.",
+      "visualHighlighting": {
+        "incorrect": "She use to play",
+        "correct": "She used to play"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e17-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "They ___ lunch right now.",
+    "type": "multiple_choice",
+    "options": [
+      "are having",
+      "have",
+      "has"
+    ],
+    "correctAnswer": "are having",
+    "feedback": "Correct! 'Right now' requires the Present Continuous. 'Have' here means 'eat', so it can be continuous.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Ils déjeunent...",
+      "englishStructure": "They are having lunch...",
+      "whyDifficult": "Action happening now uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "They have lunch",
+        "correct": "They are having lunch"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e18-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "The train ___ at 8:00 AM every day.",
+    "type": "multiple_choice",
+    "options": [
+      "leaves",
+      "is leaving",
+      "leave"
+    ],
+    "correctAnswer": "leaves",
+    "feedback": "Correct! For timetables and schedules (trains, buses), we use the Present Simple.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Timetable)",
+    "frenchComparison": {
+      "frenchStructure": "Le train part...",
+      "englishStructure": "The train leaves...",
+      "whyDifficult": "Timetables use Present Simple.",
+      "visualHighlighting": {
+        "incorrect": "The train is leaving",
+        "correct": "The train leaves"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e19-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ just ___ my breakfast.",
+    "type": "multiple_choice",
+    "options": [
+      "have / eaten",
+      "did / eat",
+      "am / eating"
+    ],
+    "correctAnswer": "have / eaten",
+    "feedback": "Correct! We use 'just' with the Present Perfect for actions completed a very short time ago.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect (Just)",
+    "frenchComparison": {
+      "frenchStructure": "Je viens de manger...",
+      "englishStructure": "I have just eaten...",
+      "whyDifficult": "French uses 'venir de'. English uses Present Perfect with 'just'.",
+      "visualHighlighting": {
+        "incorrect": "I did just eat",
+        "correct": "I have just eaten"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e20-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ close the window!",
+    "type": "multiple_choice",
+    "options": [
+      "You",
+      "Don't",
+      "Not"
+    ],
+    "correctAnswer": "Don't",
+    "feedback": "Correct! This is a negative imperative (command). We use 'Don't' + verb.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Imperative",
+    "frenchComparison": {
+      "frenchStructure": "Ne ferme pas...",
+      "englishStructure": "Don't close...",
+      "whyDifficult": "Negative imperative uses 'Don't'.",
+      "visualHighlighting": {
+        "incorrect": "Not close",
+        "correct": "Don't close"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m11-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If it rains tomorrow, I ___ at home.",
+    "type": "multiple_choice",
+    "options": [
+      "stay",
+      "will stay",
+      "stayed"
+    ],
+    "correctAnswer": "will stay",
+    "feedback": "Correct! This is the First Conditional (Real Future). Structure: If + Present Simple, ... will + verb.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "First Conditional",
+    "frenchComparison": {
+      "frenchStructure": "S'il pleut demain, je resterai...",
+      "englishStructure": "If it rains tomorrow, I will stay...",
+      "whyDifficult": "French uses Future after 'Si' sometimes (not here, but learners confuse it). English uses Present after 'If'.",
+      "visualHighlighting": {
+        "incorrect": "If it will rain",
+        "correct": "If it rains"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m12-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If I had money, I ___ a new car.",
+    "type": "multiple_choice",
+    "options": [
+      "will buy",
+      "bought",
+      "would buy"
+    ],
+    "correctAnswer": "would buy",
+    "feedback": "Correct! This is the Second Conditional (Imaginary Present). Structure: If + Past Simple, ... would + verb.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Second Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si j'avais de l'argent, j'achèterais...",
+      "englishStructure": "If I had money, I would buy...",
+      "whyDifficult": "French uses Imparfait + Conditionnel. English uses Past Simple + Would.",
+      "visualHighlighting": {
+        "incorrect": "If I have money",
+        "correct": "If I had money"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m13-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "This house ___ by my grandfather in 1960.",
+    "type": "multiple_choice",
+    "options": [
+      "built",
+      "was built",
+      "is built"
+    ],
+    "correctAnswer": "was built",
+    "feedback": "Correct! This is the Passive Voice in the past. The house didn't build itself; it 'was built' by someone.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Past)",
+    "frenchComparison": {
+      "frenchStructure": "Cette maison a été construite...",
+      "englishStructure": "This house was built...",
+      "whyDifficult": "Passive voice construction.",
+      "visualHighlighting": {
+        "incorrect": "This house built",
+        "correct": "This house was built"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m14-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "You are coming to the party, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "aren't you",
+      "are you",
+      "don't you"
+    ],
+    "correctAnswer": "aren't you",
+    "feedback": "Correct! This is a Question Tag. If the sentence is positive ('are'), the tag must be negative ('aren't').",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Question Tags",
+    "frenchComparison": {
+      "frenchStructure": "Tu viens à la fête, n'est-ce pas?",
+      "englishStructure": "You are coming..., aren't you?",
+      "whyDifficult": "French uses 'n'est-ce pas?'. English tags change based on the auxiliary verb.",
+      "visualHighlighting": {
+        "incorrect": "isn't it",
+        "correct": "aren't you"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m15-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "At 8 PM tonight, I ___ dinner with my family.",
+    "type": "multiple_choice",
+    "options": [
+      "will eat",
+      "will be eating",
+      "eat"
+    ],
+    "correctAnswer": "will be eating",
+    "feedback": "Correct! This is the Future Continuous. We use it to talk about an action that will be in progress at a specific time in the future.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Je serai en train de dîner...",
+      "englishStructure": "I will be eating...",
+      "whyDifficult": "Future Continuous emphasizes action in progress.",
+      "visualHighlighting": {
+        "incorrect": "I will eat",
+        "correct": "I will be eating"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m16-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "I am not used to ___ in such cold weather.",
+    "type": "multiple_choice",
+    "options": [
+      "live",
+      "living",
+      "lived"
+    ],
+    "correctAnswer": "living",
+    "feedback": "Correct! After 'be used to' (meaning accustomed to), we use the -ing form (gerund).",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Be used to + -ing",
+    "frenchComparison": {
+      "frenchStructure": "Je ne suis pas habitué à vivre...",
+      "englishStructure": "I am not used to living...",
+      "whyDifficult": "'To' is a preposition here, so it takes -ing.",
+      "visualHighlighting": {
+        "incorrect": "used to live",
+        "correct": "used to living"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m17-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Coffee ___ in Cameroon.",
+    "type": "multiple_choice",
+    "options": [
+      "grows",
+      "is grown",
+      "grew"
+    ],
+    "correctAnswer": "is grown",
+    "feedback": "Correct! This is the Passive Voice (Present). We focus on the coffee, not the farmers.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Present)",
+    "frenchComparison": {
+      "frenchStructure": "Le café est cultivé...",
+      "englishStructure": "Coffee is grown...",
+      "whyDifficult": "Passive voice construction.",
+      "visualHighlighting": {
+        "incorrect": "Coffee grows",
+        "correct": "Coffee is grown"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m18-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "She said that she ___ tired.",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "was",
+      "has been"
+    ],
+    "correctAnswer": "was",
+    "feedback": "Correct! In Reported Speech, 'is' usually changes to 'was' (backshift).",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Reported Speech",
+    "frenchComparison": {
+      "frenchStructure": "Elle a dit qu'elle était...",
+      "englishStructure": "She said that she was...",
+      "whyDifficult": "Sequence of tenses (backshift).",
+      "visualHighlighting": {
+        "incorrect": "She said she is",
+        "correct": "She said she was"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m19-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "He ___ be at home. His lights are off.",
+    "type": "multiple_choice",
+    "options": [
+      "can't",
+      "mustn't",
+      "shouldn't"
+    ],
+    "correctAnswer": "can't",
+    "feedback": "Correct! We use 'can't' to express a strong deduction that something is impossible.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals of Deduction",
+    "frenchComparison": {
+      "frenchStructure": "Il ne peut pas être...",
+      "englishStructure": "He can't be...",
+      "whyDifficult": "Deduction of impossibility uses 'can't', not 'mustn't'.",
+      "visualHighlighting": {
+        "incorrect": "He mustn't be",
+        "correct": "He can't be"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m20-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "I promise I ___ tell anyone your secret.",
+    "type": "multiple_choice",
+    "options": [
+      "won't",
+      "don't",
+      "am not going to"
+    ],
+    "correctAnswer": "won't",
+    "feedback": "Correct! We use 'will/won't' for promises.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Promise)",
+    "frenchComparison": {
+      "frenchStructure": "Je promets que je ne dirai...",
+      "englishStructure": "I promise I won't tell...",
+      "whyDifficult": "Promises use 'will/won't'.",
+      "visualHighlighting": {
+        "incorrect": "I don't tell",
+        "correct": "I won't tell"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h11-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "If I ___ harder, I would have passed the exam.",
+    "type": "multiple_choice",
+    "options": [
+      "studied",
+      "had studied",
+      "would study"
+    ],
+    "correctAnswer": "had studied",
+    "feedback": "Correct! This is the Third Conditional (Past Regret). Structure: If + Past Perfect, ... would have + Past Participle.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Third Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si j'avais étudié...",
+      "englishStructure": "If I had studied...",
+      "whyDifficult": "Third Conditional structure is complex (Past Perfect + Would Have + PP).",
+      "visualHighlighting": {
+        "incorrect": "If I studied",
+        "correct": "If I had studied"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h12-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "By this time next year, I ___ my degree.",
+    "type": "multiple_choice",
+    "options": [
+      "will finish",
+      "will have finished",
+      "am finishing"
+    ],
+    "correctAnswer": "will have finished",
+    "feedback": "Correct! This is the Future Perfect. We use it for an action that will be completed *before* a specific time in the future.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future Perfect",
+    "frenchComparison": {
+      "frenchStructure": "J'aurai fini...",
+      "englishStructure": "I will have finished...",
+      "whyDifficult": "Future Perfect (will have + PP) is less common in conversation but important.",
+      "visualHighlighting": {
+        "incorrect": "I will finish",
+        "correct": "I will have finished"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h13-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Find the error: \"I suggest that he goes to the doctor.\"",
+    "type": "error_correction",
+    "options": [
+      "suggest that",
+      "he goes",
+      "to the",
+      "No error"
+    ],
+    "correctAnswer": "he goes",
+    "feedback": "Correct! After 'suggest', 'recommend', or 'insist', we use the Subjunctive mood (base verb). It should be \"I suggest that he go\".",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "correction": "he go",
+    "subTopic": "Subjunctive Mood",
+    "frenchComparison": {
+      "frenchStructure": "Je suggère qu'il aille...",
+      "englishStructure": "I suggest that he go...",
+      "whyDifficult": "English Subjunctive uses base verb (he go), not 'he goes'.",
+      "visualHighlighting": {
+        "incorrect": "he goes",
+        "correct": "he go"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h14-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Never ___ seen such a beautiful sunset.",
+    "type": "multiple_choice",
+    "options": [
+      "I have",
+      "have I",
+      "I did"
+    ],
+    "correctAnswer": "have I",
+    "feedback": "Correct! When a sentence starts with a negative adverb (Never, Seldom), we invert the subject and auxiliary verb.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion",
+    "frenchComparison": {
+      "frenchStructure": "Jamais je n'ai vu...",
+      "englishStructure": "Never have I seen...",
+      "whyDifficult": "Negative adverb at start requires inversion (auxiliary before subject).",
+      "visualHighlighting": {
+        "incorrect": "Never I have seen",
+        "correct": "Never have I seen"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h15-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I finally stopped ___ because it was bad for my health.",
+    "type": "multiple_choice",
+    "options": [
+      "to smoke",
+      "smoking",
+      "smoke"
+    ],
+    "correctAnswer": "smoking",
+    "feedback": "Correct! 'Stop doing' means you quit the action. 'Stop to do' means you paused to do it. Here, the person quit.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Gerund vs Infinitive",
+    "frenchComparison": {
+      "frenchStructure": "J'ai arrêté de fumer...",
+      "englishStructure": "I stopped smoking...",
+      "whyDifficult": "'Stop' + gerund = quit action. 'Stop' + infinitive = pause to do action.",
+      "visualHighlighting": {
+        "incorrect": "stopped to smoke",
+        "correct": "stopped smoking"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h16-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "The thief must ___ through the window last night.",
+    "type": "multiple_choice",
+    "options": [
+      "come",
+      "have come",
+      "be coming"
+    ],
+    "correctAnswer": "have come",
+    "feedback": "Correct! To make a deduction about the past, we use Must + Have + Past Participle.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Modals of Past Deduction",
+    "frenchComparison": {
+      "frenchStructure": "Le voleur a dû entrer...",
+      "englishStructure": "The thief must have come...",
+      "whyDifficult": "Past deduction uses Modal + Have + PP.",
+      "visualHighlighting": {
+        "incorrect": "must come",
+        "correct": "must have come"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h17-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I wish I ___ so much fufu yesterday. I feel sick now.",
+    "type": "multiple_choice",
+    "options": [
+      "didn't eat",
+      "hadn't eaten",
+      "haven't eaten"
+    ],
+    "correctAnswer": "hadn't eaten",
+    "feedback": "Correct! To express regret about the past using 'wish', we use the Past Perfect.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Wish + Past Perfect",
+    "frenchComparison": {
+      "frenchStructure": "Je regrette d'avoir mangé...",
+      "englishStructure": "I wish I hadn't eaten...",
+      "whyDifficult": "Past regret with 'wish' uses Past Perfect.",
+      "visualHighlighting": {
+        "incorrect": "I wish I didn't eat",
+        "correct": "I wish I hadn't eaten"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h18-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "It is high time we ___ home.",
+    "type": "multiple_choice",
+    "options": [
+      "go",
+      "went",
+      "have gone"
+    ],
+    "correctAnswer": "went",
+    "feedback": "Correct! The expression 'It is high time' is followed by the Past Simple, even though it refers to now.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "It is high time",
+    "frenchComparison": {
+      "frenchStructure": "Il est grand temps qu'on rentre...",
+      "englishStructure": "It is high time we went...",
+      "whyDifficult": "'It is high time' takes Past Simple.",
+      "visualHighlighting": {
+        "incorrect": "It is high time we go",
+        "correct": "It is high time we went"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h19-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Find the error: \"I am having my car fixed by the mechanic tomorrow.\"",
+    "type": "error_correction",
+    "options": [
+      "am having",
+      "fixed",
+      "by the mechanic",
+      "No error"
+    ],
+    "correctAnswer": "No error",
+    "feedback": "Correct! This is the Causative form (Have + object + past participle). 'I am having my car fixed' is correct.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Causative Form",
+    "frenchComparison": {
+      "frenchStructure": "Je fais réparer ma voiture...",
+      "englishStructure": "I am having my car fixed...",
+      "whyDifficult": "Causative structure: Have + Object + Past Participle.",
+      "visualHighlighting": {
+        "incorrect": "I am fixing my car",
+        "correct": "I am having my car fixed"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h20-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Hardly ___ entered the house when the rain started.",
+    "type": "multiple_choice",
+    "options": [
+      "had I",
+      "I had",
+      "did I"
+    ],
+    "correctAnswer": "had I",
+    "feedback": "Correct! 'Hardly' is a negative adverb that triggers inversion. It is usually followed by Past Perfect.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion (Hardly)",
+    "frenchComparison": {
+      "frenchStructure": "A peine étais-je entré...",
+      "englishStructure": "Hardly had I entered...",
+      "whyDifficult": "'Hardly' triggers inversion and uses Past Perfect.",
+      "visualHighlighting": {
+        "incorrect": "Hardly I had entered",
+        "correct": "Hardly had I entered"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e11-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "Listen! The birds ___.",
+    "type": "multiple_choice",
+    "options": [
+      "sing",
+      "sings",
+      "are singing"
+    ],
+    "correctAnswer": "are singing",
+    "feedback": "Correct! 'Listen!' tells us the action is happening right now. We use the Present Continuous.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Écoute! Les oiseaux chantent...",
+      "englishStructure": "Listen! The birds are singing...",
+      "whyDifficult": "French uses Present Simple for actions happening now. English uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "The birds sing",
+        "correct": "The birds are singing"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e12-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "The sun ___ in the East.",
+    "type": "multiple_choice",
+    "options": [
+      "rise",
+      "rises",
+      "is rising"
+    ],
+    "correctAnswer": "rises",
+    "feedback": "Correct! This is a general truth/fact. We use the Present Simple.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Fact)",
+    "frenchComparison": {
+      "frenchStructure": "Le soleil se lève...",
+      "englishStructure": "The sun rises...",
+      "whyDifficult": "General truths use Present Simple.",
+      "visualHighlighting": {
+        "incorrect": "The sun is rising",
+        "correct": "The sun rises"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e13-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "The students ___ happy with their results last term.",
+    "type": "multiple_choice",
+    "options": [
+      "was",
+      "were",
+      "are"
+    ],
+    "correctAnswer": "were",
+    "feedback": "Correct! 'Last term' is past. 'Students' (plural) takes 'were'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Simple (To Be)",
+    "frenchComparison": {
+      "frenchStructure": "Les élèves étaient...",
+      "englishStructure": "The students were...",
+      "whyDifficult": "Past form of 'be' for plural subjects is 'were'.",
+      "visualHighlighting": {
+        "incorrect": "The students was",
+        "correct": "The students were"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e14-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "My sister ___ study medicine next year. She passed the exam.",
+    "type": "multiple_choice",
+    "options": [
+      "is going to",
+      "will",
+      "goes to"
+    ],
+    "correctAnswer": "is going to",
+    "feedback": "Correct! This is a definite plan. We use 'be going to'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Be going to)",
+    "frenchComparison": {
+      "frenchStructure": "Ma soeur va étudier...",
+      "englishStructure": "My sister is going to study...",
+      "whyDifficult": "Future plans use 'be going to'.",
+      "visualHighlighting": {
+        "incorrect": "My sister will study",
+        "correct": "My sister is going to study"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e15-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ I watch TV now, Mum?",
+    "type": "multiple_choice",
+    "options": [
+      "Must",
+      "Can",
+      "Do"
+    ],
+    "correctAnswer": "Can",
+    "feedback": "Correct! We use 'Can' (or May) to ask for permission.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Permission)",
+    "frenchComparison": {
+      "frenchStructure": "Puis-je regarder...",
+      "englishStructure": "Can I watch...",
+      "whyDifficult": "Modal 'Can' for permission.",
+      "visualHighlighting": {
+        "incorrect": "Do I watch",
+        "correct": "Can I watch"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e16-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ live in Douala, but now I live in Yaoundé.",
+    "type": "multiple_choice",
+    "options": [
+      "used to",
+      "use to",
+      "am used to"
+    ],
+    "correctAnswer": "used to",
+    "feedback": "Correct! We use 'used to' for past situations that have changed.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Used to (Past Habit)",
+    "frenchComparison": {
+      "frenchStructure": "J'habitais...",
+      "englishStructure": "I used to live...",
+      "whyDifficult": "French uses Imparfait. English uses 'used to' for past states.",
+      "visualHighlighting": {
+        "incorrect": "I use to live",
+        "correct": "I used to live"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e17-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "My father ___ a shower at the moment.",
+    "type": "multiple_choice",
+    "options": [
+      "has",
+      "is having",
+      "having"
+    ],
+    "correctAnswer": "is having",
+    "feedback": "Correct! 'At the moment' requires the Present Continuous.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Mon père prend...",
+      "englishStructure": "My father is having...",
+      "whyDifficult": "Action happening now uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "My father has",
+        "correct": "My father is having"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e18-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "The bus ___ at 5 PM. Don't be late.",
+    "type": "multiple_choice",
+    "options": [
+      "arrives",
+      "is arriving",
+      "arrive"
+    ],
+    "correctAnswer": "arrives",
+    "feedback": "Correct! For fixed timetables, we use the Present Simple.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Timetable)",
+    "frenchComparison": {
+      "frenchStructure": "Le bus arrive...",
+      "englishStructure": "The bus arrives...",
+      "whyDifficult": "Timetables use Present Simple.",
+      "visualHighlighting": {
+        "incorrect": "The bus is arriving",
+        "correct": "The bus arrives"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e19-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "The taxi has ___ arrived.",
+    "type": "multiple_choice",
+    "options": [
+      "just",
+      "yet",
+      "ever"
+    ],
+    "correctAnswer": "just",
+    "feedback": "Correct! We use 'just' for actions completed very recently.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect (Just)",
+    "frenchComparison": {
+      "frenchStructure": "Le taxi vient d'arriver...",
+      "englishStructure": "The taxi has just arrived...",
+      "whyDifficult": "French uses 'venir de'. English uses Present Perfect with 'just'.",
+      "visualHighlighting": {
+        "incorrect": "The taxi did just arrive",
+        "correct": "The taxi has just arrived"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e20-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ talk in the exam hall!",
+    "type": "multiple_choice",
+    "options": [
+      "Not",
+      "Don't",
+      "You"
+    ],
+    "correctAnswer": "Don't",
+    "feedback": "Correct! For a negative command, we use 'Don't'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Imperative",
+    "frenchComparison": {
+      "frenchStructure": "Ne parlez pas...",
+      "englishStructure": "Don't talk...",
+      "whyDifficult": "Negative imperative uses 'Don't'.",
+      "visualHighlighting": {
+        "incorrect": "Not talk",
+        "correct": "Don't talk"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m11-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If she invites me, I ___ go to the party.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "am"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! First Conditional (Real). If + Present, ... will.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "First Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si elle m'invite, j'irai...",
+      "englishStructure": "If she invites me, I will go...",
+      "whyDifficult": "First Conditional structure (If + Present, ... Will).",
+      "visualHighlighting": {
+        "incorrect": "If she will invite",
+        "correct": "If she invites"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m12-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If I were the President, I ___ build more schools.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "can"
+    ],
+    "correctAnswer": "would",
+    "feedback": "Correct! Second Conditional (Imaginary). If + Past, ... would.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Second Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si j'étais Président, je construirais...",
+      "englishStructure": "If I were the President, I would build...",
+      "whyDifficult": "Second Conditional structure (If + Past, ... Would).",
+      "visualHighlighting": {
+        "incorrect": "If I am President",
+        "correct": "If I were the President"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m13-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Example: \"This letter ___ written by my father.\"",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "was",
+      "has"
+    ],
+    "correctAnswer": "was",
+    "feedback": "Correct! Passive voice in the past. The letter 'was written'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Past)",
+    "frenchComparison": {
+      "frenchStructure": "Cette lettre a été écrite...",
+      "englishStructure": "This letter was written...",
+      "whyDifficult": "Passive voice construction.",
+      "visualHighlighting": {
+        "incorrect": "This letter wrote",
+        "correct": "This letter was written"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m14-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Muna works in a bank, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "doesn't he",
+      "isn't he",
+      "don't he"
+    ],
+    "correctAnswer": "doesn't he",
+    "feedback": "Correct! 'Works' is Present Simple (positive), so the tag is 'doesn't he'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Question Tags",
+    "frenchComparison": {
+      "frenchStructure": "Muna travaille..., n'est-ce pas?",
+      "englishStructure": "Muna works..., doesn't he?",
+      "whyDifficult": "Tag question depends on the auxiliary of the main verb.",
+      "visualHighlighting": {
+        "incorrect": "isn't he",
+        "correct": "doesn't he"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m15-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Don't call me at 7 AM. I ___ be sleeping.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "will be",
+      "am"
+    ],
+    "correctAnswer": "will be",
+    "feedback": "Correct! Future Continuous ('will be sleeping') for an action in progress in the future.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Je serai en train de dormir...",
+      "englishStructure": "I will be sleeping...",
+      "whyDifficult": "Future Continuous for action in progress.",
+      "visualHighlighting": {
+        "incorrect": "I will sleep",
+        "correct": "I will be sleeping"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m16-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "My grandfather is not used to ___ smart phones.",
+    "type": "multiple_choice",
+    "options": [
+      "use",
+      "using",
+      "used"
+    ],
+    "correctAnswer": "using",
+    "feedback": "Correct! 'Be used to' is followed by the -ing form.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Be used to + -ing",
+    "frenchComparison": {
+      "frenchStructure": "Mon grand-père n'est pas habitué à utiliser...",
+      "englishStructure": "My grandfather is not used to using...",
+      "whyDifficult": "'To' is a preposition here, so it takes -ing.",
+      "visualHighlighting": {
+        "incorrect": "used to use",
+        "correct": "used to using"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m17-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "French and English ___ spoken in Cameroon.",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "are",
+      "have"
+    ],
+    "correctAnswer": "are",
+    "feedback": "Correct! Passive Voice (Present). 'Are spoken' because the subject (French and English) is plural.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Present)",
+    "frenchComparison": {
+      "frenchStructure": "Le français et l'anglais sont parlés...",
+      "englishStructure": "French and English are spoken...",
+      "whyDifficult": "Passive voice with plural subject.",
+      "visualHighlighting": {
+        "incorrect": "are speak",
+        "correct": "are spoken"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m18-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Muna said he ___ hungry.",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "were",
+      "was"
+    ],
+    "correctAnswer": "was",
+    "feedback": "Correct! Reported Speech backshift. 'Is' becomes 'was'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Reported Speech",
+    "frenchComparison": {
+      "frenchStructure": "Muna a dit qu'il avait faim...",
+      "englishStructure": "Muna said he was hungry...",
+      "whyDifficult": "Backshift in reported speech.",
+      "visualHighlighting": {
+        "incorrect": "Muna said he is",
+        "correct": "Muna said he was"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m19-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "You have been working all day. You ___ be tired.",
+    "type": "multiple_choice",
+    "options": [
+      "must",
+      "can't",
+      "should"
+    ],
+    "correctAnswer": "must",
+    "feedback": "Correct! 'Must' expresses a strong logical deduction (I am sure you are tired).",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals of Deduction",
+    "frenchComparison": {
+      "frenchStructure": "Tu dois être fatigué...",
+      "englishStructure": "You must be tired...",
+      "whyDifficult": "Strong deduction uses 'must'.",
+      "visualHighlighting": {
+        "incorrect": "You can be",
+        "correct": "You must be"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m20-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Don't worry. I ___ help you with the cleaning.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "am going to",
+      "shall to"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! We use 'will' for offers and promises.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Promise/Offer)",
+    "frenchComparison": {
+      "frenchStructure": "Je t'aiderai...",
+      "englishStructure": "I will help you...",
+      "whyDifficult": "Offers use 'will'.",
+      "visualHighlighting": {
+        "incorrect": "I am going to help",
+        "correct": "I will help"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h11-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "If we had taken a taxi, we ___ missed the bus.",
+    "type": "multiple_choice",
+    "options": [
+      "wouldn't have",
+      "won't have",
+      "didn't have"
+    ],
+    "correctAnswer": "wouldn't have",
+    "feedback": "Correct! Third Conditional. If + Past Perfect, ... would/wouldn't have + Past Participle.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Third Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si nous avions pris un taxi, nous n'aurions pas manqué...",
+      "englishStructure": "If we had taken a taxi, we wouldn't have missed...",
+      "whyDifficult": "Third Conditional structure (Past Perfect + Would Have + PP).",
+      "visualHighlighting": {
+        "incorrect": "we won't have missed",
+        "correct": "we wouldn't have missed"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h12-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "By the time you arrive, we ___ dinner.",
+    "type": "multiple_choice",
+    "options": [
+      "will finish",
+      "will have finished",
+      "finish"
+    ],
+    "correctAnswer": "will have finished",
+    "feedback": "Correct! Future Perfect. The action will be complete before the time you arrive.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future Perfect",
+    "frenchComparison": {
+      "frenchStructure": "Nous aurons fini...",
+      "englishStructure": "We will have finished...",
+      "whyDifficult": "Future Perfect (will have + PP).",
+      "visualHighlighting": {
+        "incorrect": "we will finish",
+        "correct": "we will have finished"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h13-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Find the error: \"The teacher insisted that she arrives on time.\"",
+    "type": "error_correction",
+    "options": [
+      "insisted that",
+      "she arrives",
+      "on time",
+      "No error"
+    ],
+    "correctAnswer": "she arrives",
+    "feedback": "Correct! After 'insist', we use the Subjunctive (base verb). It should be \"insisted that she arrive\".",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "correction": "she arrive",
+    "subTopic": "Subjunctive Mood",
+    "frenchComparison": {
+      "frenchStructure": "Le professeur a insisté pour qu'elle arrive...",
+      "englishStructure": "The teacher insisted that she arrive...",
+      "whyDifficult": "English Subjunctive uses base verb (she arrive), not 'she arrives'.",
+      "visualHighlighting": {
+        "incorrect": "she arrives",
+        "correct": "she arrive"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h14-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Seldom ___ I seen such a big snake!",
+    "type": "multiple_choice",
+    "options": [
+      "have",
+      "did",
+      "do"
+    ],
+    "correctAnswer": "have",
+    "feedback": "Correct! Inversion after 'Seldom'. 'Seldom have I seen...'",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion",
+    "frenchComparison": {
+      "frenchStructure": "Rarement ai-je vu...",
+      "englishStructure": "Seldom have I seen...",
+      "whyDifficult": "Negative adverb at start requires inversion.",
+      "visualHighlighting": {
+        "incorrect": "Seldom I have seen",
+        "correct": "Seldom have I seen"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h15-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I stopped ___ some water because I was thirsty.",
+    "type": "multiple_choice",
+    "options": [
+      "to buy",
+      "buying",
+      "buy"
+    ],
+    "correctAnswer": "to buy",
+    "feedback": "Correct! 'Stop to do' means you stopped walking/driving in order to do something.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Gerund vs Infinitive",
+    "frenchComparison": {
+      "frenchStructure": "Je me suis arrêté pour acheter...",
+      "englishStructure": "I stopped to buy...",
+      "whyDifficult": "'Stop' + infinitive = pause to do action. 'Stop' + gerund = quit action.",
+      "visualHighlighting": {
+        "incorrect": "stopped buying",
+        "correct": "stopped to buy"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h16-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "The road is wet. It must ___ rained last night.",
+    "type": "multiple_choice",
+    "options": [
+      "have",
+      "has",
+      "had"
+    ],
+    "correctAnswer": "have",
+    "feedback": "Correct! 'Must have rained' is a deduction about the past.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Modals of Past Deduction",
+    "frenchComparison": {
+      "frenchStructure": "Il a dû pleuvoir...",
+      "englishStructure": "It must have rained...",
+      "whyDifficult": "Past deduction uses Modal + Have + PP.",
+      "visualHighlighting": {
+        "incorrect": "must rain",
+        "correct": "must have rained"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h17-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I wish I ___ harder at school. Now I can't find a job.",
+    "type": "multiple_choice",
+    "options": [
+      "studied",
+      "have studied",
+      "had studied"
+    ],
+    "correctAnswer": "had studied",
+    "feedback": "Correct! 'Wish' + Past Perfect expresses a past regret.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Wish + Past Perfect",
+    "frenchComparison": {
+      "frenchStructure": "Je regrette de ne pas avoir étudié...",
+      "englishStructure": "I wish I had studied...",
+      "whyDifficult": "Past regret with 'wish' uses Past Perfect.",
+      "visualHighlighting": {
+        "incorrect": "I wish I studied",
+        "correct": "I wish I had studied"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h18-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "It's time you ___ a job.",
+    "type": "multiple_choice",
+    "options": [
+      "find",
+      "found",
+      "will find"
+    ],
+    "correctAnswer": "found",
+    "feedback": "Correct! 'It's time' + subject is followed by the Past Simple.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "It is high time"
+  },
+  {
+    "id": "tense-form-h19-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Find the error: \"She had her hair cutting yesterday.\"",
+    "type": "error_correction",
+    "options": [
+      "had",
+      "her hair",
+      "cutting",
+      "No error"
+    ],
+    "correctAnswer": "cutting",
+    "feedback": "Correct! Causative form is 'Have + object + Past Participle'. It should be 'She had her hair cut'.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "correction": "cut",
+    "subTopic": "Causative Form"
+  },
+  {
+    "id": "tense-form-h20-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "No sooner ___ we arrived than the party started.",
+    "type": "multiple_choice",
+    "options": [
+      "did",
+      "had",
+      "were"
+    ],
+    "correctAnswer": "had",
+    "feedback": "Correct! 'No sooner' goes with 'had' (Past Perfect) and inversion. 'No sooner had we arrived...'",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion (No sooner)"
+  },
+  {
+    "id": "tense-form-e21-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ sleeping now. I am working.",
+    "type": "multiple_choice",
+    "options": [
+      "am not",
+      "don't",
+      "not"
+    ],
+    "correctAnswer": "am not",
+    "feedback": "Correct! Present Continuous negative: 'I am not' + -ing.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous (Negative)",
+    "frenchComparison": {
+      "frenchStructure": "Je ne dors pas...",
+      "englishStructure": "I am not sleeping...",
+      "whyDifficult": "French uses Present Simple for current actions. English uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "I don't sleep",
+        "correct": "I am not sleeping"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e22-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ tea every morning.",
+    "type": "multiple_choice",
+    "options": [
+      "drink",
+      "drinks",
+      "is drinking"
+    ],
+    "correctAnswer": "drinks",
+    "feedback": "Correct! 'Every morning' indicates a habit. We use Present Simple.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Habit)",
+    "frenchComparison": {
+      "frenchStructure": "Elle boit...",
+      "englishStructure": "She drinks...",
+      "whyDifficult": "Third person singular adds 's'.",
+      "visualHighlighting": {
+        "incorrect": "She drink",
+        "correct": "She drinks"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e23-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "We ___ football yesterday.",
+    "type": "multiple_choice",
+    "options": [
+      "play",
+      "played",
+      "have played"
+    ],
+    "correctAnswer": "played",
+    "feedback": "Correct! 'Yesterday' requires Past Simple.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Simple (Regular)",
+    "frenchComparison": {
+      "frenchStructure": "Nous avons joué...",
+      "englishStructure": "We played...",
+      "whyDifficult": "French often uses Passé Composé (have played) where English uses Past Simple.",
+      "visualHighlighting": {
+        "incorrect": "We have played",
+        "correct": "We played"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e24-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ help you with your homework.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "am going to",
+      "want"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! We use 'will' for offers made at the moment of speaking.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Will for Offer)",
+    "frenchComparison": {
+      "frenchStructure": "Je vais t'aider...",
+      "englishStructure": "I will help you...",
+      "whyDifficult": "Offers use 'will', not 'going to'.",
+      "visualHighlighting": {
+        "incorrect": "I am going to help",
+        "correct": "I will help"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e25-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ the door, please.",
+    "type": "multiple_choice",
+    "options": [
+      "Open",
+      "You open",
+      "To open"
+    ],
+    "correctAnswer": "Open",
+    "feedback": "Correct! Imperatives start with the base verb.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Imperative",
+    "frenchComparison": {
+      "frenchStructure": "Ouvre...",
+      "englishStructure": "Open...",
+      "whyDifficult": "Imperative structure is similar, but subject is omitted.",
+      "visualHighlighting": {
+        "incorrect": "You open",
+        "correct": "Open"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e26-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ that movie already.",
+    "type": "multiple_choice",
+    "options": [
+      "see",
+      "saw",
+      "have seen"
+    ],
+    "correctAnswer": "have seen",
+    "feedback": "Correct! 'Already' with an unspecified time uses Present Perfect.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect (Experience)",
+    "frenchComparison": {
+      "frenchStructure": "J'ai déjà vu...",
+      "englishStructure": "I have already seen...",
+      "whyDifficult": "Direct translation works here, but placement of 'already' can vary.",
+      "visualHighlighting": {
+        "incorrect": "I saw",
+        "correct": "I have seen"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e27-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ when you called.",
+    "type": "multiple_choice",
+    "options": [
+      "slept",
+      "was sleeping",
+      "am sleeping"
+    ],
+    "correctAnswer": "was sleeping",
+    "feedback": "Correct! Past Continuous for an action in progress in the past.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Je dormais...",
+      "englishStructure": "I was sleeping...",
+      "whyDifficult": "French uses Imparfait. English uses Past Continuous.",
+      "visualHighlighting": {
+        "incorrect": "I slept",
+        "correct": "I was sleeping"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e28-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "Look at the clouds! It ___ rain.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "is going to",
+      "can"
+    ],
+    "correctAnswer": "is going to",
+    "feedback": "Correct! Prediction based on evidence (clouds) uses 'be going to'.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Prediction with Evidence)",
+    "frenchComparison": {
+      "frenchStructure": "Il va pleuvoir...",
+      "englishStructure": "It is going to rain...",
+      "whyDifficult": "Prediction with evidence uses 'going to'.",
+      "visualHighlighting": {
+        "incorrect": "It will rain",
+        "correct": "It is going to rain"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e29-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ swim very well.",
+    "type": "multiple_choice",
+    "options": [
+      "can",
+      "know",
+      "may"
+    ],
+    "correctAnswer": "can",
+    "feedback": "Correct! 'Can' expresses ability.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Ability)",
+    "frenchComparison": {
+      "frenchStructure": "Je sais nager...",
+      "englishStructure": "I can swim...",
+      "whyDifficult": "French uses 'savoir' (know). English uses 'can'.",
+      "visualHighlighting": {
+        "incorrect": "I know swim",
+        "correct": "I can swim"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e30-A",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "I ___ chocolate.",
+    "type": "multiple_choice",
+    "options": [
+      "am liking",
+      "like",
+      "likes"
+    ],
+    "correctAnswer": "like",
+    "feedback": "Correct! Stative verbs like 'like' are usually not used in continuous forms.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Stative)",
+    "frenchComparison": {
+      "frenchStructure": "J'aime...",
+      "englishStructure": "I like...",
+      "whyDifficult": "Stative verbs don't take -ing.",
+      "visualHighlighting": {
+        "incorrect": "I am liking",
+        "correct": "I like"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e21-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "He ___ working at the moment. He is relaxing.",
+    "type": "multiple_choice",
+    "options": [
+      "is not",
+      "doesn't",
+      "not"
+    ],
+    "correctAnswer": "is not",
+    "feedback": "Correct! Present Continuous negative: 'He is not' + -ing.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Continuous (Negative)",
+    "frenchComparison": {
+      "frenchStructure": "Il ne travaille pas...",
+      "englishStructure": "He is not working...",
+      "whyDifficult": "French uses Present Simple. English uses Present Continuous.",
+      "visualHighlighting": {
+        "incorrect": "He doesn't work",
+        "correct": "He is not working"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e22-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "He ___ coffee every day.",
+    "type": "multiple_choice",
+    "options": [
+      "drink",
+      "drinks",
+      "is drinking"
+    ],
+    "correctAnswer": "drinks",
+    "feedback": "Correct! Habitual action uses Present Simple.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Habit)",
+    "frenchComparison": {
+      "frenchStructure": "Il boit...",
+      "englishStructure": "He drinks...",
+      "whyDifficult": "Third person singular 's'.",
+      "visualHighlighting": {
+        "incorrect": "He drink",
+        "correct": "He drinks"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e23-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "They ___ basketball last week.",
+    "type": "multiple_choice",
+    "options": [
+      "play",
+      "played",
+      "have played"
+    ],
+    "correctAnswer": "played",
+    "feedback": "Correct! 'Last week' requires Past Simple.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Simple (Regular)",
+    "frenchComparison": {
+      "frenchStructure": "Ils ont joué...",
+      "englishStructure": "They played...",
+      "whyDifficult": "French uses Passé Composé. English uses Past Simple.",
+      "visualHighlighting": {
+        "incorrect": "They have played",
+        "correct": "They played"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e24-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ call you later.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "is going to",
+      "wants"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! 'Will' is used for future promises or voluntary actions.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Will)",
+    "frenchComparison": {
+      "frenchStructure": "Elle t'appellera...",
+      "englishStructure": "She will call you...",
+      "whyDifficult": "Future simple uses 'will'.",
+      "visualHighlighting": {
+        "incorrect": "She calls",
+        "correct": "She will call"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e25-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "___ your books.",
+    "type": "multiple_choice",
+    "options": [
+      "Close",
+      "You close",
+      "To close"
+    ],
+    "correctAnswer": "Close",
+    "feedback": "Correct! Imperative starts with the verb.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Imperative",
+    "frenchComparison": {
+      "frenchStructure": "Fermez...",
+      "englishStructure": "Close...",
+      "whyDifficult": "Subject is omitted in imperative.",
+      "visualHighlighting": {
+        "incorrect": "You close",
+        "correct": "Close"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e26-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ to Paris twice.",
+    "type": "multiple_choice",
+    "options": [
+      "goes",
+      "went",
+      "has been"
+    ],
+    "correctAnswer": "has been",
+    "feedback": "Correct! Experience (life history) uses Present Perfect.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect (Experience)",
+    "frenchComparison": {
+      "frenchStructure": "Elle est allée...",
+      "englishStructure": "She has been...",
+      "whyDifficult": "French uses 'être' (is gone). English uses 'have been'.",
+      "visualHighlighting": {
+        "incorrect": "She went",
+        "correct": "She has been"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e27-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ when the rain started.",
+    "type": "multiple_choice",
+    "options": [
+      "walked",
+      "was walking",
+      "is walking"
+    ],
+    "correctAnswer": "was walking",
+    "feedback": "Correct! Past Continuous for action in progress.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Elle marchait...",
+      "englishStructure": "She was walking...",
+      "whyDifficult": "French uses Imparfait. English uses Past Continuous.",
+      "visualHighlighting": {
+        "incorrect": "She walked",
+        "correct": "She was walking"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e28-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "Watch out! You ___ fall.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "are going to",
+      "can"
+    ],
+    "correctAnswer": "are going to",
+    "feedback": "Correct! Immediate future prediction uses 'be going to'.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future (Prediction)",
+    "frenchComparison": {
+      "frenchStructure": "Tu vas tomber...",
+      "englishStructure": "You are going to fall...",
+      "whyDifficult": "Immediate prediction uses 'going to'.",
+      "visualHighlighting": {
+        "incorrect": "You will fall",
+        "correct": "You are going to fall"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e29-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "He ___ run very fast.",
+    "type": "multiple_choice",
+    "options": [
+      "can",
+      "knows",
+      "may"
+    ],
+    "correctAnswer": "can",
+    "feedback": "Correct! 'Can' expresses ability.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Ability)",
+    "frenchComparison": {
+      "frenchStructure": "Il sait courir...",
+      "englishStructure": "He can run...",
+      "whyDifficult": "French uses 'savoir'. English uses 'can'.",
+      "visualHighlighting": {
+        "incorrect": "He knows run",
+        "correct": "He can run"
+      }
+    }
+  },
+  {
+    "id": "tense-form-e30-B",
+    "moduleId": "tense-form",
+    "difficulty": "easy",
+    "questionText": "She ___ bananas.",
+    "type": "multiple_choice",
+    "options": [
+      "is liking",
+      "like",
+      "likes"
+    ],
+    "correctAnswer": "likes",
+    "feedback": "Correct! 'Like' is a stative verb, used in Present Simple.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Simple (Stative)",
+    "frenchComparison": {
+      "frenchStructure": "Elle aime...",
+      "englishStructure": "She likes...",
+      "whyDifficult": "Stative verbs don't take -ing.",
+      "visualHighlighting": {
+        "incorrect": "She is liking",
+        "correct": "She likes"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m21-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "I ___ for you since 8 AM.",
+    "type": "multiple_choice",
+    "options": [
+      "wait",
+      "am waiting",
+      "have been waiting"
+    ],
+    "correctAnswer": "have been waiting",
+    "feedback": "Correct! Present Perfect Continuous for an action starting in the past and continuing now.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect Continuous",
+    "frenchComparison": {
+      "frenchStructure": "J'attends...",
+      "englishStructure": "I have been waiting...",
+      "whyDifficult": "French uses Present Simple + depuis. English uses Present Perfect Continuous.",
+      "visualHighlighting": {
+        "incorrect": "I am waiting",
+        "correct": "I have been waiting"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m22-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "When I got to the station, the train ___.",
+    "type": "multiple_choice",
+    "options": [
+      "left",
+      "has left",
+      "had left"
+    ],
+    "correctAnswer": "had left",
+    "feedback": "Correct! Past Perfect for an action that happened before another past action.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Perfect",
+    "frenchComparison": {
+      "frenchStructure": "Le train était parti...",
+      "englishStructure": "The train had left...",
+      "whyDifficult": "Past Perfect (had + PP) shows the earlier of two past actions.",
+      "visualHighlighting": {
+        "incorrect": "has left",
+        "correct": "had left"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m23-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "I ___ smoke, but I quit.",
+    "type": "multiple_choice",
+    "options": [
+      "use to",
+      "used to",
+      "usually"
+    ],
+    "correctAnswer": "used to",
+    "feedback": "Correct! 'Used to' describes a past habit that is now finished.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Used to",
+    "frenchComparison": {
+      "frenchStructure": "Je fumais (avant)...",
+      "englishStructure": "I used to smoke...",
+      "whyDifficult": "'Used to' is specific for past habits.",
+      "visualHighlighting": {
+        "incorrect": "I use to smoke",
+        "correct": "I used to smoke"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m24-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "At 8 PM tonight, I ___ dinner.",
+    "type": "multiple_choice",
+    "options": [
+      "will eat",
+      "will be eating",
+      "eat"
+    ],
+    "correctAnswer": "will be eating",
+    "feedback": "Correct! Future Continuous for an action in progress at a specific future time.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Je serai en train de manger...",
+      "englishStructure": "I will be eating...",
+      "whyDifficult": "Future Continuous structure.",
+      "visualHighlighting": {
+        "incorrect": "I will eat",
+        "correct": "I will be eating"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m25-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "You ___ stop at the red light.",
+    "type": "multiple_choice",
+    "options": [
+      "must",
+      "have",
+      "need"
+    ],
+    "correctAnswer": "must",
+    "feedback": "Correct! 'Must' expresses strong obligation or law.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Obligation)",
+    "frenchComparison": {
+      "frenchStructure": "Tu dois...",
+      "englishStructure": "You must...",
+      "whyDifficult": "Direct translation works, but 'have to' is also common.",
+      "visualHighlighting": {
+        "incorrect": "You have stop",
+        "correct": "You must stop"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m26-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "English ___ all over the world.",
+    "type": "multiple_choice",
+    "options": [
+      "speaks",
+      "is spoken",
+      "is speaking"
+    ],
+    "correctAnswer": "is spoken",
+    "feedback": "Correct! Passive Voice: 'is' + Past Participle.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Present)",
+    "frenchComparison": {
+      "frenchStructure": "L'anglais est parlé...",
+      "englishStructure": "English is spoken...",
+      "whyDifficult": "Passive voice structure.",
+      "visualHighlighting": {
+        "incorrect": "English speaks",
+        "correct": "English is spoken"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m27-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If you study, you ___ pass.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "are"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! First Conditional: If + Present, ... Will.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "First Conditional",
+    "frenchComparison": {
+      "frenchStructure": "Si tu étudies, tu réussiras...",
+      "englishStructure": "If you study, you will pass...",
+      "whyDifficult": "First conditional structure.",
+      "visualHighlighting": {
+        "incorrect": "you pass",
+        "correct": "you will pass"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m28-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "He says he ___ busy.",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "was",
+      "were"
+    ],
+    "correctAnswer": "is",
+    "feedback": "Correct! Reporting verb is present ('says'), so no tense change.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Reported Speech (Present)",
+    "frenchComparison": {
+      "frenchStructure": "Il dit qu'il est occupé...",
+      "englishStructure": "He says he is busy...",
+      "whyDifficult": "No backshift when reporting verb is present.",
+      "visualHighlighting": {
+        "incorrect": "he was",
+        "correct": "he is"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m29-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "It is hot today, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "isn't it",
+      "doesn't it",
+      "is it"
+    ],
+    "correctAnswer": "isn't it",
+    "feedback": "Correct! Positive statement -> Negative tag.",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Question Tags",
+    "frenchComparison": {
+      "frenchStructure": "Il fait chaud, n'est-ce pas ?",
+      "englishStructure": "It is hot, isn't it?",
+      "whyDifficult": "Tag matches the auxiliary verb.",
+      "visualHighlighting": {
+        "incorrect": "no?",
+        "correct": "isn't it?"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m30-A",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "He is interested in ___ English.",
+    "type": "multiple_choice",
+    "options": [
+      "learn",
+      "learning",
+      "to learn"
+    ],
+    "correctAnswer": "learning",
+    "feedback": "Correct! After a preposition ('in'), use the gerund (-ing).",
+    "formType": "A",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Gerund after Preposition",
+    "frenchComparison": {
+      "frenchStructure": "Il s'intéresse à apprendre...",
+      "englishStructure": "He is interested in learning...",
+      "whyDifficult": "Prepositions are followed by -ing in English.",
+      "visualHighlighting": {
+        "incorrect": "in learn",
+        "correct": "in learning"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m21-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "She ___ here for 10 years.",
+    "type": "multiple_choice",
+    "options": [
+      "lives",
+      "is living",
+      "has been living"
+    ],
+    "correctAnswer": "has been living",
+    "feedback": "Correct! Present Perfect Continuous for duration up to now.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Present Perfect Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Elle vit ici depuis...",
+      "englishStructure": "She has been living here...",
+      "whyDifficult": "French uses Present Simple + depuis.",
+      "visualHighlighting": {
+        "incorrect": "She lives",
+        "correct": "She has been living"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m22-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "The movie ___ when we arrived.",
+    "type": "multiple_choice",
+    "options": [
+      "started",
+      "has started",
+      "had started"
+    ],
+    "correctAnswer": "had started",
+    "feedback": "Correct! Past Perfect for the earlier action.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Past Perfect",
+    "frenchComparison": {
+      "frenchStructure": "Le film avait commencé...",
+      "englishStructure": "The movie had started...",
+      "whyDifficult": "Past Perfect usage.",
+      "visualHighlighting": {
+        "incorrect": "has started",
+        "correct": "had started"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m23-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "She ___ have long hair.",
+    "type": "multiple_choice",
+    "options": [
+      "used to",
+      "use to",
+      "uses to"
+    ],
+    "correctAnswer": "used to",
+    "feedback": "Correct! Past habit.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Used to",
+    "frenchComparison": {
+      "frenchStructure": "Elle avait...",
+      "englishStructure": "She used to have...",
+      "whyDifficult": "Specific structure for past states.",
+      "visualHighlighting": {
+        "incorrect": "She use to have",
+        "correct": "She used to have"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m24-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Don't call me at 6. I ___.",
+    "type": "multiple_choice",
+    "options": [
+      "will work",
+      "will be working",
+      "work"
+    ],
+    "correctAnswer": "will be working",
+    "feedback": "Correct! Future Continuous for action in progress.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Future Continuous",
+    "frenchComparison": {
+      "frenchStructure": "Je travaillerai...",
+      "englishStructure": "I will be working...",
+      "whyDifficult": "Future Continuous usage.",
+      "visualHighlighting": {
+        "incorrect": "I will work",
+        "correct": "I will be working"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m25-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Students ___ wear a uniform.",
+    "type": "multiple_choice",
+    "options": [
+      "have to",
+      "must to",
+      "should"
+    ],
+    "correctAnswer": "have to",
+    "feedback": "Correct! 'Have to' expresses external obligation (school rule).",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Modals (Obligation)",
+    "frenchComparison": {
+      "frenchStructure": "Les élèves doivent...",
+      "englishStructure": "Students have to...",
+      "whyDifficult": "'Must' and 'Have to' are similar, but 'Have to' is common for rules.",
+      "visualHighlighting": {
+        "incorrect": "must to",
+        "correct": "have to"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m26-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "This house ___ in 1990.",
+    "type": "multiple_choice",
+    "options": [
+      "built",
+      "was built",
+      "is built"
+    ],
+    "correctAnswer": "was built",
+    "feedback": "Correct! Passive Voice (Past).",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Voice (Past)",
+    "frenchComparison": {
+      "frenchStructure": "Cette maison a été construite...",
+      "englishStructure": "This house was built...",
+      "whyDifficult": "Passive voice in past tense.",
+      "visualHighlighting": {
+        "incorrect": "built",
+        "correct": "was built"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m27-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "If he comes, we ___ go.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "did"
+    ],
+    "correctAnswer": "will",
+    "feedback": "Correct! First Conditional.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "First Conditional",
+    "frenchComparison": {
+      "frenchStructure": "S'il vient, nous irons...",
+      "englishStructure": "If he comes, we will go...",
+      "whyDifficult": "First conditional structure.",
+      "visualHighlighting": {
+        "incorrect": "we go",
+        "correct": "we will go"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m28-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "She says she ___ chocolate.",
+    "type": "multiple_choice",
+    "options": [
+      "like",
+      "likes",
+      "liked"
+    ],
+    "correctAnswer": "likes",
+    "feedback": "Correct! Present reporting verb -> Present tense.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Reported Speech (Present)",
+    "frenchComparison": {
+      "frenchStructure": "Elle dit qu'elle aime...",
+      "englishStructure": "She says she likes...",
+      "whyDifficult": "No backshift.",
+      "visualHighlighting": {
+        "incorrect": "she liked",
+        "correct": "she likes"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m29-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "You don't like fish, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "do you",
+      "don't you",
+      "are you"
+    ],
+    "correctAnswer": "do you",
+    "feedback": "Correct! Negative statement -> Positive tag.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Question Tags",
+    "frenchComparison": {
+      "frenchStructure": "Tu n'aimes pas le poisson, si ?",
+      "englishStructure": "You don't like fish, do you?",
+      "whyDifficult": "Tag polarity switch.",
+      "visualHighlighting": {
+        "incorrect": "no?",
+        "correct": "do you?"
+      }
+    }
+  },
+  {
+    "id": "tense-form-m30-B",
+    "moduleId": "tense-form",
+    "difficulty": "medium",
+    "questionText": "Thank you for ___ me.",
+    "type": "multiple_choice",
+    "options": [
+      "help",
+      "helping",
+      "to help"
+    ],
+    "correctAnswer": "helping",
+    "feedback": "Correct! After preposition 'for', use -ing.",
+    "formType": "B",
+    "transferType": "near",
+    "item_version": "1.0.0",
+    "subTopic": "Gerund after Preposition",
+    "frenchComparison": {
+      "frenchStructure": "Merci de m'aider...",
+      "englishStructure": "Thank you for helping me...",
+      "whyDifficult": "Preposition + Gerund.",
+      "visualHighlighting": {
+        "incorrect": "for help",
+        "correct": "for helping"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h21-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "By 2025, I ___ here for 10 years.",
+    "type": "multiple_choice",
+    "options": [
+      "will live",
+      "will have lived",
+      "will have been living"
+    ],
+    "correctAnswer": "will have been living",
+    "feedback": "Correct! Future Perfect Continuous emphasizes the duration up to a future point.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future Perfect Continuous",
+    "frenchComparison": {
+      "frenchStructure": "En 2025, cela fera 10 ans que je vivrai ici...",
+      "englishStructure": "By 2025, I will have been living here...",
+      "whyDifficult": "Complex future tense structure.",
+      "visualHighlighting": {
+        "incorrect": "will live",
+        "correct": "will have been living"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h22-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "If I hadn't missed the bus, I ___ here now.",
+    "type": "multiple_choice",
+    "options": [
+      "would be",
+      "would have been",
+      "will be"
+    ],
+    "correctAnswer": "would be",
+    "feedback": "Correct! Mixed Conditional: Past condition (hadn't missed) -> Present result (would be).",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Mixed Conditionals",
+    "frenchComparison": {
+      "frenchStructure": "Si je n'avais pas raté le bus, je serais ici...",
+      "englishStructure": "If I hadn't missed the bus, I would be here...",
+      "whyDifficult": "Mixing past and present time frames.",
+      "visualHighlighting": {
+        "incorrect": "would have been",
+        "correct": "would be"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h23-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "It is essential that she ___ on time.",
+    "type": "multiple_choice",
+    "options": [
+      "is",
+      "be",
+      "will be"
+    ],
+    "correctAnswer": "be",
+    "feedback": "Correct! Subjunctive mood after 'essential'. Use the base verb.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Subjunctive Mood",
+    "frenchComparison": {
+      "frenchStructure": "Il est essentiel qu'elle soit...",
+      "englishStructure": "It is essential that she be...",
+      "whyDifficult": "English subjunctive uses base form 'be', not 'is'.",
+      "visualHighlighting": {
+        "incorrect": "she is",
+        "correct": "she be"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h24-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Never ___ such a beautiful sunset.",
+    "type": "multiple_choice",
+    "options": [
+      "I have seen",
+      "have I seen",
+      "I saw"
+    ],
+    "correctAnswer": "have I seen",
+    "feedback": "Correct! Negative adverb 'Never' at the start requires inversion.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion",
+    "frenchComparison": {
+      "frenchStructure": "Jamais je n'ai vu...",
+      "englishStructure": "Never have I seen...",
+      "whyDifficult": "Inversion of subject and auxiliary.",
+      "visualHighlighting": {
+        "incorrect": "Never I have seen",
+        "correct": "Never have I seen"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h25-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "It was Mary ___ won the prize.",
+    "type": "multiple_choice",
+    "options": [
+      "which",
+      "who",
+      "whom"
+    ],
+    "correctAnswer": "who",
+    "feedback": "Correct! Cleft sentence emphasizing the subject (Mary).",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Cleft Sentences",
+    "frenchComparison": {
+      "frenchStructure": "C'est Mary qui...",
+      "englishStructure": "It was Mary who...",
+      "whyDifficult": "Emphasis structure.",
+      "visualHighlighting": {
+        "incorrect": "which",
+        "correct": "who"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h26-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "___ the news, she started to cry.",
+    "type": "multiple_choice",
+    "options": [
+      "Hearing",
+      "Heard",
+      "To hear"
+    ],
+    "correctAnswer": "Hearing",
+    "feedback": "Correct! Present Participle clause indicating simultaneous action or cause.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Participle Clauses",
+    "frenchComparison": {
+      "frenchStructure": "En entendant les nouvelles...",
+      "englishStructure": "Hearing the news...",
+      "whyDifficult": "Participle clause usage.",
+      "visualHighlighting": {
+        "incorrect": "Heard",
+        "correct": "Hearing"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h27-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I thought it ___ rain.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "can"
+    ],
+    "correctAnswer": "would",
+    "feedback": "Correct! Future in the Past. 'Will' becomes 'would'.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future in the Past",
+    "frenchComparison": {
+      "frenchStructure": "Je pensais qu'il pleuvrait...",
+      "englishStructure": "I thought it would rain...",
+      "whyDifficult": "Backshift of 'will' to 'would'.",
+      "visualHighlighting": {
+        "incorrect": "will",
+        "correct": "would"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h28-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "He hopes ___ to the party.",
+    "type": "multiple_choice",
+    "options": [
+      "to invite",
+      "to be invited",
+      "inviting"
+    ],
+    "correctAnswer": "to be invited",
+    "feedback": "Correct! Passive Infinitive (to be + PP).",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Infinitive",
+    "frenchComparison": {
+      "frenchStructure": "Il espère être invité...",
+      "englishStructure": "He hopes to be invited...",
+      "whyDifficult": "Passive infinitive structure.",
+      "visualHighlighting": {
+        "incorrect": "to invite",
+        "correct": "to be invited"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h29-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I ___ my hair cut yesterday.",
+    "type": "multiple_choice",
+    "options": [
+      "had",
+      "made",
+      "did"
+    ],
+    "correctAnswer": "had",
+    "feedback": "Correct! Causative 'Have something done'.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Causative Form",
+    "frenchComparison": {
+      "frenchStructure": "Je me suis fait couper les cheveux...",
+      "englishStructure": "I had my hair cut...",
+      "whyDifficult": "Causative structure is different in French (faire + infinitive).",
+      "visualHighlighting": {
+        "incorrect": "I made my hair cut",
+        "correct": "I had my hair cut"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h30-A",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I wish it ___ stop raining.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "stopped"
+    ],
+    "correctAnswer": "would",
+    "feedback": "Correct! 'Wish + would' expresses annoyance or desire for change.",
+    "formType": "A",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Wish + Would",
+    "frenchComparison": {
+      "frenchStructure": "J'aimerais que ça s'arrête...",
+      "englishStructure": "I wish it would stop...",
+      "whyDifficult": "Specific structure for annoyance.",
+      "visualHighlighting": {
+        "incorrect": "will stop",
+        "correct": "would stop"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h21-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "By 5 PM, we ___ for 8 hours.",
+    "type": "multiple_choice",
+    "options": [
+      "will drive",
+      "will have driven",
+      "will have been driving"
+    ],
+    "correctAnswer": "will have been driving",
+    "feedback": "Correct! Future Perfect Continuous emphasizes duration.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future Perfect Continuous",
+    "frenchComparison": {
+      "frenchStructure": "À 17h, cela fera 8h que nous conduirons...",
+      "englishStructure": "By 5 PM, we will have been driving...",
+      "whyDifficult": "Complex future tense.",
+      "visualHighlighting": {
+        "incorrect": "will drive",
+        "correct": "will have been driving"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h22-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "If he were smarter, he ___ that mistake yesterday.",
+    "type": "multiple_choice",
+    "options": [
+      "wouldn't make",
+      "wouldn't have made",
+      "didn't make"
+    ],
+    "correctAnswer": "wouldn't have made",
+    "feedback": "Correct! Mixed Conditional: Present condition (were smarter) -> Past result (wouldn't have made).",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Mixed Conditionals",
+    "frenchComparison": {
+      "frenchStructure": "S'il était plus intelligent, il n'aurait pas fait...",
+      "englishStructure": "If he were smarter, he wouldn't have made...",
+      "whyDifficult": "Mixing time frames.",
+      "visualHighlighting": {
+        "incorrect": "wouldn't make",
+        "correct": "wouldn't have made"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h23-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I recommend that he ___ a doctor.",
+    "type": "multiple_choice",
+    "options": [
+      "sees",
+      "see",
+      "saw"
+    ],
+    "correctAnswer": "see",
+    "feedback": "Correct! Subjunctive mood after 'recommend'.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Subjunctive Mood",
+    "frenchComparison": {
+      "frenchStructure": "Je recommande qu'il voie...",
+      "englishStructure": "I recommend that he see...",
+      "whyDifficult": "Subjunctive uses base verb.",
+      "visualHighlighting": {
+        "incorrect": "he sees",
+        "correct": "he see"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h24-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "Rarely ___ such talent.",
+    "type": "multiple_choice",
+    "options": [
+      "we see",
+      "do we see",
+      "we saw"
+    ],
+    "correctAnswer": "do we see",
+    "feedback": "Correct! Inversion after 'Rarely'.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Inversion",
+    "frenchComparison": {
+      "frenchStructure": "Rarement voyons-nous...",
+      "englishStructure": "Rarely do we see...",
+      "whyDifficult": "Inversion required.",
+      "visualHighlighting": {
+        "incorrect": "we see",
+        "correct": "do we see"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h25-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "It is the money ___ matters.",
+    "type": "multiple_choice",
+    "options": [
+      "what",
+      "that",
+      "who"
+    ],
+    "correctAnswer": "that",
+    "feedback": "Correct! Cleft sentence emphasizing 'the money'.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Cleft Sentences",
+    "frenchComparison": {
+      "frenchStructure": "C'est l'argent qui...",
+      "englishStructure": "It is the money that...",
+      "whyDifficult": "Emphasis structure.",
+      "visualHighlighting": {
+        "incorrect": "what",
+        "correct": "that"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h26-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "___ by the noise, he woke up.",
+    "type": "multiple_choice",
+    "options": [
+      "Disturbing",
+      "Disturbed",
+      "To disturb"
+    ],
+    "correctAnswer": "Disturbed",
+    "feedback": "Correct! Past Participle clause (Passive meaning).",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Participle Clauses",
+    "frenchComparison": {
+      "frenchStructure": "Dérangé par le bruit...",
+      "englishStructure": "Disturbed by the noise...",
+      "whyDifficult": "Passive participle clause.",
+      "visualHighlighting": {
+        "incorrect": "Disturbing",
+        "correct": "Disturbed"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h27-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "She promised she ___ help.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "can"
+    ],
+    "correctAnswer": "would",
+    "feedback": "Correct! Future in the Past.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Future in the Past",
+    "frenchComparison": {
+      "frenchStructure": "Elle a promis qu'elle aiderait...",
+      "englishStructure": "She promised she would help...",
+      "whyDifficult": "Backshift.",
+      "visualHighlighting": {
+        "incorrect": "will",
+        "correct": "would"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h28-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "She wants ___ seriously.",
+    "type": "multiple_choice",
+    "options": [
+      "to take",
+      "to be taken",
+      "taking"
+    ],
+    "correctAnswer": "to be taken",
+    "feedback": "Correct! Passive Infinitive.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Passive Infinitive",
+    "frenchComparison": {
+      "frenchStructure": "Elle veut être prise au sérieux...",
+      "englishStructure": "She wants to be taken seriously...",
+      "whyDifficult": "Passive infinitive.",
+      "visualHighlighting": {
+        "incorrect": "to take",
+        "correct": "to be taken"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h29-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "He ___ his house painted.",
+    "type": "multiple_choice",
+    "options": [
+      "got",
+      "made",
+      "did"
+    ],
+    "correctAnswer": "got",
+    "feedback": "Correct! Causative 'Get something done'.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Causative Form",
+    "frenchComparison": {
+      "frenchStructure": "Il a fait peindre sa maison...",
+      "englishStructure": "He got his house painted...",
+      "whyDifficult": "Causative structure.",
+      "visualHighlighting": {
+        "incorrect": "made",
+        "correct": "got"
+      }
+    }
+  },
+  {
+    "id": "tense-form-h30-B",
+    "moduleId": "tense-form",
+    "difficulty": "hard",
+    "questionText": "I wish you ___ listen to me.",
+    "type": "multiple_choice",
+    "options": [
+      "will",
+      "would",
+      "listened"
+    ],
+    "correctAnswer": "would",
+    "feedback": "Correct! Wish + would for annoyance.",
+    "formType": "B",
+    "transferType": "far",
+    "item_version": "1.0.0",
+    "subTopic": "Wish + Would",
+    "frenchComparison": {
+      "frenchStructure": "J'aimerais que tu m'écoutes...",
+      "englishStructure": "I wish you would listen to me...",
+      "whyDifficult": "Annoyance structure.",
+      "visualHighlighting": {
+        "incorrect": "will",
+        "correct": "would"
+      }
+    }
+  }
+]

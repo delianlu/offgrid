@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the False Cognates module! These are the 'Faux Amis' (False Friends) that trick Francophones.",
+    "theProblem": "Many words in English look exactly like French words (*Actuellement* vs. *Actually*, *Librairie* vs. *Library*). But be careful! They often have completely different meanings. Using them wrong can make your sentence mean the opposite of what you intend.",
+    "thePromise": "By the end of this lesson, you will uncover the disguises of these 'False Friends' and learn the correct English words to express exactly what you mean."
+  },
+  "contrastiveExplanation": "### Concept 1: The Time Trap (Actually vs. Currently)\n\n**The Rule:**\n* **Currently:** Means *now*, *at this moment*, or *these days*.\n* **Actually:** Means *in fact*, *really*, or *to tell the truth*.\n\n**The French Trap:**\nFrench uses *Actuellement* to mean \"now\". The English word *Actually* looks just like it, so students say: \"I am **actually** in Yaoundé\" (meaning *now*).\n\n**The Fix:**\n* If you mean **Maintenant** ➡️ Use **Currently**.\n* If you mean **En fait** ➡️ Use **Actually**.\n\n**Visual Metaphor:**\nThink of **Actually** as a finger pointing up saying **\"Matter of fact!\"** ☝️. Think of **Currently** as a **Clock** ⏰.\n\n**Examples:**\n* 🇫🇷 *Je travaille ici actuellement.*\n    * ❌ I work here **actually**.\n    * ✅ I am **currently** working here.\n* 🇫🇷 *En fait, je ne sais pas.*\n    * ❌ **Currently**, I don't know.\n    * ✅ **Actually**, I don't know.\n\n---\n\n### Concept 2: The Meeting Mix-up (Assist vs. Attend)\n\n**The Rule:**\n* **Attend:** To be present at an event (go to a meeting, go to school).\n* **Assist:** To help someone do a task.\n\n**The French Trap:**\nFrench uses *Assister à* (to be present). This looks like *Assist*. \n* *\"J'ai assisté à la réunion\"* ➡️ ❌ *\"I assisted the meeting.\"* (This implies you were the helper/secretary, not just a participant).\n\n**The Fix:**\n* **Attend** = **A**u revoir (You go there).\n* **Assist** = **S**upport (You help).\n\n**Examples:**\n* 🇫🇷 *Je vais assister au mariage.*\n    * ❌ I will **assist** the wedding.\n    * ✅ I will **attend** the wedding.\n* 🇫🇷 *Il m'a aidé.*\n    * ✅ He **assisted** me.\n\n---\n\n### Concept 3: The Book Confusion (Library vs. Bookstore)\n\n**The Rule:**\n* **Library:** A place where you **borrow** books for free (Bibliothèque).\n* **Bookstore / Bookshop:** A place where you **buy** books (Librairie).\n\n**The French Trap:**\n* *Librairie* sounds like *Library*. But they are opposites!\n* *Bibliothèque* has no obvious English twin, so students grab the word *Library* for the wrong place.\n\n**The Fix:**\nLook at the word **LIB**rary. Connect it to **LIB**erty (Free). You get books for free (borrow) at the Library.\n\n**Examples:**\n* 🇫🇷 *Je vais à la librairie acheter un livre.*\n    * ❌ I am going to the **library** to buy a book.\n    * ✅ I am going to the **bookstore**.\n* 🇫🇷 *J'étudie à la bibliothèque.*\n    * ✅ I am studying at the **library**.",
+  "commonErrors": [
+    {
+      "subTopic": "Actuellement vs Actually",
+      "wrong": "I am actually living in Douala.",
+      "correct": "I am currently living in Douala.",
+      "frenchConnection": "'Actuellement' = Currently. 'Actually' = In fact/Really."
+    },
+    {
+      "subTopic": "Assister vs Attend",
+      "wrong": "I assist school every day.",
+      "correct": "I attend school every day.",
+      "frenchConnection": "'Assister à' = Attend. 'Assist' = Help."
+    },
+    {
+      "subTopic": "Passer vs Take (Exams)",
+      "wrong": "I will pass my exam tomorrow.",
+      "correct": "I will take my exam tomorrow.",
+      "frenchConnection": "French 'Passer un examen' means to sit for it. In English, 'Pass' means you succeeded (you didn't fail). You 'Take' it first, then you 'Pass' or 'Fail'."
+    },
+    {
+      "subTopic": "Journée vs Journey",
+      "wrong": "Have a nice journey!",
+      "correct": "Have a nice day!",
+      "frenchConnection": "French 'Journée' = Day. English 'Journey' = A long trip (Voyage)."
+    },
+    {
+      "subTopic": "Sensible vs Sensitive",
+      "wrong": "He is very sensible to cold.",
+      "correct": "He is very sensitive to cold.",
+      "frenchConnection": "French 'Sensible' (emotional/physical feeling) = English 'Sensitive'. English 'Sensible' means 'Reasonable/Logical' (Raisonnable)."
+    },
+    {
+      "subTopic": "Déranger vs Derange",
+      "wrong": "Sorry to derange you.",
+      "correct": "Sorry to disturb you.",
+      "frenchConnection": "French 'Déranger' = Disturb. English 'Derange' means to make someone crazy/insane."
+    }
+  ]
+}

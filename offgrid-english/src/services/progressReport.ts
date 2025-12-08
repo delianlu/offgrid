@@ -16,17 +16,7 @@ export interface WeeklyStats {
   questionsPerDay: { [day: string]: number };
 }
 
-const MODULES = [
-  { id: 'tense-form', name: 'Tense and Form' },
-  { id: 'subject-verb-agreement', name: 'Subject-Verb Agreement' },
-  { id: 'prepositions', name: 'Prepositions' },
-  { id: 'word-order', name: 'Word Order' },
-  { id: 'plurality', name: 'Plurality' },
-  { id: 'articles', name: 'Articles' },
-  { id: 'auxiliaries', name: 'Auxiliaries' },
-  { id: 'cameroonian-scenarios', name: 'Cameroonian Scenarios' },
-  { id: 'false-cognates', name: 'False Cognates' },
-];
+
 
 /**
  * Calculate weekly statistics from the last 7 days
@@ -47,9 +37,12 @@ export async function calculateWeeklyStats(): Promise<WeeklyStats> {
   // Estimate time spent (2 minutes per question average)
   const timeSpent = totalQuestions * 2;
 
+  // Get all modules from DB
+  const modules = await db.modules.toArray();
+
   // Calculate modules completed
   const moduleProgress = await Promise.all(
-    MODULES.map(m => calculateModuleProgress(m.id))
+    modules.map(m => calculateModuleProgress(m.id))
   );
   const modulesCompleted = moduleProgress.filter(
     p => p && p.badge === 'complete'
@@ -64,10 +57,10 @@ export async function calculateWeeklyStats(): Promise<WeeklyStats> {
   const dailyStreak = challengeStats.currentDailyStreak;
 
   // Find top and weakest modules
-  const moduleStats = MODULES.map((m, idx) => {
+  const moduleStats = modules.map((m, idx) => {
     const progress = moduleProgress[idx];
     return {
-      name: m.name,
+      name: m.name || m.id,
       accuracy: progress
         ? (progress.formAAccuracy + progress.formBAccuracy) / 2
         : 0,
@@ -379,8 +372,8 @@ ${stats.weakestModule.name}: ${stats.weakestModule.accuracy}% accuracy
 📅 THIS WEEK'S ACTIVITY
 -----------------------
 ${Object.entries(stats.questionsPerDay)
-  .map(([day, count]) => `${day}: ${count} questions`)
-  .join('\n')}
+      .map(([day, count]) => `${day}: ${count} questions`)
+      .join('\n')}
 
 ${'='.repeat(50)}
 Keep up the great work! 🎓

@@ -18,7 +18,7 @@ export interface ModuleProgress {
 /**
  * Calculate progress for a specific module
  */
-export async function calculateModuleProgress(moduleId: string): Promise<ModuleProgress | null> {
+export async function calculateModuleProgress(moduleId: string, userId?: string): Promise<ModuleProgress | null> {
   const module = await db.modules.get(moduleId);
   if (!module) return null;
 
@@ -28,6 +28,7 @@ export async function calculateModuleProgress(moduleId: string): Promise<ModuleP
 
   // Get attempts for this module
   const attempts = await db.attempts.where({ moduleId }).toArray();
+
   const formAAttempts = attempts.filter(a => a.formType === 'A');
   const formBAttempts = attempts.filter(a => a.formType === 'B');
 
@@ -66,15 +67,16 @@ export async function calculateModuleProgress(moduleId: string): Promise<ModuleP
 
   // Badge determination
   let badge: ModuleProgress['badge'];
-  if (overallCompletion === 0) {
-    badge = 'locked';
-  } else if (isFormAComplete && isFormBComplete) {
+  if (isFormAComplete && isFormBComplete) {
     badge = 'complete';
   } else if (isFormAComplete && formBAccuracy >= 80) {
     badge = 'mastered';
   } else if (isFormAComplete) {
     badge = 'practicing';
+  } else if (overallCompletion > 0) {
+    badge = 'learning';
   } else {
+    // For new modules with no attempts, allow access
     badge = 'learning';
   }
 
@@ -97,12 +99,12 @@ export async function calculateModuleProgress(moduleId: string): Promise<ModuleP
 /**
  * Calculate progress for all modules
  */
-export async function calculateAllModulesProgress(): Promise<ModuleProgress[]> {
+export async function calculateAllModulesProgress(userId?: string): Promise<ModuleProgress[]> {
   const modules = await db.modules.toArray();
   const progressList: ModuleProgress[] = [];
 
   for (const module of modules) {
-    const progress = await calculateModuleProgress(module.id);
+    const progress = await calculateModuleProgress(module.id, userId);
     if (progress) {
       progressList.push(progress);
     }

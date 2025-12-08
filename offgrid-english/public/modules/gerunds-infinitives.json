@@ -1,0 +1,3292 @@
+{
+  "id": "gerunds-infinitives",
+  "name": "Gerunds & Infinitives",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Gerunds & Infinitives module! This is about deciding between 'To do' and 'Doing'. In French, you almost always use the infinitive (manger, partir) after another verb. In English, you must choose. If you translate directly, you might say 'I finished to work' (Wrong!). This module will teach you the rules.",
+  "contrastiveExplanation": "Prepositions + -ing:\nEnglish: After ANY preposition (in, on, at, of, for, without), use -ing. (Good at cooking).\nFrench: Uses infinitive (Bon à cuisiner).\n\nPurpose (To vs For):\nEnglish: Use 'To' + Verb to explain WHY. (I went to buy bread).\nFrench: Uses 'Pour'. Students often say 'For buy' (Wrong).\n\nVerb Patterns:\nSome verbs force -ing (Enjoy, Finish, Stop).\nSome verbs force To (Want, Decide, Hope).",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "Purpose (Pour)",
+      "wrong": "I went for see him.",
+      "correct": "I went to see him.",
+      "frenchConnection": "Translating 'pour' as 'for'. Use 'to' + verb for purpose."
+    },
+    {
+      "number": 2,
+      "subTopic": "After Prepositions",
+      "wrong": "I am tired of to wait.",
+      "correct": "I am tired of waiting.",
+      "frenchConnection": "French uses infinitive after 'de'. English requires -ing after prepositions."
+    },
+    {
+      "number": 3,
+      "subTopic": "Verb Patterns (Enjoy)",
+      "wrong": "I enjoy to play.",
+      "correct": "I enjoy playing.",
+      "frenchConnection": "'Enjoy' must be followed by -ing."
+    },
+    {
+      "number": 4,
+      "subTopic": "Look forward to",
+      "wrong": "I look forward to see you.",
+      "correct": "I look forward to seeing you.",
+      "frenchConnection": "The 'to' here is a preposition, not part of the infinitive."
+    },
+    {
+      "number": 5,
+      "subTopic": "Stop meaning",
+      "wrong": "He stopped to smoke (meaning he quit).",
+      "correct": "He stopped smoking.",
+      "frenchConnection": "Confusion between quitting (ing) and pausing to do something (to)."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "gi-e01-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I am good at ___ football.",
+      "type": "multiple_choice",
+      "options": [
+        "play",
+        "playing",
+        "to play"
+      ],
+      "correctAnswer": "playing",
+      "feedback": "Correct! 'At' is a preposition. Follow prepositions with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Je suis bon à jouer...",
+        "englishStructure": "I am good at playing...",
+        "whyDifficult": "French uses infinitive after 'à'. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "play",
+          "correct": "playing"
+        }
+      }
+    },
+    {
+      "id": "gi-e02-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I want ___ to the market.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "going",
+        "to go"
+      ],
+      "correctAnswer": "to go",
+      "feedback": "Correct! After 'want', we use the infinitive (to go).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Want)",
+      "frenchComparison": {
+        "frenchStructure": "Je veux aller...",
+        "englishStructure": "I want to go...",
+        "whyDifficult": "French 'Vouloir' is followed directly by infinitive. English needs 'to'.",
+        "visualHighlighting": {
+          "incorrect": "go",
+          "correct": "to go"
+        }
+      }
+    },
+    {
+      "id": "gi-e03-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Thank you for ___ me.",
+      "type": "multiple_choice",
+      "options": [
+        "helping",
+        "help",
+        "to help"
+      ],
+      "correctAnswer": "helping",
+      "feedback": "Correct! 'For' is a preposition. Follow with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Merci de m'aider...",
+        "englishStructure": "Thank you for helping me...",
+        "whyDifficult": "French uses infinitive after 'de'. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "help",
+          "correct": "helping"
+        }
+      }
+    },
+    {
+      "id": "gi-e04-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "She likes ___ fufu.",
+      "type": "multiple_choice",
+      "options": [
+        "eat",
+        "eating",
+        "eats"
+      ],
+      "correctAnswer": "eating",
+      "feedback": "Correct! 'Like' is usually followed by -ing (or 'to', but -ing is safer for hobbies).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Like)",
+      "frenchComparison": {
+        "frenchStructure": "Elle aime manger...",
+        "englishStructure": "She likes eating...",
+        "whyDifficult": "French uses infinitive. English often uses -ing for general likes.",
+        "visualHighlighting": {
+          "incorrect": "eat",
+          "correct": "eating"
+        }
+      }
+    },
+    {
+      "id": "gi-e05-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He went to the shop ___ bread.",
+      "type": "multiple_choice",
+      "options": [
+        "for buy",
+        "to buy",
+        "for buying"
+      ],
+      "correctAnswer": "to buy",
+      "feedback": "Correct! Use 'to' + verb to show purpose (Why he went).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Il est allé... pour acheter...",
+        "englishStructure": "He went... to buy...",
+        "whyDifficult": "French 'Pour' = For. But English uses 'To' + Infinitive for purpose.",
+        "visualHighlighting": {
+          "incorrect": "for buy",
+          "correct": "to buy"
+        }
+      }
+    },
+    {
+      "id": "gi-e06-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I need ___ now.",
+      "type": "multiple_choice",
+      "options": [
+        "leave",
+        "leaving",
+        "to leave"
+      ],
+      "correctAnswer": "to leave",
+      "feedback": "Correct! After 'need', use the infinitive (to leave).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Need)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin de partir...",
+        "englishStructure": "I need to leave...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "leave",
+          "correct": "to leave"
+        }
+      }
+    },
+    {
+      "id": "gi-e07-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He left without ___ goodbye.",
+      "type": "multiple_choice",
+      "options": [
+        "say",
+        "saying",
+        "to say"
+      ],
+      "correctAnswer": "saying",
+      "feedback": "Correct! 'Without' is a preposition. Follow with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Il est parti sans dire...",
+        "englishStructure": "He left without saying...",
+        "whyDifficult": "French uses infinitive after 'sans'. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "say",
+          "correct": "saying"
+        }
+      }
+    },
+    {
+      "id": "gi-e08-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I love ___ to music.",
+      "type": "multiple_choice",
+      "options": [
+        "listen",
+        "listening",
+        "listened"
+      ],
+      "correctAnswer": "listening",
+      "feedback": "Correct! 'Love' is followed by -ing (or to).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Love)",
+      "frenchComparison": {
+        "frenchStructure": "J'adore écouter...",
+        "englishStructure": "I love listening...",
+        "whyDifficult": "French uses infinitive. English uses -ing (or to).",
+        "visualHighlighting": {
+          "incorrect": "listen",
+          "correct": "listening"
+        }
+      }
+    },
+    {
+      "id": "gi-e09-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "She is interested in ___ English.",
+      "type": "multiple_choice",
+      "options": [
+        "learning",
+        "learn",
+        "to learn"
+      ],
+      "correctAnswer": "learning",
+      "feedback": "Correct! 'In' is a preposition. Follow with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Elle s'intéresse à apprendre...",
+        "englishStructure": "She is interested in learning...",
+        "whyDifficult": "French uses infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "learn",
+          "correct": "learning"
+        }
+      }
+    },
+    {
+      "id": "gi-e10-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I hope ___ you soon.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "seeing",
+        "to see"
+      ],
+      "correctAnswer": "to see",
+      "feedback": "Correct! After 'hope', use the infinitive (to see).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Hope)",
+      "frenchComparison": {
+        "frenchStructure": "J'espère te voir...",
+        "englishStructure": "I hope to see you...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "see",
+          "correct": "to see"
+        }
+      }
+    },
+    {
+      "id": "gi-e11-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "We decided ___ home.",
+      "type": "multiple_choice",
+      "options": [
+        "stay",
+        "staying",
+        "to stay"
+      ],
+      "correctAnswer": "to stay",
+      "feedback": "Correct! After 'decide', use the infinitive (to stay).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Decide)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons décidé de rester...",
+        "englishStructure": "We decided to stay...",
+        "whyDifficult": "Both use 'to/de' + infinitive structure, but easy to forget 'to'.",
+        "visualHighlighting": {
+          "incorrect": "stay",
+          "correct": "to stay"
+        }
+      }
+    },
+    {
+      "id": "gi-e12-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Stop ___ noise!",
+      "type": "multiple_choice",
+      "options": [
+        "make",
+        "making",
+        "to make"
+      ],
+      "correctAnswer": "making",
+      "feedback": "Correct! 'Stop doing' means quit the action.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Stop)",
+      "frenchComparison": {
+        "frenchStructure": "Arrête de faire du bruit...",
+        "englishStructure": "Stop making noise...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for quitting.",
+        "visualHighlighting": {
+          "incorrect": "to make",
+          "correct": "making"
+        }
+      }
+    },
+    {
+      "id": "gi-e13-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Before ___ out, lock the door.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "going",
+        "to go"
+      ],
+      "correctAnswer": "going",
+      "feedback": "Correct! 'Before' is a preposition. Follow with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Avant de sortir...",
+        "englishStructure": "Before going out...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "go",
+          "correct": "going"
+        }
+      }
+    },
+    {
+      "id": "gi-e14-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "It is nice ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "meeting",
+        "to meet",
+        "meet"
+      ],
+      "correctAnswer": "to meet",
+      "feedback": "Correct! Adjective + to + verb (Nice to meet).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "C'est agréable de te rencontrer...",
+        "englishStructure": "It is nice to meet you...",
+        "whyDifficult": "Similar structure, but easy to omit 'to'.",
+        "visualHighlighting": {
+          "incorrect": "meet",
+          "correct": "to meet"
+        }
+      }
+    },
+    {
+      "id": "gi-e15-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I promise ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "help",
+        "helping",
+        "to help"
+      ],
+      "correctAnswer": "to help",
+      "feedback": "Correct! After 'promise', use the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Promise)",
+      "frenchComparison": {
+        "frenchStructure": "Je promets de t'aider...",
+        "englishStructure": "I promise to help you...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "help",
+          "correct": "to help"
+        }
+      }
+    },
+    {
+      "id": "gi-e16-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Do you mind ___ the window?",
+      "type": "multiple_choice",
+      "options": [
+        "open",
+        "opening",
+        "to open"
+      ],
+      "correctAnswer": "opening",
+      "feedback": "Correct! After 'mind', use -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Mind)",
+      "frenchComparison": {
+        "frenchStructure": "Ça te dérange d'ouvrir...",
+        "englishStructure": "Do you mind opening...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing.",
+        "visualHighlighting": {
+          "incorrect": "to open",
+          "correct": "opening"
+        }
+      }
+    },
+    {
+      "id": "gi-e17-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Start ___!",
+      "type": "multiple_choice",
+      "options": [
+        "run",
+        "running",
+        "to run"
+      ],
+      "correctAnswer": "running",
+      "feedback": "Correct! 'Start' can take -ing (or to). -ing is common for ongoing action.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Start)",
+      "frenchComparison": {
+        "frenchStructure": "Commence à courir...",
+        "englishStructure": "Start running...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses -ing (or to).",
+        "visualHighlighting": {
+          "incorrect": "run",
+          "correct": "running"
+        }
+      }
+    },
+    {
+      "id": "gi-e18-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I learned ___ swim.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! 'Learn to' do something.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Learn)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai appris à nager...",
+        "englishStructure": "I learned to swim...",
+        "whyDifficult": "French uses 'à'. English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "at",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "gi-e19-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I hate ___ early.",
+      "type": "multiple_choice",
+      "options": [
+        "waking up",
+        "wake up",
+        "to waking"
+      ],
+      "correctAnswer": "waking up",
+      "feedback": "Correct! 'Hate' is usually followed by -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Hate)",
+      "frenchComparison": {
+        "frenchStructure": "Je déteste me réveiller...",
+        "englishStructure": "I hate waking up...",
+        "whyDifficult": "French uses infinitive. English uses -ing (or to).",
+        "visualHighlighting": {
+          "incorrect": "wake up",
+          "correct": "waking up"
+        }
+      }
+    },
+    {
+      "id": "gi-e20-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He dreams of ___ rich.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": "being",
+      "feedback": "Correct! 'Of' is a preposition. Follow with -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Il rêve d'être riche...",
+        "englishStructure": "He dreams of being rich...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "be",
+          "correct": "being"
+        }
+      }
+    },
+    {
+      "id": "gi-m01-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I enjoy ___ novels.",
+      "type": "multiple_choice",
+      "options": [
+        "to read",
+        "reading",
+        "read"
+      ],
+      "correctAnswer": "reading",
+      "feedback": "Correct! 'Enjoy' MUST be followed by -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Enjoy)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime lire...",
+        "englishStructure": "I enjoy reading...",
+        "whyDifficult": "French uses infinitive. English 'enjoy' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to read",
+          "correct": "reading"
+        }
+      }
+    },
+    {
+      "id": "gi-m02-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "She avoided ___ him.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "to see",
+        "seeing"
+      ],
+      "correctAnswer": "seeing",
+      "feedback": "Correct! 'Avoid' MUST be followed by -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Avoid)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a évité de le voir...",
+        "englishStructure": "She avoided seeing him...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'avoid' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to see",
+          "correct": "seeing"
+        }
+      }
+    },
+    {
+      "id": "gi-m03-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "He promised ___ late.",
+      "type": "multiple_choice",
+      "options": [
+        "not be",
+        "not to be",
+        "to not be"
+      ],
+      "correctAnswer": "not to be",
+      "feedback": "Correct! Negative infinitive: 'Not to' + verb.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "Il a promis de ne pas être...",
+        "englishStructure": "He promised not to be...",
+        "whyDifficult": "French 'ne pas être'. English 'not to be'.",
+        "visualHighlighting": {
+          "incorrect": "not be",
+          "correct": "not to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m04-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "We plan ___ to Kribi.",
+      "type": "multiple_choice",
+      "options": [
+        "going",
+        "go",
+        "to go"
+      ],
+      "correctAnswer": "to go",
+      "feedback": "Correct! 'Plan' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Plan)",
+      "frenchComparison": {
+        "frenchStructure": "Nous prévoyons d'aller...",
+        "englishStructure": "We plan to go...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "going",
+          "correct": "to go"
+        }
+      }
+    },
+    {
+      "id": "gi-m05-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Have you finished ___?",
+      "type": "multiple_choice",
+      "options": [
+        "to eat",
+        "eating",
+        "eat"
+      ],
+      "correctAnswer": "eating",
+      "feedback": "Correct! 'Finish' MUST be followed by -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Finish)",
+      "frenchComparison": {
+        "frenchStructure": "As-tu fini de manger...",
+        "englishStructure": "Have you finished eating...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'finish' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to eat",
+          "correct": "eating"
+        }
+      }
+    },
+    {
+      "id": "gi-m06-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I keep ___ to call you.",
+      "type": "multiple_choice",
+      "options": [
+        "forget",
+        "forgetting",
+        "to forget"
+      ],
+      "correctAnswer": "forgetting",
+      "feedback": "Correct! 'Keep' (continue) takes -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Keep)",
+      "frenchComparison": {
+        "frenchStructure": "Je continue d'oublier...",
+        "englishStructure": "I keep forgetting...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'keep' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to forget",
+          "correct": "forgetting"
+        }
+      }
+    },
+    {
+      "id": "gi-m07-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "She offered ___ us.",
+      "type": "multiple_choice",
+      "options": [
+        "helping",
+        "help",
+        "to help"
+      ],
+      "correctAnswer": "to help",
+      "feedback": "Correct! 'Offer' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Offer)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a offert de nous aider...",
+        "englishStructure": "She offered to help us...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "helping",
+          "correct": "to help"
+        }
+      }
+    },
+    {
+      "id": "gi-m08-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "It is important ___ on time.",
+      "type": "multiple_choice",
+      "options": [
+        "being",
+        "to be",
+        "be"
+      ],
+      "correctAnswer": "to be",
+      "feedback": "Correct! Adjective (important) + Infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "Il est important d'être...",
+        "englishStructure": "It is important to be...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "being",
+          "correct": "to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m09-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I am afraid of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "falling",
+        "fall",
+        "to fall"
+      ],
+      "correctAnswer": "falling",
+      "feedback": "Correct! 'Of' is a preposition -> falling.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "J'ai peur de tomber...",
+        "englishStructure": "I am afraid of falling...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to fall",
+          "correct": "falling"
+        }
+      }
+    },
+    {
+      "id": "gi-m10-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "They refused ___.",
+      "type": "multiple_choice",
+      "options": [
+        "leaving",
+        "to leave",
+        "leave"
+      ],
+      "correctAnswer": "to leave",
+      "feedback": "Correct! 'Refuse' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Refuse)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont refusé de partir...",
+        "englishStructure": "They refused to leave...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "leaving",
+          "correct": "to leave"
+        }
+      }
+    },
+    {
+      "id": "gi-m11-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I miss ___ in the village.",
+      "type": "multiple_choice",
+      "options": [
+        "to live",
+        "living",
+        "live"
+      ],
+      "correctAnswer": "living",
+      "feedback": "Correct! 'Miss' takes -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Miss)",
+      "frenchComparison": {
+        "frenchStructure": "Ça me manque de vivre...",
+        "englishStructure": "I miss living...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'miss' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to live",
+          "correct": "living"
+        }
+      }
+    },
+    {
+      "id": "gi-m12-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "He seems ___ tired.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "being",
+        "to be"
+      ],
+      "correctAnswer": "to be",
+      "feedback": "Correct! 'Seem' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Seem)",
+      "frenchComparison": {
+        "frenchStructure": "Il semble être...",
+        "englishStructure": "He seems to be...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "be",
+          "correct": "to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m13-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Would you like ___?",
+      "type": "multiple_choice",
+      "options": [
+        "coming",
+        "to come",
+        "come"
+      ],
+      "correctAnswer": "to come",
+      "feedback": "Correct! 'Like' takes -ing, BUT 'Would like' takes 'to'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Would like)",
+      "frenchComparison": {
+        "frenchStructure": "Voudrais-tu venir...",
+        "englishStructure": "Would you like to come...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "come",
+          "correct": "to come"
+        }
+      }
+    },
+    {
+      "id": "gi-m14-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "It is no use ___.",
+      "type": "multiple_choice",
+      "options": [
+        "worry",
+        "to worry",
+        "worrying"
+      ],
+      "correctAnswer": "worrying",
+      "feedback": "Correct! 'It is no use' is a fixed phrase followed by -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Ça ne sert à rien de s'inquiéter...",
+        "englishStructure": "It is no use worrying...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing.",
+        "visualHighlighting": {
+          "incorrect": "to worry",
+          "correct": "worrying"
+        }
+      }
+    },
+    {
+      "id": "gi-m15-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I am responsible for ___ the class.",
+      "type": "multiple_choice",
+      "options": [
+        "clean",
+        "cleaning",
+        "to clean"
+      ],
+      "correctAnswer": "cleaning",
+      "feedback": "Correct! 'For' is a preposition -> cleaning.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Je suis responsable de nettoyer...",
+        "englishStructure": "I am responsible for cleaning...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to clean",
+          "correct": "cleaning"
+        }
+      }
+    },
+    {
+      "id": "gi-m16-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "He agreed ___ me.",
+      "type": "multiple_choice",
+      "options": [
+        "help",
+        "helping",
+        "to help"
+      ],
+      "correctAnswer": "to help",
+      "feedback": "Correct! 'Agree' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Agree)",
+      "frenchComparison": {
+        "frenchStructure": "Il a accepté de m'aider...",
+        "englishStructure": "He agreed to help me...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "helping",
+          "correct": "to help"
+        }
+      }
+    },
+    {
+      "id": "gi-m17-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Can you imagine ___ on the moon?",
+      "type": "multiple_choice",
+      "options": [
+        "live",
+        "to live",
+        "living"
+      ],
+      "correctAnswer": "living",
+      "feedback": "Correct! 'Imagine' takes -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Imagine)",
+      "frenchComparison": {
+        "frenchStructure": "Peux-tu imaginer vivre...",
+        "englishStructure": "Can you imagine living...",
+        "whyDifficult": "French uses direct infinitive. English 'imagine' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "live",
+          "correct": "living"
+        }
+      }
+    },
+    {
+      "id": "gi-m18-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I expect ___ there by 6 PM.",
+      "type": "multiple_choice",
+      "options": [
+        "being",
+        "to be",
+        "be"
+      ],
+      "correctAnswer": "to be",
+      "feedback": "Correct! 'Expect' takes the infinitive.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Expect)",
+      "frenchComparison": {
+        "frenchStructure": "Je m'attends à être...",
+        "englishStructure": "I expect to be...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "being",
+          "correct": "to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m19-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Do you feel like ___ out?",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "going",
+        "to go"
+      ],
+      "correctAnswer": "going",
+      "feedback": "Correct! 'Feel like' takes -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "As-tu envie de sortir...",
+        "englishStructure": "Do you feel like going out...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing.",
+        "visualHighlighting": {
+          "incorrect": "to go",
+          "correct": "going"
+        }
+      }
+    },
+    {
+      "id": "gi-m20-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "We consider ___ a new car.",
+      "type": "multiple_choice",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correctAnswer": "buying",
+      "feedback": "Correct! 'Consider' takes -ing.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Consider)",
+      "frenchComparison": {
+        "frenchStructure": "Nous envisageons d'acheter...",
+        "englishStructure": "We consider buying...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'consider' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to buy",
+          "correct": "buying"
+        }
+      }
+    },
+    {
+      "id": "gi-h01-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He stopped ___ a drink (purpose).",
+      "type": "multiple_choice",
+      "options": [
+        "buying",
+        "to buy",
+        "buy"
+      ],
+      "correctAnswer": "to buy",
+      "feedback": "Correct! He stopped walking IN ORDER TO buy something.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Stop To vs Stop Ing",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est arrêté pour acheter...",
+        "englishStructure": "He stopped to buy...",
+        "whyDifficult": "French uses 'pour' + infinitive. English uses 'to' + infinitive for purpose.",
+        "visualHighlighting": {
+          "incorrect": "buying",
+          "correct": "to buy"
+        }
+      }
+    },
+    {
+      "id": "gi-h02-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He stopped ___ alcohol (quit).",
+      "type": "multiple_choice",
+      "options": [
+        "drinking",
+        "to drink",
+        "drink"
+      ],
+      "correctAnswer": "drinking",
+      "feedback": "Correct! He quit the habit. 'Stop doing' = Quit.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Stop To vs Stop Ing",
+      "frenchComparison": {
+        "frenchStructure": "Il a arrêté de boire...",
+        "englishStructure": "He stopped drinking...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for quitting.",
+        "visualHighlighting": {
+          "incorrect": "to drink",
+          "correct": "drinking"
+        }
+      }
+    },
+    {
+      "id": "gi-h03-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I look forward to ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "seeing",
+        "saw"
+      ],
+      "correctAnswer": "seeing",
+      "feedback": "Correct! 'To' here is a preposition. Prepositions take -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Look forward to",
+      "frenchComparison": {
+        "frenchStructure": "J'ai hâte de te voir...",
+        "englishStructure": "I look forward to seeing you...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'to' here is a preposition -> -ing.",
+        "visualHighlighting": {
+          "incorrect": "see",
+          "correct": "seeing"
+        }
+      }
+    },
+    {
+      "id": "gi-h04-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Please remember ___ the door (task).",
+      "type": "multiple_choice",
+      "options": [
+        "lock",
+        "locking",
+        "to lock"
+      ],
+      "correctAnswer": "to lock",
+      "feedback": "Correct! 'Remember to do' means don't forget a future task.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Remember To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "N'oublie pas de fermer...",
+        "englishStructure": "Remember to lock...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive for tasks.",
+        "visualHighlighting": {
+          "incorrect": "locking",
+          "correct": "to lock"
+        }
+      }
+    },
+    {
+      "id": "gi-h05-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I remember ___ him last year (memory).",
+      "type": "multiple_choice",
+      "options": [
+        "meeting",
+        "to meet",
+        "meet"
+      ],
+      "correctAnswer": "meeting",
+      "feedback": "Correct! 'Remember doing' means having a memory of the past.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Remember To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je me souviens de l'avoir rencontré...",
+        "englishStructure": "I remember meeting him...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for memories.",
+        "visualHighlighting": {
+          "incorrect": "to meet",
+          "correct": "meeting"
+        }
+      }
+    },
+    {
+      "id": "gi-h06-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "The teacher made me ___ the exercise.",
+      "type": "multiple_choice",
+      "options": [
+        "to repeat",
+        "repeat",
+        "repeating"
+      ],
+      "correctAnswer": "repeat",
+      "feedback": "Correct! 'Make' (force) takes the base verb (without to).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Causative Verbs (Make)",
+      "frenchComparison": {
+        "frenchStructure": "Le prof m'a fait répéter...",
+        "englishStructure": "The teacher made me repeat...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to repeat",
+          "correct": "repeat"
+        }
+      }
+    },
+    {
+      "id": "gi-h07-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He let me ___ his car.",
+      "type": "multiple_choice",
+      "options": [
+        "drive",
+        "to drive",
+        "driving"
+      ],
+      "correctAnswer": "drive",
+      "feedback": "Correct! 'Let' (allow) takes the base verb (without to).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Causative Verbs (Let)",
+      "frenchComparison": {
+        "frenchStructure": "Il m'a laissé conduire...",
+        "englishStructure": "He let me drive...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to drive",
+          "correct": "drive"
+        }
+      }
+    },
+    {
+      "id": "gi-h08-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I used to ___ in Douala (past habit).",
+      "type": "multiple_choice",
+      "options": [
+        "living",
+        "live",
+        "lived"
+      ],
+      "correctAnswer": "live",
+      "feedback": "Correct! 'Used to' + Base verb = Past habit.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to vs Be used to",
+      "frenchComparison": {
+        "frenchStructure": "J'habitais à Douala...",
+        "englishStructure": "I used to live in Douala...",
+        "whyDifficult": "French uses Imparfait. English uses 'Used to' + verb.",
+        "visualHighlighting": {
+          "incorrect": "living",
+          "correct": "live"
+        }
+      }
+    },
+    {
+      "id": "gi-h09-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I am used to ___ spicy food (accustomed).",
+      "type": "multiple_choice",
+      "options": [
+        "eat",
+        "eating",
+        "ate"
+      ],
+      "correctAnswer": "eating",
+      "feedback": "Correct! 'Be used to' + -ing = Accustomed to.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to vs Be used to",
+      "frenchComparison": {
+        "frenchStructure": "Je suis habitué à manger...",
+        "englishStructure": "I am used to eating...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' (preposition) + -ing.",
+        "visualHighlighting": {
+          "incorrect": "eat",
+          "correct": "eating"
+        }
+      }
+    },
+    {
+      "id": "gi-h10-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I regret ___ you that you failed (bad news).",
+      "type": "multiple_choice",
+      "options": [
+        "telling",
+        "tell",
+        "to tell"
+      ],
+      "correctAnswer": "to tell",
+      "feedback": "Correct! 'Regret to say/tell' is for bad news now.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Regret To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je regrette de vous dire...",
+        "englishStructure": "I regret to tell you...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive for announcements.",
+        "visualHighlighting": {
+          "incorrect": "telling",
+          "correct": "to tell"
+        }
+      }
+    },
+    {
+      "id": "gi-h11-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I regret ___ that car (past mistake).",
+      "type": "multiple_choice",
+      "options": [
+        "buy",
+        "to buy",
+        "buying"
+      ],
+      "correctAnswer": "buying",
+      "feedback": "Correct! 'Regret doing' is for past actions.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Regret To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je regrette d'avoir acheté...",
+        "englishStructure": "I regret buying...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for past regrets.",
+        "visualHighlighting": {
+          "incorrect": "to buy",
+          "correct": "buying"
+        }
+      }
+    },
+    {
+      "id": "gi-h12-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Try ___ the door open (experiment).",
+      "type": "multiple_choice",
+      "options": [
+        "pushing",
+        "to push",
+        "push"
+      ],
+      "correctAnswer": "pushing",
+      "feedback": "Correct! 'Try doing' means experiment to see what happens. 'Try to do' means make an effort.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Try To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Essaie de pousser...",
+        "englishStructure": "Try pushing...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for experiments.",
+        "visualHighlighting": {
+          "incorrect": "to push",
+          "correct": "pushing"
+        }
+      }
+    },
+    {
+      "id": "gi-h13-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "The car needs ___.",
+      "type": "multiple_choice",
+      "options": [
+        "wash",
+        "washing",
+        "to wash"
+      ],
+      "correctAnswer": "washing",
+      "feedback": "Correct! 'Need' + -ing has a passive meaning (It needs to be washed).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Need + Ing",
+      "frenchComparison": {
+        "frenchStructure": "La voiture a besoin d'être lavée...",
+        "englishStructure": "The car needs washing...",
+        "whyDifficult": "French uses passive infinitive. English uses -ing for passive meaning here.",
+        "visualHighlighting": {
+          "incorrect": "to wash",
+          "correct": "washing"
+        }
+      }
+    },
+    {
+      "id": "gi-h14-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He objected to ___ the fine.",
+      "type": "multiple_choice",
+      "options": [
+        "pay",
+        "paying",
+        "paid"
+      ],
+      "correctAnswer": "paying",
+      "feedback": "Correct! 'Object to' ends in a preposition, so use -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Object to + Ing",
+      "frenchComparison": {
+        "frenchStructure": "Il s'est opposé à payer...",
+        "englishStructure": "He objected to paying...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' (preposition) + -ing.",
+        "visualHighlighting": {
+          "incorrect": "pay",
+          "correct": "paying"
+        }
+      }
+    },
+    {
+      "id": "gi-h15-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I'd rather ___ home.",
+      "type": "multiple_choice",
+      "options": [
+        "stay",
+        "to stay",
+        "staying"
+      ],
+      "correctAnswer": "stay",
+      "feedback": "Correct! 'Would rather' takes the base verb.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Would rather",
+      "frenchComparison": {
+        "frenchStructure": "Je préférerais rester...",
+        "englishStructure": "I'd rather stay...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to stay",
+          "correct": "stay"
+        }
+      }
+    },
+    {
+      "id": "gi-h16-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "It's difficult for him ___.",
+      "type": "multiple_choice",
+      "options": [
+        "walk",
+        "walking",
+        "to walk"
+      ],
+      "correctAnswer": "to walk",
+      "feedback": "Correct! Adjective + for + person + infinitive.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective Patterns",
+      "frenchComparison": {
+        "frenchStructure": "C'est difficile pour lui de marcher...",
+        "englishStructure": "It's difficult for him to walk...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "walking",
+          "correct": "to walk"
+        }
+      }
+    },
+    {
+      "id": "gi-h17-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He is capable of ___ it.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "doing",
+        "to do"
+      ],
+      "correctAnswer": "doing",
+      "feedback": "Correct! 'Capable of' + -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition",
+      "frenchComparison": {
+        "frenchStructure": "Il est capable de le faire...",
+        "englishStructure": "He is capable of doing it...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to do",
+          "correct": "doing"
+        }
+      }
+    },
+    {
+      "id": "gi-h18-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "___ is my hobby.",
+      "type": "multiple_choice",
+      "options": [
+        "To cook",
+        "Cooking",
+        "Cook"
+      ],
+      "correctAnswer": "Cooking",
+      "feedback": "Correct! Use Gerund for the subject of a sentence (more natural).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund as Subject",
+      "frenchComparison": {
+        "frenchStructure": "Cuisiner est mon passe-temps...",
+        "englishStructure": "Cooking is my hobby...",
+        "whyDifficult": "French uses infinitive as subject. English prefers Gerund (-ing).",
+        "visualHighlighting": {
+          "incorrect": "to cook",
+          "correct": "cooking"
+        }
+      }
+    },
+    {
+      "id": "gi-h19-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"I tried to open the window, but I couldn't.\"",
+      "type": "error_correction",
+      "options": [
+        "tried",
+        "to open",
+        "couldn't",
+        "No error"
+      ],
+      "correctAnswer": "No error",
+      "feedback": "Correct! 'Try to do' means make an effort. It fits here.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "No error",
+      "subTopic": "Try To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "J'ai essayé d'ouvrir...",
+        "englishStructure": "I tried to open...",
+        "whyDifficult": "No error here. 'Try to' is correct for effort.",
+        "visualHighlighting": {
+          "incorrect": "no error",
+          "correct": "no error"
+        }
+      }
+    },
+    {
+      "id": "gi-h20-A",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I prefer walking to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "run",
+        "running",
+        "ran"
+      ],
+      "correctAnswer": "running",
+      "feedback": "Correct! 'Prefer X to Y'. If X is -ing, Y must be -ing.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Prefer ... to ...",
+      "frenchComparison": {
+        "frenchStructure": "Je préfère marcher plutôt que courir...",
+        "englishStructure": "I prefer walking to running...",
+        "whyDifficult": "French uses infinitives. English balances the gerunds.",
+        "visualHighlighting": {
+          "incorrect": "run",
+          "correct": "running"
+        }
+      }
+    },
+    {
+      "id": "gi-e01-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I am bad at ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sing",
+        "singing",
+        "to sing"
+      ],
+      "correctAnswer": "singing",
+      "feedback": "Correct! 'At' is a preposition -> singing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Je suis nul pour chanter...",
+        "englishStructure": "I am bad at singing...",
+        "whyDifficult": "French uses infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to sing",
+          "correct": "singing"
+        }
+      }
+    },
+    {
+      "id": "gi-e02-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I want ___ water.",
+      "type": "multiple_choice",
+      "options": [
+        "drink",
+        "drinking",
+        "to drink"
+      ],
+      "correctAnswer": "to drink",
+      "feedback": "Correct! 'Want' takes the infinitive.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Want)",
+      "frenchComparison": {
+        "frenchStructure": "Je veux boire...",
+        "englishStructure": "I want to drink...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "drink",
+          "correct": "to drink"
+        }
+      }
+    },
+    {
+      "id": "gi-e03-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Thanks for ___.",
+      "type": "multiple_choice",
+      "options": [
+        "come",
+        "coming",
+        "to come"
+      ],
+      "correctAnswer": "coming",
+      "feedback": "Correct! 'For' is a preposition -> coming.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Merci d'être venu...",
+        "englishStructure": "Thanks for coming...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'for' + -ing.",
+        "visualHighlighting": {
+          "incorrect": "to come",
+          "correct": "coming"
+        }
+      }
+    },
+    {
+      "id": "gi-e04-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He likes ___ football.",
+      "type": "multiple_choice",
+      "options": [
+        "play",
+        "playing",
+        "plays"
+      ],
+      "correctAnswer": "playing",
+      "feedback": "Correct! 'Like' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Like)",
+      "frenchComparison": {
+        "frenchStructure": "Il aime jouer...",
+        "englishStructure": "He likes playing...",
+        "whyDifficult": "French uses infinitive. English 'like' often takes -ing.",
+        "visualHighlighting": {
+          "incorrect": "play",
+          "correct": "playing"
+        }
+      }
+    },
+    {
+      "id": "gi-e05-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "She came here ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "for see",
+        "to see",
+        "for seeing"
+      ],
+      "correctAnswer": "to see",
+      "feedback": "Correct! Purpose 'to see'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Purpose (To)",
+      "frenchComparison": {
+        "frenchStructure": "Elle est venue pour te voir...",
+        "englishStructure": "She came here to see you...",
+        "whyDifficult": "French uses 'pour' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "for seeing",
+          "correct": "to see"
+        }
+      }
+    },
+    {
+      "id": "gi-e06-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I need ___ my phone.",
+      "type": "multiple_choice",
+      "options": [
+        "charge",
+        "charging",
+        "to charge"
+      ],
+      "correctAnswer": "to charge",
+      "feedback": "Correct! 'Need' + to charge.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Need)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai besoin de charger...",
+        "englishStructure": "I need to charge...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "charge",
+          "correct": "to charge"
+        }
+      }
+    },
+    {
+      "id": "gi-e07-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Don't leave without ___.",
+      "type": "multiple_choice",
+      "options": [
+        "pay",
+        "paying",
+        "to pay"
+      ],
+      "correctAnswer": "paying",
+      "feedback": "Correct! 'Without' is a preposition -> paying.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Ne pars pas sans payer...",
+        "englishStructure": "Don't leave without paying...",
+        "whyDifficult": "French uses infinitive after 'sans'. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "pay",
+          "correct": "paying"
+        }
+      }
+    },
+    {
+      "id": "gi-e08-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I love ___ movies.",
+      "type": "multiple_choice",
+      "options": [
+        "watch",
+        "watching",
+        "to watch"
+      ],
+      "correctAnswer": "watching",
+      "feedback": "Correct! 'Love' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Love)",
+      "frenchComparison": {
+        "frenchStructure": "J'adore regarder...",
+        "englishStructure": "I love watching...",
+        "whyDifficult": "French uses infinitive. English 'love' often takes -ing.",
+        "visualHighlighting": {
+          "incorrect": "watch",
+          "correct": "watching"
+        }
+      }
+    },
+    {
+      "id": "gi-e09-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I am interested in ___ books.",
+      "type": "multiple_choice",
+      "options": [
+        "read",
+        "reading",
+        "to read"
+      ],
+      "correctAnswer": "reading",
+      "feedback": "Correct! 'In' is a preposition -> reading.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Je m'intéresse à lire...",
+        "englishStructure": "I am interested in reading...",
+        "whyDifficult": "French uses infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to read",
+          "correct": "reading"
+        }
+      }
+    },
+    {
+      "id": "gi-e10-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I hope ___ the exam.",
+      "type": "multiple_choice",
+      "options": [
+        "pass",
+        "passing",
+        "to pass"
+      ],
+      "correctAnswer": "to pass",
+      "feedback": "Correct! 'Hope' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Hope)",
+      "frenchComparison": {
+        "frenchStructure": "J'espère réussir...",
+        "englishStructure": "I hope to pass...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "pass",
+          "correct": "to pass"
+        }
+      }
+    },
+    {
+      "id": "gi-e11-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "We decided ___ a car.",
+      "type": "multiple_choice",
+      "options": [
+        "buy",
+        "buying",
+        "to buy"
+      ],
+      "correctAnswer": "to buy",
+      "feedback": "Correct! 'Decide' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Decide)",
+      "frenchComparison": {
+        "frenchStructure": "Nous avons décidé d'acheter...",
+        "englishStructure": "We decided to buy...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "buying",
+          "correct": "to buy"
+        }
+      }
+    },
+    {
+      "id": "gi-e12-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Stop ___!",
+      "type": "multiple_choice",
+      "options": [
+        "talk",
+        "talking",
+        "to talk"
+      ],
+      "correctAnswer": "talking",
+      "feedback": "Correct! 'Stop' (quit) + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Stop)",
+      "frenchComparison": {
+        "frenchStructure": "Arrête de parler...",
+        "englishStructure": "Stop talking...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'stop' (quit) takes -ing.",
+        "visualHighlighting": {
+          "incorrect": "to talk",
+          "correct": "talking"
+        }
+      }
+    },
+    {
+      "id": "gi-e13-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Wash your hands before ___.",
+      "type": "multiple_choice",
+      "options": [
+        "eat",
+        "eating",
+        "to eat"
+      ],
+      "correctAnswer": "eating",
+      "feedback": "Correct! 'Before' is a preposition -> eating.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Lave tes mains avant de manger...",
+        "englishStructure": "Wash your hands before eating...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to eat",
+          "correct": "eating"
+        }
+      }
+    },
+    {
+      "id": "gi-e14-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "It is hard ___ Chinese.",
+      "type": "multiple_choice",
+      "options": [
+        "learn",
+        "to learn",
+        "learning"
+      ],
+      "correctAnswer": "to learn",
+      "feedback": "Correct! Adjective + to + verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "C'est difficile d'apprendre...",
+        "englishStructure": "It is hard to learn...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "learning",
+          "correct": "to learn"
+        }
+      }
+    },
+    {
+      "id": "gi-e15-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He promised ___.",
+      "type": "multiple_choice",
+      "options": [
+        "come",
+        "coming",
+        "to come"
+      ],
+      "correctAnswer": "to come",
+      "feedback": "Correct! 'Promise' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Promise)",
+      "frenchComparison": {
+        "frenchStructure": "Il a promis de venir...",
+        "englishStructure": "He promised to come...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "coming",
+          "correct": "to come"
+        }
+      }
+    },
+    {
+      "id": "gi-e16-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "Do you mind ___?",
+      "type": "multiple_choice",
+      "options": [
+        "wait",
+        "waiting",
+        "to wait"
+      ],
+      "correctAnswer": "waiting",
+      "feedback": "Correct! 'Mind' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Mind)",
+      "frenchComparison": {
+        "frenchStructure": "Ça te dérange d'attendre...",
+        "englishStructure": "Do you mind waiting...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'mind' takes -ing.",
+        "visualHighlighting": {
+          "incorrect": "to wait",
+          "correct": "waiting"
+        }
+      }
+    },
+    {
+      "id": "gi-e17-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "It started ___.",
+      "type": "multiple_choice",
+      "options": [
+        "rain",
+        "raining",
+        "to raining"
+      ],
+      "correctAnswer": "raining",
+      "feedback": "Correct! 'Start' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Start)",
+      "frenchComparison": {
+        "frenchStructure": "Il a commencé à pleuvoir...",
+        "englishStructure": "It started raining...",
+        "whyDifficult": "French uses 'à' + infinitive. English 'start' can take -ing.",
+        "visualHighlighting": {
+          "incorrect": "rain",
+          "correct": "raining"
+        }
+      }
+    },
+    {
+      "id": "gi-e18-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I learned ___ drive.",
+      "type": "multiple_choice",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "feedback": "Correct! 'Learn to'.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Infinitive (Learn)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai appris à conduire...",
+        "englishStructure": "I learned to drive...",
+        "whyDifficult": "French uses 'à'. English uses 'to'.",
+        "visualHighlighting": {
+          "incorrect": "for",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "gi-e19-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "I hate ___.",
+      "type": "multiple_choice",
+      "options": [
+        "lose",
+        "losing",
+        "to lost"
+      ],
+      "correctAnswer": "losing",
+      "feedback": "Correct! 'Hate' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb + Gerund (Hate)",
+      "frenchComparison": {
+        "frenchStructure": "Je déteste perdre...",
+        "englishStructure": "I hate losing...",
+        "whyDifficult": "French uses infinitive. English 'hate' often takes -ing.",
+        "visualHighlighting": {
+          "incorrect": "lose",
+          "correct": "losing"
+        }
+      }
+    },
+    {
+      "id": "gi-e20-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "easy",
+      "questionText": "He is afraid of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "swim",
+        "swimming",
+        "to swim"
+      ],
+      "correctAnswer": "swimming",
+      "feedback": "Correct! 'Of' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Il a peur de nager...",
+        "englishStructure": "He is afraid of swimming...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to swim",
+          "correct": "swimming"
+        }
+      }
+    },
+    {
+      "id": "gi-m01-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I enjoy ___.",
+      "type": "multiple_choice",
+      "options": [
+        "dance",
+        "to dance",
+        "dancing"
+      ],
+      "correctAnswer": "dancing",
+      "feedback": "Correct! 'Enjoy' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Enjoy)",
+      "frenchComparison": {
+        "frenchStructure": "J'aime danser...",
+        "englishStructure": "I enjoy dancing...",
+        "whyDifficult": "French uses infinitive. English 'enjoy' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to dance",
+          "correct": "dancing"
+        }
+      }
+    },
+    {
+      "id": "gi-m02-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Avoid ___ mistakes.",
+      "type": "multiple_choice",
+      "options": [
+        "make",
+        "to make",
+        "making"
+      ],
+      "correctAnswer": "making",
+      "feedback": "Correct! 'Avoid' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Avoid)",
+      "frenchComparison": {
+        "frenchStructure": "Évite de faire...",
+        "englishStructure": "Avoid making...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'avoid' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to make",
+          "correct": "making"
+        }
+      }
+    },
+    {
+      "id": "gi-m03-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I promised ___ late.",
+      "type": "multiple_choice",
+      "options": [
+        "not be",
+        "not to be",
+        "no to be"
+      ],
+      "correctAnswer": "not to be",
+      "feedback": "Correct! 'Not to' + verb.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Negative Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "J'ai promis de ne pas être...",
+        "englishStructure": "I promised not to be...",
+        "whyDifficult": "French 'ne pas être'. English 'not to be'.",
+        "visualHighlighting": {
+          "incorrect": "not be",
+          "correct": "not to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m04-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "They plan ___ a house.",
+      "type": "multiple_choice",
+      "options": [
+        "build",
+        "building",
+        "to build"
+      ],
+      "correctAnswer": "to build",
+      "feedback": "Correct! 'Plan' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Plan)",
+      "frenchComparison": {
+        "frenchStructure": "Ils prévoient de construire...",
+        "englishStructure": "They plan to build...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "building",
+          "correct": "to build"
+        }
+      }
+    },
+    {
+      "id": "gi-m05-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "He finished ___ his homework.",
+      "type": "multiple_choice",
+      "options": [
+        "do",
+        "doing",
+        "to do"
+      ],
+      "correctAnswer": "doing",
+      "feedback": "Correct! 'Finish' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Finish)",
+      "frenchComparison": {
+        "frenchStructure": "Il a fini de faire...",
+        "englishStructure": "He finished doing...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'finish' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to do",
+          "correct": "doing"
+        }
+      }
+    },
+    {
+      "id": "gi-m06-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Keep ___!",
+      "type": "multiple_choice",
+      "options": [
+        "smile",
+        "smiling",
+        "to smile"
+      ],
+      "correctAnswer": "smiling",
+      "feedback": "Correct! 'Keep' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Keep)",
+      "frenchComparison": {
+        "frenchStructure": "Continue de sourire...",
+        "englishStructure": "Keep smiling...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'keep' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to smile",
+          "correct": "smiling"
+        }
+      }
+    },
+    {
+      "id": "gi-m07-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "They offered ___ us.",
+      "type": "multiple_choice",
+      "options": [
+        "drive",
+        "to drive",
+        "driving"
+      ],
+      "correctAnswer": "to drive",
+      "feedback": "Correct! 'Offer' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Offer)",
+      "frenchComparison": {
+        "frenchStructure": "Ils ont offert de nous conduire...",
+        "englishStructure": "They offered to drive us...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "driving",
+          "correct": "to drive"
+        }
+      }
+    },
+    {
+      "id": "gi-m08-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "It is dangerous ___ here.",
+      "type": "multiple_choice",
+      "options": [
+        "swim",
+        "swimming",
+        "to swim"
+      ],
+      "correctAnswer": "to swim",
+      "feedback": "Correct! Adjective + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Infinitive",
+      "frenchComparison": {
+        "frenchStructure": "C'est dangereux de nager...",
+        "englishStructure": "It is dangerous to swim...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "swimming",
+          "correct": "to swim"
+        }
+      }
+    },
+    {
+      "id": "gi-m09-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I am fond of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cooking",
+        "cook",
+        "to cook"
+      ],
+      "correctAnswer": "cooking",
+      "feedback": "Correct! 'Of' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "J'aime cuisiner...",
+        "englishStructure": "I am fond of cooking...",
+        "whyDifficult": "French uses infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to cook",
+          "correct": "cooking"
+        }
+      }
+    },
+    {
+      "id": "gi-m10-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "She refused ___.",
+      "type": "multiple_choice",
+      "options": [
+        "speak",
+        "to speak",
+        "speaking"
+      ],
+      "correctAnswer": "to speak",
+      "feedback": "Correct! 'Refuse' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Refuse)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a refusé de parler...",
+        "englishStructure": "She refused to speak...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "speaking",
+          "correct": "to speak"
+        }
+      }
+    },
+    {
+      "id": "gi-m11-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I miss ___ you.",
+      "type": "multiple_choice",
+      "options": [
+        "see",
+        "seeing",
+        "to see"
+      ],
+      "correctAnswer": "seeing",
+      "feedback": "Correct! 'Miss' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Miss)",
+      "frenchComparison": {
+        "frenchStructure": "Ça me manque de te voir...",
+        "englishStructure": "I miss seeing you...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'miss' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to see",
+          "correct": "seeing"
+        }
+      }
+    },
+    {
+      "id": "gi-m12-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "It seems ___ raining.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": "to be",
+      "feedback": "Correct! 'Seem' + to be.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Seem)",
+      "frenchComparison": {
+        "frenchStructure": "Il semble pleuvoir...",
+        "englishStructure": "It seems to be raining...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "be",
+          "correct": "to be"
+        }
+      }
+    },
+    {
+      "id": "gi-m13-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Would you like ___?",
+      "type": "multiple_choice",
+      "options": [
+        "dance",
+        "dancing",
+        "to dance"
+      ],
+      "correctAnswer": "to dance",
+      "feedback": "Correct! 'Would like' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Would like)",
+      "frenchComparison": {
+        "frenchStructure": "Voudrais-tu danser...",
+        "englishStructure": "Would you like to dance...",
+        "whyDifficult": "French uses direct infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "dancing",
+          "correct": "to dance"
+        }
+      }
+    },
+    {
+      "id": "gi-m14-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "It is no use ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cry",
+        "crying",
+        "to cry"
+      ],
+      "correctAnswer": "crying",
+      "feedback": "Correct! 'No use' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "Ça ne sert à rien de pleurer...",
+        "englishStructure": "It is no use crying...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing.",
+        "visualHighlighting": {
+          "incorrect": "to cry",
+          "correct": "crying"
+        }
+      }
+    },
+    {
+      "id": "gi-m15-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "He is responsible for ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cook",
+        "cooking",
+        "to cook"
+      ],
+      "correctAnswer": "cooking",
+      "feedback": "Correct! 'For' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Gerund",
+      "frenchComparison": {
+        "frenchStructure": "Il est responsable de cuisiner...",
+        "englishStructure": "He is responsible for cooking...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to cook",
+          "correct": "cooking"
+        }
+      }
+    },
+    {
+      "id": "gi-m16-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "She agreed ___.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "going",
+        "to go"
+      ],
+      "correctAnswer": "to go",
+      "feedback": "Correct! 'Agree' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Agree)",
+      "frenchComparison": {
+        "frenchStructure": "Elle a accepté d'y aller...",
+        "englishStructure": "She agreed to go...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "going",
+          "correct": "to go"
+        }
+      }
+    },
+    {
+      "id": "gi-m17-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "Imagine ___ rich.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "being",
+        "to be"
+      ],
+      "correctAnswer": "being",
+      "feedback": "Correct! 'Imagine' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Imagine)",
+      "frenchComparison": {
+        "frenchStructure": "Imagine être riche...",
+        "englishStructure": "Imagine being rich...",
+        "whyDifficult": "French uses direct infinitive. English 'imagine' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to be",
+          "correct": "being"
+        }
+      }
+    },
+    {
+      "id": "gi-m18-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I expect ___.",
+      "type": "multiple_choice",
+      "options": [
+        "win",
+        "winning",
+        "to win"
+      ],
+      "correctAnswer": "to win",
+      "feedback": "Correct! 'Expect' + to.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Expect)",
+      "frenchComparison": {
+        "frenchStructure": "Je m'attends à gagner...",
+        "englishStructure": "I expect to win...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "winning",
+          "correct": "to win"
+        }
+      }
+    },
+    {
+      "id": "gi-m19-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "I feel like ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sleep",
+        "sleeping",
+        "to sleep"
+      ],
+      "correctAnswer": "sleeping",
+      "feedback": "Correct! 'Feel like' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Fixed Expressions",
+      "frenchComparison": {
+        "frenchStructure": "J'ai envie de dormir...",
+        "englishStructure": "I feel like sleeping...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing.",
+        "visualHighlighting": {
+          "incorrect": "to sleep",
+          "correct": "sleeping"
+        }
+      }
+    },
+    {
+      "id": "gi-m20-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "medium",
+      "questionText": "We consider ___.",
+      "type": "multiple_choice",
+      "options": [
+        "move",
+        "moving",
+        "to move"
+      ],
+      "correctAnswer": "moving",
+      "feedback": "Correct! 'Consider' + -ing.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Verb Patterns (Consider)",
+      "frenchComparison": {
+        "frenchStructure": "Nous envisageons de déménager...",
+        "englishStructure": "We consider moving...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'consider' forces -ing.",
+        "visualHighlighting": {
+          "incorrect": "to move",
+          "correct": "moving"
+        }
+      }
+    },
+    {
+      "id": "gi-h01-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I stopped ___ hello to him.",
+      "type": "multiple_choice",
+      "options": [
+        "saying",
+        "to say",
+        "say"
+      ],
+      "correctAnswer": "to say",
+      "feedback": "Correct! Stopped walking TO say hello.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Stop To vs Stop Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je me suis arrêté pour dire...",
+        "englishStructure": "I stopped to say...",
+        "whyDifficult": "French uses 'pour' + infinitive. English uses 'to' + infinitive for purpose.",
+        "visualHighlighting": {
+          "incorrect": "saying",
+          "correct": "to say"
+        }
+      }
+    },
+    {
+      "id": "gi-h02-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I stopped ___ coffee because of my health.",
+      "type": "multiple_choice",
+      "options": [
+        "drink",
+        "to drink",
+        "drinking"
+      ],
+      "correctAnswer": "drinking",
+      "feedback": "Correct! Quit drinking.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Stop To vs Stop Ing",
+      "frenchComparison": {
+        "frenchStructure": "J'ai arrêté de boire...",
+        "englishStructure": "I stopped drinking...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for quitting.",
+        "visualHighlighting": {
+          "incorrect": "to drink",
+          "correct": "drinking"
+        }
+      }
+    },
+    {
+      "id": "gi-h03-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I look forward to ___ from you.",
+      "type": "multiple_choice",
+      "options": [
+        "hear",
+        "hearing",
+        "heard"
+      ],
+      "correctAnswer": "hearing",
+      "feedback": "Correct! 'Look forward to' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Look forward to",
+      "frenchComparison": {
+        "frenchStructure": "J'ai hâte d'avoir de tes nouvelles...",
+        "englishStructure": "I look forward to hearing from you...",
+        "whyDifficult": "French uses 'de' + infinitive. English 'to' here is a preposition -> -ing.",
+        "visualHighlighting": {
+          "incorrect": "hear",
+          "correct": "hearing"
+        }
+      }
+    },
+    {
+      "id": "gi-h04-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Remember ___ the lights off.",
+      "type": "multiple_choice",
+      "options": [
+        "turn",
+        "turning",
+        "to turn"
+      ],
+      "correctAnswer": "to turn",
+      "feedback": "Correct! Don't forget to do it.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Remember To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "N'oublie pas d'éteindre...",
+        "englishStructure": "Remember to turn...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive for tasks.",
+        "visualHighlighting": {
+          "incorrect": "turning",
+          "correct": "to turn"
+        }
+      }
+    },
+    {
+      "id": "gi-h05-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I remember ___ that movie years ago.",
+      "type": "multiple_choice",
+      "options": [
+        "seeing",
+        "to see",
+        "see"
+      ],
+      "correctAnswer": "seeing",
+      "feedback": "Correct! Memory of the past.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Remember To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je me souviens d'avoir vu...",
+        "englishStructure": "I remember seeing...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for memories.",
+        "visualHighlighting": {
+          "incorrect": "to see",
+          "correct": "seeing"
+        }
+      }
+    },
+    {
+      "id": "gi-h06-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "She made him ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cry",
+        "crying",
+        "to cry"
+      ],
+      "correctAnswer": "cry",
+      "feedback": "Correct! 'Make' + object + base verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Causative Verbs (Make)",
+      "frenchComparison": {
+        "frenchStructure": "Elle l'a fait pleurer...",
+        "englishStructure": "She made him cry...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to cry",
+          "correct": "cry"
+        }
+      }
+    },
+    {
+      "id": "gi-h07-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Let him ___.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "to go",
+        "going"
+      ],
+      "correctAnswer": "go",
+      "feedback": "Correct! 'Let' + object + base verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Causative Verbs (Let)",
+      "frenchComparison": {
+        "frenchStructure": "Laisse-le partir...",
+        "englishStructure": "Let him go...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to go",
+          "correct": "go"
+        }
+      }
+    },
+    {
+      "id": "gi-h08-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "We used to ___ in the same class.",
+      "type": "multiple_choice",
+      "options": [
+        "be",
+        "being",
+        "been"
+      ],
+      "correctAnswer": "be",
+      "feedback": "Correct! Past habit 'Used to be'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to vs Be used to",
+      "frenchComparison": {
+        "frenchStructure": "Nous étions...",
+        "englishStructure": "We used to be...",
+        "whyDifficult": "French uses Imparfait. English uses 'Used to' + verb.",
+        "visualHighlighting": {
+          "incorrect": "being",
+          "correct": "be"
+        }
+      }
+    },
+    {
+      "id": "gi-h09-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He is used to ___ hard.",
+      "type": "multiple_choice",
+      "options": [
+        "work",
+        "working",
+        "worked"
+      ],
+      "correctAnswer": "working",
+      "feedback": "Correct! 'Be used to' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Used to vs Be used to",
+      "frenchComparison": {
+        "frenchStructure": "Il est habitué à travailler...",
+        "englishStructure": "He is used to working...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' (preposition) + -ing.",
+        "visualHighlighting": {
+          "incorrect": "work",
+          "correct": "working"
+        }
+      }
+    },
+    {
+      "id": "gi-h10-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I regret ___ you that we are closed.",
+      "type": "multiple_choice",
+      "options": [
+        "inform",
+        "informing",
+        "to inform"
+      ],
+      "correctAnswer": "to inform",
+      "feedback": "Correct! Regret to say/tell/inform.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Regret To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je regrette de vous informer...",
+        "englishStructure": "I regret to inform you...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive for announcements.",
+        "visualHighlighting": {
+          "incorrect": "informing",
+          "correct": "to inform"
+        }
+      }
+    },
+    {
+      "id": "gi-h11-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I regret ___ so much.",
+      "type": "multiple_choice",
+      "options": [
+        "eating",
+        "to eat",
+        "eat"
+      ],
+      "correctAnswer": "eating",
+      "feedback": "Correct! Past regret.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Regret To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je regrette d'avoir mangé...",
+        "englishStructure": "I regret eating...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for past regrets.",
+        "visualHighlighting": {
+          "incorrect": "to eat",
+          "correct": "eating"
+        }
+      }
+    },
+    {
+      "id": "gi-h12-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "Try ___ some salt (experiment).",
+      "type": "multiple_choice",
+      "options": [
+        "add",
+        "to add",
+        "adding"
+      ],
+      "correctAnswer": "adding",
+      "feedback": "Correct! Experiment = -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Try To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "Essaie d'ajouter...",
+        "englishStructure": "Try adding...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing for experiments.",
+        "visualHighlighting": {
+          "incorrect": "to add",
+          "correct": "adding"
+        }
+      }
+    },
+    {
+      "id": "gi-h13-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "The house needs ___.",
+      "type": "multiple_choice",
+      "options": [
+        "cleaning",
+        "clean",
+        "to clean"
+      ],
+      "correctAnswer": "cleaning",
+      "feedback": "Correct! 'Need' + -ing (passive meaning).",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Need + Ing",
+      "frenchComparison": {
+        "frenchStructure": "La maison a besoin d'être nettoyée...",
+        "englishStructure": "The house needs cleaning...",
+        "whyDifficult": "French uses passive infinitive. English uses -ing for passive meaning here.",
+        "visualHighlighting": {
+          "incorrect": "to clean",
+          "correct": "cleaning"
+        }
+      }
+    },
+    {
+      "id": "gi-h14-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I object to ___ late.",
+      "type": "multiple_choice",
+      "options": [
+        "working",
+        "work",
+        "worked"
+      ],
+      "correctAnswer": "working",
+      "feedback": "Correct! 'Object to' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Object to + Ing",
+      "frenchComparison": {
+        "frenchStructure": "Je m'oppose à travailler...",
+        "englishStructure": "I object to working...",
+        "whyDifficult": "French uses 'à' + infinitive. English uses 'to' (preposition) + -ing.",
+        "visualHighlighting": {
+          "incorrect": "work",
+          "correct": "working"
+        }
+      }
+    },
+    {
+      "id": "gi-h15-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "He would rather ___.",
+      "type": "multiple_choice",
+      "options": [
+        "go",
+        "to go",
+        "going"
+      ],
+      "correctAnswer": "go",
+      "feedback": "Correct! 'Would rather' + base verb.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Would rather",
+      "frenchComparison": {
+        "frenchStructure": "Il préférerait partir...",
+        "englishStructure": "He would rather go...",
+        "whyDifficult": "French uses infinitive. English uses base verb (no 'to').",
+        "visualHighlighting": {
+          "incorrect": "to go",
+          "correct": "go"
+        }
+      }
+    },
+    {
+      "id": "gi-h16-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "It is easy for her ___.",
+      "type": "multiple_choice",
+      "options": [
+        "sing",
+        "singing",
+        "to sing"
+      ],
+      "correctAnswer": "to sing",
+      "feedback": "Correct! Adjective + for + person + to.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective Patterns",
+      "frenchComparison": {
+        "frenchStructure": "C'est facile pour elle de chanter...",
+        "englishStructure": "It is easy for her to sing...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses 'to' + infinitive.",
+        "visualHighlighting": {
+          "incorrect": "singing",
+          "correct": "to sing"
+        }
+      }
+    },
+    {
+      "id": "gi-h17-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "She is capable of ___.",
+      "type": "multiple_choice",
+      "options": [
+        "run",
+        "running",
+        "to run"
+      ],
+      "correctAnswer": "running",
+      "feedback": "Correct! 'Capable of' + -ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Adjective + Preposition",
+      "frenchComparison": {
+        "frenchStructure": "Elle est capable de courir...",
+        "englishStructure": "She is capable of running...",
+        "whyDifficult": "French uses 'de' + infinitive. English uses -ing after prepositions.",
+        "visualHighlighting": {
+          "incorrect": "to run",
+          "correct": "running"
+        }
+      }
+    },
+    {
+      "id": "gi-h18-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "___ languages is useful.",
+      "type": "multiple_choice",
+      "options": [
+        "Learning",
+        "Learn",
+        "To learn"
+      ],
+      "correctAnswer": "Learning",
+      "feedback": "Correct! Gerund subject.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Gerund as Subject",
+      "frenchComparison": {
+        "frenchStructure": "Apprendre les langues...",
+        "englishStructure": "Learning languages...",
+        "whyDifficult": "French uses infinitive as subject. English prefers Gerund (-ing).",
+        "visualHighlighting": {
+          "incorrect": "to learn",
+          "correct": "learning"
+        }
+      }
+    },
+    {
+      "id": "gi-h19-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I tried to lift the box, but it was too heavy.",
+      "type": "error_correction",
+      "options": [
+        "tried",
+        "to lift",
+        "too heavy",
+        "No error"
+      ],
+      "correctAnswer": "No error",
+      "feedback": "Correct! 'Try to' (effort) is correct.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "No error",
+      "subTopic": "Try To vs Ing",
+      "frenchComparison": {
+        "frenchStructure": "J'ai essayé de soulever...",
+        "englishStructure": "I tried to lift...",
+        "whyDifficult": "No error here. 'Try to' is correct for effort.",
+        "visualHighlighting": {
+          "incorrect": "no error",
+          "correct": "no error"
+        }
+      }
+    },
+    {
+      "id": "gi-h20-B",
+      "moduleId": "gerunds-infinitives",
+      "difficulty": "hard",
+      "questionText": "I prefer reading to ___.",
+      "type": "multiple_choice",
+      "options": [
+        "write",
+        "writing",
+        "wrote"
+      ],
+      "correctAnswer": "writing",
+      "feedback": "Correct! Prefer X-ing to Y-ing.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Prefer ... to ...",
+      "frenchComparison": {
+        "frenchStructure": "Je préfère lire plutôt qu'écrire...",
+        "englishStructure": "I prefer reading to writing...",
+        "whyDifficult": "French uses infinitives. English balances the gerunds.",
+        "visualHighlighting": {
+          "incorrect": "write",
+          "correct": "writing"
+        }
+      }
+    }
+  ]
+}

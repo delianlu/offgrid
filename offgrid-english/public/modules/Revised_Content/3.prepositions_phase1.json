@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Prepositions module! Small words, big headaches.",
+    "theProblem": "Prepositions are the hardest part of English because they often have no logic. In French, the single word \"à\" can translate to *at, to, in,* or *on* depending on the context. If you translate directly from French, you will be wrong 50% of the time.",
+    "thePromise": "By the end of this lesson, you will stop guessing. You will learn the 'Time Funnel' and the 'Movement Arrow' so you can know exactly which preposition to use for Time and Place."
+  },
+  "contrastiveExplanation": "### Concept 1: The Time Funnel (At / On / In)\n\n**The Rule:**\nEnglish organizes time by size.\n* **IN (Big Time):** Years, Months, Seasons, Centuries. (e.g., *In 2023, In May*).\n* **ON (Medium Time):** Days and Dates. (e.g., *On Monday, On Christmas Day*).\n* **AT (Tiny Time):** Exact clock time or specific moments. (e.g., *At 8:00 PM, At night*).\n\n**The French Trap:**\nFrench uses different logic. You say \"**En** 2020\" (In) but \"**Le** Lundi\" (The Monday) and \"**À** 8h\" (At).\n\n**The Fix:**\nVisualize specific shapes for time.\n\n**Visual Metaphor:**\nThink of a **Funnel** 🔽.\n* Top (Wide): **IN** 2023 (Big space).\n* Middle (Narrower): **ON** Monday.\n* Bottom (Point): **AT** 2:00 PM.\n\n**Examples:**\n* 🇫🇷 *Je suis né en Mai.* (Month)\n    * ❌ I was born on May.\n    * ✅ I was born **in** May.\n* 🇫🇷 *Je te verrai Lundi.* (Day)\n    * ❌ I will see you in Monday.\n    * ✅ I will see you **on** Monday.\n* 🇫🇷 *Le cours commence à 8h.* (Clock)\n    * ✅ The class starts **at** 8 AM.\n\n---\n\n### Concept 2: Movement vs. Position (To vs. At/In)\n\n**The Rule:**\n* **TO:** Use only for **movement** or direction towards a destination. (Go, come, walk, drive).\n* **AT / IN:** Use for **position** (where you are right now). Static verbs (Stay, be, live, work).\n\n**The French Trap:**\nFrench uses \"à\" for BOTH movement and position.\n* *Je vais **à** l'école.* (Movement)\n* *Je suis **à** l'école.* (Position)\nBecause of this, Francophones often say: \"I am going **at** the market.\"\n\n**The Fix:**\nLook at the verb. Is it moving? Use **TO**. Is it staying? Use **AT/IN**.\n\n**Visual Metaphor:**\n* **TO** is an **Arrow** ➔ (It flies towards a target).\n* **AT** is a **Pin** 📍 (It sticks in one spot).\n\n**Examples:**\n* 🇫🇷 *Je vais au marché.* (Movement)\n    * ❌ I go **at** the market.\n    * ✅ I go **to** the market.\n* 🇫🇷 *Il est à la banque.* (Position)\n    * ❌ He is **to** the bank.\n    * ✅ He is **at** the bank.\n\n---\n\n### Concept 3: The \"Sticky\" Verbs (Dependent Prepositions)\n\n**The Rule:**\nCertain verbs and adjectives are \"married\" to specific prepositions. You cannot change them. Logic does not apply here; you must memorize the pair.\n\n**The French Trap:**\nTranslation is your enemy here.\n* *Marié **avec*** (with) ➡️ English: Married **to**.\n* *Discuter **de*** (of/about) ➡️ English: Discuss **Ø** (No preposition).\n* *Bon **en*** (in) ➡️ English: Good **at**.\n\n**The Fix:**\nDon't learn the word alone. Learn the \"chunk.\"\n\n**Visual Metaphor:**\nThink of **Superglue**. The word \"Listen\" has glue on it, and it sticks only to \"To\". If you say \"Listen me\", the sentence falls apart.\n\n**Examples:**\n* 🇫🇷 *J'écoute la musique.*\n    * ❌ I listen music.\n    * ✅ I listen **to** music.\n* 🇫🇷 *Ça dépend de toi.*\n    * ❌ It depends **of** you.\n    * ✅ It depends **on** you.\n* 🇫🇷 *J'ai demandé à mon père.*\n    * ❌ I asked **to** my father.\n    * ✅ I asked **Ø** my father.",
+  "commonErrors": [
+    {
+      "subTopic": "Movement vs Position",
+      "wrong": "I am going at school.",
+      "correct": "I am going to school.",
+      "frenchConnection": "French uses 'à' (at) for destination. English requires 'to' for movement verbs like 'go'."
+    },
+    {
+      "subTopic": "Days of the Week",
+      "wrong": "I will travel in Tuesday.",
+      "correct": "I will travel on Tuesday.",
+      "frenchConnection": "Confusion between 'In' (months) and 'On' (days). Days always take 'On'."
+    },
+    {
+      "subTopic": "Verbs (No Preposition)",
+      "wrong": "We discussed about politics.",
+      "correct": "We discussed politics.",
+      "frenchConnection": "French 'discuter de'. In English, 'discuss' is transitive and takes NO preposition."
+    },
+    {
+      "subTopic": "Verbs (To)",
+      "wrong": "I asked to the teacher.",
+      "correct": "I asked the teacher.",
+      "frenchConnection": "French 'demander à'. In English, 'ask' usually takes no preposition before the person."
+    },
+    {
+      "subTopic": "Dependent Prepositions (Marriage)",
+      "wrong": "She is married with a doctor.",
+      "correct": "She is married to a doctor.",
+      "frenchConnection": "Direct translation of 'marié avec'. In English, you are married TO someone."
+    },
+    {
+      "subTopic": "Adjectives (Skills)",
+      "wrong": "Muna is good in football.",
+      "correct": "Muna is good at football.",
+      "frenchConnection": "French 'bon en'. For skills and abilities, English uses 'Good at' or 'Bad at'."
+    }
+  ]
+}

@@ -1,0 +1,3292 @@
+{
+  "id": "relative-clauses",
+  "name": "Relative Clauses",
+  "category": "grammar",
+  "moduleIntroduction": "Welcome to the Relative Clauses module! This is how we describe people and things without starting a new sentence. In French, *Qui* and *Que* work for almost everything. In English, we have specific words for people (*Who*) and things (*Which*). The biggest challenge is translating *Dont* (Whose) and avoiding the word *What* as a connector.",
+  "contrastiveExplanation": "People vs. Things:\nEnglish: Who (People), Which (Things).\nFrench: *Qui* acts as subject for both (L'homme qui..., Le chien qui...).\n\nThe 'What' Trap:\nEnglish: 'The book THAT I read' (Not 'The book WHAT I read').\nFrench: *Ce que* vs *Que*. 'What' equals *Ce que*. You cannot use 'What' after a noun.\n\nPossession (Whose):\nEnglish: The man WHOSE car is red.\nFrench: L'homme DONT la voiture est rouge.",
+  "commonErrors": [
+    {
+      "number": 1,
+      "subTopic": "People vs Things",
+      "wrong": "The man which is coming.",
+      "correct": "The man who is coming.",
+      "frenchConnection": "Using French logic where 'Qui' applies to everything. People require 'Who'."
+    },
+    {
+      "number": 2,
+      "subTopic": "The 'What' Error",
+      "wrong": "The house what I bought.",
+      "correct": "The house that I bought (or 'which').",
+      "frenchConnection": "Confusing 'Que' (relative pronoun) with 'Quoi/Ce que' (What)."
+    },
+    {
+      "number": 3,
+      "subTopic": "Possession (Dont)",
+      "wrong": "The boy that his mother is sick.",
+      "correct": "The boy whose mother is sick.",
+      "frenchConnection": "Trying to translate 'Dont' by splitting it into 'That' + 'His'. Use 'Whose'."
+    },
+    {
+      "number": 4,
+      "subTopic": "Subject Repetition",
+      "wrong": "The teacher who he is coming.",
+      "correct": "The teacher who is coming.",
+      "frenchConnection": "Doubling the subject. 'Who' IS the subject."
+    },
+    {
+      "number": 5,
+      "subTopic": "Prepositions",
+      "wrong": "The house where I live in.",
+      "correct": "The house I live in (or 'where I live').",
+      "frenchConnection": "Redundancy. 'Where' includes the meaning of 'in'."
+    }
+  ],
+  "schema_version": "1",
+  "module_version": "1.0.0",
+  "items": [
+    {
+      "id": "rc-e01-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the man ___ helped me.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! 'Man' is a person, so we use 'Who'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "C'est l'homme qui m'a aidé.",
+        "englishStructure": "This is the man who helped me.",
+        "whyDifficult": "French uses 'qui' for both people and things. English distinguishes: 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e02-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I lost the pen ___ you gave me.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Pen' is a thing, so we use 'Which'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "J'ai perdu le stylo que tu m'as donné.",
+        "englishStructure": "I lost the pen which you gave me.",
+        "whyDifficult": "French uses 'que' for objects. English uses 'which' (or 'that') for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e03-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the house ___ I live.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! 'House' is a place, so we use 'Where'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "C'est la maison où j'habite.",
+        "englishStructure": "This is the house where I live.",
+        "whyDifficult": "French 'où' translates directly to 'where' for places.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e04-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Do you know the girl ___ is singing?",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "whose"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! 'Girl' is a person -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Connais-tu la fille qui chante ?",
+        "englishStructure": "Do you know the girl who is singing?",
+        "whyDifficult": "French uses 'qui' for people and things. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e05-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The car ___ is parked there is mine.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Car' is a thing -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "La voiture qui est garée là est à moi.",
+        "englishStructure": "The car which is parked there is mine.",
+        "whyDifficult": "French uses 'qui' for the subject (even for things). English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e06-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "That is the school ___ I study.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "who"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! 'School' is a place -> Where.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "C'est l'école où j'étudie.",
+        "englishStructure": "That is the school where I study.",
+        "whyDifficult": "French 'où' translates to 'where' for places.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e07-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I met a woman ___ speaks Chinese.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! 'Woman' is a person -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "J'ai rencontré une femme qui parle chinois.",
+        "englishStructure": "I met a woman who speaks Chinese.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e08-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The dog ___ bit me ran away.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Dog' is an animal (thing) -> Which (or That).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le chien qui m'a mordu s'est enfui.",
+        "englishStructure": "The dog which bit me ran away.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for animals/things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e09-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the book ___ I bought.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Book' is a thing -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "C'est le livre que j'ai acheté.",
+        "englishStructure": "This is the book which I bought.",
+        "whyDifficult": "French uses 'que'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e10-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The boy ___ is tall is my brother.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! 'Boy' is a person -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le garçon qui est grand est mon frère.",
+        "englishStructure": "The boy who is tall is my brother.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e11-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Here is the place ___ we met.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "Voici l'endroit où nous nous sommes rencontrés.",
+        "englishStructure": "Here is the place where we met.",
+        "whyDifficult": "French 'où' translates to 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e12-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I don't like movies ___ are sad.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Movies are things -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Je n'aime pas les films qui sont tristes.",
+        "englishStructure": "I don't like movies which are sad.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e13-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The teacher ___ teaches English is nice.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Teacher -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le professeur qui enseigne l'anglais est sympa.",
+        "englishStructure": "The teacher who teaches English is nice.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e14-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The bag ___ is on the table is mine.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Bag -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le sac qui est sur la table est à moi.",
+        "englishStructure": "The bag which is on the table is mine.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e15-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I remember the day ___ you were born.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "when",
+        "which"
+      ],
+      "correctAnswer": "when",
+      "feedback": "Correct! 'Day' is a time -> When.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (When)",
+      "frenchComparison": {
+        "frenchStructure": "Je me souviens du jour où tu es né.",
+        "englishStructure": "I remember the day when you were born.",
+        "whyDifficult": "French uses 'où' (where) for time too. English uses 'when'.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "when"
+        }
+      }
+    },
+    {
+      "id": "rc-e16-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "People ___ live in glass houses shouldn't throw stones.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! People -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Les gens qui vivent dans des maisons de verre...",
+        "englishStructure": "People who live in glass houses...",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e17-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The bus ___ goes to the city is late.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "that",
+        "what"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! 'That' can replace 'which' for things.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "That (for Things)",
+      "frenchComparison": {
+        "frenchStructure": "Le bus qui va en ville est en retard.",
+        "englishStructure": "The bus that goes to the city is late.",
+        "whyDifficult": "French uses 'qui'. English uses 'that' (or 'which') for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-e18-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The girl ___ is dancing is my cousin.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! 'That' can replace 'who' for people.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "That (for People)",
+      "frenchComparison": {
+        "frenchStructure": "La fille qui danse est ma cousine.",
+        "englishStructure": "The girl that is dancing is my cousin.",
+        "whyDifficult": "French uses 'qui'. English uses 'that' (or 'who') for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-e19-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the cake ___ my mother made.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Cake -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "C'est le gâteau que ma mère a fait.",
+        "englishStructure": "This is the cake which my mother made.",
+        "whyDifficult": "French uses 'que'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e20-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Where is the key ___ opens this door?",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Key -> Which.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Où est la clé qui ouvre cette porte ?",
+        "englishStructure": "Where is the key which opens this door?",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-m01-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The boy ___ father is a doctor.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "that his"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (Son père) -> Whose.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "Le garçon dont le père est médecin.",
+        "englishStructure": "The boy whose father is a doctor.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose' for possession.",
+        "visualHighlighting": {
+          "incorrect": "that his",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m02-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "This is the man ___ car was stolen.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "who's"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (Sa voiture) -> Whose.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "C'est l'homme dont la voiture a été volée.",
+        "englishStructure": "This is the man whose car was stolen.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose'.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m03-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "This is the book ___ I read yesterday.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "who"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! You cannot use 'what' after a noun. Use 'that' or 'which'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "C'est le livre que j'ai lu hier.",
+        "englishStructure": "This is the book that I read yesterday.",
+        "whyDifficult": "French 'que' can sometimes be confused with 'what'. But 'what' cannot follow a noun.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m04-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The woman ___ I met was nice.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "Ø (no pronoun)",
+        "what"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! When the pronoun is the Object (I met her), you can omit it. (The woman I met).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "La femme que j'ai rencontrée était sympa.",
+        "englishStructure": "The woman I met was nice.",
+        "whyDifficult": "In French, you cannot omit the relative pronoun 'que'. In English, you can omit 'who/that' if it's the object.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m05-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "I don't understand ___ you said.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! 'What' means 'The thing that'. No noun before it.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "Je ne comprends pas ce que tu as dit.",
+        "englishStructure": "I don't understand what you said.",
+        "whyDifficult": "French uses 'ce que'. English uses 'what' (meaning 'the thing that').",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m06-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "Do you know the reason ___ he left?",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "why",
+        "who"
+      ],
+      "correctAnswer": "why",
+      "feedback": "Correct! Reason -> Why.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reason (Why)",
+      "frenchComparison": {
+        "frenchStructure": "Connais-tu la raison pour laquelle il est parti ?",
+        "englishStructure": "Do you know the reason why he left?",
+        "whyDifficult": "French uses 'pour laquelle'. English uses 'why'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "why"
+        }
+      }
+    },
+    {
+      "id": "rc-m07-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The hotel ___ we stayed was dirty.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "that"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! 'Where' replaces 'in which'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where vs Which)",
+      "frenchComparison": {
+        "frenchStructure": "L'hôtel où nous avons séjourné était sale.",
+        "englishStructure": "The hotel where we stayed was dirty.",
+        "whyDifficult": "French uses 'où'. English uses 'where' (meaning 'in which').",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-m08-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The hotel ___ we visited was dirty.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! We visited the hotel (Direct Object). No preposition 'in'. So we use 'Which'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where vs Which)",
+      "frenchComparison": {
+        "frenchStructure": "L'hôtel que nous avons visité était sale.",
+        "englishStructure": "The hotel which we visited was dirty.",
+        "whyDifficult": "Here 'hotel' is the direct object (visited what?), so we use 'which', not 'where'.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-m09-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "Everything ___ he said is true.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! After 'Everything', we use 'that'. Never 'what'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce qu'il a dit est vrai.",
+        "englishStructure": "Everything that he said is true.",
+        "whyDifficult": "French uses 'ce que'. English uses 'that' after 'everything'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m10-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The person ___ you need to see is Mr. Paul.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "Ø (no pronoun)",
+        "what"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! Object pronoun omission. (The person [who] you need).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "La personne que tu dois voir est M. Paul.",
+        "englishStructure": "The person you need to see is Mr. Paul.",
+        "whyDifficult": "French requires 'que'. English allows omitting the pronoun.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m11-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "That is the girl ___ brother is famous.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "that her"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (Whose brother).",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "C'est la fille dont le frère est célèbre.",
+        "englishStructure": "That is the girl whose brother is famous.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose'.",
+        "visualHighlighting": {
+          "incorrect": "that her",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m12-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "Is this ___ you want?",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! 'The thing that' = 'What'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "Est-ce ce que tu veux ?",
+        "englishStructure": "Is this what you want?",
+        "whyDifficult": "French uses 'ce que'. English uses 'what' when there is no antecedent noun.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m13-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The man ___ lives next door is loud.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject pronoun (He lives) -> Who.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "L'homme qui habite à côté est bruyant.",
+        "englishStructure": "The man who lives next door is loud.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' as the subject.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-m14-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The village ___ I was born is small.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "that"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place + in -> Where.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "Le village où je suis né est petit.",
+        "englishStructure": "The village where I was born is small.",
+        "whyDifficult": "French 'où' translates to 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-m15-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The email ___ I sent you.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "who"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Noun 'email' -> That/Which. Not 'What'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "L'email que je t'ai envoyé.",
+        "englishStructure": "The email that I sent you.",
+        "whyDifficult": "French uses 'que'. English uses 'that' or 'which'. Never 'what' after a noun.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m16-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The friends ___ we invited didn't come.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "whose",
+        "Ø (no pronoun)"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! Object pronoun omission.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "Les amis que nous avons invités ne sont pas venus.",
+        "englishStructure": "The friends we invited didn't come.",
+        "whyDifficult": "French requires 'que'. English allows omission.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m17-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "He is the one ___ did it.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "whom"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject 'Who'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "C'est lui qui l'a fait.",
+        "englishStructure": "He is the one who did it.",
+        "whyDifficult": "French uses 'qui'. English uses 'who'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-m18-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "This is ___ I am talking about.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! No noun before. 'The thing that' = What.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "C'est ce dont je parle.",
+        "englishStructure": "This is what I am talking about.",
+        "whyDifficult": "French uses 'ce dont'. English uses 'what' (meaning 'the thing that').",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m19-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The car, ___ color is red, is fast.",
+      "type": "multiple_choice",
+      "options": [
+        "who's",
+        "whose",
+        "which"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession for things (Whose color = Its color) is also 'Whose'.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose for things)",
+      "frenchComparison": {
+        "frenchStructure": "La voiture, dont la couleur est rouge, est rapide.",
+        "englishStructure": "The car, whose color is red, is fast.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose' even for things.",
+        "visualHighlighting": {
+          "incorrect": "who's",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m20-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The day ___ we met was rainy.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "when"
+      ],
+      "correctAnswer": "when",
+      "feedback": "Correct! Time -> When.",
+      "formType": "A",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (When)",
+      "frenchComparison": {
+        "frenchStructure": "Le jour où nous nous sommes rencontrés était pluvieux.",
+        "englishStructure": "The day when we met was rainy.",
+        "whyDifficult": "French uses 'où'. English uses 'when' for time.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "when"
+        }
+      }
+    },
+    {
+      "id": "rc-h01-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The man to ___ I spoke.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "that"
+      ],
+      "correctAnswer": "whom",
+      "feedback": "Correct! After a preposition (to), you MUST use 'Whom' for people.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Whom",
+      "frenchComparison": {
+        "frenchStructure": "L'homme à qui j'ai parlé.",
+        "englishStructure": "The man to whom I spoke.",
+        "whyDifficult": "French uses 'à qui'. English requires 'whom' after a preposition.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h02-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The house ___ I live.",
+      "type": "multiple_choice",
+      "options": [
+        "in where",
+        "in which",
+        "where in"
+      ],
+      "correctAnswer": "in which",
+      "feedback": "Correct! Preposition + Which = Where. 'In which' is formal.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "La maison dans laquelle je vis.",
+        "englishStructure": "The house in which I live.",
+        "whyDifficult": "French uses 'dans laquelle'. English uses 'in which' (or 'where').",
+        "visualHighlighting": {
+          "incorrect": "in where",
+          "correct": "in which"
+        }
+      }
+    },
+    {
+      "id": "rc-h03-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "He passed the exam, ___ surprised everyone.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Which' refers to the whole previous sentence.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Sentential Relative Clause",
+      "frenchComparison": {
+        "frenchStructure": "Il a réussi l'examen, ce qui a surpris tout le monde.",
+        "englishStructure": "He passed the exam, which surprised everyone.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'which' to refer to a whole clause.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h04-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The woman ___ I gave the book.",
+      "type": "multiple_choice",
+      "options": [
+        "to who",
+        "to whom",
+        "whom"
+      ],
+      "correctAnswer": "to whom",
+      "feedback": "Correct! 'To whom' is formal.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Whom",
+      "frenchComparison": {
+        "frenchStructure": "La femme à qui j'ai donné le livre.",
+        "englishStructure": "The woman to whom I gave the book.",
+        "whyDifficult": "French uses 'à qui'. English requires 'whom' after 'to'.",
+        "visualHighlighting": {
+          "incorrect": "to who",
+          "correct": "to whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h05-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The woman ___ I gave the book to.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! If the preposition (to) is at the end, we can use 'Who' (or 'That', or nothing).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dangling Preposition",
+      "frenchComparison": {
+        "frenchStructure": "La femme à qui j'ai donné le livre.",
+        "englishStructure": "The woman who I gave the book to.",
+        "whyDifficult": "French keeps the preposition before the pronoun ('à qui'). English can move it to the end.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h06-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "He has three sons, all of ___ are doctors.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "whom",
+      "feedback": "Correct! Quantifier (All of) + Whom.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (All of whom)",
+      "frenchComparison": {
+        "frenchStructure": "Il a trois fils, qui sont tous médecins.",
+        "englishStructure": "He has three sons, all of whom are doctors.",
+        "whyDifficult": "English uses 'all of whom' for people in this structure.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h07-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "I bought some apples, some of ___ were rotten.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "them",
+        "that"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Quantifier (Some of) + Which (for things).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Some of which)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai acheté des pommes, dont certaines étaient pourries.",
+        "englishStructure": "I bought some apples, some of which were rotten.",
+        "whyDifficult": "English uses 'some of which' for things.",
+        "visualHighlighting": {
+          "incorrect": "them",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h08-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "My father, ___ is 60, is retiring.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "who",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Non-defining clause (with commas). You CANNOT use 'That'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Non-Defining Clauses",
+      "frenchComparison": {
+        "frenchStructure": "Mon père, qui a 60 ans, prend sa retraite.",
+        "englishStructure": "My father, who is 60, is retiring.",
+        "whyDifficult": "In non-defining clauses (with commas), you cannot use 'that'. You must use 'who'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h09-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The reason for ___ he came is unknown.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "that",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition (for) + Which.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "La raison pour laquelle il est venu est inconnue.",
+        "englishStructure": "The reason for which he came is unknown.",
+        "whyDifficult": "French uses 'pour laquelle'. English uses 'for which'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h10-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "What was the name of the man ___ car you borrowed?",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "which"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (His car) -> Whose.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "Quel était le nom de l'homme dont tu as emprunté la voiture ?",
+        "englishStructure": "What was the name of the man whose car you borrowed?",
+        "whyDifficult": "French uses 'dont'. English uses 'whose'.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-h11-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "This is the pen with ___ I write.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "who",
+        "which"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition (with) + Which.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "C'est le stylo avec lequel j'écris.",
+        "englishStructure": "This is the pen with which I write.",
+        "whyDifficult": "French uses 'avec lequel'. English uses 'with which'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h12-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "I spoke to the manager, ___ was very helpful.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Non-defining (comma) -> Who. Never 'That'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Non-Defining Clauses",
+      "frenchComparison": {
+        "frenchStructure": "J'ai parlé au directeur, qui a été très utile.",
+        "englishStructure": "I spoke to the manager, who was very helpful.",
+        "whyDifficult": "In non-defining clauses, you cannot use 'that'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h13-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"The man who I spoke to him is here.\"",
+      "type": "error_correction",
+      "options": [
+        "who",
+        "spoke",
+        "to him",
+        "No error"
+      ],
+      "correctAnswer": "to him",
+      "feedback": "Correct! Remove 'him'. The relative pronoun replaces the object. Say 'The man I spoke to'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "to",
+      "subTopic": "Object Repetition Error",
+      "frenchComparison": {
+        "frenchStructure": "L'homme à qui j'ai parlé est ici.",
+        "englishStructure": "The man who I spoke to is here.",
+        "whyDifficult": "Learners often repeat the object pronoun ('him') which is redundant because 'who' is already the object.",
+        "visualHighlighting": {
+          "incorrect": "to him",
+          "correct": "to"
+        }
+      }
+    },
+    {
+      "id": "rc-h14-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "All ___ glitters is not gold.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! 'All that'. (Old proverb).",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "All that",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce qui brille n'est pas or.",
+        "englishStructure": "All that glitters is not gold.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'that' after 'all'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-h15-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The company for ___ I work.",
+      "type": "multiple_choice",
+      "options": [
+        "whom",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Company is a thing -> For which.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "L'entreprise pour laquelle je travaille.",
+        "englishStructure": "The company for which I work.",
+        "whyDifficult": "French uses 'pour laquelle'. English uses 'for which'.",
+        "visualHighlighting": {
+          "incorrect": "whom",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h16-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The company ___ I work for.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "what",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition at end -> Which/That.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dangling Preposition",
+      "frenchComparison": {
+        "frenchStructure": "L'entreprise pour laquelle je travaille.",
+        "englishStructure": "The company which I work for.",
+        "whyDifficult": "English allows moving the preposition to the end.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h17-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "___ you need is love.",
+      "type": "multiple_choice",
+      "options": [
+        "All what",
+        "That",
+        "All"
+      ],
+      "correctAnswer": "All",
+      "feedback": "Correct! 'All (that) you need'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "All that",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce dont tu as besoin, c'est l'amour.",
+        "englishStructure": "All you need is love.",
+        "whyDifficult": "French uses 'Tout ce dont'. English uses 'All (that)'.",
+        "visualHighlighting": {
+          "incorrect": "All what",
+          "correct": "All"
+        }
+      }
+    },
+    {
+      "id": "rc-h18-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "This is the best ___ I can do.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! After superlatives (the best), we prefer 'that'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Superlative + That",
+      "frenchComparison": {
+        "frenchStructure": "C'est le mieux que je puisse faire.",
+        "englishStructure": "This is the best that I can do.",
+        "whyDifficult": "After superlatives, English prefers 'that'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-h19-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "He failed, ___ is a pity.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "which",
+        "that"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Which' refers to the sentence 'He failed'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Sentential Relative Clause",
+      "frenchComparison": {
+        "frenchStructure": "Il a échoué, ce qui est dommage.",
+        "englishStructure": "He failed, which is a pity.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'which' to refer to the previous clause.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h20-A",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "There is no one ___ knows the answer.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "whom"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject 'Who'.",
+      "formType": "A",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "Il n'y a personne qui connaisse la réponse.",
+        "englishStructure": "There is no one who knows the answer.",
+        "whyDifficult": "French uses 'qui'. English uses 'who'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e01-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The woman ___ called me is my aunt.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Person -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "La femme qui m'a appelé est ma tante.",
+        "englishStructure": "The woman who called me is my aunt.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e02-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I have a cat ___ is black.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Animal/Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "J'ai un chat qui est noir.",
+        "englishStructure": "I have a cat which is black.",
+        "whyDifficult": "French uses 'qui' for both people and things. English uses 'which' for animals/things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e03-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the room ___ I sleep.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "C'est la chambre où je dors.",
+        "englishStructure": "This is the room where I sleep.",
+        "whyDifficult": "French uses 'où'. English uses 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e04-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The students ___ study hard will pass.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "whose"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! People -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Les étudiants qui étudient dur réussiront.",
+        "englishStructure": "The students who study hard will pass.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e05-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The phone ___ is on the desk is broken.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le téléphone qui est sur le bureau est cassé.",
+        "englishStructure": "The phone which is on the desk is broken.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e06-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "That is the shop ___ I bought bread.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "C'est le magasin où j'ai acheté du pain.",
+        "englishStructure": "That is the shop where I bought bread.",
+        "whyDifficult": "French uses 'où'. English uses 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e07-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I know a man ___ plays football.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Person -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Je connais un homme qui joue au football.",
+        "englishStructure": "I know a man who plays football.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e08-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The bird ___ flies high is an eagle.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Animal -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "L'oiseau qui vole haut est un aigle.",
+        "englishStructure": "The bird which flies high is an eagle.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for animals.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e09-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Here is the cake ___ you like.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Voici le gâteau que tu aimes.",
+        "englishStructure": "Here is the cake which you like.",
+        "whyDifficult": "French uses 'que'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e10-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The girl ___ is laughing is happy.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Person -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "La fille qui rit est heureuse.",
+        "englishStructure": "The girl who is laughing is happy.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e11-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "This is the city ___ I work.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "C'est la ville où je travaille.",
+        "englishStructure": "This is the city where I work.",
+        "whyDifficult": "French uses 'où'. English uses 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-e12-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "I like stories ___ are funny.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Things -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "J'aime les histoires qui sont drôles.",
+        "englishStructure": "I like stories which are funny.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e13-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The doctor ___ treated me was kind.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Person -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Le médecin qui m'a soigné était gentil.",
+        "englishStructure": "The doctor who treated me was kind.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e14-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The letter ___ arrived today is for you.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "La lettre qui est arrivée aujourd'hui est pour toi.",
+        "englishStructure": "The letter which arrived today is for you.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e15-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Sunday is the day ___ we rest.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "when",
+        "which"
+      ],
+      "correctAnswer": "when",
+      "feedback": "Correct! Time -> When.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (When)",
+      "frenchComparison": {
+        "frenchStructure": "Dimanche est le jour où nous nous reposons.",
+        "englishStructure": "Sunday is the day when we rest.",
+        "whyDifficult": "French uses 'où'. English uses 'when' for time.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "when"
+        }
+      }
+    },
+    {
+      "id": "rc-e16-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Students ___ are late will be punished.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! People -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Les étudiants qui sont en retard seront punis.",
+        "englishStructure": "Students who are late will be punished.",
+        "whyDifficult": "French uses 'qui'. English uses 'who' for people.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-e17-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The taxi ___ stopped was yellow.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "that",
+        "what"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Thing -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "That (for Things)",
+      "frenchComparison": {
+        "frenchStructure": "Le taxi qui s'est arrêté était jaune.",
+        "englishStructure": "The taxi that stopped was yellow.",
+        "whyDifficult": "French uses 'qui'. English can use 'that' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-e18-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The boy ___ called is my friend.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Person -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "That (for People)",
+      "frenchComparison": {
+        "frenchStructure": "Le garçon qui a appelé est mon ami.",
+        "englishStructure": "The boy that called is my friend.",
+        "whyDifficult": "French uses 'qui'. English can use 'that' for people too.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-e19-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "The food ___ I cooked is hot.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "La nourriture que j'ai cuisinée est chaude.",
+        "englishStructure": "The food which I cooked is hot.",
+        "whyDifficult": "French uses 'que'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-e20-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "easy",
+      "questionText": "Show me the path ___ leads to the river.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Thing -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who vs Which",
+      "frenchComparison": {
+        "frenchStructure": "Montre-moi le chemin qui mène à la rivière.",
+        "englishStructure": "Show me the path which leads to the river.",
+        "whyDifficult": "French uses 'qui'. English uses 'which' for things.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-m01-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The girl ___ mother is a nurse.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "that her"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession -> Whose.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "La fille dont la mère est infirmière.",
+        "englishStructure": "The girl whose mother is a nurse.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose' for possession.",
+        "visualHighlighting": {
+          "incorrect": "that her",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m02-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The dog ___ leg is broken.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "its"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (for animals too) -> Whose.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "Le chien dont la patte est cassée.",
+        "englishStructure": "The dog whose leg is broken.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose' even for animals.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m03-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The movie ___ we watched was good.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "who"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Thing -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "Le film que nous avons regardé était bon.",
+        "englishStructure": "The movie that we watched was good.",
+        "whyDifficult": "French uses 'que'. English uses 'that' or 'which'. Never 'what' after a noun.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m04-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The cake ___ I ate was delicious.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "Ø (no pronoun)",
+        "what"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! Omitted object pronoun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "Le gâteau que j'ai mangé était délicieux.",
+        "englishStructure": "The cake I ate was delicious.",
+        "whyDifficult": "French requires 'que'. English allows omission.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m05-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "Tell me ___ you want.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! 'The thing that' = What.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "Dis-moi ce que tu veux.",
+        "englishStructure": "Tell me what you want.",
+        "whyDifficult": "French uses 'ce que'. English uses 'what' (meaning 'the thing that').",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m06-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "That is the reason ___ I am late.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "why",
+        "who"
+      ],
+      "correctAnswer": "why",
+      "feedback": "Correct! Reason -> Why.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Reason (Why)",
+      "frenchComparison": {
+        "frenchStructure": "C'est la raison pour laquelle je suis en retard.",
+        "englishStructure": "That is the reason why I am late.",
+        "whyDifficult": "French uses 'pour laquelle'. English uses 'why'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "why"
+        }
+      }
+    },
+    {
+      "id": "rc-m07-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The house ___ I was born.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "that"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where vs Which)",
+      "frenchComparison": {
+        "frenchStructure": "La maison où je suis né.",
+        "englishStructure": "The house where I was born.",
+        "whyDifficult": "French uses 'où'. English uses 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-m08-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The house ___ I bought.",
+      "type": "multiple_choice",
+      "options": [
+        "where",
+        "which",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Direct Object -> Which.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where vs Which)",
+      "frenchComparison": {
+        "frenchStructure": "La maison que j'ai achetée.",
+        "englishStructure": "The house which I bought.",
+        "whyDifficult": "Here 'house' is the direct object, so we use 'which', not 'where'.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-m09-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "Everything ___ glitters is not gold.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! After 'everything' -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce qui brille n'est pas or.",
+        "englishStructure": "Everything that glitters is not gold.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'that' after 'everything'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m10-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The book ___ you lent me is good.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "Ø (no pronoun)",
+        "what"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! Omitted object pronoun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "Le livre que tu m'as prêté est bon.",
+        "englishStructure": "The book you lent me is good.",
+        "whyDifficult": "French requires 'que'. English allows omission.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m11-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The boy ___ bike was stolen is crying.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "that his"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession -> Whose.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "Le garçon dont le vélo a été volé pleure.",
+        "englishStructure": "The boy whose bike was stolen is crying.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose'.",
+        "visualHighlighting": {
+          "incorrect": "that his",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m12-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "I don't know ___ to do.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! 'The thing that' = What.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "Je ne sais pas quoi faire.",
+        "englishStructure": "I don't know what to do.",
+        "whyDifficult": "French uses 'quoi'. English uses 'what'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m13-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The woman ___ lives here is nice.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "La femme qui vit ici est gentille.",
+        "englishStructure": "The woman who lives here is nice.",
+        "whyDifficult": "French uses 'qui'. English uses 'who'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-m14-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The park ___ we played is closed.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "that"
+      ],
+      "correctAnswer": "where",
+      "feedback": "Correct! Place -> Where.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Place (Where)",
+      "frenchComparison": {
+        "frenchStructure": "Le parc où nous avons joué est fermé.",
+        "englishStructure": "The park where we played is closed.",
+        "whyDifficult": "French uses 'où'. English uses 'where'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "where"
+        }
+      }
+    },
+    {
+      "id": "rc-m15-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The letter ___ I wrote.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "who"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Thing -> That.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "The 'What' Trap",
+      "frenchComparison": {
+        "frenchStructure": "La lettre que j'ai écrite.",
+        "englishStructure": "The letter that I wrote.",
+        "whyDifficult": "French uses 'que'. English uses 'that' or 'which'. Never 'what' after a noun.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-m16-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The people ___ we met were friendly.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "whose",
+        "Ø (no pronoun)"
+      ],
+      "correctAnswer": "Ø (no pronoun)",
+      "feedback": "Correct! Omitted object pronoun.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Omitting the Pronoun",
+      "frenchComparison": {
+        "frenchStructure": "Les gens que nous avons rencontrés étaient sympathiques.",
+        "englishStructure": "The people we met were friendly.",
+        "whyDifficult": "French requires 'que'. English allows omission.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "Ø (no pronoun)"
+        }
+      }
+    },
+    {
+      "id": "rc-m17-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "She is the one ___ helped me.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "whom"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject -> Who.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "C'est elle qui m'a aidé.",
+        "englishStructure": "She is the one who helped me.",
+        "whyDifficult": "French uses 'qui'. English uses 'who'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-m18-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "That is ___ I mean.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "what",
+      "feedback": "Correct! 'The thing that' = What.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "What vs That",
+      "frenchComparison": {
+        "frenchStructure": "C'est ce que je veux dire.",
+        "englishStructure": "That is what I mean.",
+        "whyDifficult": "French uses 'ce que'. English uses 'what' (meaning 'the thing that').",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "what"
+        }
+      }
+    },
+    {
+      "id": "rc-m19-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The table, ___ leg is broken, is old.",
+      "type": "multiple_choice",
+      "options": [
+        "who's",
+        "whose",
+        "which"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession (for things too) -> Whose.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose for things)",
+      "frenchComparison": {
+        "frenchStructure": "La table, dont le pied est cassé, est vieille.",
+        "englishStructure": "The table, whose leg is broken, is old.",
+        "whyDifficult": "French uses 'dont'. English uses 'whose' even for things.",
+        "visualHighlighting": {
+          "incorrect": "who's",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-m20-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "medium",
+      "questionText": "The year ___ we met was 2010.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "where",
+        "when"
+      ],
+      "correctAnswer": "when",
+      "feedback": "Correct! Time -> When.",
+      "formType": "B",
+      "transferType": "near",
+      "item_version": "1.0.0",
+      "subTopic": "Time (When)",
+      "frenchComparison": {
+        "frenchStructure": "L'année où nous nous sommes rencontrés était 2010.",
+        "englishStructure": "The year when we met was 2010.",
+        "whyDifficult": "French uses 'où'. English uses 'when' for time.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "when"
+        }
+      }
+    },
+    {
+      "id": "rc-h01-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The student to ___ I spoke.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "that"
+      ],
+      "correctAnswer": "whom",
+      "feedback": "Correct! Preposition (to) + Whom.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Whom",
+      "frenchComparison": {
+        "frenchStructure": "L'étudiant à qui j'ai parlé.",
+        "englishStructure": "The student to whom I spoke.",
+        "whyDifficult": "French uses 'à qui'. English requires 'whom' after a preposition.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h02-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The room ___ I sleep.",
+      "type": "multiple_choice",
+      "options": [
+        "in where",
+        "in which",
+        "where in"
+      ],
+      "correctAnswer": "in which",
+      "feedback": "Correct! Preposition + Which = Where.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "La chambre dans laquelle je dors.",
+        "englishStructure": "The room in which I sleep.",
+        "whyDifficult": "French uses 'dans laquelle'. English uses 'in which' (or 'where').",
+        "visualHighlighting": {
+          "incorrect": "in where",
+          "correct": "in which"
+        }
+      }
+    },
+    {
+      "id": "rc-h03-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "He won the lottery, ___ made him rich.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! 'Which' refers to the whole previous sentence.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Sentential Relative Clause",
+      "frenchComparison": {
+        "frenchStructure": "Il a gagné à la loterie, ce qui l'a rendu riche.",
+        "englishStructure": "He won the lottery, which made him rich.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'which' to refer to a whole clause.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h04-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The person ___ I gave the money.",
+      "type": "multiple_choice",
+      "options": [
+        "to who",
+        "to whom",
+        "whom"
+      ],
+      "correctAnswer": "to whom",
+      "feedback": "Correct! 'To whom' is formal.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Whom",
+      "frenchComparison": {
+        "frenchStructure": "La personne à qui j'ai donné l'argent.",
+        "englishStructure": "The person to whom I gave the money.",
+        "whyDifficult": "French uses 'à qui'. English requires 'whom' after 'to'.",
+        "visualHighlighting": {
+          "incorrect": "to who",
+          "correct": "to whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h05-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The person ___ I gave the money to.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Dangling preposition allows 'Who'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dangling Preposition",
+      "frenchComparison": {
+        "frenchStructure": "La personne à qui j'ai donné l'argent.",
+        "englishStructure": "The person who I gave the money to.",
+        "whyDifficult": "French keeps the preposition before the pronoun ('à qui'). English can move it to the end.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h06-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "I have many friends, most of ___ are students.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whom",
+        "which"
+      ],
+      "correctAnswer": "whom",
+      "feedback": "Correct! Quantifier (Most of) + Whom.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Most of whom)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai beaucoup d'amis, dont la plupart sont étudiants.",
+        "englishStructure": "I have many friends, most of whom are students.",
+        "whyDifficult": "English uses 'most of whom' for people in this structure.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whom"
+        }
+      }
+    },
+    {
+      "id": "rc-h07-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "I have many books, most of ___ are old.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "them",
+        "that"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Quantifier (Most of) + Which.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Quantifiers (Most of which)",
+      "frenchComparison": {
+        "frenchStructure": "J'ai beaucoup de livres, dont la plupart sont vieux.",
+        "englishStructure": "I have many books, most of which are old.",
+        "whyDifficult": "English uses 'most of which' for things.",
+        "visualHighlighting": {
+          "incorrect": "them",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h08-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "My mother, ___ is a doctor, works hard.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "who",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Non-defining clause -> Who.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Non-Defining Clauses",
+      "frenchComparison": {
+        "frenchStructure": "Ma mère, qui est médecin, travaille dur.",
+        "englishStructure": "My mother, who is a doctor, works hard.",
+        "whyDifficult": "In non-defining clauses (with commas), you cannot use 'that'. You must use 'who'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h09-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The reason for ___ he left.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "that",
+        "what"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition (for) + Which.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "La raison pour laquelle il est parti.",
+        "englishStructure": "The reason for which he left.",
+        "whyDifficult": "French uses 'pour laquelle'. English uses 'for which'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h10-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "Do you know the girl ___ brother is famous?",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "whose",
+        "which"
+      ],
+      "correctAnswer": "whose",
+      "feedback": "Correct! Possession -> Whose.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Possession (Whose)",
+      "frenchComparison": {
+        "frenchStructure": "Connais-tu la fille dont le frère est célèbre ?",
+        "englishStructure": "Do you know the girl whose brother is famous?",
+        "whyDifficult": "French uses 'dont'. English uses 'whose'.",
+        "visualHighlighting": {
+          "incorrect": "who",
+          "correct": "whose"
+        }
+      }
+    },
+    {
+      "id": "rc-h11-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The tool with ___ I fixed it.",
+      "type": "multiple_choice",
+      "options": [
+        "that",
+        "who",
+        "which"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition (with) + Which.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "L'outil avec lequel je l'ai réparé.",
+        "englishStructure": "The tool with which I fixed it.",
+        "whyDifficult": "French uses 'avec lequel'. English uses 'with which'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h12-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "I met John, ___ was very nice.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Non-defining -> Who.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Non-Defining Clauses",
+      "frenchComparison": {
+        "frenchStructure": "J'ai rencontré John, qui était très gentil.",
+        "englishStructure": "I met John, who was very nice.",
+        "whyDifficult": "In non-defining clauses, you cannot use 'that'.",
+        "visualHighlighting": {
+          "incorrect": "that",
+          "correct": "who"
+        }
+      }
+    },
+    {
+      "id": "rc-h13-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "Find the error: \"The book which I read it is good.\"",
+      "type": "error_correction",
+      "options": [
+        "which",
+        "read",
+        "read it",
+        "No error"
+      ],
+      "correctAnswer": "read it",
+      "feedback": "Correct! Remove 'it'. 'Which' is the object.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "correction": "read",
+      "subTopic": "Object Repetition Error",
+      "frenchComparison": {
+        "frenchStructure": "Le livre que j'ai lu est bon.",
+        "englishStructure": "The book which I read is good.",
+        "whyDifficult": "Learners often repeat the object pronoun ('it') which is redundant because 'which' is already the object.",
+        "visualHighlighting": {
+          "incorrect": "read it",
+          "correct": "read"
+        }
+      }
+    },
+    {
+      "id": "rc-h14-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "All ___ you say is true.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! 'All that'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "All that",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce que tu dis est vrai.",
+        "englishStructure": "All that you say is true.",
+        "whyDifficult": "French uses 'ce que'. English uses 'that' after 'all'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-h15-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The project for ___ I am responsible.",
+      "type": "multiple_choice",
+      "options": [
+        "whom",
+        "which",
+        "who"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Preposition (for) + Which.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Preposition + Which",
+      "frenchComparison": {
+        "frenchStructure": "Le projet dont je suis responsable.",
+        "englishStructure": "The project for which I am responsible.",
+        "whyDifficult": "French uses 'dont'. English uses 'for which'.",
+        "visualHighlighting": {
+          "incorrect": "whom",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h16-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "The project ___ I am responsible for.",
+      "type": "multiple_choice",
+      "options": [
+        "which",
+        "what",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Dangling preposition -> Which/That.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Dangling Preposition",
+      "frenchComparison": {
+        "frenchStructure": "Le projet dont je suis responsable.",
+        "englishStructure": "The project which I am responsible for.",
+        "whyDifficult": "English allows moving the preposition to the end.",
+        "visualHighlighting": {
+          "incorrect": "where",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h17-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "___ I want is peace.",
+      "type": "multiple_choice",
+      "options": [
+        "All what",
+        "That",
+        "All"
+      ],
+      "correctAnswer": "All",
+      "feedback": "Correct! 'All (that) I want'.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "All that",
+      "frenchComparison": {
+        "frenchStructure": "Tout ce que je veux, c'est la paix.",
+        "englishStructure": "All I want is peace.",
+        "whyDifficult": "French uses 'Tout ce que'. English uses 'All (that)'.",
+        "visualHighlighting": {
+          "incorrect": "All what",
+          "correct": "All"
+        }
+      }
+    },
+    {
+      "id": "rc-h18-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "This is the worst ___ could happen.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "that",
+        "which"
+      ],
+      "correctAnswer": "that",
+      "feedback": "Correct! Superlative -> That.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Superlative + That",
+      "frenchComparison": {
+        "frenchStructure": "C'est le pire qui puisse arriver.",
+        "englishStructure": "This is the worst that could happen.",
+        "whyDifficult": "After superlatives, English prefers 'that'.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "that"
+        }
+      }
+    },
+    {
+      "id": "rc-h19-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "He lied, ___ made me angry.",
+      "type": "multiple_choice",
+      "options": [
+        "what",
+        "which",
+        "that"
+      ],
+      "correctAnswer": "which",
+      "feedback": "Correct! Sentential relative clause -> Which.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Sentential Relative Clause",
+      "frenchComparison": {
+        "frenchStructure": "Il a menti, ce qui m'a mis en colère.",
+        "englishStructure": "He lied, which made me angry.",
+        "whyDifficult": "French uses 'ce qui'. English uses 'which' to refer to the previous clause.",
+        "visualHighlighting": {
+          "incorrect": "what",
+          "correct": "which"
+        }
+      }
+    },
+    {
+      "id": "rc-h20-B",
+      "moduleId": "relative-clauses",
+      "difficulty": "hard",
+      "questionText": "There is someone ___ can help.",
+      "type": "multiple_choice",
+      "options": [
+        "who",
+        "which",
+        "whom"
+      ],
+      "correctAnswer": "who",
+      "feedback": "Correct! Subject -> Who.",
+      "formType": "B",
+      "transferType": "far",
+      "item_version": "1.0.0",
+      "subTopic": "Who (Subject)",
+      "frenchComparison": {
+        "frenchStructure": "Il y a quelqu'un qui peut aider.",
+        "englishStructure": "There is someone who can help.",
+        "whyDifficult": "French uses 'qui'. English uses 'who'.",
+        "visualHighlighting": {
+          "incorrect": "which",
+          "correct": "who"
+        }
+      }
+    }
+  ]
+}

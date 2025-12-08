@@ -1,0 +1,46 @@
+{
+  "moduleIntroduction": {
+    "welcome": "Welcome to the Plurality module! This lesson is about the 'S' sound and the words that refuse to be counted.",
+    "theProblem": "In French, plural and singular nouns often sound exactly the same (*une pomme / deux pommes*). In English, you MUST pronounce the 's'. Furthermore, French loves to count things that English treats as 'masses' (like information or advice). This leads to errors like 'informations' or 'advices', which do not exist in English.",
+    "thePromise": "By the end of this lesson, you will train your mouth to make the 'S' sound and your brain to recognize the 'uncountable' words that trick Francophones."
+  },
+  "contrastiveExplanation": "### Concept 1: The Silent 'S' Trap\n\n**The Rule:**\nIn English, if there is more than one, you **MUST** pronounce the 's' (or 'es') at the end.\n* *One book.*\n* *Two book**s*** (You must hear the 's').\n\n**The French Trap:**\nIn French, the plural 's' is written but **silent**.\n* *Trois sœur**s*** (You hear 'sœur').\n* *Three sister**s*** (You must hear 'sisters').\nBecause of this, Francophones often write the 's' but forget to say it, or forget to write it because they don't hear it in their head.\n\n**The Fix:**\nImagine the English plural 'S' is a **Snake** 🐍 at the end of the word. It must hiss! If you don't hiss, it's singular.\n\n**Examples:**\n* 🇫🇷 *J'ai deux frères.*\n    * ❌ I have two brother.\n    * ✅ I have two brother**s**.\n* 🇫🇷 *Il aime les mangues.*\n    * ❌ He likes mango.\n    * ✅ He likes mango**es**.\n\n---\n\n### Concept 2: The Uncountable Block (False Friends)\n\n**The Rule:**\nSome nouns in English represent a **mass** or a **concept**, not individual items. They NEVER take an 's' and always take a singular verb (is/has).\n* **The Big 5:** *Information, Advice, Furniture, Luggage, Homework.*\n\n**The French Trap:**\nFrench counts these things!\n* *Des information**s*** (Plural) ➡️ English: *Information* (Singular).\n* *Des conseil**s*** (Plural) ➡️ English: *Advice* (Singular).\n* *Des meuble**s*** (Plural) ➡️ English: *Furniture* (Singular).\n\n**The Fix:**\nThink of these words like **Water** 💧 or **Rice** 🍚. You cannot say \"one water\" or \"two rices\". You cannot count them directly. You can say \"some water\" or \"a piece of advice\", but never \"advices\".\n\n**Examples:**\n* 🇫🇷 *J'ai besoin d'informations.*\n    * ❌ I need informations.\n    * ✅ I need **some information**.\n* 🇫🇷 *Il m'a donné des conseils.*\n    * ❌ He gave me advices.\n    * ✅ He gave me **some advice**.\n\n---\n\n### Concept 3: The Irregular \"People\"\n\n**The Rule:**\n* **Person** = One (Singular).\n* **People** = Many (Plural).\n* \"People\" always takes a **Plural Verb** (are, have, do).\n\n**The French Trap:**\n* \"Les gens\" looks like a singular block. Sometimes students translate it to \"The person\".\n* \"Le monde\" (Everyone) is singular, but \"People\" is plural.\n* Students often try to say \"Persons\" (rare/legal) or \"Peoples\" (ethnic groups).\n\n**The Fix:**\nWhenever you see \"People\", replace it in your head with **\"They\"**. \n* *They are waiting* -> *People are waiting*.\n\n**Examples:**\n* 🇫🇷 *Les gens sont gentils ici.*\n    * ❌ The people **is** nice here.\n    * ✅ The people **are** nice here.\n* 🇫🇷 *Il y a trois personnes.*\n    * ❌ There are three persons.\n    * ✅ There are three **people**.",
+  "commonErrors": [
+    {
+      "subTopic": "Silent Plural",
+      "wrong": "I have three sister.",
+      "correct": "I have three sisters.",
+      "frenchConnection": "The 's' in 'trois sœurs' is silent. In English, if you don't say the 's', you are saying you only have one."
+    },
+    {
+      "subTopic": "Uncountable Nouns (Information)",
+      "wrong": "Can you give me some informations?",
+      "correct": "Can you give me some information?",
+      "frenchConnection": "French uses 'des informations'. English 'information' is a mass noun and never takes an 's'."
+    },
+    {
+      "subTopic": "Uncountable Nouns (Advice)",
+      "wrong": "He gave me many advices.",
+      "correct": "He gave me a lot of advice (or some advice).",
+      "frenchConnection": "French uses 'des conseils'. English 'advice' is uncountable. You cannot use 'many' or 'an' with it."
+    },
+    {
+      "subTopic": "Uncountable Nouns (Furniture)",
+      "wrong": "I bought new furnitures.",
+      "correct": "I bought new furniture.",
+      "frenchConnection": "French uses 'des meubles'. English 'furniture' is the category, not the individual items."
+    },
+    {
+      "subTopic": "Double Plural (Children)",
+      "wrong": "The childrens are playing.",
+      "correct": "The children are playing.",
+      "frenchConnection": "Over-correction. 'Children' is already the plural of 'child'. Adding an 's' (childrens) is like saying 'mice-s'."
+    },
+    {
+      "subTopic": "People Agreement",
+      "wrong": "The people is happy.",
+      "correct": "The people are happy.",
+      "frenchConnection": "Translating the concept of 'Le peuple' or 'Le monde' (singular). In English, 'People' means 'They'."
+    }
+  ]
+}

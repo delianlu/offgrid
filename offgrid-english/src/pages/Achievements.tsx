@@ -45,7 +45,7 @@ export function Achievements() {
   };
 
   return (
-    <div className="min-h-screen bg-amber-50">
+    <div className="min-h-screen bg-slate-50">
       <Header title="Achievements" />
 
       <main className="max-w-6xl mx-auto p-6">
@@ -53,7 +53,7 @@ export function Achievements() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl shadow-xl p-6 mb-6 text-white"
+          className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-xl p-6 mb-6 text-white"
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -62,7 +62,7 @@ export function Achievements() {
                 <h2 className="text-2xl font-bold mb-1">
                   Your Achievements
                 </h2>
-                <p className="text-orange-100">
+                <p className="text-blue-100">
                   Track your progress and unlock rewards
                 </p>
               </div>
@@ -71,14 +71,14 @@ export function Achievements() {
               <div className="text-4xl font-bold mb-1">
                 {stats.unlocked} / {stats.total}
               </div>
-              <div className="text-sm text-orange-100">
+              <div className="text-sm text-blue-100">
                 {stats.percentage}% Complete
               </div>
             </div>
           </div>
 
           {/* Progress Bar */}
-          <div className="mt-4 bg-orange-600 rounded-full h-3 overflow-hidden">
+          <div className="mt-4 bg-blue-600 rounded-full h-3 overflow-hidden">
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: `${stats.percentage}%` }}
@@ -99,8 +99,8 @@ export function Achievements() {
             onClick={() => setFilter('all')}
             className={`px-4 py-2 rounded-lg font-semibold transition-all active:scale-95 ${
               filter === 'all'
-                ? 'bg-orange-500 text-white shadow-lg'
-                : 'bg-white text-gray-700 hover:bg-orange-50 shadow-md'
+                ? 'bg-blue-500 text-white shadow-lg'
+                : 'bg-white text-gray-700 hover:bg-blue-50 shadow-md'
             }`}
           >
             All ({achievements.length})
@@ -152,7 +152,7 @@ export function Achievements() {
                   transition={{ delay: 0.3 + catIndex * 0.1 + index * 0.05 }}
                   className={`rounded-xl p-5 border-2 transition-all ${
                     achievement.unlocked
-                      ? 'bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 border-yellow-400 dark:border-yellow-600 shadow-md hover:shadow-lg'
+                      ? 'bg-gradient-to-br from-yellow-50 to-purple-50 dark:from-yellow-900/20 dark:to-purple-900/20 border-yellow-400 dark:border-yellow-600 shadow-md hover:shadow-lg'
                       : 'bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 opacity-60'
                   }`}
                 >

@@ -9,7 +9,8 @@ export async function recordMistake(
   moduleId: string,
   questionText: string,
   studentAnswer: string,
-  correctAnswer: string
+  correctAnswer: string,
+  userId?: string
 ): Promise<void> {
   const now = Date.now();
 
@@ -25,7 +26,8 @@ export async function recordMistake(
     await db.mistakes.update(mistake.id, {
       attemptCount: mistake.attemptCount + 1,
       lastSeenAt: now,
-      resolved: false // Mark as unresolved again
+      resolved: false, // Mark as unresolved again
+      userId: userId || mistake.userId // Update userId if provided
     });
   } else {
     // Create new mistake entry
@@ -39,7 +41,8 @@ export async function recordMistake(
       timestamp: now,
       attemptCount: 1,
       lastSeenAt: now,
-      resolved: false
+      resolved: false,
+      userId // Add userId
     };
     await db.mistakes.add(mistake);
   }
