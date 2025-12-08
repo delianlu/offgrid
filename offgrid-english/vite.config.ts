@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/offgrid/',
   server: {
     port: 3000,
     host: true, // Listen on all network interfaces
